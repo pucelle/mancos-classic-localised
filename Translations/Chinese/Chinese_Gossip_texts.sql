@@ -13,7 +13,7 @@ UPDATE `gossip_texts` SET `content_loc4`='活动开始了！' WHERE `entry`=-304
 UPDATE `gossip_texts` SET `content_loc4`='我准备好了。' WHERE `entry`=-3090000;
 UPDATE `gossip_texts` SET `content_loc4`='你自由了，杜格哈尔！快出去！' WHERE `entry`=-3230000;
 UPDATE `gossip_texts` SET `content_loc4`='出去吧，图比亚斯，你自由了！' WHERE `entry`=-3230001;
-UPDATE `gossip_texts` SET `content_loc4`='你的束缚结束了，杜姆雷尔。我挑战你！' WHERE `entry`=-3230002;
+UPDATE `gossip_texts` SET `content_loc4`='你的奴役结束了，杜姆雷尔。我要挑战你！' WHERE `entry`=-3230002;
 UPDATE `gossip_texts` SET `content_loc4`='为什么你跟罗克诺特不去找个二人天地呢……' WHERE `entry`=-3230003;
 UPDATE `gossip_texts` SET `content_loc4`='告诉我更多。' WHERE `entry`=-3409000;
 UPDATE `gossip_texts` SET `content_loc4`='你还想说什么？' WHERE `entry`=-3409001;

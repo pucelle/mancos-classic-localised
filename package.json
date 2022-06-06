@@ -1,0 +1,23 @@
+{
+	"name": "mangos-classic-localised",
+	"version": "1.0.0",
+	"description": "This is a culmination of over a years work to generate a full localisation process and files for Mangos.",
+	"devDependencies": {
+		"@types/fs-extra": "^9.0.7",
+		"@types/node": "^17.0.39",
+		"fs-extra": "^9.0.1"
+	},
+	"scripts": {
+		"move": "ts-node move-missing-to-translates.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pucelle/mancos-classic-localised.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pucelle/mancos-classic-localised/issues"
+	},
+	"homepage": "https://github.com/pucelle/mancos-classic-localised#readme"
+}

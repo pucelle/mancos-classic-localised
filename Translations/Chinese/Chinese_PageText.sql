@@ -1219,7 +1219,7 @@ UPDATE `locales_page_text` SET `text_loc4`='亲爱的日记，$B$B我在愤怒�
 UPDATE `locales_page_text` SET `text_loc4`='亲爱的日记，$B$B好了，我现在很好。我把一个佣人打到哭的跟个小女孩一样。$B$B嗯……我现在觉得有点糟。等一下!该死的，我是个邪恶的天才!邪恶，你懂吗?我对自己真是太失望了。下次再说。' WHERE `entry`=2831;
 UPDATE `locales_page_text` SET `text_loc4`='亲爱的日记，$B$B我给了他一个拥抱并告诉他要继续努力工作。我现在觉得好多了。这是我们之间的秘密，日记。$B$B我上次说到哪了?喔，对，纳里安!哼!!!我恨那个家伙。毕竟，就是纳里安摧毁了所有我们在修补诺姆瑞根学院当学生时的测验曲线。$B$B他们会把我赶出学校吗?就我看来，诺姆瑞根已经得到它该有的教训了!$B$B今天就写到这里。祝你好眠，日记!' WHERE `entry`=2832;
 UPDATE `locales_page_text` SET `text_loc4`='亲爱的日记，$B$B我一定是老了。我完全忘记我跟你说了纳里安和他的诡计的事。总之，当我看到扮成纳里安的诱饵，我真的很生气所以就命令二号把那个笨蛋给杀了!$B$B我进入飞行器里开始撕毁他宝贵、愚蠢、无知的龙语书。真是爱炫耀!谁会读龙语啊?我真是痛恨他!' WHERE `entry`=2833;
-UPDATE `locales_page_text` SET `text_loc4`='亲爱的日记，$B$B抱歉，我睡着了。然後我就一边愤怒的开着飞行器，一边把那愚蠢的书一章章丢出去。我看到我下方的暗语峡谷里有个恶魔，便决定要将第一章变成魔法的纸龙卷风，把它的身体碎成好几百万片!这是解放。魔法 + 纸张 =乐趣。$B$B这让我非常开心所以我决定飞到东部王国。我的第一站是熔火之心。纳里安总是一直讲那边的事!「…熔火之心怎样怎样，拉格纳罗斯如何如何…」' WHERE `entry`=2834;
+UPDATE `locales_page_text` SET `text_loc4`='亲爱的日记，$B$B抱歉，我睡着了。然後我就一边愤怒的开着飞行器，一边把那愚蠢的书一章章丢出去。我看到我下方的暗语峡谷里有个恶魔，便决定要将第一章变成魔法的纸龙卷风，把它的身体碎成好几百万片!这是解放。魔法 + 纸张 =乐趣。$B$B这让我非常开心所以我决定飞到东部王国。我的第一站是熔火之心。纳里安总是一直讲那边的事!「……熔火之心怎样怎样，拉格纳罗斯如何如何……」' WHERE `entry`=2834;
 UPDATE `locales_page_text` SET `text_loc4`='你知道吗?如果他那麽喜欢它，或许他会去熔火之心试着把他的书拼凑起来，然後从一堆灰烬中让那些章节再复活过来!哈!$B$B当我还在邻近地区的时候，我发现有一些在维克多·奈法利斯领主实验室的技师可能会用到这个龙语的东西。把炸弹拿开!' WHERE `entry`=2835;
 UPDATE `locales_page_text` SET `text_loc4`='已经开始变成一种运动了。我真的撕这该死的书撕到上瘾了!$B$B接下来就简单了。$B$B幽暗城，恶臭腐烂死人的家，可能有着我吃过最棒的辣椒，这样是一章。暴风城，起司的首都，另一章。日记，你有把暴风城的起司拿来放在幽暗城的辣椒上过吗?嘿?这应该听起来有点警惕作用。' WHERE `entry`=2836;
 UPDATE `locales_page_text` SET `text_loc4`='我开始对这个地方感到厌倦，所以我把飞行器掉头往回家的路走，但是在那之前我还有两个地方要去。我载了卡札克领主和他的恶魔们一程，到腐化之痕(他最讨厌我这样做)然後又去了女伯爵奥妮克希亚的烟囱。$B$B累了。去睡了。' WHERE `entry`=2837;
@@ -1236,7 +1236,7 @@ UPDATE `locales_page_text` SET `text_loc4`='我记笔记已经好一阵子了，
 UPDATE `locales_page_text` SET `text_loc4`='没事。我不会放弃任何一丝希望。我们包围了南方，而此刻辛多雷无法在这个魔法保护区放肆乱来。$B$B假如我设计的全新方法成功的话，我就能顺利滤除邪恶、腐败法术中的「杂质」，我已经把法术力的资料藏起来。 我得持续谨慎小心。' WHERE `entry`=2849;
 UPDATE `locales_page_text` SET `text_loc4`='太神奇了!我们成功了，我们所研究的魔法精髓数量虽然不是很多，我要停摆目前大部分学徒的实验，然後一起着手进行崭新、有前瞻希望的研究工作。$B$B有了好运加持，我们应该要精链研究过程，一石二鸟 - 我们全体要备足精力，以及迎接即将来临的恶魔法术难题。' WHERE `entry`=2850;
 UPDATE `locales_page_text` SET `text_loc4`='不!当新实验程序开始时，我的主要学徒:泰勒塞翁，突然无预警的在我眼前萎缩，蜷屈成这种状态着实折磨了我的兄弟。我极力想制止，但他就这样离我远远而去。除了让他从苦痛中幸免外，我也没别的选择了。$B$B而这是研究与发明的代价，只不过这代价实在是太沉重了。' WHERE `entry`=2851;
-UPDATE `locales_page_text` SET `text_loc4`='我不能再容忍了…又有2个学徒向邪恶屈服。我们已经很小心翼翼了…但我不知道是哪里出差错。$B$B我得放弃这些调查行动，从零开始。' WHERE `entry`=2852;
+UPDATE `locales_page_text` SET `text_loc4`='我不能再容忍了……又有2个学徒向邪恶屈服。我们已经很小心翼翼了……但我不知道是哪里出差错。$B$B我得放弃这些调查行动，从零开始。' WHERE `entry`=2852;
 UPDATE `locales_page_text` SET `text_loc4`='我来迟了。第3个学徒已不知不觉和其他人建立起邪恶的勾当。我必须容忍现状，但当务之急是避免让其他未受影响的学徒同流合污。$B$B我要让所有人都知道我在远行者居所行周期安息日。这样一来，我就可以好好构思解决难题的办法。$B$B我一定要想出正确的判断来弥补这个可怕的错误。' WHERE `entry`=2853;
 UPDATE `locales_page_text` SET `text_loc4`='<HTML><BODY><H1 align="center">部落军官军阶' WHERE `entry`=2854;
 UPDATE `locales_page_text` SET `text_loc4`='<HTML><BODY><H1 align="center">部落士兵军阶' WHERE `entry`=2855;
@@ -1398,5 +1398,8 @@ UPDATE `locales_page_text` SET `text_loc4`='元素领主的忠诚仆人，就是
 UPDATE `locales_page_text` SET `text_loc4`='奈普图隆的部下中，有个名叫艾胡恩的强大冰霜领主。至今他仍在聚集力量要对拉格纳罗斯掀起战争。他只需要一个通道来进入我们的世界；一个由我们提供的通道。我们有盟友，有地点。我们也有力量与意志。$B$B和我们忠诚的新盟友与客人之间的最後协商，将会在一个安全遥远的地方，在我们梣谷原始据点的西北边。$B$B在这个无知的「节庆」结束前，艾胡恩将会在黑石山的深处面对拉格纳罗斯。这个世界将会因为他们释放出来的力量而倾覆。$B$B我们一切的努力都是为了这一刻。我们的主人将会再次兴起，彼此征战，并且将艾泽拉斯撕裂成碎片。$B$B我们将会活在时间的终结，我的兄弟。肩负起你的任务。努力下去。我们终将获胜!' WHERE `entry`=3066;
 UPDATE `locales_page_text` SET `text_loc4`='我们一切的努力都是为了这一刻。我们的主人将会再次兴起，彼此征战，并且将艾泽拉斯撕裂成碎片。$B$B我们将会活在时间的终结，我的兄弟。肩负起你的任务。努力下去。我们终将获胜!' WHERE `entry`=3072;
 UPDATE `locales_page_text` SET `text_loc4`='<在这张严重烧毁的页面上已经没有任何可以辨识的字迹了。>' WHERE `entry`=3076;
+
+UPDATE `locales_page_text` SET `text_loc4`='English Missing: 268925' WHERE `entry`=2605;
+UPDATE `locales_page_text` SET `text_loc4`='Howdy! You have found a loot bug in MaNGOS. We are terribly sorry about that, and we will try and fix it just as SOON as possible. However, You need to help us a little bit. If you will go to http://www.udbforums.org and fill out a loot bug report, with the location you found this, we will try and get it fixed ASAP. Thanks, the MaNGOS team!' WHERE `entry`=9999;
 
 SET NAMES 'latin1';
