@@ -367,7 +367,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='你的烹饪水准实在是太低�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你的炼金技能还不足以理解我所传授的知识。也许你应该晚些时候再来找我谈谈……' WHERE `entry`=2174;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='魔法只会腐蚀那些意志薄弱的人。即便你不是术士，最好也牢记这一点。' WHERE `entry`=2175;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='魔法只会使弱者堕落。继续你的训练吧，不然你的命运就跟那些家伙相差无几了。' WHERE `entry`=2193;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='我注定永远被束缚在这个受诅咒的世界。你的慾望是什么，凡人？' WHERE `entry`=2213;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='我注定永远被束缚在这个受诅咒的世界。你的欲望是什么，凡人？' WHERE `entry`=2213;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，$N。你是来学习铁炉堡的历史的？' WHERE `entry`=2234;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='当你准备听我讲述故事的时候就告诉我。' WHERE `entry`=2235;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='数百年前，伟大的索瑞森城骄傲地矗立在富饶的大地之上，那里现在已经变成了荒芜的燃烧平原。$B$B索瑞森城是黑铁矮人的家乡，它那时正处于一场矮人的内战中。$B$B你知道，那片土地曾是赤脊山的一部分————直到有一天，索瑞森被一场大爆炸吞噬。城市变成一片废墟，周围的地区也被夷为平地。' WHERE `entry`=2236;
@@ -830,7 +830,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='我估计获得这样一件东西�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='要是你真的带来了那张皮？嗯……让我为你展示一番吧……' WHERE `entry`=3676;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='瑟银兄弟会的目录：$B$B你可以从中找到所有你冒险必需的最强装备！我们还将告诉你到哪儿去收集这些材料。' WHERE `entry`=3677;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='这本书的标题是手写体：莫琳·达尔松的日记。' WHERE `entry`=3693;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='一本打开的日记放在你的面前，发黄的书页上写着如下的文字：$B$B「哈洛德变成了这个样子，我不知道接下来会发生什么事。把他拖进我能找到的唯一可以关住他的地方之後，我已经心力憔悴了。我把钥匙藏在身上，祈祷能渡过这个难关……$B$B我希望能离开这里，但我需要钱。我想我们的东西都在那个柜橱里……现在我想起来了，哈乐德是不是把柜橱的钥匙藏在自己身上了？$B$B我要先休息一下，现在我实在是太疲倦了。」$B$B' WHERE `entry`=3694;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='一本打开的日记放在你的面前，发黄的书页上写着如下的文字：$B$B「哈洛德变成了这个样子，我不知道接下来会发生什么事。把他拖进我能找到的唯一可以关住他的地方之后，我已经心力憔悴了。我把钥匙藏在身上，祈祷能渡过这个难关……$B$B我希望能离开这里，但我需要钱。我想我们的东西都在那个柜橱里……现在我想起来了，哈乐德是不是把柜橱的钥匙藏在自己身上了？$B$B我要先休息一下，现在我实在是太疲倦了。」$B$B' WHERE `entry`=3694;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='那是什么，$N？$B$B<玛雷弗斯指着你从包裹里拿出来的未淬火的铠甲护手。>' WHERE `entry`=3734;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='欢迎来到前线，$C。虽然他们的政客在暗地里密谋，但是他们会发现自己的计划在这里是行不通的。这儿是亡灵壁垒，我们日复一日得为生存而战斗。$B$B如果你想证明自己是个英雄的话，你会在这儿找到数不清的机会的。' WHERE `entry`=3753;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='欢迎来到前线，$C。暴风城及其盟国派我到这儿来对抗天谴军团。在冰风营地，我们日复一日在抗战中求生。$B$B如果你想证明自己是个英雄的话，机会是很多的……特别是在我们向安多哈尔和控制天谴军团的邪恶势力进军时，你可以好好把握。' WHERE `entry`=3754;
@@ -876,7 +876,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='你见过守夜人巴库斯吗？�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='谢谢你！你让我自由了！'，`Text1_0_loc4`='谢谢你！你让我自由了！' WHERE `entry`=3873;
 UPDATE `locales_npc_text` SET `Text2_0_loc4`='谢谢你！你让我自由了！'，`Text2_1_loc4`='谢谢你！你让我自由了！'，`Text3_0_loc4`='谢谢你！你让我自由了！' WHERE `entry`=3873;
 UPDATE `locales_npc_text` SET `Text4_0_loc4`='啊！拜托你，如果你看到达隆郡的一名幸存者，告诉他们，我是自由的！' WHERE `entry`=3873;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='翡翠议会试图治癒费伍德森林受伤的大地。尽管这片大地是以腐蚀它的东西命名，我们还是希望有一天我们能从这片土地中将腐败清除。' WHERE `entry`=3874;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='翡翠议会试图治愈费伍德森林受伤的大地。尽管这片大地是以腐蚀它的东西命名，我们还是希望有一天我们能从这片土地中将腐败清除。' WHERE `entry`=3874;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='啧啧，勇敢的$C！我有最训练有素的狼来让你挑选。你到哪里都不会发现另一种动物有与狼同样的耐力和生存本能！请你亲自来查看一下他们吧。' WHERE `entry`=3893;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='祝你好运，勇敢的$C。我知道你在寻找一匹好战马。告诉你吧$G兄弟:姐妹;，在你所在的区域没有什么比迅猛龙更好的坐骑了！看看我的这些迅猛龙吧————他们的祖先曾经是极其凶猛的野兽。' WHERE `entry`=3896;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='他们将尸体交给了我，他将尸体投进了深坑。' WHERE `entry`=3935;
@@ -899,8 +899,8 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='愿光明保佑你。' WHERE `entr
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='一场猛烈的风就要来了————我可以透过我裸露的膝盖的疼痛来判断。我只希望我们不要被狂风困住。' WHERE `entry`=3978;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='好吧，$N，让我们来看看怎么对付这些瘟疫之锅！如果你要收集所需的成分，就带上一个玻璃聚焦装置吧。在鉴别从天谴军团的爪牙身上获取的资源时，你会用得着它的。$B$B你还需要找一份秘法速化剂。这东西可不便宜，而且也非常不稳定。一旦你得到药剂，就必须在15分钟内使用它，否则药剂就失效了。所以你可得留神别乱买。' WHERE `entry`=3979;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='根据你提供的毒素样本，我们认为你需要下面这些东西：一份秘法速化剂、六份骨质分离素和四块符文布。你可以使用玻璃放大镜从瘟疫之地的骷髅亡灵身上获取骨质分离素！$B$B一旦你获得了这些物品，就可以把它们放进瘟疫之锅里了。' WHERE `entry`=3980;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='根据你提供的毒素样本，我们认为你需要下面这些东西：一份秘法速化剂、五份细胞增强剂和四块符文布。你可以使用玻璃放大镜从瘟疫之地的殭尸或食尸鬼身上获取细胞增强剂！$B$B一旦你获得了这些物品，就可以把它们放进瘟疫之锅里了。' WHERE `entry`=3981;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='根据你提供的毒素样本，我们认为你需要下面这些东西：一份秘法速化剂、五份细胞增强剂和四块符文布。你可以使用玻璃放大镜从瘟疫之地的殭尸或食尸鬼身上获取细胞增强剂！$B$B一旦你获得了这些物品，就可以把它们放进瘟疫之锅里了。' WHERE `entry`=3982;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='根据你提供的毒素样本，我们认为你需要下面这些东西：一份秘法速化剂、五份细胞增强剂和四块符文布。你可以使用玻璃放大镜从瘟疫之地的僵尸或食尸鬼身上获取细胞增强剂！$B$B一旦你获得了这些物品，就可以把它们放进瘟疫之锅里了。' WHERE `entry`=3981;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='根据你提供的毒素样本，我们认为你需要下面这些东西：一份秘法速化剂、五份细胞增强剂和四块符文布。你可以使用玻璃放大镜从瘟疫之地的僵尸或食尸鬼身上获取细胞增强剂！$B$B一旦你获得了这些物品，就可以把它们放进瘟疫之锅里了。' WHERE `entry`=3982;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='根据你提供的毒素样本，我们认为你需要下面这些东西：一份秘法速化剂、四份魂能共振器和四块符文布。你可以使用玻璃放大镜从瘟疫之地的鬼魂或怨灵身上获取魂能共振器！$B$B一旦你获得了这些物品，就可以把它们放进瘟疫之锅里了。' WHERE `entry`=3983;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='这份工作明显不值16500的年薪。' WHERE `entry`=3984;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='好吧，$N，让我们来看看怎么对付这些瘟疫之锅！如果你要收集所需的成分，就带上一个玻璃聚焦装置吧。在鉴别从天谴军团的爪牙身上获取的资源时，你会用得着它的。$B$B你还需要找一份秘法速化剂。这东西可不便宜，而且也非常不稳定。一旦你得到药剂，就必须在15分钟内使用它，否则药剂就失效了。所以你可得留神别乱买。' WHERE `entry`=3985;
@@ -943,7 +943,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='去哪里？我们过去、现在�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们这样持续了六个月，看到房屋经历了令人恐惧的变化。肮脏的怪物随意在庄园里漫游。随身携带着各种与仪式和祭祀相关的用具的黑暗信徒遍布在每一寸地方。我们知道我们躲不了多久了。$B$B正如所料想的那样，我们被发现并抓住了。他们剥掉了我们所有的衣服并把我们放到一滩鲜血中。我们坐在那里长达数天，赤身裸体，胆战心惊。' WHERE `entry`=4046;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='限制？这世上有些东西比栅栏和镣铐更加能够限制住人，年轻的$G主人:女主人;。亡灵包围着我们，不断用恐怖的动作折磨我们。$B$B最终，他来了。他自我介绍叫瑟尔林·卡斯迪诺夫教授。我们都把他叫做「屠夫。」' WHERE `entry`=4047;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们最后弄清尖声从哪里传来的了，屠夫让我们见识到闻所未闻的痛苦。他利用我们进行数不尽的实验，试图制造一场瘟疫。$B$B日子过去了数星期。要不是那个残忍的混蛋用法术维持住我们的生命，我们第一天就已经死了。' WHERE `entry`=4048;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='屠夫说起「无辜者的鲜血」和他的黑暗主人，「基尔图诺斯」。以及他会如何满足主人的欲望。$B$B最后，这个怪兽完成了他的实验。我们被耗乾了生命。我们的灵魂被打碎了。死亡的甜美的拥抱靠近了，我们张开双臂欢迎它。但是在他极端的残酷中，屠夫把我们从死亡之门中复活。$B$B我们要被活着扔进他贪婪的食尸鬼之中。他笑着看我们被魔鬼吞噬。' WHERE `entry`=4049;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='屠夫说起「无辜者的鲜血」和他的黑暗主人，「基尔图诺斯」。以及他会如何满足主人的欲望。$B$B最后，这个怪兽完成了他的实验。我们被耗干了生命。我们的灵魂被打碎了。死亡的甜美的拥抱靠近了，我们张开双臂欢迎它。但是在他极端的残酷中，屠夫把我们从死亡之门中复活。$B$B我们要被活着扔进他贪婪的食尸鬼之中。他笑着看我们被魔鬼吞噬。' WHERE `entry`=4049;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们什么都没感觉到。我们的灵魂在这里，在地狱。在找到我们的尸体并让灵魂安息之前我们不能离开。' WHERE `entry`=4050;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='啊，你必须去雷霆崖最高处拜访他们中的一人。沿着血蹄村北面的道路走。雷霆崖底有升降梯可达顶部。当你到达那儿时，可以询问雷霆崖守卫。'，`Text1_0_loc4`='啊，你必须去雷霆崖最高处拜访他们中的一人。沿着血蹄村北面的道路走。雷霆崖底有升降梯可达顶部。当你到达那儿时，可以询问雷霆崖守卫。' WHERE `entry`=4051;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='在北方的雷霆崖，有一名双足飞龙管理员。乘坐升降梯到达雷霆崖顶部，问问那儿的守卫，他们会为你指明方向的。'，`Text1_0_loc4`='在北方的雷霆崖，有一名双足飞龙管理员。乘坐升降梯到达雷霆崖顶部，问问那儿的守卫，他们会为你指明方向的。' WHERE `entry`=4052;
@@ -1001,7 +1001,7 @@ UPDATE `locales_npc_text` SET `Text4_0_loc4`='在凯尔达隆不允许游荡，�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='诅咒神教正在迅速壮大。从小型村落到首都，从部落到联盟，几乎每座城镇的居民中都有诅咒神教的信徒。$B$B别惊讶，他们只在仪式和庆典上面才身穿统一的服饰。你很可能已经跟他们的信徒碰过面了，只是你不知道而已。' WHERE `entry`=4122;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='是吗？这是他们一贯的操作手法。对科尔苏加德和快速增长的天谴军团军队来说，什么东西拥有更大的价值？一个能成功潜入某个组织，然后释放瘟疫使数千人丧命的狂热追随者，还是一个普通到掉渣的亡灵士兵？很明显你不是那么愚蠢。$B$B没错，$R，他们就在你周围，生活着，工作着，密谋着。' WHERE `entry`=4123;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='停下来————不。放慢速度————或许这样比较好。$B$B通灵学院是他们接受初级训练和教育的地方。信徒们从那儿走出来，并最终进入我们的社会。$B$B这就是我们必须攻破通灵学院的原因。它是诅咒神教的中心！' WHERE `entry`=4124;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='放慢速度，$R。你要杀的人已经死了，对着尸体狂砍是无济于事的。可以真正摧毁殭尸的方法极少，而且你我也无法使用这些方法。为此，我制定了一项计划，这项计划将对诅咒神教产生巨大的影响。' WHERE `entry`=4125;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='放慢速度，$R。你要杀的人已经死了，对着尸体狂砍是无济于事的。可以真正摧毁僵尸的方法极少，而且你我也无法使用这些方法。为此，我制定了一项计划，这项计划将对诅咒神教产生巨大的影响。' WHERE `entry`=4125;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='这很简单，真的。从莱斯·霜语的身上夺走他的力量。将他变回普通的形态，然后果断地杀死他。' WHERE `entry`=4126;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='啊，我想我说得太快了。莱斯·霜语是通灵学院的监督者，他负责训练所有的黑暗大师，他是科尔苏加德最欣赏的学生和副官。他曾经是激流堡的法师，一个从来没有接受过达拉然正规训练的流浪巫师。$B$B当科尔苏加德开设诅咒神教的时候，莱斯就是首批加入其中的人，因为他知道透过黑暗魔法可以获得不朽。' WHERE `entry`=4127;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='他真的获得了不朽之身。他很快从众多信徒中脱颖而出，巫妖王随即授予了他永生的权力。巫妖莱斯·霜语因此而诞生。$B$B你明白吗？' WHERE `entry`=4128;
@@ -1011,11 +1011,11 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='巴罗夫家族让我忙个不停�
 UPDATE `locales_npc_text` SET `Text2_0_loc4`='巴罗夫家族让我忙个不停。总有一些垃圾从那儿出来。'，`Text3_0_loc4`='巴罗夫家族让我忙个不停。总有一些垃圾从那儿出来。' WHERE `entry`=4133;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='很高兴见到你，朋友。我是军官加鲁什，是银色黎明这个世界性组织的骄傲成员。我们的任务是毫不留情地消灭艾泽拉斯大陆上所有邪恶的势力。银色黎明不是一个政治机构，我们也不愿意成为政府机构。我们的目标很简单，我们将部落和联盟都看作自己的朋友————以铲除邪恶为目标的朋友！$B$B我的$G兄弟:姐妹;，为了黎明而战！' WHERE `entry`=4134;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，朋友。我是军官普尔哈特，隶属于银色黎明这个世界性的组织。我们的目标非常简单————与艾泽拉斯的一切邪恶力量进行顽强而持久的战斗。我们不是一个政治团体，也不想成为那样的团体。为了银色黎明的伟大目标，我们将联盟和部落的成员都当作并肩作战的朋友来看待！$B$B为了黎明而战，我的$G兄弟:姐妹;！' WHERE `entry`=4135;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='银色黎明向你致敬，$C。我是哈萨娜————银色黎明为数不多经过授权的装备和军品军需官之一。$B$B既然你在我们委任下作战————同时赢得我们的尊敬和信任————你会从加鲁什军官那里得到英勇勳章。它们有两个作用：在我们的队伍中赢得地位，或者作为交换得到某些特殊物品。$B$B随着你在银色黎明地位的升高，你会发现你能够得到更多物品。' WHERE `entry`=4173;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='银色黎明向你致敬，$C。我是哈萨娜————银色黎明为数不多经过授权的装备和军品军需官之一。$B$B既然你在我们委任下作战————同时赢得我们的尊敬和信任————你会从加鲁什军官那里得到英勇勋章。它们有两个作用：在我们的队伍中赢得地位，或者作为交换得到某些特殊物品。$B$B随着你在银色黎明地位的升高，你会发现你能够得到更多物品。' WHERE `entry`=4173;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='加入对抗邪恶的战斗中吧！今天就去获得银色黎明的委任徽章吧！' WHERE `entry`=4174;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='银色黎明向你致敬，$C！我叫莱斯巴克，是银色黎明委派的装备和物资军需官。$B$B当你接受任命，同邪恶力量作战时 - 以此搏取得我们的尊重和信任 - 你会从军官普尔哈特那儿获得勇气勳章。勳章有两个用途：可增加自己的声望，或是用于获取特殊物品。$B$B随着你在银色黎明中地位的提高，你会发现有更多的物品能让你挑选。' WHERE `entry`=4193;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='银色黎明向你致敬，$C！我叫莱斯巴克，是银色黎明委派的装备和物资军需官。$B$B当你接受任命，同邪恶力量作战时 - 以此搏取得我们的尊重和信任 - 你会从军官普尔哈特那儿获得勇气勋章。勋章有两个用途：可增加自己的声望，或是用于获取特殊物品。$B$B随着你在银色黎明中地位的提高，你会发现有更多的物品能让你挑选。' WHERE `entry`=4193;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='加入对抗邪恶的战斗中吧！今天就去获得银色黎明的委任徽章吧！' WHERE `entry`=4194;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，$C。我是军需官米兰达·布利洛克————银色军团为数不多的授权装备和军品军需官之一。$B$B既然你在我们的委任下与邪恶战斗————同时赢得我们的尊敬和信任————你会从瑟伦霍夫公爵那里得到勇气勳章。勳章有两个作用：用他们赢得在军队中更高的地位，或者作为交换得到特殊物品。$B$B随着你在军团中地位的升高，你会发现你会有更多的物品。' WHERE `entry`=4213;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，$C。我是军需官米兰达·布利洛克————银色军团为数不多的授权装备和军品军需官之一。$B$B既然你在我们的委任下与邪恶战斗————同时赢得我们的尊敬和信任————你会从瑟伦霍夫公爵那里得到勇气勋章。勋章有两个作用：用他们赢得在军队中更高的地位，或者作为交换得到特殊物品。$B$B随着你在军团中地位的升高，你会发现你会有更多的物品。' WHERE `entry`=4213;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，$C。$B$B那边的哨兵允许我住在他们的营地，只要我答应不会再有麻烦了————我敢肯定你能意识到对外交的需要，是吗？$B$B我来调查这片土地的紊乱状况，既然这也有助于他们的事业，他们同意我在这里 只能协助艾泽拉斯各族之间脆弱的联盟关系。如果你想帮我，那么我会很感激，但无论如何，请不要引起任何麻烦。' WHERE `entry`=4233;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='欢迎来到钢架补给站！' WHERE `entry`=4253;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='种族并不代表荣誉，$R。只要你待在我的农场，就请你记住并尊重这个信条。$B$B我知道有些兽人，他们像最高贵的骑士那样可敬；我还知道有些人类，他们像最残忍的天谴军团那样邪恶。$B$B但是我不会拿我少年时的故事来烦你的！要做的事情还很多————如果那是你所期望的。' WHERE `entry`=4254;
@@ -1197,7 +1197,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='毫无疑问，你是黑暗女王�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='今天碰巧是你的幸运日；我完成了超级商人680型的维护工作，因此有大量物品以超低的价格出售。你自己去看看吧……我的兄弟考克认为他的贸易机器人1000型会胜过我的。' WHERE `entry`=4815;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='没法帮你，$N。我只训练盗贼。' WHERE `entry`=4833;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我可以为你效劳吗，$N？' WHERE `entry`=4834;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='你看起来像是那种手脚不乾净的家伙。有什么我可以帮忙的吗？' WHERE `entry`=4835;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='你看起来像是那种手脚不干净的家伙。有什么我可以帮忙的吗？' WHERE `entry`=4835;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我跟你没什么好说的，你最好找个$C训练师来帮助你。' WHERE `entry`=4837;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你是来学习的吗？' WHERE `entry`=4838;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你看我像是个$C吗？在我决定用你的血洗我的刀之前，赶紧逃吧。' WHERE `entry`=4839;
@@ -1597,7 +1597,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='你想学点东西吗？我会很�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='生活就像一幅小心编织的锦缎。' WHERE `entry`=5416;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='嗯……你需要学的东西有点超出我的能耐了。去找那边的塞拉多斯谈谈。我会的东西全是他教的！' WHERE `entry`=5417;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='很好，开始学习裁缝吧。' WHERE `entry`=5418;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='缝纫需要嫺熟的手法，以及……也是最重要的，耐性。' WHERE `entry`=5419;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='缝纫需要娴熟的手法，以及……也是最重要的，耐性。' WHERE `entry`=5419;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='现在是你去达纳苏斯跟玫琳恩谈谈的时候了。她将对你进行指导。' WHERE `entry`=5420;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='很高兴能将你收入麾下。让我们开始吧。' WHERE `entry`=5421;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='欢迎来到我的商店。我能为你做什么？' WHERE `entry`=5422;
@@ -1743,7 +1743,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='我是一个从事药学的兽人�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你是来学习医疗知识的吗？' WHERE `entry`=5815;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你为何来此，$C？' WHERE `entry`=5816;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我的人民，他们就像你试图修复的圣物一样支离破碎。' WHERE `entry`=5817;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='虽说没有东西可以改变过去，时间可以治癒所有伤口。谢谢你让我看到那是可能的，$N。我祝你顺利。' WHERE `entry`=5818;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='虽说没有东西可以改变过去，时间可以治愈所有伤口。谢谢你让我看到那是可能的，$N。我祝你顺利。' WHERE `entry`=5818;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，$C。有什么我能帮忙的吗？' WHERE `entry`=5819;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我想问你，$C：$B在泰坦创造的守护巨龙中，是谁后来变成了被称作死亡之翼的邪恶生物？' WHERE `entry`=5820;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='有人找我谈话总是件高兴的事儿。事情进展如何，$C？' WHERE `entry`=5821;
@@ -1853,7 +1853,7 @@ UPDATE `locales_npc_text` SET `Text2_0_loc4`='你好，小活计。你跟水元�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='或许你能告诉我你的一些事情，$N。我非常想听听。'，`Text1_0_loc4`='或许你能告诉我你的一些事情，$N。我非常想听听。' WHERE `entry`=6163;
 UPDATE `locales_npc_text` SET `Text2_0_loc4`='或许你能告诉我你的一些事情，$N。我非常想听听。' WHERE `entry`=6163;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我跟你没什么好说的，你最好找个$C训练师来帮助你。' WHERE `entry`=6164;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='你看起来像是那种手脚不乾净的家伙。有什么我可以帮忙的吗？' WHERE `entry`=6165;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='你看起来像是那种手脚不干净的家伙。有什么我可以帮忙的吗？' WHERE `entry`=6165;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='必须恢复好你的眼睛' WHERE `entry`=6167;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们奉命从达纳苏斯来到这儿，帮助身处患难的雷矛氏族。'，`Text1_0_loc4`='我们奉命从达纳苏斯来到这儿，帮助身处患难的雷矛氏族。' WHERE `entry`=6173;
 UPDATE `locales_npc_text` SET `Text2_0_loc4`='我们奉命从达纳苏斯来到这儿，帮助身处患难的雷矛氏族。' WHERE `entry`=6173;
@@ -2040,7 +2040,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='为什么他们身上还有武器�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='老大手下的所有下属————践踏者克雷格、三名守卫、克罗卡斯和观察者————都为新的国王献上贡品。如果你杀死了一名下属，这名下属就不能为新国王上贡啦！留下的活口越多，你得到的贡品就越多。别杀他们，你会得到很多东西的！$B$B就是这样的！' WHERE `entry`=6916;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='哦，真恐怖！这是个悲剧！我们就要突破啦，但也有可能遭遇全军覆灭的惨剧。' WHERE `entry`=6917;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='呃……很抱歉我袭击了你。不要杀我，求你了！？你是国王啦，我会为你提供更多的贡品的！' WHERE `entry`=6918;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='粗略地检查一下骨骸，上面的肉已经乾枯了。真是令人毛骨悚然的场景。' WHERE `entry`=6919;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='粗略地检查一下骨骸，上面的肉已经干枯了。真是令人毛骨悚然的场景。' WHERE `entry`=6919;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='从可怕的精灵王子那儿取回戈多克的圣物，或许你能比老头目做得更好！' WHERE `entry`=6920;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='向新国王致敬！'，`Text1_0_loc4`='向新国王致敬！' WHERE `entry`=6922;
 UPDATE `locales_npc_text` SET `Text2_0_loc4`='向新国王致敬！'，`Text3_0_loc4`='向新国王致敬！' WHERE `entry`=6922;
@@ -2335,7 +2335,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，$C。现在正是收获�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们绝不能让联盟在阿拉希扩张势力！既便是小小的避难谷地，在将来也可能对我们形成威胁。' WHERE `entry`=7554;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='阿拉希盆地的战斗是一场谋略战。木材、矿石、食物……所有这些物资对战斗来说都是必需品。$B$B摧毁敌方的物资跟在战场上杀死他们一样重要。' WHERE `entry`=7555;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我眼睛虽然看不到，但是我还拥有洞察力。$B$B我主要跟猎人和盗贼打交道，$R。' WHERE `entry`=7556;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='冒险者，你好。我是赞达拉的商人林沃斯。我来自南海，从我的家乡带来了许多新奇的货物。$B$B如果你能证明自己的价值，我会乐意与你交换物品的。如果你有我们部族的荣誉勳章，我这里还有些更好的东西……' WHERE `entry`=7574;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='冒险者，你好。我是赞达拉的商人林沃斯。我来自南海，从我的家乡带来了许多新奇的货物。$B$B如果你能证明自己的价值，我会乐意与你交换物品的。如果你有我们部族的荣誉勋章，我这里还有些更好的东西……' WHERE `entry`=7574;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我是赞达拉的赞札。我用以太形态从赞达拉赶来帮助我的人民。哈卡不能控制我的灵魂。$B$B我是来帮助那些曾经有恩于赞达拉的朋友的。' WHERE `entry`=7594;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='赞达拉的朋友！你已经进入血神的巢穴深处，$C。你最好仔细听我说。$B$B数千年前，当祖阿曼帝国的巨魔与入侵的高等精灵异教徒作战时，高等精灵盗取了赞札强大的魔法，在自己的武器和护甲上附魔，以此征服当地的巨魔。' WHERE `entry`=7595;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='是吗？这么说你已经知道高等精灵所掌握的巨魔魔法有多么浅显了？$B$B高等精灵怎么都想不明白，作为一个与魔法密切相关的种族，他们为何无法驾驭巨魔巫毒的力量。对这些白皮肤的生灵而言，这简直难以置信。他们只好使用一种不纯的巨魔法术来增强他们的魔法力量。我想他们称其为「秘纹」。' WHERE `entry`=7596;
@@ -2465,7 +2465,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='我会告诉你的。她直直地�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='没错。' WHERE `entry`=7768;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='水晶上布满了神秘的雕纹和符文。你无法理解。' WHERE `entry`=7770;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='从石头中传来很轻的声音……$B$B你好，渺小的凡人。你为圣殿骑士带来了什么消息？'，`Text0_1_loc4`='从石头中传来很轻的声音……$B$B你好，渺小的凡人。你为圣殿骑士带来了什么消息？' WHERE `entry`=7771;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='从石头中传来清晰的声音……$B$B你的身份勳章在哪里？没有身份勳章的话，你就无法和公爵对话……'，`Text0_1_loc4`='从石头中传来清晰的声音……$B$B你的身份勳章在哪里？没有身份勳章的话，你就无法和公爵对话……' WHERE `entry`=7772;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='从石头中传来清晰的声音……$B$B你的身份勋章在哪里？没有身份勋章的话，你就无法和公爵对话……'，`Text0_1_loc4`='从石头中传来清晰的声音……$B$B你的身份勋章在哪里？没有身份勋章的话，你就无法和公爵对话……' WHERE `entry`=7772;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='从石头中传来清晰的声音……$B$B你带着你的头衔来找我们，我们将会聆听，但是不要试图考验我们的耐心，$C。议会没有时间来和你这样的凡人闲聊。'，`Text0_1_loc4`='从石头中传来清晰的声音……$B$B你带着你的头衔来找我们，我们将会聆听，但是不要试图考验我们的耐心，$C。议会没有时间来和你这样的凡人闲聊。' WHERE `entry`=7773;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='从石头中传来雷鸣般的声音……$B$B你好，指挥官。你从希利苏斯给议会领主带来了什么消息？'，`Text0_1_loc4`='从石头中传来雷鸣般的声音……$B$B你好，指挥官。你从希利苏斯给议会领主带来了什么消息？' WHERE `entry`=7774;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='从石头中传来雷霆般的声音……$B$B这是什么？我感觉到一个小小的教徒在窜来窜去！快点走开，苦力，否则你将面对议会领主的愤怒！' WHERE `entry`=7776;
@@ -2642,7 +2642,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='这只麋鹿的脖子上有着一�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='当你把麋鹿粉洒在梅特森身上时，它的双眼中充满了喜悦之情。它朝着你摇了摇鹿角，并发出了沉重的叹息声，听起来像是如释重负的样子。$B$B你感觉到身边有魔法能量的涌动，一定是有什么事情就要发生了！' WHERE `entry`=8077;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='即使你不知道为何没有击败克苏恩而设法解救我们，我们仍会集中所有的力量将野兽驱回牠原本的地狱－不惜任何代价。' WHERE `entry`=8078;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='一群英雄？一定要驱逐克苏恩，我们会帮助你，人类！' WHERE `entry`=8079;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='我目睹站在我眼前的奇迹！经过了一千年的囚禁，我还没见过一件活的样品－除了那些邪恶的其拉和异种蠍－进入密室。' WHERE `entry`=8080;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='我目睹站在我眼前的奇迹！经过了一千年的囚禁，我还没见过一件活的样品－除了那些邪恶的其拉和异种蝎－进入密室。' WHERE `entry`=8080;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='别忘了观看下一场烟火表演！每天下午6点开始，每小时整点都会有一次！'，`Text1_0_loc4`='别忘了观看下一场烟火表演！每天下午6点开始，每小时整点都会有一次！' WHERE `entry`=8081;
 UPDATE `locales_npc_text` SET `Text2_0_loc4`='别忘了观看下一场烟火表演！每天下午6点开始，每小时整点都会有一次！'，`Text2_1_loc4`='别忘了观看下一场烟火表演！每天下午6点开始，每小时整点都会有一次！'，`Text3_0_loc4`='别忘了观看下一场烟火表演！每天下午6点开始，每小时整点都会有一次！' WHERE `entry`=8081;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，$C。我是这里指挥作战的战场元帅落雪。我们还有一段辛苦的路要走，$G小伙子:小姑娘;，所以如果你能帮忙，那是再好不过。请任意发问。' WHERE `entry`=8082;
@@ -2755,7 +2755,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='星林长者在荆棘谷的祖尔�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='「你的战争物资收集工作做的很好」他们说，「你一定会得到晋升的！」。他们真正的意思是，「你会和一群小不点的矮人一起被部署在希利苏斯的某个虫巢外面，卡恩斯！」$B$B谢谢你的提拔，上尉！' WHERE `entry`=8212;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我，就像我的哥哥一样，为那些替自己祖先争光的人争光。与新年庆典的侍徒们分享我手工技艺的秘密带给我很大的快乐！' WHERE `entry`=8213;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='当战争开打时，我就像其他人一样，是来这里帮助我的活伴德鲁伊们。$B$B现在安其拉之门已经开启，我知道还有很多工作需要完成。我已决定要待在希利苏斯，并尽全力协助达成目标，$N。' WHERE `entry`=8214;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='异种蠍看来相当致命，但牠们和其拉主宰比起来却只是只温驯的小动物。' WHERE `entry`=8215;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='异种蝎看来相当致命，但牠们和其拉主宰比起来却只是只温驯的小动物。' WHERE `entry`=8215;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='这战争还没结束，才刚开始而已！我们日夜都有勇猛的战士对抗安其拉里的敌人，$N。不久之后其拉城就会沦陷。' WHERE `entry`=8216;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们能从容稳固的对其拉发起战斗攻势，都要归功于整个卡利姆多的全力相助。$B$B你打仗需要的不只是士兵而已，$N。商人和工匠也是战争里的无名英雄，他们能补给战争所需要的所有物资。' WHERE `entry`=8217;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='他们真能想，居然在月光林地搞聚会，真棒！'，`Text1_0_loc4`='试试这些烟花发射器，非常棒！' WHERE `entry`=8218;
@@ -2823,7 +2823,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='嗨！我是丘比特·传播者�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='这是最后的排行榜！$B$B萨尔: $2200w$B凯恩: $2201w$B希尔瓦娜斯: $2202w$B部落总数量: $2207w$B$B伯瓦尔: $2203w$B麦格尼: $2204w$B泰兰妲: $2205w$B联盟总数量: $2206w$B$B联盟是最受欢迎的英雄！' WHERE `entry`=8315;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='当你将爱之硬币给人民，你将收到他们不同的礼物作为回礼。有些礼物你会想留着自己用，但其他的就可以收集在一起送给你最喜欢的英雄！拜访丘比特·传播者把礼物交给他。$B$B丘比特就在伯瓦尔，麦格尼和泰兰妲附近。' WHERE `entry`=8317;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='当你将爱之硬币给人民，你将收到他们不同的礼物作为回礼。有些礼物你会想留着自己用，但其他的就可以收集在一起送给你最喜欢的英雄！拜访丘比特·传播者把礼物交给他。$B$B传播者就在凯恩，希尔瓦娜斯和索尔附近。' WHERE `entry`=8319;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='这本秘典的内容就像潮水不断流出。你觉得好像你脑中的思绪被榨乾并被这本书消化掉。' WHERE `entry`=8321;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='这本秘典的内容就像潮水不断流出。你觉得好像你脑中的思绪被榨干并被这本书消化掉。' WHERE `entry`=8321;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='影像，形状，和记号的组合出现在你眼前。这本书似乎了解你的制皮技术并提供你一个选择 - 但是警告你 - 你只能做一个选择，并且一旦决定后，就不能改变心意！' WHERE `entry`=8326;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我不能教你龙鳞制皮，$N你必须去塔纳利斯，并找到纳里安·柔想的家。你到了那儿以后，询问有关一本叫做《新手的预言入门》的书。' WHERE `entry`=8327;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='索尔让我进入他领地中的圣域是对我释出相当大的善意。无论如何，我不求久留。给我们的领导者带来任何麻烦都是极大的侮辱。' WHERE `entry`=8332;
@@ -2857,7 +2857,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='这是一个传奇，这也是个�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='失败巨人的腐败，毁灭者的堕落。终究这法杖还是由仇恨的种子所锻造。也就是说，这当然是我来这里的主因……' WHERE `entry`=8391;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='在卡拉赞倒下后，祈伦托派了一群法师到哨塔搜索，并扣押所有进口的物品……就为了「研究」的目的。就是那时候才发现了寓言中的法杖，并将它带回达拉然。' WHERE `entry`=8392;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='所跟随的是一连串的悲剧，以致每位只要接触阿泰丝的祈伦托法师都会死亡。$B$B你看，这是有知觉的神器，是萨格拉斯赋予它的……' WHERE `entry`=8393;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='<安琪拉点头。>$B$B他们死后，六人决定最好的应变措施，就是藉由坚固的魔法屏障来隔离法杖，并且任命守护者︰法杖的守护者……而我就是那位守护者。' WHERE `entry`=8394;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='<安琪拉点头。>$B$B他们死后，六人决定最好的应变措施，就是借由坚固的魔法屏障来隔离法杖，并且任命守护者︰法杖的守护者……而我就是那位守护者。' WHERE `entry`=8394;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='没什么好说的。达拉然几乎全被阿克蒙德破坏，法杖遗失了，可能遭到故障防护装置机所粉碎了。$B$B有些人相信就是因为法杖，所以引起阿克蒙德的报复。' WHERE `entry`=8395;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='在达拉然被陷落之后，我也离开了祈伦托。我花了好几年寻找阿泰丝，希望能取回祈伦托在某次可怕的突袭中，从我身上夺取的东西。就算要花一辈子，我也要找到法杖。那就是为什么我参加银色黎明，还有我现在为什么在这里的原因。' WHERE `entry`=8396;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我横跨世界追踪了各式各样的法杖碎片，还因此发现科尔苏加德改良法杖的计划。他目前收集一些法杖碎片，并且由他最信赖的副官保管着。$B$B努力让守护者的大法杖远离科尔苏加德的控制，这重要性可是非比寻常。坦白说，除了史诗部分的大灾难外，我不知道结果将如何。' WHERE `entry`=8397;
@@ -2955,7 +2955,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='我是个精灵贵族，$R。现�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我会把它拿回来的，凡人。阿泰丝……我会用它来使精灵贵族获得新生。我会让他们全都复原。就连我们的女王也是……' WHERE `entry`=8520;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='<塔希斯虚弱地抓住你的衣领。即使濒临死亡你也在他的眼中看到难以想像的力量。>$B$B我是吗？那么仔细听好，因为有更多的疯言疯语要从我嘴里说出来了。在堡垒里面你会发现我毕生的杰作：每一块碎裂的法杖碎片的所在位置。' WHERE `entry`=8521;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='埃提耶什，守护者的传说之杖。这把法杖是提瑞斯法守护者历代相传之物。但它已被萨格拉斯所污染。它是最后一任守护者的武器，麦迪文的法杖。' WHERE `entry`=8522;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='<塔希斯的眼神发亮。>$B$B我曾经拥有它……我不顾肯瑞托的警告拥有它。我曾经拥有它，凡人……无尽的力量。做我想做的事的力量，随心所慾。就在那个时候，它从我手中被夺走了。但是我尝过那种滋味……而那滋味值得你付出那样的代价。' WHERE `entry`=8523;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='<塔希斯的眼神发亮。>$B$B我曾经拥有它……我不顾肯瑞托的警告拥有它。我曾经拥有它，凡人……无尽的力量。做我想做的事的力量，随心所欲。就在那个时候，它从我手中被夺走了。但是我尝过那种滋味……而那滋味值得你付出那样的代价。' WHERE `entry`=8523;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='<塔希斯伤的很重。>' WHERE `entry`=8524;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='战役进行良好。天灾军团的实力已经被大大削弱了。我相信我们完全能够把他们都赶进海里，这只是时间问题了。我会尽可能地帮助你进行战斗。' WHERE `entry`=8526;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们对抗天谴军团的第一步进行的很好。我们有了一些成就，希望我们的协助能帮你们获得未来的胜利。' WHERE `entry`=8527;
@@ -2974,7 +2974,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='达克汗认为我们会还没开�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你没看到我正在和这位小姐说话吗？喔，非常好，反正她看起来有点忙。$B$B我只卖最好的酒，国外和国内的葡萄酒都有。要看一看吗？' WHERE `entry`=8549;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='那是萨瑟里避难所的清单吗？没问题，他的身分地位可以获得一瓶最好的酒。当然，任何萨瑟里领主的朋友都可以特殊的价格买到这样上好的葡萄酒。' WHERE `entry`=8550;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们赢了天谴军团$2219W场战役。做好准备，$N，这场战争要结束还差的远了。' WHERE `entry`=8551;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='如果你有钱，我有让你满足口腹之慾的食物和饮料。所有的钱都会拿来让这地方维持在最佳状态。' WHERE `entry`=8552;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='如果你有钱，我有让你满足口腹之欲的食物和饮料。所有的钱都会拿来让这地方维持在最佳状态。' WHERE `entry`=8552;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你手上的是萨瑟里领主的清单吗？好的，我可以卖给你一批开胃菜，刚出炉的。' WHERE `entry`=8553;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我出售各式各样的物品，$C。随意看看。' WHERE `entry`=8556;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='一个清单……好奇怪。啊对了，萨瑟里领主的烟火。他还没付帐；你是代表他来这里的吗，$C？' WHERE `entry`=8557;
@@ -3222,9 +3222,9 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='伊露恩的仁慈降临到你身�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，$C。你决定来拜访我们是对的。' WHERE `entry`=9074;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你以荣誉为三人之一效命，$N。我们的时间已到尽头。库罗斯准备好后会告诉你。' WHERE `entry`=9076;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，$C。我是库罗斯，三头政治的第二人。' WHERE `entry`=9077;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='我看着他们无情的鞭打他。他们残酷的中尉一举一动就好像残暴是正常的事一样。经过野蛮的鞭打之後，我可以感觉我已经崩溃了。$B$B看着复仇者萨鲁安忍受他们的殴打，我开始哭泣。并不是因为害怕……而是因为悲伤。看到三头政治的德莱尼被这样对待。要是我能打破我的束缚就好了。要是可以的话……' WHERE `entry`=9079;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='我看着他们无情的鞭打他。他们残酷的中尉一举一动就好像残暴是正常的事一样。经过野蛮的鞭打之后，我可以感觉我已经崩溃了。$B$B看着复仇者萨鲁安忍受他们的殴打，我开始哭泣。并不是因为害怕……而是因为悲伤。看到三头政治的德莱尼被这样对待。要是我能打破我的束缚就好了。要是可以的话……' WHERE `entry`=9079;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='在看起来像实体的东西出现后，复仇者就失去意识了。这实在太折磨了，即使是对他而言也一样。残忍的 - 马帝斯，据悉他是被这样称呼的 - 还将传染的水泼洒在萨鲁安毁坏的身上想叫醒他。但萨鲁安并没有醒来。' WHERE `entry`=9080;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='我想尖叫可是只有一声低喘迸出我嘴边。我很快就被这次的反叛行动给打败。当我躺在地上，我可以看见马帝斯在萨鲁安的尸体前跺步。他看起来很担心。他声称如果萨鲁安被後打死去，赛罗娜斯或赛罗娜或类似这样的实体会把他的肉体从骨头上剥下。' WHERE `entry`=9081;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='我想尖叫可是只有一声低喘迸出我嘴边。我很快就被这次的反叛行动给打败。当我躺在地上，我可以看见马帝斯在萨鲁安的尸体前跺步。他看起来很担心。他声称如果萨鲁安被后打死去，赛罗娜斯或赛罗娜或类似这样的实体会把他的肉体从骨头上剥下。' WHERE `entry`=9081;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='赛罗娜斯实体对萨鲁安有个计划……$B$B<书写突然中断，一条长长的线画过页面。这个德莱尼在制造实体时死去。>' WHERE `entry`=9082;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你好，$C。如果你想学习铁匠的艺术，那么你来对地方了。' WHERE `entry`=9084;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='喔，别管巴弟。他不会伤害你的，他只是有时候喜欢抓来抓去。$B$B他只是只可爱的大猫咪。$B$B对不对呀巴弟？对，没错，你最可爱了，小家伙。你是妈咪的小宝贝，你就是这样！' WHERE `entry`=9085;
@@ -3232,7 +3232,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们塞纳里奥的德鲁伊是�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你是谁？不要来烦我。' WHERE `entry`=9090;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='到北方开始你的搜索吧，$N。我们的斥候已锁定海案线旁的星移活塞。' WHERE `entry`=9097;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我的故事？你这样问真好。非常好。$B$B很久以前在德拉诺行星上 - 也就是现在残余的外域 - 所有的德莱尼都和平共处。但是后来燃烧军团来了，他们用邪恶魔法腐败了兽人。$B$B别无选择，我们为生存而作战，但暴露在这些邪恶能量下已对我们一些人产生了可怕的作用，长时间后将我们转变成像我一样的破碎者，或是更糟，看似无脑的失落者。$B$B我要继续吗？' WHERE `entry`=9098;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们身体的改变对破碎者和失落者造成副作用，切断我们和圣光的关系。当时我不知道为什么，但身为一个牧师的我坚持要找出原因。我决定进行朝圣来找出答案。$B$B战争结束之后，我前往破碎行星的沙漠恳求圣光回到我们身边。但几十年过去，圣光从未回覆过我的祈求。$B$B你想再听下去吗？' WHERE `entry`=9099;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们身体的改变对破碎者和失落者造成副作用，切断我们和圣光的关系。当时我不知道为什么，但身为一个牧师的我坚持要找出原因。我决定进行朝圣来找出答案。$B$B战争结束之后，我前往破碎行星的沙漠恳求圣光回到我们身边。但几十年过去，圣光从未回复过我的祈求。$B$B你想再听下去吗？' WHERE `entry`=9099;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我很幸运发现一个绿洲并决定留在那里直到我得到一个解答。然后我就坐在那里，只有必要的时候才会移动，以接近水边的生物维生。我引以为傲。$B$B如我所说，几十年过去了都没有一个答案。但我记得有一天傍晚的夕阳特别美丽。一阵微风轻拂大地，我确信我听到了一个声音，但附近并没有人。$B$B你可以想像，我以为我真的疯了。' WHERE `entry`=9100;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='这风有点不对劲;它停不下来。几周以来它一直吹着大地，不断变大又变小，但就是不停止。而且声音不断呼啸，不过我不太懂那是什么意思，也不知道它究竟是从哪里来的。$B$B我隐居的日子让我学会如何平静下来并检视内心。这样做我才能保持清醒。而就是那时候我才开始了解那声音的意思。它是风发出的声音，有很多话想说！' WHERE `entry`=9101;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='它对我诉说了秘密和力量，还有真相。圣光并没有遗弃破碎者！很久以前兽人对抗德莱尼所掌握的邪恶能量已灌输给我们，让我们的心声无法被圣光听到，也不能听到圣光的声音。它也要为我们身体的衰退负责。$B$B我们的灵魂不是破碎的，天空提供了我另一条道路，我会将我的人民传送至那里。' WHERE `entry`=9102;
@@ -3260,7 +3260,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='自然中的所有事物都是息�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='<复仇者艾伊森向你致敬。>$B$B你和阿德密特斯谈过了吗？我想他在打听你的下落。' WHERE `entry`=9130;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='感谢我被锁在这笼子里，$R。' WHERE `entry`=9134;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='<被俘虏的太阳之鹰密探怀疑地看着你。>$B$B我从没见过你。你是谁？' WHERE `entry`=9136;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='<被俘虏的太阳之鹰密探奸笑。>$B$B别担心，新成员，还有更多传送门控制器和更多适合的传送地点。我相信赛罗娜斯很快就会有一个新的入口了。这些蓝皮肤的狗在这世界活不久了。赛罗娜斯和憎恨会把太阳之鹰军队留下的所有事物都清理的一乾二净。' WHERE `entry`=9137;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='<被俘虏的太阳之鹰密探奸笑。>$B$B别担心，新成员，还有更多传送门控制器和更多适合的传送地点。我相信赛罗娜斯很快就会有一个新的入口了。这些蓝皮肤的狗在这世界活不久了。赛罗娜斯和憎恨会把太阳之鹰军队留下的所有事物都清理的一干二净。' WHERE `entry`=9137;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='很明显。不然她要怎么渗入他们的阶级并以一个德莱尼的身份通过？她和他们住在一起很长的一段时间。' WHERE `entry`=9140;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='很多？它有两个弱点：那栋建筑物西边和东边的底部。嘿，等等。你怎么会知道旋绕导航器的事？你不是说你在成形之前都被俘虏了吗？' WHERE `entry`=9141;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='是时候来摧毁旋绕导航器了！' WHERE `entry`=9142;
@@ -3526,7 +3526,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='身为阴郁城的代表，在这�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='如果你想在这里休息，你只需要问一下就好了！' WHERE `entry`=9618;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='谢谢你帮忙制作药膏，$N。只要有机会可以减轻疼痛，不管多远我都可以靠这条腿找寻找它。' WHERE `entry`=9619;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='欢迎来到卡拉达尔，陌生人。你找好休憩的地方了吗？' WHERE `entry`=9620;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='啊…… 又一个在寻找启发的萨满吗，或许吧？是不是精灵讲得不清楚？你希望藉由我的帮助以看见什么在你未来吗？' WHERE `entry`=9621;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='啊…… 又一个在寻找启发的萨满吗，或许吧？是不是精灵讲得不清楚？你希望借由我的帮助以看见什么在你未来吗？' WHERE `entry`=9621;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我是史卡帝斯，在这指导寻找启发的萨满……但是甚至那些走向不同道路的那些人也可以获知一，两件事情。你希望看见吗？' WHERE `entry`=9622;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='喝了这个药水瓶的药水，迷雾就会被散开一段时间。与精灵同去，我的朋友。' WHERE `entry`=9623;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='冬天爷爷在冬幕节日的盛宴期间，会在铁炉堡的树下为每个人留下玩具！' WHERE `entry`=9626;
@@ -3595,7 +3595,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='$C，停止你的攻击，这只�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='大法师瓦戈斯在告知我如何从血精灵对紫色之塔的攻击中逃离后将他的法杖委托于我。我按他所告诉我的去做，希望能在阿克隆的旧德莱尼殖民地里避难。$B$B没有暂缓。我已经一直走进燃烧军团部队的前方。恶魔从我那儿抢走法杖，但是我都幸运的逃离。$B$B虽然我的主人对我的失败一无所知，但它仍然使我羞愧。' WHERE `entry`=9828;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='很好。看看虚空之风扫了什么进来。进来，坐下，好好的休息一下。费用是适当的；你肯定能支付得起。' WHERE `entry`=9832;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='很久以前，在凡人心智深不可测的宇宙空间内，诞生了 - 如果能这么说的话 - 一个具有如此难以相信强大力量的生命，以致于它的出现粉碎了在它周遭的所有事物。$B$B人们称它为莫尔墨，它是声音的精华，任何听到它言语的人都将见识到永恒的死亡！' WHERE `entry`=9834;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='只为混乱存在，它轻微的低语意味着全世界的毁灭！$B$B但仍然，有那些嚐试崇拜这无脑的生物。甚至有那些更加疯狂想要控制它的人！' WHERE `entry`=9835;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='只为混乱存在，它轻微的低语意味着全世界的毁灭！$B$B但仍然，有那些尝试崇拜这无脑的生物。甚至有那些更加疯狂想要控制它的人！' WHERE `entry`=9835;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='发霉的法典书页好像会魔术般地翻转它们自己，引导你的注意到一个特定的章节，没有凡人的眼睛可以察觉刚过去的恐怖。$B$B书本会打开到不知怎么地感到〝正确〞的一页，然而是错的离谱的一页。' WHERE `entry`=9836;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='看啊，勇者在它的跟前颤抖，害怕它会对其出声。$B$B但是这些骗子，这些崇拜不存在之伪教的假信徒，依旧罔顾现实，企图要控制他们的「神」。然而，莫尔墨只是毫不在乎地 - 或可能甚至根本没注意到他们 - 打了个呵欠，他们就这样灰飞湮灭了。$B$B但不知怎么的，有个人幸存了下来，而且他的疯狂同时也找到了使莫尔墨进入这世界的途径。' WHERE `entry`=9837;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='有一个对于秘法和黑暗的知识的狂热是无人所能超过的凡人，他想出一种方法透过捕捉和使用未知的灵魂来强化他的召唤。$B$B整个文明世界因为他的灵魂设备成为仪式的燃料而陷入绝尽，透过他和他的阴谋者们莫尔墨将被召唤到他们的世界。' WHERE `entry`=9838;
@@ -3770,7 +3770,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='有些人的天性喜爱编织谎�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='在以太族中，某些成员特别喜欢处理肉块和生物的血肉之躯。那些人被称为血肉处理者。' WHERE `entry`=10179;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你在我们美好的大地寻找什么吗？' WHERE `entry`=10180;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='如果你想登记建立公会，我将建议你去银月城内询问。' WHERE `entry`=10182;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='有些游侠似乎无法应付心中野兽般的慾望操控着他们的意志。如果你只是想在城镇内制止这种事情，安纳斯会接手的。她在猎鹰之翼广场的旅馆外头等着工作上门。' WHERE `entry`=10184;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='有些游侠似乎无法应付心中野兽般的欲望操控着他们的意志。如果你只是想在城镇内制止这种事情，安纳斯会接手的。她在猎鹰之翼广场的旅馆外头等着工作上门。' WHERE `entry`=10184;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='那些游侠接受汗诺雅的指导，汗诺雅是一位待在猎鹰之翼广场东北大楼的远行者。' WHERE `entry`=10186;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='卡绿笛在猎鹰之翼广场里教导魔法的奥秘;你可以在旅馆的二楼找到她。' WHERE `entry`=10187;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='血骑士诺伊兰妮在广场东北大楼里等待年轻的学员。' WHERE `entry`=10189;
@@ -3859,7 +3859,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='非常好。这些你要寻找的�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='毁灭密码被放在卡拉伯尔里古尔丹的私人住所20年了。啊，对了，你不知道卡拉伯尔是什么，对吧？$B$B就是黑暗神庙……$B$B是的，现在是伊利丹·怒风的居所。$B$B当伊利丹掌管黑暗神庙时，他发现了密码。他知道对这世界的伤害已经完成了，但还是觉得将密码保存下来供以后使用比较好。' WHERE `entry`=10314;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='当你站在诅咒祭坛看到被诅咒的灵魂，跪着祷告，你没看见的是我，紧挨着古尔丹站着。$B$B<欧朗诺克点头。>$B$B我告诉过你我什么都做过，不是吗？那些〝东西〞其中一个是古尔丹的一位副官。$B$B在我的生命里我已经做了很多可怕的事。我曾经屠杀男人，妇女和小孩。在无辜的德莱尼血液里跳舞……可是……$B$B<欧朗诺克哽住他的话。>' WHERE `entry`=10315;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我永远不会忘记那天，$R。从来没有。即使我老早以前就已经因为热衷暗影魔法而抛弃了萨满教义，我还是觉得难过。一股深刻的失落感……我无法用言语来对你形容这种感受。$B$B当与元素的联系被切断，所有德拉诺的兽人都变了。如果对暗影的力量有任何怀疑，都会被粉碎的大地上山顶的熔岩给冲洗掉。' WHERE `entry`=10316;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='一阵恶心冲击着我。在仪式结束后，我跑回家找我的孩子。我收拾了一些我带得走的东西并与孩子们一起离开。我们跑到小山丘去躲起来。当时真的没有其他选择了……$B$B我不去想这个伤口不是一天的事了。费了20年才与元素再度连接。费了20年了元素才开始癒合。' WHERE `entry`=10317;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='一阵恶心冲击着我。在仪式结束后，我跑回家找我的孩子。我收拾了一些我带得走的东西并与孩子们一起离开。我们跑到小山丘去躲起来。当时真的没有其他选择了……$B$B我不去想这个伤口不是一天的事了。费了20年才与元素再度连接。费了20年了元素才开始愈合。' WHERE `entry`=10317;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='正如我所说，当伊利丹接管黑暗神庙时他发现了密码。他将书卷分成3个部分并交给他的爪牙负责看管。$B$B我的孩子们……我的男孩们现在已经长大了。在我得知伊利丹对密码所做的事情后，我派我的孩子们去取回那些部份。$B$B你必须找到我的孩子，$N。你必须找到他们并将毁灭密码带回来。' WHERE `entry`=10318;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我来到这个地方是为了研究曾经是雷霆王氏族的退化文明。$B$B他们脆弱且屈服于被玛诺洛斯之血转化的魔狱兽人拥有的力量诱惑$B$B我已经阅读过了他们所有的文本。我对于一个古器，一只鼓，一只箭以及遗失的一个石板特别感兴趣，这些东西在追击剑刃巨魔并将他们打回他们堡垒的过程中遗失了。' WHERE `entry`=10322;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='阿尔托无生命迹象的身体被恶魔魔法悬浮在半空中。他们夺走了他，即便死了也一样……' WHERE `entry`=10323;
@@ -3871,7 +3871,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='我已经在战壕里度过我的�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='这些巨魔，他们把我埋到只剩我的脖子，然后就忘记回来了。$B$B是啊，老兄，真有趣。笑出来吧。没有身体的鬼魂头在这里。$B$B当然，如果你想要帮我出来，我也许值得你花点时间。$B$B但是不准，一直笑。' WHERE `entry`=10341;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='<奴艾恩·雷翼摇头。>$B$B一边是军团而另一边是伊利丹的爪牙，我们要尽一切能够取得的事物来防卫堡垒，而且我们一定会受住它！每一个忠诚的蛮锤宁愿死也不会交出我们的家园。' WHERE `entry`=10349;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='站直，蛮兵！你现在受控于柯尔克隆守卫。' WHERE `entry`=10350;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='这块土地仍然承受着过去的伤痕。我怀疑他们是否将够治癒。' WHERE `entry`=10352;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='这块土地仍然承受着过去的伤痕。我怀疑他们是否将够治愈。' WHERE `entry`=10352;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='居住在赞格沼泽的菲拉芬拥有附带精巧锁闸的柳条篮。想必他们能够挑战你的技术。' WHERE `entry`=10354;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='纳葛兰的吉尔索洛堡垒置物箱会有一项大挑战提供给即使是你这样技术卓越的盗贼。' WHERE `entry`=10355;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='轻轻走，$R。这座桥以外就是地狱。' WHERE `entry`=10356;
@@ -3964,7 +3964,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='我在你的帕拿拉布赖电子�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我受我的主人，沙伯迈恩男爵委托来此，帮助塞纳里奥远征队处理巨龙教团的麻烦。$B$B我在这些事情方面算是个专家。' WHERE `entry`=10538;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='奴阿尔，你感觉好吗？你今天看起来不像你。' WHERE `entry`=10539;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='对了，会议。让我们开始认真的看待它。$B$B事实上你负责在鲁安旷野收集的木材和家畜，速度已经慢到变成一条细流。$B$B我们需要那些资源，但是你已经允许塞纳里奥远征队的德鲁伊在那里碍事！' WHERE `entry`=10541;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='我不想听藉口，我只要结果！$B$B你以为我们是在这里当一个笑话吗？如果我们这次没有办法完成，那么不仅所谓的社会改良家会来召唤，我们也将被认为没本事在黑翼的排行内提升。$B$B这就是你想要的吗？' WHERE `entry`=10542;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='我不想听借口，我只要结果！$B$B你以为我们是在这里当一个笑话吗？如果我们这次没有办法完成，那么不仅所谓的社会改良家会来召唤，我们也将被认为没本事在黑翼的排行内提升。$B$B这就是你想要的吗？' WHERE `entry`=10542;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你至少可以试着让自己听起来有说服力一点。$B$B听着，奴阿尔，我本来不打算告诉你这事，但是我也有可能告诉你，因为它也与你有关。麦克斯纳尔正在鲁安旷野计划对德鲁伊做全面的攻击。而且他打算彻底消灭他们。$B$B和圆面巨魔作战已经够糟的了，我们无法再对付另一个战线。我已经与阿拉卡安排暂时停战。$B$B那么，你认为怎么样？' WHERE `entry`=10543;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='就在我们讲话时，我们正一起做最后的准备。剩下的就看你在鲁安旷野能多快组织你的军队。$B$B你认为你能处理这些并快速完成吗？' WHERE `entry`=10544;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='这就对了！$B$B我很高兴我们有这个小会议。我现在对攻击更有信心了。有你这样的领导人在前线，我们怎么会失败？$B$B好了，你可以进军了。现在回到鲁安旷野开始攻击吧！' WHERE `entry`=10545;
@@ -3997,9 +3997,9 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='地精热砂战斗同盟已开始�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='地精热砂战斗同盟已开始。你可以在加基森里，纳葛兰和剑刃山脉的竞技场外找到贩卖竞技场小队特许状的竞技场编制者。' WHERE `entry`=10579;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='地精热砂战斗同盟已开始。你可以在加基森里，纳葛兰和剑刃山脉的竞技场外找到贩卖竞技场小队特许状的竞技场编制者。' WHERE `entry`=10595;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='<苍老的斗士用别脚的普通语说着。>什么？你对我有意见？把它带到竞技场。我不会浪费时间在你的小「部落」和「联盟」上。' WHERE `entry`=10597;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='藉由赢得竞技场排名赛，斗士们便可穿戴像我这样的装备。' WHERE `entry`=10598;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='借由赢得竞技场排名赛，斗士们便可穿戴像我这样的装备。' WHERE `entry`=10598;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='<老练的斗士用别脚的兽人语说着。>什么？你对我有意见？把它带到竞技场。我不会浪费时间在你的小「部落」和「联盟」上。' WHERE `entry`=10599;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='藉由赢得竞技场排名赛，斗士们便可穿戴像我这样的装备。' WHERE `entry`=10600;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='借由赢得竞技场排名赛，斗士们便可穿戴像我这样的装备。' WHERE `entry`=10600;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='哟！你听说过热砂港搏击会吗？$B$B你可以在加基森城内以及纳格兰和刀锋山的竞技场外面找到竞技场组织者，他正在出售竞技场战队登记表。' WHERE `entry`=10601;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='嘿。监督者，休息一下吧？自从你被分派到鲁安旷野我们就很少见到你了。$B$B看一下我的东西。虽然和我们上次交谈的时候差不多，但是我有大量存货。$B$B不要像个陌生人一样！' WHERE `entry`=10602;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='只有我对弑龙者戈鲁尔和他七个儿子的憎恨才能超越我对阻碍的嫌恶！' WHERE `entry`=10603;
@@ -4022,7 +4022,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='不久我将扎根安睡。在我�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你为我的土地带来一段时间的绿意。足够了。我平静了。我准备好进入长眠了。' WHERE `entry`=10641;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='成功了！我了解地狱火堡垒和它里面的魔法了！多强大的力量啊！$B$B在那个地方有数不尽的魔狱兽人……而且还不只这样！我也感觉到在那些墙里有恶魔的力量……$B$B假如你打开自己的心灵，那么我就可抓住你的心智————简短地提醒你————并在羊皮纸上为你记录下我的发现……' WHERE `entry`=10643;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我们的敌人包围我们。我本来能让摩克纳萨尔有更好的生活，但是我们所对抗的力量已为我们选择了其他方式。$B$B假如你要证明自己对摩克纳萨尔的价值，就帮助我们消灭他们。' WHERE `entry`=10645;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='陌生人，被你所见的事物感到困惑吗？$B$B我们藉由让祖先的记忆火焰持续燃烧并向它祭拜，来赞扬我们祖先的灵魂。' WHERE `entry`=10647;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='陌生人，被你所见的事物感到困惑吗？$B$B我们借由让祖先的记忆火焰持续燃烧并向它祭拜，来赞扬我们祖先的灵魂。' WHERE `entry`=10647;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我可以教你炼金术，有兴趣吗？' WHERE `entry`=10649;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我可以教你工程学，有兴趣吗？' WHERE `entry`=10650;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我可以教你附魔，有兴趣吗？' WHERE `entry`=10651;
@@ -4042,7 +4042,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='很高兴遇见你！我叫盖吉�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='如果你不是裁缝师的话，我想我的图样无法引起你的兴趣，不过欢迎你随意看看！' WHERE `entry`=10672;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='如果你是在找有关影纹裁缝的花样或知识，我很乐意帮助你。' WHERE `entry`=10673;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我很抱歉，$C，但是这些是我一针一线所缝制出来最合适的商品。$B$B我可以向你保证，裁缝是比在手帕上绣字还难的技术。' WHERE `entry`=10674;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='藉由伊露恩的女神之泪可以获得祝福，她的力量可以帮助你对抗阿克蒙德的邪恶魔法，好好使用她们的力量吧。' WHERE `entry`=10675;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='借由伊露恩的女神之泪可以获得祝福，她的力量可以帮助你对抗阿克蒙德的邪恶魔法，好好使用她们的力量吧。' WHERE `entry`=10675;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='他们害怕我的言语，所以狠狠的教训了我以示众人。这对一位真神，奈普图隆来说真是一个讽刺呀。$B$B<司卡利斯吐口水。>$B$B凡人啊，报应来了。猎潮者的光荣之手将有一天会像是在镰刀收割般地杀死这些不信之徒。' WHERE `entry`=10676;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='这些破坏恐怕是那些可怕的魔法所造成的，我们得尽可能的治疗这些重大的创伤。' WHERE `entry`=10677;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='死亡之门的入口将在这个世界打开，燃烧军团要利用这个门来繁殖恶魔犬和其他恐怖的犬齿生物。只要你看到这些从那里来的生物，必定是先通过那道门来到这里的。B$B最近，我们知道燃烧军团要从这个入口召唤这些生物。$B$B你必须在他们造成不可收拾的情况之前，先把死亡之门关闭才行，要不然一切都会毁了！' WHERE `entry`=10679;
@@ -4053,7 +4053,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='当我在撒塔斯设立盗贼学�
 UPDATE `locales_npc_text` SET `Text2_0_loc4`='剑、爪，还有匕首，当然——我所训练的盗贼对这些武器都非常精通。至于锤，我是不会碰锤子的，我也不会让任何我教出来的盗贼去玩锤子，免得他们敲到自己的脑袋。$B$B总之，锤与盗贼必备的隐秘行动完全没有关系。你若是用锤，杀起人来的时候就不会再那么安静，不过威力倒是不错。'，`Text2_1_loc4`='欢迎来到我们的酒店！'，`Text3_0_loc4`='在最初期的课堂上，教室里总是一群眼神清澈的小伙子。可是，他们当中很少有人能通过第一次考试。$B$B我那时候对此非常愤怒，但现在已经不再那样大吼大叫了，“当我大喊消失的时候你们必须消失！”，我不再这么喊了。现在，考试中无能者直接会去死。' WHERE `entry`=10686;
 UPDATE `locales_npc_text` SET `Text4_0_loc4`='千万不要在准备足够的闪光粉之前就离开基地，特别是在与其他人合作的时候。我保证你的同伴永远会给你制造麻烦。$B$B当闷棍失败时，你的选择只剩下扔出闪光粉迅速逃跑，或是硬拼闷棍对象的时候，我……都会选择前者。' WHERE `entry`=10686;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我是联合团的萨尔菲。我身为转化大师的美名早已传遍全世界了。' WHERE `entry`=10687;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='喔，不会的！我的飞飞不会乱拿人家的东西！他是只好狗……他有时候只是需要别人的注意而已。如果你给他一个狗饼乾的话，你就知道了！' WHERE `entry`=10689;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='喔，不会的！我的飞飞不会乱拿人家的东西！他是只好狗……他有时候只是需要别人的注意而已。如果你给他一个狗饼干的话，你就知道了！' WHERE `entry`=10689;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='过去我让自己接受任何人的挑战，把这当成一种娱乐，但我已经开始厌倦这样轻松的胜利。$B$B现在，我打算花点时间在此地的试剂事业上，并写一本有关我对暮光之锤的经验谈。' WHERE `entry`=10691;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='事实上，我们的炼金师罗洛其恩随身带着他的炼金装备。也许他跟你过去找的炼金师有一点不太一样 - 他是个阿拉卡，不过他应该能满足你的需求了。他就落脚在阴郁城的西北部。' WHERE `entry`=10696;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='这个地方有两位珠宝商人：其中一个为占卜者工作，另外一个则效忠于 奥多尔，你要找的是谁？' WHERE `entry`=10697;
@@ -4127,7 +4127,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='葛罗克寻求帮忙。小$R去�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你去见了莫格多克？' WHERE `entry`=10798;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我正在寻找一名技艺超群的英雄。$G他:她;将召集其他人拯救血槌氏族，并从戈隆的残暴统治下解放生活在刀锋山的所有食人魔氏族。$B$B当你了解到更多的知识之后再来找我吧。但是，$C，在此之前请你保持低调，以免被戈隆察觉到我们的动机。' WHERE `entry`=10799;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='如果我们想要摆脱我们的束缚并再次活得如同自由的巨魔的话就一定要打倒戈鲁尔之子！$B$B如果我们的暗中反抗要成功的话，我们就一定要安静的进行，但是速度要快。' WHERE `entry`=10800;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='我担心乔渥上校可能只能藉由一种危险的仪式来挽救……一种驱邪仪式。' WHERE `entry`=10801;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='我担心乔渥上校可能只能借由一种危险的仪式来挽救……一种驱邪仪式。' WHERE `entry`=10801;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我的眼睛会欺骗我吗？那真的是你吗，洛卡拉姆兄弟，在过了这些时日之后？$B$B如果你要找塞可，他就在漩涡尖塔西侧的水晶之间走来走去。他好像专注于那里一个他称之作残酷，原始的鬼魂，虽然好像没有任何不对劲。' WHERE `entry`=10807;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你也许在对待动物方面有一两把刷子，不过你曾经到过天上吗？我们蛮锤们知道如何有效地驾驭风。如果你有勇气的话，只要一点点的费用，我将会好好的训练你。' WHERE `entry`=10808;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='当你想到蛮锤时你会联想到什么呢，嗯？狮鹫兽驾驶，如果你还有印象的话！影月不是鹰巢山，不过我们仍然有好货色可以提供给你，是的，好货色喔。看一看我的小美人们并看看你挑中当中的哪一只吧！' WHERE `entry`=10809;
@@ -4225,7 +4225,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='你在找什么？' WHERE `entry`=
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你知道的，$N，可以跟你一起工作真是荣幸！$B$B等你不忙着争论时，也许我们可以$G一起吃个晚餐？:一起来个女孩之夜？;$B$B喔，我有提到我们现在能够让你很快速地前往我们在斯其索山脉的基地吗？要是你想要的话，去找御天者管理者艾瑞娜谈一谈。' WHERE `entry`=11001;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='那么，你常常到这附近，不过我们好像常常错过彼此在下班后聚在一起。$B$B是我吗？$B$B<卡缇装得很高兴。>$B$B无论如何，我只是想要说我……我们真的很感谢你为御天者做过的每件事！' WHERE `entry`=11002;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我希望你不要觉得我是个好高骛远，或是差不多的人，$N。$B$B我是说，我知道你现在在御天者真的很受欢迎，好吧……我相信你不会想要跟一个像我这样低下的劳工约会。$B$B不过，要是你任何时候想要就出去走走，或想管牧更多的刺脊，随时都可以来！我会在这里。$B$B我会想你……' WHERE `entry`=11004;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='这些圣物真是一个伟大的谜团。或许藉由常态性的研究，你将会对他们的效用得到一个更好的评价。' WHERE `entry`=11007;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='这些圣物真是一个伟大的谜团。或许借由常态性的研究，你将会对他们的效用得到一个更好的评价。' WHERE `entry`=11007;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='钢铁并不强壮，高贵的人，肉身比较强壮。钢铁的力量来自于挥舞的人。不过那够了……我们要怎么帮忙你呢，高贵的人？' WHERE `entry`=11008;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='<裘阿洛左边的头开口说，>$B$B我们发现你的热心帮助我们很动人……$B$B<他右边的头作结尾，>$B$B……而我们想要你知道我们真的很感谢你的帮忙！' WHERE `entry`=11009;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你的名字开始在这周遭受到敬重了。$B$B<裘阿洛的左眼以它冷酷的眼神盯着你。>$B$B保持良好的工作表现，$N！' WHERE `entry`=11010;
@@ -4469,7 +4469,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='我负责主持格斗比赛。你�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='“疯狗”约纳·斯特林要我整日整夜地打扫甲板。$B$B打扫甲板？！$B$B我是个法师，凭什么让我做这种杂事！就算要打扫，也该玩点新花样吧。' WHERE `entry`=12176;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='来点什么呢？朗姆酒？还是麦酒？$B$B或者你想尝尝别的？' WHERE `entry`=12179;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你想公然和杰克叫板是吗？$B$B嘿，我得说着这绝对是个……愚蠢的决定。这会让你损失惨重的。我可不想冒着丢掉小命的危险去干这种一分钱都挣不来的破事。嗯，你最好等我跑远了再动手。' WHERE `entry`=12180;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='喝酒的藉口是什么都没有关系啦！' WHERE `entry`=12181;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='喝酒的借口是什么都没有关系啦！' WHERE `entry`=12181;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='某件事激怒了那些黑铁矮人。他们几乎每半个小时就出现一次，把所有的桶子破坏后扬长而去！$B$B因此你一定会想问。「这干我什么事？」$B$B我来告诉你……因为他们的破坏使我们无法提供免费的啤酒！你没听错，免费的啤酒！$B$B所以，如果那些矮人来袭时你在附近的话，花点时间帮忙保护这些桶子吧。' WHERE `entry`=12182;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='啤酒节是个无懈可击的节日！不过美中不足的是黑铁矮人的袭击。他们几乎每半个小时就来一次！$B$B攻击目标是那些发送「免费」啤酒的桶子！这些都是由啤酒大师所提供的美味啤酒！$B$B听着，如果你在那些黑铁矮人出现时刚好在附近的话，帮忙保护一下这些「免费」的啤酒。' WHERE `entry`=12183;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='欢迎回来，$N。' WHERE `entry`=12185;
@@ -4523,7 +4523,7 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='搭乘艾露恩的祝福号时请�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='在航海之旅中，艾露恩一直庇护着我们。但是我们仍然要保持警惕，$C。' WHERE `entry`=12278;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='不好意思，$R，我必须专心工作。' WHERE `entry`=12279;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='欢迎登上少女之爱号。它将会一路顺风的抵达港口。' WHERE `entry`=12281;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='如果你用力压榨地精的话，你可以从他身上学到很惊人的东西：逃脱捆绑的聪明小把戏，制造美味的饼乾，甚至连如何制造出一台飞行器都有。' WHERE `entry`=12282;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='如果你用力压榨地精的话，你可以从他身上学到很惊人的东西：逃脱捆绑的聪明小把戏，制造美味的饼干，甚至连如何制造出一台飞行器都有。' WHERE `entry`=12282;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='常常。这是好活动，让我可以知道他们在忙些什么--就我的经验来说，绝对不是好事。' WHERE `entry`=12283;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='恶恶恶……要是那边那个肮脏的船舱长要你吃他的特别餐的话，帮你自己个忙，把它丢到海里吧。它可能可以杀死几个你想致之死地的龙虾人。' WHERE `entry`=12284;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='嗨，$R。$B$B动手吧！别浪费时间等那些可能永远也不会到的补给。$B$B我需要我的铁砧来替部队打造装备。目前才完成了$3228w％。$B$B当铁砧完成后，我将可以为你做出更多强而有力的物品。' WHERE `entry`=12285;
@@ -4561,8 +4561,8 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='请容许我休息一下。' WHERE
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='妈，再让我多睡五分钟……' WHERE `entry`=12331;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='我现在很忙。'，`Text1_0_loc4`='有点忙。' WHERE `entry`=12332;
 UPDATE `locales_npc_text` SET `Text2_0_loc4`='我现在很忙。'，`Text2_1_loc4`='我现在很忙。' WHERE `entry`=12332;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='从葛罗姆高到幽暗城的飞行是多么的美丽而平静。当然这不是在工作中睡着的藉口。' WHERE `entry`=12333;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='经过了灰烬与污泥。让你自己风乾一阵子吧。' WHERE `entry`=12334;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='从葛罗姆高到幽暗城的飞行是多么的美丽而平静。当然这不是在工作中睡着的借口。' WHERE `entry`=12333;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='经过了灰烬与污泥。让你自己风干一阵子吧。' WHERE `entry`=12334;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='牛头大佬在我替他们安排下一场巡回演出时都会待在银月城里。他们没排练的时候通常会在我上方的楼台里消磨时间。放心挥手吧……他们喜欢接受注目。$B$B我们目前没有接受表演或是工作人员，不过你以后可以常来连系看看。谁知道会发生什么事呢？' WHERE `entry`=12335;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='不要毫无准备地和敌人交战，$N。我可以提供你非常强大的物品……因为你已经向我们证明了自己。' WHERE `entry`=12338;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='凯尔的宠物是该在羞辱中学上一课。我们将会击溃曦刃军团并且从他们手中夺下日境港。$B$B我们目前的目标达成率为$3238w％。' WHERE `entry`=12339;
@@ -4762,12 +4762,12 @@ UPDATE `locales_npc_text` SET `Text0_0_loc4`='族长特沃德·艾利克森易�
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='什么？那是什么？' WHERE `entry`=12812;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='每隔两年竞赛之灵都会变得特别激动热情……而现在正是这个时候！我们穿着这身外袍前往战场荣耀它们，打败我们的敌人然后赢得它们的眷顾。' WHERE `entry`=12819;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你必须在战场上面对我们的对手。不论是赢或输，如果你坚持到战斗的最后，你就会收到邮寄给你的竞赛者外袍。' WHERE `entry`=12820;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='你必须在任何一个战场上击败我们的对手。每一场胜利都会让你有机会收到黄金勳章。' WHERE `entry`=12821;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='你必须在任何一个战场上击败我们的对手。每一场胜利都会让你有机会收到黄金勋章。' WHERE `entry`=12821;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你知道竞赛之灵，对吧？$B$B每隔两年，它们就会靠近凡人的世界。在这段期间，联盟与部落的成员都会穿着竞赛者外袍进入战场来荣耀它们，试图击败敌人并且赢得眷顾。$B$B我倒是从这类的动荡时期累积了不少纪念品。你要是能学会一些适当的措辞，我倒可以考虑割舍一些……' WHERE `entry`=12822;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='$N，很快我们就明白了死亡在这片冰封之地意味着什么。诺森德弥漫着巫妖王的邪恶力量，这种力量甚至渗透每一寸土地！他唤醒了那些在战斗牺牲的将士，命令他们与我们为敌。$B$B复活的狮鹫骑士随同地面的亡灵大军对我们发动了枪林弹雨般的猛烈攻击。' WHERE `entry`=12823;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='克莲娜一定很怀疑我的能力。当我们的菁英战士出去面对联盟与他们的陷捕者盟友，或者巨魔造成的大混乱，我被派来清理这些讨厌的维酷掠龙者。$B$B也许如果我们结合我们的努力，就可以双双在征服者眼中证明自己的实力。' WHERE `entry`=12824;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='他似乎被关在伐木场附近的某个牢笼。' WHERE `entry`=12827;
-UPDATE `locales_npc_text` SET `Text0_0_loc4`='你必须在任何一个战场上击败你的对手。每一场胜利都会让你有机会收到黄金勳章。' WHERE `entry`=12828;
+UPDATE `locales_npc_text` SET `Text0_0_loc4`='你必须在任何一个战场上击败你的对手。每一场胜利都会让你有机会收到黄金勋章。' WHERE `entry`=12828;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='你必须在战场上面对你的对手。不论是赢或输，如果你坚持到战斗的最后，你就会收到邮寄给你的竞赛者外袍。' WHERE `entry`=12829;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='他应该被关押在修道院的南边。' WHERE `entry`=12830;
 UPDATE `locales_npc_text` SET `Text0_0_loc4`='每隔两年竞赛之灵都会变得特别激动热情……而现在正是这个时候！我们穿着这身外袍前往战场荣耀它们，打败所有的敌人然后赢得它们的眷顾。' WHERE `entry`=12831;
