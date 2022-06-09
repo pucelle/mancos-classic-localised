@@ -16,7 +16,7 @@ UPDATE `creature_ai_texts` SET `content_loc4`='%s的血喷了出来！' WHERE `e
 UPDATE `creature_ai_texts` SET `content_loc4`='%s浑身是血，变得异常狂暴！' WHERE `entry`=-31;
 UPDATE `creature_ai_texts` SET `content_loc4`='电刑！' WHERE `entry`=-32;
 UPDATE `creature_ai_texts` SET `content_loc4`='警报！警报！入侵警报！入侵警报！' WHERE `entry`=-33;
-UPDATE `creature_ai_texts` SET `content_loc4`='是时候加入我们了，$C.' WHERE `entry`=-42;
+UPDATE `creature_ai_texts` SET `content_loc4`='是时候加入我们了，$C。' WHERE `entry`=-42;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s变得愤怒了！' WHERE `entry`=-46;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s充满恐惧地转身想要逃跑！' WHERE `entry`=-47;
 UPDATE `creature_ai_texts` SET `content_loc4`='如此……黑暗……' WHERE `entry`=-73;
@@ -74,7 +74,7 @@ UPDATE `creature_ai_texts` SET `content_loc4`='啪嗒……咔咔……' WHERE `
 UPDATE `creature_ai_texts` SET `content_loc4`='这里很危险，主人。我会为你站岗。' WHERE `entry`=-196;
 UPDATE `creature_ai_texts` SET `content_loc4`='我们能让它变得更好，更强，更快。我们不仅拥有技术，而且拥有强大的魔法。' WHERE `entry`=-197;
 UPDATE `creature_ai_texts` SET `content_loc4`='你们不该来这里！杀了他们！' WHERE `entry`=-198;
-UPDATE `creature_ai_texts` SET `content_loc4`='你死定了，$C.' WHERE `entry`=-200;
+UPDATE `creature_ai_texts` SET `content_loc4`='你死定了，$C。' WHERE `entry`=-200;
 UPDATE `creature_ai_texts` SET `content_loc4`='我的爪子会把你撕得粉碎，$R。' WHERE `entry`=-201;
 UPDATE `creature_ai_texts` SET `content_loc4`='你的头颅会是一个很好的战利品，$R。' WHERE `entry`=-202;
 UPDATE `creature_ai_texts` SET `content_loc4`='不！！ 把鞣酸放回篮子里，不然就吃我一槌！' WHERE `entry`=-203;
@@ -119,7 +119,7 @@ UPDATE `creature_ai_texts` SET `content_loc4`='我要粉碎你！' WHERE `entry`
 UPDATE `creature_ai_texts` SET `content_loc4`='你去死吧！' WHERE `entry`=-360;
 UPDATE `creature_ai_texts` SET `content_loc4`='啊！！！ 我要杀死$R！' WHERE `entry`=-361;
 UPDATE `creature_ai_texts` SET `content_loc4`='麦格尼・铜须是个白痴而且还是个骗子！' WHERE `entry`=-362;
-UPDATE `creature_ai_texts` SET `content_loc4`='以拉格纳罗斯之名，萨多尔大桥已经被摧毁了，接下来就是巨石水坝!' WHERE `entry`=-363;
+UPDATE `creature_ai_texts` SET `content_loc4`='以拉格纳罗斯之名，萨多尔大桥已经被摧毁了，接下来就是巨石水坝！' WHERE `entry`=-363;
 UPDATE `creature_ai_texts` SET `content_loc4`='哇哈哈！我要和你同归于尽！' WHERE `entry`=-364;
 UPDATE `creature_ai_texts` SET `content_loc4`='我听厌了这些废话！准备受死吧！' WHERE `entry`=-365;
 UPDATE `creature_ai_texts` SET `content_loc4`='啊~啊~啊！' WHERE `entry`=-366;
@@ -136,7 +136,7 @@ UPDATE `creature_ai_texts` SET `content_loc4`='[兽人语] Ogg kaz ko zugas kil 
 UPDATE `creature_ai_texts` SET `content_loc4`='[兽人语] Tago mog regas gi mog Tov\'nokaz Kagg' WHERE `entry`=-377;
 UPDATE `creature_ai_texts` SET `content_loc4`='我不能让你进入圣殿！我要摧毁你，这也是为了你好！' WHERE `entry`=-404;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s在吃完$N的尸体后，看起来已经平静了不少。' WHERE `entry`=-405;
-UPDATE `creature_ai_texts` SET `content_loc4`='不要穿过黑铁矮人的地盘，$C.' WHERE `entry`=-406;
+UPDATE `creature_ai_texts` SET `content_loc4`='不要穿过黑铁矮人的地盘，$C。' WHERE `entry`=-406;
 UPDATE `creature_ai_texts` SET `content_loc4`='我会放干你的血，$C！' WHERE `entry`=-407;
 UPDATE `creature_ai_texts` SET `content_loc4`='有人想休息一下？太糟糕了！必须接着工作！' WHERE `entry`=-408;
 UPDATE `creature_ai_texts` SET `content_loc4`='向下移动这部分，让它更靠近船！' WHERE `entry`=-409;
@@ -179,7 +179,7 @@ UPDATE `creature_ai_texts` SET `content_loc4`='等等……你不是我的丈夫
 UPDATE `creature_ai_texts` SET `content_loc4`='亚伯？是你吗？啊……我好饿，亚伯！我饿啊！！' WHERE `entry`=-461;
 UPDATE `creature_ai_texts` SET `content_loc4`='暮色森林的议会必须行动起来，空气中已经充满了邪恶的气息。' WHERE `entry`=-462;
 UPDATE `creature_ai_texts` SET `content_loc4`='你不能阻止被遗忘者，$R。黑暗女王将会让你感受到痛苦和恐惧。' WHERE `entry`=-469;
-UPDATE `creature_ai_texts` SET `content_loc4`='你听好了，在我杀死你之后，你的身体将为我所用，$R.' WHERE `entry`=-470;
+UPDATE `creature_ai_texts` SET `content_loc4`='你听好了，在我杀死你之后，你的身体将为我所用，$R。' WHERE `entry`=-470;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s开始裂开并破裂成碎块。' WHERE `entry`=-471;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s的力量随着石块碎裂迅速衰减。' WHERE `entry`=-472;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s几乎都成了碎块，但仍然在继续战斗。' WHERE `entry`=-473;
@@ -201,7 +201,7 @@ UPDATE `creature_ai_texts` SET `content_loc4`='尝尝这招！枯须狗头人必
 UPDATE `creature_ai_texts` SET `content_loc4`='住手！愚蠢的$C，我们不能让你召唤密斯莱尔！' WHERE `entry`=-532;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s饿了！' WHERE `entry`=-539;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s变得非常饿！' WHERE `entry`=-540;
-UPDATE `creature_ai_texts` SET `content_loc4`='正在扫描生命体……没有发现目标…….' WHERE `entry`=-545;
+UPDATE `creature_ai_texts` SET `content_loc4`='正在扫描生命体……没有发现目标……。' WHERE `entry`=-545;
 UPDATE `creature_ai_texts` SET `content_loc4`='目标丢失……返回搜索模式……' WHERE `entry`=-546;
 UPDATE `creature_ai_texts` SET `content_loc4`='发现未知生命体……评估中……' WHERE `entry`=-547;
 UPDATE `creature_ai_texts` SET `content_loc4`='啊~啊~啊……卫兵！' WHERE `entry`=-548;
@@ -209,7 +209,7 @@ UPDATE `creature_ai_texts` SET `content_loc4`='卫兵！' WHERE `entry`=-549;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s看到朋友在战斗中倒下，变得非常愤怒！' WHERE `entry`=-550;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s大声呼救！' WHERE `entry`=-551;
 UPDATE `creature_ai_texts` SET `content_loc4`='你好，市民！' WHERE `entry`=-552;
-UPDATE `creature_ai_texts` SET `content_loc4`='胆敢破坏神圣的埃雷萨拉斯? 面对我吧，懦夫！' WHERE `entry`=-553;
+UPDATE `creature_ai_texts` SET `content_loc4`='胆敢破坏神圣的埃雷萨拉斯？面对我吧，懦夫！' WHERE `entry`=-553;
 UPDATE `creature_ai_texts` SET `content_loc4`='我的灵魂终于可以安息了……哦，亲爱的塞瑞利恩……' WHERE `entry`=-554;
 UPDATE `creature_ai_texts` SET `content_loc4`='是谁胆敢打扰我的冥想！' WHERE `entry`=-566;
 UPDATE `creature_ai_texts` SET `content_loc4`='睡吧……' WHERE `entry`=-567;
@@ -241,7 +241,7 @@ UPDATE `creature_ai_texts` SET `content_loc4`='你被终结了。' WHERE `entry`
 UPDATE `creature_ai_texts` SET `content_loc4`='我失败了……' WHERE `entry`=-700;
 UPDATE `creature_ai_texts` SET `content_loc4`='鲁莽的笨蛋！我要亲手杀了你！' WHERE `entry`=-701;
 UPDATE `creature_ai_texts` SET `content_loc4`='战士们！船长们！继续战斗！' WHERE `entry`=-702;
-UPDATE `creature_ai_texts` SET `content_loc4`='你不值得我浪费时间，$N.' WHERE `entry`=-703;
+UPDATE `creature_ai_texts` SET `content_loc4`='你不值得我浪费时间，$N。' WHERE `entry`=-703;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s发出痛苦的呻吟。' WHERE `entry`=-704;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s在呻吟。' WHERE `entry`=-705;
 UPDATE `creature_ai_texts` SET `content_loc4`='%s在悲伤地哭泣着。' WHERE `entry`=-706;
@@ -293,7 +293,7 @@ UPDATE `creature_ai_texts` SET `content_loc4`='谁这么大胆？！我要毁灭
 UPDATE `creature_ai_texts` SET `content_loc4`='妈妈！' WHERE `entry`=-990;
 UPDATE `creature_ai_texts` SET `content_loc4`='快来呀！来这里买辣红鸡翅！' WHERE `entry`=-1024;
 UPDATE `creature_ai_texts` SET `content_loc4`='刚出炉的暗月热狗，赶快趁热来买哦！' WHERE `entry`=-1026;
-UPDATE `creature_ai_texts` SET `content_loc4`='香脆青蛙只在暗月马戏团有售，机会难得，限时供应哦!' WHERE `entry`=-1027;
+UPDATE `creature_ai_texts` SET `content_loc4`='香脆青蛙只在暗月马戏团有售，机会难得，限时供应哦！' WHERE `entry`=-1027;
 UPDATE `creature_ai_texts` SET `content_loc4`='血色十字军将会打击一切邪恶势力并将它们赶出这片土地！' WHERE `entry`=-1028;
 UPDATE `creature_ai_texts` SET `content_loc4`='你身上携带着天灾瘟疫，准备好下地狱吧。' WHERE `entry`=-1029;
 UPDATE `creature_ai_texts` SET `content_loc4`='彻底消灭这些亡灵！' WHERE `entry`=-1031;

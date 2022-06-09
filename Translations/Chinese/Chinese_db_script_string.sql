@@ -72,7 +72,7 @@ UPDATE `db_script_string` SET `content_loc4`='是啊是啊，生意很忙！' WH
 UPDATE `db_script_string` SET `content_loc4`='我会的，谢谢你的奶酪！' WHERE `entry`=2000000157;
 UPDATE `db_script_string` SET `content_loc4`='该回商店了……' WHERE `entry`=2000000158;
 UPDATE `db_script_string` SET `content_loc4`='我回来了！' WHERE `entry`=2000000159;
-UPDATE `db_script_string` SET `content_loc4`='我这么多年来好像都没干过比打水更有意义的事情似的!' WHERE `entry`=2000000160;
+UPDATE `db_script_string` SET `content_loc4`='我这么多年来好像都没干过比打水更有意义的事情似的！' WHERE `entry`=2000000160;
 UPDATE `db_script_string` SET `content_loc4`='呼啊啊啊啊啊啊啊啊！！' WHERE `entry`=2000000161;
 UPDATE `db_script_string` SET `content_loc4`='夜色镇……我饿了！！' WHERE `entry`=2000000162;
 UPDATE `db_script_string` SET `content_loc4`='我刚才说过再见了吧？' WHERE `entry`=2000000163;
@@ -96,7 +96,7 @@ UPDATE `db_script_string` SET `content_loc4`='范克里夫告诉我计划正在�
 UPDATE `db_script_string` SET `content_loc4`='嗯，可能就是那个爱管闲事的肖尔，我要去看看能找到些什么。回头再联系吧。' WHERE `entry`=2000000183;
 UPDATE `db_script_string` SET `content_loc4`='很好，那么我回去了。' WHERE `entry`=2000000184;
 UPDATE `db_script_string` SET `content_loc4`='很好！这就是你等待的机会！杀了他们！' WHERE `entry`=2000000185;
-UPDATE `db_script_string` SET `content_loc4`='先保住你自己的命，傻瓜!' WHERE `entry`=2000000186;
+UPDATE `db_script_string` SET `content_loc4`='先保住你自己的命，傻瓜！' WHERE `entry`=2000000186;
 UPDATE `db_script_string` SET `content_loc4`='那个憎恶已经毁灭了我们守夜人的营地！快点，我们必须在它到达城镇之前阻止它！' WHERE `entry`=2000000187;
 UPDATE `db_script_string` SET `content_loc4`='野猪人的废弃物！这个应该可以。鱼喜欢野猪人。' WHERE `entry`=2000000189;
 UPDATE `db_script_string` SET `content_loc4`='抓住一个！不知道有没有守卫快要饿扁了。来吧，鱼儿！' WHERE `entry`=2000000190;
@@ -167,7 +167,7 @@ UPDATE `db_script_string` SET `content_loc4`='闭嘴，笨蛋！' WHERE `entry`=
 UPDATE `db_script_string` SET `content_loc4`='我饶了你们的性命，你得活着，拿好这些饰品！玛特拉克，把饰品交给他们！' WHERE `entry`=2000000532;
 UPDATE `db_script_string` SET `content_loc4`='马上，主人！' WHERE `entry`=2000000533;
 UPDATE `db_script_string` SET `content_loc4`='%s开始扇动他巨大的翅膀，速度越来越快。他准备起飞了。' WHERE `entry`=2000000534;
-UPDATE `db_script_string` SET `content_loc4`='哦，当然，龙皮——可别弄丢了。我们家族的一些成员所制造的东西必须用黑龙皮来强化。' WHERE `entry`=2000000535;
+UPDATE `db_script_string` SET `content_loc4`='哦，当然，龙皮──可别弄丢了。我们家族的一些成员所制造的东西必须用黑龙皮来强化。' WHERE `entry`=2000000535;
 UPDATE `db_script_string` SET `content_loc4`='黑石军团就要来了！我们要夷平这片土地，让熊熊大火直冲云霄。没有人可以活下来……' WHERE `entry`=2000000536;
 UPDATE `db_script_string` SET `content_loc4`='现在，我们来看看……如果我是正确的，那么……嗯……' WHERE `entry`=2000000540;
 UPDATE `db_script_string` SET `content_loc4`='蓝色加红色……我觉得……' WHERE `entry`=2000000541;
@@ -180,12 +180,12 @@ UPDATE `db_script_string` SET `content_loc4`='我赢了！' WHERE `entry`=200000
 UPDATE `db_script_string` SET `content_loc4`='你这个骗子！' WHERE `entry`=2000000616;
 UPDATE `db_script_string` SET `content_loc4`='想再比一次吗？三局两胜！' WHERE `entry`=2000000617;
 UPDATE `db_script_string` SET `content_loc4`='%s疯狂地翻阅着那本厚厚的书册。' WHERE `entry`=2000000786;
-UPDATE `db_script_string` SET `content_loc4`='真是讽刺——暴风城在紧缩防御，仅仅是为了对付小小的迪菲亚兄弟会。' WHERE `entry`=2000000787;
+UPDATE `db_script_string` SET `content_loc4`='真是讽刺──暴风城在紧缩防御，仅仅是为了对付小小的迪菲亚兄弟会。' WHERE `entry`=2000000787;
 UPDATE `db_script_string` SET `content_loc4`='倒下一个，还会来更多！' WHERE `entry`=2000000788;
 UPDATE `db_script_string` SET `content_loc4`='%s胡乱地翻弄着书。' WHERE `entry`=2000000789;
 UPDATE `db_script_string` SET `content_loc4`='我把风险投资公司的文件放哪里去了？' WHERE `entry`=2000000790;
 UPDATE `db_script_string` SET `content_loc4`='嘿，我说……' WHERE `entry`=2000000791;
-UPDATE `db_script_string` SET `content_loc4`='什麽事？' WHERE `entry`=2000000792;
+UPDATE `db_script_string` SET `content_loc4`='什么事？' WHERE `entry`=2000000792;
 UPDATE `db_script_string` SET `content_loc4`='我们能休息一下吗？我的脚很痛……' WHERE `entry`=2000000793;
 UPDATE `db_script_string` SET `content_loc4`='我不知道，吉尔。如果克拉文看到我们在休息，他一定会杀了我们的！' WHERE `entry`=2000000794;
 UPDATE `db_script_string` SET `content_loc4`='唉，也许你是对的，我这就回去巡逻……' WHERE `entry`=2000000796;
@@ -210,7 +210,7 @@ UPDATE `db_script_string` SET `content_loc4`='而我下决心要找出更多相�
 UPDATE `db_script_string` SET `content_loc4`='巫妖王的势力渐渐扩大。我们的时间安排必须支持他的计划。' WHERE `entry`=2000005027;
 UPDATE `db_script_string` SET `content_loc4`='明天我们将开始训练这些大有前途的龙，别忘了带上你的玩具骨头。' WHERE `entry`=2000005028;
 UPDATE `db_script_string` SET `content_loc4`='我来自底层社会……我们那儿的人民倍受折磨。' WHERE `entry`=2000005031;
-UPDATE `db_script_string` SET `content_loc4`='嘿，谁来帮我抓住这个东西!' WHERE `entry`=2000005035;
+UPDATE `db_script_string` SET `content_loc4`='嘿，谁来帮我抓住这个东西！' WHERE `entry`=2000005035;
 UPDATE `db_script_string` SET `content_loc4`='娇气包！娇气包！' WHERE `entry`=2000005057;
 UPDATE `db_script_string` SET `content_loc4`='把洋娃娃还给她！' WHERE `entry`=2000005058;
 UPDATE `db_script_string` SET `content_loc4`='你的洋娃娃会不会游泳啊？哈哈！' WHERE `entry`=2000005059;
@@ -245,7 +245,7 @@ UPDATE `db_script_string` SET `content_loc4`='在我所在的地方，你会因�
 UPDATE `db_script_string` SET `content_loc4`='每天都要累死我！' WHERE `entry`=2000005103;
 UPDATE `db_script_string` SET `content_loc4`='有水吗，艾玛？去弄点水，艾玛？你要是再不去打水，我都快忘了水是什么样的了……' WHERE `entry`=2000005104;
 UPDATE `db_script_string` SET `content_loc4`='我只是在自言自语罢了，和这里的其它人说话的时候，我总是得不到应有的尊重。' WHERE `entry`=2000005105;
-UPDATE `db_script_string` SET `content_loc4`='我这么多年来好像都没干过比打水更有意义的事情似的!' WHERE `entry`=2000005106;
+UPDATE `db_script_string` SET `content_loc4`='我这么多年来好像都没干过比打水更有意义的事情似的！' WHERE `entry`=2000005106;
 UPDATE `db_script_string` SET `content_loc4`='我一天要走好多趟到水井那边去打水，现在的年轻人啊……' WHERE `entry`=2000005107;
 UPDATE `db_script_string` SET `content_loc4`='他们说他有时会变成乌鸦。' WHERE `entry`=2000005109;
 UPDATE `db_script_string` SET `content_loc4`='他们说他有时会变成乌鸦。' WHERE `entry`=2000005110;
@@ -318,7 +318,7 @@ UPDATE `db_script_string` SET `content_loc4`='到蓝色隐士去，那里每个�
 UPDATE `db_script_string` SET `content_loc4`='这里有暴风城最好的酒！' WHERE `entry`=2000005199;
 UPDATE `db_script_string` SET `content_loc4`='嗨！你喜欢沙司吗？沙司很美味，不是吗？' WHERE `entry`=2000005214;
 UPDATE `db_script_string` SET `content_loc4`='什么？哦，灰烬使者？没有听说过……什么？别烦我！' WHERE `entry`=2000005215;
-UPDATE `db_script_string` SET `content_loc4`='嘿，谁来帮我抓住这个东西!' WHERE `entry`=2000005218;
+UPDATE `db_script_string` SET `content_loc4`='嘿，谁来帮我抓住这个东西！' WHERE `entry`=2000005218;
 UPDATE `db_script_string` SET `content_loc4`='我该服下那透明小药丸的。' WHERE `entry`=2000005228;
 UPDATE `db_script_string` SET `content_loc4`='做这种事情才得到这么点报酬，亏大了！' WHERE `entry`=2000005229;
 UPDATE `db_script_string` SET `content_loc4`='我可负担不起这么高的税金！' WHERE `entry`=2000005234;
@@ -422,7 +422,7 @@ UPDATE `db_script_string` SET `content_loc4`='你是无法从部落战士手中�
 UPDATE `db_script_string` SET `content_loc4`='回到属于你们自己的地方去！' WHERE `entry`=2000005772;
 UPDATE `db_script_string` SET `content_loc4`='啊……部落的又一次荣耀的胜利！' WHERE `entry`=2000005773;
 UPDATE `db_script_string` SET `content_loc4`='莫戈恩，到里面去。你父亲不在了，外面可不太平。' WHERE `entry`=2000005774;
-UPDATE `db_script_string` SET `content_loc4`='$N，我会让我所有的盟友朋友都知道你今天救了我的命。给你——我需要轻装上路，请你帮忙收下我的裁缝和制革物品！再次感谢你——再见！' WHERE `entry`=2000005776;
+UPDATE `db_script_string` SET `content_loc4`='$N，我会让我所有的盟友朋友都知道你今天救了我的命。给你──我需要轻装上路，请你帮忙收下我的裁缝和制革物品！再次感谢你──再见！' WHERE `entry`=2000005776;
 UPDATE `db_script_string` SET `content_loc4`='%s击碎了那毫无生气的扭曲的爪子。' WHERE `entry`=2000005779;
 UPDATE `db_script_string` SET `content_loc4`='我们必须快点。' WHERE `entry`=2000005780;
 UPDATE `db_script_string` SET `content_loc4`='森林中的小精灵不断出现，响应自然的召唤！' WHERE `entry`=2000005781;

@@ -9,8 +9,8 @@
 		"opencc": "^1.1.3"
 	},
 	"scripts": {
-		"move-missing": "ts-node move-missing-to-translates.ts",
-		"fan2jian": "ts-node fan-to-jian.ts"
+		"move-missing": "ts-node scripts/move-missing-to-translates.ts",
+		"fan2jian": "ts-node scripts/fan-to-jian.ts"
 	},
 	"repository": {
 		"type": "git",

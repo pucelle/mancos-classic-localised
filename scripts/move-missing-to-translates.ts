@@ -2,8 +2,8 @@ import * as fs from 'fs-extra'
 import * as path from 'path'
 
 
-const fromDir = path.resolve(__dirname, 'Translations_TODO/Chinese')
-const toDir = path.resolve(__dirname, 'Translations/Chinese')
+const fromDir = path.resolve(__dirname, '../Translations_TODO/Chinese')
+const toDir = path.resolve(__dirname, '../Translations/Chinese')
 
 
 /** 将未完成的翻译从 TODO 搬迁到 Translates 中. */
@@ -29,7 +29,7 @@ async function moveFileToTranslates(fromName: string) {
 		console.warn(`${fromName} have no mapped database!`)
 	}
 
-	let re = /(UPDATE `trans_words` SET `content_loc\d+`='(?:.+?)' WHERE) .+? (\w+) : entry=(-?\d+)/gi
+	let re = /(UPDATE `trans_words` ?SET `content_loc\d+`='(?:.+?)' WHERE) .+? (\w+) : entry=(-?\d+)/gi
 	let match: RegExpExecArray | null
 	let lines: string = ''
 	let count = 0

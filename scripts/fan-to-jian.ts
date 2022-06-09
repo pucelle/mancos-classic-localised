@@ -3,7 +3,7 @@ import * as fs from 'fs-extra'
 import * as path from 'path'
 
 
-const fromDir = path.resolve(__dirname, 'Translations_TODO/Chinese')
+const fromDir = path.resolve(__dirname, '../Translations/Chinese')
 
 
 /** 将繁体替换为简体. */
