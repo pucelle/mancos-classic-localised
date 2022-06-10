@@ -400,33 +400,4 @@ UPDATE `creature_ai_texts` SET `content_loc4`='夫人！！他们妄图毁掉你
 UPDATE `creature_ai_texts` SET `content_loc4`='你吓坏了！我找到你了！' WHERE `entry`=-986;
 UPDATE `creature_ai_texts` SET `content_loc4`='什么？不，你是无法打败我的！我还会回来的！' WHERE `entry`=-987;
 
-UPDATE `creature_ai_texts` SET `content_loc4`='This will teach you to lay off the herb, $R.' WHERE `entry`=-1019;
-UPDATE `creature_ai_texts` SET `content_loc4`='Step right up! Step right up! Greetings my friend. I\'m Silas Darkmoon and I want to welcome you to the greatest show on Azeroth! It\'s the Darkmoon Faire friend, and it\'s your lucky day! Sparing no expense, we\'ve gathered wonders and treats from around the world for your delight. Whether you\'re young or old, rich or poor, the Darkmoon Faire has it all!' WHERE `entry`=-1020;
-UPDATE `creature_ai_texts` SET `content_loc4`='Amaze at the wonders that the Darkmoon Faire has uncovered in this vast and mysterious world! We have spared no expense in bringing you excitement that children of all ages will delight in!' WHERE `entry`=-1021;
-UPDATE `creature_ai_texts` SET `content_loc4`='We have it all... delicious food, strong drink, exotic artifacts, fortunes read, amazing prizes and excitement without end!' WHERE `entry`=-1022;
-UPDATE `creature_ai_texts` SET `content_loc4`='And, don\'t forget to turn in your Darkmoon Faire Prize Tickets! All it takes is five or more and you\'re on your way to the most wondrous prizes on all of Azeroth. Everybody is a winner!' WHERE `entry`=-1023;
-UPDATE `creature_ai_texts` SET `content_loc4`='You\'ve got money and we\'ve got food. What are you waiting for?' WHERE `entry`=-1025;
-UPDATE `creature_ai_texts` SET `content_loc4`='The Scarlet Crusade shall not fail in it\'s mission!' WHERE `entry`=-1030;
-UPDATE `creature_ai_texts` SET `content_loc4`='Here to visit the family? Die, fool!' WHERE `entry`=-1033;
-UPDATE `creature_ai_texts` SET `content_loc4`='The Agamand Mills is held by the Scourge, $C. Join us!' WHERE `entry`=-1034;
-UPDATE `creature_ai_texts` SET `content_loc4`='You are in the presence of a god!' WHERE `entry`=-1048;
-UPDATE `creature_ai_texts` SET `content_loc4`='Endudi Rifa!' WHERE `entry`=-1134;
-UPDATE `creature_ai_texts` SET `content_loc4`='Ahh, a new chew toy for my dogs!' WHERE `entry`=-1138;
-UPDATE `creature_ai_texts` SET `content_loc4`='I crush weaklings like you every day! Bring it on!' WHERE `entry`=-1142;
-UPDATE `creature_ai_texts` SET `content_loc4`='You will not harm Emperor Thaurissan!' WHERE `entry`=-1143;
-UPDATE `creature_ai_texts` SET `content_loc4`='Curse you! One day, vengeance will be mine!' WHERE `entry`=-1145;
-UPDATE `creature_ai_texts` SET `content_loc4`='Ach! Thank you so much I\'m free! Finally!' WHERE `entry`=-1146;
-UPDATE `creature_ai_texts` SET `content_loc4`='For Doomhammer!' WHERE `entry`=-1152;
-UPDATE `creature_ai_texts` SET `content_loc4`='You make big mistake, mon.' WHERE `entry`=-1153;
-UPDATE `creature_ai_texts` SET `content_loc4`='Here come the voodoo!' WHERE `entry`=-1154;
-UPDATE `creature_ai_texts` SET `content_loc4`='Ooooooooh... $B To the plaguelands went old Duggan, ta\' send them Scourge back inta\' th\' groun\'. $B Where th\' scent of death is on th\' wind and everythin\' is mostly brown. $B An\' when he did arrive there, what\'d his dwarf eyes see? $B A hundred crates of barley there ta\' be makin\' inta\' mead! $B But tha\' mead was cursed with th\' plague o\' death, and now old Duggan, too. $B An\' surrounded by the Lich King\'s beasts, what could old Duggan do? $B But though I feel the plague within, my hopes \'ave not yet sunk. $B If\'n I\'m gonna be Scourge anyway, I might as well be drunk!' WHERE `entry`=-1161;
-UPDATE `creature_ai_texts` SET `content_loc4`='You just got MALOWNED!' WHERE `entry`=-1196;
-UPDATE `creature_ai_texts` SET `content_loc4`='No rest, for the angry dead.' WHERE `entry`=-1203;
-UPDATE `creature_ai_texts` SET `content_loc4`='SMOTTS, I HAVE YOUR LITTLE BELT....COME GET IT!' WHERE `entry`=-1206;
-UPDATE `creature_ai_texts` SET `content_loc4`='SMOTTS! HEY, SMOTTS! COME OUT AND PLAY!' WHERE `entry`=-1207;
-UPDATE `creature_ai_texts` SET `content_loc4`='DON\'T LET THIS STATUE BE MY ONLY COMPANY, COME OUT AND PLAY!' WHERE `entry`=-1208;
-UPDATE `creature_ai_texts` SET `content_loc4`='HAVE YOU RUN OUT OF SHIPS TO SEND? WHERE IS YOUR COURAGE?' WHERE `entry`=-1211;
-UPDATE `creature_ai_texts` SET `content_loc4`='I HAVE YOUR LITTLE BELT TIED AROUND MY FINGER, SMOTTS. DON\'T YOU WANT IT BACK?' WHERE `entry`=-1213;
-UPDATE `creature_ai_texts` SET `content_loc4`='Now that you have had a chance to study imp, let us move on the next minion you will be able to summon, the voidwalker.' WHERE `entry`=-1414;
-
 SET NAMES 'latin1';

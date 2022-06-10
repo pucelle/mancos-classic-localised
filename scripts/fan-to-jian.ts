@@ -6,7 +6,7 @@ import * as path from 'path'
 const fromDir = path.resolve(__dirname, '../Translations/Chinese')
 
 
-/** 将繁体替换为简体. */
+/** 将 translations 中的繁体替换为简体. */
 async function jianToFan() {
 	let fileNames = await fs.readdir(fromDir)
 

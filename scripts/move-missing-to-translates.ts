@@ -6,7 +6,7 @@ const fromDir = path.resolve(__dirname, '../Translations_TODO/Chinese')
 const toDir = path.resolve(__dirname, '../Translations/Chinese')
 
 
-/** 将未完成的翻译从 TODO 搬迁到 Translates 中. */
+/** 将未完成的翻译从 Translates_TODO 搬迁到 Translates 中. */
 async function moveMissingToTranslates() {
 	let fileNames = await fs.readdir(fromDir)
 

@@ -7501,7 +7501,6 @@ UPDATE `locales_quest` SET `objectives_loc4`='把奉献绶带交给哨兵艾蒂�
 UPDATE `locales_quest` SET `objectives_loc4`='把奉献绶带交给哨兵艾蒂亚·轻歌，这位哨兵就可能会因为你的行动代表了我们而奖励你。' WHERE `entry`=8269;
 UPDATE `locales_quest` SET `objectives_loc4`='一些费伍德的熊怪戴着独特的头饰，可以作为你消灭他们的证据。从你获得的任何类型的头饰中给我带来一根羽毛；你给我带来每一组五根羽毛，都可以让你在木喉熊怪中获得认可。' WHERE `entry`=8466;
 UPDATE `locales_quest` SET `objectives_loc4`='一些费伍德的熊怪戴着独特的头饰，可以作为你消灭他们的证据。从你获得的任何类型的头饰中给我带来一根羽毛；你给我带来每一组五根羽毛，都可以让你在木喉熊怪中获得认可。' WHERE `entry`=8467;
-UPDATE `locales_quest` SET `objectives_loc4`='
-众所周知，冬泉谷的熊怪通常携带着灵魂念珠来抵御邪恶的灵魂。这些珠子显然没有达到此目的，因为冬泉谷本身就是腐败的化身。把那些死掉的冬泉熊怪的念珠带给我；你给我带来每一组五个念珠，都可以让你在木喉熊怪中获得认可。' WHERE `entry`=8469;
+UPDATE `locales_quest` SET `objectives_loc4`='众所周知，冬泉谷的熊怪通常携带着灵魂念珠来抵御邪恶的灵魂。这些珠子显然没有达到此目的，因为冬泉谷本身就是腐败的化身。把那些死掉的冬泉熊怪的念珠带给我；你给我带来每一组五个念珠，都可以让你在木喉熊怪中获得认可。' WHERE `entry`=8469;
 
 SET NAMES 'latin1';
