@@ -152,7 +152,7 @@ class Maker {
 				name = nameMap[name] || name
 
 				return `\`${name}\`=${value}`
-			}).join(', ')
+			}).join(' AND ')
 
 			if (sets) {
 				sql += `${comment}UPDATE \`${localesTableName}\` SET\n${sets}\n${comment}WHERE ${wheres};\n\n`
@@ -167,7 +167,7 @@ class Maker {
 
 	async make() {
 		await this.ready
-		await this.makeLocales()
+		//await this.makeLocales()
 		await this.makeBroadcast()
 		process.exit()
 	}
@@ -372,7 +372,7 @@ class Maker {
 		let broadcastPath = this.toDir + '/broadcast_text_locale.sql'
 		let broadcastSQL = await fs.pathExists(broadcastPath) ? await this.getLowerNameSQLTrans(broadcastPath) : {}
 
-		let outputs: {id: number, text: string, text1?: string}[] = []
+		let broadcasts: Map<number, {id: number, text: string, text1?: string}> = new Map()
 
 		for (let item of gossipData) {
 			let gossipId = item.menu_id + '-' + item.id
@@ -384,10 +384,12 @@ class Maker {
 			
 			let text = gossipSQL[gossipId]?.option_text
 
-			outputs.push({
-				id: broadcastId,
-				text,
-			})
+			if (text || !broadcasts.has(broadcastId)) {
+				broadcasts.set(broadcastId, {
+					id: broadcastId,
+					text,
+				})
+			}
 		}
 
 		for (let item of scriptData) {
@@ -400,10 +402,12 @@ class Maker {
 
 			let text = scriptSQL[scriptId]?.content
 
-			outputs.push({
-				id: broadcastId,
-				text,
-			})
+			if (text || !broadcasts.has(broadcastId)) {
+				broadcasts.set(broadcastId, {
+					id: broadcastId,
+					text,
+				})
+			}
 		}
 
 		for (let item of npcTextData) {
@@ -418,11 +422,12 @@ class Maker {
 				let text = npcTextSQL[npcTextId]?.['text' + i + '_0']
 				let text1 = npcTextSQL[npcTextId]?.['text' + i + '_1']
 
-				outputs.push({
-					id: broadcastId,
-					text,
-					text1,
-				})
+				if (text || !broadcasts.has(broadcastId)) {
+					broadcasts.set(broadcastId, {
+						id: broadcastId,
+						text: text || text1,
+					})
+				}
 			}
 		}
 
@@ -455,11 +460,7 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 		let count = 0
 		let femaleIds: number[] = []
 
-		outputs.sort((a: any, b: any) => {
-			return a.id - b.id
-		})
-
-		for (let item of outputs) {
+		for (let item of broadcasts.values()) {
 			let {id, text, text1} = item
 			let enText = broadcastMap[id].Text?.trim()
 			let enText1 = broadcastMap[id].Text1?.trim()
