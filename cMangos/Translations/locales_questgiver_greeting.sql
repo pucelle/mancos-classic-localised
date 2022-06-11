@@ -2,161 +2,161 @@ SET NAMES 'utf8';
 
 INSERT IGNORE INTO `locales_questgiver_greeting` (`Entry`) SELECT `Entry` FROM `questgiver_greeting`;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='A foul corruption has crept into Westfall.  While I was upholding my duty on the battlefields of Lordaeron these honest farms were overrun and made into hide-outs for thugs and murderers. The People''s Militia needs your help.'	-- A foul corruption has crept into Westfall.  While I was upholding my duty on the battlefields of Lordaeron these honest farms were overrun and made into hide-outs for thugs and murderers. The People's Militia needs your help.
--- WHERE `Entry`=234;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='肮脏的腐败已经蔓延到了西部荒野。当我在洛丹伦的战场上履行我作为士兵的职责时，这些农场已被占领并成为暴徒和杀人犯的藏身之处。人民军需要你的帮助。'	-- A foul corruption has crept into Westfall.  While I was upholding my duty on the battlefields of Lordaeron these honest farms were overrun and made into hide-outs for thugs and murderers. The People's Militia needs your help.
+WHERE `Entry`=234;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Welcome to our humble abode! It''s always nice to see a friendly face. And what strong arms you have. My husband and I are always looking for help around the farm. Now that most the good folk have left, it''s hard to find an able body to help out.'	-- Welcome to our humble abode! It's always nice to see a friendly face. And what strong arms you have. My husband and I are always looking for help around the farm. Now that most the good folk have left, it's hard to find an able body to help out.
--- WHERE `Entry`=235;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='欢迎来到我们简陋的住所！看到一张友好的脸总是那么令人高兴。你有一双强壮的手臂。我丈夫和我总是在农场周围寻求帮助，现在大多数的人都离开了，很难找到一个有能力的人来帮忙。'	-- Welcome to our humble abode! It's always nice to see a friendly face. And what strong arms you have. My husband and I are always looking for help around the farm. Now that most the good folk have left, it's hard to find an able body to help out.
+WHERE `Entry`=235;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Nothing but trouble in these parts.  I tried to tell that fool Saldean to get out while he still could but he won''t hear of it.  But I ain''t no fool.  Verna and I are gonna mosey on out as soon as we get this wagon fixed.'	-- Nothing but trouble in these parts.  I tried to tell that fool Saldean to get out while he still could but he won't hear of it.  But I ain't no fool.  Verna and I are gonna mosey on out as soon as we get this wagon fixed.
--- WHERE `Entry`=237;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='这里除了麻烦什么都没。我告诉那个傻瓜萨丁趁他还能走的时候赶紧走，他却听不进去。但我不是傻瓜，等我们修好这辆马车后，弗娜和我就会离开这里。'	-- Nothing but trouble in these parts.  I tried to tell that fool Saldean to get out while he still could but he won't hear of it.  But I ain't no fool.  Verna and I are gonna mosey on out as soon as we get this wagon fixed.
+WHERE `Entry`=237;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Sometimes I think there''s a big gray cloud in the sky, just raining down bad luck upon us. First, we''re driven off our land, and now we can''t even get out of Westfall. Everything''s a mess. Something needs to be done.'	-- Sometimes I think there's a big gray cloud in the sky, just raining down bad luck upon us. First, we're driven off our land, and now we can't even get out of Westfall. Everything's a mess. Something needs to be done.
--- WHERE `Entry`=238;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='有时我在想是不是天空中有一大朵乌云，它把厄运像雨一样降到了我们身上。我们先是被赶出了我们的土地，现在我们甚至无法离开西部荒野。一切都是一团糟，我们需要做点什么。'	-- Sometimes I think there's a big gray cloud in the sky, just raining down bad luck upon us. First, we're driven off our land, and now we can't even get out of Westfall. Everything's a mess. Something needs to be done.
+WHERE `Entry`=238;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Adventure from lands far and near $bMeeting with folks both odd and queer $bBut if of me a question you ask $bYou must first complete a simple task!'	-- Adventure from lands far and near $bMeeting with folks both odd and queer $bBut if of me a question you ask $bYou must first complete a simple task!
--- WHERE `Entry`=239;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='远方和附近的冒险者们$b来见见这里稀奇古怪的人$b如果你有一个问题要问$b一个简单任务得先完成！'	-- Adventure from lands far and near $bMeeting with folks both odd and queer $bBut if of me a question you ask $bYou must first complete a simple task!
+WHERE `Entry`=239;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Ach, it''s hard enough keeping order around here without all these new troubles popping up!  I hope you have good news, $N...'	-- Ach, it's hard enough keeping order around here without all these new troubles popping up!  I hope you have good news, $N...
--- WHERE `Entry`=240;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='啊，在没有更多麻烦出现的情况下，保持这里的秩序已经够难的了！希望你有好消息，$N……'	-- Ach, it's hard enough keeping order around here without all these new troubles popping up!  I hope you have good news, $N...
+WHERE `Entry`=240;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Hey there, friend.  My name''s Remy.$BI''m from Redridge to the east, and came here looking for business, looking for business.  You got any...got any??'	-- Hey there, friend.  My name's Remy.$BI'm from Redridge to the east, and came here looking for business, looking for business.  You got any...got any??
--- WHERE `Entry`=241;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='嘿，朋友。我叫雷米。$B我来自东边的赤脊山，来这里是为了找事情做，是为了找事情做。你有那……那个吗？？'	-- Hey there, friend.  My name's Remy.$BI'm from Redridge to the east, and came here looking for business, looking for business.  You got any...got any??
+WHERE `Entry`=241;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Aha! Good day, good day, Master $C! Come, sit down and have a drink. You have an enterprising look in your eye, and I think you''ll find speaking to me worth your time...'	-- Aha! Good day, good day, Master $C! Come, sit down and have a drink. You have an enterprising look in your eye, and I think you'll find speaking to me worth your time...
--- WHERE `Entry`=253;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='啊哈！美好的一天，美好的一天，$C大师！来，坐下来喝一杯。你的眼神看起来很有魄力，我想你会觉得花时间和我说话是值得的……'	-- Aha! Good day, good day, Master $C! Come, sit down and have a drink. You have an enterprising look in your eye, and I think you'll find speaking to me worth your time...
+WHERE `Entry`=253;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Hello, citizen.  You look like a $g man : woman; with a purpose - do you have business with the Stormwind Army?'	-- Hello, citizen.  You look like a $g man : woman; with a purpose - do you have business with the Stormwind Army?
--- WHERE `Entry`=261;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='你好，市民。你看起来像一个有目标的$g男人:女人;——你有事情要找暴风城军队吗？'	-- Hello, citizen.  You look like a $g man : woman; with a purpose - do you have business with the Stormwind Army?
+WHERE `Entry`=261;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='At ease, $c. If you are just passing though I suggest you stick to the roads and only travel by day. If your business is here in Darkshire, consider lending your abilities to the Night Watch. Our Skill is unquestionable but our numbers are small.'	-- At ease, $c. If you are just passing though I suggest you stick to the roads and only travel by day. If your business is here in Darkshire, consider lending your abilities to the Night Watch. Our Skill is unquestionable but our numbers are small.
--- WHERE `Entry`=264;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='放松，$c。如果你只是路过，我建议你保持走在大路上，并且只在白天出去。如果您来夜色镇有事情要做，请考虑用你的能力帮助守夜人。我们的能力是毋庸置疑的，但我们的人数很少。'	-- At ease, $c. If you are just passing though I suggest you stick to the roads and only travel by day. If your business is here in Darkshire, consider lending your abilities to the Night Watch. Our Skill is unquestionable but our numbers are small.
+WHERE `Entry`=264;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='I have sensed your coming for quite some time, $n.  It was written in the pattern of the stars.'	-- I have sensed your coming for quite some time, $n.  It was written in the pattern of the stars.
--- WHERE `Entry`=265;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='我感觉到你来这里有一段时间了，$n。它是用星星图案写成的。'	-- I have sensed your coming for quite some time, $n.  It was written in the pattern of the stars.
+WHERE `Entry`=265;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Welcome to the town of Darkshire.  Clerk Daltry at your service.  Can I be of some assistance?'	-- Welcome to the town of Darkshire.  Clerk Daltry at your service.  Can I be of some assistance?
--- WHERE `Entry`=267;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='欢迎来到夜色镇。书记员达尔塔为您服务。我可以为你提供帮助吗？'	-- Welcome to the town of Darkshire.  Clerk Daltry at your service.  Can I be of some assistance?
+WHERE `Entry`=267;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Hello, hello!  Welcome to my kitchen, $g sir : m''lady;!  This is where all of the Scarlet Raven Tavern''s finest delicacies are made.  Ah, just smell the wonderful aroma!'	-- Hello, hello!  Welcome to my kitchen, $g sir : m'lady;!  This is where all of the Scarlet Raven Tavern's finest delicacies are made.  Ah, just smell the wonderful aroma!
--- WHERE `Entry`=272;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='你好，你好！欢迎来到我的厨房，$g先生:女士;！这里有血鸦旅馆最好的美食。啊，快闻闻这美妙的香味！'	-- Hello, hello!  Welcome to my kitchen, $g sir : m'lady;!  This is where all of the Scarlet Raven Tavern's finest delicacies are made.  Ah, just smell the wonderful aroma!
+WHERE `Entry`=272;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Keep the door closed, $C.  Never know when the Dark Riders will be passing through again.'	-- Keep the door closed, $C.  Never know when the Dark Riders will be passing through again.
--- WHERE `Entry`=273;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='关上门，$C。我们永远不知道黑暗骑士何时会再次到来。'	-- Keep the door closed, $C.  Never know when the Dark Riders will be passing through again.
+WHERE `Entry`=273;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Hello, good $gsir:lady;.  Have a seat, and a meal if you''re hungry.  Don''t fret if I look busy with my needlework - I''m listening to you...'	-- Hello, good $gsir:lady;.  Have a seat, and a meal if you're hungry.  Don't fret if I look busy with my needlework - I'm listening to you...
--- WHERE `Entry`=278;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='你好，亲爱的$g先生:女士;。快请坐，饿了就吃点东西。如果我看起来在忙针线活，别担心——我在听你说呢……'	-- Hello, good $gsir:lady;.  Have a seat, and a meal if you're hungry.  Don't fret if I look busy with my needlework - I'm listening to you...
+WHERE `Entry`=278;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Huh?!?  Oh.  You don''t look like a Defias thief...or a member of the Night Watch.  Take pity on a poor soul, will ya?'	-- Huh?!?  Oh.  You don't look like a Defias thief...or a member of the Night Watch.  Take pity on a poor soul, will ya?
--- WHERE `Entry`=288;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='啊？！？哦。你看起来不像是迪菲亚盗贼……或者是守夜人的成员。可怜下我这个可怜的人吧，好吗？'	-- Huh?!?  Oh.  You don't look like a Defias thief...or a member of the Night Watch.  Take pity on a poor soul, will ya?
+WHERE `Entry`=288;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Eh?  Greetings, young $C.  You''re a brave one to find your way here with all those wandering creatures about!$B$BWell now that you are here, maybe you can help an old hermit...'	-- Eh?  Greetings, young $C.  You're a brave one to find your way here with all those wandering creatures about!$B$BWell now that you are here, maybe you can help an old hermit...
--- WHERE `Entry`=289;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='唉？你好，年轻的$C。你是一个勇敢的人，能在那些游荡的生物之间找到出路！$B$B好吧，既然你在这里了，或许你可以帮助一位老隐士……'	-- Eh?  Greetings, young $C.  You're a brave one to find your way here with all those wandering creatures about!$B$BWell now that you are here, maybe you can help an old hermit...
+WHERE `Entry`=289;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Hail, traveler.  My eyesight may be poor but I can sense the footsteps of a $c from a mile away.  For years I defended Stormwind with pride but once my eyes failed me, I was forced to retire.'	-- Hail, traveler.  My eyesight may be poor but I can sense the footsteps of a $c from a mile away.  For years I defended Stormwind with pride but once my eyes failed me, I was forced to retire.
--- WHERE `Entry`=294;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='万岁，旅行者。我的视力也许很差，但我能从一英里外感觉到$c的脚步声。多年来，我一直自豪地保卫着暴风城，但一旦失明，我将不得不选择退役。'	-- Hail, traveler.  My eyesight may be poor but I can sense the footsteps of a $c from a mile away.  For years I defended Stormwind with pride but once my eyes failed me, I was forced to retire.
+WHERE `Entry`=294;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Welcome to the Tower of Azora, young $C.  I am Theocritus.$B$BDo you have business with me?  Or...do I have business with you, perhaps?'	-- Welcome to the Tower of Azora, young $C.  I am Theocritus.$B$BDo you have business with me?  Or...do I have business with you, perhaps?
--- WHERE `Entry`=313;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='欢迎来到阿祖拉之塔，年轻的$C。我是塞欧克瑞图斯。$B$B你找我有事吗？或者……我找你有事？'	-- Welcome to the Tower of Azora, young $C.  I am Theocritus.$B$BDo you have business with me?  Or...do I have business with you, perhaps?
+WHERE `Entry`=313;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='I don''t have much time for idle talk, $N.  I''ve got to get this bridge rebuilt before the rains come.  I''ve finished every project on-time and under budget and I''m not about to start slipping now.'	-- I don't have much time for idle talk, $N.  I've got to get this bridge rebuilt before the rains come.  I've finished every project on-time and under budget and I'm not about to start slipping now.
--- WHERE `Entry`=341;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='我没有多少时间闲聊，$N。我得在下雨之前把这座桥修好。我已经按时且按预算完成了每个项目，所以我现在可不能松懈。'	-- I don't have much time for idle talk, $N.  I've got to get this bridge rebuilt before the rains come.  I've finished every project on-time and under budget and I'm not about to start slipping now.
+WHERE `Entry`=341;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Hail, $N!  Welcome to my humble garden.  The weather has been perfect lately.  Let us hope it holds steady for a ripe harvest.'	-- Hail, $N!  Welcome to my humble garden.  The weather has been perfect lately.  Let us hope it holds steady for a ripe harvest.
--- WHERE `Entry`=342;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='万岁，$N！欢迎来到我这个简陋的花园。最近天气真好。真希望天气能一直保持这样，这样就能获得好收成了。'	-- Hail, $N!  Welcome to my humble garden.  The weather has been perfect lately.  Let us hope it holds steady for a ripe harvest.
+WHERE `Entry`=342;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Who is this $c who goes before the Court of Lakshire in the Kingdom of Stormwind?  State your business within this township, $R.  The orc threat to the Kingdom is far too great to squander time in idle conversation.'	-- Who is this $c who goes before the Court of Lakshire in the Kingdom of Stormwind?  State your business within this township, $R.  The orc threat to the Kingdom is far too great to squander time in idle conversation.
--- WHERE `Entry`=344;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='这个出现在暴风王国湖畔镇议会厅的$c是谁？说明您来这个镇子的意图，$R。兽人给我们的王国带来了巨大的威胁，我不能在闲聊上浪费时间。'	-- Who is this $c who goes before the Court of Lakshire in the Kingdom of Stormwind?  State your business within this township, $R.  The orc threat to the Kingdom is far too great to squander time in idle conversation.
+WHERE `Entry`=344;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Well met, $C.  If you''re here for business, then get yourself a brew and we''ll have ourselves a talk.'	-- Well met, $C.  If you're here for business, then get yourself a brew and we'll have ourselves a talk.
--- WHERE `Entry`=381;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='很高兴见到你，$C。如果你来这里有事情要做，不如先给自己来上一杯，然后我们再好好谈谈。'	-- Well met, $C.  If you're here for business, then get yourself a brew and we'll have ourselves a talk.
+WHERE `Entry`=381;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='I don''t have time to chat, citizen, but if you''re willing to give us a hand against the orcs, then I''ll find a use for you.'	-- I don't have time to chat, citizen, but if you're willing to give us a hand against the orcs, then I'll find a use for you.
--- WHERE `Entry`=382;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='我没时间闲聊，市民，但如果你愿意帮助我们对抗兽人，那我会为帮你找点有用的事情做的。'	-- I don't have time to chat, citizen, but if you're willing to give us a hand against the orcs, then I'll find a use for you.
+WHERE `Entry`=382;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Do not be alarmed, $r.  I have long since passed from this land but I intend no harm to your kind.  I have witnessed too much death in my time.  My only wish now is for peace.  Perhaps you can help my cause.'	-- Do not be alarmed, $r.  I have long since passed from this land but I intend no harm to your kind.  I have witnessed too much death in my time.  My only wish now is for peace.  Perhaps you can help my cause.
--- WHERE `Entry`=392;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='不要害怕，$r。我很早以前就死了，但我对你们一族没有恶意。我一生中目睹了太多的死亡，我唯一的愿望就是世界和平。或许你能对我的事业有所帮助。'	-- Do not be alarmed, $r.  I have long since passed from this land but I intend no harm to your kind.  I have witnessed too much death in my time.  My only wish now is for peace.  Perhaps you can help my cause.
+WHERE `Entry`=392;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Hey $Gbuddy:ma''am;, do you think you could give me a hand with something?  I''m really in dire straits here...'	-- Hey $Gbuddy:ma'am;, do you think you could give me a hand with something?  I'm really in dire straits here...
--- WHERE `Entry`=415;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='嘿，$g伙计:女士;，你能帮我一把吗？我真的在这里陷入了困境……'	-- Hey $Gbuddy:ma'am;, do you think you could give me a hand with something?  I'm really in dire straits here...
+WHERE `Entry`=415;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Hail, $C.  Ill times these are, my friend, for our town is besieged!  The Blackrock Orcs attack from Stonewatch Keep, the Shadowhides loom over the Tower of Ilgalar, and the Redridge Gnoll Pack gathers strength.  I hope you''re not here for a holiday...'	-- Hail, $C.  Ill times these are, my friend, for our town is besieged!  The Blackrock Orcs attack from Stonewatch Keep, the Shadowhides loom over the Tower of Ilgalar, and the Redridge Gnoll Pack gathers strength.  I hope you're not here for a holiday...
--- WHERE `Entry`=464;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='万岁，$C。我的朋友，现在是我们最困难的时候，因为我们的镇子被包围了！黑石兽人从石堡高塔发起攻击，阴影隐匿在伊尔加拉之塔的上空，大批的赤脊豺狼人正在集结。希望你不是来这里度假的……'	-- Hail, $C.  Ill times these are, my friend, for our town is besieged!  The Blackrock Orcs attack from Stonewatch Keep, the Shadowhides loom over the Tower of Ilgalar, and the Redridge Gnoll Pack gathers strength.  I hope you're not here for a holiday...
+WHERE `Entry`=464;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Greetings, $c.  If you''re a friend of Colonel Kurzen then I''ll have you cut down where you stand! but if you''ve come to aid us, then lend an ear...'	-- Greetings, $c.  If you're a friend of Colonel Kurzen then I'll have you cut down where you stand! but if you've come to aid us, then lend an ear...
--- WHERE `Entry`=469;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='你好，$c。如果你是库尔森上校的朋友，那么我会把你劈成两半！但如果你是来帮助我们的，那么请听我说……'	-- Greetings, $c.  If you're a friend of Colonel Kurzen then I'll have you cut down where you stand! but if you've come to aid us, then lend an ear...
+WHERE `Entry`=469;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='It''s dark times that have come, $c... All too soon will we lose everything... When the Light will forsake all but those who truly walk under the Light.'	-- It's dark times that have come, $c... All too soon will we lose everything... When the Light will forsake all but those who truly walk under the Light.
--- WHERE `Entry`=633;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='黑暗的时代已经到来，$c……我们很快就会失去一切……圣光会抛弃所有人，除了那些真正信仰圣光的人。'	-- It's dark times that have come, $c... All too soon will we lose everything... When the Light will forsake all but those who truly walk under the Light.
+WHERE `Entry`=633;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='There were thieves everywhere! $b$bIt was horrible.  The cave came down on us.  I think the mining company is all dead, including my brother, the Foreman.'	-- There were thieves everywhere! $b$bIt was horrible.  The cave came down on us.  I think the mining company is all dead, including my brother, the Foreman.
--- WHERE `Entry`=656;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='到处都是小偷！$b$b这太可怕了。矿洞突然塌了，我估计矿业工会的人都死了，包括我的兄弟，工头。'	-- There were thieves everywhere! $b$bIt was horrible.  The cave came down on us.  I think the mining company is all dead, including my brother, the Foreman.
+WHERE `Entry`=656;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='The Carevin family fights for victory under the Light. My duty under the Light is to give my life in their battle against against the undead. Master Carevin has tasked me with the extermination of the vile worgen in Duskwood. Perhaps you would assit me?'	-- The Carevin family fights for victory under the Light. My duty under the Light is to give my life in their battle against against the undead. Master Carevin has tasked me with the extermination of the vile worgen in Duskwood. Perhaps you would assit me?
--- WHERE `Entry`=663;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='卡尔文一家沐浴在圣光的照耀下，他们为了胜利而战。在圣光的照耀之下，我的职责是协助他们与亡灵作战，哪怕为此献出我的生命。卡尔文主人委托我在暮色森林消灭邪恶的狼人，或许你会帮助我？'	-- The Carevin family fights for victory under the Light. My duty under the Light is to give my life in their battle against against the undead. Master Carevin has tasked me with the extermination of the vile worgen in Duskwood. Perhaps you would assit me?
+WHERE `Entry`=663;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Greetings, $c! Fine day for hunting, wouldn''t you say? I''ve been having more than a little luck with boars, myself. Perhaps you''d like a shot?'	-- Greetings, $c! Fine day for hunting, wouldn't you say? I've been having more than a little luck with boars, myself. Perhaps you'd like a shot?
--- WHERE `Entry`=714;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='你好，$c！狩猎的好日子，你说不是吗？对于狩猎野猪而言，我的运气还算不错。也许你也想来一枪试试？'	-- Greetings, $c! Fine day for hunting, wouldn't you say? I've been having more than a little luck with boars, myself. Perhaps you'd like a shot?
+WHERE `Entry`=714;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Another fine day in the jungle!  It''s going to be quite a hunt, I can feel it.  Once Barnil is done cleaning the guns, I''m taking the hunting party deep into the twisting vines.  Not such a bad way for an old war vet to spend his retirement, eh?'	-- Another fine day in the jungle!  It's going to be quite a hunt, I can feel it.  Once Barnil is done cleaning the guns, I'm taking the hunting party deep into the twisting vines.  Not such a bad way for an old war vet to spend his retirement, eh?
--- WHERE `Entry`=715;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='又是丛林里美好的一天！我能感觉到，今天会有一场漂亮的狩猎。在巴尼尔擦好枪后，我会带着狩猎队深入扭曲的藤蔓，到达丛林深处。对于一个老兵来说，以这种方式度过他的退休生活并不是个坏主意，不是吗？'	-- Another fine day in the jungle!  It's going to be quite a hunt, I can feel it.  Once Barnil is done cleaning the guns, I'm taking the hunting party deep into the twisting vines.  Not such a bad way for an old war vet to spend his retirement, eh?
+WHERE `Entry`=715;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='You watch where you step around here, $Gson:lass;.  You might not be a part of our outfit, but that doesn''t mean I won''t take a cane to you if you fall out of line!'	-- You watch where you step around here, $Gson:lass;.  You might not be a part of our outfit, but that doesn't mean I won't take a cane to you if you fall out of line!
--- WHERE `Entry`=733;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='你看你走到哪里了，$g孩子:小姑娘;。你可能并不是我们的一员，但这并不意味着如果你脱离队伍，我不会拿拐杖敲你！'	-- You watch where you step around here, $Gson:lass;.  You might not be a part of our outfit, but that doesn't mean I won't take a cane to you if you fall out of line!
+WHERE `Entry`=733;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Well, hello there. You seem like you wouldn''t be opposed to making some coin, hm? I can tell from the look in your eyes. I am Mogul Kebok, overseer of operations in Azeroth, and if it is riches you seek, perhaps I can make arrangements.'	-- Well, hello there. You seem like you wouldn't be opposed to making some coin, hm? I can tell from the look in your eyes. I am Mogul Kebok, overseer of operations in Azeroth, and if it is riches you seek, perhaps I can make arrangements.
--- WHERE `Entry`=737;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='嘿，你好。你似乎不会反对挣些小钱，是吗？我可以从你的眼神中看出来。我是科博克，艾泽拉斯的行动监督者，如果你想要获得财富，也许我可以安排。'	-- Well, hello there. You seem like you wouldn't be opposed to making some coin, hm? I can tell from the look in your eyes. I am Mogul Kebok, overseer of operations in Azeroth, and if it is riches you seek, perhaps I can make arrangements.
+WHERE `Entry`=737;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='$C, eh? I am Krazek, Baron Revilgaz''s secretary. I know everything about the goings on in this jungle and beyond. Perhaps you''d be interested in knowing the going price on oil in Ratchet? No? Looking for work, maybe? I can help you there.'	-- $C, eh? I am Krazek, Baron Revilgaz's secretary. I know everything about the goings on in this jungle and beyond. Perhaps you'd be interested in knowing the going price on oil in Ratchet? No? Looking for work, maybe? I can help you there.
--- WHERE `Entry`=773;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='$C，嗯？我是克拉兹克，大财主里维加兹的秘书。我知道这片丛林内外发生的所有事情。也许您有兴趣了解棘齿城的石油价格？不是？那么是找工作，也许吧？我都可以帮你。'	-- $C, eh? I am Krazek, Baron Revilgaz's secretary. I know everything about the goings on in this jungle and beyond. Perhaps you'd be interested in knowing the going price on oil in Ratchet? No? Looking for work, maybe? I can help you there.
+WHERE `Entry`=773;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Greetings, $G lad : lass;. I''m Grelin Whitebeard. I''m here to examine the threat posed by the growing numbers of trolls in Coldridge Valley. What have I found? It''s a bit troubling...'	-- Greetings, $G lad : lass;. I'm Grelin Whitebeard. I'm here to examine the threat posed by the growing numbers of trolls in Coldridge Valley. What have I found? It's a bit troubling...
--- WHERE `Entry`=786;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='你好, $g小伙子:小姑娘;。我是格瑞林·白须，我来这里是为了调查寒脊山谷中越来越多的巨魔所带来的威胁。我发现了什么？这有点难说……'	-- Greetings, $G lad : lass;. I'm Grelin Whitebeard. I'm here to examine the threat posed by the growing numbers of trolls in Coldridge Valley. What have I found? It's a bit troubling...
+WHERE `Entry`=786;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Hello there, $c.  Normally I''d be out on the beat looking after the folk of Stormwind, but a lot of the Stormwind guards are fighting in the other lands.  So here I am, deputized and offering bounties when I''d rather be on patrol...'	-- Hello there, $c.  Normally I'd be out on the beat looking after the folk of Stormwind, but a lot of the Stormwind guards are fighting in the other lands.  So here I am, deputized and offering bounties when I'd rather be on patrol...
--- WHERE `Entry`=823;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='你好，$c。通常我都在外面照顾暴风城的居民，但是现在大多数暴风城的守卫都在各地忙着作战。所以我来到了这里，代理这个职位并且提供赏金，尽管我宁愿去巡逻……'	-- Hello there, $c.  Normally I'd be out on the beat looking after the folk of Stormwind, but a lot of the Stormwind guards are fighting in the other lands.  So here I am, deputized and offering bounties when I'd rather be on patrol...
+WHERE `Entry`=823;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='What business brings you before the Court of Lakeshire and the Honorable Magistrate Solomon?'	-- What business brings you before the Court of Lakeshire and the Honorable Magistrate Solomon?
--- WHERE `Entry`=900;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='是什么风把你吹到湖畔镇议会厅和尊敬的所罗门镇长面前？'	-- What business brings you before the Court of Lakeshire and the Honorable Magistrate Solomon?
+WHERE `Entry`=900;
 
 -- UPDATE `locales_questgiver_greeting` SET
 -- 	`Text_loc4`='If there''s one thing time has taught me it''s that no assignment is a dull one.  Protecting the Thandol Span should have been an easy task.  But with the brunt of the army fighting alongside the alliance, we were overwhelmed here and Dun Modr has fallen.'	-- If there's one thing time has taught me it's that no assignment is a dull one.  Protecting the Thandol Span should have been an easy task.  But with the brunt of the army fighting alongside the alliance, we were overwhelmed here and Dun Modr has fallen.
