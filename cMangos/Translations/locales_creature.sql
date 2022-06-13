@@ -41,7 +41,7 @@ UPDATE `locales_creature` SET
 WHERE `Entry`=36;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暴徒'	-- Defias Thug
+	`name_loc4`='迪菲亚暴徒'	-- Defias Thug
 WHERE `Entry`=38;
 
 UPDATE `locales_creature` SET

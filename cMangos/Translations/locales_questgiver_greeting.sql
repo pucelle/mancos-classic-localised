@@ -155,32 +155,32 @@ UPDATE `locales_questgiver_greeting` SET
 WHERE `Entry`=823;
 
 UPDATE `locales_questgiver_greeting` SET
-	`Text_loc4`='是什么风把你吹到湖畔镇议会厅和尊敬的所罗门镇长面前？'	-- What business brings you before the Court of Lakeshire and the Honorable Magistrate Solomon?
+	`Text_loc4`='是什么风把你吹到湖畔镇议会厅，尊敬的所罗门镇长面前？'	-- What business brings you before the Court of Lakeshire and the Honorable Magistrate Solomon?
 WHERE `Entry`=900;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='If there''s one thing time has taught me it''s that no assignment is a dull one.  Protecting the Thandol Span should have been an easy task.  But with the brunt of the army fighting alongside the alliance, we were overwhelmed here and Dun Modr has fallen.'	-- If there's one thing time has taught me it's that no assignment is a dull one.  Protecting the Thandol Span should have been an easy task.  But with the brunt of the army fighting alongside the alliance, we were overwhelmed here and Dun Modr has fallen.
--- WHERE `Entry`=1071;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='漫长的时光教会了我一件事，那就是没有被指派任务的日子是枯燥乏味的。曾经保护萨多尔大桥是一件很容易的事，但随着与我们并肩作战的联盟军队受到冲击，我们在这里不堪重负，丹莫德也陷落了。'	-- If there's one thing time has taught me it's that no assignment is a dull one.  Protecting the Thandol Span should have been an easy task.  But with the brunt of the army fighting alongside the alliance, we were overwhelmed here and Dun Modr has fallen.
+WHERE `Entry`=1071;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='You know, I always wanted to be a Prospector, but I was born with a head for numbers and the Guild decided I would be best suited to keep the books! Studying, studying, every day of my youth...'	-- You know, I always wanted to be a Prospector, but I was born with a head for numbers and the Guild decided I would be best suited to keep the books! Studying, studying, every day of my youth...
--- WHERE `Entry`=1105;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='你知道，我一直想成为一名勘探员，但是我生来就有数字头脑，所以探险公会认为我最适合去保管书籍！学习，学习，我青春里的每一天……'	-- You know, I always wanted to be a Prospector, but I was born with a head for numbers and the Guild decided I would be best suited to keep the books! Studying, studying, every day of my youth...
+WHERE `Entry`=1105;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Well hello there, citizen. The name''s Bluntnose, Magistrate Bluntnose, to be precise. I''m charged with overseeing the well-being of Thelsamar, and believe you me, we could always use another strong set of arms around here!'	-- Well hello there, citizen. The name's Bluntnose, Magistrate Bluntnose, to be precise. I'm charged with overseeing the well-being of Thelsamar, and believe you me, we could always use another strong set of arms around here!
--- WHERE `Entry`=1139;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='你好，公民。准确地说，我的名字是钝鼻，镇长钝鼻。我负责确保塞尔萨玛的福祉，相信我，我们总是需要更多的强壮的帮手!'	-- Well hello there, citizen. The name's Bluntnose, Magistrate Bluntnose, to be precise. I'm charged with overseeing the well-being of Thelsamar, and believe you me, we could always use another strong set of arms around here!
+WHERE `Entry`=1139;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='If you''re here for the food, then welcome!  You won''t find finer dining in all of Stormwind...or Azeroth!$B$BIf you''re here on other matters, then please be brief.  I have a dozen dishes in preparation, and must care for each.'	-- If you're here for the food, then welcome!  You won't find finer dining in all of Stormwind...or Azeroth!$B$BIf you're here on other matters, then please be brief.  I have a dozen dishes in preparation, and must care for each.
--- WHERE `Entry`=1141;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='如果你来这里是为了找吃的，那么非常欢迎！在整个暴风城……或者艾泽拉斯，你都找不到比这里更好的餐厅了！$B$B如果你是来这里有其他的事情，那么请长话短说。我有十几道菜需要准备，每道菜都必须做好。'	-- If you're here for the food, then welcome!  You won't find finer dining in all of Stormwind...or Azeroth!$B$BIf you're here on other matters, then please be brief.  I have a dozen dishes in preparation, and must care for each.
+WHERE `Entry`=1141;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='If you''re willing to endure tales that will shiver your timbers and sog your skivvies, then get yourself a drink and sit for a spell...'	-- If you're willing to endure tales that will shiver your timbers and sog your skivvies, then get yourself a drink and sit for a spell...
--- WHERE `Entry`=1239;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='如果你愿意忍受那些会让你胆战心惊、冷汗直流的故事，那就给自己来杯酒，然后坐一会儿吧……'	-- If you're willing to endure tales that will shiver your timbers and sog your skivvies, then get yourself a drink and sit for a spell...
+WHERE `Entry`=1239;
 
--- UPDATE `locales_questgiver_greeting` SET
--- 	`Text_loc4`='Troggs! I swear the gods put them in this land only to torment me! Four inches deeper into the mines, then two feet back from the troggs!'	-- Troggs! I swear the gods put them in this land only to torment me! Four inches deeper into the mines, then two feet back from the troggs!
--- WHERE `Entry`=1254;
+UPDATE `locales_questgiver_greeting` SET
+	`Text_loc4`='石腭怪！我发誓上天把他们安置在这片土地上只是为了折磨我而已！矿井再往下挖四英寸，然后离石腭怪两英尺远!'	-- Troggs! I swear the gods put them in this land only to torment me! Four inches deeper into the mines, then two feet back from the troggs!
+WHERE `Entry`=1254;
 
 -- UPDATE `locales_questgiver_greeting` SET
 -- 	`Text_loc4`='Welcome to the Thunderbrew Distillery, founded by dear ol'' pappy, Arkilus Thunderbrew.  I''ve been keeping the place running ever since my older brother, Grimbooze, disappeared in a drunken haze a few harvests ago.'	-- Welcome to the Thunderbrew Distillery, founded by dear ol' pappy, Arkilus Thunderbrew.  I've been keeping the place running ever since my older brother, Grimbooze, disappeared in a drunken haze a few harvests ago.

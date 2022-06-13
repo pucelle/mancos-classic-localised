@@ -647,7 +647,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=211;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='嘉奖：$B$B传递此公文者将会被授予暴风城军队代表的头衔，以证明他/她曾全力帮助过北郡。我相信您将会发现这个人也可以帮助艾尔文森林。$B$B署奖：$B- 治安官杜格拉斯·玛克布莱德，$B暴风城防卫军，北郡'	-- COMMENDATION:The bearer of these documents is to be awarded Deputy status with the Stormwind Army, having served Northshire with eagerness and distinction.  I am confident you will find this person useful in Elwynn Forest.signed:-Marshal Douglas McBride, Stormwind Army, Northshire
+	`text_loc4`='嘉奖：$B$B传递此公文者将会被授予暴风城军队代表的头衔，以证明他/她曾全力帮助过北郡。我相信您将会发现这个人也可以帮助艾尔文森林。$B$B署名：$B- 治安官杜格拉斯·玛克布莱德，$B暴风城防卫军，北郡'	-- COMMENDATION:The bearer of these documents is to be awarded Deputy status with the Stormwind Army, having served Northshire with eagerness and distinction.  I am confident you will find this person useful in Elwynn Forest.signed:-Marshal Douglas McBride, Stormwind Army, Northshire
 WHERE `entry`=212;
 
 UPDATE `locales_page_text` SET
@@ -935,7 +935,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=293;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='值得注意的是，最近的发现表明，巨魔对跨越无尽之海的兴趣似乎非常小。虽然在整个艾泽拉斯、罗德隆和卡兹莫丹地区都有巨魔出没，但是在新大陆卡林多及南海的岛屿上却没有巨魔文明的迹象。'	-- doubt a disconcerting neighbor for the powerful trolls. It should be noted here that recent discoveries seem to suggest that the trolls had little interest in exploring the lands beyond the Great Sea. While troll species have been encountered along the length and breadth of Azeroth, Khaz Modan and Lordaeron, little evidence of their civilization has been found in the newly discovered lands of Kalimdor or upon the islands in the South Seas. Whether this demonstrates an unwillingness of 
+	`text_loc4`='值得注意的是，最近的发现表明，巨魔对跨越无尽之海的兴趣似乎非常小。虽然在整个艾泽拉斯、罗德隆和卡兹莫丹地区都有巨魔出没，但是在新大陆卡利姆多及南海的岛屿上却没有巨魔文明的迹象。'	-- doubt a disconcerting neighbor for the powerful trolls. It should be noted here that recent discoveries seem to suggest that the trolls had little interest in exploring the lands beyond the Great Sea. While troll species have been encountered along the length and breadth of Azeroth, Khaz Modan and Lordaeron, little evidence of their civilization has been found in the newly discovered lands of Kalimdor or upon the islands in the South Seas. Whether this demonstrates an unwillingness of 
 WHERE `entry`=294;
 
 UPDATE `locales_page_text` SET
@@ -1103,15 +1103,15 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=336;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='给库尔提拉斯舰队的正式命令$B$B我，普罗德摩尔上将，将率领第一批部队登陆卡林多海岸。$B$B我离开时，本尼迪克上尉负责全权指挥，并负责库尔提拉斯军队的所有内部事务。如果12个月内我还没有从提拉加德城堡传回消息，本尼迪克上尉将发动第二轮攻击。'	-- Official Orders For The Kul Tiras FleetI, Admiral Proudmoore, shall lead the first landing upon the shores of Kalimdor.Lieutenant Benedict will be second in command in my absence. All domestic Kul Tiras military matters will be handled by him. If I do not send word from Tiragarde Keep within 12 months time, Lieutenant Benedict will lead the second wave to hold the location.
+	`text_loc4`='给库尔提拉斯舰队的正式命令$B$B我，普罗德摩尔上将，将率领第一批部队登陆卡利姆多海岸。$B$B我离开时，本尼迪克上尉负责全权指挥，并负责库尔提拉斯军队的所有内部事务。如果12个月内我还没有从提拉加德城堡传回消息，本尼迪克上尉将发动第二轮攻击。'	-- Official Orders For The Kul Tiras FleetI, Admiral Proudmoore, shall lead the first landing upon the shores of Kalimdor.Lieutenant Benedict will be second in command in my absence. All domestic Kul Tiras military matters will be handled by him. If I do not send word from Tiragarde Keep within 12 months time, Lieutenant Benedict will lead the second wave to hold the location.
 WHERE `entry`=337;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='同时，我还派出了阿维罗德上尉，在卡林多大陆执行侦察任务。他的部队完成任务之后，会与我们在提拉加德城堡的部队会合。$B$B阿维罗德上尉的任务可能需要很长时间，因为这片新大陆幅员辽阔、充满危机。如果我或者本尼迪克遭遇不幸的话，阿维罗德将接手城堡的指挥权。$B$B我们会发动一轮接一轮的攻击，直到占领这座要塞！$B$B- 普罗德摩尔上将'	-- Meanwhile, I am sending Lieutenant Alverold on an exploratory mission around the continent of Kalimdor. His forces are to complete their mission and then join our forces at Tiragarde Keep.It is anticipated that Lieutenant Alverold's mission will last quite some time. The new land seems vast and dangerous. But should any misfortune befall myself or Benedict, Alverold's troops will retake the Keep.We will send wave after wave until that stronghold is ours!--Admiral Proudmoore
+	`text_loc4`='同时，我还派出了阿维罗德上尉，在卡利姆多大陆执行侦察任务。他的部队完成任务之后，会与我们在提拉加德城堡的部队会合。$B$B阿维罗德上尉的任务可能需要很长时间，因为这片新大陆幅员辽阔、充满危机。如果我或者本尼迪克遭遇不幸的话，阿维罗德将接手城堡的指挥权。$B$B我们会发动一轮接一轮的攻击，直到占领这座要塞！$B$B- 普罗德摩尔上将'	-- Meanwhile, I am sending Lieutenant Alverold on an exploratory mission around the continent of Kalimdor. His forces are to complete their mission and then join our forces at Tiragarde Keep.It is anticipated that Lieutenant Alverold's mission will last quite some time. The new land seems vast and dangerous. But should any misfortune befall myself or Benedict, Alverold's troops will retake the Keep.We will send wave after wave until that stronghold is ours!--Admiral Proudmoore
 WHERE `entry`=338;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='同时，我还派出了阿维罗德上尉，在卡林多大陆执行侦察任务。他的部队完成任务之后，会与我们在提拉加德城堡的部队会合。$B$B阿维罗德上尉的任务可能需要很长时间，因为这片新大陆幅员辽阔、充满危机。如果我或者本尼迪克遭遇不幸的话，阿维罗德将接手城堡的指挥权。$B$B我们会发动一轮接一轮的攻击，直到占领这座要塞！$B$B- 普罗德摩尔上将'	-- Meanwhile, I am sending Lieutenant Alverold on an exploratory mission around the continent of Kalimdor. His forces are to complete their mission and then join our forces at Tiragarde Keep. It is anticipated that Lieutenant Alverold's mission will last quite some time. The new land seems vast and dangerous. But should any misfortune befall myself or Benedict, Alverold's troops will retake the Keep. We will send wave after wave until that stronghold is ours! --Admiral Proudmoore 
+	`text_loc4`='同时，我还派出了阿维罗德上尉，在卡利姆多大陆执行侦察任务。他的部队完成任务之后，会与我们在提拉加德城堡的部队会合。$B$B阿维罗德上尉的任务可能需要很长时间，因为这片新大陆幅员辽阔、充满危机。如果我或者本尼迪克遭遇不幸的话，阿维罗德将接手城堡的指挥权。$B$B我们会发动一轮接一轮的攻击，直到占领这座要塞！$B$B- 普罗德摩尔上将'	-- Meanwhile, I am sending Lieutenant Alverold on an exploratory mission around the continent of Kalimdor. His forces are to complete their mission and then join our forces at Tiragarde Keep. It is anticipated that Lieutenant Alverold's mission will last quite some time. The new land seems vast and dangerous. But should any misfortune befall myself or Benedict, Alverold's troops will retake the Keep. We will send wave after wave until that stronghold is ours! --Admiral Proudmoore 
 WHERE `entry`=339;
 
 UPDATE `locales_page_text` SET
@@ -1147,7 +1147,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=351;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='菲兹普罗克主管，你提交的设备申请表已经瑞兹当克总裁批准。$B$B他让我提醒你注意风险投资公司在整个卡林多大陆的既得利益。我们在贫瘠之地的钻井和采矿业是有利可图的，而且效益卓着，但是我们还在等待你所管辖的莫高雷地区为我们提供足够的生产量。$B$B顾问团了解在如此靠近牛头人领地'	-- Supervisor Fizsprocket, please find enclosed a list of the equipment you have requisitioned, approved by President Razdunk. He has asked me to remind and to emphasize to you of the Venture Company's vested interest in setting up operations throughout Kalimdor. Our drilling and mining outposts in the Barrens have proven profitable and efficient, but we still await sufficient production numbers from Mulgore, your jurisdiction. The advisory board understands the difficulties in establishing 
+	`text_loc4`='菲兹普罗克主管，你提交的设备申请表已经瑞兹当克总裁批准。$B$B他让我提醒你注意风险投资公司在整个卡利姆多大陆的既得利益。我们在贫瘠之地的钻井和采矿业是有利可图的，而且效益卓着，但是我们还在等待你所管辖的莫高雷地区为我们提供足够的生产量。$B$B顾问团了解在如此靠近牛头人领地'	-- Supervisor Fizsprocket, please find enclosed a list of the equipment you have requisitioned, approved by President Razdunk. He has asked me to remind and to emphasize to you of the Venture Company's vested interest in setting up operations throughout Kalimdor. Our drilling and mining outposts in the Barrens have proven profitable and efficient, but we still await sufficient production numbers from Mulgore, your jurisdiction. The advisory board understands the difficulties in establishing 
 WHERE `entry`=352;
 
 UPDATE `locales_page_text` SET
@@ -1391,7 +1391,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=423;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='-- 第一天 --$B$B我从铁炉堡出发，经过漫长的旅途之后，终于到达了卡林多！$B$B巴尔莫丹的勘察员卡兹戈姆那边的进展相当不错。他今天又挖出了一块化石，挖掘站里的学者们认为这是某位古代神灵的骨骼碎片，卡兹戈姆则认为这块化石是某种神秘生物的一部分。身为这座挖掘站的管理者，他决定派我去寻找更多的碎片以揭开这个秘密。$B$B我的任务就是：到南方去寻找更多的线索。'	-- --Day One--My journey from Ironforge finally brings me to Kalimdor!Prospector Khazgorm of Bael Modan is making great headway. He uncovered a fossil today which the site scholars believe to be a bone fragment of an ancient god. Khazgorm is certain the fossil is part of a greater mystery. While he oversees the excavation site, he has made it my quest to discover more fossils to piece together the story. My assignment: head to the south in search of more clues.
+	`text_loc4`='-- 第一天 --$B$B我从铁炉堡出发，经过漫长的旅途之后，终于到达了卡利姆多！$B$B巴尔莫丹的勘察员卡兹戈姆那边的进展相当不错。他今天又挖出了一块化石，挖掘站里的学者们认为这是某位古代神灵的骨骼碎片，卡兹戈姆则认为这块化石是某种神秘生物的一部分。身为这座挖掘站的管理者，他决定派我去寻找更多的碎片以揭开这个秘密。$B$B我的任务就是：到南方去寻找更多的线索。'	-- --Day One--My journey from Ironforge finally brings me to Kalimdor!Prospector Khazgorm of Bael Modan is making great headway. He uncovered a fossil today which the site scholars believe to be a bone fragment of an ancient god. Khazgorm is certain the fossil is part of a greater mystery. While he oversees the excavation site, he has made it my quest to discover more fossils to piece together the story. My assignment: head to the south in search of more clues.
 WHERE `entry`=424;
 
 UPDATE `locales_page_text` SET
@@ -1487,7 +1487,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=447;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='药剂师林度恩：$B$B我希望这封信能安然地送达你那里，遥远的卡林多大陆需要你的帮助。$B$B现在在离我们牛头人盟友的老家莫高雷地区很近的石爪山一带出现了重大的危机，地精风险投资公司在山里肆意砍伐树木，开采矿物，这已经激怒了那里的山灵。'	-- Apothecary Lydon, I hope this letter reaches you swiftly and its bearer in good condition.  A need has arisen in distant Kalimdor that I believe will require your skills. I will be brief. A crisis develops in the Stonetalon Mountains, not far from our Tauren allies' homeland of Mulgore.  The goblin-run Venture company is mining and lumbering fiercely in those moutains, enraging the mountain spirits. 
+	`text_loc4`='药剂师林度恩：$B$B我希望这封信能安然地送达你那里，遥远的卡利姆多大陆需要你的帮助。$B$B现在在离我们牛头人盟友的老家莫高雷地区很近的石爪山一带出现了重大的危机，地精风险投资公司在山里肆意砍伐树木，开采矿物，这已经激怒了那里的山灵。'	-- Apothecary Lydon, I hope this letter reaches you swiftly and its bearer in good condition.  A need has arisen in distant Kalimdor that I believe will require your skills. I will be brief. A crisis develops in the Stonetalon Mountains, not far from our Tauren allies' homeland of Mulgore.  The goblin-run Venture company is mining and lumbering fiercely in those moutains, enraging the mountain spirits. 
 WHERE `entry`=448;
 
 UPDATE `locales_page_text` SET
@@ -1667,7 +1667,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=636;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在第一次兽人战争的一万年以前，艾泽拉斯世界上的所有文明，都孕育于一片为怒涛包围的广袤大陆。而当时的卡林多大陆上，有些奇异的种族和生物，为了生存，它们与这片初醒之地的蛮荒条件搏斗着。在这片黑暗大陆的中心，有个汹涌着炽热能量的神秘湖泊。'	-- Ten thousand years before the orcs and humans clashed in their First War, the world of Azeroth cradled only one massive continent surrounded by the infinite, raging seas. That land mass, known as Kalimdor, was home to a number of disparate races and creatures, all vying for survival amongst the savage elements of the waking world. At the dark continent's center was a mysterious lake of incandescent energies. 
+	`text_loc4`='在第一次兽人战争的一万年以前，艾泽拉斯世界上的所有文明，都孕育于一片为怒涛包围的广袤大陆。而当时的卡利姆多大陆上，有些奇异的种族和生物，为了生存，它们与这片初醒之地的蛮荒条件搏斗着。在这片黑暗大陆的中心，有个汹涌着炽热能量的神秘湖泊。'	-- Ten thousand years before the orcs and humans clashed in their First War, the world of Azeroth cradled only one massive continent surrounded by the infinite, raging seas. That land mass, known as Kalimdor, was home to a number of disparate races and creatures, all vying for survival amongst the savage elements of the waking world. At the dark continent's center was a mysterious lake of incandescent energies. 
 WHERE `entry`=637;
 
 UPDATE `locales_page_text` SET
@@ -1679,7 +1679,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=639;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='卡多雷，或称呼他们为暗夜精灵，崇拜月神伊露恩。他们相信她白天就睡在井中心闪耀之处。受井中所蕴涵的秘密与魔力吸引，早期的暗夜精灵祭司和先知总是对井充满好奇，并孜孜不倦地研究它。随着社会的发展，暗夜精灵逐渐认识辽阔卡林多大陆的其余地区，也发现了于其上生育繁衍的无数居民。'	-- The Kaldorei, or night elves as they would later be known, worshipped the moon goddess, Elune, and believed that she slept within the Well's shimmering depths during the daylight hours. The early night elf priests and seers studied the Well with an insatiable curiosity, driven to plumb its untold secrets and power. As their society grew, the night elves explored the breadth of Kalimdor and encountered its myriad denizens. 
+	`text_loc4`='卡多雷，或称呼他们为暗夜精灵，崇拜月神伊露恩。他们相信她白天就睡在井中心闪耀之处。受井中所蕴涵的秘密与魔力吸引，早期的暗夜精灵祭司和先知总是对井充满好奇，并孜孜不倦地研究它。随着社会的发展，暗夜精灵逐渐认识辽阔卡利姆多大陆的其余地区，也发现了于其上生育繁衍的无数居民。'	-- The Kaldorei, or night elves as they would later be known, worshipped the moon goddess, Elune, and believed that she slept within the Well's shimmering depths during the daylight hours. The early night elf priests and seers studied the Well with an insatiable curiosity, driven to plumb its untold secrets and power. As their society grew, the night elves explored the breadth of Kalimdor and encountered its myriad denizens. 
 WHERE `entry`=640;
 
 UPDATE `locales_page_text` SET
@@ -1687,7 +1687,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=641;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='无疑，正是暗夜精灵的好奇心，使他们和具有强大能力的神祗们相遇，并且成为了好朋友。例如塞纳留斯，一位在原始森林中颇有势力的半神。塞纳留斯很喜欢这些好奇的暗夜精灵，并花了许多时间教他们认识这个美丽而富饶的大自然。天性喜好宁静的卡多雷也对卡林多的森林产生了共鸣一般的感觉，并为大自然的和谐感到欣喜。'	-- In time, the night elves' curiosity led them to meet and befriend a number of powerful entities, not the least of which was Cenarius, a mighty demi-god of the primordial forestlands. The great-hearted Cenarius grew fond of the inquisitive night elves and spent a great deal of time teaching them about the natural world. The tranquil Kaldorei developed a strong empathy for the living forests of Kalimdor and reveled in the harmonious balance of nature. 
+	`text_loc4`='无疑，正是暗夜精灵的好奇心，使他们和具有强大能力的神祗们相遇，并且成为了好朋友。例如塞纳留斯，一位在原始森林中颇有势力的半神。塞纳留斯很喜欢这些好奇的暗夜精灵，并花了许多时间教他们认识这个美丽而富饶的大自然。天性喜好宁静的卡多雷也对卡利姆多的森林产生了共鸣一般的感觉，并为大自然的和谐感到欣喜。'	-- In time, the night elves' curiosity led them to meet and befriend a number of powerful entities, not the least of which was Cenarius, a mighty demi-god of the primordial forestlands. The great-hearted Cenarius grew fond of the inquisitive night elves and spent a great deal of time teaching them about the natural world. The tranquil Kaldorei developed a strong empathy for the living forests of Kalimdor and reveled in the harmonious balance of nature. 
 WHERE `entry`=642;
 
 UPDATE `locales_page_text` SET
@@ -1935,7 +1935,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=832;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='烧焦的奇美拉角：$B$B与烧焦的蜘蛛牙类似，卡林多石爪山地区的焦炭谷中有许多奇美拉，它们身上的烧焦的奇美拉角也有着惊人的高品质。$B$B只要把它敲平并进行妥善的处理，它就将是最具延展性的上好材料。'	-- Charred Horns:$B$BMuch like the scorched spider fangs, the charred horns of the chimaera that reside in the Charred Vale, in the Stonetalon Mountains on Kalimdor, possess a much-prized quality. $B$BPounded flat and properly treated, they become extremely resilient to physical stress.
+	`text_loc4`='烧焦的奇美拉角：$B$B与烧焦的蜘蛛牙类似，卡利姆多石爪山地区的焦炭谷中有许多奇美拉，它们身上的烧焦的奇美拉角也有着惊人的高品质。$B$B只要把它敲平并进行妥善的处理，它就将是最具延展性的上好材料。'	-- Charred Horns:$B$BMuch like the scorched spider fangs, the charred horns of the chimaera that reside in the Charred Vale, in the Stonetalon Mountains on Kalimdor, possess a much-prized quality. $B$BPounded flat and properly treated, they become extremely resilient to physical stress.
 WHERE `entry`=833;
 
 UPDATE `locales_page_text` SET
@@ -1955,7 +1955,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=851;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='烧焦的奇美拉角：$B$B与烧焦的蜘蛛牙类似，卡林多石爪山地区的焦炭谷中有许多奇美拉，它们身上的烧焦的奇美拉角也有着惊人的高品质。$B$B只要把它敲平并进行妥善的处理，它就将是最具延展性的上好材料。'	-- Charred Horns:Much like the scorched spider fangs, the charred horns of the chimaera that reside in the Charred Vale, in the Stonetalon Mountains on Kalimdor, possess a much-prized quality.  Pounded flat and properly treated, they become extremely resilient to physical stress.
+	`text_loc4`='烧焦的奇美拉角：$B$B与烧焦的蜘蛛牙类似，卡利姆多石爪山地区的焦炭谷中有许多奇美拉，它们身上的烧焦的奇美拉角也有着惊人的高品质。$B$B只要把它敲平并进行妥善的处理，它就将是最具延展性的上好材料。'	-- Charred Horns:Much like the scorched spider fangs, the charred horns of the chimaera that reside in the Charred Vale, in the Stonetalon Mountains on Kalimdor, possess a much-prized quality.  Pounded flat and properly treated, they become extremely resilient to physical stress.
 WHERE `entry`=852;
 
 UPDATE `locales_page_text` SET
@@ -2703,11 +2703,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1793;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当夜色降临时，泰坦为这片大陆起了一个名字：卡林多──「永烁星光之地」。'	-- As twilight fell on the final day of their labors, the Titans named the continent Kalimdor: "land of eternal starlight". 
+	`text_loc4`='当夜色降临时，泰坦为这片大陆起了一个名字：卡利姆多──「永烁星光之地」。'	-- As twilight fell on the final day of their labors, the Titans named the continent Kalimdor: "land of eternal starlight". 
 WHERE `entry`=1794;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='泰坦对他们在这片大陆上建立的秩序感到满意，于是决定启程离开艾泽拉斯。在他们动身之前，泰坦们决定赋予这片大陆上最强大的物种以守护卡林多、保卫这里的平衡和谐不被破坏的职责。在那个时代有许多龙族军团。'	-- Satisfied that the small world had been ordered and that their work was done, the Titans prepared to leave Azeroth. However, before they departed, they charged the greatest species of the world with the task of watching over Kalimdor, lest any force should threaten its perfect tranquility. In that age, there were many dragonflights. 
+	`text_loc4`='泰坦对他们在这片大陆上建立的秩序感到满意，于是决定启程离开艾泽拉斯。在他们动身之前，泰坦们决定赋予这片大陆上最强大的物种以守护卡利姆多、保卫这里的平衡和谐不被破坏的职责。在那个时代有许多龙族军团。'	-- Satisfied that the small world had been ordered and that their work was done, the Titans prepared to leave Azeroth. However, before they departed, they charged the greatest species of the world with the task of watching over Kalimdor, lest any force should threaten its perfect tranquility. In that age, there were many dragonflights. 
 WHERE `entry`=1795;
 
 UPDATE `locales_page_text` SET
@@ -2755,11 +2755,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1806;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在所有事情都准备妥当之后，萨格拉斯开始了他对艾泽拉斯毁灭性的入侵。燃烧军团的恶魔们从永恒之井中涌出来，对暗夜精灵的城市发动了突袭。在阿克蒙德和玛诺洛斯的率领下，燃烧军团横扫卡林多大陆，所到之处片瓦无存。'	-- Once all his preparations had been made, Sargeras began his catastrophic invasion of Azeroth. The warrior-demons of the Burning Legion stormed into the world through the Well of Eternity and laid siege to the night elves' sleeping cities. Led by Archimonde and Mannoroth, the Legion swarmed over the lands of Kalimdor, leaving only ash and sorrow in its wake. 
+	`text_loc4`='在所有事情都准备妥当之后，萨格拉斯开始了他对艾泽拉斯毁灭性的入侵。燃烧军团的恶魔们从永恒之井中涌出来，对暗夜精灵的城市发动了突袭。在阿克蒙德和玛诺洛斯的率领下，燃烧军团横扫卡利姆多大陆，所到之处片瓦无存。'	-- Once all his preparations had been made, Sargeras began his catastrophic invasion of Azeroth. The warrior-demons of the Burning Legion stormed into the world through the Well of Eternity and laid siege to the night elves' sleeping cities. Led by Archimonde and Mannoroth, the Legion swarmed over the lands of Kalimdor, leaving only ash and sorrow in its wake. 
 WHERE `entry`=1807;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='恶魔术士从天空中召唤灼热的炼狱火，它们像陨石一样撞击着暗夜精灵优雅的神殿。末日守卫穿过卡林多的原野，屠杀它们看到的一切生物。狂暴的恶魔犬在乡村中狂奔，没有遇到任何抵抗。虽然勇敢的卡多雷战士迅速组织起来为保卫他们古老的家园而战，但是在势不可挡的燃烧军团面前，他们只能节节败退。'	-- The demon warlocks called down searing infernals that crashed like hellish meteors into the graceful spires of Kalimdor's temples. A band of burning, bloodletting killers known as the Doomguard marched across Kalimdor's fields, slaughtering everyone in their path. Packs of wild, demonic felhounds ravaged the countryside unopposed. Though the brave Kaldorei warriors rushed to defend their ancient homeland, they were forced to give ground, inch by inch, before the fury of the Legion's onslaught.
+	`text_loc4`='恶魔术士从天空中召唤灼热的炼狱火，它们像陨石一样撞击着暗夜精灵优雅的神殿。末日守卫穿过卡利姆多的原野，屠杀它们看到的一切生物。狂暴的恶魔犬在乡村中狂奔，没有遇到任何抵抗。虽然勇敢的卡多雷战士迅速组织起来为保卫他们古老的家园而战，但是在势不可挡的燃烧军团面前，他们只能节节败退。'	-- The demon warlocks called down searing infernals that crashed like hellish meteors into the graceful spires of Kalimdor's temples. A band of burning, bloodletting killers known as the Doomguard marched across Kalimdor's fields, slaughtering everyone in their path. Packs of wild, demonic felhounds ravaged the countryside unopposed. Though the brave Kaldorei warriors rushed to defend their ancient homeland, they were forced to give ground, inch by inch, before the fury of the Legion's onslaught.
 WHERE `entry`=1808;
 
 UPDATE `locales_page_text` SET
@@ -2787,7 +2787,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1814;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在战斗席卷卡林多燃烧的大地时，出现了可怕的转折。具体情形已经无从考据，据说大地的巨龙守护者耐萨里奥在对抗燃烧军团的一场激战中发疯了。他的身体裂开，火焰和热量从他黑色的皮肤下喷涌而出。这条燃烧的巨龙将自己改名为死亡之翼，转身对付自己的同胞，将其他的龙族军团赶离战场。'	-- As the battle raged across the burning fields of Kalimdor, a terrible turn of events unfolded. The details of the event have been lost to time, but it is known that Neltharion, the Dragon Aspect of the Earth, went mad during a critical engagement against the Burning Legion. He began to split apart as flame and rage erupted from his dark hide. Renaming himself Deathwing, the burning dragon turned on his brethren and drove the five dragonflights from the field of battle. 
+	`text_loc4`='在战斗席卷卡利姆多燃烧的大地时，出现了可怕的转折。具体情形已经无从考据，据说大地的巨龙守护者耐萨里奥在对抗燃烧军团的一场激战中发疯了。他的身体裂开，火焰和热量从他黑色的皮肤下喷涌而出。这条燃烧的巨龙将自己改名为死亡之翼，转身对付自己的同胞，将其他的龙族军团赶离战场。'	-- As the battle raged across the burning fields of Kalimdor, a terrible turn of events unfolded. The details of the event have been lost to time, but it is known that Neltharion, the Dragon Aspect of the Earth, went mad during a critical engagement against the Burning Legion. He began to split apart as flame and rage erupted from his dark hide. Renaming himself Deathwing, the burning dragon turned on his brethren and drove the five dragonflights from the field of battle. 
 WHERE `entry`=1815;
 
 UPDATE `locales_page_text` SET
@@ -2895,7 +2895,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1850;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='泰兰德独自承担起保护卡林多大陆的重任。她挑选了她的暗夜精灵姐妹中的精英力量组成了一支强大的部队，这些受过严格训练的无畏女战士宣誓成为卡林多的保卫者，也就是哨兵部队。虽然她们喜欢在灰谷周围的茂密森林中独自巡逻，但哨兵们也有许多在紧急关头可以提供帮助的同盟。'	-- Left alone to protect Kalimdor from the dangers of the new world, Tyrande assembled a powerful fighting force from amongst her night elf sisters. The fearless, highly trained warrior women who pledged themselves to Kalimdor's defense became known as the Sentinels. Though they preferred to patrol the shadowy forests of Ashenvale on their own, they had many allies upon which they could call in times of urgency. 
+	`text_loc4`='泰兰德独自承担起保护卡利姆多大陆的重任。她挑选了她的暗夜精灵姐妹中的精英力量组成了一支强大的部队，这些受过严格训练的无畏女战士宣誓成为卡利姆多的保卫者，也就是哨兵部队。虽然她们喜欢在灰谷周围的茂密森林中独自巡逻，但哨兵们也有许多在紧急关头可以提供帮助的同盟。'	-- Left alone to protect Kalimdor from the dangers of the new world, Tyrande assembled a powerful fighting force from amongst her night elf sisters. The fearless, highly trained warrior women who pledged themselves to Kalimdor's defense became known as the Sentinels. Though they preferred to patrol the shadowy forests of Ashenvale on their own, they had many allies upon which they could call in times of urgency. 
 WHERE `entry`=1851;
 
 UPDATE `locales_page_text` SET
@@ -2907,7 +2907,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1853;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='达斯雷玛领导的高等精灵离开了卡林多并成功穿越了波涛汹涌的大漩涡。他们的船队在这破碎的世界中徘徊了许多年，在旅行中发现了无数神奇的奥秘与失落的国度。达斯雷玛为自己取了个「逐日者」的称号，不懈地寻找着一个蕴藏着大量魔法能量的地方来为他的子民建造一个新的家园。'	-- The high elves, led by Dath'Remar, left Kalimdor behind them and challenged the storms of the Maelstrom. Their fleets wandered the wreckage of the world for many long years, and they discovered mysteries and lost kingdoms along their sojourn. Dath'Remar, who had taken the name Sunstrider (or "he who walks the day"), sought out places of considerable ley power upon which to build a new homeland for his people.
+	`text_loc4`='达斯雷玛领导的高等精灵离开了卡利姆多并成功穿越了波涛汹涌的大漩涡。他们的船队在这破碎的世界中徘徊了许多年，在旅行中发现了无数神奇的奥秘与失落的国度。达斯雷玛为自己取了个「逐日者」的称号，不懈地寻找着一个蕴藏着大量魔法能量的地方来为他的子民建造一个新的家园。'	-- The high elves, led by Dath'Remar, left Kalimdor behind them and challenged the storms of the Maelstrom. Their fleets wandered the wreckage of the world for many long years, and they discovered mysteries and lost kingdoms along their sojourn. Dath'Remar, who had taken the name Sunstrider (or "he who walks the day"), sought out places of considerable ley power upon which to build a new homeland for his people.
 WHERE `entry`=1854;
 
 UPDATE `locales_page_text` SET
@@ -2919,7 +2919,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1856;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他们的身材变矮了，肌肤也失去了独特的紫色。尽管面对如此严峻的形势，高等精灵们还是见识到了许多在卡林多从没见过的奇怪物种，他们也发现了一些原始的、以在原始森林中打猎为生的人类部族，然而他们遭遇到的最可怕的威胁还是祖阿曼的那些贪婪而狡猾的森林巨魔。'	-- They also shrank somewhat in height, and their skin lost its characteristic violet hue. Despite their hardships, they encountered many wondrous creatures that had never been seen in Kalimdor. They also found tribes of primitive humans who hunted throughout the ancient forestlands. However, the direst threat they encountered were the voracious and cunning forest trolls of Zul'Aman.
+	`text_loc4`='他们的身材变矮了，肌肤也失去了独特的紫色。尽管面对如此严峻的形势，高等精灵们还是见识到了许多在卡利姆多从没见过的奇怪物种，他们也发现了一些原始的、以在原始森林中打猎为生的人类部族，然而他们遭遇到的最可怕的威胁还是祖阿曼的那些贪婪而狡猾的森林巨魔。'	-- They also shrank somewhat in height, and their skin lost its characteristic violet hue. Despite their hardships, they encountered many wondrous creatures that had never been seen in Kalimdor. They also found tribes of primitive humans who hunted throughout the ancient forestlands. However, the direst threat they encountered were the voracious and cunning forest trolls of Zul'Aman.
 WHERE `entry`=1857;
 
 UPDATE `locales_page_text` SET
@@ -2927,7 +2927,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1858;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='许多年后，高等精灵终于找到了一片可以追忆卡林多的土地。他们在大陆以北的森林深处建立了奎尔萨拉斯王国，并誓言要建立一个远比他们的卡多雷同胞更强大的帝国。不幸的是，不久以后他们就发现奎尔萨拉斯其实是建在了一座受到巨魔顶礼膜拜的巨魔古城上。巨魔们几乎在第一时间就向精灵的定居点发起了大规模的进攻。'	-- After many long years, the high elves finally found a land which was reminiscent of Kalimdor. Deep within the northern forests of the continent, they founded the kingdom of Quel'Thalas and vowed to create a mighty empire which would dwarf that of their Kaldorei cousins. Unfortunately they soon learned that Quel'Thalas was founded upon an ancient troll city that the trolls still held to be sacred. Almost immediately, the trolls began to attack the elven settlements en masse. 
+	`text_loc4`='许多年后，高等精灵终于找到了一片可以追忆卡利姆多的土地。他们在大陆以北的森林深处建立了奎尔萨拉斯王国，并誓言要建立一个远比他们的卡多雷同胞更强大的帝国。不幸的是，不久以后他们就发现奎尔萨拉斯其实是建在了一座受到巨魔顶礼膜拜的巨魔古城上。巨魔们几乎在第一时间就向精灵的定居点发起了大规模的进攻。'	-- After many long years, the high elves finally found a land which was reminiscent of Kalimdor. Deep within the northern forests of the continent, they founded the kingdom of Quel'Thalas and vowed to create a mighty empire which would dwarf that of their Kaldorei cousins. Unfortunately they soon learned that Quel'Thalas was founded upon an ancient troll city that the trolls still held to be sacred. Almost immediately, the trolls began to attack the elven settlements en masse. 
 WHERE `entry`=1859;
 
 UPDATE `locales_page_text` SET
@@ -2939,7 +2939,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1861;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='随着时间的流逝，奎尔萨拉斯逐渐成为了高等精灵不懈努力与魔法威力的象征，它美丽的宫殿保持着与卡林多古代城市一样的建造风格，与大自然的地形地貌完美地融合在了一起。奎尔萨拉斯成为了一颗精灵们渴望已久的耀眼珠宝。'	-- As time wore on, Quel'Thalas became a shining monument to the high elves' efforts and magical prowess. Its beauteous palaces were crafted in the same architectural style as the ancient halls of Kalimdor, yet they were interwoven with the natural topography of the land. Quel'Thalas had become the shining jewel that the elves had longed to create. 
+	`text_loc4`='随着时间的流逝，奎尔萨拉斯逐渐成为了高等精灵不懈努力与魔法威力的象征，它美丽的宫殿保持着与卡利姆多古代城市一样的建造风格，与大自然的地形地貌完美地融合在了一起。奎尔萨拉斯成为了一颗精灵们渴望已久的耀眼珠宝。'	-- As time wore on, Quel'Thalas became a shining monument to the high elves' efforts and magical prowess. Its beauteous palaces were crafted in the same architectural style as the ancient halls of Kalimdor, yet they were interwoven with the natural topography of the land. Quel'Thalas had become the shining jewel that the elves had longed to create. 
 WHERE `entry`=1862;
 
 UPDATE `locales_page_text` SET
@@ -3039,7 +3039,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1886;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='统治奎尔萨拉斯精灵的银月议会与达拉然玛苟克拉斯议会的领主们达成了一个秘密契约。精灵们告诉了玛苟克拉斯议会一些关于古卡林多和燃烧军团的历史，那些至今仍然威胁着这个世界的往事。他们告诉人类，只要他们还使用魔法，就得想办法保护他们的子民免受燃烧军团的威胁'	-- The Council of Silvermoon, which ruled over the elves of Quel'Thalas, entered into a secret pact with the Magocrat lords of Dalaran. The elves told the Magocrats about the history of ancient Kalimdor and of the Burning Legion, a history which still threatened the world. They informed the humans that so long as they used magic, they would need to protect their citizenry from the malicious agents of the Legion. 
+	`text_loc4`='统治奎尔萨拉斯精灵的银月议会与达拉然玛苟克拉斯议会的领主们达成了一个秘密契约。精灵们告诉了玛苟克拉斯议会一些关于古卡利姆多和燃烧军团的历史，那些至今仍然威胁着这个世界的往事。他们告诉人类，只要他们还使用魔法，就得想办法保护他们的子民免受燃烧军团的威胁'	-- The Council of Silvermoon, which ruled over the elves of Quel'Thalas, entered into a secret pact with the Magocrat lords of Dalaran. The elves told the Magocrats about the history of ancient Kalimdor and of the Burning Legion, a history which still threatened the world. They informed the humans that so long as they used magic, they would need to protect their citizenry from the malicious agents of the Legion. 
 WHERE `entry`=1887;
 
 UPDATE `locales_page_text` SET
@@ -3763,7 +3763,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2072;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='很快，克尔苏加德就凑齐了施展魔法所需的物品。在距第一次入侵艾泽拉斯世界失败的一万年后，强大的恶魔阿克蒙德和他的部队再次浮现在艾泽拉斯世界的上空。然而，达拉然并不是他们的最终目标。在基尔加丹的命令下，阿克蒙德和他的恶魔跟随天谴军团到达了卡林多，他们计划要摧毁世界之树──诺达希尔。'	-- After ten thousand years, the mighty demon Archimonde and his host emerged once again upon the world of Azeroth. Yet Dalaran was not their final destination. Under orders from Kil'jaeden himself, Archimonde and his demons followed the undead Scourge to Kalimdor, bent on destroying Nordrassil, the World Tree. 
+	`text_loc4`='很快，克尔苏加德就凑齐了施展魔法所需的物品。在距第一次入侵艾泽拉斯世界失败的一万年后，强大的恶魔阿克蒙德和他的部队再次浮现在艾泽拉斯世界的上空。然而，达拉然并不是他们的最终目标。在基尔加丹的命令下，阿克蒙德和他的恶魔跟随天谴军团到达了卡利姆多，他们计划要摧毁世界之树──诺达希尔。'	-- After ten thousand years, the mighty demon Archimonde and his host emerged once again upon the world of Azeroth. Yet Dalaran was not their final destination. Under orders from Kil'jaeden himself, Archimonde and his demons followed the undead Scourge to Kalimdor, bent on destroying Nordrassil, the World Tree. 
 WHERE `entry`=2073;
 
 UPDATE `locales_page_text` SET
@@ -3771,11 +3771,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2074;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='但是由于世代交恶，他们是不可能合作的。麦迪文不得不分别警告兽人和人类，即便是使用预言术或者欺骗的手段，也要引导他们渡过大海，前往传说中的大陆──卡林多。兽人和人类很快就遇到了隐居很久的卡多雷文明。'	-- Jaded by generations of hate, the orcs and humans would have none of it. Medivh was forced to deal with each race separately, using prophecy and trickery to guide them across the sea to the legendary land of Kalimdor. The orcs and humans soon encountered the long-hidden civilization of the Kaldorei. 
+	`text_loc4`='但是由于世代交恶，他们是不可能合作的。麦迪文不得不分别警告兽人和人类，即便是使用预言术或者欺骗的手段，也要引导他们渡过大海，前往传说中的大陆──卡利姆多。兽人和人类很快就遇到了隐居很久的卡多雷文明。'	-- Jaded by generations of hate, the orcs and humans would have none of it. Medivh was forced to deal with each race separately, using prophecy and trickery to guide them across the sea to the legendary land of Kalimdor. The orcs and humans soon encountered the long-hidden civilization of the Kaldorei. 
 WHERE `entry`=2075;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='索尔领导兽人经历了千辛万苦，在卡林多的荒地上展开了探索。尽管友善的牛头人凯恩·血蹄和强壮的牛头人战士慷慨相助，很多兽人还是开始屈服于折磨他们多年的杀戮欲。索尔的副官──葛罗·地狱吼──甚至背叛了兽人部落，屈服于这种由恶魔带来的欲望。'	-- The orcs, led by Thrall, suffered a series of setbacks on their journey across Kalimdor's Barrens. Though they befriended Cairne Bloodhoof and his mighty tauren warriors, many orcs began to succumb to the demonic bloodlust that had plagued them for years. Thrall's greatest lieutenant, Grom Hellscream, even betrayed the Horde by giving himself over to his baser instincts. 
+	`text_loc4`='索尔领导兽人经历了千辛万苦，在卡利姆多的荒地上展开了探索。尽管友善的牛头人凯恩·血蹄和强壮的牛头人战士慷慨相助，很多兽人还是开始屈服于折磨他们多年的杀戮欲。索尔的副官──葛罗·地狱吼──甚至背叛了兽人部落，屈服于这种由恶魔带来的欲望。'	-- The orcs, led by Thrall, suffered a series of setbacks on their journey across Kalimdor's Barrens. Though they befriended Cairne Bloodhoof and his mighty tauren warriors, many orcs began to succumb to the demonic bloodlust that had plagued them for years. Thrall's greatest lieutenant, Grom Hellscream, even betrayed the Horde by giving himself over to his baser instincts. 
 WHERE `entry`=2076;
 
 UPDATE `locales_page_text` SET
@@ -3887,11 +3887,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2103;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='尽管获得了战争的胜利，但艾泽拉斯的各个种族却发现他们的世界早已被战争所摧毁。天谴军团和燃烧军团毁灭了罗德隆的文明，卡林多也几乎遭受同样的命运。这里有饱经创伤的森林需要治愈，有无边的仇恨需要忘却，人民需要新的家园来定居。战争重创了每一个种族，但他们无私地合作，想要创造一个新的开端。这一切都从联盟和部落之间极为来之不易的停战开始。'	-- Though victory was theirs, the mortal races found themselves in a world shattered by war. The Scourge and the Burning Legion had all but destroyed the civilizations of Lordaeron, and had almost finished the job in Kalimdor. There were forests to heal, grudges to bury, and homelands to settle. The war had wounded each race deeply, but they had selflessly banded together to attempt a new beginning, starting with the uneasy truce between the Alliance and Horde.
+	`text_loc4`='尽管获得了战争的胜利，但艾泽拉斯的各个种族却发现他们的世界早已被战争所摧毁。天谴军团和燃烧军团毁灭了罗德隆的文明，卡利姆多也几乎遭受同样的命运。这里有饱经创伤的森林需要治愈，有无边的仇恨需要忘却，人民需要新的家园来定居。战争重创了每一个种族，但他们无私地合作，想要创造一个新的开端。这一切都从联盟和部落之间极为来之不易的停战开始。'	-- Though victory was theirs, the mortal races found themselves in a world shattered by war. The Scourge and the Burning Legion had all but destroyed the civilizations of Lordaeron, and had almost finished the job in Kalimdor. There were forests to heal, grudges to bury, and homelands to settle. The war had wounded each race deeply, but they had selflessly banded together to attempt a new beginning, starting with the uneasy truce between the Alliance and Horde.
 WHERE `entry`=2104;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='索尔领导着兽人来到卡林多大陆，他们在牛头人同胞的帮助下建立了一个新的家园。兽人们以索尔被暗杀的父亲的名字将这新的国家命名为杜洛塔，他们定居下来，并试图重建他们那一度辉煌的文明。'	-- Thrall led the orcs to the continent of Kalimdor, where they founded a new homeland with the help of their tauren brethren. Naming their new land Durotar after Thrall's murdered father, the orcs settled down to rebuild their once-glorious society.
+	`text_loc4`='索尔领导着兽人来到卡利姆多大陆，他们在牛头人同胞的帮助下建立了一个新的家园。兽人们以索尔被暗杀的父亲的名字将这新的国家命名为杜洛塔，他们定居下来，并试图重建他们那一度辉煌的文明。'	-- Thrall led the orcs to the continent of Kalimdor, where they founded a new homeland with the help of their tauren brethren. Naming their new land Durotar after Thrall's murdered father, the orcs settled down to rebuild their once-glorious society.
 WHERE `entry`=2105;
 
 UPDATE `locales_page_text` SET
@@ -3899,11 +3899,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2106;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='吉安娜·普罗德摩尔手下残存的联盟力量定居在南卡林多。他们在东海岸的尘泥沼泽附近建立了简陋的港口城市塞拉摩。人类和矮人同盟合力在这片充满危险的土地上生存，尽管杜洛塔和塞拉摩的防御力量彼此暂时停战，但这个脆弱的殖民地的平静并不意味着最终的和平。'	-- The remaining Alliance forces under Jaina Proudmoore settled in southern Kalimdor. Off the eastern coast of Dustwallow Marsh, they built the rugged port city of Theramore. There, the humans and their dwarven allies worked to survive in a land that would always be hostile to them. Though the defenders of Durotar and Theramore kept the tentative truce with one another, the fragile colonial serenity was not meant to last.
+	`text_loc4`='吉安娜·普罗德摩尔手下残存的联盟力量定居在南卡利姆多。他们在东海岸的尘泥沼泽附近建立了简陋的港口城市塞拉摩。人类和矮人同盟合力在这片充满危险的土地上生存，尽管杜洛塔和塞拉摩的防御力量彼此暂时停战，但这个脆弱的殖民地的平静并不意味着最终的和平。'	-- The remaining Alliance forces under Jaina Proudmoore settled in southern Kalimdor. Off the eastern coast of Dustwallow Marsh, they built the rugged port city of Theramore. There, the humans and their dwarven allies worked to survive in a land that would always be hostile to them. Though the defenders of Durotar and Theramore kept the tentative truce with one another, the fragile colonial serenity was not meant to last.
 WHERE `entry`=2107;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='人类和兽人间的和平被一支抵达卡林多的庞大联盟舰队所破坏。戴林·普罗德摩尔上将（吉安娜的父亲）率领这支舰队在阿尔萨斯毁灭罗德隆之前离开了那里。海上数月的航行令人筋疲力尽，但是普罗德摩尔仍然寻找着一切他可以找到的联盟幸存者。'	-- The peace between the orcs and humans was shattered by the arrival of a massive Alliance fleet in Kalimdor. The mighty fleet, under the command of Grand Admiral Daelin Proudmoore (Jaina's father), had left Lordaeron before Arthas had destroyed the kingdom. Having sailed for many grueling months, Admiral Proudmoore was searching for any Alliance survivors he could find.
+	`text_loc4`='人类和兽人间的和平被一支抵达卡利姆多的庞大联盟舰队所破坏。戴林·普罗德摩尔上将（吉安娜的父亲）率领这支舰队在阿尔萨斯毁灭罗德隆之前离开了那里。海上数月的航行令人筋疲力尽，但是普罗德摩尔仍然寻找着一切他可以找到的联盟幸存者。'	-- The peace between the orcs and humans was shattered by the arrival of a massive Alliance fleet in Kalimdor. The mighty fleet, under the command of Grand Admiral Daelin Proudmoore (Jaina's father), had left Lordaeron before Arthas had destroyed the kingdom. Having sailed for many grueling months, Admiral Proudmoore was searching for any Alliance survivors he could find.
 WHERE `entry`=2108;
 
 UPDATE `locales_page_text` SET
@@ -3983,7 +3983,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2190;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='大约16,000年以前（远早于暗夜精灵愚蠢地召来燃烧军团的年代），巨魔主宰了卡林多大陆（那个时候只有一块大陆）的大部分区域。那个时候有两个巨魔帝国并存，即东南部森林中的古拉巴什帝国，以及中部的阿曼尼帝国。'	-- About 16,000 years ago (long before the night elves foolishly called down the wrath of the Burning Legion), trolls lorded over much of Kalimdor (then a single continent). There were twin troll empires -- the Gurubashi Empire of the southeastern jungles -- and the Amani Empire of the middle forestlands. 
+	`text_loc4`='大约16,000年以前（远早于暗夜精灵愚蠢地召来燃烧军团的年代），巨魔主宰了卡利姆多大陆（那个时候只有一块大陆）的大部分区域。那个时候有两个巨魔帝国并存，即东南部森林中的古拉巴什帝国，以及中部的阿曼尼帝国。'	-- About 16,000 years ago (long before the night elves foolishly called down the wrath of the Burning Legion), trolls lorded over much of Kalimdor (then a single continent). There were twin troll empires -- the Gurubashi Empire of the southeastern jungles -- and the Amani Empire of the middle forestlands. 
 WHERE `entry`=2191;
 
 UPDATE `locales_page_text` SET
@@ -3991,7 +3991,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2192;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='古拉巴什帝国和阿曼尼帝国之间并不十分友好，但是也不经常交战。那个时候，他们共同的敌人是一个异族的帝国──阿兹亚基文明。亚基是一种有智慧的昆虫生物，它们主要统治着西部地区。这些聪明的虫族生物具有强烈的扩张欲望，并且非常邪恶。亚基虫类的目标就是消灭卡林多大陆上所有的非昆虫生物。'	-- The Gurubashi and Amani empires had little love for one another, but rarely warred against each other. At the time, their greatest common enemy was a third empire -- the civilization of Azj'Aqir. The aqir were intelligent insectoids who ruled the lands of the far west. These clever insectoids were greatly expansionistic and incredibly evil. The aqir were obsessed with eradicating all non-insect life from the fields of Kalimdor. 
+	`text_loc4`='古拉巴什帝国和阿曼尼帝国之间并不十分友好，但是也不经常交战。那个时候，他们共同的敌人是一个异族的帝国──阿兹亚基文明。亚基是一种有智慧的昆虫生物，它们主要统治着西部地区。这些聪明的虫族生物具有强烈的扩张欲望，并且非常邪恶。亚基虫类的目标就是消灭卡利姆多大陆上所有的非昆虫生物。'	-- The Gurubashi and Amani empires had little love for one another, but rarely warred against each other. At the time, their greatest common enemy was a third empire -- the civilization of Azj'Aqir. The aqir were intelligent insectoids who ruled the lands of the far west. These clever insectoids were greatly expansionistic and incredibly evil. The aqir were obsessed with eradicating all non-insect life from the fields of Kalimdor. 
 WHERE `entry`=2193;
 
 UPDATE `locales_page_text` SET
@@ -3999,7 +3999,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2194;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='两个大的亚基虫类城市出现了。它们在北部的荒原中建立了阿兹欧-奈幽，在南部沙漠中建立了安其拉。虽然巨魔们认为在卡林多大陆的地下还有其他亚基虫类的聚居地存在，但是这个观点没有被验证过。'	-- Two aqiri city-states emerged -- Azjol-Nerub in the northern wastes, and Ahn'Qiraj in the southern desert. Though the trolls suspected that there were other aqiri colonies beneath Kalimdor, their existence was never verified. 
+	`text_loc4`='两个大的亚基虫类城市出现了。它们在北部的荒原中建立了阿兹欧-奈幽，在南部沙漠中建立了安其拉。虽然巨魔们认为在卡利姆多大陆的地下还有其他亚基虫类的聚居地存在，但是这个观点没有被验证过。'	-- Two aqiri city-states emerged -- Azjol-Nerub in the northern wastes, and Ahn'Qiraj in the southern desert. Though the trolls suspected that there were other aqiri colonies beneath Kalimdor, their existence was never verified. 
 WHERE `entry`=2195;
 
 UPDATE `locales_page_text` SET
@@ -4011,7 +4011,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2197;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='即便不考虑暗夜精灵真正的起源，但他们确实在发现了永恒之井后力量大增。巨魔并没有去努力地扩张他们的领地，而暗夜精灵却创建了一个强大的帝国，并且迅速在卡林多大陆上扩张。他们使用的魔法是那些迷信的巨魔从来都没有想像过的，因此，暗夜精灵轻松地完成了邪恶的亚基虫类无法做到的事情──将两个最伟大的帝国从世界上彻底抹掉了。'	-- Aside from their shadowy origins, it is clear that the night elves came to power soon after their discovery of the Well of Eternity. Despite the trolls' attempts to keep them from expanding their territories, the night elves built up a mighty empire that expanded rapidly across primordial Kalimdor. Wielding fierce magics never before imagined by the superstitious trolls, the night elves had little trouble doing what the evil aqir could never do: topple the two greatest empires in the world. 
+	`text_loc4`='即便不考虑暗夜精灵真正的起源，但他们确实在发现了永恒之井后力量大增。巨魔并没有去努力地扩张他们的领地，而暗夜精灵却创建了一个强大的帝国，并且迅速在卡利姆多大陆上扩张。他们使用的魔法是那些迷信的巨魔从来都没有想像过的，因此，暗夜精灵轻松地完成了邪恶的亚基虫类无法做到的事情──将两个最伟大的帝国从世界上彻底抹掉了。'	-- Aside from their shadowy origins, it is clear that the night elves came to power soon after their discovery of the Well of Eternity. Despite the trolls' attempts to keep them from expanding their territories, the night elves built up a mighty empire that expanded rapidly across primordial Kalimdor. Wielding fierce magics never before imagined by the superstitious trolls, the night elves had little trouble doing what the evil aqir could never do: topple the two greatest empires in the world. 
 WHERE `entry`=2198;
 
 UPDATE `locales_page_text` SET
@@ -4023,7 +4023,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2200;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在这场恐怖的战争--先祖之战--的最后，永恒之井爆炸了。爆炸产生的震荡波撕裂了卡林多大陆。大陆的中心沉入海底，只留下一些破碎零落的陆地。'	-- At the end of this terrible conflict -- known as the War of the Ancients -- the Well of Eternity imploded. The resulting shockwave shattered the greater landmass of Kalimdor. The center of the continent was blasted beneath the sea, leaving only a small group of broken, single continents. 
+	`text_loc4`='在这场恐怖的战争--先祖之战--的最后，永恒之井爆炸了。爆炸产生的震荡波撕裂了卡利姆多大陆。大陆的中心沉入海底，只留下一些破碎零落的陆地。'	-- At the end of this terrible conflict -- known as the War of the Ancients -- the Well of Eternity imploded. The resulting shockwave shattered the greater landmass of Kalimdor. The center of the continent was blasted beneath the sea, leaving only a small group of broken, single continents. 
 WHERE `entry`=2201;
 
 UPDATE `locales_page_text` SET
@@ -4867,7 +4867,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2793;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='一支古老，敏锐的种族－－其拉，想要争夺卡林多大陆的统治权。而自负、专制的鹿盔和他的暗夜精灵军队正式与他们展开了激战。'	-- An ancient sentient insectoid race known as the Qiraji vied for dominance over much of Kalimdor at one point in time. It was the pompous, imperialistic Staghelm and his army of night elves who met the Qiraji head on in battle.
+	`text_loc4`='一支古老，敏锐的种族－－其拉，想要争夺卡利姆多大陆的统治权。而自负、专制的鹿盔和他的暗夜精灵军队正式与他们展开了激战。'	-- An ancient sentient insectoid race known as the Qiraji vied for dominance over much of Kalimdor at one point in time. It was the pompous, imperialistic Staghelm and his army of night elves who met the Qiraji head on in battle.
 WHERE `entry`=2794;
 
 UPDATE `locales_page_text` SET

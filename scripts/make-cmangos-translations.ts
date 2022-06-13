@@ -1,12 +1,15 @@
 import * as mysql from 'mysql2/promise'
 import * as path from 'path'
 import * as fs from 'fs-extra'
+import {makeGroup, makeIndex} from './utils'
+import {getEditSimilarity} from './edit-distance'
 
 
 class Maker {
 
 	ready: Promise<void>
-	private connection!: mysql.Connection
+	private cMangosConnection!: mysql.Connection
+	private mangosConnection!: mysql.Connection
 	private fromDir = path.resolve(__dirname, '../Translations/Chinese')
 	private toDir = path.resolve(__dirname, '../cMangos/Translations')
 
@@ -17,11 +20,19 @@ class Maker {
 	private async init() {
 
 		// 数据库连接.
-		this.connection = await mysql.createConnection({
+		this.cMangosConnection = await mysql.createConnection({
 			host:'localhost',
-			user: 'root',
-			password: '123456',
+			user: 'mangos',
+			password: 'mangos',
 			database: 'classicmangos',
+		})
+
+		// 数据库连接.
+		this.mangosConnection = await mysql.createConnection({
+			host:'localhost',
+			user: 'mangos',
+			password: 'mangos',
+			database: 'mangos0',
 		})
 
 		await fs.ensureDir(this.toDir)
@@ -80,8 +91,14 @@ class Maker {
 	}
 
 	/** 获得表中的数据. */
-	private async getTableData(tableName: string, idNames: string[], columnNames: string[], where: string | null = null): Promise<any[]> {
-		const [rows] = await this.connection.execute(
+	private async getTableData<K1 extends string, K2 extends string>(
+		tableName: string,
+		idNames: K1[],
+		columnNames: K2[],
+		where: string | null = null,
+		conn = this.cMangosConnection
+	): Promise<({[key in K1]: number} & {[key in K2]: string | number | null})[]> {
+		const [rows] = await conn.execute(
 			`select ${[...idNames, ...columnNames].join(', ')} from ${tableName}${where ? ' ' + where: ''} order by ${idNames.join(', ')};`
 		)
 
@@ -134,7 +151,7 @@ class Maker {
 			let comment = translated ? '' : '-- '
 
 			let sets = columnNames.map(name => {
-				let enValue = item[name]
+				let enValue = item[name] as unknown as string
 				let value = enValue
 				if (!value) {
 					return null
@@ -167,12 +184,13 @@ class Maker {
 
 	async make() {
 		await this.ready
-		//await this.makeLocales()
+		await this.makeLocales()
 		await this.makeBroadcast()
 		process.exit()
 	}
 
-	private async makeLocales() {
+	async makeLocales() {
+
 		// NPC 文本, 不使用.
 		// await this.makeOneTransSQL(
 		// 	'Chinese_Creature_AI_Texts.sql',
@@ -181,12 +199,33 @@ class Maker {
 		// 	['entry', 'content_default']
 		// )
 
-		// 脚本, 不使用
+		// 脚本, 不使用.
 		// await this.makeOneTransSQL(
 		// 	'Chinese_db_script_string.sql',
 		// 	'dbscript_string',
 		// 	'dbscript_string',
 		// 	['entry', 'content_default']
+		// )
+
+		// // 脚本字符, 不使用.
+		// await this.makeOneTransSQL(
+		// 	'Chinese_Script_Texts.sql',
+		// 	'script_texts',
+		// 	'script_texts',
+		// 	['entry'],
+		// 	['content_default'],
+		// 	{content_default: 'content'},
+		// 	'where broadcast_text_id=0'
+		// )
+
+		// NPC 谈话, 不使用.
+		// await this.makeOneTransSQL(
+		// 	'Chinese_Gossip_texts.sql',
+		// 	'gossip_texts',
+		// 	'gossip_texts',
+		// 	['entry'],
+		// 	['content_default'],
+		// 	{content_default: 'content'}
 		// )
 		
 
@@ -219,16 +258,6 @@ class Maker {
 			['option_text'],
 			{},
 			'where option_broadcast_text=0'
-		)
-
-		// NPC 谈话.
-		await this.makeOneTransSQL(
-			'Chinese_Gossip_texts.sql',
-			'gossip_texts',
-			'gossip_texts',
-			['entry'],
-			['content_default'],
-			{content_default: 'content'}
 		)
 
 		// 物品名称.
@@ -292,17 +321,6 @@ class Maker {
 
 		// 脚本字符.
 		await this.makeOneTransSQL(
-			'Chinese_Script_Texts.sql',
-			'script_texts',
-			'script_texts',
-			['entry'],
-			['content_default'],
-			{content_default: 'content'},
-			'where broadcast_text_id=0'
-		)
-
-		// 脚本字符.
-		await this.makeOneTransSQL(
 			null,
 			'areatrigger_teleport',
 			'locales_areatrigger_teleport',
@@ -341,95 +359,22 @@ class Maker {
 	}
 
 	/** 生成 Broadcast 的翻译. */
-	private async makeBroadcast() {
-		let gossipData = await this.getTableData('gossip_menu_option', ['menu_id', 'id'], ['option_broadcast_text'])
-		let scriptData = await this.getTableData('script_texts', ['entry'], ['broadcast_text_id'])
-
-		let npcTextData = await this.getTableData('npc_text_broadcast_text', ['Id'], [
-			'BroadcastTextId0',
-			'BroadcastTextId1',
-			'BroadcastTextId2',
-			'BroadcastTextId3',
-			'BroadcastTextId4',
-			'BroadcastTextId5',
-			'BroadcastTextId6',
-			'BroadcastTextId7',
-		])
-
-		let broadcastData = await this.getTableData('broadcast_text', ['Id'], [
-			'Text',
-			'Text1',
-		])
-
-		let broadcastMap: Record<string, {Id: number, Text: string, Text1: string}> = {}
-		for (let item of broadcastData) {
-			broadcastMap[item.Id] = item
-		}
-
-		let gossipSQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_gossip_menu_option.sql')
-		let scriptSQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_Script_Texts.sql')
-		let npcTextSQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_NpcText.sql')
+	async makeBroadcast() {
 		let broadcastPath = this.toDir + '/broadcast_text_locale.sql'
 		let broadcastSQL = await fs.pathExists(broadcastPath) ? await this.getLowerNameSQLTrans(broadcastPath) : {}
+		let broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}> = new Map()
 
-		let broadcasts: Map<number, {id: number, text: string, text1?: string}> = new Map()
+		let broadcastTrans = await this.getTableData('broadcast_text', ['Id'], [
+			'Text',
+			'Text1',
+		]) as {Id: number, Text: string, Text1: string}[]
 
-		for (let item of gossipData) {
-			let gossipId = item.menu_id + '-' + item.id
-			let broadcastId = item.option_broadcast_text
-
-			if (!broadcastId) {
-				continue
-			}
-			
-			let text = gossipSQL[gossipId]?.option_text
-
-			if (text || !broadcasts.has(broadcastId)) {
-				broadcasts.set(broadcastId, {
-					id: broadcastId,
-					text,
-				})
-			}
-		}
-
-		for (let item of scriptData) {
-			let scriptId = item.entry
-			let broadcastId = item.broadcast_text_id
-
-			if (!broadcastId) {
-				continue
-			}
-
-			let text = scriptSQL[scriptId]?.content
-
-			if (text || !broadcasts.has(broadcastId)) {
-				broadcasts.set(broadcastId, {
-					id: broadcastId,
-					text,
-				})
-			}
-		}
-
-		for (let item of npcTextData) {
-			let npcTextId = item.Id
-
-			for (let i = 0; i < 7; i++) {
-				let broadcastId = item['BroadcastTextId' + i]
-				if (!broadcastId) {
-					continue
-				}
-
-				let text = npcTextSQL[npcTextId]?.['text' + i + '_0']
-				let text1 = npcTextSQL[npcTextId]?.['text' + i + '_1']
-
-				if (text || !broadcasts.has(broadcastId)) {
-					broadcasts.set(broadcastId, {
-						id: broadcastId,
-						text: text || text1,
-					})
-				}
-			}
-		}
+		let broadcastTransMap = makeIndex(broadcastTrans, (item) => [item.Id, item])
+		
+		await this.makeGossipBroadcast(broadcasts)
+		await this.makeScriptBroadcast(broadcasts)
+		await this.makeNPCBroadcast(broadcasts)
+		await this.makeCreatureAIBroadcasts(broadcasts, broadcastTransMap)
 
 		let sql = `SET NAMES 'utf8';
 
@@ -459,11 +404,19 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 
 		let count = 0
 		let femaleIds: number[] = []
+		let keys = [...broadcasts.keys()]
+		keys.sort((a, b) => a - b)
 
-		for (let item of broadcasts.values()) {
-			let {id, text, text1} = item
-			let enText = broadcastMap[id].Text?.trim()
-			let enText1 = broadcastMap[id].Text1?.trim()
+		for (let key of keys) {
+			let item = broadcasts.get(key)!
+			let {id, text, text1, npcIds} = item
+
+			if (!broadcastTransMap[id]) {
+				continue
+			}
+
+			let enText = broadcastTransMap[id].Text?.trim()
+			let enText1 = broadcastTransMap[id].Text1?.trim()
 			let enValue = enText || enText1
 
 			if (!enValue) {
@@ -474,10 +427,11 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 			value = this.encodeText(value)
 
 			let translated = !!(text || text1)
-			let comment = translated ? '' : '-- '
-			let sets = comment + `\t\`Text_lang\`='${value}'` + '\t-- ' + enValue
+			let commentPrefix = translated ? '' : '-- '
+			let npcIdComment = npcIds && npcIds.length > 0 ? npcIds.join(' ') + ', ' : ''
+			let sets = commentPrefix + `\t\`Text_lang\`='${value}'` + '\t-- ' + npcIdComment + enValue
 	
-			sql += `${comment}UPDATE \`broadcast_text_locale\` SET\n${sets}\n${comment}WHERE \`Id\`=${id} AND \`Locale\`='zhCN';\n\n`
+			sql += `${commentPrefix}UPDATE \`broadcast_text_locale\` SET\n${sets}\n${commentPrefix}WHERE \`Id\`=${id} AND \`Locale\`='zhCN';\n\n`
 
 			if (enText1) {
 				femaleIds.push(id)
@@ -493,8 +447,227 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 		await fs.writeFile(this.toDir + '/broadcast_text_locale.sql', sql)
 		console.log(`\`broadcast_text_locale\` includes ${count} translations.`)
 	}
+
+	/** 生成 Broadcast 的翻译. */
+	private async makeGossipBroadcast(broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>) {
+		let gossipData = await this.getTableData('gossip_menu_option', ['menu_id', 'id'], ['option_broadcast_text'])
+		let gossipCreatureMap = makeGroup(await this.getTableData('creature_template', ['Entry'], ['GossipMenuId']), item => [item.GossipMenuId!, item.Entry])
+		let gossipSQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_gossip_menu_option.sql')
+		
+		for (let item of gossipData) {
+			let gossipId = item.menu_id + '-' + item.id
+			let broadcastId = Number(item.option_broadcast_text)
+
+			if (!broadcastId) {
+				continue
+			}
+			
+			let text = gossipSQL[gossipId]?.option_text
+
+			if (text || !broadcasts.has(broadcastId)) {
+				broadcasts.set(broadcastId, {
+					id: broadcastId,
+					text,
+					npcIds: gossipCreatureMap[item.menu_id],
+				})
+			}
+		}
+	}
+
+	/** 生成 Broadcast 的翻译. */
+	private async makeScriptBroadcast(broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>) {
+		let scriptData = await this.getTableData('script_texts', ['entry'], ['broadcast_text_id'])
+		let scriptSQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_Script_Texts.sql')
+
+		for (let item of scriptData) {
+			let scriptId = item.entry
+			let broadcastId = item.broadcast_text_id as number
+
+			if (!broadcastId) {
+				continue
+			}
+
+			let text = scriptSQL[scriptId]?.content
+
+			if (text || !broadcasts.has(broadcastId)) {
+				broadcasts.set(broadcastId, {
+					id: broadcastId,
+					text,
+					npcIds: [],
+				})
+			}
+		}
+	}
+
+	/** 生成 Broadcast 的翻译. */
+	private async makeNPCBroadcast(broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>) {
+		let npcTextData = await this.getTableData('npc_text_broadcast_text', ['Id'], [
+			'BroadcastTextId0',
+			'BroadcastTextId1',
+			'BroadcastTextId2',
+			'BroadcastTextId3',
+			'BroadcastTextId4',
+			'BroadcastTextId5',
+			'BroadcastTextId6',
+			'BroadcastTextId7',
+		])
+
+		let npcTextNPCGUIDMap =  makeGroup(await this.getTableData('npc_gossip', ['npc_guid'], ['textid']), item => [item.textid as number, item.npc_guid])
+		let npcGUIDCreatureIdMap =  makeIndex(await this.getTableData('creature', ['guid'], ['id']), item => [item.guid, item.id as number])
+		let npcTextSQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_NpcText.sql')
+
+		for (let item of npcTextData) {
+			let npcTextId = item.Id
+
+			for (let i = 0; i < 7; i++) {
+				let broadcastId = Number(item['BroadcastTextId' + i as keyof typeof item])
+				if (!broadcastId) {
+					continue
+				}
+
+				let text = npcTextSQL[npcTextId]?.['text' + i + '_0']
+				let text1 = npcTextSQL[npcTextId]?.['text' + i + '_1']
+
+				if (text || !broadcasts.has(broadcastId)) {
+					let npcIds = npcTextNPCGUIDMap[npcTextId]?.map(guid => npcGUIDCreatureIdMap[guid]).filter(v => v) || []
+
+					broadcasts.set(broadcastId, {
+						id: broadcastId,
+						text: text || text1,
+						npcIds,
+					})
+				}
+			}
+		}
+	}
+
+	/** 创建从 broadcast 到 Mangos 的 creature ai 的 id. */
+	private async makeCreatureAIBroadcasts(
+		broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>,
+		broadcastTransMap: Record<number, {Text: string, Text1: string}>,
+	) {
+
+		let createAIScripts = (await this.getTableData('creature_ai_scripts', ['creature_id'], [
+			'action1_type',
+			'action1_param1',
+			'action1_param2',
+			'action1_param3',
+			'action2_type',
+			'action2_param1',
+			'action2_param2',
+			'action2_param3',
+			'action3_type',
+			'action3_param1',
+			'action3_param2',
+			'action3_param3',
+		]))
+		.map(item => {
+			let ids: number[] = [
+				item.action1_type === 1 ? [item.action1_param1, item.action1_param2, item.action1_param3] as number[] : [],
+				item.action2_type === 1 ? [item.action2_param1, item.action2_param2, item.action2_param3] as number[] : [],
+				item.action3_type === 1 ? [item.action3_param1, item.action3_param2, item.action3_param3] as number[] : [],
+			].flat().filter(v => v)
+
+			return {
+				creature_id: item.creature_id,
+				ids,
+			}
+		})
+		.filter(item => item.ids.length > 0)
+
+		let mangosCreateAIScripts = (await this.getTableData('creature_ai_scripts', ['creature_id'], [
+			'action1_type',
+			'action1_param1',
+			'action1_param2',
+			'action1_param3',
+			'action2_type',
+			'action2_param1',
+			'action2_param2',
+			'action2_param3',
+			'action3_type',
+			'action3_param1',
+			'action3_param2',
+			'action3_param3',
+		], '', this.mangosConnection))
+		.map(item => {
+			let ids: number[] = [
+				item.action1_type === 1 ? [item.action1_param1, item.action1_param2, item.action1_param3] as number[] : [],
+				item.action2_type === 1 ? [item.action2_param1, item.action2_param2, item.action2_param3] as number[] : [],
+				item.action3_type === 1 ? [item.action3_param1, item.action3_param2, item.action3_param3] as number[] : [],
+			].flat().filter(v => v)
+
+			return {
+				creature_id: item.creature_id,
+				ids,
+			}
+		})
+		.filter(item => item.ids.length > 0)
+
+		let mangosCreateAIScriptMap = makeGroup(mangosCreateAIScripts, (item) => [item.creature_id, item.ids])
+
+		let mangosCreateAITextsMap = makeIndex(
+			(await this.getTableData('creature_ai_texts', ['entry'], [
+				'content_default',
+			], '', this.mangosConnection))
+			.filter(item => item.content_default),
+			item => [item.entry, item.content_default]
+		) as Record<number, string>
+
+		let creatureAISQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_Creature_AI_Texts.sql')
+		let broadcastIdRawIdMap: Record<number, {rawTextId: number, priority: number}> = {}
+
+		for (let item of createAIScripts) {
+			let creatureId = item.creature_id
+			let broadcastIds = item.ids
+			let rawTextIds = mangosCreateAIScriptMap[creatureId]?.flat() || []
+
+			for (let broadcastId of broadcastIds) {
+				let enValue = broadcastTransMap[broadcastId].Text || broadcastTransMap[broadcastId].Text1
+	
+				for (let rawTextId of rawTextIds) {
+					let candidateValue = mangosCreateAITextsMap[rawTextId]
+					let priority = getEditSimilarity(enValue, candidateValue)
+
+					if ((broadcastIdRawIdMap[broadcastId]?.priority || 0) < priority) {
+						broadcastIdRawIdMap[broadcastId] = {
+							priority,
+							rawTextId,
+						}
+					}
+				}
+			}
+		}
+
+		for (let item of createAIScripts) {
+			let creatureId = item.creature_id
+			let broadcastIds = item.ids
+
+			for (let broadcastId of broadcastIds) {
+				let raw = broadcastIdRawIdMap[broadcastId]
+
+				let cnText: string | undefined = undefined
+				if (raw && raw.priority > 0.8) {
+					cnText = creatureAISQL[raw.rawTextId]?.content
+				}
+
+				if (cnText || !broadcasts.has(broadcastId)) {
+					broadcasts.set(broadcastId, {
+						id: broadcastId,
+						text: cnText,
+						npcIds: [creatureId],
+					})
+				}
+			}
+		}
+	}
 }
 
 
 let m = new Maker()
-m.make()
+
+if (process.argv[2] === '--broadcast') {
+	m.makeBroadcast()
+}
+else {
+	m.make()
+}
