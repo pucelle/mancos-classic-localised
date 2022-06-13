@@ -13,7 +13,9 @@
 		"move-missing": "ts-node scripts/move-missing-to-translates.ts",
 		"fan2jian": "ts-node scripts/fan-to-jian.ts",
 		"make-trans": "ts-node scripts/make-cmangos-translations.ts",
-		"make-broadcast-trans": "ts-node scripts/make-cmangos-translations.ts --broadcast"
+		"make-broadcast-trans": "ts-node scripts/make-cmangos-translations.ts -broadcast",
+		"make-locales-trans": "ts-node scripts/make-cmangos-translations.ts -locales",
+		"compare-trans": "ts-node scripts/compare-cmangos-translations.ts"
 	},
 	"repository": {
 		"type": "git",

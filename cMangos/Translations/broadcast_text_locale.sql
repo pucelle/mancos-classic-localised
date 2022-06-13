@@ -39,28 +39,64 @@ WHERE `Id`=11 AND `Locale`='zhCN';
 -- WHERE `Id`=45 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Here fishy fishy. . . come to papa.'	-- 348, Here fishy fishy. . . come to papa.
+-- WHERE `Id`=46 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Pull up a stool and have a drink!'	-- 346, Pull up a stool and have a drink!
 -- WHERE `Id`=47 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='The bottles are dusty but the liquor goes down clean!'	-- 346, The bottles are dusty but the liquor goes down clean!
+-- WHERE `Id`=48 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Where are those reinforcements from Stormwind?  Heavy Blackrock activity has been reported in the East.'	-- 903, Where are those reinforcements from Stormwind?  Heavy Blackrock activity has been reported in the East.
 -- WHERE `Id`=51 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Still no sign of the 2nd Battalion from Stormwind.  Reports are coming in of Shadowhide movement in the Northeast.'	-- 903, Still no sign of the 2nd Battalion from Stormwind.  Reports are coming in of Shadowhide movement in the Northeast.
+-- WHERE `Id`=52 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Marshal Marris expects the reserve from Stormwind any time now. . . .'	-- 903, Marshal Marris expects the reserve from Stormwind any time now. . . .
+-- WHERE `Id`=53 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Don''t worry, Old Blanchy, we''ll get you something to eat soon. . .'	-- 238, Don't worry, Old Blanchy, we'll get you something to eat soon. . .
 -- WHERE `Id`=54 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='I never thought the day would come that I''d leave my homeland of Westfall. . . .'	-- 238, I never thought the day would come that I'd leave my homeland of Westfall. . . .
+-- WHERE `Id`=55 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Can''t believe the forsaken wagon broke down.  Ain''t no luck to be had in this land. . . .'	-- 237, Can't believe the forsaken wagon broke down.  Ain't no luck to be had in this land. . . .
 -- WHERE `Id`=56 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='We''ll be out of here just as soon as I get this wagon fixed. . . .'	-- 237, We'll be out of here just as soon as I get this wagon fixed. . . .
+-- WHERE `Id`=57 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Now how am I supposed to get those mechanical wretches out of my fields?'	-- 233, Now how am I supposed to get those mechanical wretches out of my fields?
 -- WHERE `Id`=58 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='A bunch of thugs and thieves aren''t going to get me to leave my land!'	-- 233, A bunch of thugs and thieves aren't going to get me to leave my land!
+-- WHERE `Id`=59 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='They might have run all the other farmers off, but the Saldean''s will never leave Westfall.'	-- 233, They might have run all the other farmers off, but the Saldean's will never leave Westfall.
+-- WHERE `Id`=60 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Stay on the roads.  The forest is overrun with undead.'	-- 264, Stay on the roads.  The forest is overrun with undead.
 -- WHERE `Id`=61 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Fear not.  The Night Watch will rid the land of this foul taint soon enough.'	-- 264, Fear not.  The Night Watch will rid the land of this foul taint soon enough.
+-- WHERE `Id`=62 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='亡灵在这里四处横行，暴风城的军队在哪里？'	-- 263, Undead are crawling all over the land.  Where is the Stormwind Army?
@@ -71,6 +107,14 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=67 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='暮色森林的议会必须行动起来，空气中已经充满了邪恶的气息。'	-- 269, The Council of Duskwood must take action.  Evil lingers in the air.
+WHERE `Id`=68 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='夜色镇的人民对议会充满了期望，我们不能让他们受到邪恶生物的伤害。'	-- 269, The people of Darkshire expect more from the Council.  We cannot let them suffer from this unholy wrath which plagues us.
+WHERE `Id`=69 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='争吵不休一点用都没有，我们需要采取行动。'	-- 269, Constant bickering will get us nowhere.  We need to take action.
 WHERE `Id`=70 AND `Locale`='zhCN';
 
@@ -78,9 +122,17 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='从暴风城传来的消息似乎不太妙……'	-- 271, The news from Stormwind does not bode well. . . .
 WHERE `Id`=71 AND `Locale`='zhCN';
 
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='看来我们已经被暴风城完全抛弃了。'	-- 271, Our cause falls on deaf ears beyond the thick, stone walls of Stormwind.
+WHERE `Id`=72 AND `Locale`='zhCN';
+
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='The stars will be in perfect form tonight!'	-- 4198, The stars will be in perfect form tonight!
 -- WHERE `Id`=77 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='There is something greater than magic at work in the night sky.  One day they''ll listen to me. . . .'	-- 4198, There is something greater than magic at work in the night sky.  One day they'll listen to me. . . .
+-- WHERE `Id`=79 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='This dark taint is downright bad for business.'	-- 273, This dark taint is downright bad for business.
@@ -89,6 +141,18 @@ WHERE `Id`=71 AND `Locale`='zhCN';
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='If your glass is full may it be again!'	-- 295, If your glass is full may it be again!
 -- WHERE `Id`=84 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Welcome to the Lion''s Pride Inn.  Make yourself at home!'	-- 295, Welcome to the Lion's Pride Inn.  Make yourself at home!
+-- WHERE `Id`=85 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='太多事情要做，太多事情了！时间去哪了？'	-- 295, So much to do, so much to do!  Where does the time go?
+WHERE `Id`=86 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='亚伯？是你吗？啊……我好饿，亚伯！我饿啊！！'	-- 314, Aber?  Is that you...?  Oh...I'm so hungry, Aber!  SO HUNGRY!!
+WHERE `Id`=110 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='等等……你不是我的丈夫。但肯定是他派你来的。你看起来……很好吃！'	-- 314, Wait...you are not my husband.  But he must have sent you.  And you...look..delicious!
@@ -103,12 +167,40 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=182 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='花一个铜板就可以把你的装备擦得闪闪亮。'	-- 1405, Shine yer armor for a copper.
+	`Text_lang`='帮助我这个穷人吧？'	-- 1405, Help a poor bloke out?
+WHERE `Id`=183 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='给我这个可怜的瞎子一点零钱吧？……你说我不是瞎子是什么意思？……我真的不瞎了！我看得见了！！这真是一个奇迹！'	-- 1405, Spare some change for a poor blind man? ...What do you mean I'm not blind? ...I'M NOT BLIND! I CAN SEE!! It's a miracle!
+WHERE `Id`=184 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='只需要花一个铜板，就可以把你的装备擦得闪闪发亮！'	-- 1405, Shine yer armor for a copper.
 WHERE `Id`=185 AND `Locale`='zhCN';
 
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='这都是他们的错，愚蠢的联盟军队。非得把他们的哨塔盖在我的农场后面。'	-- 1405, It's all their fault, stupid Alliance army. Just had to build their towers right behind my farm.
+WHERE `Id`=186 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='这片土地必须被净化！'	-- 1667, These lands shall be cleansed!
+WHERE `Id`=314 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='彻底消灭这些亡灵！'	-- 1667, These undead atrocities will be destroyed!
+WHERE `Id`=316 AND `Locale`='zhCN';
+
 -- UPDATE `broadcast_text_locale` SET
--- 	`Text_lang`='The Scarlet Crusade shall not fail in its mission!'	-- 1667, The Scarlet Crusade shall not fail in its mission!
+-- 	`Text_lang`='The Scarlet Crusade shall not fail in its mission!'	-- 1506, The Scarlet Crusade shall not fail in its mission!
 -- WHERE `Id`=317 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='以拉格纳罗斯之名，去死吧！'	-- 1222, Die in the name of Ragnaros!
+WHERE `Id`=434 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='以拉格纳罗斯之名，萨多尔大桥已经被摧毁了，接下来就是巨石水坝！'	-- 1222, The Thandol Span fell to Ragnaros.  So shall the Stonewrought Dam!
+WHERE `Id`=435 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='麦格尼・铜须是个白痴而且还是个骗子！'	-- 1222, King Magni Bronzebeard is a fool and a charlatan!
@@ -119,12 +211,40 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=443 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='一个叫作$N的$C？你应该是一顿不错的早餐！'	-- 1398, A $C called $N? You'll make a fine breakfast!
+WHERE `Id`=444 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='死吧$R！这块土地属于碎石穴居部落！'	-- 1399, Die, $R!  These lands belong to the Stonesplinter Tribe!
+WHERE `Id`=446 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='死掉的$R才是好$R！'	-- 1398, The only good $R is a dead $R!
 WHERE `Id`=447 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='这个湖泊现在属于碎石穴居部落，$N！死吧！'	-- 1399, The Loch belongs to the Stonesplinter Tribe now, $N!  Now die!
+WHERE `Id`=448 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='$N!  Prepare to meet your doom!'	-- 1364, $N!  Prepare to meet your doom!
+-- WHERE `Id`=453 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='这片土地属于黑铁矮人。下辈子再见吧，$C！'	-- 1364, This land belongs to the Dark Iron Dwarves.  Prepare to see the afterlife, $C!
 WHERE `Id`=455 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='I am Balgaras the Foul.  And you, $N, are about to become nothing more than ash and dust.'	-- 1364, I am Balgaras the Foul.  And you, $N, are about to become nothing more than ash and dust.
+-- WHERE `Id`=456 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='以艾德温·范克里夫之名，去死吧！'	-- 550, Die in the name of Edwin Van Cleef!
+WHERE `Id`=473 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='让我送你一程吧，没用的$C！'	-- 550, I'll deliver you, weak $C, to the afterlife!
+WHERE `Id`=478 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我有个特别的消息给$N，那就是你必须死！'	-- 550, I have a special message for $N.  And it says you must die!
@@ -163,8 +283,16 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=504 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='不要多管闲事，$N！'	-- 2044, Toil not in matters of the past, $N!
+WHERE `Id`=505 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='谁敢打扰我！去死吧，$N！'	-- 315, Who dares disturb me?  Die $N!
 WHERE `Id`=508 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我会放干你的血，$C！'	-- 315, I shall spill your blood, $C!
+WHERE `Id`=509 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='救命！救命啊！'	-- Help! I've only one hand to defend myself with.
@@ -211,12 +339,28 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=545 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Mother, oh mother.  You should have listened to me...'	-- 1657, Mother, oh mother.  You should have listened to me...
+-- WHERE `Id`=572 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Here to visit the family?  Die, fool!'	-- 1657, Here to visit the family?  Die, fool!
 -- WHERE `Id`=574 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='The Agamand Mills is held by the Scourge, $C.  Join us!'	-- 1657, The Agamand Mills is held by the Scourge, $C.  Join us!
+-- WHERE `Id`=575 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='亡灵将享用你灵魂的盛宴，$N。'	-- 2433, The undead shall feast on your soul, $n.
 WHERE `Id`=601 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我复活了！'	-- 2433, I have risen!
+WHERE `Id`=602 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我终于可以复仇了！'	-- 2433, Revenge shall be mine at last!
+WHERE `Id`=603 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='南海镇将会血债血偿！'	-- 2433, Southshore shall pay in blood!
@@ -233,6 +377,14 @@ WHERE `Id`=605 AND `Locale`='zhCN';
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='My trees.... they have withered up and died just like me.'	-- 2396, My trees.... they have withered up and died just like me.
 -- WHERE `Id`=614 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='这个果树林现在就跟我腐烂的外壳一样贫瘠、毫无生气。曾经这些树也会开满花、结满果实，但是现在只剩下干枯的树枝。'	-- 2396, This orchard is now as barren and lifeless as my rotting shell. Once these trees bloomed with fruit but now there is only rot.
+WHERE `Id`=615 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我花了一生的时间来照料这些树。修剪和培育他们……如今他们得与我一起死亡。'	-- 2396, I spent my whole life caring for these trees. Pruning and nurturing them... only fitting that they have joined me in death.
+WHERE `Id`=616 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='救命！救命啊！山上有刺客！快拿武器！抄家伙！'	-- 2435, Help me! Help! Assassins in the hills! To arms! To arms!
@@ -279,28 +431,64 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=759 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='SMOTTS!  HEY, SMOTTS!!  COME OUT AND PLAY!'	-- 1493, SMOTTS!  HEY, SMOTTS!!  COME OUT AND PLAY!
+-- WHERE `Id`=764 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='你上次给我带来不少乐子哪……出来吧！'	-- 1493, YOU WERE SUCH GOOD SPORT THE LAST TIME...COME OUT!
+WHERE `Id`=772 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='SMOTTS, I HAVE YOUR LITTLE BELT...COME GET IT.'	-- 1493, SMOTTS, I HAVE YOUR LITTLE BELT...COME GET IT.
 -- WHERE `Id`=773 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我保证这次我不会杀死你的船员，哈哈！但是我的兄弟可能会吃了他们！'	-- 1493, I PROMISE I WON'T KILL YOUR CREW THIS TIME.  HAH!  BUT MY BROTHER MIGHT EAT THEM!
+WHERE `Id`=774 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='出来，到加尼罗哨站来。我等着你，斯莫特……'	-- 1493, COME OUT TO JANEIRO'S POINT.  I'M WAITING FOR YOU, SMOTTS...
 WHERE `Id`=775 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='I HAVE YOUR LITTLE BELT TIED AROUND MY FINGER, SMOTTS.  DON''T YOU WANT IT BACK?'	-- 1493, I HAVE YOUR LITTLE BELT TIED AROUND MY FINGER, SMOTTS.  DON'T YOU WANT IT BACK?
+-- WHERE `Id`=776 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='HAVE YOU RUN OUT OF SHIPS TO SEND?  WHERE''S YOUR COURAGE?'	-- 1493, HAVE YOU RUN OUT OF SHIPS TO SEND?  WHERE'S YOUR COURAGE?
 -- WHERE `Id`=777 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='DON''T LET THIS STATUE BE MY ONLY COMPANY.  COME OUT AND PLAY!'	-- 1493, DON'T LET THIS STATUE BE MY ONLY COMPANY.  COME OUT AND PLAY!
+-- WHERE `Id`=778 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Sure does seem like it''s been a long time since anyone has relieved me from my post.'	-- 2696, Sure does seem like it's been a long time since anyone has relieved me from my post.
 -- WHERE `Id`=790 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Well, that''s what I get for oversleeping!'	-- 2696, Well, that's what I get for oversleeping!
+-- WHERE `Id`=791 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='去死吧！你不能释放密斯赖尔！'	-- 4063, Die!  You will not free Myzrael!
+WHERE `Id`=807 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='主人将把你碾碎！'	-- 4063, The Great One will smash you!
 WHERE `Id`=808 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='站稳了，兄弟。别担心，我们有体型上的优势！'	-- 2764, Stand firm, brothers.  And don't worry!  Size is on our side!
+	`Text_lang`='站稳了，兄弟。别担心，我们有体型上的优势！'	-- 2765, Stand firm, brothers.  And don't worry!  Size is on our side!
 WHERE `Id`=812 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='尝尝这招！枯须狗头人必胜！'	-- 2764, Take that!  The Drywhiskers will prevail!
+WHERE `Id`=814 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='不，快走开！我们必须完成我们的任务！'	-- 4063, No!  Leave us!  We must not fail our task!
+WHERE `Id`=815 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='好了，我们要在这儿真刀真枪地干一场。准备好！'	-- All right, this is where we really have to be on our paws. Be ready!
@@ -379,6 +567,10 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=895 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='你听好了，在我杀死你之后，你的身体将为我所用，$R。'	-- 2733, You have my word that I shall find a use for your body after I've killed you, $r.
+WHERE `Id`=896 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='你可以攻击我，但是你依然无法阻止我回到奎艾那里去。'	-- Attack me if you will, but you won't stop me from getting back to Quae.
 WHERE `Id`=897 AND `Locale`='zhCN';
 
@@ -441,6 +633,14 @@ WHERE `Id`=937 AND `Locale`='zhCN';
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='为什么暴风城的卫兵还没有来？'	-- 325, Why haven't the Stormwind guards come?
 WHERE `Id`=964 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我感觉到可怕的黑暗正在向我们逼近。'	-- 325, I fear something dark is coming.
+WHERE `Id`=965 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='圣光似乎遗弃了我们。'	-- 325, The light appears to have forsaken us.
+WHERE `Id`=966 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我被杀死了！召唤维罗戈！'	-- 3397, I am slain!  Summon Verog!
@@ -523,12 +723,32 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=1092 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我们要去哪里？'	-- 3504, Where we goin'?
+WHERE `Id`=1094 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我要去看法师塔。'	-- 3504, I wanna see the Mage Tower.
+WHERE `Id`=1097 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='真的吗？运河里真的有鳄鱼吗？'	-- 3504, Is it true? Are there really crocilisks in the canals?
+WHERE `Id`=1098 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我腿疼！'	-- 3504, My feet hurt.
+WHERE `Id`=1099 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='为什么我们总走这条路？'	-- 3504, Why do we always go the same way?
 WHERE `Id`=1100 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='啊~~~现在你激怒了我！是时候让你见识一下海潮汐石的真正力量了！'	-- 2624, Oh now you've gone and angered me! Time to see the true force of the Stone of Tides!
 WHERE `Id`=1113 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='向下移动这部分，让它更靠近船！'	-- 1763, Get those parts moving down to the ship!
+WHERE `Id`=1146 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='有人想休息一下？太糟糕了！必须接着工作！'	-- 1763, Anyone want to take a break?  Well too bad!  Get to work you oafs!
@@ -770,6 +990,18 @@ WHERE `Id`=1374 AND `Locale`='zhCN';
 -- 	`Text_lang`='%s grabs for his poisoned dagger!'	-- 3286, %s grabs for his poisoned dagger!
 -- WHERE `Id`=1385 AND `Locale`='zhCN';
 
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Welcome to the Stockade!'	-- 1716, Welcome to the Stockade!
+-- WHERE `Id`=1387 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Outsiders! Kill em all!'	-- 1716, Outsiders! Kill em all!
+-- WHERE `Id`=1388 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='又来了几个典狱官的狗腿子！'	-- 1720, More of the Warden's errand boys!
+WHERE `Id`=1390 AND `Locale`='zhCN';
+
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='告诉典狱官，这座监狱现在是我们的地盘了！'	-- 1720, Tell the Warden this prison is ours now!
 WHERE `Id`=1391 AND `Locale`='zhCN';
@@ -778,9 +1010,17 @@ WHERE `Id`=1391 AND `Locale`='zhCN';
 -- 	`Text_lang`='It''ll be quick, but it won''t be painless!'	-- 1716, It'll be quick, but it won't be painless!
 -- WHERE `Id`=1392 AND `Locale`='zhCN';
 
--- UPDATE `broadcast_text_locale` SET
--- 	`Text_lang`='Fresh meat!'	-- 1716, Fresh meat!
--- WHERE `Id`=1393 AND `Locale`='zhCN';
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='新鲜的肉！'	-- 1720, Fresh meat!
+WHERE `Id`=1393 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='你的骨头会在我的脚下被踩得粉碎！'	-- 1716, I'll crush your skull beneath my boot!
+WHERE `Id`=1394 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='杀死典狱官的手下！'	-- 1720, Death to the Warden's men!
+WHERE `Id`=1395 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='%s lays an egg!'	-- 3250, %s lays an egg!
@@ -865,6 +1105,22 @@ WHERE `Id`=1523 AND `Locale`='zhCN';
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Well hello, $n, what can I get you today?'	-- 1328, Well hello, $n, what can I get you today?
 -- WHERE `Id`=1531 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Been a tough day? A nice ale should loosen those worries right up.'	-- 1328, Been a tough day? A nice ale should loosen those worries right up.
+-- WHERE `Id`=1532 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Hi, what would you like?'	-- 1328, Hi, what would you like?
+-- WHERE `Id`=1533 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Look what the cat dragged in. What can I get you, $n?'	-- 1328, Look what the cat dragged in. What can I get you, $n?
+-- WHERE `Id`=1535 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Do you think I need more pieces of Flair?'	-- 3626, Do you think I need more pieces of Flair?
+-- WHERE `Id`=1536 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='呃！$N正朝着我们过来了！'	-- Eek! $n coming right at us!
@@ -1047,12 +1303,28 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=1856 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='耶~~~！我跑啦！'	-- 1236, Yiieeeee! Me run!
+WHERE `Id`=1864 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='哈，有机会使用这把刚磨好的剑了。'	-- 6927, Ah, a chance to use this freshly sharpened blade.
+WHERE `Id`=1865 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='兄弟会不会容忍你的行为。'	-- 6927, The Brotherhood will not tolerate your actions.
 WHERE `Id`=1866 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='感受兄弟会的力量吧！'	-- 6927, Feel the power of the Brotherhood!
+WHERE `Id`=1867 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='你不能拿走我的蜡烛！'	-- 11918, You no take candle!
 WHERE `Id`=1868 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='啊啊啊……新鲜的肉！'	-- 5258, Grrrr... fresh meat!
+WHERE `Id`=1870 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='有更多的骨头可以啃了……'	-- 5258, More bones to gnaw on...
@@ -1063,12 +1335,20 @@ WHERE `Id`=1871 AND `Locale`='zhCN';
 -- WHERE `Id`=1874 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='You are no match for the Blackrock Orcs!'	-- 435, You are no match for the Blackrock Orcs!
+-- WHERE `Id`=1875 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Killing you be easy.'	-- 11350, Killing you be easy.
 -- WHERE `Id`=1909 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Have a taste of Frostmane magics.'	-- 1397, Have a taste of Frostmane magics.
 -- WHERE `Id`=1910 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='All you $R want is my weed.'	-- 1397, All you $R want is my weed.
+-- WHERE `Id`=1911 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我要杀了你！'	-- 8503, I'll cut you!
@@ -1079,12 +1359,32 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=1913 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='杀死！'	-- 1393, Kill!
+WHERE `Id`=1914 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='毁灭！'	-- 1393, Destroy!
+WHERE `Id`=1915 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='I smell a $R'	-- 1119, I smell a $R
+-- WHERE `Id`=1916 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='是时候发起猛攻了！'	-- 1119, Time to bash!
 WHERE `Id`=1917 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='You dare defile Frostmane Hold, $R. Prepare to die!'	-- 1260, You dare defile Frostmane Hold, $R. Prepare to die!
 -- WHERE `Id`=1918 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Oh, we are going to get along just fine, $N.'	-- 1260, Oh, we are going to get along just fine, $N.
+-- WHERE `Id`=1919 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='呀！杀啊！'	-- 1202, Yip! Me kill!
+WHERE `Id`=1920 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我不怕你这样的$C！'	-- 1202, Me no run from $C like you!
@@ -1098,17 +1398,33 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我要粉碎你！'	-- 14322, I'll crush you!
 WHERE `Id`=1925 AND `Locale`='zhCN';
 
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='你去死吧！'	-- 14322, Me smash! You die!
+WHERE `Id`=1926 AND `Locale`='zhCN';
+
 -- UPDATE `broadcast_text_locale` SET
--- 	`Text_lang`='Raaaaaaaaaaaaaaaaaaaaaaaaaaaaaar!!! Me smash $R!'	-- 9196, Raaaaaaaaaaaaaaaaaaaaaaaaaaaaaar!!! Me smash $R!
+-- 	`Text_lang`='Raaaaaaaaaaaaaaaaaaaaaaaaaaaaaar!!! Me smash $R!'	-- 212, Raaaaaaaaaaaaaaaaaaaaaaaaaaaaaar!!! Me smash $R!
 -- WHERE `Id`=1927 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='这个$R看上去很好吃！'	-- 1210, Dat $R look gud to eat!
+WHERE `Id`=1928 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='攻击！'	-- 1210, Bash it!
+WHERE `Id`=1929 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='呃？那是什么？'	-- 1210, Huh? What dat?
 WHERE `Id`=1931 AND `Locale`='zhCN';
 
--- UPDATE `broadcast_text_locale` SET
--- 	`Text_lang`='Time to die, $C.'	-- 2149, Time to die, $C.
--- WHERE `Id`=1935 AND `Locale`='zhCN';
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='不要穿过黑铁矮人的地盘，$C。'	-- 6523, Never cross a Dark Iron, $C.
+WHERE `Id`=1934 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='是时候解决你了，$C！'	-- 6523, Time to die, $C.
+WHERE `Id`=1935 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='感觉黑铁矮人的力量吧！'	-- 6523, Feel the power of the Dark Iron Dwarves!
@@ -1117,6 +1433,22 @@ WHERE `Id`=1936 AND `Locale`='zhCN';
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='为了龙喉氏族而战！'	-- 2108, For the Dragonmaw!
 WHERE `Id`=1937 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='你的骨头会在我的脚下被踩得粉碎，$R！'	-- 2108, Your bones will break under my boot, $R!
+WHERE `Id`=1938 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='龙喉氏族万岁！你的死毫无价值，$R！'	-- 2108, Long live the Dragonmaw! Die you worthless $R!
+WHERE `Id`=1939 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='脑子……'	-- 1160, Brains...
+WHERE `Id`=1940 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='一个活着的$R……不久就会变成一个像我这样的亡灵。'	-- 1160, A living $r... soon to be a dead like me.
+WHERE `Id`=1941 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='是时候加入我们了，$C。'	-- 1160, Time to join us, $c.
@@ -1191,6 +1523,14 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=2228 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='你的头颅会是一个很好的战利品，$R。'	-- 3280, A fine trophy your head will make, $R.
+WHERE `Id`=2229 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我的爪子会把你撕得粉碎，$R。'	-- 3280, My talons will shred your puny body, $R.
+WHERE `Id`=2230 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='你死定了，$C。'	-- 3280, You will be easy prey, $C.
 WHERE `Id`=2231 AND `Locale`='zhCN';
 
@@ -1245,6 +1585,10 @@ WHERE `Id`=2384 AND `Locale`='zhCN';
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Intruders!  The Hammer shall fall upon you.'	-- 4814, Intruders!  The Hammer shall fall upon you.
 -- WHERE `Id`=2407 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Your blood shall be the catalyst for the Old Gods'' return!'	-- 4814, Your blood shall be the catalyst for the Old Gods' return!
+-- WHERE `Id`=2409 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='%s lets out a massive roar, calling for aid!'	-- 731, %s lets out a massive roar, calling for aid!
@@ -1351,6 +1695,14 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=2548 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='你终究是要说的，还不如现在就坦白交代。'	-- 4306, You will talk eventually.  You might as well spill it now.
+WHERE `Id`=2569 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='坦白交待了，我们就放你走。'	-- 4306, Confess and we shall set you free.
+WHERE `Id`=2570 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='什么？哦，好吧，我不在乎你说什么。我只是喜欢虐待你。'	-- 4306, What?  Oh no, I don't care what you have to say.  I just enjoy inflicting pain.
 WHERE `Id`=2571 AND `Locale`='zhCN';
 
@@ -1387,15 +1739,19 @@ WHERE `Id`=2603 AND `Locale`='zhCN';
 -- WHERE `Id`=2621 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='你身上携带着天灾瘟疫，准备好下地狱吧。'	-- 11043, You carry the taint of the scourge.  Prepare to enter the twisting nether.
+WHERE `Id`=2625 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='你无路可逃了。血色十字军将会消灭所有的天灾瘟疫携带者！'	-- 11043, There is no escape for you.  The Crusade shall destroy all who carry the scourge's taint.
 WHERE `Id`=2626 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='圣光会制裁所有庇护邪恶力量的人，现在你死定了！'	-- 1660, The light condemns all who harbor evil.  Now you will die!
+	`Text_lang`='圣光会制裁所有庇护邪恶力量的人，现在你死定了！'	-- 11043, The light condemns all who harbor evil.  Now you will die!
 WHERE `Id`=2627 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='血色十字军将会打击一切邪恶势力并将它们赶出这片土地！'	-- 1536, The Scarlet Crusade shall smite the wicked and drive evil from these lands!
+	`Text_lang`='血色十字军将会打击一切邪恶势力并将它们赶出这片土地！'	-- 1660, The Scarlet Crusade shall smite the wicked and drive evil from these lands!
 WHERE `Id`=2628 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -2775,6 +3131,10 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=3924 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='嘿！离我们的宝藏远点！'	-- 7902, Hey!  Get away from our treasure!
+WHERE `Id`=3931 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='这是我们的财宝！你这个笨蛋！'	-- 7902, That's our treasure, you lubber!
 WHERE `Id`=3932 AND `Locale`='zhCN';
 
@@ -2887,8 +3247,24 @@ WHERE `Id`=4008 AND `Locale`='zhCN';
 -- WHERE `Id`=4013 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Fresh bread, baked this very morning.'	-- 5109, Fresh bread, baked this very morning.
+-- WHERE `Id`=4014 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Come get yer fresh bread!'	-- 5109, Come get yer fresh bread!
+-- WHERE `Id`=4015 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Juicy fruits for sale!'	-- 7978, Juicy fruits for sale!
 -- WHERE `Id`=4019 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Sink your teeth into a fresh, ripe apple.'	-- 7978, Sink your teeth into a fresh, ripe apple.
+-- WHERE `Id`=4020 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Straight from the lush forests of Elwynn, get your fresh fruit right here.'	-- 7978, Straight from the lush forests of Elwynn, get your fresh fruit right here.
+-- WHERE `Id`=4021 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='有了你的帮助，我就可以测量这些通道了。'	-- With your help, I can evaluate these tunnels.
@@ -3289,6 +3665,14 @@ WHERE `Id`=4434 AND `Locale`='zhCN';
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我们要奴役野猪人！'	-- 7357, We will enslave the quilboar!
 WHERE `Id`=4435 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我们要统治整个贫瘠之地！'	-- 7357, We will spread across this barren land!
+WHERE `Id`=4436 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='很快，天灾军团就会统治整个世界！'	-- 7357, Soon, the Scourge will rule the world!
+WHERE `Id`=4437 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='太棒了！在你的帮助下，我们又有机会夺回我们挚爱的城市了。让我们为你大声为你喝彩吧！'	-- Superb! Because of your help, my people stand a chance of re-taking our beloved city. Three cheers to you!
@@ -4177,6 +4561,14 @@ WHERE `Id`=4918 AND `Locale`='zhCN';
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='For the Horde!'	-- 9457, For the Horde!
 -- WHERE `Id`=4921 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Defend the bunkers!'	-- 9457, Defend the bunkers!
+-- WHERE `Id`=4922 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Beware!  The Kolkar attack!'	-- 9457, Beware!  The Kolkar attack!
+-- WHERE `Id`=4924 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Beware, $N!  Look to the west!'	-- Beware, $N!  Look to the west!
@@ -5387,6 +5779,14 @@ WHERE `Id`=5450 AND `Locale`='zhCN';
 -- WHERE `Id`=5454 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='%s在呻吟。'	-- 10117, %s groans.
+WHERE `Id`=5458 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='%s在悲伤地哭泣着。'	-- 10117, %s weeps pitifully.
+WHERE `Id`=5459 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='%s发出痛苦的呻吟。'	-- 10117, %s begs to be put out of his misery.
 WHERE `Id`=5460 AND `Locale`='zhCN';
 
@@ -5579,12 +5979,28 @@ WHERE `Id`=5536 AND `Locale`='zhCN';
 -- WHERE `Id`=5538 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='哇！*咳**咳*我要戒烟！'	-- 10262, SQUAWK!! *cough* *cough* I need to quit smoking!
+WHERE `Id`=5539 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='问问基布雷尔关于宝藏的事情！哇！'	-- 10262, Ask Kibler about the treasure! SQUAWK!
+WHERE `Id`=5540 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='比修知道宝藏被藏在哪儿了。'	-- 10262, Bijou knows where treasures are hidden.
 WHERE `Id`=5542 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='奥普斯想要一些科尔戈的黄金……和一些虫子。'	-- 10262, Opus wants some Cuergo's Gold... with worm.
+WHERE `Id`=5543 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='他们进入了塔内，但是没有人任何人回来……就像比修一样。'	-- 10262, They all go to the Spire but none ever come back... just like Bijou.
 WHERE `Id`=5544 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='基布雷尔正在接受地精工程学协会的调查。'	-- 10262, Kibler is being investigated by G.E.T.A.
+WHERE `Id`=5545 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='I am here!  Now, puny little worms, you will pay for your intrusion!'	-- 10264, I am here!  Now, puny little worms, you will pay for your intrusion!
@@ -6382,9 +6798,21 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='谢谢你，$N。你安抚了我死去的妻子的灵魂，我将永远无法报答你的恩情。$B$B我想我会永远仇视野猪人，但是现在我已经得到了满足。$B$B我必须开始重建生活。'	-- I thank you, $N. Your dedication to my plea gives rest to my lost wife's spirit, and for that I could never repay you enough.$B$BI cannot say that my hatred will ever cease for the quilboar, but it is satiated for now.$B$BNow I must begin to rebuild my life.
 WHERE `Id`=5943 AND `Locale`='zhCN';
 
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='不要召唤这样的东西。它如此脆弱，用棍子一敲就能使它粉身碎骨。'	-- 11582, Now this is an example of what not to summon. Look, it's frail and brittle. One good whack from a mace will send bone shards flying.
+WHERE `Id`=5950 AND `Locale`='zhCN';
+
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Note the weak binding structure of this one. Be sure to finish your incantations or this is what you will end up with.'	-- 11582, Note the weak binding structure of this one. Be sure to finish your incantations or this is what you will end up with.
 -- WHERE `Id`=5951 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='这比上一个稍微好一点。但是，它像其它的一样受制于脆弱的骨头结构。不过当你召唤其中的一个时，你就已经找对了路。'	-- 11582, This one is slightly better than the last. However, it still suffers from the same flimsy bone structure as the others. When you summon one of these, you are on the right path.
+WHERE `Id`=5952 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Wow, this one is just plain useless. Let me try again.'	-- 11582, Wow, this one is just plain useless. Let me try again.
+-- WHERE `Id`=5953 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='嗯~~~这一个看起来也就比风铃好一些。做好记录同学们……这不是在战斗激烈的时候你们想要召唤的东西。'	-- 11582, Hmmm, this one looks like something that would be better off as a windchime. Take notes class... This is NOT what you want to summon in the heat of battle.
@@ -6809,6 +7237,10 @@ WHERE `Id`=6184 AND `Locale`='zhCN';
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Me smell stench of the living!'	-- 8567, Me smell stench of the living!
 -- WHERE `Id`=6185 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Me feast on you all!'	-- 8567, Me feast on you all!
+-- WHERE `Id`=6186 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='你绝对不会活着离开这个地方。'	-- 7358, You'll never leave this place alive.
@@ -7323,6 +7755,10 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6368 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='You dare defile this holy ground?'	-- 10996, You dare defile this holy ground?
+-- WHERE `Id`=6374 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Be cleansed by blade, filth!'	-- 10996, Be cleansed by blade, filth!
 -- WHERE `Id`=6375 AND `Locale`='zhCN';
 
@@ -7387,8 +7823,16 @@ WHERE `Id`=6401 AND `Locale`='zhCN';
 -- WHERE `Id`=6414 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='想找这些？？？？你永远都不可能得到它们！'	-- 11058, Looking for these???? You'll never have em!
+WHERE `Id`=6420 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我会把你的皮当我抽烟时穿的夹克。'	-- 11058, I'm going to wear your skin as a smoking jacket! The stogies? You'll have to pry them from my cold dead... er... RAWR!!!!
 WHERE `Id`=6422 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='欢迎来到美味的国度！'	-- 11058, Welcome to flavor country!
+WHERE `Id`=6426 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='谢谢你！你让我自由了！'	-- Thank you!  You freed me!
@@ -9331,8 +9775,20 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=7228 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Prepare for a severe beating.'	-- 11878, Prepare for a severe beating.
+-- WHERE `Id`=7229 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='I shall wear your entrails as a necklace.'	-- 11878, I shall wear your entrails as a necklace.
+-- WHERE `Id`=7230 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='I can smell your fear, $r.'	-- 11878, I can smell your fear, $r.
 -- WHERE `Id`=7231 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='If you run now, you may live.'	-- 11878, If you run now, you may live.
+-- WHERE `Id`=7232 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='How dare you!'	-- 11878, How dare you!
@@ -9437,6 +9893,14 @@ WHERE `Id`=7268 AND `Locale`='zhCN';
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='如此……黑暗……'	-- 11936, So dark...
 WHERE `Id`=7272 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='有人吗？提里奥我的老朋友，是你吗？你是来救我们的吗？'	-- 11936, Is someone there? Tirion my old friend, is that you? Have you come to save us?
+WHERE `Id`=7273 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='他们都……死了？'	-- 11936, Are they all... dead?
+WHERE `Id`=7274 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='作为探险者协会的一员，我曾在这片区域搜寻古代器物。据说冬泉谷有许多不可思议的物品……很多物品都受到严密的保护。'	-- Being part of the Explorers' League, I've been hunting for artifacts in the area. Winterspring is said to contain very magical items... Most are highly guarded.
@@ -9822,6 +10286,10 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='欢迎你，我的$G兄弟:姐妹;。如果你想接受训练，我会很乐意教你的。$B$B来自翡翠梦境的召唤将很快占据你的心灵。你将冬眠数年，在最纯净的环境中生活。你将在那儿接受最终的训练。'	-- Welcome, my $g brother : sister;.  If you are here to train, then I would be delighted to train you.$B$BThere will be a time soon where the call of the Emerald Dream will take hold in you.  You will hibernate for many years and walk amongst the purest of forms.  It is there and then that your ultimate training will take place.
 WHERE `Id`=7461 AND `Locale`='zhCN';
 
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='You merely prolong the inevitable, $r. Succumb. She will free your misguided soul.'	-- 11878, You merely prolong the inevitable, $r. Succumb. She will free your misguided soul.
+-- WHERE `Id`=7462 AND `Locale`='zhCN';
+
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我们的工作就是保持万物的平衡，如同塞纳留斯所教给我们的那样，$C。他就是指引我们前进的明灯，而我们必须竭尽所能保护那道光芒。'	-- We work to preserve the balance as Cenarius teaches, $c.  His is the light of a beacon that shows the way for us, and we must do everything in our power to preserve that light.
 WHERE `Id`=7463 AND `Locale`='zhCN';
@@ -10151,8 +10619,16 @@ WHERE `Id`=7594 AND `Locale`='zhCN';
 -- WHERE `Id`=7595 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我感觉到危险的存在。'	-- 12337, I sense danger up ahead.
+WHERE `Id`=7596 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我的背疼得要命。'	-- 12337, My back is killing me.
 WHERE `Id`=7597 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='如果我挂了，拿上我的邮袋。确保送到大将军手上。'	-- 12337, If I should fall, take my pouch. Make certain that it gets to the High General.
+WHERE `Id`=7599 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='木喉熊怪。'	-- 11548, The Timbermaw furbolgs.
@@ -13031,6 +13507,14 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=9091 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='发现未知生命体……评估中……'	-- 14224, Unknown life forms detected....assessing...
+WHERE `Id`=9092 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='目标丢失……返回搜索模式……'	-- 14224, Target lost....resuming search patterns Delta
+WHERE `Id`=9093 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='无能为力……没有力气啦……恢复……必须恢复……瑟雷姆控制着……结束这痛苦的折磨吧……'	-- Helpless... powerless... restore... must restore... Zevrim controls... end this torment...
 WHERE `Id`=9101 AND `Locale`='zhCN';
 
@@ -14027,8 +14511,16 @@ WHERE `Id`=9678 AND `Locale`='zhCN';
 -- WHERE `Id`=9679 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我做不到了……继……继续前进……'	-- 14485, I won't make it... go... go on without me...
+WHERE `Id`=9680 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我人生仅有的追求和活下去的动力，那就是摧毁阿尔萨斯……'	-- 14485, Should I live through this, I shall make it my life's sole ambition to destroy Arthas...
 WHERE `Id`=9682 AND `Locale`='zhCN';
+
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='死亡来临了！我无法再坚持了！我已经一无所有……'	-- 14485, Death take me! I cannot go on! I have nothing left...
+WHERE `Id`=9683 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='去银风避难所找珊蒂瑞亚吧。她可以卖给你「高级烹饪书」。'	-- Seek out Shandrina in Silverwind Refuge.  She can sell you the "Expert Cookbook".
@@ -14730,6 +15222,10 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='你好！我的朋友，欢迎来到艾泽拉斯大陆上最伟大的博览会！$B$B请往前走并享受我们所提供的一切。让暗月马戏团在这个巨大而神秘的世界上所发现的奇特事物为你带来前所未有的惊奇！我们不收取任何费用，我们为你带来无限惊喜，为孩子们带来让他们兴奋的东西！'	-- Greetings my friend, and welcome to the greatest show on Azeroth!$B$BPlease, step right up and take in all we have to offer.  Amaze at the wonders that the Darkmoon Faire has uncovered in this vast and mysterious world!  We have spared no expense in bringing you excitement that children of all ages will delight in!
 WHERE `Id`=10033 AND `Locale`='zhCN';
 
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Welcome back to the greatest show on Azeroth, my friend!  It is truly a delight to see you once again.$B$BPlease, step right up and once more take in all we have to offer.  Be sure to check around, as we are always adding new and exciting things to the Darkmoon Faire!  Amaze at wonders old and new that we have uncovered!  We continue to spare no expense in bringing you excitement that children of all ages will delight in!'	-- 14823, Welcome back to the greatest show on Azeroth, my friend!  It is truly a delight to see you once again.$B$BPlease, step right up and once more take in all we have to offer.  Be sure to check around, as we are always adding new and exciting things to the Darkmoon Faire!  Amaze at wonders old and new that we have uncovered!  We continue to spare no expense in bringing you excitement that children of all ages will delight in!
+-- WHERE `Id`=10034 AND `Locale`='zhCN';
+
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='希拉斯，为什么大多数的东西都是免费的？你如何赚钱？'	-- 14823, Silas, why is most everything at the fair free?  How do you make a profit?
 WHERE `Id`=10035 AND `Locale`='zhCN';
@@ -15027,7 +15523,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=10133 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='靠过来！来这里买呛红辣翅！'	-- Darkmoon Dogs fresh off the grill.  Come and get em while they're hot!
+	`Text_lang`='刚出炉的暗月热狗，赶快趁热来买哦！'	-- 14845, Darkmoon Dogs fresh off the grill.  Come and get em while they're hot!
 WHERE `Id`=10134 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -15035,7 +15531,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=10135 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='靠过来！来这里买呛红辣翅！'	-- For a limited time only, Crunchy Frog available exclusively here at the Darkmoon Faire.
+	`Text_lang`='香脆青蛙只在暗月马戏团有售，机会难得，限时供应哦！'	-- 14845, For a limited time only, Crunchy Frog available exclusively here at the Darkmoon Faire.
 WHERE `Id`=10136 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -15069,6 +15565,10 @@ WHERE `Id`=10147 AND `Locale`='zhCN';
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='嘿，谁来帮我抓住这个东西！'	-- Frogs and leather balls for sale!
 WHERE `Id`=10148 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Welcome one and all to the Darkmoon Faire, the greatest event in all the world!  We have it all... delicious food, strong drink, exotic artifacts, fortunes read, amazing prizes and excitement without end!  Don''t forget to turn in your Darkmoon Faire Prize Tickets to Gelvas Grimegate!  All it takes is five or more and you''re on your way to the most wondrous prizes on all of Azeroth.  Everybody is a winner!'	-- 14823, Welcome one and all to the Darkmoon Faire, the greatest event in all the world!  We have it all... delicious food, strong drink, exotic artifacts, fortunes read, amazing prizes and excitement without end!  Don't forget to turn in your Darkmoon Faire Prize Tickets to Gelvas Grimegate!  All it takes is five or more and you're on your way to the most wondrous prizes on all of Azeroth.  Everybody is a winner!
+-- WHERE `Id`=10155 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='唉……很抱歉，我现在还不能告诉你关于你的命运，你不久前才从我这儿获得了关于命运的资讯。$B$B过几个小时你再来找我吧。命运的力量将会有所改变，那时候我就可以洞察你的未来了。'	-- Alas... I am sorry to say I cannot currently give you your fortune, as you have recently received a fortune reading from me.$B$BReturn to me several hours from when you first received your fortune.  The forces of Fate will have properly recalibrated themselves, and I will be able to see into your future.
@@ -15165,6 +15665,14 @@ WHERE `Id`=10242 AND `Locale`='zhCN';
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='Help! I''m being chased by a swarm of bees!'	-- 14872, Help! I'm being chased by a swarm of bees!
 -- WHERE `Id`=10259 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='I''m so tired of running, but these bees won''t leave me alone!'	-- 14872, I'm so tired of running, but these bees won't leave me alone!
+-- WHERE `Id`=10260 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='I didn''t know bees didn''t like fire!'	-- 14872, I didn't know bees didn't like fire!
+-- WHERE `Id`=10261 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='如果你是来拯救世界的，那么你就来对地方了。无面者－－血神哈卡－－已经被带回到我们的世界来了！'	-- If you have come to save the world then you have come to the right place. The faceless one - the Blood God, Hakkar - has been brought back into our world!
@@ -15879,8 +16387,16 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=10693 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='My lord will be outraged to learn of this ambush.  Let us hope your death will appease him.'	-- 15209, My lord will be outraged to learn of this ambush.  Let us hope your death will appease him.
+-- WHERE `Id`=10694 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='It is my duty and honor to die for the Abyssal Council!'	-- 15209, It is my duty and honor to die for the Abyssal Council!
 -- WHERE `Id`=10695 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Your life is a fitting sacrifice for my master, $c.'	-- 15209, Your life is a fitting sacrifice for my master, $c.
+-- WHERE `Id`=10696 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='你会听到这个的，邪恶的公爵！我不是你的暮光之锤的走狗！我是来挑战你的！来！来吧，迎接你的死亡吧……'	-- You will listen to this, vile duke!  I am not your Twilight's Hammer lapdog!  I am here to challenge you!  Come!  Come, and meet your death...
@@ -16053,6 +16569,10 @@ WHERE `Id`=10741 AND `Locale`='zhCN';
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='You will make a fitting sacrifice!'	-- 15215, You will make a fitting sacrifice!
 -- WHERE `Id`=10742 AND `Locale`='zhCN';
+
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='C''Thun will retake this world!'	-- 15215, C'Thun will retake this world!
+-- WHERE `Id`=10743 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='水晶上布满了神秘的雕纹和符文。你无法理解。'	-- The crystal is covered in intricate glyphs and runes. You can't make sense of any of it.
@@ -20387,8 +20907,11 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=14390 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=54;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=55;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=61;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=62;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=504;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=505;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=534;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=542;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=545;
@@ -20403,6 +20926,10 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=892;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=897;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1017;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1092;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1094;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1097;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1098;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1099;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1100;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1150;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1151;
@@ -20416,20 +20943,38 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1385;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1521;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1530;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1531;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1532;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1533;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1535;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1536;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1721;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1865;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1866;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1867;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1874;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1875;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1909;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1910;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1911;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1912;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1913;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1914;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1915;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1920;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1921;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1934;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1935;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1936;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1937;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1938;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1939;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1940;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1941;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=1942;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2081;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2143;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2229;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2230;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2231;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2358;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2359;
@@ -20439,6 +20984,7 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2369;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2372;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2384;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2407;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2409;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2466;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2469;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2481;
@@ -20458,6 +21004,8 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2545;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2546;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2547;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2548;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2569;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2570;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2571;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2583;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2589;
@@ -20465,6 +21013,7 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2591;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2602;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2603;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2621;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2625;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2626;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2627;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=2628;
@@ -20712,6 +21261,7 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=3918;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=3921;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=3923;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=3924;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=3931;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=3932;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=3986;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=3987;
@@ -20719,7 +21269,11 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4001;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4003;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4008;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4013;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4014;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4015;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4019;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4020;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4021;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4050;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4051;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4052;
@@ -20892,6 +21446,8 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4895;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4897;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4900;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4921;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4922;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4924;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4944;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4945;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=4946;
@@ -21047,6 +21603,8 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5434;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5450;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5452;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5454;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5458;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5459;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5460;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5470;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5471;
@@ -21168,7 +21726,10 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5927;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5928;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5929;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5930;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5950;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5951;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5952;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5953;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5954;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5963;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=5964;
@@ -21282,6 +21843,7 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=6365;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=6366;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=6367;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=6368;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=6374;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=6375;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=6377;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=6378;
@@ -21704,6 +22266,8 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7267;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7268;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7269;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7272;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7273;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7274;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7304;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7305;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7306;
@@ -21797,7 +22361,9 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7591;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7593;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7594;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7595;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7596;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7597;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7599;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7600;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7601;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=7607;
@@ -22185,7 +22751,9 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=9670;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=9675;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=9677;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=9678;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=9680;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=9682;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=9683;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=9684;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=9685;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=9686;
@@ -22442,6 +23010,7 @@ UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=10737;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=10739;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=10741;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=10742;
+UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=10743;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=10745;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=10746;
 UPDATE `broadcast_text_locale` SET `Text1_lang`=`Text_lang` WHERE `Id`=10748;

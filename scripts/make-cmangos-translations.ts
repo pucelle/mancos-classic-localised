@@ -1,7 +1,7 @@
 import * as mysql from 'mysql2/promise'
 import * as path from 'path'
 import * as fs from 'fs-extra'
-import {makeGroup, makeIndex} from './utils'
+import {encodeText, getLowerNameSQLTrans, getTableData, makeGroup, makeIndex} from './utils'
 import {getEditSimilarity} from './edit-distance'
 
 
@@ -38,90 +38,6 @@ class Maker {
 		await fs.ensureDir(this.toDir)
 	}
 
-
-	/** 获得 sql 中的翻译. */
-	private async getLowerNameSQLTrans(filePath: string) {
-		let fromText = (await fs.readFile(filePath)).toString('utf8')
-		let re = /^UPDATE .+? SET([\s\S]+?)WHERE (.+?);/gim
-		let idRE = /`(\w+)`=(-?\d+)/g
-		let valueRE = /`(\w+)`='((?:''|\\'|.)+?)'/g
-		let match: RegExpExecArray | null
-		let map: Record<string, Record<string, string>> = {}
-
-		while (match = re.exec(fromText)) {
-			let itemMatch: RegExpExecArray | null
-			let ids: string[] = []
-			let values: Record<string, string> = {}
-
-			while (itemMatch = idRE.exec(match[2])) {
-				let id = itemMatch[2]
-				ids.push(id)
-			}
-
-			while (itemMatch = valueRE.exec(match[1])) {
-				let name = itemMatch[1].replace(/_loc\d$/, '').toLowerCase()
-				let value = itemMatch[2]
-
-				value = this.decodeText(value)
-				values[name] = value
-			}
-
-			let id = ids.join('-')
-
-			if (map[id]) {
-				Object.assign(map[id], values)
-			}
-			else {
-				map[id] = values
-			}
-		}
-
-		return map
-	}
-
-	/** SQL 文本 -> 原始文本. */
-	private decodeText(value: string) {
-		return value.replace(/\\([\\'])/g, '$1')
-			
-	}
-
-	/** 原始文本 -> SQL 文本. */
-	private encodeText(value: string) {
-		return value.replace(/[\\']/g, '$&$&')
-	}
-
-	/** 获得表中的数据. */
-	private async getTableData<K1 extends string, K2 extends string>(
-		tableName: string,
-		idNames: K1[],
-		columnNames: K2[],
-		where: string | null = null,
-		conn = this.cMangosConnection
-	): Promise<({[key in K1]: number} & {[key in K2]: string | number | null})[]> {
-		const [rows] = await conn.execute(
-			`select ${[...idNames, ...columnNames].join(', ')} from ${tableName}${where ? ' ' + where: ''} order by ${idNames.join(', ')};`
-		)
-
-		for (let item of rows as any[]) {
-			for (let key of columnNames) {
-				let value = item[key]
-				if (!value) {
-					continue
-				}
-
-				if (typeof value === 'string') {
-					value = value
-						.replace(/[\r\n]/g, '')
-						.replace(/>\s+</g, '><')
-				}
-
-				item[key] = value
-			}
-		}
-
-		return rows as any[]
-	}
-
 	/** 生成一个翻译文件. */
 	private async makeOneTransSQL(
 		fromFileName: string | null,
@@ -133,16 +49,16 @@ class Maker {
 		where: string | null = null,
 	) {
 		let destPath = this.toDir + '/' + localesTableName + '.sql'
-		let destTrans = await fs.pathExists(destPath) ? await this.getLowerNameSQLTrans(destPath) : {}
-		let sqlTrans = fromFileName ? await this.getLowerNameSQLTrans(this.fromDir + '/' + fromFileName) : {}
-		let dbTrans = await this.getTableData(enTableName, idNames, columnNames, where)
+		let destTrans = await fs.pathExists(destPath) ? await getLowerNameSQLTrans(destPath) : {}
+		let sqlTrans = fromFileName ? await getLowerNameSQLTrans(this.fromDir + '/' + fromFileName) : {}
+		let dbTrans = await getTableData(this.cMangosConnection, enTableName, idNames, columnNames, where)
 		let count = 0
 
 		let sql = `SET NAMES 'utf8';\n\n`
-		let localIdNames = idNames.map(name => nameMap[name] || name)
-		let localKeys = localIdNames.map(name => `\`${name}\``).join(', ')
+		let localNames = idNames.map(name => nameMap[name] || name)
+		let localSQLKeys = localNames.map(name => `\`${name}\``).join(', ')
 		let enKeys = idNames.map(name => `\`${name}\``).join(', ')
-		sql += `INSERT IGNORE INTO \`${localesTableName}\` (${localKeys}) SELECT ${enKeys} FROM \`${enTableName}\`;\n\n`
+		sql += `INSERT IGNORE INTO \`${localesTableName}\` (${localSQLKeys}) SELECT ${enKeys} FROM \`${enTableName}\`;\n\n`
 		
 		for (let item of dbTrans) {
 			let ids = idNames.map(name => item[name])
@@ -159,10 +75,10 @@ class Maker {
 
 				name = nameMap[name] || name
 				value = destTrans[id]?.[name.toLowerCase()] || sqlTrans[id]?.[name.toLowerCase()] || value
-				value = this.encodeText(value)
+				value = encodeText(value)
 
 				return comment + `\t\`${name + '_loc4'}\`='${value}'` + '\t-- ' + enValue
-			}).filter(v => v).join(',\n')
+			}).filter(v => v).join('\n')
 
 			let wheres = idNames.map(name => {
 				let value = item[name]
@@ -183,13 +99,12 @@ class Maker {
 	}
 
 	async make() {
-		await this.ready
 		await this.makeLocales()
 		await this.makeBroadcast()
-		process.exit()
 	}
 
 	async makeLocales() {
+		await this.ready
 
 		// NPC 文本, 不使用.
 		// await this.makeOneTransSQL(
@@ -360,11 +275,13 @@ class Maker {
 
 	/** 生成 Broadcast 的翻译. */
 	async makeBroadcast() {
+		await this.ready
+
 		let broadcastPath = this.toDir + '/broadcast_text_locale.sql'
-		let broadcastSQL = await fs.pathExists(broadcastPath) ? await this.getLowerNameSQLTrans(broadcastPath) : {}
+		let broadcastSQL = await fs.pathExists(broadcastPath) ? await getLowerNameSQLTrans(broadcastPath) : {}
 		let broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}> = new Map()
 
-		let broadcastTrans = await this.getTableData('broadcast_text', ['Id'], [
+		let broadcastTrans = await getTableData(this.cMangosConnection, 'broadcast_text', ['Id'], [
 			'Text',
 			'Text1',
 		]) as {Id: number, Text: string, Text1: string}[]
@@ -424,7 +341,7 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 			}
 
 			let value = broadcastSQL[id]?.text_lang || text || text1 || enValue
-			value = this.encodeText(value)
+			value = encodeText(value)
 
 			let translated = !!(text || text1)
 			let commentPrefix = translated ? '' : '-- '
@@ -450,9 +367,9 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 
 	/** 生成 Broadcast 的翻译. */
 	private async makeGossipBroadcast(broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>) {
-		let gossipData = await this.getTableData('gossip_menu_option', ['menu_id', 'id'], ['option_broadcast_text'])
-		let gossipCreatureMap = makeGroup(await this.getTableData('creature_template', ['Entry'], ['GossipMenuId']), item => [item.GossipMenuId!, item.Entry])
-		let gossipSQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_gossip_menu_option.sql')
+		let gossipData = await getTableData(this.cMangosConnection, 'gossip_menu_option', ['menu_id', 'id'], ['option_broadcast_text'])
+		let gossipCreatureMap = makeGroup(await getTableData(this.cMangosConnection, 'creature_template', ['Entry'], ['GossipMenuId']), item => [item.GossipMenuId!, item.Entry])
+		let gossipSQL = await getLowerNameSQLTrans(this.fromDir + '/Chinese_gossip_menu_option.sql')
 		
 		for (let item of gossipData) {
 			let gossipId = item.menu_id + '-' + item.id
@@ -476,8 +393,8 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 
 	/** 生成 Broadcast 的翻译. */
 	private async makeScriptBroadcast(broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>) {
-		let scriptData = await this.getTableData('script_texts', ['entry'], ['broadcast_text_id'])
-		let scriptSQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_Script_Texts.sql')
+		let scriptData = await getTableData(this.cMangosConnection, 'script_texts', ['entry'], ['broadcast_text_id'])
+		let scriptSQL = await getLowerNameSQLTrans(this.fromDir + '/Chinese_Script_Texts.sql')
 
 		for (let item of scriptData) {
 			let scriptId = item.entry
@@ -501,7 +418,7 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 
 	/** 生成 Broadcast 的翻译. */
 	private async makeNPCBroadcast(broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>) {
-		let npcTextData = await this.getTableData('npc_text_broadcast_text', ['Id'], [
+		let npcTextData = await getTableData(this.cMangosConnection, 'npc_text_broadcast_text', ['Id'], [
 			'BroadcastTextId0',
 			'BroadcastTextId1',
 			'BroadcastTextId2',
@@ -512,9 +429,9 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 			'BroadcastTextId7',
 		])
 
-		let npcTextNPCGUIDMap =  makeGroup(await this.getTableData('npc_gossip', ['npc_guid'], ['textid']), item => [item.textid as number, item.npc_guid])
-		let npcGUIDCreatureIdMap =  makeIndex(await this.getTableData('creature', ['guid'], ['id']), item => [item.guid, item.id as number])
-		let npcTextSQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_NpcText.sql')
+		let npcTextNPCGUIDMap =  makeGroup(await getTableData(this.cMangosConnection, 'npc_gossip', ['npc_guid'], ['textid']), item => [item.textid as number, item.npc_guid])
+		let npcGUIDCreatureIdMap =  makeIndex(await getTableData(this.cMangosConnection, 'creature', ['guid'], ['id']), item => [item.guid, item.id as number])
+		let npcTextSQL = await getLowerNameSQLTrans(this.fromDir + '/Chinese_NpcText.sql')
 
 		for (let item of npcTextData) {
 			let npcTextId = item.Id
@@ -547,7 +464,7 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 		broadcastTransMap: Record<number, {Text: string, Text1: string}>,
 	) {
 
-		let createAIScripts = (await this.getTableData('creature_ai_scripts', ['creature_id'], [
+		let createAIScripts = (await getTableData(this.cMangosConnection, 'creature_ai_scripts', ['creature_id'], [
 			'action1_type',
 			'action1_param1',
 			'action1_param2',
@@ -575,7 +492,7 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 		})
 		.filter(item => item.ids.length > 0)
 
-		let mangosCreateAIScripts = (await this.getTableData('creature_ai_scripts', ['creature_id'], [
+		let mangosCreateAIScripts = (await getTableData(this.mangosConnection, 'creature_ai_scripts', ['creature_id'], [
 			'action1_type',
 			'action1_param1',
 			'action1_param2',
@@ -588,7 +505,7 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 			'action3_param1',
 			'action3_param2',
 			'action3_param3',
-		], '', this.mangosConnection))
+		]))
 		.map(item => {
 			let ids: number[] = [
 				item.action1_type === 1 ? [item.action1_param1, item.action1_param2, item.action1_param3] as number[] : [],
@@ -606,14 +523,14 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 		let mangosCreateAIScriptMap = makeGroup(mangosCreateAIScripts, (item) => [item.creature_id, item.ids])
 
 		let mangosCreateAITextsMap = makeIndex(
-			(await this.getTableData('creature_ai_texts', ['entry'], [
+			(await getTableData(this.mangosConnection, 'creature_ai_texts', ['entry'], [
 				'content_default',
-			], '', this.mangosConnection))
+			]))
 			.filter(item => item.content_default),
 			item => [item.entry, item.content_default]
 		) as Record<number, string>
 
-		let creatureAISQL = await this.getLowerNameSQLTrans(this.fromDir + '/Chinese_Creature_AI_Texts.sql')
+		let creatureAISQL = await getLowerNameSQLTrans(this.fromDir + '/Chinese_Creature_AI_Texts.sql')
 		let broadcastIdRawIdMap: Record<number, {rawTextId: number, priority: number}> = {}
 
 		for (let item of createAIScripts) {
@@ -665,9 +582,18 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 
 let m = new Maker()
 
-if (process.argv[2] === '--broadcast') {
-	m.makeBroadcast()
+if (process.argv[2] === '-broadcast') {
+	m.makeBroadcast().then(() => {
+		process.exit()
+	})
+}
+else if (process.argv[2] === '-locales') {
+	m.makeLocales().then(() => {
+		process.exit()
+	})
 }
 else {
-	m.make()
+	m.make().then(() => {
+		process.exit()
+	})
 }

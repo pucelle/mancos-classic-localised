@@ -46,6 +46,10 @@ export function getEditSimilarity(from: string, to: string) {
 	let len1 = from.length
 	let len2 = to.length
 
+	if (!len1 && !len2) {
+		return 1
+	}
+
 	// 计算编辑次数相比较长字符串长度的比值. 再拿 1- 获得相似度.
 	return 1 - getEditDistance(from, to) / Math.max(len1, len2)
 }
