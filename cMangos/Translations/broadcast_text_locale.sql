@@ -20,7 +20,24 @@ INSERT IGNORE INTO `broadcast_text_locale` (`Id`, `Locale`, `VerifiedBuild`) SEL
 	SELECT DISTINCT `BroadcastTextId6` as Id FROM `npc_text_broadcast_text` WHERE `BroadcastTextId6` IS NOT NULL
 	UNION
 	SELECT DISTINCT `BroadcastTextId7` as Id FROM `npc_text_broadcast_text` WHERE `BroadcastTextId7` IS NOT NULL
-) AS a;
+	UNION
+	SELECT DISTINCT `action1_param1` as Id FROM creature_ai_scripts WHERE `action1_type`=1 AND `action1_param1`>0
+	UNION
+	SELECT DISTINCT `action1_param2` as Id FROM creature_ai_scripts WHERE `action1_type`=1 AND `action1_param2`>0
+	UNION
+	SELECT DISTINCT `action1_param3` as Id FROM creature_ai_scripts WHERE `action1_type`=1 AND `action1_param3`>0
+	UNION
+	SELECT DISTINCT `action2_param1` as Id FROM creature_ai_scripts WHERE `action2_type`=1 AND `action2_param1`>0
+	UNION
+	SELECT DISTINCT `action2_param2` as Id FROM creature_ai_scripts WHERE `action2_type`=1 AND `action2_param2`>0
+	UNION
+	SELECT DISTINCT `action2_param3` as Id FROM creature_ai_scripts WHERE `action2_type`=1 AND `action2_param3`>0
+	UNION
+	SELECT DISTINCT `action3_param1` as Id FROM creature_ai_scripts WHERE `action3_type`=1 AND `action3_param1`>0
+	UNION
+	SELECT DISTINCT `action3_param2` as Id FROM creature_ai_scripts WHERE `action3_type`=1 AND `action3_param2`>0
+	UNION
+	SELECT DISTINCT `action3_param3` as Id FROM creature_ai_scripts WHERE `action3_type`=1 AND `action3_param3`>0
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='The entrance is hidden here in Moonbrook.  Keep your eyes peeled for thieves.  They want me dead.'	-- The entrance is hidden here in Moonbrook.  Keep your eyes peeled for thieves.  They want me dead.
