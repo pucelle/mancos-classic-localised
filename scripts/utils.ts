@@ -32,7 +32,7 @@ export async function getLowerNameSQLTrans(filePath: string) {
 	let fromText = (await fs.readFile(filePath)).toString('utf8')
 	let re = /^UPDATE .+? SET([\s\S]+?)WHERE (.+?);/gim
 	let idRE = /`(\w+)`=(-?\d+)/g
-	let valueRE = /`(\w+)`='((?:''|\\'|.)+?)'/g
+	let valueRE = /`(\w+)`='((?:''|\\'|.)+?)'(?!')/g
 	let match: RegExpExecArray | null
 	let map: Record<string, Record<string, string>> = {}
 
@@ -69,7 +69,7 @@ export async function getLowerNameSQLTrans(filePath: string) {
 
 /** SQL 文本 -> 原始文本. */
 export function decodeText(value: string) {
-	return value.replace(/\\([\\'])/g, '$1')
+	return value.replace(/\\([\\'])/g, '$1').replace(/''/g, '\'')
 		
 }
 

@@ -159,7 +159,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=111 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='给我这个可怜的家伙一点零钱吧？...'	-- 1405, Could ye spare some coin?
+	`Text_lang`='给我这个可怜的家伙一点零钱吧？...'	-- 1395, Could ye spare some coin?
 WHERE `Id`=179 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -2727,19 +2727,19 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=3426 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='双足飞龙管理员'	-- 3212 3215 3217 3218 3219 3220 3221 3222 3223 3224, The wind rider master
+	`Text_lang`='双足飞龙管理员'	-- 3084, The wind rider master
 WHERE `Id`=3427 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='工会注册师'	-- 5624, The guild master
+	`Text_lang`='工会注册师'	-- 3084, The guild master
 WHERE `Id`=3428 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='职业训练师'	-- 1496 1652 1735 1738 1742 1743 1744 1745 1746 2209 2210 5725, A class trainer
+	`Text_lang`='职业训练师'	-- 3084, A class trainer
 WHERE `Id`=3429 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='专业训练师'	-- 1496 1652 1735 1738 1742 1743 1744 1745 1746 2209 2210 5725, A profession trainer
+	`Text_lang`='专业训练师'	-- 3084, A profession trainer
 WHERE `Id`=3430 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -6747,7 +6747,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=5907 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='蝙蝠管理员'	-- 1496 1652 1735 1738 1742 1743 1744 1745 1746 2209 2210 5725, The bat handler
+	`Text_lang`='蝙蝠管理员'	-- 5624, The bat handler
 WHERE `Id`=5909 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -12835,7 +12835,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=8507 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='兽栏管理员'	-- 1496 1652 1735 1738 1742 1743 1744 1745 1746 2209 2210 5725, The stable master
+	`Text_lang`='兽栏管理员'	-- 3084, The stable master
 WHERE `Id`=8508 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -15715,7 +15715,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=10364 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='战斗大师'	-- 5624, The battlemaster
+	`Text_lang`='战斗大师'	-- 3084, The battlemaster
 WHERE `Id`=10365 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET

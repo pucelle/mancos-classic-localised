@@ -382,10 +382,10 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 				continue
 			}
 
-			let value = broadcastSQL[id]?.text_lang || text || text1 || enValue
-			value = encodeText(value)
+			let value = broadcastSQL[id]?.text_lang || text || text1
+			let translated = !!value
+			value = encodeText(value || enValue)
 
-			let translated = !!(text || text1)
 			let commentPrefix = translated ? '' : '-- '
 			let npcIdComment = npcIds && npcIds.length > 0 ? npcIds.join(' ') + ', ' : ''
 			let sets = commentPrefix + `\t\`Text_lang\`='${value}'` + '\t-- ' + npcIdComment + enValue
