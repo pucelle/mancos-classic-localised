@@ -330,7 +330,7 @@ class Maker {
 
 		let broadcastTransMap = makeIndex(broadcastTrans, (item) => [item.Id, item])
 		
-		await this.makeGossipBroadcast(broadcasts)
+		await this.makeGossipBroadcast(broadcasts, broadcastTransMap)
 		await this.makeScriptBroadcast(broadcasts)
 		await this.makeNPCBroadcast(broadcasts)
 		await this.makeCreatureAIBroadcasts(broadcasts, broadcastTransMap)
@@ -408,20 +408,45 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 	}
 
 	/** 生成 Broadcast 的翻译. */
-	private async makeGossipBroadcast(broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>) {
+	private async makeGossipBroadcast(
+		broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>,
+		broadcastTransMap: Record<number, {Text: string, Text1: string}>
+	) {
+		let mangosGossipData = await getTableData(this.mangosConnection, 'gossip_menu_option', ['menu_id', 'id'], ['option_text'])
+		let mangosGossipDataMap = makeGroup(mangosGossipData, item => [item.menu_id!, item])
 		let gossipData = await getTableData(this.cMangosConnection, 'gossip_menu_option', ['menu_id', 'id'], ['option_broadcast_text'])
 		let gossipCreatureMap = makeGroup(await getTableData(this.cMangosConnection, 'creature_template', ['Entry'], ['GossipMenuId']), item => [item.GossipMenuId!, item.Entry])
 		let gossipSQL = await getLowerNameSQLTrans(this.fromDir + '/Chinese_gossip_menu_option.sql')
 		
 		for (let item of gossipData) {
-			let gossipId = item.menu_id + '-' + item.id
 			let broadcastId = Number(item.option_broadcast_text)
-
 			if (!broadcastId) {
 				continue
 			}
-			
-			let text = gossipSQL[gossipId]?.option_text
+
+			// 两边的 id 不一致, 必须重新映射.
+			let gossipMenuId = item.menu_id
+			let enValue = broadcastTransMap[broadcastId].Text || broadcastTransMap[broadcastId].Text1
+
+			let mangosGossipItems = mangosGossipDataMap[gossipMenuId]
+			let text: string | undefined = undefined
+
+			if (mangosGossipItems && mangosGossipItems.length > 0) {
+				let bestSimilar = 0
+				let bestMangosId: number
+
+				for (let mangosItem of mangosGossipItems) {
+					let similar = getEditSimilarity(mangosItem.option_text as any, enValue)
+					if (similar > bestSimilar) {
+						bestMangosId = mangosItem.id
+						bestSimilar = similar
+					}
+				}
+
+				if (bestSimilar > 0.8) {
+					text = gossipSQL[gossipMenuId + '-' + bestMangosId!]?.option_text
+				}
+			}
 
 			if (text || !broadcasts.has(broadcastId)) {
 				broadcasts.set(broadcastId, {
@@ -503,7 +528,7 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 	/** 创建从 broadcast 到 Mangos 的 creature ai 的 id. */
 	private async makeCreatureAIBroadcasts(
 		broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>,
-		broadcastTransMap: Record<number, {Text: string, Text1: string}>,
+		broadcastTransMap: Record<number, {Text: string, Text1: string}>
 	) {
 
 		let createAIScripts = (await getTableData(this.cMangosConnection, 'creature_ai_scripts', ['creature_id'], [

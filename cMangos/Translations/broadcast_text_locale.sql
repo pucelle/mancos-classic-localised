@@ -2099,7 +2099,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=2943 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='剥皮'	-- Mining
+	`Text_lang`='采矿'	-- Mining
 WHERE `Id`=2944 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -2107,11 +2107,11 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=2945 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='剥皮'	-- Leatherworking
+	`Text_lang`='制皮'	-- Leatherworking
 WHERE `Id`=2947 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='裁缝'	-- Skinning
+	`Text_lang`='剥皮'	-- Skinning
 WHERE `Id`=2948 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -2731,7 +2731,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=3427 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='蝙蝠管理员'	-- 5624, The guild master
+	`Text_lang`='工会注册师'	-- 5624, The guild master
 WHERE `Id`=3428 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -2867,7 +2867,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=3581 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='请继续，英雄……'	-- 7572, Why are you here?
+	`Text_lang`='你为什么在这里？'	-- 7572, Why are you here?
 WHERE `Id`=3582 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -2918,9 +2918,9 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='你能相信作为精英战士的我居然失败了吗？$B$B我们的部队被无法抗拒的力量彻底摧毁，我所记得的一切就是不顾一切地逃跑，我所听到的一切只有我的战友撕心裂肺的惨叫和我自己的心跳。$B$B过了不久，我又回到了诅咒之地，希望能拯救我的伙伴。但是我被抓住了，最后被活活打死。$B$B这段日子中，我所能感受到的只有恐惧。'	-- Would you believe that in my darkest hour, at the apex of my being, I failed.$B$BAs I fled from the wanton destruction of the forces that overwhelmed us, the only sounds I could hear were the screams of my soldiers and the rapid beat of my own heart.$B$BA short while later, I returned to the Blasted Lands in hopes of rescuing my men and restoring my honor. Instead I was captured and beaten until dead.$B$BWhat I found out during my inquisition and subsequent torture was horrifying.
 WHERE `Id`=3701 AND `Locale`='zhCN';
 
--- UPDATE `broadcast_text_locale` SET
--- 	`Text_lang`='Please continue, Hero...'	-- 7572, Please continue, Hero...
--- WHERE `Id`=3702 AND `Locale`='zhCN';
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='请继续，英雄……'	-- 7572, Please continue, Hero...
+WHERE `Id`=3702 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我被抓之后遭受了非人的虐待，$N。他们轮番拷打我和基利斯中尉，而且在虐待一方的同时让另外一个在旁边看着。我们不断被折磨，直到有一天基利斯告诉把战友们的遭遇告诉了我，还有他的拯救计划。$B$B他们所遭受的痛苦比我和基利斯所遭受的还要多，他们真的是生不如死。'	-- My captors were cruel beyond measure, $N. They would alternate between Lieutenant Kirith and I, torturing one while the other watched. During a lull in the activity of an especially brutal day, Kirith told me what had happened to my men and a plan he had been formulating to free them from their masters.$B$BThey suffered a fate far worse than death, or even the pain Kirith and I  endured.
@@ -3519,7 +3519,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4275 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='让我看看你的货物。'	-- 16256, What can I do at an inn?
+	`Text_lang`='我能在旅馆里做些什么？'	-- 16256, What can I do at an inn?
 WHERE `Id`=4308 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -4515,7 +4515,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4894 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='会长'	-- 5624, The mailbox
+	`Text_lang`='邮箱'	-- 3084, The mailbox
 WHERE `Id`=4895 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -4798,9 +4798,9 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='好吧，好吧。总之，从某种意义上说，我退到了一个不起眼的角落里。$B$B温德索尔似乎并不安分，看看他那歇斯底里的样儿。他拿着反对者战锤没命地乱挥，像发了疯一样对兽人咆哮着。'	-- Alright, alright. Anyhow, so I sorta slipped into the shadows.$B$BThat didn't sit too well with Windsor, seeing as how he was already extra cranky. Well he started spinnin' old Ironfoe around and screaming like a mad man at the orcs.
 WHERE `Id`=5014 AND `Locale`='zhCN';
 
-UPDATE `broadcast_text_locale` SET
-	`Text_lang`='反对者？'	-- Ironfoe?
-WHERE `Id`=5015 AND `Locale`='zhCN';
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Ironfoe?'	-- Ironfoe?
+-- WHERE `Id`=5015 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='嗯。你从来没有听说过反对者？那把传说中的令兽人闻风丧胆的战锤？对，对，那是温德索尔的锤子。他说是弗兰克罗恩·铸铁亲自为他伟大的父亲制造了那把锤。弗兰克罗恩·铸铁，就是那个建造了巨石水坝之类的……黑铁矮人。他还说有一把与反对者一起铸造出来的战锤被弗兰克罗恩自己留着用了。他好像叫它铁胆之锤什么的。'	-- Yep. You never heard of Ironfoe? The legendary orc slaying hammer? Yep, yep, that was ol' Windsor's hammer. He told me that Franclorn Forgewright himself made that hammer for his great, great, grand pappy. THE Franclorn Forgewright: The Dark Iron responsible for stonewrought archimetenc... building stuff. He also said the hammer had a twin that Franclorn kept for himself. Think he called it Ironfel or something.
@@ -5707,7 +5707,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=5422 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='邮箱'	-- 5624, The auction house
+	`Text_lang`='拍卖行'	-- 3084, The auction house
 WHERE `Id`=5423 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -5934,9 +5934,9 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='在城市的大门外有一处路标，上头注明了往西方飞艇塔的方向。'	-- Look for the Zeppelin Landing Tower outside of the city to the southeast.
 WHERE `Id`=5517 AND `Locale`='zhCN';
 
-UPDATE `broadcast_text_locale` SET
-	`Text_lang`='兽栏管理员'	-- 5624, The zeppelin master
-WHERE `Id`=5518 AND `Locale`='zhCN';
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='The zeppelin master'	-- 5624, The zeppelin master
+-- WHERE `Id`=5518 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我和我的兄弟效忠于希尔瓦娜斯。在最黑暗的时代，她是我们的指路明灯。我们日复一日地奉献着，希望使种族避免遭受厄运。$B$B我们不会一直软弱下去的。我们会取回自己应得的。我们将报复敌人，让他们尝到十倍于我们的痛苦。并且，我们将面带微笑报复敌人。'	-- My brother and I have dedicated ourselves to Sylvanas. She is our beacon of light when times were darkest. We sacrifice ourselves day in and day out to ensure our kind overcome the destiny that's chosen us.$B$BWe will not remain weak. We will take that which is owed to us. We will return tenfold, the pain that was done to us. And we shall do so with smiles on our faces.
@@ -7475,7 +7475,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6276 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='当然。'	-- Continue please...
+	`Text_lang`='请继续……'	-- Continue please...
 WHERE `Id`=6277 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -7491,7 +7491,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6280 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='请继续……'	-- Absolutely.
+	`Text_lang`='当然。'	-- Absolutely.
 WHERE `Id`=6281 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -9391,7 +9391,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=7071 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='旅馆'	-- 3571, The Guild Master.
+	`Text_lang`='工会注册师'	-- 3571, The Guild Master.
 WHERE `Id`=7072 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -9607,7 +9607,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=7156 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='训练我。'	-- 4607, I seek more training in the priestly ways.
+	`Text_lang`='我需要更多牧师的训练方法。'	-- 4606, I seek more training in the priestly ways.
 WHERE `Id`=7157 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -9834,9 +9834,9 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='想学习如何使用新武器？去荣誉谷的传说中的装备店中找塞尤克和哈纳什吧。'	-- Look for Sayoc and Hanashi at the Valley of Honor inside Arms of Legend.  Watch your tongue around them or Sayoc may decide to give a piece of you as a snack to Grinning Dog.
 WHERE `Id`=7252 AND `Locale`='zhCN';
 
-UPDATE `broadcast_text_locale` SET
-	`Text_lang`='武器大师'	-- 5624, The weapon master
-WHERE `Id`=7253 AND `Locale`='zhCN';
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='The weapon master'	-- 3084, The weapon master
+-- WHERE `Id`=7253 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='啊，你是在找安塞瓦。去雷霆崖武器店中部高地的底层找他吧。'	-- Ah, you seek the wisdom of Ansekhwa.  Look for him on the lower rise at Thunder Bluff Weapons.
@@ -14650,9 +14650,9 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='在这么偏远的地方遇到人可真好啊。来吧，跟我一起。让我们用身体互相取暖。'	-- 14531, How wonderful to see another person in this remote region of the world. Come, walk with me. Let our bodies keep each other warm.
 WHERE `Id`=9748 AND `Locale`='zhCN';
 
-UPDATE `broadcast_text_locale` SET
-	`Text_lang`='战斗大师'	-- 3296, The officers' lounge
-WHERE `Id`=9749 AND `Locale`='zhCN';
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='The officers'' lounge'	-- 3296, The officers' lounge
+-- WHERE `Id`=9749 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='去力量谷西边的山顶找找看。他们只会让官员进去的！如果你不是官员，可以跟外面的巴沙中士谈谈。'	-- Look for it high up on the west side of the Valley of Strength. They'll only let you in if you're an officer! Talk to Sergeant Ba'sha outside otherwise.
@@ -16286,9 +16286,9 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='噢，你这可怜的家伙，你从头到脚都是沙！欢迎在这个美丽的绿洲休息并回复你的体力。'	-- Greetings, traveler. As long as you remain within the walls of the Cenarion Hold, you will be safe from harm.$B$BBe wary when leaving the protection of the Hold as the silithid have been swarming as of late.
 WHERE `Id`=10646 AND `Locale`='zhCN';
 
--- UPDATE `broadcast_text_locale` SET
--- 	`Text_lang`='I wish to browse your wares, Calandrath.'	-- 15174, I wish to browse your wares, Calandrath.
--- WHERE `Id`=10647 AND `Locale`='zhCN';
+UPDATE `broadcast_text_locale` SET
+	`Text_lang`='我想看看你的商品，卡兰德拉斯。'	-- 15174, I wish to browse your wares, Calandrath.
+WHERE `Id`=10647 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='我向城堡提供各种施法所需的碎片和其他炼金材料。'	-- I supply the Hold with various relics required for spellcasting as well as other alchemical reagents.
@@ -16411,7 +16411,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=10700 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='斯古恩男爵！我持有你的印记！听从我的呼唤！'	-- Duke of Shards! I hold your signet!  Heed my call!
+	`Text_lang`='碎石公爵！我持有你的印记！听从我的呼唤！'	-- Duke of Shards! I hold your signet!  Heed my call!
 WHERE `Id`=10701 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -19338,9 +19338,9 @@ UPDATE `broadcast_text_locale` SET
 	`Text_lang`='不，我没有。但其他人都想谈恋爱。你应该跟我买些爱之硬币，喷些古龙水或香水，发给大家！'	-- No, I'm not, but lots of others are looking for love.  You should buy my love tokens, put on some cologne or perfume, and then pass them around!
 WHERE `Id`=11822 AND `Locale`='zhCN';
 
-UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我能在旅馆里做些什么？'	-- 16256, Does that heart mean you're looking for love?
-WHERE `Id`=11823 AND `Locale`='zhCN';
+-- UPDATE `broadcast_text_locale` SET
+-- 	`Text_lang`='Does that heart mean you''re looking for love?'	-- 2808 6272 6740 8931, Does that heart mean you're looking for love?
+-- WHERE `Id`=11823 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
 	`Text_lang`='爱情信物是什么？'	-- What are love tokens?
