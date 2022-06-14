@@ -743,7 +743,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=888;
 
 UPDATE `locales_item` SET
-	`name_loc4`='一封覆满灰尘的信'	-- A Dusty Unsent Letter
+	`name_loc4`='一封覆满灰尘的信',	-- A Dusty Unsent Letter
 	`description_loc4`='这封很久以前写好的信根本就没有发出去。'	-- This dusty letter from long ago was never sent.
 WHERE `entry`=889;
 
@@ -776,7 +776,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=899;
 
 UPDATE `locales_item` SET
-	`name_loc4`='一封未寄出的信'	-- An Undelivered Letter
+	`name_loc4`='一封未寄出的信',	-- An Undelivered Letter
 	`description_loc4`='这封破旧的信从未被寄出过。'	-- Weathered and old, this letter was never delivered.
 WHERE `entry`=910;
 
@@ -793,7 +793,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=915;
 
 UPDATE `locales_item` SET
-	`name_loc4`='一张被撕破的日记书页'	-- A Torn Journal Page
+	`name_loc4`='一张被撕破的日记书页',	-- A Torn Journal Page
 	`description_loc4`='只有下半页。'	-- Only the bottom half of this journal page remains.
 WHERE `entry`=916;
 
@@ -806,7 +806,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=920;
 
 UPDATE `locales_item` SET
-	`name_loc4`='一张褪色的日记书页'	-- A Faded Journal Page
+	`name_loc4`='一张褪色的日记书页',	-- A Faded Journal Page
 	`description_loc4`='虽然大部分文字已经模糊不清了，但仍有一部分可以辨认。'	-- Although most of the text is long faded, some words can still be read.
 WHERE `entry`=921;
 
@@ -867,12 +867,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=937;
 
 UPDATE `locales_item` SET
-	`name_loc4`='沾满泥污的日记书页'	-- Muddy Journal Pages
+	`name_loc4`='沾满泥污的日记书页',	-- Muddy Journal Pages
 	`description_loc4`='虽然大部分书页都被污泥弄脏了，但仍有一部分可以辨认。'	-- Although the pages are covered in mud, some words can be read.
 WHERE `entry`=938;
 
 UPDATE `locales_item` SET
-	`name_loc4`='一张染血的日记书页'	-- A Bloodstained Journal Page
+	`name_loc4`='一张染血的日记书页',	-- A Bloodstained Journal Page
 	`description_loc4`='虽然大部分字符已经被血迹覆盖，但还有一些可以辨认。'	-- Through thick blood a few words still remain legible.
 WHERE `entry`=939;
 
@@ -901,7 +901,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=955;
 
 UPDATE `locales_item` SET
-	`name_loc4`='威廉的货物'	-- William's Shipment
+	`name_loc4`='威廉的货物',	-- William's Shipment
 	`description_loc4`='箱子上贴着一张便笺。'	-- There is a note attached.
 WHERE `entry`=957;
 
@@ -922,7 +922,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=983;
 
 UPDATE `locales_item` SET
-	`name_loc4`='黄铜项圈'	-- Brass Collar
+	`name_loc4`='黄铜项圈',	-- Brass Collar
 	`description_loc4`='公主 - 一等奖'	-- Princess - First Prize
 WHERE `entry`=1006;
 
@@ -1307,7 +1307,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=1283;
 
 UPDATE `locales_item` SET
-	`name_loc4`='一箱马掌'	-- Crate of Horseshoes
+	`name_loc4`='一箱马掌',	-- Crate of Horseshoes
 	`description_loc4`='箱子上贴着一张便笺。'	-- There's a note attached to this crate.
 WHERE `entry`=1284;
 
@@ -1324,12 +1324,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=1292;
 
 UPDATE `locales_item` SET
-	`name_loc4`='湖畔镇的现状'	-- The State of Lakeshire
+	`name_loc4`='湖畔镇的现状',	-- The State of Lakeshire
 	`description_loc4`='由所罗门镇长亲笔撰写的报告，描述了赤脊山的现状。'	-- Written by Magistrate Solomon, this report details the events unfolding in Redridge.
 WHERE `entry`=1293;
 
 UPDATE `locales_item` SET
-	`name_loc4`='将军的回信'	-- The General's Response
+	`name_loc4`='将军的回信',	-- The General's Response
 	`description_loc4`='马库斯·乔纳森将军写给所罗门镇长的回信。'	-- General Marcus Jonathan's response to Magistrate Solomon's plea for help.
 WHERE `entry`=1294;
 
@@ -1410,12 +1410,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=1326;
 
 UPDATE `locales_item` SET
-	`name_loc4`='威利的便笺'	-- Wiley's Note
+	`name_loc4`='威利的便笺',	-- Wiley's Note
 	`description_loc4`='黑衣威利匆匆写给格里安·斯托曼的信。'	-- A hastily written note written by Wiley the Black for Gryan Stoutmantle.
 WHERE `entry`=1327;
 
 UPDATE `locales_item` SET
-	`name_loc4`='亚伯克隆比的箱子'	-- Abercrombie's Crate
+	`name_loc4`='亚伯克隆比的箱子',	-- Abercrombie's Crate
 	`description_loc4`='这只大箱子被紧紧地封了起来，但是弥漫着死亡的气息。'	-- This large crate is sealed tight, but it reeks of dead things.
 WHERE `entry`=1349;
 
@@ -1424,7 +1424,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=1351;
 
 UPDATE `locales_item` SET
-	`name_loc4`='肖尔的报告'	-- Shaw's Report
+	`name_loc4`='肖尔的报告',	-- Shaw's Report
 	`description_loc4`='肖尔提交给格里安·斯托曼的有关石匠协会的报告。'	-- Shaw's report on the Stonemason Guild for Gryan Stoutmantle.
 WHERE `entry`=1353;
 
@@ -1433,12 +1433,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=1355;
 
 UPDATE `locales_item` SET
-	`name_loc4`='杉德尔船长的藏宝图'	-- Captain Sander's Treasure Map
+	`name_loc4`='杉德尔船长的藏宝图',	-- Captain Sander's Treasure Map
 	`description_loc4`='泡过水的羊皮纸几乎完全腐烂了。'	-- The waterlogged parchment is about to disintegrate.
 WHERE `entry`=1357;
 
 UPDATE `locales_item` SET
-	`name_loc4`='杉德尔宝藏的线索'	-- A Clue to Sander's Treasure
+	`name_loc4`='杉德尔宝藏的线索',	-- A Clue to Sander's Treasure
 	`description_loc4`='这一小片羊皮纸上有潦草的字迹。'	-- This torn piece of parchment contains scribbled writing.
 WHERE `entry`=1358;
 
@@ -1451,12 +1451,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=1360;
 
 UPDATE `locales_item` SET
-	`name_loc4`='杉德尔宝藏的另一个线索'	-- Another Clue to Sander's Treasure
+	`name_loc4`='杉德尔宝藏的另一个线索',	-- Another Clue to Sander's Treasure
 	`description_loc4`='这一小片羊皮纸上有潦草的字迹。'	-- This torn piece of parchment contains scribbled writing.
 WHERE `entry`=1361;
 
 UPDATE `locales_item` SET
-	`name_loc4`='杉德尔宝藏的最终线索'	-- Final Clue to Sander's Treasure
+	`name_loc4`='杉德尔宝藏的最终线索',	-- Final Clue to Sander's Treasure
 	`description_loc4`='这一小片羊皮纸上有潦草的字迹。'	-- This torn piece of parchment contains scribbled writing.
 WHERE `entry`=1362;
 
@@ -1509,7 +1509,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=1380;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神秘的信件'	-- A Mysterious Message
+	`name_loc4`='神秘的信件',	-- A Mysterious Message
 	`description_loc4`='这封被灰尘覆盖的便笺上写着一些密码文字。'	-- This soot-covered note contains some cryptic text.
 WHERE `entry`=1381;
 
@@ -2630,7 +2630,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=1853;
 
 UPDATE `locales_item` SET
-	`name_loc4`='希斯耐特的徽章'	-- Thistlenettle's Badge
+	`name_loc4`='希斯耐特的徽章',	-- Thistlenettle's Badge
 	`description_loc4`='工头希斯耐特 - 探险者协会成员'	-- Foreman Thistlenettle - Member of the Explorers' League
 WHERE `entry`=1875;
 
@@ -2715,7 +2715,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=1917;
 
 UPDATE `locales_item` SET
-	`name_loc4`='斯温的货物'	-- Supplies for Sven
+	`name_loc4`='斯温的货物',	-- Supplies for Sven
 	`description_loc4`='一些送给斯温的补给品。'	-- A bundle of miscellaneous supplies for Sven.
 WHERE `entry`=1922;
 
@@ -2812,7 +2812,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=1955;
 
 UPDATE `locales_item` SET
-	`name_loc4`='不再发光的暗皮坠饰'	-- Faded Shadowhide Pendant
+	`name_loc4`='不再发光的暗皮坠饰',	-- Faded Shadowhide Pendant
 	`description_loc4`='附在坠饰上的法术已经消失了。'	-- The spell on this pendant has faded.
 WHERE `entry`=1956;
 
@@ -2833,7 +2833,7 @@ WHERE `entry`=1959;
 -- WHERE `entry`=1961;
 
 UPDATE `locales_item` SET
-	`name_loc4`='发光的暗皮坠饰'	-- Glowing Shadowhide Pendant
+	`name_loc4`='发光的暗皮坠饰',	-- Glowing Shadowhide Pendant
 	`description_loc4`='这只坠饰闪耀着魔法的光芒。'	-- This pendant glows with magic.
 WHERE `entry`=1962;
 
@@ -2910,7 +2910,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=1986;
 
 UPDATE `locales_item` SET
-	`name_loc4`='修理过的烹调锅'	-- Krazek's Fixed Pot
+	`name_loc4`='修理过的烹调锅',	-- Krazek's Fixed Pot
 	`description_loc4`='改进型的烹饪锅，附加了哨子和自动切肉刀。'	-- An improved pot, with extra whistles and choppers.
 WHERE `entry`=1987;
 
@@ -2951,7 +2951,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=1998;
 
 UPDATE `locales_item` SET
-	`name_loc4`='阿契厄斯'	-- Archeus
+	`name_loc4`='阿契厄斯',	-- Archeus
 	`description_loc4`='摩根·拉迪莫尔之剑'	-- Morgan Ladimore's sword.
 WHERE `entry`=2000;
 
@@ -2960,22 +2960,22 @@ UPDATE `locales_item` SET
 WHERE `entry`=2004;
 
 UPDATE `locales_item` SET
-	`name_loc4`='巨魔传说第一章'	-- The First Troll Legend
+	`name_loc4`='巨魔传说第一章',	-- The First Troll Legend
 	`description_loc4`='月亮照耀着山谷'	-- Moon over the Vale
 WHERE `entry`=2005;
 
 UPDATE `locales_item` SET
-	`name_loc4`='巨魔传说第二章'	-- The Second Troll Legend
+	`name_loc4`='巨魔传说第二章',	-- The Second Troll Legend
 	`description_loc4`='游荡者格里雷克'	-- Gri'lek the Wanderer
 WHERE `entry`=2006;
 
 UPDATE `locales_item` SET
-	`name_loc4`='巨魔传说第三章'	-- The Third Troll Legend
+	`name_loc4`='巨魔传说第三章',	-- The Third Troll Legend
 	`description_loc4`='古拉巴什的毁灭'	-- Fall of Gurubashi
 WHERE `entry`=2007;
 
 UPDATE `locales_item` SET
-	`name_loc4`='巨魔传说第四章'	-- The Fourth Troll Legend
+	`name_loc4`='巨魔传说第四章',	-- The Fourth Troll Legend
 	`description_loc4`='帝王之墓'	-- The Emperor's Tomb
 WHERE `entry`=2008;
 
@@ -3436,7 +3436,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=2161;
 
 UPDATE `locales_item` SET
-	`name_loc4`='莎拉之戒'	-- Sarah's Ring
+	`name_loc4`='莎拉之戒',	-- Sarah's Ring
 	`description_loc4`='莎拉·拉迪莫尔的戒指'	-- Sarah Ladimore's ring.
 WHERE `entry`=2162;
 
@@ -3697,7 +3697,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=2238;
 
 UPDATE `locales_item` SET
-	`name_loc4`='收货人的戒指'	-- The Collector's Ring
+	`name_loc4`='收货人的戒指',	-- The Collector's Ring
 	`description_loc4`='戒指上刻着一行字：“感谢你的功绩。──范克里夫”'	-- Engraved with the words 'For years of service: -EVC.'
 WHERE `entry`=2239;
 
@@ -3738,7 +3738,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=2251;
 
 UPDATE `locales_item` SET
-	`name_loc4`='杂七杂八的地精补给物资'	-- Miscellaneous Goblin Supplies
+	`name_loc4`='杂七杂八的地精补给物资',	-- Miscellaneous Goblin Supplies
 	`description_loc4`='要递送给索尔森下士的箱子。'	-- A crate of miscellaneous supplies addressed to Private Thorsen.
 WHERE `entry`=2252;
 
@@ -4967,7 +4967,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=2677;
 
 UPDATE `locales_item` SET
-	`name_loc4`='甜香料'	-- Mild Spices
+	`name_loc4`='甜香料',	-- Mild Spices
 	`description_loc4`='用以让食物的味道更加可口。'	-- Used to enhance the flavor in cooking recipes.
 WHERE `entry`=2678;
 
@@ -5592,7 +5592,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=2872;
 
 UPDATE `locales_item` SET
-	`name_loc4`='未寄出的信'	-- An Unsent Letter
+	`name_loc4`='未寄出的信',	-- An Unsent Letter
 	`description_loc4`='从艾德温·范克里夫身上找到的信。'	-- A letter found on Edwin VanCleef's person.
 WHERE `entry`=2874;
 
@@ -5617,7 +5617,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=2879;
 
 UPDATE `locales_item` SET
-	`name_loc4`='弱效助熔剂'	-- Weak Flux
+	`name_loc4`='弱效助熔剂',	-- Weak Flux
 	`description_loc4`='铁匠以此去除矿石中的杂质。'	-- Used by Blacksmiths to remove impurities.
 WHERE `entry`=2880;
 
@@ -5678,7 +5678,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=2900;
 
 UPDATE `locales_item` SET
-	`name_loc4`='矿工锄'	-- Mining Pick
+	`name_loc4`='矿工锄',	-- Mining Pick
 	`description_loc4`='矿工需要一把锄才能采矿。'	-- Miners need a mining pick for digging.
 WHERE `entry`=2901;
 
@@ -5755,17 +5755,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=2926;
 
 UPDATE `locales_item` SET
-	`name_loc4`='蚀骨灰'	-- Dust of Decay
+	`name_loc4`='蚀骨灰',	-- Dust of Decay
 	`description_loc4`='盗贼制毒所需的原料。'	-- Used by rogues to brew poison.
 WHERE `entry`=2928;
 
 UPDATE `locales_item` SET
-	`name_loc4`='痛苦精华'	-- Essence of Pain
+	`name_loc4`='痛苦精华',	-- Essence of Pain
 	`description_loc4`='盗贼制毒所需的原料。'	-- Used by rogues to brew poison.
 WHERE `entry`=2930;
 
 UPDATE `locales_item` SET
-	`name_loc4`='魔女之毒'	-- Maiden's Anguish
+	`name_loc4`='魔女之毒',	-- Maiden's Anguish
 	`description_loc4`='盗贼制毒所需的原料。'	-- Used by rogues to brew poison.
 WHERE `entry`=2931;
 
@@ -5990,7 +5990,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=2997;
 
 UPDATE `locales_item` SET
-	`name_loc4`='简易罗盘'	-- A Simple Compass
+	`name_loc4`='简易罗盘',	-- A Simple Compass
 	`description_loc4`='巴隆斯·阿历克斯顿的第一只罗盘。'	-- Baros Alexston's first compass.
 WHERE `entry`=2998;
 
@@ -6291,7 +6291,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3154;
 
 UPDATE `locales_item` SET
-	`name_loc4`='阿鲁高的拯救'	-- Remedy of Arugal
+	`name_loc4`='阿鲁高的拯救',	-- Remedy of Arugal
 	`description_loc4`='这张古老的卷轴是由肯瑞托的秘文撰写的。'	-- This aging scroll is written in the indecipherable language of the Kirin Tor.
 WHERE `entry`=3155;
 
@@ -6576,7 +6576,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3234;
 
 UPDATE `locales_item` SET
-	`name_loc4`='轻蔑之戒'	-- Ring of Scorn
+	`name_loc4`='轻蔑之戒',	-- Ring of Scorn
 	`description_loc4`='赠予黛丽娅'	-- For Deliah
 WHERE `entry`=3235;
 
@@ -6589,7 +6589,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3237;
 
 UPDATE `locales_item` SET
-	`name_loc4`='乔汉的研究成果'	-- Johaan's Findings
+	`name_loc4`='乔汉的研究成果',	-- Johaan's Findings
 	`description_loc4`='初级药剂师霍兰德的密封研究发现。'	-- The sealed findings of Apothecary Johaan.
 WHERE `entry`=3238;
 
@@ -6858,7 +6858,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3315;
 
 UPDATE `locales_item` SET
-	`name_loc4`='会说话的头颅'	-- A Talking Head
+	`name_loc4`='会说话的头颅',	-- A Talking Head
 	`description_loc4`='上面写着字！'	-- Its lips are moving!
 WHERE `entry`=3317;
 
@@ -6975,7 +6975,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3348;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞达的背包'	-- Sida's Bag
+	`name_loc4`='塞达的背包',	-- Sida's Bag
 	`description_loc4`='它正在滴水。'	-- It's dripping.
 WHERE `entry`=3349;
 
@@ -7416,7 +7416,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3465;
 
 UPDATE `locales_item` SET
-	`name_loc4`='强效助熔剂'	-- Strong Flux
+	`name_loc4`='强效助熔剂',	-- Strong Flux
 	`description_loc4`='铁匠以此去除矿石中的杂质。'	-- Used by blacksmiths to remove impurities.
 WHERE `entry`=3466;
 
@@ -7425,7 +7425,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3467;
 
 UPDATE `locales_item` SET
-	`name_loc4`='伦弗利尔的研究成果'	-- Renferrel's Findings
+	`name_loc4`='伦弗利尔的研究成果',	-- Renferrel's Findings
 	`description_loc4`='盖着药剂师伦弗利尔的徽记。'	-- The sealed findings of Apothecary Renferrel.
 WHERE `entry`=3468;
 
@@ -7542,7 +7542,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3497;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塔蕾莎的项链'	-- Taretha's Necklace
+	`name_loc4`='塔蕾莎的项链',	-- Taretha's Necklace
 	`description_loc4`='一牙新月缀在银色的链子上。'	-- A crescent moon dangling from a silver chain.
 WHERE `entry`=3498;
 
@@ -7603,7 +7603,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3520;
 
 UPDATE `locales_item` SET
-	`name_loc4`='复杂的密码信'	-- Cleverly Encrypted Letter
+	`name_loc4`='复杂的密码信',	-- Cleverly Encrypted Letter
 	`description_loc4`='这封密码信几乎完全无法破解。'	-- This letter is encrypted and indecipherable.
 WHERE `entry`=3521;
 
@@ -7680,7 +7680,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3566;
 
 UPDATE `locales_item` SET
-	`name_loc4`='矮人钓鱼竿'	-- Dwarven Fishing Pole
+	`name_loc4`='矮人钓鱼竿',	-- Dwarven Fishing Pole
 	`description_loc4`='矮人可没什么耐心。'	-- Dwarves aren't known for their subtlety.
 WHERE `entry`=3567;
 
@@ -8017,7 +8017,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3658;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破旧的皮书'	-- Worn Leather Book
+	`name_loc4`='破旧的皮书',	-- Worn Leather Book
 	`description_loc4`='格里雷克之臂'	-- Arm of Gri'lek
 WHERE `entry`=3659;
 
@@ -8166,7 +8166,7 @@ WHERE `entry`=3693;
 -- WHERE `entry`=3699;
 
 UPDATE `locales_item` SET
-	`name_loc4`='达萨利亚的奖状'	-- Darthalia's Sealed Commendation
+	`name_loc4`='达萨利亚的奖状',	-- Darthalia's Sealed Commendation
 	`description_loc4`='布拉贡·血拳大人亲启。'	-- To be opened by Lord Varimathras.
 WHERE `entry`=3701;
 
@@ -8183,7 +8183,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3704;
 
 UPDATE `locales_item` SET
-	`name_loc4`='附有魔法的羊皮纸'	-- Ensorcelled Parchment
+	`name_loc4`='附有魔法的羊皮纸',	-- Ensorcelled Parchment
 	`description_loc4`='每一个字符都被魔法笼罩着。'	-- Its letters are enshrouded in magic.
 WHERE `entry`=3706;
 
@@ -8208,7 +8208,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3713;
 
 UPDATE `locales_item` SET
-	`name_loc4`='用旧的石雕'	-- Worn Stone Token
+	`name_loc4`='用旧的石雕',	-- Worn Stone Token
 	`description_loc4`='这件物品上的魔法已经消退了。'	-- Its magic has faded.
 WHERE `entry`=3714;
 
@@ -8437,7 +8437,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3776;
 
 UPDATE `locales_item` SET
-	`name_loc4`='死草根'	-- Lethargy Root
+	`name_loc4`='死草根',	-- Lethargy Root
 	`description_loc4`='盗贼制毒所需的原料。'	-- Used by rogues to brew poison.
 WHERE `entry`=3777;
 
@@ -8862,7 +8862,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3898;
 
 UPDATE `locales_item` SET
-	`name_loc4`='古拉巴什传奇，第三卷'	-- Legends of the Gurubashi, Volume 3
+	`name_loc4`='古拉巴什传奇，第三卷',	-- Legends of the Gurubashi, Volume 3
 	`description_loc4`='海潮之石'	-- Stone of the Tides
 WHERE `entry`=3899;
 
@@ -8915,7 +8915,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3912;
 
 UPDATE `locales_item` SET
-	`name_loc4`='装满的灵魂宝石'	-- Filled Soul Gem
+	`name_loc4`='装满的灵魂宝石',	-- Filled Soul Gem
 	`description_loc4`='这颗闪闪发光的宝石中封存着耶尼库的灵魂。'	-- A glowing gem filled with the soul of Yenniku.
 WHERE `entry`=3913;
 
@@ -8960,7 +8960,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3923;
 
 UPDATE `locales_item` SET
-	`name_loc4`='玛雷的畸形足'	-- Maury's Clubbed Foot
+	`name_loc4`='玛雷的畸形足',	-- Maury's Clubbed Foot
 	`description_loc4`='它会在摇摆时叮当作响。'	-- It jingles when shaken.
 WHERE `entry`=3924;
 
@@ -9261,7 +9261,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=4027;
 
 UPDATE `locales_item` SET
-	`name_loc4`='一捆海蛇草'	-- Bundle of Akiris Reeds
+	`name_loc4`='一捆海蛇草',	-- Bundle of Akiris Reeds
 	`description_loc4`='致：水手格罗伊'	-- To: Privateer Groy
 WHERE `entry`=4028;
 
@@ -9470,7 +9470,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=4084;
 
 UPDATE `locales_item` SET
-	`name_loc4`='克拉兹克的烹调锅'	-- Krazek's Crock Pot
+	`name_loc4`='克拉兹克的烹调锅',	-- Krazek's Crock Pot
 	`description_loc4`='一只到处都安装了计量器和刻度盘的锅。'	-- A cooking pot covered with gauges and dials.
 WHERE `entry`=4085;
 
@@ -10391,7 +10391,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=4430;
 
 UPDATE `locales_item` SET
-	`name_loc4`='苏利·巴鲁的信'	-- Sully Balloo's Letter
+	`name_loc4`='苏利·巴鲁的信',	-- Sully Balloo's Letter
 	`description_loc4`='我亲爱的萨拉……'	-- My dear Sara...
 WHERE `entry`=4432;
 
@@ -10524,7 +10524,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=4467;
 
 UPDATE `locales_item` SET
-	`name_loc4`='入鞘的托卡拉尔'	-- Sheathed Trol'kalar
+	`name_loc4`='入鞘的托卡拉尔',	-- Sheathed Trol'kalar
 	`description_loc4`='传说中的伊格纳乌斯·托尔贝恩之剑。'	-- The legendary blade of Ignaeus Trollbane.
 WHERE `entry`=4468;
 
@@ -10697,7 +10697,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=4513;
 
 UPDATE `locales_item` SET
-	`name_loc4`='萨拉·巴鲁的请求'	-- Sara Balloo's Plea
+	`name_loc4`='萨拉·巴鲁的请求',	-- Sara Balloo's Plea
 	`description_loc4`='致我们敬爱的国王'	-- To My Honorable King
 WHERE `entry`=4514;
 
@@ -12314,7 +12314,7 @@ WHERE `entry`=4987;
 -- WHERE `entry`=4991;
 
 UPDATE `locales_item` SET
-	`name_loc4`='募兵信'	-- Recruitment Letter
+	`name_loc4`='募兵信',	-- Recruitment Letter
 	`description_loc4`='一封未签署的募兵信。'	-- An unsigned recruitment letter.
 WHERE `entry`=4992;
 
@@ -12575,7 +12575,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=5081;
 
 UPDATE `locales_item` SET
-	`name_loc4`='薄科多兽皮'	-- Thin Kodo Leather
+	`name_loc4`='薄科多兽皮',	-- Thin Kodo Leather
 	`description_loc4`='“薄”是相对来说的……'	-- Thin' is a relative term....
 WHERE `entry`=5082;
 
@@ -12600,7 +12600,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=5087;
 
 UPDATE `locales_item` SET
-	`name_loc4`='控制台操作手册'	-- Control Console Operating Manual
+	`name_loc4`='控制台操作手册',	-- Control Console Operating Manual
 	`description_loc4`='风险投资公司文档534x9'	-- Venture Co. Document 534x9
 WHERE `entry`=5088;
 
@@ -12801,7 +12801,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=5170;
 
 UPDATE `locales_item` SET
-	`name_loc4`='丧命草'	-- Deathweed
+	`name_loc4`='丧命草',	-- Deathweed
 	`description_loc4`='携带它的时候必须非常非常小心。'	-- It must be carried very, very carefully.
 WHERE `entry`=5173;
 
@@ -13646,7 +13646,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=5427;
 
 UPDATE `locales_item` SET
-	`name_loc4`='怪异食谱'	-- An Exotic Cookbook
+	`name_loc4`='怪异食谱',	-- An Exotic Cookbook
 	`description_loc4`='烹人指南'	-- How To Serve Man
 WHERE `entry`=5428;
 
@@ -13723,12 +13723,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=5451;
 
 UPDATE `locales_item` SET
-	`name_loc4`='使用过的占卜卷轴'	-- Divined Scroll
+	`name_loc4`='使用过的占卜卷轴',	-- Divined Scroll
 	`description_loc4`='这张纸上写满了闪闪发光的符文。'	-- This paper is covered in glowing runes.
 WHERE `entry`=5455;
 
 UPDATE `locales_item` SET
-	`name_loc4`='占卜卷轴'	-- Divining Scroll
+	`name_loc4`='占卜卷轴',	-- Divining Scroll
 	`description_loc4`='这张纸是空白的。'	-- The paper is blank save for a few runes. You'll need bracers from the elementals to use it.
 WHERE `entry`=5456;
 
@@ -13905,7 +13905,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=5504;
 
 UPDATE `locales_item` SET
-	`name_loc4`='泰洛尼斯的日记'	-- Teronis' Journal
+	`name_loc4`='泰洛尼斯的日记',	-- Teronis' Journal
 	`description_loc4`='这本日记被水浸过，但看起来还不是太糟糕。'	-- The journal is waterlogged, but in otherwise good condition.
 WHERE `entry`=5505;
 
@@ -13950,12 +13950,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=5516;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜钥匙'	-- Tiny Bronze Key
+	`name_loc4`='青铜钥匙',	-- Tiny Bronze Key
 	`description_loc4`='法师法术所需的材料。'	-- A reagent for mage spells.
 WHERE `entry`=5517;
 
 UPDATE `locales_item` SET
-	`name_loc4`='铁钥匙'	-- Tiny Iron Key
+	`name_loc4`='铁钥匙',	-- Tiny Iron Key
 	`description_loc4`='法师法术所需的材料。'	-- A reagent for mage spells.
 WHERE `entry`=5518;
 
@@ -14036,7 +14036,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=5538;
 
 UPDATE `locales_item` SET
-	`name_loc4`='表扬信'	-- Letter of Commendation
+	`name_loc4`='表扬信',	-- Letter of Commendation
 	`description_loc4`='由血色十字军的安东修士封印'	-- Sealed by Brother Anton of the Scarlet Crusade
 WHERE `entry`=5539;
 
@@ -15281,7 +15281,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6064;
 
 UPDATE `locales_item` SET
-	`name_loc4`='卡德加的空间收敛研究笔记'	-- Khadgar's Essays on Dimensional Convergence
+	`name_loc4`='卡德加的空间收敛研究笔记',	-- Khadgar's Essays on Dimensional Convergence
 	`description_loc4`='这些文件被一股魔法能量封印了。'	-- These documents are sealed by a magical force.
 WHERE `entry`=6065;
 
@@ -15322,7 +15322,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6074;
 
 UPDATE `locales_item` SET
-	`name_loc4`='维米斯的报告'	-- Vimes's Report
+	`name_loc4`='维米斯的报告',	-- Vimes's Report
 	`description_loc4`='0'	-- 0
 WHERE `entry`=6075;
 
@@ -15499,7 +15499,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6144;
 
 UPDATE `locales_item` SET
-	`name_loc4`='克拉莉斯的坠饰'	-- Clarice's Pendant
+	`name_loc4`='克拉莉斯的坠饰',	-- Clarice's Pendant
 	`description_loc4`='放在尤瑞夫的坟墓上。'	-- Place upon Yuriv's grave.
 WHERE `entry`=6145;
 
@@ -15696,7 +15696,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6215;
 
 UPDATE `locales_item` SET
-	`name_loc4`='铜棒'	-- Copper Rod
+	`name_loc4`='铜棒',	-- Copper Rod
 	`description_loc4`='附魔师需要用它来制作符文铜棒。'	-- Needed by an Enchanter to make a runed copper rod.
 WHERE `entry`=6217;
 
@@ -15985,7 +15985,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6300;
 
 UPDATE `locales_item` SET
-	`name_loc4`='老车夫的颅骨'	-- Old Teamster's Skull
+	`name_loc4`='老车夫的颅骨',	-- Old Teamster's Skull
 	`description_loc4`='看起来有人不喜欢这家伙。'	-- Looks like someone didn't like this guy.
 WHERE `entry`=6301;
 
@@ -16134,7 +16134,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6337;
 
 UPDATE `locales_item` SET
-	`name_loc4`='银棒'	-- Silver Rod
+	`name_loc4`='银棒',	-- Silver Rod
 	`description_loc4`='附魔师必备的工具。'	-- Needed by Enchanters.
 WHERE `entry`=6338;
 
@@ -16179,12 +16179,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=6350;
 
 UPDATE `locales_item` SET
-	`name_loc4`='被挤压过的箱子'	-- Dented Crate
+	`name_loc4`='被挤压过的箱子',	-- Dented Crate
 	`description_loc4`='风险投资公司的补给品'	-- Venture Company Supplies
 WHERE `entry`=6351;
 
 UPDATE `locales_item` SET
-	`name_loc4`='浸水的箱子'	-- Waterlogged Crate
+	`name_loc4`='浸水的箱子',	-- Waterlogged Crate
 	`description_loc4`='风险投资公司的补给品'	-- Venture Company Supplies
 WHERE `entry`=6352;
 
@@ -16205,7 +16205,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6356;
 
 UPDATE `locales_item` SET
-	`name_loc4`='密封的箱子'	-- Sealed Crate
+	`name_loc4`='密封的箱子',	-- Sealed Crate
 	`description_loc4`='风险投资公司的补给品'	-- Venture Company Supplies
 WHERE `entry`=6357;
 
@@ -17242,7 +17242,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6647;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破酒瓶'	-- Broken Wine Bottle
+	`name_loc4`='破酒瓶',	-- Broken Wine Bottle
 	`description_loc4`='奥特兰克老酒'	-- Alterac Old-and-Yellow
 WHERE `entry`=6651;
 
@@ -17627,7 +17627,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6784;
 
 UPDATE `locales_item` SET
-	`name_loc4`='虚空灵能'	-- Powers of the Void
+	`name_loc4`='虚空灵能',	-- Powers of the Void
 	`description_loc4`='由卡德加撰写'	-- By the hand of Khadgar
 WHERE `entry`=6785;
 
@@ -17948,7 +17948,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6916;
 
 UPDATE `locales_item` SET
-	`name_loc4`='弗伦的笔记'	-- Furen's Notes
+	`name_loc4`='弗伦的笔记',	-- Furen's Notes
 	`description_loc4`='这封信被密封了起来。'	-- This letter is sealed
 WHERE `entry`=6926;
 
@@ -17969,7 +17969,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6930;
 
 UPDATE `locales_item` SET
-	`name_loc4`='发霉的书籍'	-- Moldy Tome
+	`name_loc4`='发霉的书籍',	-- Moldy Tome
 	`description_loc4`='书的封面上写着“阴谋之书”。'	-- Faint letters on the cover of the locked book read, 'Tome of the Cabal.'
 WHERE `entry`=6931;
 
@@ -18122,7 +18122,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=6996;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破损的手稿'	-- Tattered Manuscript
+	`name_loc4`='破损的手稿',	-- Tattered Manuscript
 	`description_loc4`='一大叠《阴谋之书》中的书页。'	-- A large number of papers from the 'Tome of the Cabal.'
 WHERE `entry`=6997;
 
@@ -18439,7 +18439,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=7118;
 
 UPDATE `locales_item` SET
-	`name_loc4`='颤抖的触角'	-- Twitching Antenna
+	`name_loc4`='颤抖的触角',	-- Twitching Antenna
 	`description_loc4`='它不会永远这么颤抖下去'	-- This antenna won't twitch forever
 WHERE `entry`=7119;
 
@@ -18512,7 +18512,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=7191;
 
 UPDATE `locales_item` SET
-	`name_loc4`='结构图：地精火箭靴'	-- Schematic: Goblin Rocket Boots
+	`name_loc4`='结构图：地精火箭靴',	-- Schematic: Goblin Rocket Boots
 	`description_loc4`='Teaches you how to make Goblin Rocket Boots.'	-- Teaches you how to make Goblin Rocket Boots.
 WHERE `entry`=7192;
 
@@ -18597,7 +18597,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=7273;
 
 UPDATE `locales_item` SET
-	`name_loc4`='能量仪祭'	-- Rituals of Power
+	`name_loc4`='能量仪祭',	-- Rituals of Power
 	`description_loc4`='大法师提尔斯编著'	-- By Magus Tirth
 WHERE `entry`=7274;
 
@@ -18702,7 +18702,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=7307;
 
 UPDATE `locales_item` SET
-	`name_loc4`='显形卷轴'	-- Cantation of Manifestation
+	`name_loc4`='显形卷轴',	-- Cantation of Manifestation
 	`description_loc4`='在法力裂隙附近使用'	-- Use near a mana rift disturbance
 WHERE `entry`=7308;
 
@@ -18755,32 +18755,32 @@ UPDATE `locales_item` SET
 WHERE `entry`=7336;
 
 UPDATE `locales_item` SET
-	`name_loc4`='磐石'	-- The Rock
+	`name_loc4`='磐石',	-- The Rock
 	`description_loc4`='这东西个头真大！'	-- It's huge!
 WHERE `entry`=7337;
 
 UPDATE `locales_item` SET
-	`name_loc4`='心境之戒'	-- Mood Ring
+	`name_loc4`='心境之戒',	-- Mood Ring
 	`description_loc4`='它是蓝的，等一下，是绿的！'	-- It's blue, wait, it's green!
 WHERE `entry`=7338;
 
 UPDATE `locales_item` SET
-	`name_loc4`='小钻石戒指'	-- Miniscule Diamond Ring
+	`name_loc4`='小钻石戒指',	-- Miniscule Diamond Ring
 	`description_loc4`='虽然小了点，但这也是钻石嘛！'	-- Hey, it's still a diamond.
 WHERE `entry`=7339;
 
 UPDATE `locales_item` SET
-	`name_loc4`='无瑕的钻石'	-- Flawless Diamond Solitaire
+	`name_loc4`='无瑕的钻石',	-- Flawless Diamond Solitaire
 	`description_loc4`='请嫁给我吧！'	-- Will you marry me?
 WHERE `entry`=7340;
 
 UPDATE `locales_item` SET
-	`name_loc4`='白宝石戒指'	-- Cubic Zirconia Ring
+	`name_loc4`='白宝石戒指',	-- Cubic Zirconia Ring
 	`description_loc4`='相信我，她会明白的。'	-- Trust me, she'll know.
 WHERE `entry`=7341;
 
 UPDATE `locales_item` SET
-	`name_loc4`='银星指环'	-- Silver Piffeny Band
+	`name_loc4`='银星指环',	-- Silver Piffeny Band
 	`description_loc4`='真的很抱歉。'	-- Nothing says sorry like Piffeny.
 WHERE `entry`=7342;
 
@@ -19581,7 +19581,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=7627;
 
 UPDATE `locales_item` SET
-	`name_loc4`='笔迹潦草的信件'	-- Nondescript Letter
+	`name_loc4`='笔迹潦草的信件',	-- Nondescript Letter
 	`description_loc4`='一封密信'	-- A sealed letter
 WHERE `entry`=7628;
 
@@ -19626,7 +19626,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=7673;
 
 UPDATE `locales_item` SET
-	`name_loc4`='给马迪亚斯的密信'	-- Delivery to Mathias
+	`name_loc4`='给马迪亚斯的密信',	-- Delivery to Mathias
 	`description_loc4`='已密封'	-- Sealed
 WHERE `entry`=7674;
 
@@ -19799,7 +19799,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=7736;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞希尔的日记'	-- Sethir's Journal
+	`name_loc4`='塞希尔的日记',	-- Sethir's Journal
 	`description_loc4`='以一种你无法理解的语言书写。'	-- Written in a language you cannot decipher.
 WHERE `entry`=7737;
 
@@ -19976,7 +19976,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=7867;
 
 UPDATE `locales_item` SET
-	`name_loc4`='一箱魔瓶'	-- Thaumaturgy Vessel Lockbox
+	`name_loc4`='一箱魔瓶',	-- Thaumaturgy Vessel Lockbox
 	`description_loc4`='箱子里装着一些空的魔瓶。'	-- Inside this lockbox are the empty thaumaturgy vessels.
 WHERE `entry`=7870;
 
@@ -19985,7 +19985,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=7871;
 
 UPDATE `locales_item` SET
-	`name_loc4`='未翻译的日记'	-- Untranslated Journal
+	`name_loc4`='未翻译的日记',	-- Untranslated Journal
 	`description_loc4`='你看不懂日记上的字。'	-- You do not understand the writing in the journal.
 WHERE `entry`=7886;
 
@@ -20218,7 +20218,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=7969;
 
 UPDATE `locales_item` SET
-	`name_loc4`='大饼干'	-- E.C.A.C.
+	`name_loc4`='大饼干',	-- E.C.A.C.
 	`description_loc4`='添加了化学激素的巨大饼干'	-- Enormous Chemically Altered Cracker
 WHERE `entry`=7970;
 
@@ -20359,7 +20359,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=8048;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瘤背熊怪的项链'	-- Gnarlpine Necklace
+	`name_loc4`='瘤背熊怪的项链',	-- Gnarlpine Necklace
 	`description_loc4`='只需把项链上的翡翠拔出来就可以了……'	-- The glowing emerald just needs to be pulled out...
 WHERE `entry`=8049;
 
@@ -21284,7 +21284,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=8349;
 
 UPDATE `locales_item` SET
-	`name_loc4`='至尊一戒'	-- The 1 Ring
+	`name_loc4`='至尊一戒',	-- The 1 Ring
 	`description_loc4`='比至尊二戒稍差那么一点'	-- Not quite as good as the 2 Ring
 WHERE `entry`=8350;
 
@@ -21417,12 +21417,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=8409;
 
 UPDATE `locales_item` SET
-	`name_loc4`='土狼兴奋剂'	-- R.O.I.D.S.
+	`name_loc4`='土狼兴奋剂',	-- R.O.I.D.S.
 	`description_loc4`='由土狼体内的精华成分精心制成'	-- Robust Operational Imbue Derived From Snickerfang
 WHERE `entry`=8410;
 
 UPDATE `locales_item` SET
-	`name_loc4`='肺片鸡尾酒'	-- Lung Juice Cocktail
+	`name_loc4`='肺片鸡尾酒',	-- Lung Juice Cocktail
 	`description_loc4`='百分百原装野猪肺片榨汁'	-- 100% Grade A Lung Juice - Freshly Squeezed
 WHERE `entry`=8411;
 
@@ -21431,12 +21431,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=8412;
 
 UPDATE `locales_item` SET
-	`name_loc4`='脑皮层混合饮料'	-- Cerebral Cortex Compound
+	`name_loc4`='脑皮层混合饮料',	-- Cerebral Cortex Compound
 	`description_loc4`='冷藏后饮用效果更佳'	-- Best Served Chilled
 WHERE `entry`=8423;
 
 UPDATE `locales_item` SET
-	`name_loc4`='砂囊口香糖'	-- Gizzard Gum
+	`name_loc4`='砂囊口香糖',	-- Gizzard Gum
 	`description_loc4`='草莓味'	-- Strawberry Flavor
 WHERE `entry`=8424;
 
@@ -21481,7 +21481,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=8444;
 
 UPDATE `locales_item` SET
-	`name_loc4`='酋长的命令'	-- Warchief's Orders
+	`name_loc4`='酋长的命令',	-- Warchief's Orders
 	`description_loc4`='封印已经被撕开了。'	-- The seal is broken.
 WHERE `entry`=8463;
 
@@ -21490,7 +21490,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=8483;
 
 UPDATE `locales_item` SET
-	`name_loc4`='加基森水业公司护理袋'	-- Gadgetzan Water Co. Care Package
+	`name_loc4`='加基森水业公司护理袋',	-- Gadgetzan Water Co. Care Package
 	`description_loc4`='103-XB型！'	-- Model 103-XB!
 WHERE `entry`=8484;
 
@@ -21567,7 +21567,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=8523;
 
 UPDATE `locales_item` SET
-	`name_loc4`='4711-FTZ型发电器'	-- Model 4711-FTZ Power Source
+	`name_loc4`='4711-FTZ型发电器',	-- Model 4711-FTZ Power Source
 	`description_loc4`='使用这种能量源启动野外实验工具包。'	-- Using this power source will activate the Field Testing Kit.
 WHERE `entry`=8524;
 
@@ -21608,7 +21608,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=8563;
 
 UPDATE `locales_item` SET
-	`name_loc4`='角鹰兽的蛋'	-- Hippogryph Egg
+	`name_loc4`='角鹰兽的蛋',	-- Hippogryph Egg
 	`description_loc4`='这东西个头真大！'	-- It's huge!
 WHERE `entry`=8564;
 
@@ -21689,7 +21689,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=8632;
 
 UPDATE `locales_item` SET
-	`name_loc4`='特别的蛋'	-- Extraordinary Egg
+	`name_loc4`='特别的蛋',	-- Extraordinary Egg
 	`description_loc4`='这只蛋非常特别……'	-- There's something very special about this egg...
 WHERE `entry`=8643;
 
@@ -21706,17 +21706,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=8646;
 
 UPDATE `locales_item` SET
-	`name_loc4`='蛋箱'	-- Egg Crate
+	`name_loc4`='蛋箱',	-- Egg Crate
 	`description_loc4`='质量保障！'	-- Quality Guaranteed!
 WHERE `entry`=8647;
 
 UPDATE `locales_item` SET
-	`name_loc4`='秘银徽章'	-- Mithril Insignia
+	`name_loc4`='秘银徽章',	-- Mithril Insignia
 	`description_loc4`='由秘银铸造'	-- E Pluribus Mithril
 WHERE `entry`=8663;
 
 UPDATE `locales_item` SET
-	`name_loc4`='克拉拉的新鲜苹果'	-- Clara's Fresh Apple
+	`name_loc4`='克拉拉的新鲜苹果',	-- Clara's Fresh Apple
 	`description_loc4`='饱满可口的大苹果……而且可以用来伪装！'	-- A fresh piece of fruit that's good to eat... and is apparently good for disguises also!
 WHERE `entry`=8683;
 
@@ -21725,12 +21725,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=8684;
 
 UPDATE `locales_item` SET
-	`name_loc4`='德兰的蜜糖'	-- Dran's Ripple Delivery
+	`name_loc4`='德兰的蜜糖',	-- Dran's Ripple Delivery
 	`description_loc4`='桶里有德兰的蜜糖和一些瓶子。'	-- This barrel contains Dran's packaged ripple and his extra bottles.
 WHERE `entry`=8685;
 
 UPDATE `locales_item` SET
-	`name_loc4`='秘银坠饰'	-- Mithril Pendant
+	`name_loc4`='秘银坠饰',	-- Mithril Pendant
 	`description_loc4`='上面刻有加尔文的徽记'	-- Bears the Seal of Galvan the Ancient
 WHERE `entry`=8686;
 
@@ -21739,7 +21739,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=8687;
 
 UPDATE `locales_item` SET
-	`name_loc4`='技艺徽记'	-- Signet of Expertise
+	`name_loc4`='技艺徽记',	-- Signet of Expertise
 	`description_loc4`='光荣的秘银会成员'	-- Honorable Member of the Mithril Order
 WHERE `entry`=8703;
 
@@ -21840,12 +21840,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=8846;
 
 UPDATE `locales_item` SET
-	`name_loc4`='苦楚精华'	-- Essence of Agony
+	`name_loc4`='苦楚精华',	-- Essence of Agony
 	`description_loc4`='盗贼制毒所需的原料。'	-- Used by rogues to brew poison.
 WHERE `entry`=8923;
 
 UPDATE `locales_item` SET
-	`name_loc4`='堕落之尘'	-- Dust of Deterioration
+	`name_loc4`='堕落之尘',	-- Dust of Deterioration
 	`description_loc4`='盗贼制毒所需的原料。'	-- Used by rogues to brew poison.
 WHERE `entry`=8924;
 
@@ -21930,12 +21930,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=9036;
 
 UPDATE `locales_item` SET
-	`name_loc4`='秘银杆'	-- Inlaid Mithril Cylinder
+	`name_loc4`='秘银杆',	-- Inlaid Mithril Cylinder
 	`description_loc4`='侏儒技师以此强化他们制造的装置'	-- Used by Gnomish Engineers to reinforce their creations
 WHERE `entry`=9060;
 
 UPDATE `locales_item` SET
-	`name_loc4`='地精火箭燃油'	-- Goblin Rocket Fuel
+	`name_loc4`='地精火箭燃油',	-- Goblin Rocket Fuel
 	`description_loc4`='地精技师以此为他们制造的装置提供动力'	-- Used by Goblin Engineers to power their creations
 WHERE `entry`=9061;
 
@@ -21948,7 +21948,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=9144;
 
 UPDATE `locales_item` SET
-	`name_loc4`='点金石'	-- Philosopher's Stone
+	`name_loc4`='点金石',	-- Philosopher's Stone
 	`description_loc4`='炼金术转化物质所需的媒介。'	-- Required for Alchemical Transmutation.
 WHERE `entry`=9149;
 
@@ -22157,32 +22157,32 @@ UPDATE `locales_item` SET
 WHERE `entry`=9278;
 
 UPDATE `locales_item` SET
-	`name_loc4`='白色穿孔卡片'	-- White Punch Card
+	`name_loc4`='白色穿孔卡片',	-- White Punch Card
 	`description_loc4`='可启动矩阵式打孔计算机3005-A'	-- Grants access to Matrix Punchograph 3005-A
 WHERE `entry`=9279;
 
 UPDATE `locales_item` SET
-	`name_loc4`='黄色穿孔卡片'	-- Yellow Punch Card
+	`name_loc4`='黄色穿孔卡片',	-- Yellow Punch Card
 	`description_loc4`='可启动矩阵式打孔计算机3005-B'	-- Grants access to Matrix Punchograph 3005-B
 WHERE `entry`=9280;
 
 UPDATE `locales_item` SET
-	`name_loc4`='红色穿孔卡片'	-- Red Punch Card
+	`name_loc4`='红色穿孔卡片',	-- Red Punch Card
 	`description_loc4`='可启动矩阵式打孔计算机3005-D'	-- Grants access to Matrix Punchograph 3005-D
 WHERE `entry`=9281;
 
 UPDATE `locales_item` SET
-	`name_loc4`='蓝色穿孔卡片'	-- Blue Punch Card
+	`name_loc4`='蓝色穿孔卡片',	-- Blue Punch Card
 	`description_loc4`='可启动矩阵式打孔计算机3005-C'	-- Grants access to Matrix Punchograph 3005-C
 WHERE `entry`=9282;
 
 UPDATE `locales_item` SET
-	`name_loc4`='空铅瓶'	-- Empty Leaden Collection Phial
+	`name_loc4`='空铅瓶',	-- Empty Leaden Collection Phial
 	`description_loc4`='一装就满'	-- One Shot, One Fill
 WHERE `entry`=9283;
 
 UPDATE `locales_item` SET
-	`name_loc4`='装满的铅瓶'	-- Full Leaden Collection Phial
+	`name_loc4`='装满的铅瓶',	-- Full Leaden Collection Phial
 	`description_loc4`='远离儿童'	-- Keep Out of Reach of Children
 WHERE `entry`=9284;
 
@@ -22279,7 +22279,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=9307;
 
 UPDATE `locales_item` SET
-	`name_loc4`='脏兮兮的东西'	-- Grime-Encrusted Object
+	`name_loc4`='脏兮兮的东西',	-- Grime-Encrusted Object
 	`description_loc4`='你根本无法看出这个沾满污泥的东西到底是什么。'	-- Caked grime obscures the true identity of this object.
 WHERE `entry`=9308;
 
@@ -22308,7 +22308,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=9315;
 
 UPDATE `locales_item` SET
-	`name_loc4`='彩色穿孔卡片'	-- Prismatic Punch Card
+	`name_loc4`='彩色穿孔卡片',	-- Prismatic Punch Card
 	`description_loc4`='数据卡片'	-- Data card only
 WHERE `entry`=9316;
 
@@ -22353,17 +22353,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=9327;
 
 UPDATE `locales_item` SET
-	`name_loc4`='超级摄影器FX'	-- Super Snapper FX
+	`name_loc4`='超级摄影器FX',	-- Super Snapper FX
 	`description_loc4`='精心改良，新款设计！'	-- New & Improved!
 WHERE `entry`=9328;
 
 UPDATE `locales_item` SET
-	`name_loc4`='简短的便笺'	-- A Short Note
+	`name_loc4`='简短的便笺',	-- A Short Note
 	`description_loc4`='绑在一张弓上。'	-- Tied with a bow.
 WHERE `entry`=9329;
 
 UPDATE `locales_item` SET
-	`name_loc4`='加莫里塔的照片'	-- Snapshot of Gammerita
+	`name_loc4`='加莫里塔的照片',	-- Snapshot of Gammerita
 	`description_loc4`='她真上镜……'	-- She's so photogenic...
 WHERE `entry`=9330;
 
@@ -22428,12 +22428,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=9363;
 
 UPDATE `locales_item` SET
-	`name_loc4`='沉重的铅瓶'	-- Heavy Leaden Collection Phial
+	`name_loc4`='沉重的铅瓶',	-- Heavy Leaden Collection Phial
 	`description_loc4`='小心轻放。'	-- Handle With Care
 WHERE `entry`=9364;
 
 UPDATE `locales_item` SET
-	`name_loc4`='高强度辐射尘'	-- High Potency Radioactive Fallout
+	`name_loc4`='高强度辐射尘',	-- High Potency Radioactive Fallout
 	`description_loc4`='危险！请勿吞咽'	-- DANGER! DO NOT INGEST!
 WHERE `entry`=9365;
 
@@ -22922,7 +22922,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=9508;
 
 UPDATE `locales_item` SET
-	`name_loc4`='浸油护腿'	-- Petrolspill Leggings
+	`name_loc4`='浸油护腿',	-- Petrolspill Leggings
 	`description_loc4`='远离火源。'	-- Keep away from fire.
 WHERE `entry`=9509;
 
@@ -23399,7 +23399,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=9647;
 
 UPDATE `locales_item` SET
-	`name_loc4`='锁链长巾'	-- Chainlink Towel
+	`name_loc4`='锁链长巾',	-- Chainlink Towel
 	`description_loc4`='吸水性能超强！'	-- Now even less absorbant!
 WHERE `entry`=9648;
 
@@ -25936,7 +25936,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10414;
 
 UPDATE `locales_item` SET
-	`name_loc4`='闪光的秘银徽记'	-- Glimmering Mithril Insignia
+	`name_loc4`='闪光的秘银徽记',	-- Glimmering Mithril Insignia
 	`description_loc4`='勇气，荣耀，耐心'	-- Courage, Honor, and above all, Patience
 WHERE `entry`=10418;
 
@@ -25973,7 +25973,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10441;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神秘的古器'	-- Mysterious Artifact
+	`name_loc4`='神秘的古器',	-- Mysterious Artifact
 	`description_loc4`='散发着邪恶气息的石头'	-- The Stone Emanates Evil
 WHERE `entry`=10442;
 
@@ -25990,12 +25990,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=10445;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥比斯顿的心脏'	-- Heart of Obsidion
+	`name_loc4`='奥比斯顿的心脏',	-- Heart of Obsidion
 	`description_loc4`='这冰冷的精华仍在闪耀着'	-- The cold black heart is still pulsing
 WHERE `entry`=10446;
 
 UPDATE `locales_item` SET
-	`name_loc4`='黑衣拉索里克的头颅'	-- Head of Lathoric the Black
+	`name_loc4`='黑衣拉索里克的头颅',	-- Head of Lathoric the Black
 	`description_loc4`='一个曾经高尚无比的矮人的徽记'	-- The remnants of a once honorable dwarf
 WHERE `entry`=10447;
 
@@ -26004,7 +26004,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10450;
 
 UPDATE `locales_item` SET
-	`name_loc4`='伊兰尼库斯精华'	-- Essence of Eranikus
+	`name_loc4`='伊兰尼库斯精华',	-- Essence of Eranikus
 	`description_loc4`='绿色的迷雾在这颗宝石中旋转。'	-- Green mists swirl inside the lattices of this gem.
 WHERE `entry`=10454;
 
@@ -26021,7 +26021,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10457;
 
 UPDATE `locales_item` SET
-	`name_loc4`='艾露恩祷言'	-- Prayer to Elune
+	`name_loc4`='艾露恩祷言',	-- Prayer to Elune
 	`description_loc4`='当你拿着这件物品时，你感到心中充满了光芒'	-- Your heart feels light when you hold this item.
 WHERE `entry`=10458;
 
@@ -26058,7 +26058,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10466;
 
 UPDATE `locales_item` SET
-	`name_loc4`='商人的背包'	-- Trader's Satchel
+	`name_loc4`='商人的背包',	-- Trader's Satchel
 	`description_loc4`='里面装满了货物。'	-- Full of trade goods.
 WHERE `entry`=10467;
 
@@ -26111,7 +26111,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10508;
 
 UPDATE `locales_item` SET
-	`name_loc4`='烈焰之心'	-- Heart of Flame
+	`name_loc4`='烈焰之心',	-- Heart of Flame
 	`description_loc4`='永不熄灭的烈焰'	-- The flame burns eternally
 WHERE `entry`=10509;
 
@@ -26120,7 +26120,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10510;
 
 UPDATE `locales_item` SET
-	`name_loc4`='傀儡之油'	-- Golem Oil
+	`name_loc4`='傀儡之油',	-- Golem Oil
 	`description_loc4`='油被包在石头里'	-- The oil is encased in stone
 WHERE `entry`=10511;
 
@@ -26137,7 +26137,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10514;
 
 UPDATE `locales_item` SET
-	`name_loc4`='惩戒火炬'	-- Torch of Retribution
+	`name_loc4`='惩戒火炬',	-- Torch of Retribution
 	`description_loc4`='永不熄灭的烈焰在熊熊燃烧着。'	-- The flame never falters
 WHERE `entry`=10515;
 
@@ -26202,7 +26202,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10551;
 
 UPDATE `locales_item` SET
-	`name_loc4`='拉格纳罗斯符记'	-- Symbol of Ragnaros
+	`name_loc4`='拉格纳罗斯符记',	-- Symbol of Ragnaros
 	`description_loc4`='散发着古老魔法能量的符记'	-- The symbol emanates old magic
 WHERE `entry`=10552;
 
@@ -26263,7 +26263,7 @@ WHERE `entry`=10567;
 -- WHERE `entry`=10568;
 
 UPDATE `locales_item` SET
-	`name_loc4`='黑龙军团宝箱'	-- Hoard of the Black Dragonflight
+	`name_loc4`='黑龙军团宝箱',	-- Hoard of the Black Dragonflight
 	`description_loc4`='盖有欺诈者卡拉然的徽记。'	-- Bears the mark of Kalaran the Deceiver
 WHERE `entry`=10569;
 
@@ -26288,7 +26288,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10574;
 
 UPDATE `locales_item` SET
-	`name_loc4`='黑龙皮'	-- Black Dragonflight Molt
+	`name_loc4`='黑龙皮',	-- Black Dragonflight Molt
 	`description_loc4`='一张没有光泽的黑龙皮'	-- A dull and gray patch of black dragon skin
 WHERE `entry`=10575;
 
@@ -26333,7 +26333,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10588;
 
 UPDATE `locales_item` SET
-	`name_loc4`='伊瑟拉巨龙军团的誓言石'	-- Oathstone of Ysera's Dragonflight
+	`name_loc4`='伊瑟拉巨龙军团的誓言石',	-- Oathstone of Ysera's Dragonflight
 	`description_loc4`='使用这块石头以发誓帮助伊瑟拉的巨龙军团。'	-- Using this stone binds someone to aid Ysera's Dragonflight.
 WHERE `entry`=10589;
 
@@ -26406,7 +26406,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10609;
 
 UPDATE `locales_item` SET
-	`name_loc4`='赫塔拉之血'	-- Hetaera's Blood
+	`name_loc4`='赫塔拉之血',	-- Hetaera's Blood
 	`description_loc4`='海之女皇的血'	-- Blood of the Sea Queen
 WHERE `entry`=10610;
 
@@ -26547,7 +26547,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10644;
 
 UPDATE `locales_item` SET
-	`name_loc4`='侏儒死亡射线'	-- Gnomish Death Ray
+	`name_loc4`='侏儒死亡射线',	-- Gnomish Death Ray
 	`description_loc4`='使用此装置可能造成死亡或重伤。'	-- Death or Serious Injury may result from use of this device.
 WHERE `entry`=10645;
 
@@ -26688,17 +26688,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=10695;
 
 UPDATE `locales_item` SET
-	`name_loc4`='魔化艾萨拉水晶剑'	-- Enchanted Azsharite Felbane Sword
+	`name_loc4`='魔化艾萨拉水晶剑',	-- Enchanted Azsharite Felbane Sword
 	`description_loc4`='剑身上刻着几个字：拉瑟莱克'	-- Etched across the blade: Rakh'likh
 WHERE `entry`=10696;
 
 UPDATE `locales_item` SET
-	`name_loc4`='魔化艾萨拉水晶匕首'	-- Enchanted Azsharite Felbane Dagger
+	`name_loc4`='魔化艾萨拉水晶匕首',	-- Enchanted Azsharite Felbane Dagger
 	`description_loc4`='匕首上刻着几个字：拉瑟莱克'	-- Engraved upon the blade: Rakh'likh
 WHERE `entry`=10697;
 
 UPDATE `locales_item` SET
-	`name_loc4`='魔化艾萨拉水晶法杖'	-- Enchanted Azsharite Felbane Staff
+	`name_loc4`='魔化艾萨拉水晶法杖',	-- Enchanted Azsharite Felbane Staff
 	`description_loc4`='杆上刻着几个字：拉瑟莱克'	-- Carved into the shaft: Rakh'likh
 WHERE `entry`=10698;
 
@@ -26763,7 +26763,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10713;
 
 UPDATE `locales_item` SET
-	`name_loc4`='艾萨拉晶体'	-- Crystallized Azsharite
+	`name_loc4`='艾萨拉晶体',	-- Crystallized Azsharite
 	`description_loc4`='新鲜出炉。'	-- Hot out of the oven.
 WHERE `entry`=10714;
 
@@ -26816,7 +26816,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10728;
 
 UPDATE `locales_item` SET
-	`name_loc4`='给加尔文的货物'	-- Shipment to Galvan
+	`name_loc4`='给加尔文的货物',	-- Shipment to Galvan
 	`description_loc4`='这只箱子虽然很大，但却异常的轻。'	-- The massive box is surprisingly light.
 WHERE `entry`=10738;
 
@@ -26877,17 +26877,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=10752;
 
 UPDATE `locales_item` SET
-	`name_loc4`='戈洛尔的护符'	-- Amulet of Grol
+	`name_loc4`='戈洛尔的护符',	-- Amulet of Grol
 	`description_loc4`='毁灭者戈洛尔曾戴着的护符。'	-- Once worn by Grol the Destroyer.
 WHERE `entry`=10753;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瑟温妮的护符'	-- Amulet of Sevine
+	`name_loc4`='瑟温妮的护符',	-- Amulet of Sevine
 	`description_loc4`='瑟温妮的邪恶气息仍然从这个护符中不断散发出来。'	-- The putrid scent of Sevine still radiates from this amulet.
 WHERE `entry`=10754;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥利斯塔的护符'	-- Amulet of Allistarj
+	`name_loc4`='奥利斯塔的护符',	-- Amulet of Allistarj
 	`description_loc4`='一个强大法师的遗物。'	-- The only thing that remains from a once powerful sorcerer.
 WHERE `entry`=10755;
 
@@ -26896,7 +26896,7 @@ WHERE `entry`=10755;
 -- WHERE `entry`=10756;
 
 UPDATE `locales_item` SET
-	`name_loc4`='污染者防护结界'	-- Ward of the Defiler
+	`name_loc4`='污染者防护结界',	-- Ward of the Defiler
 	`description_loc4`='完整的拉瑟莱克护符。'	-- The completed amulet of Rakh'likh.
 WHERE `entry`=10757;
 
@@ -26905,7 +26905,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10758;
 
 UPDATE `locales_item` SET
-	`name_loc4`='污染者之角'	-- Severed Horn of the Defiler
+	`name_loc4`='污染者之角',	-- Severed Horn of the Defiler
 	`description_loc4`='一支从污染者拉瑟莱克头上砍下来的血淋淋的角。'	-- A severed and bloody horn of Razelikh the Defiler.
 WHERE `entry`=10759;
 
@@ -27030,12 +27030,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=10789;
 
 UPDATE `locales_item` SET
-	`name_loc4`='侏儒工程师协会会员卡'	-- Gnome Engineer Membership Card
+	`name_loc4`='侏儒工程师协会会员卡',	-- Gnome Engineer Membership Card
 	`description_loc4`='机械工程学联合公会的会员标识。'	-- A member in good standing of the Mechanical Engineering Guild, Associated.
 WHERE `entry`=10790;
 
 UPDATE `locales_item` SET
-	`name_loc4`='地精工程师协会会员卡'	-- Goblin Engineer Membership Card
+	`name_loc4`='地精工程师协会会员卡',	-- Goblin Engineer Membership Card
 	`description_loc4`='地精实验工程学协会的会员标识。'	-- A member in good standing of the Goblin Experimental Engineering Korporation.
 WHERE `entry`=10791;
 
@@ -27160,12 +27160,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=10830;
 
 UPDATE `locales_item` SET
-	`name_loc4`='魔珠'	-- Fel Orb
+	`name_loc4`='魔珠',	-- Fel Orb
 	`description_loc4`='使用后可以召唤地狱寻踪犬。'	-- Use to conjure a Felhound Tracker.
 WHERE `entry`=10831;
 
 UPDATE `locales_item` SET
-	`name_loc4`='地狱寻踪犬使用指南'	-- Fel Tracker Owner's Manual
+	`name_loc4`='地狱寻踪犬使用指南',	-- Fel Tracker Owner's Manual
 	`description_loc4`='指挥地狱寻踪犬所必须了解的信息。'	-- Information on how to control your new Felhound Tracker.
 WHERE `entry`=10832;
 
@@ -27174,7 +27174,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=10833;
 
 UPDATE `locales_item` SET
-	`name_loc4`='地狱寻踪犬工具箱'	-- Felhound Tracker Kit
+	`name_loc4`='地狱寻踪犬工具箱',	-- Felhound Tracker Kit
 	`description_loc4`='小心轻放'	-- FRAGILE - Handle With Care
 WHERE `entry`=10834;
 
@@ -27195,12 +27195,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=10838;
 
 UPDATE `locales_item` SET
-	`name_loc4`='水晶便笺'	-- Crystallized Note
+	`name_loc4`='水晶便笺',	-- Crystallized Note
 	`description_loc4`='一张被艾萨莱特水晶包着的便笺。'	-- A note encased in azsharite crystal.
 WHERE `entry`=10839;
 
 UPDATE `locales_item` SET
-	`name_loc4`='水晶便笺'	-- Crystallized Note
+	`name_loc4`='水晶便笺',	-- Crystallized Note
 	`description_loc4`='一张被艾萨莱特水晶包着的便笺。'	-- A note encased in azsharite crystal.
 WHERE `entry`=10840;
 
@@ -27293,12 +27293,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=10998;
 
 UPDATE `locales_item` SET
-	`name_loc4`='铁胆之锤'	-- Ironfel
+	`name_loc4`='铁胆之锤',	-- Ironfel
 	`description_loc4`='战锤的表面上刻着几个字母：F.F.F'	-- Etched into the face of the hammer are the letters: F.F.F.
 WHERE `entry`=10999;
 
 UPDATE `locales_item` SET
-	`name_loc4`='暗炉钥匙'	-- Shadowforge Key
+	`name_loc4`='暗炉钥匙',	-- Shadowforge Key
 	`description_loc4`='通往黑石深渊的钥匙。'	-- Master Key to the Depths, Courtesy of F.F.F.
 WHERE `entry`=11000;
 
@@ -27327,7 +27327,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11023;
 
 UPDATE `locales_item` SET
-	`name_loc4`='常青草药包'	-- Evergreen Herb Casing
+	`name_loc4`='常青草药包',	-- Evergreen Herb Casing
 	`description_loc4`='袋子里装着用安戈洛的泥土种植的萨伦迪斯种子。'	-- Using Un'Goro soil, Tharlendris seeds have been cultivated inside.
 WHERE `entry`=11024;
 
@@ -27372,12 +27372,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=11078;
 
 UPDATE `locales_item` SET
-	`name_loc4`='戈泰什的头颅'	-- Gor'tesh's Lopped Off Head
+	`name_loc4`='戈泰什的头颅',	-- Gor'tesh's Lopped Off Head
 	`description_loc4`='戈泰什的头颅，插在一根长矛上。'	-- Gor'tesh's severed head, propped up on a pike.
 WHERE `entry`=11079;
 
 UPDATE `locales_item` SET
-	`name_loc4`='戈泰什的头颅'	-- Gor'tesh's Lopped Off Head
+	`name_loc4`='戈泰什的头颅',	-- Gor'tesh's Lopped Off Head
 	`description_loc4`='滑腻，恶臭，肥大'	-- Squishy, Smelly, Slimy
 WHERE `entry`=11080;
 
@@ -27418,12 +27418,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=11102;
 
 UPDATE `locales_item` SET
-	`name_loc4`='草种购买券'	-- Seed Voucher
+	`name_loc4`='草种购买券',	-- Seed Voucher
 	`description_loc4`='用以购买二十份装的萨伦迪斯种子。'	-- Good for twenty packs of Tharlendris seeds.
 WHERE `entry`=11103;
 
 UPDATE `locales_item` SET
-	`name_loc4`='大指南针'	-- Large Compass
+	`name_loc4`='大指南针',	-- Large Compass
 	`description_loc4`='它总是指向安戈洛环形山的中心……'	-- It always points towards the center of Ungoro Crater...
 WHERE `entry`=11104;
 
@@ -27452,12 +27452,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=11110;
 
 UPDATE `locales_item` SET
-	`name_loc4`='研究设备'	-- Research Equipment
+	`name_loc4`='研究设备',	-- Research Equipment
 	`description_loc4`='马绍尔探险队的财产'	-- Property of Marshal Expeditions.
 WHERE `entry`=11112;
 
 UPDATE `locales_item` SET
-	`name_loc4`='食物箱'	-- Crate of Foodstuffs
+	`name_loc4`='食物箱',	-- Crate of Foodstuffs
 	`description_loc4`='马绍尔探险队的财产'	-- Property of Marshal Expeditions.
 WHERE `entry`=11113;
 
@@ -27466,7 +27466,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11114;
 
 UPDATE `locales_item` SET
-	`name_loc4`='被撕破的日记'	-- A Mangled Journal
+	`name_loc4`='被撕破的日记',	-- A Mangled Journal
 	`description_loc4`='威利德·马绍尔的财产'	-- Property of Williden Marshal
 WHERE `entry`=11116;
 
@@ -27503,7 +27503,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11125;
 
 UPDATE `locales_item` SET
-	`name_loc4`='库尔尼亚石板'	-- Tablet of Kurniya
+	`name_loc4`='库尔尼亚石板',	-- Tablet of Kurniya
 	`description_loc4`='火焰的符文在石板表面跳动。'	-- Runes filled with liquid fire dance across the tablet.
 WHERE `entry`=11126;
 
@@ -27512,7 +27512,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11127;
 
 UPDATE `locales_item` SET
-	`name_loc4`='金棒'	-- Golden Rod
+	`name_loc4`='金棒',	-- Golden Rod
 	`description_loc4`='附魔师必备的工具。'	-- Needed by Enchanters.
 WHERE `entry`=11128;
 
@@ -27561,7 +27561,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11139;
 
 UPDATE `locales_item` SET
-	`name_loc4`='监狱牢房钥匙'	-- Prison Cell Key
+	`name_loc4`='监狱牢房钥匙',	-- Prison Cell Key
 	`description_loc4`='钥匙的表面刻满了复杂的符文。'	-- Various runes and etchings cover the surface of the key.
 WHERE `entry`=11140;
 
@@ -27578,7 +27578,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11143;
 
 UPDATE `locales_item` SET
-	`name_loc4`='真银棒'	-- Truesilver Rod
+	`name_loc4`='真银棒',	-- Truesilver Rod
 	`description_loc4`='附魔师必备的工具。'	-- Needed by Enchanters.
 WHERE `entry`=11144;
 
@@ -27791,12 +27791,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=11229;
 
 UPDATE `locales_item` SET
-	`name_loc4`='包起来的烈焰精华'	-- Encased Fiery Essence
+	`name_loc4`='包起来的烈焰精华',	-- Encased Fiery Essence
 	`description_loc4`='贝尔加的烈焰精华被紧紧地包在黑龙皮中。'	-- The fiery essence of Bael'Gar wrapped tightly inside black dragonflight molt.
 WHERE `entry`=11230;
 
 UPDATE `locales_item` SET
-	`name_loc4`='特殊的黑龙皮'	-- Altered Black Dragonflight Molt
+	`name_loc4`='特殊的黑龙皮',	-- Altered Black Dragonflight Molt
 	`description_loc4`='一张没有光泽的黑龙皮'	-- A dull and gray patch of black dragon skin
 WHERE `entry`=11231;
 
@@ -27833,7 +27833,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11267;
 
 UPDATE `locales_item` SET
-	`name_loc4`='阿格曼奇的头颅'	-- Head of Argelmach
+	`name_loc4`='阿格曼奇的头颅',	-- Head of Argelmach
 	`description_loc4`='黑暗的材质摸起来像是陶土一般。'	-- The dark, pale skin feels like clay.
 WHERE `entry`=11268;
 
@@ -27862,7 +27862,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11285;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瑟银镣铐'	-- Thorium Shackles
+	`name_loc4`='瑟银镣铐',	-- Thorium Shackles
 	`description_loc4`='坚固无比的镣铐。'	-- Unbreakable bindings.
 WHERE `entry`=11286;
 
@@ -28007,7 +28007,7 @@ WHERE `entry`=11364;
 -- WHERE `entry`=11365;
 
 UPDATE `locales_item` SET
-	`name_loc4`='赫林迪斯·河角的信'	-- Helendis Riverhorn's Letter
+	`name_loc4`='赫林迪斯·河角的信',	-- Helendis Riverhorn's Letter
 	`description_loc4`='已密封'	-- Sealed
 WHERE `entry`=11366;
 
@@ -28016,7 +28016,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11367;
 
 UPDATE `locales_item` SET
-	`name_loc4`='伯瓦尔的命令'	-- Bolvar's Decree
+	`name_loc4`='伯瓦尔的命令',	-- Bolvar's Decree
 	`description_loc4`='加盖着暴风城的印章'	-- Bears the Seal of Stormwind
 WHERE `entry`=11368;
 
@@ -28197,12 +28197,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=11463;
 
 UPDATE `locales_item` SET
-	`name_loc4`='温德索尔元帅遗失的情报'	-- Marshal Windsor's Lost Information
+	`name_loc4`='温德索尔元帅遗失的情报',	-- Marshal Windsor's Lost Information
 	`description_loc4`='- 安格弗将军'	-- -General Angerforge
 WHERE `entry`=11464;
 
 UPDATE `locales_item` SET
-	`name_loc4`='温德索尔元帅遗失的情报'	-- Marshal Windsor's Lost Information
+	`name_loc4`='温德索尔元帅遗失的情报',	-- Marshal Windsor's Lost Information
 	`description_loc4`='- 傀儡统帅阿格曼奇'	-- -Golem Lord Argelmach
 WHERE `entry`=11465;
 
@@ -28299,7 +28299,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11510;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞纳里奥信标'	-- Cenarion Beacon
+	`name_loc4`='塞纳里奥信标',	-- Cenarion Beacon
 	`description_loc4`='用以检测被腐蚀的自然元素。'	-- This device helps identify corrupted elements of nature.
 WHERE `entry`=11511;
 
@@ -28320,7 +28320,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11515;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞纳里奥植物药膏'	-- Cenarion Plant Salve
+	`name_loc4`='塞纳里奥植物药膏',	-- Cenarion Plant Salve
 	`description_loc4`='这种德鲁伊制造的药膏可以净化被腐蚀的植物。'	-- This druidic brew is used to cleanse corrupted plants.
 WHERE `entry`=11516;
 
@@ -28369,7 +28369,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11570;
 
 UPDATE `locales_item` SET
-	`name_loc4`='恶魔药膏'	-- Fel Salve
+	`name_loc4`='恶魔药膏',	-- Fel Salve
 	`description_loc4`='对戈洛尔、瑟温妮和奥利斯塔使用，以破除拉瑟莱克的防护结界。'	-- Use on Grol, Sevine, and Allistarj to break Razelikh's Ward.
 WHERE `entry`=11582;
 
@@ -28618,7 +28618,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=11723;
 
 UPDATE `locales_item` SET
-	`name_loc4`='延误的包裹'	-- Overdue Package
+	`name_loc4`='延误的包裹',	-- Overdue Package
 	`description_loc4`='收件人：克林科·古德斯迪尔，塔纳利斯'	-- To: Krinkle Goodsteel, Tanaris
 WHERE `entry`=11724;
 
@@ -28651,17 +28651,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=11731;
 
 UPDATE `locales_item` SET
-	`name_loc4`='沉思圣典'	-- Libram of Rumination
+	`name_loc4`='沉思圣典',	-- Libram of Rumination
 	`description_loc4`='黑暗的符文在表面上不断闪动。'	-- Dark runes skitter across the surface.
 WHERE `entry`=11732;
 
 UPDATE `locales_item` SET
-	`name_loc4`='体质圣典'	-- Libram of Constitution
+	`name_loc4`='体质圣典',	-- Libram of Constitution
 	`description_loc4`='黑暗的符文在表面上不断闪动。'	-- Dark runes skitter across the surface.
 WHERE `entry`=11733;
 
 UPDATE `locales_item` SET
-	`name_loc4`='坚韧圣典'	-- Libram of Tenacity
+	`name_loc4`='坚韧圣典',	-- Libram of Tenacity
 	`description_loc4`='黑暗的符文在表面上不断闪动。'	-- Dark runes skitter across the surface.
 WHERE `entry`=11734;
 
@@ -28670,12 +28670,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=11735;
 
 UPDATE `locales_item` SET
-	`name_loc4`='恢复圣典'	-- Libram of Resilience
+	`name_loc4`='恢复圣典',	-- Libram of Resilience
 	`description_loc4`='黑暗的符文在表面上不断闪动。'	-- Dark runes skitter across the surface.
 WHERE `entry`=11736;
 
 UPDATE `locales_item` SET
-	`name_loc4`='贪婪圣典'	-- Libram of Voracity
+	`name_loc4`='贪婪圣典',	-- Libram of Voracity
 	`description_loc4`='黑暗的符文在表面上不断闪动。'	-- Dark runes skitter across the surface.
 WHERE `entry`=11737;
 
@@ -28716,17 +28716,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=11750;
 
 UPDATE `locales_item` SET
-	`name_loc4`='燃烧精华'	-- Burning Essence
+	`name_loc4`='燃烧精华',	-- Burning Essence
 	`description_loc4`='某种东西的灼热的残骸……'	-- The smoldering remains of something...
 WHERE `entry`=11751;
 
 UPDATE `locales_item` SET
-	`name_loc4`='被折磨者的血液'	-- Black Blood of the Tormented
+	`name_loc4`='被折磨者的血液',	-- Black Blood of the Tormented
 	`description_loc4`='被灼烧的血液的味道刺激着你的鼻子。'	-- The putrid scent of burned blood assaults your senses.
 WHERE `entry`=11752;
 
 UPDATE `locales_item` SET
-	`name_loc4`='卡加尔之眼'	-- Eye of Kajal
+	`name_loc4`='卡加尔之眼',	-- Eye of Kajal
 	`description_loc4`='它的瞳孔无时无刻不在盯着你。'	-- The pupil tracks your every move.
 WHERE `entry`=11753;
 
@@ -29791,7 +29791,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12115;
 
 UPDATE `locales_item` SET
-	`name_loc4`='库米沙的垃圾袋'	-- Kum'isha's Junk
+	`name_loc4`='库米沙的垃圾袋',	-- Kum'isha's Junk
 	`description_loc4`='里面是一大堆垃圾'	-- A chest full of "junk"
 WHERE `entry`=12122;
 
@@ -29908,7 +29908,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12218;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始晋升印章'	-- Unadorned Seal of Ascension
+	`name_loc4`='原始晋升印章',	-- Unadorned Seal of Ascension
 	`description_loc4`='表面上有三个空槽。'	-- Three empty sockets cover the face.
 WHERE `entry`=12219;
 
@@ -30061,7 +30061,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12262;
 
 UPDATE `locales_item` SET
-	`name_loc4`='笼中的座狼幼崽'	-- Caged Worg Pup
+	`name_loc4`='笼中的座狼幼崽',	-- Caged Worg Pup
 	`description_loc4`='笼子在不断震动。'	-- The cage rattles and shakes.
 WHERE `entry`=12263;
 
@@ -30242,7 +30242,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12343;
 
 UPDATE `locales_item` SET
-	`name_loc4`='晋升印章'	-- Seal of Ascension
+	`name_loc4`='晋升印章',	-- Seal of Ascension
 	`description_loc4`='龙类的符文在它的表面上不断浮现。'	-- Draconic runes appear and disappear along the inner band.
 WHERE `entry`=12344;
 
@@ -30335,7 +30335,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12368;
 
 UPDATE `locales_item` SET
-	`name_loc4`='城市大门钥匙'	-- Key to the City
+	`name_loc4`='城市大门钥匙',	-- Key to the City
 	`description_loc4`='打开斯坦索姆城门的钥匙'	-- Master Key to the City of Stratholme
 WHERE `entry`=12382;
 
@@ -30580,7 +30580,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12466;
 
 UPDATE `locales_item` SET
-	`name_loc4`='异型卵'	-- Alien Egg
+	`name_loc4`='异型卵',	-- Alien Egg
 	`description_loc4`='似乎有什么东西在里面不断活动'	-- Something seems to shake from within
 WHERE `entry`=12467;
 
@@ -30593,7 +30593,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12471;
 
 UPDATE `locales_item` SET
-	`name_loc4`='克拉兰克的温度计'	-- Krakle's Thermometer
+	`name_loc4`='克拉兰克的温度计',	-- Krakle's Thermometer
 	`description_loc4`='克拉兰克工业公司质量担保'	-- Quality Guaranteed by Kraklenheit Industries
 WHERE `entry`=12472;
 
@@ -30730,7 +30730,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12562;
 
 UPDATE `locales_item` SET
-	`name_loc4`='高图斯的命令'	-- Warlord Goretooth's Command
+	`name_loc4`='高图斯的命令',	-- Warlord Goretooth's Command
 	`description_loc4`='盖有卡拉斯远征军的徽记。'	-- Bears the seal of the K.E.F.
 WHERE `entry`=12563;
 
@@ -30763,7 +30763,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12584;
 
 UPDATE `locales_item` SET
-	`name_loc4`='不成熟的毒囊'	-- Immature Venom Sac
+	`name_loc4`='不成熟的毒囊',	-- Immature Venom Sac
 	`description_loc4`='免受蛛后的乳汁的影响。效果会逐渐减弱。'	-- Protects the brood against Mother's Milk. Efficacy decays over time.
 WHERE `entry`=12586;
 
@@ -30896,7 +30896,7 @@ WHERE `entry`=12628;
 -- WHERE `entry`=12629;
 
 UPDATE `locales_item` SET
-	`name_loc4`='雷德·黑手的头颅'	-- Head of Rend Blackhand
+	`name_loc4`='雷德·黑手的头颅',	-- Head of Rend Blackhand
 	`description_loc4`='丑陋，血腥，邪恶。'	-- Sickening, bloody, foulness.
 WHERE `entry`=12630;
 
@@ -30929,7 +30929,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12637;
 
 UPDATE `locales_item` SET
-	`name_loc4`='安多哈尔怀表'	-- Andorhal Watch
+	`name_loc4`='安多哈尔怀表',	-- Andorhal Watch
 	`description_loc4`='怀表的指针静止在3：00。'	-- The hands of this watch are frozen at 3:00.
 WHERE `entry`=12638;
 
@@ -30978,7 +30978,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12649;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瘟疫中和器'	-- Attuned Dampener
+	`name_loc4`='瘟疫中和器',	-- Attuned Dampener
 	`description_loc4`='经过特殊处理，可以削弱召唤者阿拉基。'	-- This object has been attuned to work against a specific being.
 WHERE `entry`=12650;
 
@@ -30987,7 +30987,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12651;
 
 UPDATE `locales_item` SET
-	`name_loc4`='比修的侦察报告'	-- Bijou's Reconnaissance Report
+	`name_loc4`='比修的侦察报告',	-- Bijou's Reconnaissance Report
 	`description_loc4`='高度机密'	-- TOP SECRET
 WHERE `entry`=12652;
 
@@ -31008,7 +31008,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12662;
 
 UPDATE `locales_item` SET
-	`name_loc4`='雕文橡木枝'	-- Glyphed Oaken Branch
+	`name_loc4`='雕文橡木枝',	-- Glyphed Oaken Branch
 	`description_loc4`='这根树枝代表着德鲁伊的自然崇拜'	-- Glyphs of a druidic nature adorn the branch.
 WHERE `entry`=12663;
 
@@ -31117,12 +31117,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=12708;
 
 UPDATE `locales_item` SET
-	`name_loc4`='芬克的剥皮刀'	-- Finkle's Skinner
+	`name_loc4`='芬克的剥皮刀',	-- Finkle's Skinner
 	`description_loc4`='可作为剥皮刀使用。'	-- Property of Finkle Einhorn, Grandmaster Adventurer
 WHERE `entry`=12709;
 
 UPDATE `locales_item` SET
-	`name_loc4`='比斯巨兽的发光肉块'	-- Glowing Hunk of the Beast's Flesh
+	`name_loc4`='比斯巨兽的发光肉块',	-- Glowing Hunk of the Beast's Flesh
 	`description_loc4`='它在发光！'	-- It Glows!
 WHERE `entry`=12710;
 
@@ -31443,7 +31443,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12804;
 
 UPDATE `locales_item` SET
-	`name_loc4`='未铸造的符文覆饰胸甲'	-- Unforged Rune Covered Breastplate
+	`name_loc4`='未铸造的符文覆饰胸甲',	-- Unforged Rune Covered Breastplate
 	`description_loc4`='表面上覆盖着恶魔的符文。'	-- Covered in Demonic runes.
 WHERE `entry`=12806;
 
@@ -31476,7 +31476,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12813;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瓶中火'	-- Flame in a Bottle
+	`name_loc4`='瓶中火',	-- Flame in a Bottle
 	`description_loc4`='足以点燃一顶大帐篷！'	-- It's got enough juice to set a large tent on fire!
 WHERE `entry`=12814;
 
@@ -31581,7 +31581,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12845;
 
 UPDATE `locales_item` SET
-	`name_loc4`='银色黎明委任徽章'	-- Argent Dawn Commission
+	`name_loc4`='银色黎明委任徽章',	-- Argent Dawn Commission
 	`description_loc4`='这是你正在为银色黎明效力的证明。'	-- Equipping this badge is an indication of service to the Argent Dawn.
 WHERE `entry`=12846;
 
@@ -31590,7 +31590,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12847;
 
 UPDATE `locales_item` SET
-	`name_loc4`='血污长矛'	-- Blood Stained Pike
+	`name_loc4`='血污长矛',	-- Blood Stained Pike
 	`description_loc4`='恶魔的能量环绕着长矛。'	-- Fel energies pulse across the pike.
 WHERE `entry`=12848;
 
@@ -31791,7 +31791,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=12923;
 
 UPDATE `locales_item` SET
-	`name_loc4`='仪式蜡烛'	-- Ritual Candle
+	`name_loc4`='仪式蜡烛',	-- Ritual Candle
 	`description_loc4`='取自加德纳尔深处的仪式蜡烛。'	-- A ritual candle from the depths of Jaedenar, new home of the Shadow Council.
 WHERE `entry`=12924;
 
@@ -32612,7 +32612,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13139;
 
 UPDATE `locales_item` SET
-	`name_loc4`='血红钥匙'	-- Blood Red Key
+	`name_loc4`='血红钥匙',	-- Blood Red Key
 	`description_loc4`='这把小巧的钥匙可以塞进很细小的锁眼里。'	-- The key looks tiny enough to fit a small lock.
 WHERE `entry`=13140;
 
@@ -32721,7 +32721,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13171;
 
 UPDATE `locales_item` SET
-	`name_loc4`='希亚比的烟草'	-- Siabi's Premium Tobacco
+	`name_loc4`='希亚比的烟草',	-- Siabi's Premium Tobacco
 	`description_loc4`='盖有弗拉斯·希亚比的徽记。'	-- Bears the mark of Fras Siabi.
 WHERE `entry`=13172;
 
@@ -32754,7 +32754,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13179;
 
 UPDATE `locales_item` SET
-	`name_loc4`='斯坦索姆圣水'	-- Stratholme Holy Water
+	`name_loc4`='斯坦索姆圣水',	-- Stratholme Holy Water
 	`description_loc4`='只有一加仑。'	-- Just 1 calorie.
 WHERE `entry`=13180;
 
@@ -32855,7 +32855,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13206;
 
 UPDATE `locales_item` SET
-	`name_loc4`='暗影领主费尔丹的头颅'	-- Shadow Lord Fel'dan's Head
+	`name_loc4`='暗影领主费尔丹的头颅',	-- Shadow Lord Fel'dan's Head
 	`description_loc4`='这是费伍德森林中的暗影议会领袖的徽记。'	-- This is the head of the leader of the Shadow Council in Felwood.
 WHERE `entry`=13207;
 
@@ -32976,12 +32976,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=13260;
 
 UPDATE `locales_item` SET
-	`name_loc4`='德萨克之球'	-- Globe of D'sak
+	`name_loc4`='德萨克之球',	-- Globe of D'sak
 	`description_loc4`='法师徽记的能量使它隐隐发光。'	-- Glows with the power of magiskull.
 WHERE `entry`=13261;
 
 UPDATE `locales_item` SET
-	`name_loc4`='灰烬使者'	-- Ashbringer
+	`name_loc4`='灰烬使者',	-- Ashbringer
 	`description_loc4`='血色十字军领袖之剑'	-- Blade of the Scarlet Highlord
 WHERE `entry`=13262;
 
@@ -33074,7 +33074,7 @@ WHERE `entry`=13311;
 -- WHERE `entry`=13312;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神圣的上层精灵笔迹'	-- Sacred Highborne Writings
+	`name_loc4`='神圣的上层精灵笔迹',	-- Sacred Highborne Writings
 	`description_loc4`='书页都已经破旧不堪了……'	-- The pages are tattered and worn...
 WHERE `entry`=13313;
 
@@ -33099,7 +33099,7 @@ WHERE `entry`=13317;
 -- WHERE `entry`=13319;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥术催化剂'	-- Arcane Quickener
+	`name_loc4`='奥术催化剂',	-- Arcane Quickener
 	`description_loc4`='这是用来中和天灾之锅中的毒素所需的催化剂。'	-- This is used as a catalyst in transforming the toxins of the Scourge's cauldrons.
 WHERE `entry`=13320;
 
@@ -33272,7 +33272,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13369;
 
 UPDATE `locales_item` SET
-	`name_loc4`='玻璃放大镜'	-- Vitreous Focuser
+	`name_loc4`='玻璃放大镜',	-- Vitreous Focuser
 	`description_loc4`='用以鉴定尸体中的魔法成分。'	-- A device used to identify arcane components found in the body.
 WHERE `entry`=13370;
 
@@ -33465,17 +33465,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=13447;
 
 UPDATE `locales_item` SET
-	`name_loc4`='凯尔达隆地契'	-- The Deed to Caer Darrow
+	`name_loc4`='凯尔达隆地契',	-- The Deed to Caer Darrow
 	`description_loc4`='盖有巴罗夫家族的印章。'	-- Carries the Seal of Barov.
 WHERE `entry`=13448;
 
 UPDATE `locales_item` SET
-	`name_loc4`='南海镇地契'	-- The Deed to Southshore
+	`name_loc4`='南海镇地契',	-- The Deed to Southshore
 	`description_loc4`='盖有巴罗夫家族的印章。'	-- Carries the Seal of Barov.
 WHERE `entry`=13450;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塔伦米尔地契'	-- The Deed to Tarren Mill
+	`name_loc4`='塔伦米尔地契',	-- The Deed to Tarren Mill
 	`description_loc4`='盖有巴罗夫家族的印章。'	-- Carries the Seal of Barov.
 WHERE `entry`=13451;
 
@@ -33552,7 +33552,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13470;
 
 UPDATE `locales_item` SET
-	`name_loc4`='布瑞尔地契'	-- The Deed to Brill
+	`name_loc4`='布瑞尔地契',	-- The Deed to Brill
 	`description_loc4`='盖有巴罗夫家族的印章。'	-- Carries the Seal of Barov.
 WHERE `entry`=13471;
 
@@ -33741,7 +33741,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13522;
 
 UPDATE `locales_item` SET
-	`name_loc4`='无辜者之血'	-- Blood of Innocents
+	`name_loc4`='无辜者之血',	-- Blood of Innocents
 	`description_loc4`='血液还是新鲜的。'	-- The blood is still fresh.
 WHERE `entry`=13523;
 
@@ -33814,7 +33814,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13542;
 
 UPDATE `locales_item` SET
-	`name_loc4`='鬼灵精华'	-- Spectral Essence
+	`name_loc4`='鬼灵精华',	-- Spectral Essence
 	`description_loc4`='可以与凯尔达隆的死者交谈。'	-- Allows communication with the deceased of Caer Darrow.
 WHERE `entry`=13544;
 
@@ -33843,7 +33843,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13584;
 
 UPDATE `locales_item` SET
-	`name_loc4`='巫妖生前的遗物'	-- Keepsake of Remembrance
+	`name_loc4`='巫妖生前的遗物',	-- Keepsake of Remembrance
 	`description_loc4`='所有的书页都被撕破了。'	-- All of the pages are torn out.
 WHERE `entry`=13585;
 
@@ -34124,7 +34124,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13851;
 
 UPDATE `locales_item` SET
-	`name_loc4`='大十字军的命令'	-- The Grand Crusader's Command
+	`name_loc4`='大十字军的命令',	-- The Grand Crusader's Command
 	`description_loc4`='命令上面盖着大十字军的印章。'	-- Bears the mark of the Grand Crusader.
 WHERE `entry`=13852;
 
@@ -34209,7 +34209,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=13873;
 
 UPDATE `locales_item` SET
-	`name_loc4`='沉重的箱子'	-- Heavy Crate
+	`name_loc4`='沉重的箱子',	-- Heavy Crate
 	`description_loc4`='风险投资公司的补给品'	-- Venture Company Supplies
 WHERE `entry`=13874;
 
@@ -35758,12 +35758,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=14381;
 
 UPDATE `locales_item` SET
-	`name_loc4`='暗影法术研究'	-- Spells of Shadow
+	`name_loc4`='暗影法术研究',	-- Spells of Shadow
 	`description_loc4`='你知道打开它是非常不明智的。'	-- You know opening this would be a terrible idea.
 WHERE `entry`=14395;
 
 UPDATE `locales_item` SET
-	`name_loc4`='扭曲虚空的魔法'	-- Incantations from the Nether
+	`name_loc4`='扭曲虚空的魔法',	-- Incantations from the Nether
 	`description_loc4`='你很庆幸自己读不懂封面上的符文。'	-- You're glad you don't understand the runes inscribed on the cover.
 WHERE `entry`=14396;
 
@@ -36324,7 +36324,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=14543;
 
 UPDATE `locales_item` SET
-	`name_loc4`='军官的徽章'	-- Lieutenant's Insignia
+	`name_loc4`='军官的徽章',	-- Lieutenant's Insignia
 	`description_loc4`='只有火刃氏族中的军官才能佩戴这块小符文。'	-- This small rune marks the bearer as a lieutenant in the Burning Blade.
 WHERE `entry`=14544;
 
@@ -36585,7 +36585,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=14612;
 
 UPDATE `locales_item` SET
-	`name_loc4`='泰兰之锤'	-- Taelan's Hammer
+	`name_loc4`='泰兰之锤',	-- Taelan's Hammer
 	`description_loc4`='上面刻着一行字：给我最亲爱的儿子泰兰。'	-- Engraved: To my dear boy, Taelan. With Love, Father.
 WHERE `entry`=14613;
 
@@ -36634,7 +36634,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=14624;
 
 UPDATE `locales_item` SET
-	`name_loc4`='失落荣耀的象征'	-- Symbol of Lost Honor
+	`name_loc4`='失落荣耀的象征',	-- Symbol of Lost Honor
 	`description_loc4`='白银之手骑士团'	-- Order of the Silver Hand
 WHERE `entry`=14625;
 
@@ -36715,7 +36715,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=14644;
 
 UPDATE `locales_item` SET
-	`name_loc4`='未完工的骷髅钥匙'	-- Unfinished Skeleton Key
+	`name_loc4`='未完工的骷髅钥匙',	-- Unfinished Skeleton Key
 	`description_loc4`='这把钥匙没有头部。'	-- This key is missing its head.
 WHERE `entry`=14645;
 
@@ -36852,7 +36852,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=14678;
 
 UPDATE `locales_item` SET
-	`name_loc4`='爱与家庭'	-- Of Love and Family
+	`name_loc4`='爱与家庭',	-- Of Love and Family
 	`description_loc4`='这张画让你觉得非常温馨。'	-- The picture brings a smile to your face.
 WHERE `entry`=14679;
 
@@ -40457,7 +40457,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=15695;
 
 UPDATE `locales_item` SET
-	`name_loc4`='被毁坏的书籍'	-- Ruined Tome
+	`name_loc4`='被毁坏的书籍',	-- Ruined Tome
 	`description_loc4`='一本破旧而毫无价值的书。'	-- An old, worthless tome.
 WHERE `entry`=15696;
 
@@ -40566,7 +40566,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=15735;
 
 UPDATE `locales_item` SET
-	`name_loc4`='烟鬼的特殊混合物'	-- Smokey's Special Compound
+	`name_loc4`='烟鬼的特殊混合物',	-- Smokey's Special Compound
 	`description_loc4`='远离火源。'	-- Keep Away From Fire.
 WHERE `entry`=15736;
 
@@ -40775,7 +40775,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=15789;
 
 UPDATE `locales_item` SET
-	`name_loc4`='灵语研究'	-- Studies in Spirit Speaking
+	`name_loc4`='灵语研究',	-- Studies in Spirit Speaking
 	`description_loc4`='这本书是用一种你无法理解的语言书写的。'	-- This book is written in a language you cannot understand.
 WHERE `entry`=15790;
 
@@ -40924,7 +40924,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=15846;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奎尔萨拉斯名册'	-- Quel'Thalas Registry
+	`name_loc4`='奎尔萨拉斯名册',	-- Quel'Thalas Registry
 	`description_loc4`='这本书泛着淡淡的光芒。'	-- This book emits a faint glow.
 WHERE `entry`=15847;
 
@@ -41009,7 +41009,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=15867;
 
 UPDATE `locales_item` SET
-	`name_loc4`='大十字军的命令'	-- The Grand Crusader's Command
+	`name_loc4`='大十字军的命令',	-- The Grand Crusader's Command
 	`description_loc4`='由大十字军亲自封印'	-- Bears the Seal of the Scarlet Crusade
 WHERE `entry`=15868;
 
@@ -41038,7 +41038,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=15874;
 
 UPDATE `locales_item` SET
-	`name_loc4`='腐烂的苹果'	-- Rotten Apple
+	`name_loc4`='腐烂的苹果',	-- Rotten Apple
 	`description_loc4`='虫子是最好吃的部分。'	-- The Worm is the Best Part.
 WHERE `entry`=15875;
 
@@ -41067,7 +41067,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=15881;
 
 UPDATE `locales_item` SET
-	`name_loc4`='水兽耐力坠饰'	-- Half Pendant of Aquatic Endurance
+	`name_loc4`='水兽耐力坠饰',	-- Half Pendant of Aquatic Endurance
 	`description_loc4`='这颗坠饰缺少另一半。'	-- The pendant is missing its aquatic counterpart.
 WHERE `entry`=15882;
 
@@ -41680,7 +41680,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=16205;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥金棒'	-- Arcanite Rod
+	`name_loc4`='奥金棒',	-- Arcanite Rod
 	`description_loc4`='附魔师必备的工具。'	-- Needed by Enchanters.
 WHERE `entry`=16206;
 
@@ -41841,7 +41841,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=16307;
 
 UPDATE `locales_item` SET
-	`name_loc4`='龙火护符'	-- Drakefire Amulet
+	`name_loc4`='龙火护符',	-- Drakefire Amulet
 	`description_loc4`='达基萨斯的血液在护符中涌动……'	-- The Blood of Drakkisath Flows Within...
 WHERE `entry`=16309;
 
@@ -42714,7 +42714,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=16580;
 
 UPDATE `locales_item` SET
-	`name_loc4`='共鸣水晶'	-- Resonite Crystal
+	`name_loc4`='共鸣水晶',	-- Resonite Crystal
 	`description_loc4`='魔法在它内部轰鸣着。'	-- Magic stirs deep inside.
 WHERE `entry`=16581;
 
@@ -44079,7 +44079,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17007;
 
 UPDATE `locales_item` SET
-	`name_loc4`='小卷轴'	-- Small Scroll
+	`name_loc4`='小卷轴',	-- Small Scroll
 	`description_loc4`='这根卷轴上印着一个你不认识的徽记。'	-- The scroll bears an insignia foreign to you.
 WHERE `entry`=17008;
 
@@ -44404,7 +44404,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17117;
 
 UPDATE `locales_item` SET
-	`name_loc4`='装着神秘肉品的纸箱'	-- Carton of Mystery Meat
+	`name_loc4`='装着神秘肉品的纸箱',	-- Carton of Mystery Meat
 	`description_loc4`='小心轻放。'	-- Handle With Care.
 WHERE `entry`=17118;
 
@@ -44529,12 +44529,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=17224;
 
 UPDATE `locales_item` SET
-	`name_loc4`='萨雷姆箱子的钥匙'	-- Key to Salem's Chest
+	`name_loc4`='萨雷姆箱子的钥匙',	-- Key to Salem's Chest
 	`description_loc4`='可以打开黑暗教士萨雷姆的箱子'	-- Opens Dark Cleric Salem's Chest
 WHERE `entry`=17242;
 
 UPDATE `locales_item` SET
-	`name_loc4`='詹姆斯的钥匙'	-- James' Key
+	`name_loc4`='詹姆斯的钥匙',	-- James' Key
 	`description_loc4`='打开光明大教堂失窃的箱子'	-- Opens the stolen chest from the Cathedral of Light
 WHERE `entry`=17262;
 
@@ -44599,7 +44599,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17325;
 
 UPDATE `locales_item` SET
-	`name_loc4`='联盟士兵的食物'	-- Stormpike Soldier's Flesh
+	`name_loc4`='联盟士兵的食物',	-- Stormpike Soldier's Flesh
 	`description_loc4`='联盟：风味独特的肉'	-- Alliance: the other, other, OTHER, white meat.
 WHERE `entry`=17326;
 
@@ -44636,7 +44636,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17344;
 
 UPDATE `locales_item` SET
-	`name_loc4`='异种蝎粘液'	-- Silithid Goo
+	`name_loc4`='异种蝎粘液',	-- Silithid Goo
 	`description_loc4`='好恶心……'	-- Ewww...
 WHERE `entry`=17345;
 
@@ -44737,7 +44737,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17414;
 
 UPDATE `locales_item` SET
-	`name_loc4`='护甲碎片'	-- Armor Scraps
+	`name_loc4`='护甲碎片',	-- Armor Scraps
 	`description_loc4`='交给基地中的铁匠就可以帮助你们的部队改善装备'	-- Return to your base blacksmith to help upgrade troops
 WHERE `entry`=17422;
 
@@ -44746,7 +44746,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17423;
 
 UPDATE `locales_item` SET
-	`name_loc4`='霜狼突击令'	-- Frostwolf Assault Orders
+	`name_loc4`='霜狼突击令',	-- Frostwolf Assault Orders
 	`description_loc4`='交给征战平原的突击队长加瑞克'	-- Give to Warmaster Garrick in the Field of Strife
 WHERE `entry`=17442;
 
@@ -45007,7 +45007,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17643;
 
 UPDATE `locales_item` SET
-	`name_loc4`='被偷走的礼品'	-- Stolen Treats
+	`name_loc4`='被偷走的礼品',	-- Stolen Treats
 	`description_loc4`='寄往：烟林牧场零售店'	-- Deliver to: Smokywood Pastures Retail
 WHERE `entry`=17662;
 
@@ -45112,7 +45112,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17711;
 
 UPDATE `locales_item` SET
-	`name_loc4`='冬幕伪装包'	-- Winter Veil Disguise Kit
+	`name_loc4`='冬幕伪装包',	-- Winter Veil Disguise Kit
 	`description_loc4`='在天气变冷的时候……'	-- For when the weather outside is frightful...
 WHERE `entry`=17712;
 
@@ -45289,7 +45289,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17757;
 
 UPDATE `locales_item` SET
-	`name_loc4`='联合坠饰'	-- Amulet of Union
+	`name_loc4`='联合坠饰',	-- Amulet of Union
 	`description_loc4`='无尽的力量从坠饰中散发出来……'	-- A great deal of power radiates from the amulet...
 WHERE `entry`=17758;
 
@@ -45302,27 +45302,27 @@ UPDATE `locales_item` SET
 WHERE `entry`=17760;
 
 UPDATE `locales_item` SET
-	`name_loc4`='第一可汗的宝石'	-- Gem of the First Khan
+	`name_loc4`='第一可汗的宝石',	-- Gem of the First Khan
 	`description_loc4`='发现于考尔克的尸体……'	-- Found on the body of Kolk...
 WHERE `entry`=17761;
 
 UPDATE `locales_item` SET
-	`name_loc4`='第二可汗的宝石'	-- Gem of the Second Kahn
+	`name_loc4`='第二可汗的宝石',	-- Gem of the Second Kahn
 	`description_loc4`='发现于格尔克的尸体……'	-- Found on the body of Gelk...
 WHERE `entry`=17762;
 
 UPDATE `locales_item` SET
-	`name_loc4`='第三可汗的宝石'	-- Gem of the Third Kahn
+	`name_loc4`='第三可汗的宝石',	-- Gem of the Third Kahn
 	`description_loc4`='发现于玛格拉的尸体……'	-- Found on the body of Magra...
 WHERE `entry`=17763;
 
 UPDATE `locales_item` SET
-	`name_loc4`='第四可汗的宝石'	-- Gem of the Fourth Kahn
+	`name_loc4`='第四可汗的宝石',	-- Gem of the Fourth Kahn
 	`description_loc4`='发现于玛劳杜斯的尸体……'	-- Found on the body of Maraudos...
 WHERE `entry`=17764;
 
 UPDATE `locales_item` SET
-	`name_loc4`='第五可汗的宝石'	-- Gem of the Fifth Kahn
+	`name_loc4`='第五可汗的宝石',	-- Gem of the Fifth Kahn
 	`description_loc4`='发现于温格的尸体……'	-- Found on the body of Veng...
 WHERE `entry`=17765;
 
@@ -45423,7 +45423,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17903;
 
 UPDATE `locales_item` SET
-	`name_loc4`='6级雷矛勋章'	-- Stormpike Insignia Rank 6
+	`name_loc4`='6级雷矛勋章',	-- Stormpike Insignia Rank 6
 	`description_loc4`='统御之眼'	-- The Eye of Command
 WHERE `entry`=17904;
 
@@ -45444,7 +45444,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=17908;
 
 UPDATE `locales_item` SET
-	`name_loc4`='6级霜狼勋章'	-- Frostwolf Insignia Rank 6
+	`name_loc4`='6级霜狼勋章',	-- Frostwolf Insignia Rank 6
 	`description_loc4`='统御之眼'	-- The Eye of Command
 WHERE `entry`=17909;
 
@@ -45709,27 +45709,27 @@ UPDATE `locales_item` SET
 WHERE `entry`=18226;
 
 UPDATE `locales_item` SET
-	`name_loc4`='光滑的橡皮圈'	-- Nubless Pacifier
+	`name_loc4`='光滑的橡皮圈',	-- Nubless Pacifier
 	`description_loc4`='这件物品似乎很旧了。'	-- This item has seen much use.
 WHERE `entry`=18227;
 
 UPDATE `locales_item` SET
-	`name_loc4`='提古勒和弗洛尔的合影'	-- Autographed Picture of Foror & Tigule
+	`name_loc4`='提古勒和弗洛尔的合影',	-- Autographed Picture of Foror & Tigule
 	`description_loc4`='秘密还未被揭开。'	-- The mystery remains unsolved.
 WHERE `entry`=18228;
 
 UPDATE `locales_item` SET
-	`name_loc4`='纳特·帕格的钓鱼技巧完全攻略'	-- Nat Pagle's Guide to Extreme Anglin'
+	`name_loc4`='纳特·帕格的钓鱼技巧完全攻略',	-- Nat Pagle's Guide to Extreme Anglin'
 	`description_loc4`='除了最后一页，其它的全都没了。'	-- This book is missing every page but the last.
 WHERE `entry`=18229;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破损的按钮'	-- Broken I.W.I.N. Button
+	`name_loc4`='破损的按钮',	-- Broken I.W.I.N. Button
 	`description_loc4`='希望它不出故障。'	-- If only it worked.
 WHERE `entry`=18230;
 
 UPDATE `locales_item` SET
-	`name_loc4`='无袖T恤衫'	-- Sleeveless T-Shirt
+	`name_loc4`='无袖T恤衫',	-- Sleeveless T-Shirt
 	`description_loc4`='在领口处写着“质检通过，艾尔”'	-- On the inside collar it reads, "Inspected by Earl Z. Moade."
 WHERE `entry`=18231;
 
@@ -45738,12 +45738,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=18232;
 
 UPDATE `locales_item` SET
-	`name_loc4`='浸满泪水的手帕'	-- Tear Stained Handkerchief
+	`name_loc4`='浸满泪水的手帕',	-- Tear Stained Handkerchief
 	`description_loc4`='它的拥有者可能需要安慰。'	-- The owner of this item could have probably used a hug.
 WHERE `entry`=18233;
 
 UPDATE `locales_item` SET
-	`name_loc4`='火枪进口公司的文件'	-- Document from Boomstick Imports
+	`name_loc4`='火枪进口公司的文件',	-- Document from Boomstick Imports
 	`description_loc4`='你似乎可以看懂一些数字，这东西似乎是维修帐单。'	-- You think that you can make out some numbers. This appears to be a repair bill.
 WHERE `entry`=18234;
 
@@ -45804,7 +45804,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18249;
 
 UPDATE `locales_item` SET
-	`name_loc4`='戈多克镣铐钥匙'	-- Gordok Shackle Key
+	`name_loc4`='戈多克镣铐钥匙',	-- Gordok Shackle Key
 	`description_loc4`='打开戈多克食人魔镣铐。'	-- Used with Gordok ogre shackles.
 WHERE `entry`=18250;
 
@@ -45837,7 +45837,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18257;
 
 UPDATE `locales_item` SET
-	`name_loc4`='戈多克食人魔装'	-- Gordok Ogre Suit
+	`name_loc4`='戈多克食人魔装',	-- Gordok Ogre Suit
 	`description_loc4`='兼备扩大和支撑体型的功效！'	-- It lifts AND supports!
 WHERE `entry`=18258;
 
@@ -45906,12 +45906,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=18286;
 
 UPDATE `locales_item` SET
-	`name_loc4`='永暗酒'	-- Evermurky
+	`name_loc4`='永暗酒',	-- Evermurky
 	`description_loc4`='喝下去时的味道比吐出来时好！'	-- Tastes better going down than coming up!
 WHERE `entry`=18287;
 
 UPDATE `locales_item` SET
-	`name_loc4`='蜜糖火酒'	-- Molasses Firewater
+	`name_loc4`='蜜糖火酒',	-- Molasses Firewater
 	`description_loc4`='不要在明火旁饮用。'	-- Do not consume near open flames.
 WHERE `entry`=18288;
 
@@ -46072,17 +46072,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=18331;
 
 UPDATE `locales_item` SET
-	`name_loc4`='急速圣典'	-- Libram of Rapidity
+	`name_loc4`='急速圣典',	-- Libram of Rapidity
 	`description_loc4`='黑暗的符文在表面上不断闪动。'	-- Dark runes skitter across the surface.
 WHERE `entry`=18332;
 
 UPDATE `locales_item` SET
-	`name_loc4`='专注圣典'	-- Libram of Focus
+	`name_loc4`='专注圣典',	-- Libram of Focus
 	`description_loc4`='黑暗的符文在表面上不断闪动。'	-- Dark runes skitter across the surface.
 WHERE `entry`=18333;
 
 UPDATE `locales_item` SET
-	`name_loc4`='防护圣典'	-- Libram of Protection
+	`name_loc4`='防护圣典',	-- Libram of Protection
 	`description_loc4`='黑暗的符文在表面上不断闪动。'	-- Dark runes skitter across the surface.
 WHERE `entry`=18334;
 
@@ -46091,7 +46091,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18335;
 
 UPDATE `locales_item` SET
-	`name_loc4`='戈多克力量护手'	-- Gauntlet of Gordok Might
+	`name_loc4`='戈多克力量护手',	-- Gauntlet of Gordok Might
 	`description_loc4`='这副护手似乎曾附有强大的魔法力量。'	-- This gauntlet looks as though it once was imbued with potent magic.
 WHERE `entry`=18336;
 
@@ -46132,7 +46132,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18347;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奎尔塞拉'	-- Quel'Serrar
+	`name_loc4`='奎尔塞拉',	-- Quel'Serrar
 	`description_loc4`='上层精灵之剑'	-- The High Blade
 WHERE `entry`=18348;
 
@@ -46161,52 +46161,52 @@ UPDATE `locales_item` SET
 WHERE `entry`=18354;
 
 UPDATE `locales_item` SET
-	`name_loc4`='迦罗娜：潜行与诡计研究'	-- Garona: A Study on Stealth and Treachery
+	`name_loc4`='迦罗娜：潜行与诡计研究',	-- Garona: A Study on Stealth and Treachery
 	`description_loc4`='这本书被魔法封印了起来。'	-- The tome is magically sealed.
 WHERE `entry`=18356;
 
 UPDATE `locales_item` SET
-	`name_loc4`='防御宝典'	-- Codex of Defense
+	`name_loc4`='防御宝典',	-- Codex of Defense
 	`description_loc4`='这本书被魔法封印了起来。'	-- The tome is magically sealed.
 WHERE `entry`=18357;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥法师的食谱'	-- The Arcanist's Cookbook
+	`name_loc4`='奥法师的食谱',	-- The Arcanist's Cookbook
 	`description_loc4`='这本书被魔法封印了起来。'	-- The tome is magically sealed.
 WHERE `entry`=18358;
 
 UPDATE `locales_item` SET
-	`name_loc4`='圣光之力'	-- The Light and How to Swing It
+	`name_loc4`='圣光之力',	-- The Light and How to Swing It
 	`description_loc4`='- 由乌瑟尔撰写'	-- -By Uther
 WHERE `entry`=18359;
 
 UPDATE `locales_item` SET
-	`name_loc4`='束缚之影'	-- Harnessing Shadows
+	`name_loc4`='束缚之影',	-- Harnessing Shadows
 	`description_loc4`='由瑟温妮讲述的诅咒之地的故事。'	-- Tales from the Blasted Lands as told by Lady Sevine.
 WHERE `entry`=18360;
 
 UPDATE `locales_item` SET
-	`name_loc4`='最伟大的猎手'	-- The Greatest Race of Hunters
+	`name_loc4`='最伟大的猎手',	-- The Greatest Race of Hunters
 	`description_loc4`='一个女巨魔和她的老虎的故事'	-- A Tale of a Female Troll and Her Tiger
 WHERE `entry`=18361;
 
 UPDATE `locales_item` SET
-	`name_loc4`='光明不会告诉你的事情'	-- Holy Bologna: What the Light Won't Tell You
+	`name_loc4`='光明不会告诉你的事情',	-- Holy Bologna: What the Light Won't Tell You
 	`description_loc4`='- 由暗影牧师奥利斯特撰写'	-- -By Shadow Priest Allister
 WHERE `entry`=18362;
 
 UPDATE `locales_item` SET
-	`name_loc4`='你与冰霜震击'	-- Frost Shock and You
+	`name_loc4`='你与冰霜震击',	-- Frost Shock and You
 	`description_loc4`='- 由德雷克塔尔撰写'	-- -By Drek'Thar
 WHERE `entry`=18363;
 
 UPDATE `locales_item` SET
-	`name_loc4`='翡翠梦境'	-- The Emerald Dream
+	`name_loc4`='翡翠梦境',	-- The Emerald Dream
 	`description_loc4`='真实或是我兄弟精心编造的谎言 - 由伊利丹撰写'	-- Fact or Carefully Planned Out Farce Perpetrated By My Brother -By Illidan
 WHERE `entry`=18364;
 
 UPDATE `locales_item` SET
-	`name_loc4`='一本写满评论的《纳特·帕格的钓鱼技巧完全攻略》'	-- A Thoroughly Read Copy of "Nat Pagle's Extreme' Anglin."
+	`name_loc4`='一本写满评论的《纳特·帕格的钓鱼技巧完全攻略》',	-- A Thoroughly Read Copy of "Nat Pagle's Extreme' Anglin."
 	`description_loc4`='看来有些家伙真的非常喜欢钓鱼。'	-- Someone really loves to fish.
 WHERE `entry`=18365;
 
@@ -46351,7 +46351,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18400;
 
 UPDATE `locales_item` SET
-	`name_loc4`='弗洛尔的屠龙技术纲要'	-- Foror's Compendium of Dragon Slaying
+	`name_loc4`='弗洛尔的屠龙技术纲要',	-- Foror's Compendium of Dragon Slaying
 	`description_loc4`='有几页是空白的。'	-- Several pages are blank.
 WHERE `entry`=18401;
 
@@ -46436,12 +46436,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=18421;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥妮克希亚的头颅'	-- Head of Onyxia
+	`name_loc4`='奥妮克希亚的头颅',	-- Head of Onyxia
 	`description_loc4`='黑龙公主奥妮克希亚的徽记'	-- The head of the Black Dragonflight's Brood Mother
 WHERE `entry`=18422;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥妮克希亚的头颅'	-- Head of Onyxia
+	`name_loc4`='奥妮克希亚的头颅',	-- Head of Onyxia
 	`description_loc4`='黑龙公主奥妮克希亚的徽记'	-- The head of the Black Dragonflight's Brood Mother
 WHERE `entry`=18423;
 
@@ -46590,47 +46590,47 @@ UPDATE `locales_item` SET
 WHERE `entry`=18464;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃雷萨拉斯皇家徽记'	-- Royal Seal of Eldre'Thalas
+	`name_loc4`='埃雷萨拉斯皇家徽记',	-- Royal Seal of Eldre'Thalas
 	`description_loc4`='已被辛德拉古灵祝福'	-- Blessed by the Shen'dralar Ancients.
 WHERE `entry`=18465;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃雷萨拉斯皇家徽记'	-- Royal Seal of Eldre'Thalas
+	`name_loc4`='埃雷萨拉斯皇家徽记',	-- Royal Seal of Eldre'Thalas
 	`description_loc4`='已被辛德拉古灵祝福'	-- Blessed by the Shen'dralar Ancients.
 WHERE `entry`=18466;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃雷萨拉斯皇家徽记'	-- Royal Seal of Eldre'Thalas
+	`name_loc4`='埃雷萨拉斯皇家徽记',	-- Royal Seal of Eldre'Thalas
 	`description_loc4`='已被辛德拉古灵祝福'	-- Blessed by the Shen'dralar Ancients.
 WHERE `entry`=18467;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃雷萨拉斯皇家徽记'	-- Royal Seal of Eldre'Thalas
+	`name_loc4`='埃雷萨拉斯皇家徽记',	-- Royal Seal of Eldre'Thalas
 	`description_loc4`='已被辛德拉古灵祝福'	-- Blessed by the Shen'dralar Ancients.
 WHERE `entry`=18468;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃雷萨拉斯皇家徽记'	-- Royal Seal of Eldre'Thalas
+	`name_loc4`='埃雷萨拉斯皇家徽记',	-- Royal Seal of Eldre'Thalas
 	`description_loc4`='已被辛德拉古灵祝福'	-- Blessed by the Shen'dralar Ancients.
 WHERE `entry`=18469;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃雷萨拉斯皇家徽记'	-- Royal Seal of Eldre'Thalas
+	`name_loc4`='埃雷萨拉斯皇家徽记',	-- Royal Seal of Eldre'Thalas
 	`description_loc4`='已被辛德拉古灵祝福'	-- Blessed by the Shen'dralar Ancients.
 WHERE `entry`=18470;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃雷萨拉斯皇家徽记'	-- Royal Seal of Eldre'Thalas
+	`name_loc4`='埃雷萨拉斯皇家徽记',	-- Royal Seal of Eldre'Thalas
 	`description_loc4`='已被辛德拉古灵祝福'	-- Blessed by the Shen'dralar Ancients.
 WHERE `entry`=18471;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃雷萨拉斯皇家徽记'	-- Royal Seal of Eldre'Thalas
+	`name_loc4`='埃雷萨拉斯皇家徽记',	-- Royal Seal of Eldre'Thalas
 	`description_loc4`='已被辛德拉古灵祝福'	-- Blessed by the Shen'dralar Ancients.
 WHERE `entry`=18472;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃雷萨拉斯皇家徽记'	-- Royal Seal of Eldre'Thalas
+	`name_loc4`='埃雷萨拉斯皇家徽记',	-- Royal Seal of Eldre'Thalas
 	`description_loc4`='已被辛德拉古灵祝福'	-- Blessed by the Shen'dralar Ancients.
 WHERE `entry`=18473;
 
@@ -46703,7 +46703,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18491;
 
 UPDATE `locales_item` SET
-	`name_loc4`='精制上古之刃'	-- Treated Ancient Blade
+	`name_loc4`='精制上古之刃',	-- Treated Ancient Blade
 	`description_loc4`='用奥妮克希亚的血淬过火。'	-- Tempered in the blood of Onyxia.
 WHERE `entry`=18492;
 
@@ -46932,12 +46932,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=18562;
 
 UPDATE `locales_item` SET
-	`name_loc4`='逐风者禁锢之颅'	-- Bindings of the Windseeker
+	`name_loc4`='逐风者禁锢之颅',	-- Bindings of the Windseeker
 	`description_loc4`='桑德兰的永恒监牢的左半部分'	-- The Left Half of Thunderaan's Eternal Prison
 WHERE `entry`=18563;
 
 UPDATE `locales_item` SET
-	`name_loc4`='逐风者禁锢之颅'	-- Bindings of the Windseeker
+	`name_loc4`='逐风者禁锢之颅',	-- Bindings of the Windseeker
 	`description_loc4`='桑德兰的永恒监牢的右半部分'	-- The Right Half of Thunderaan's Eternal Prison
 WHERE `entry`=18564;
 
@@ -46978,7 +46978,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18587;
 
 UPDATE `locales_item` SET
-	`name_loc4`='简易投掷炸弹 II'	-- Ez-Thro Dynamite II
+	`name_loc4`='简易投掷炸弹 II',	-- Ez-Thro Dynamite II
 	`description_loc4`='供非工程学专业人士使用的炸弹，几乎从来不在你手中爆炸，威力超过标准简易投掷炸弹两倍！'	-- The dynamite for Non-Engineers that rarely* blows up in your hand with over twice the blasting power of standard EZ-Thro.
 WHERE `entry`=18588;
 
@@ -47083,7 +47083,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18626;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瑟银兄弟会契约'	-- Thorium Brotherhood Contract
+	`name_loc4`='瑟银兄弟会契约',	-- Thorium Brotherhood Contract
 	`description_loc4`='它被黑铁线捆了起来。'	-- Bound in Dark Iron Wiring
 WHERE `entry`=18628;
 
@@ -47136,12 +47136,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=18641;
 
 UPDATE `locales_item` SET
-	`name_loc4`='吉安娜的签名'	-- Jaina's Autograph
+	`name_loc4`='吉安娜的签名',	-- Jaina's Autograph
 	`description_loc4`='要坚强地生存下去，兰迪斯，要立志成为一名伟大的英雄。──吉安娜·普罗德摩尔'	-- Be strong Randis, and aspire to be the hero you were meant to be.  -- Lady Jaina Proudmoore
 WHERE `entry`=18642;
 
 UPDATE `locales_item` SET
-	`name_loc4`='凯恩的蹄印'	-- Cairne's Hoofprint
+	`name_loc4`='凯恩的蹄印',	-- Cairne's Hoofprint
 	`description_loc4`='听从灵魂的召唤，小格伦斯。英雄就是由此而诞生的。 ──凯恩·血蹄'	-- Heed the spirits, young Grunth.  It is there that true heroes hear their calling.  -- Cairne Bloodhoof
 WHERE `entry`=18643;
 
@@ -47154,7 +47154,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18645;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神圣之眼'	-- The Eye of Divinity
+	`name_loc4`='神圣之眼',	-- The Eye of Divinity
 	`description_loc4`='当你看着它的时候，你会发现它在动。'	-- You can see movement when you peer into the Eye.
 WHERE `entry`=18646;
 
@@ -47207,12 +47207,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=18658;
 
 UPDATE `locales_item` SET
-	`name_loc4`='诺达希尔碎片'	-- Splinter of Nordrassil
+	`name_loc4`='诺达希尔碎片',	-- Splinter of Nordrassil
 	`description_loc4`='世界之树的一小块碎片'	-- A tiny fragment of the World Tree
 WHERE `entry`=18659;
 
 UPDATE `locales_item` SET
-	`name_loc4`='世界放大器'	-- World Enlarger
+	`name_loc4`='世界放大器',	-- World Enlarger
 	`description_loc4`='只有侏儒的尖端科技才能制造出足以改变整个世界的装置！'	-- Only Gnomish Technology could invent a device that affects the entire world!
 WHERE `entry`=18660;
 
@@ -47233,7 +47233,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18664;
 
 UPDATE `locales_item` SET
-	`name_loc4`='暗影之眼'	-- The Eye of Shadow
+	`name_loc4`='暗影之眼',	-- The Eye of Shadow
 	`description_loc4`='黑暗笼罩着这颗眼睛。'	-- Seething darkness engulfs the eye.
 WHERE `entry`=18665;
 
@@ -47366,7 +47366,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18702;
 
 UPDATE `locales_item` SET
-	`name_loc4`='远古石叶'	-- Ancient Petrified Leaf
+	`name_loc4`='远古石叶',	-- Ancient Petrified Leaf
 	`description_loc4`='一片巨大的树叶化石。'	-- A very large petrified leaf.
 WHERE `entry`=18703;
 
@@ -47383,7 +47383,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18706;
 
 UPDATE `locales_item` SET
-	`name_loc4`='上古符文手杖'	-- Ancient Rune Etched Stave
+	`name_loc4`='上古符文手杖',	-- Ancient Rune Etched Stave
 	`description_loc4`='古树的礼物。'	-- A Gift from the Ancients.
 WHERE `entry`=18707;
 
@@ -47452,7 +47452,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18723;
 
 UPDATE `locales_item` SET
-	`name_loc4`='魔化黑龙肌腱'	-- Enchanted Black Dragon Sinew
+	`name_loc4`='魔化黑龙肌腱',	-- Enchanted Black Dragon Sinew
 	`description_loc4`='一根几乎不可能被摧毁的肌腱，正好用来制作弓弦。'	-- An almost indestructible string. Perfect for a mighty bow stave.
 WHERE `entry`=18724;
 
@@ -47597,17 +47597,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=18768;
 
 UPDATE `locales_item` SET
-	`name_loc4`='魔化瑟银板甲'	-- Enchanted Thorium Platemail
+	`name_loc4`='魔化瑟银板甲',	-- Enchanted Thorium Platemail
 	`description_loc4`='第一卷'	-- Volume I
 WHERE `entry`=18769;
 
 UPDATE `locales_item` SET
-	`name_loc4`='魔化瑟银板甲'	-- Enchanted Thorium Platemail
+	`name_loc4`='魔化瑟银板甲',	-- Enchanted Thorium Platemail
 	`description_loc4`='第二卷'	-- Volume II
 WHERE `entry`=18770;
 
 UPDATE `locales_item` SET
-	`name_loc4`='魔化瑟银板甲'	-- Enchanted Thorium Platemail
+	`name_loc4`='魔化瑟银板甲',	-- Enchanted Thorium Platemail
 	`description_loc4`='第三卷'	-- Volume III
 WHERE `entry`=18771;
 
@@ -47624,7 +47624,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18774;
 
 UPDATE `locales_item` SET
-	`name_loc4`='魔法粮草'	-- Manna-Enriched Horse Feed
+	`name_loc4`='魔法粮草',	-- Manna-Enriched Horse Feed
 	`description_loc4`='混有银色黎明的特制魔法点心的燕麦和大麦。'	-- Oats and grains specially mixed with the Argent Dawn's enriched manna biscuits.
 WHERE `entry`=18775;
 
@@ -47729,12 +47729,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=18802;
 
 UPDATE `locales_item` SET
-	`name_loc4`='芬克的熔岩挖掘器'	-- Finkle's Lava Dredger
+	`name_loc4`='芬克的熔岩挖掘器',	-- Finkle's Lava Dredger
 	`description_loc4`='可作为剥皮刀使用。'	-- Property of Finkle Einhorn, Grandmaster Adventurer
 WHERE `entry`=18803;
 
 UPDATE `locales_item` SET
-	`name_loc4`='格雷森公爵的背包'	-- Lord Grayson's Satchel
+	`name_loc4`='格雷森公爵的背包',	-- Lord Grayson's Satchel
 	`description_loc4`='你的预言水晶球和被祝福的奥金马铠都在这只背包里。'	-- Your finished Divination Scryer and Blessed Arcanite Barding are inside the satchel.
 WHERE `entry`=18804;
 
@@ -48051,7 +48051,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18904;
 
 UPDATE `locales_item` SET
-	`name_loc4`='秘密设计图：炽热助熔剂'	-- Secret Plans: Fiery Flux
+	`name_loc4`='秘密设计图：炽热助熔剂',	-- Secret Plans: Fiery Flux
 	`description_loc4`='切勿靠近瑟银兄弟会。'	-- Keep away from Thorium Brotherhood.
 WHERE `entry`=18922;
 
@@ -48084,7 +48084,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=18949;
 
 UPDATE `locales_item` SET
-	`name_loc4`='比拉凯琳的枕头'	-- Chambermaid Pillaclencher's Pillow
+	`name_loc4`='比拉凯琳的枕头',	-- Chambermaid Pillaclencher's Pillow
 	`description_loc4`='这是个大枕头。'	-- This is one big pillow.
 WHERE `entry`=18950;
 
@@ -48165,17 +48165,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=18986;
 
 UPDATE `locales_item` SET
-	`name_loc4`='黑手的命令'	-- Blackhand's Command
+	`name_loc4`='黑手的命令',	-- Blackhand's Command
 	`description_loc4`='大酋长雷德·黑手的命令。'	-- A letter of command from Rend Blackhand.
 WHERE `entry`=18987;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奈法利安的头颅'	-- Head of Nefarian
+	`name_loc4`='奈法利安的头颅',	-- Head of Nefarian
 	`description_loc4`='死亡之翼的儿子奈法利安的徽记。'	-- The head of Nefarian: Brood of Deathwing.
 WHERE `entry`=19002;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奈法利安的头颅'	-- Head of Nefarian
+	`name_loc4`='奈法利安的头颅',	-- Head of Nefarian
 	`description_loc4`='死亡之翼的儿子奈法利安的徽记。'	-- The head of Nefarian: Brood of Deathwing.
 WHERE `entry`=19003;
 
@@ -48244,7 +48244,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19020;
 
 UPDATE `locales_item` SET
-	`name_loc4`='纳特·帕格的超级钓鱼竿FC-5000型'	-- Nat Pagle's Extreme Angler FC-5000
+	`name_loc4`='纳特·帕格的超级钓鱼竿FC-5000型',	-- Nat Pagle's Extreme Angler FC-5000
 	`description_loc4`='限量版'	-- Limited Edition
 WHERE `entry`=19022;
 
@@ -48373,12 +48373,12 @@ WHERE `entry`=19052;
 -- WHERE `entry`=19053;
 
 UPDATE `locales_item` SET
-	`name_loc4`='红色龙珠'	-- Red Dragon Orb
+	`name_loc4`='红色龙珠',	-- Red Dragon Orb
 	`description_loc4`='教你学会召唤这种小伙伴。'	-- Teaches you how to summon this companion.
 WHERE `entry`=19054;
 
 UPDATE `locales_item` SET
-	`name_loc4`='绿色龙珠'	-- Green Dragon Orb
+	`name_loc4`='绿色龙珠',	-- Green Dragon Orb
 	`description_loc4`='教你学会召唤这种小伙伴。'	-- Teaches you how to summon this companion.
 WHERE `entry`=19055;
 
@@ -48827,7 +48827,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19212;
 
 UPDATE `locales_item` SET
-	`name_loc4`='银翼功勋奖章'	-- Silverwing Talisman of Merit
+	`name_loc4`='银翼功勋奖章',	-- Silverwing Talisman of Merit
 	`description_loc4`='在战歌峡谷中获得过一场胜利的证明'	-- Proof of winning a battle in Warsong Gulch
 WHERE `entry`=19213;
 
@@ -48884,12 +48884,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=19227;
 
 UPDATE `locales_item` SET
-	`name_loc4`='野兽套牌'	-- Beasts Deck
+	`name_loc4`='野兽套牌',	-- Beasts Deck
 	`description_loc4`='暗月马戏团的财产。'	-- Property of the Darkmoon Faire.
 WHERE `entry`=19228;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#1'	-- Sayge's Fortune #1
+	`name_loc4`='塞格的塔罗牌#1',	-- Sayge's Fortune #1
 	`description_loc4`='永远不要和牛头人一起吃牛肉。'	-- Never eat beef with a tauren.
 WHERE `entry`=19229;
 
@@ -48922,107 +48922,107 @@ UPDATE `locales_item` SET
 WHERE `entry`=19236;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#19'	-- Sayge's Fortune #19
+	`name_loc4`='塞格的塔罗牌#19',	-- Sayge's Fortune #19
 	`description_loc4`='被遗忘者有一些秘密的计划。'	-- The Forsaken are up to something.
 WHERE `entry`=19237;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#3'	-- Sayge's Fortune #3
+	`name_loc4`='塞格的塔罗牌#3',	-- Sayge's Fortune #3
 	`description_loc4`='过去的敌人将是未来的朋友。'	-- An enemy from your past will soon become an ally.
 WHERE `entry`=19238;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#4'	-- Sayge's Fortune #4
+	`name_loc4`='塞格的塔罗牌#4',	-- Sayge's Fortune #4
 	`description_loc4`='万事顺意。'	-- You will be fortunate in everything you put your hands to.
 WHERE `entry`=19239;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#5'	-- Sayge's Fortune #5
+	`name_loc4`='塞格的塔罗牌#5',	-- Sayge's Fortune #5
 	`description_loc4`='有人很欣赏你。'	-- Someone is speaking well of you.
 WHERE `entry`=19240;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#6'	-- Sayge's Fortune #6
+	`name_loc4`='塞格的塔罗牌#6',	-- Sayge's Fortune #6
 	`description_loc4`='出门在外，多加小心。'	-- Be cautious when landing in unfamiliar territory.
 WHERE `entry`=19241;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#7'	-- Sayge's Fortune #7
+	`name_loc4`='塞格的塔罗牌#7',	-- Sayge's Fortune #7
 	`description_loc4`='不要参与无把握的赌博。'	-- Avoid taking unnecessary gambles.
 WHERE `entry`=19242;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#8'	-- Sayge's Fortune #8
+	`name_loc4`='塞格的塔罗牌#8',	-- Sayge's Fortune #8
 	`description_loc4`='你将得到财富。'	-- You will receive a fortune.
 WHERE `entry`=19243;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#9'	-- Sayge's Fortune #9
+	`name_loc4`='塞格的塔罗牌#9',	-- Sayge's Fortune #9
 	`description_loc4`='最忠诚的爱，就是爱自己。'	-- Your first love and last love is self-love.
 WHERE `entry`=19244;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#10'	-- Sayge's Fortune #10
+	`name_loc4`='塞格的塔罗牌#10',	-- Sayge's Fortune #10
 	`description_loc4`='休息是好的，但疲倦是他的兄弟。'	-- Rest is a good thing, but boredom is its brother.
 WHERE `entry`=19245;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#11'	-- Sayge's Fortune #11
+	`name_loc4`='塞格的塔罗牌#11',	-- Sayge's Fortune #11
 	`description_loc4`='简单就是美。'	-- Those with simple tastes are always satisfied with the best.
 WHERE `entry`=19246;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#12'	-- Sayge's Fortune #12
+	`name_loc4`='塞格的塔罗牌#12',	-- Sayge's Fortune #12
 	`description_loc4`='不要让战争的潮水将你淹没。'	-- Let not the tides of war wash you away.
 WHERE `entry`=19247;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#13'	-- Sayge's Fortune #13
+	`name_loc4`='塞格的塔罗牌#13',	-- Sayge's Fortune #13
 	`description_loc4`='你让你的敌人永远闭嘴。'	-- You leave your adversaries speechless.
 WHERE `entry`=19248;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#14'	-- Sayge's Fortune #14
+	`name_loc4`='塞格的塔罗牌#14',	-- Sayge's Fortune #14
 	`description_loc4`='伪善在你面前原形毕露。'	-- You have a good eye for spotting hypocrisy.
 WHERE `entry`=19249;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#15'	-- Sayge's Fortune #15
+	`name_loc4`='塞格的塔罗牌#15',	-- Sayge's Fortune #15
 	`description_loc4`='教给别人越多，自己学得越多。'	-- One learns most when teaching others.
 WHERE `entry`=19250;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#16'	-- Sayge's Fortune #16
+	`name_loc4`='塞格的塔罗牌#16',	-- Sayge's Fortune #16
 	`description_loc4`='考验你的时刻即将到来。'	-- The time will soon come for you to make a choice in a pressing matter.
 WHERE `entry`=19251;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#18'	-- Sayge's Fortune #18
+	`name_loc4`='塞格的塔罗牌#18',	-- Sayge's Fortune #18
 	`description_loc4`='接受你听到的下一个建议。'	-- Accept the next proposition you hear.
 WHERE `entry`=19252;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#17'	-- Sayge's Fortune #17
+	`name_loc4`='塞格的塔罗牌#17',	-- Sayge's Fortune #17
 	`description_loc4`='不要随便踢侏儒。'	-- Never punt a gnome without due cause.
 WHERE `entry`=19253;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#21'	-- Sayge's Fortune #21
+	`name_loc4`='塞格的塔罗牌#21',	-- Sayge's Fortune #21
 	`description_loc4`='神圣之盾和炉石并不是英雄所必备的。'	-- Divine Shields and Hearthstones do not make a hero heroic.
 WHERE `entry`=19254;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#22'	-- Sayge's Fortune #22
+	`name_loc4`='塞格的塔罗牌#22',	-- Sayge's Fortune #22
 	`description_loc4`='蓝色的回答总是正确的。'	-- An answer in blue is always true.
 WHERE `entry`=19255;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#2'	-- Sayge's Fortune #2
+	`name_loc4`='塞格的塔罗牌#2',	-- Sayge's Fortune #2
 	`description_loc4`='你明天将会有新的惊喜。'	-- You will find something wonderful tomorrow.
 WHERE `entry`=19256;
 
 UPDATE `locales_item` SET
-	`name_loc4`='督军套牌'	-- Warlords Deck
+	`name_loc4`='督军套牌',	-- Warlords Deck
 	`description_loc4`='暗月马戏团的财产。'	-- Property of the Darkmoon Faire.
 WHERE `entry`=19257;
 
@@ -49059,12 +49059,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=19265;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#20'	-- Sayge's Fortune #20
+	`name_loc4`='塞格的塔罗牌#20',	-- Sayge's Fortune #20
 	`description_loc4`='原地不动就是坐以待毙。'	-- Many a false step is made by standing still.
 WHERE `entry`=19266;
 
 UPDATE `locales_item` SET
-	`name_loc4`='元素套牌'	-- Elementals Deck
+	`name_loc4`='元素套牌',	-- Elementals Deck
 	`description_loc4`='暗月马戏团的财产。'	-- Property of the Darkmoon Faire.
 WHERE `entry`=19267;
 
@@ -49105,7 +49105,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19276;
 
 UPDATE `locales_item` SET
-	`name_loc4`='入口套牌'	-- Portals Deck
+	`name_loc4`='入口套牌',	-- Portals Deck
 	`description_loc4`='暗月马戏团的财产。'	-- Property of the Darkmoon Faire.
 WHERE `entry`=19277;
 
@@ -49170,17 +49170,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=19295;
 
 UPDATE `locales_item` SET
-	`name_loc4`='高级暗月奖品'	-- Greater Darkmoon Prize
+	`name_loc4`='高级暗月奖品',	-- Greater Darkmoon Prize
 	`description_loc4`='保证内有一件贵重物品！'	-- Guaranteed to contain an item of value!
 WHERE `entry`=19296;
 
 UPDATE `locales_item` SET
-	`name_loc4`='中级暗月奖品'	-- Lesser Darkmoon Prize
+	`name_loc4`='中级暗月奖品',	-- Lesser Darkmoon Prize
 	`description_loc4`='保证内有一件贵重物品！'	-- Guaranteed to contain an item of value!
 WHERE `entry`=19297;
 
 UPDATE `locales_item` SET
-	`name_loc4`='初级暗月奖品'	-- Minor Darkmoon Prize
+	`name_loc4`='初级暗月奖品',	-- Minor Darkmoon Prize
 	`description_loc4`='保证内有一件贵重物品！'	-- Guaranteed to contain an item of value!
 WHERE `entry`=19298;
 
@@ -49217,7 +49217,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19306;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥特兰克厚符文布绷带'	-- Alterac Heavy Runecloth Bandage
+	`name_loc4`='奥特兰克厚符文布绷带',	-- Alterac Heavy Runecloth Bandage
 	`description_loc4`='只能在奥特兰克山谷中使用。'	-- May only be used in Alterac Valley.
 WHERE `entry`=19307;
 
@@ -49254,7 +49254,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19317;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥特兰克泉水'	-- Bottled Alterac Spring Water
+	`name_loc4`='奥特兰克泉水',	-- Bottled Alterac Spring Water
 	`description_loc4`='来自奥特兰克的山泉！'	-- From the mountain springs of Alterac!
 WHERE `entry`=19318;
 
@@ -49271,7 +49271,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19321;
 
 UPDATE `locales_item` SET
-	`name_loc4`='战歌荣誉奖章'	-- Warsong Mark of Honor
+	`name_loc4`='战歌荣誉奖章',	-- Warsong Mark of Honor
 	`description_loc4`='在战歌峡谷中获得过一场胜利的证明'	-- Proof of winning a battle in Warsong Gulch
 WHERE `entry`=19322;
 
@@ -49420,7 +49420,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19358;
 
 UPDATE `locales_item` SET
-	`name_loc4`='洛卡米尔·伊洛曼希斯'	-- Lok'amir il Romathis
+	`name_loc4`='洛卡米尔·伊洛曼希斯',	-- Lok'amir il Romathis
 	`description_loc4`='奈法里奥斯之手'	-- The Hand of Nefarius
 WHERE `entry`=19360;
 
@@ -49437,7 +49437,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19363;
 
 UPDATE `locales_item` SET
-	`name_loc4`='阿什坎迪，兄弟会之剑'	-- Ashkandi, Greatsword of the Brotherhood
+	`name_loc4`='阿什坎迪，兄弟会之剑',	-- Ashkandi, Greatsword of the Brotherhood
 	`description_loc4`='刀柄上刻有大写字母A.L。'	-- The initials A.L. are etched on the hilt.
 WHERE `entry`=19364;
 
@@ -49494,17 +49494,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=19377;
 
 UPDATE `locales_item` SET
-	`name_loc4`='龙王披风'	-- Cloak of the Brood Lord
+	`name_loc4`='龙王披风',	-- Cloak of the Brood Lord
 	`description_loc4`='你从未见过这样的丝线，它仿佛是由金属制成的。'	-- The threading is unlike anything you have ever seen. It appears metallic in origin.
 WHERE `entry`=19378;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奈萨里奥之泪'	-- Neltharion's Tear
+	`name_loc4`='奈萨里奥之泪',	-- Neltharion's Tear
 	`description_loc4`='银色的液体在乌黑的外壳中涌动，这件物品非常纯净，它散发着强大的能量。'	-- A silver liquid flows within the impenetrable ebony shell. The item feels pure. It radiates an essence of extreme power.
 WHERE `entry`=19379;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞拉赞恩之链'	-- Therazane's Link
+	`name_loc4`='塞拉赞恩之链',	-- Therazane's Link
 	`description_loc4`='金属摸上去热乎乎的，连接腰带的材料似乎是源质。'	-- The metal is warm to the touch. The links connecting the belt together appear to be fashioned out of Elementium.
 WHERE `entry`=19380;
 
@@ -49513,7 +49513,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19381;
 
 UPDATE `locales_item` SET
-	`name_loc4`='纯源质指环'	-- Pure Elementium Band
+	`name_loc4`='纯源质指环',	-- Pure Elementium Band
 	`description_loc4`='完美无瑕，无懈可击。你根本无法理解这枚戒指是如何制造出来的。'	-- Flawless. Indestructible. You cannot comprehend the craftsmanship involved with the creation of this ring.
 WHERE `entry`=19382;
 
@@ -49542,12 +49542,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=19388;
 
 UPDATE `locales_item` SET
-	`name_loc4`='紧绷的龙皮护肩'	-- Taut Dragonhide Shoulderpads
+	`name_loc4`='紧绷的龙皮护肩',	-- Taut Dragonhide Shoulderpads
 	`description_loc4`='这套护肩似乎是由多种龙类的皮缝合在一起而制成的。它散发着腐烂的气息。'	-- The hides of several different dragon flights appear to be stitched together, comprising the top of the shoulders.
 WHERE `entry`=19389;
 
 UPDATE `locales_item` SET
-	`name_loc4`='紧绷的龙皮手套'	-- Taut Dragonhide Gloves
+	`name_loc4`='紧绷的龙皮手套',	-- Taut Dragonhide Gloves
 	`description_loc4`='当你把手放在这双手套上时，你感觉到了一丝寒意。它们似乎是用幼龙的皮制成的──许多幼龙的皮。'	-- A cold chill passes through your spine as you place your hands on these gloves. They appear to be made from the skin of whelplings - a lot of whelplings.
 WHERE `entry`=19390;
 
@@ -49572,7 +49572,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19395;
 
 UPDATE `locales_item` SET
-	`name_loc4`='紧绷的龙皮腰带'	-- Taut Dragonhide Belt
+	`name_loc4`='紧绷的龙皮腰带',	-- Taut Dragonhide Belt
 	`description_loc4`='这根腰带似乎是由多种龙类的皮缝合在一起而制成的。'	-- The flesh from different dragon flights has been sewn together to make this belt.
 WHERE `entry`=19396;
 
@@ -49625,12 +49625,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=19422;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#23'	-- Sayge's Fortune #23
+	`name_loc4`='塞格的塔罗牌#23',	-- Sayge's Fortune #23
 	`description_loc4`='你的财富在东谷等着你。'	-- Your fortune awaits you in Eastvale.
 WHERE `entry`=19423;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#24'	-- Sayge's Fortune #24
+	`name_loc4`='塞格的塔罗牌#24',	-- Sayge's Fortune #24
 	`description_loc4`='你将在新一段感情中寻获幸福。'	-- Your fortune awaits you inside the Deadmines.
 WHERE `entry`=19424;
 
@@ -49695,7 +49695,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19442;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#25'	-- Sayge's Fortune #25
+	`name_loc4`='塞格的塔罗牌#25',	-- Sayge's Fortune #25
 	`description_loc4`='你的财富在哀嚎洞穴中等着你。'	-- Your fortune awaits you inside Wailing Caverns.
 WHERE `entry`=19443;
 
@@ -49728,22 +49728,22 @@ UPDATE `locales_item` SET
 WHERE `entry`=19450;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#26'	-- Sayge's Fortune #26
+	`name_loc4`='塞格的塔罗牌#26',	-- Sayge's Fortune #26
 	`description_loc4`='时间一文不值，把握时间才是一切。'	-- Time is nothing; timing is everything.
 WHERE `entry`=19451;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#27'	-- Sayge's Fortune #27
+	`name_loc4`='塞格的塔罗牌#27',	-- Sayge's Fortune #27
 	`description_loc4`='你的财富在灰月洞穴外等着你。'	-- Your fortune awaits you outside Palemane Rock.
 WHERE `entry`=19452;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#28'	-- Sayge's Fortune #28
+	`name_loc4`='塞格的塔罗牌#28',	-- Sayge's Fortune #28
 	`description_loc4`='专精生存技能的猎人并不见得就一定能生存下来。'	-- Hunters who specialize in survival are not guaranteed to survive.
 WHERE `entry`=19453;
 
 UPDATE `locales_item` SET
-	`name_loc4`='塞格的塔罗牌#29'	-- Sayge's Fortune #29
+	`name_loc4`='塞格的塔罗牌#29',	-- Sayge's Fortune #29
 	`description_loc4`='当心！'	-- Look out!
 WHERE `entry`=19454;
 
@@ -49752,12 +49752,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=19462;
 
 UPDATE `locales_item` SET
-	`name_loc4`='剥洋葱'	-- Peeling the Onion
+	`name_loc4`='剥洋葱',	-- Peeling the Onion
 	`description_loc4`='论击败雷矛部族的战略 - 作者：德雷克塔尔'	-- The How to Guide On Dismantling the Stormpike - By Drek'Thar
 WHERE `entry`=19483;
 
 UPDATE `locales_item` SET
-	`name_loc4`='霜狼牌洋葱'	-- The Frostwolf Artichoke
+	`name_loc4`='霜狼牌洋葱',	-- The Frostwolf Artichoke
 	`description_loc4`='雷矛的荣耀与骄傲 - 作者：范达尔·雷矛'	-- Tales of Stormpike Glory - By Vanndar Stormpike
 WHERE `entry`=19484;
 
@@ -50306,142 +50306,142 @@ UPDATE `locales_item` SET
 WHERE `entry`=19697;
 
 UPDATE `locales_item` SET
-	`name_loc4`='祖利安硬币'	-- Zulian Coin
+	`name_loc4`='祖利安硬币',	-- Zulian Coin
 	`description_loc4`='来自古拉巴什帝国的较为普通的权力珍宝。'	-- One of the lesser Paragons of Power from the Gurubashi Empire.
 WHERE `entry`=19698;
 
 UPDATE `locales_item` SET
-	`name_loc4`='拉扎什硬币'	-- Razzashi Coin
+	`name_loc4`='拉扎什硬币',	-- Razzashi Coin
 	`description_loc4`='来自古拉巴什帝国的较为普通的权力珍宝。'	-- One of the lesser Paragons of Power from the Gurubashi Empire.
 WHERE `entry`=19699;
 
 UPDATE `locales_item` SET
-	`name_loc4`='哈卡莱硬币'	-- Hakkari Coin
+	`name_loc4`='哈卡莱硬币',	-- Hakkari Coin
 	`description_loc4`='来自古拉巴什帝国的较为普通的权力珍宝。'	-- One of the lesser Paragons of Power from the Gurubashi Empire.
 WHERE `entry`=19700;
 
 UPDATE `locales_item` SET
-	`name_loc4`='古拉巴什硬币'	-- Gurubashi Coin
+	`name_loc4`='古拉巴什硬币',	-- Gurubashi Coin
 	`description_loc4`='来自古拉巴什帝国的较为普通的权力珍宝。'	-- One of the lesser Paragons of Power from the Gurubashi Empire.
 WHERE `entry`=19701;
 
 UPDATE `locales_item` SET
-	`name_loc4`='邪枝硬币'	-- Vilebranch Coin
+	`name_loc4`='邪枝硬币',	-- Vilebranch Coin
 	`description_loc4`='来自古拉巴什帝国的较为普通的权力珍宝。'	-- One of the lesser Paragons of Power from the Gurubashi Empire.
 WHERE `entry`=19702;
 
 UPDATE `locales_item` SET
-	`name_loc4`='枯木硬币'	-- Witherbark Coin
+	`name_loc4`='枯木硬币',	-- Witherbark Coin
 	`description_loc4`='来自古拉巴什帝国的较为普通的权力珍宝。'	-- One of the lesser Paragons of Power from the Gurubashi Empire.
 WHERE `entry`=19703;
 
 UPDATE `locales_item` SET
-	`name_loc4`='沙怒硬币'	-- Sandfury Coin
+	`name_loc4`='沙怒硬币',	-- Sandfury Coin
 	`description_loc4`='来自古拉巴什帝国的较为普通的权力珍宝。'	-- One of the lesser Paragons of Power from the Gurubashi Empire.
 WHERE `entry`=19704;
 
 UPDATE `locales_item` SET
-	`name_loc4`='碎颅硬币'	-- Skullsplitter Coin
+	`name_loc4`='碎颅硬币',	-- Skullsplitter Coin
 	`description_loc4`='来自古拉巴什帝国的较为普通的权力珍宝。'	-- One of the lesser Paragons of Power from the Gurubashi Empire.
 WHERE `entry`=19705;
 
 UPDATE `locales_item` SET
-	`name_loc4`='血顶硬币'	-- Bloodscalp Coin
+	`name_loc4`='血顶硬币',	-- Bloodscalp Coin
 	`description_loc4`='来自古拉巴什帝国的较为普通的权力珍宝。'	-- One of the lesser Paragons of Power from the Gurubashi Empire.
 WHERE `entry`=19706;
 
 UPDATE `locales_item` SET
-	`name_loc4`='红色哈卡莱宝石'	-- Red Hakkari Bijou
+	`name_loc4`='红色哈卡莱宝石',	-- Red Hakkari Bijou
 	`description_loc4`='来自古拉巴什帝国的非常贵重的权力珍宝。'	-- A significant Paragon of Power from the Gurubashi Empire.
 WHERE `entry`=19707;
 
 UPDATE `locales_item` SET
-	`name_loc4`='蓝色哈卡莱宝石'	-- Blue Hakkari Bijou
+	`name_loc4`='蓝色哈卡莱宝石',	-- Blue Hakkari Bijou
 	`description_loc4`='来自古拉巴什帝国的非常贵重的权力珍宝。'	-- A significant Paragon of Power from the Gurubashi Empire.
 WHERE `entry`=19708;
 
 UPDATE `locales_item` SET
-	`name_loc4`='黄色哈卡莱宝石'	-- Yellow Hakkari Bijou
+	`name_loc4`='黄色哈卡莱宝石',	-- Yellow Hakkari Bijou
 	`description_loc4`='来自古拉巴什帝国的非常贵重的权力珍宝。'	-- A significant Paragon of Power from the Gurubashi Empire.
 WHERE `entry`=19709;
 
 UPDATE `locales_item` SET
-	`name_loc4`='橙色哈卡莱宝石'	-- Orange Hakkari Bijou
+	`name_loc4`='橙色哈卡莱宝石',	-- Orange Hakkari Bijou
 	`description_loc4`='来自古拉巴什帝国的非常贵重的权力珍宝。'	-- A significant Paragon of Power from the Gurubashi Empire.
 WHERE `entry`=19710;
 
 UPDATE `locales_item` SET
-	`name_loc4`='绿色哈卡莱宝石'	-- Green Hakkari Bijou
+	`name_loc4`='绿色哈卡莱宝石',	-- Green Hakkari Bijou
 	`description_loc4`='来自古拉巴什帝国的非常贵重的权力珍宝。'	-- A significant Paragon of Power from the Gurubashi Empire.
 WHERE `entry`=19711;
 
 UPDATE `locales_item` SET
-	`name_loc4`='紫色哈卡莱宝石'	-- Purple Hakkari Bijou
+	`name_loc4`='紫色哈卡莱宝石',	-- Purple Hakkari Bijou
 	`description_loc4`='来自古拉巴什帝国的非常贵重的权力珍宝。'	-- A significant Paragon of Power from the Gurubashi Empire.
 WHERE `entry`=19712;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜哈卡莱宝石'	-- Bronze Hakkari Bijou
+	`name_loc4`='青铜哈卡莱宝石',	-- Bronze Hakkari Bijou
 	`description_loc4`='来自古拉巴什帝国的非常贵重的权力珍宝。'	-- A significant Paragon of Power from the Gurubashi Empire.
 WHERE `entry`=19713;
 
 UPDATE `locales_item` SET
-	`name_loc4`='银色哈卡莱宝石'	-- Silver Hakkari Bijou
+	`name_loc4`='银色哈卡莱宝石',	-- Silver Hakkari Bijou
 	`description_loc4`='来自古拉巴什帝国的非常贵重的权力珍宝。'	-- A significant Paragon of Power from the Gurubashi Empire.
 WHERE `entry`=19714;
 
 UPDATE `locales_item` SET
-	`name_loc4`='金色哈卡莱宝石'	-- Gold Hakkari Bijou
+	`name_loc4`='金色哈卡莱宝石',	-- Gold Hakkari Bijou
 	`description_loc4`='来自古拉巴什帝国的非常贵重的权力珍宝。'	-- A significant Paragon of Power from the Gurubashi Empire.
 WHERE `entry`=19715;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始哈卡莱护腕'	-- Primal Hakkari Bindings
+	`name_loc4`='原始哈卡莱护腕',	-- Primal Hakkari Bindings
 	`description_loc4`='来自古拉巴什帝国的贵重的权力珍宝。'	-- A legendary Paragon of Power from the old Gurubashi Empire.
 WHERE `entry`=19716;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始哈卡莱护臂'	-- Primal Hakkari Armsplint
+	`name_loc4`='原始哈卡莱护臂',	-- Primal Hakkari Armsplint
 	`description_loc4`='来自古拉巴什帝国的贵重的权力珍宝。'	-- A legendary Paragon of Power from the old Gurubashi Empire.
 WHERE `entry`=19717;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始哈卡莱直柱'	-- Primal Hakkari Stanchion
+	`name_loc4`='原始哈卡莱直柱',	-- Primal Hakkari Stanchion
 	`description_loc4`='来自古拉巴什帝国的贵重的权力珍宝。'	-- A legendary Paragon of Power from the old Gurubashi Empire.
 WHERE `entry`=19718;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始哈卡莱束带'	-- Primal Hakkari Girdle
+	`name_loc4`='原始哈卡莱束带',	-- Primal Hakkari Girdle
 	`description_loc4`='来自古拉巴什帝国的贵重的权力珍宝。'	-- A legendary Paragon of Power from the old Gurubashi Empire.
 WHERE `entry`=19719;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始哈卡莱腰带'	-- Primal Hakkari Sash
+	`name_loc4`='原始哈卡莱腰带',	-- Primal Hakkari Sash
 	`description_loc4`='来自古拉巴什帝国的贵重的权力珍宝。'	-- A legendary Paragon of Power from the old Gurubashi Empire.
 WHERE `entry`=19720;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始哈卡莱披肩'	-- Primal Hakkari Shawl
+	`name_loc4`='原始哈卡莱披肩',	-- Primal Hakkari Shawl
 	`description_loc4`='来自古拉巴什帝国的贵重的权力珍宝。'	-- A legendary Paragon of Power from the old Gurubashi Empire.
 WHERE `entry`=19721;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始哈卡莱徽章'	-- Primal Hakkari Tabard
+	`name_loc4`='原始哈卡莱徽章',	-- Primal Hakkari Tabard
 	`description_loc4`='来自古拉巴什帝国的贵重的权力珍宝。'	-- A legendary Paragon of Power from the old Gurubashi Empire.
 WHERE `entry`=19722;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始哈卡莱套索'	-- Primal Hakkari Kossack
+	`name_loc4`='原始哈卡莱套索',	-- Primal Hakkari Kossack
 	`description_loc4`='来自古拉巴什帝国的贵重的权力珍宝。'	-- A legendary Paragon of Power from the old Gurubashi Empire.
 WHERE `entry`=19723;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始哈卡莱之盾'	-- Primal Hakkari Aegis
+	`name_loc4`='原始哈卡莱之盾',	-- Primal Hakkari Aegis
 	`description_loc4`='来自古拉巴什帝国的贵重的权力珍宝。'	-- A legendary Paragon of Power from the old Gurubashi Empire.
 WHERE `entry`=19724;
 
 UPDATE `locales_item` SET
-	`name_loc4`='阿拉希资源箱'	-- Arathi Resource Crate
+	`name_loc4`='阿拉希资源箱',	-- Arathi Resource Crate
 	`description_loc4`='在阿拉希盆地获胜的证明'	-- Proof of victory in Arathi Basin
 WHERE `entry`=19725;
 
@@ -50450,7 +50450,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19726;
 
 UPDATE `locales_item` SET
-	`name_loc4`='血镰刀'	-- Blood Scythe
+	`name_loc4`='血镰刀',	-- Blood Scythe
 	`description_loc4`='携带此物的采药者可以从祖尔格拉布的植物那里采集血藤。'	-- Allows an Herbalist to collect Bloodvine from Zul'Gurub Flora when carried.
 WHERE `entry`=19727;
 
@@ -50511,7 +50511,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19774;
 
 UPDATE `locales_item` SET
-	`name_loc4`='密封的蓝袋子'	-- Sealed Azure Bag
+	`name_loc4`='密封的蓝袋子',	-- Sealed Azure Bag
 	`description_loc4`='它被紧紧地封了起来。'	-- Sealed tight.
 WHERE `entry`=19775;
 
@@ -50580,17 +50580,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=19802;
 
 UPDATE `locales_item` SET
-	`name_loc4`='布隆奈尔蓝斑鱼'	-- Brownell's Blue Striped Racer
+	`name_loc4`='布隆奈尔蓝斑鱼',	-- Brownell's Blue Striped Racer
 	`description_loc4`='藏宝海湾的某些家伙可能会感兴趣。'	-- Someone in Booty Bay might be interested.
 WHERE `entry`=19803;
 
 UPDATE `locales_item` SET
-	`name_loc4`='基佛天使鱼'	-- Keefer's Angelfish
+	`name_loc4`='基佛天使鱼',	-- Keefer's Angelfish
 	`description_loc4`='藏宝海湾的某些家伙可能会感兴趣。'	-- Someone in Booty Bay might be interested.
 WHERE `entry`=19805;
 
 UPDATE `locales_item` SET
-	`name_loc4`='迪森皇后鱼'	-- Dezian Queenfish
+	`name_loc4`='迪森皇后鱼',	-- Dezian Queenfish
 	`description_loc4`='藏宝海湾的某些家伙可能会感兴趣。'	-- Someone in Booty Bay might be interested.
 WHERE `entry`=19806;
 
@@ -50607,47 +50607,47 @@ UPDATE `locales_item` SET
 WHERE `entry`=19812;
 
 UPDATE `locales_item` SET
-	`name_loc4`='打孔的巫毒人偶'	-- Punctured Voodoo Doll
+	`name_loc4`='打孔的巫毒人偶',	-- Punctured Voodoo Doll
 	`description_loc4`='这只人偶代表着一个战士。'	-- The doll resembles a warrior.
 WHERE `entry`=19813;
 
 UPDATE `locales_item` SET
-	`name_loc4`='打孔的巫毒人偶'	-- Punctured Voodoo Doll
+	`name_loc4`='打孔的巫毒人偶',	-- Punctured Voodoo Doll
 	`description_loc4`='这只人偶代表着一个盗贼。'	-- The doll resembles a rogue.
 WHERE `entry`=19814;
 
 UPDATE `locales_item` SET
-	`name_loc4`='打孔的巫毒人偶'	-- Punctured Voodoo Doll
+	`name_loc4`='打孔的巫毒人偶',	-- Punctured Voodoo Doll
 	`description_loc4`='这只人偶代表着一个圣骑士。'	-- The doll resembles a paladin.
 WHERE `entry`=19815;
 
 UPDATE `locales_item` SET
-	`name_loc4`='打孔的巫毒人偶'	-- Punctured Voodoo Doll
+	`name_loc4`='打孔的巫毒人偶',	-- Punctured Voodoo Doll
 	`description_loc4`='这只人偶代表着一个猎人。'	-- The doll resembles a hunter.
 WHERE `entry`=19816;
 
 UPDATE `locales_item` SET
-	`name_loc4`='打孔的巫毒人偶'	-- Punctured Voodoo Doll
+	`name_loc4`='打孔的巫毒人偶',	-- Punctured Voodoo Doll
 	`description_loc4`='这只人偶代表着一个萨满祭司。'	-- The doll resembles a shaman.
 WHERE `entry`=19817;
 
 UPDATE `locales_item` SET
-	`name_loc4`='打孔的巫毒人偶'	-- Punctured Voodoo Doll
+	`name_loc4`='打孔的巫毒人偶',	-- Punctured Voodoo Doll
 	`description_loc4`='这只人偶代表着一个法师。'	-- The doll resembles a mage.
 WHERE `entry`=19818;
 
 UPDATE `locales_item` SET
-	`name_loc4`='打孔的巫毒人偶'	-- Punctured Voodoo Doll
+	`name_loc4`='打孔的巫毒人偶',	-- Punctured Voodoo Doll
 	`description_loc4`='这只人偶代表着一个术士。'	-- The doll resembles a warlock.
 WHERE `entry`=19819;
 
 UPDATE `locales_item` SET
-	`name_loc4`='打孔的巫毒人偶'	-- Punctured Voodoo Doll
+	`name_loc4`='打孔的巫毒人偶',	-- Punctured Voodoo Doll
 	`description_loc4`='这只人偶代表着一个牧师。'	-- The doll resembles a priest.
 WHERE `entry`=19820;
 
 UPDATE `locales_item` SET
-	`name_loc4`='打孔的巫毒人偶'	-- Punctured Voodoo Doll
+	`name_loc4`='打孔的巫毒人偶',	-- Punctured Voodoo Doll
 	`description_loc4`='这只人偶代表着一个德鲁伊。'	-- The doll resembles a druid.
 WHERE `entry`=19821;
 
@@ -50808,12 +50808,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=19864;
 
 UPDATE `locales_item` SET
-	`name_loc4`='哈卡莱战刃'	-- Warblade of the Hakkari
+	`name_loc4`='哈卡莱战刃',	-- Warblade of the Hakkari
 	`description_loc4`='铸造者……'	-- Forged in...
 WHERE `entry`=19865;
 
 UPDATE `locales_item` SET
-	`name_loc4`='哈卡莱战刃'	-- Warblade of the Hakkari
+	`name_loc4`='哈卡莱战刃',	-- Warblade of the Hakkari
 	`description_loc4`='沸腾的仇恨之火。'	-- The seething flames of hatred.
 WHERE `entry`=19866;
 
@@ -50946,7 +50946,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19899;
 
 UPDATE `locales_item` SET
-	`name_loc4`='祖利安石斧'	-- Zulian Stone Axe
+	`name_loc4`='祖利安石斧',	-- Zulian Stone Axe
 	`description_loc4`='刻有巨魔族长的徽记。'	-- Bears the mark of Jin.
 WHERE `entry`=19900;
 
@@ -51095,17 +51095,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=19938;
 
 UPDATE `locales_item` SET
-	`name_loc4`='格里雷克之血'	-- Gri'lek's Blood
+	`name_loc4`='格里雷克之血',	-- Gri'lek's Blood
 	`description_loc4`='格里雷克的钢铁之血。'	-- The Iron Blood of Gri'lek.
 WHERE `entry`=19939;
 
 UPDATE `locales_item` SET
-	`name_loc4`='雷纳塔基之牙'	-- Renataki's Tooth
+	`name_loc4`='雷纳塔基之牙',	-- Renataki's Tooth
 	`description_loc4`='雷纳塔基的锋利无比的尖牙。'	-- The Razor Sharp Tooth of Renataki.
 WHERE `entry`=19940;
 
 UPDATE `locales_item` SET
-	`name_loc4`='乌苏雷之鬃'	-- Wushoolay's Mane
+	`name_loc4`='乌苏雷之鬃',	-- Wushoolay's Mane
 	`description_loc4`='乌苏雷的蓬乱的鬃毛。'	-- Wushoolay's Unkempt Mane.
 WHERE `entry`=19941;
 
@@ -51114,12 +51114,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=19942;
 
 UPDATE `locales_item` SET
-	`name_loc4`='极效魔精'	-- Massive Mojo
+	`name_loc4`='极效魔精',	-- Massive Mojo
 	`description_loc4`='比任何巨魔可能持有的魔精都要多。'	-- More Mojo than any one troll should have.
 WHERE `entry`=19943;
 
 UPDATE `locales_item` SET
-	`name_loc4`='纳特·帕格的鱼类终结者'	-- Nat Pagle's Fish Terminator
+	`name_loc4`='纳特·帕格的鱼类终结者',	-- Nat Pagle's Fish Terminator
 	`description_loc4`='上面刻有一行小字：钓鱼是小姑娘的运动 - 纳特·帕格'	-- The inscription reads: Fishin's fer sissies -Nat Pagle
 WHERE `entry`=19944;
 
@@ -51132,7 +51132,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19946;
 
 UPDATE `locales_item` SET
-	`name_loc4`='纳特·帕格的卷尺'	-- Nat Pagle's Broken Reel
+	`name_loc4`='纳特·帕格的卷尺',	-- Nat Pagle's Broken Reel
 	`description_loc4`='上面刻有一行小字：放长线钓大鱼必备之物。'	-- The inscription reads: Fer really long castin'.
 WHERE `entry`=19947;
 
@@ -51185,7 +51185,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19959;
 
 UPDATE `locales_item` SET
-	`name_loc4`='蜂蜜晶体'	-- Crystalized Honey
+	`name_loc4`='蜂蜜晶体',	-- Crystalized Honey
 	`description_loc4`='杀人蜂的无价之宝。'	-- The crown jewel of killer bees.
 WHERE `entry`=19960;
 
@@ -51222,7 +51222,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19969;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥金钓鱼竿'	-- Arcanite Fishing Pole
+	`name_loc4`='奥金钓鱼竿',	-- Arcanite Fishing Pole
 	`description_loc4`='看起来纳特·帕格本人曾经使用过它。'	-- It looks like Nat Pagle himself used this.
 WHERE `entry`=19970;
 
@@ -51275,7 +51275,7 @@ WHERE `entry`=19984;
 -- WHERE `entry`=19988;
 
 UPDATE `locales_item` SET
-	`name_loc4`='祝福珠串'	-- Blessed Prayer Beads
+	`name_loc4`='祝福珠串',	-- Blessed Prayer Beads
 	`description_loc4`='患难之交最可贵。'	-- A friend in need is a friend without beads.
 WHERE `entry`=19990;
 
@@ -51332,7 +51332,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20004;
 
 UPDATE `locales_item` SET
-	`name_loc4`='希望之环'	-- Circle of Hope
+	`name_loc4`='希望之环',	-- Circle of Hope
 	`description_loc4`='由纯洁的圣光锻造而成。'	-- Forged from pure light.
 WHERE `entry`=20006;
 
@@ -51345,12 +51345,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=20008;
 
 UPDATE `locales_item` SET
-	`name_loc4`='为圣光而战！'	-- For the Light!
+	`name_loc4`='为圣光而战！',	-- For the Light!
 	`description_loc4`='由金妮·洛辛格撰写……纪念光明使者乌瑟尔'	-- by Jennre Loresinger... dedicated to Uther Lightbringer
 WHERE `entry`=20009;
 
 UPDATE `locales_item` SET
-	`name_loc4`='部落的地狱咆哮'	-- The Horde's Hellscream
+	`name_loc4`='部落的地狱咆哮',	-- The Horde's Hellscream
 	`description_loc4`='由托尔文·战歌撰写……纪念英雄格罗姆·地狱咆哮'	-- by Tolven Warsong... dedicated to Grom Hellscream
 WHERE `entry`=20010;
 
@@ -51399,7 +51399,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20022;
 
 UPDATE `locales_item` SET
-	`name_loc4`='密文碎片'	-- Encoded Fragment
+	`name_loc4`='密文碎片',	-- Encoded Fragment
 	`description_loc4`='上面的文字是用一种魔法语言写成的。'	-- The text is written in an arcane language.
 WHERE `entry`=20023;
 
@@ -51420,7 +51420,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20029;
 
 UPDATE `locales_item` SET
-	`name_loc4`='玩具石'	-- Pet Rock
+	`name_loc4`='玩具石',	-- Pet Rock
 	`description_loc4`='它看起来很快乐。'	-- It looks happy.
 WHERE `entry`=20030;
 
@@ -51441,17 +51441,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=20034;
 
 UPDATE `locales_item` SET
-	`name_loc4`='冰川之矛'	-- Glacial Spike
+	`name_loc4`='冰川之矛',	-- Glacial Spike
 	`description_loc4`='邪恶的符文在利刃上浮现。'	-- Diabolical runes adorn the blade.
 WHERE `entry`=20035;
 
 UPDATE `locales_item` SET
-	`name_loc4`='火焰宝石'	-- Fire Ruby
+	`name_loc4`='火焰宝石',	-- Fire Ruby
 	`description_loc4`='不可预知性会带来胜利，也会带来死亡。'	-- Unpredictability leads to both victory and death.
 WHERE `entry`=20036;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥术水晶坠饰'	-- Arcane Crystal Pendant
+	`name_loc4`='奥术水晶坠饰',	-- Arcane Crystal Pendant
 	`description_loc4`='奥术水晶的意义是为法师服务。'	-- Arcane crystals are best utilized for the purposes of a mage.
 WHERE `entry`=20037;
 
@@ -51620,22 +51620,22 @@ UPDATE `locales_item` SET
 WHERE `entry`=20078;
 
 UPDATE `locales_item` SET
-	`name_loc4`='赞扎之魂'	-- Spirit of Zanza
+	`name_loc4`='赞扎之魂',	-- Spirit of Zanza
 	`description_loc4`='经过了赞扎的祝福！'	-- Blessed with the mojo of Zanza!
 WHERE `entry`=20079;
 
 UPDATE `locales_item` SET
-	`name_loc4`='赞扎之光'	-- Sheen of Zanza
+	`name_loc4`='赞扎之光',	-- Sheen of Zanza
 	`description_loc4`='经过了赞扎的祝福！'	-- Blessed with the mojo of Zanza!
 WHERE `entry`=20080;
 
 UPDATE `locales_item` SET
-	`name_loc4`='赞扎之速'	-- Swiftness of Zanza
+	`name_loc4`='赞扎之速',	-- Swiftness of Zanza
 	`description_loc4`='经过了赞扎的祝福！'	-- Blessed with the mojo of Zanza!
 WHERE `entry`=20081;
 
 UPDATE `locales_item` SET
-	`name_loc4`='悲哀之杖'	-- Woestave
+	`name_loc4`='悲哀之杖',	-- Woestave
 	`description_loc4`='为敌人默哀。'	-- Woe to those who oppose.
 WHERE `entry`=20082;
 
@@ -51800,7 +51800,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20129;
 
 UPDATE `locales_item` SET
-	`name_loc4`='钻石水瓶'	-- Diamond Flask
+	`name_loc4`='钻石水瓶',	-- Diamond Flask
 	`description_loc4`='采自岩石。'	-- Served on the rocks.
 WHERE `entry`=20130;
 
@@ -52161,7 +52161,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20255;
 
 UPDATE `locales_item` SET
-	`name_loc4`='战歌峡谷奉献绶带'	-- Warsong Gulch Ribbon of Sacrifice
+	`name_loc4`='战歌峡谷奉献绶带',	-- Warsong Gulch Ribbon of Sacrifice
 	`description_loc4`='亚军'	-- Second Place
 WHERE `entry`=20256;
 
@@ -52266,7 +52266,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20382;
 
 UPDATE `locales_item` SET
-	`name_loc4`='勒什雷尔的头颅'	-- Head of the Broodlord Lashlayer
+	`name_loc4`='勒什雷尔的头颅',	-- Head of the Broodlord Lashlayer
 	`description_loc4`='只有一位真正的英雄才能拿起这颗头颅……'	-- Only ONE May Rise... (and consequently, only ONE may loot this head)
 WHERE `entry`=20383;
 
@@ -52279,7 +52279,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20385;
 
 UPDATE `locales_item` SET
-	`name_loc4`='亡灵臭气弹'	-- Forsaken Stink Bomb Cluster
+	`name_loc4`='亡灵臭气弹',	-- Forsaken Stink Bomb Cluster
 	`description_loc4`='好臭啊……'	-- Filled with a potent funk!
 WHERE `entry`=20387;
 
@@ -52304,7 +52304,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20392;
 
 UPDATE `locales_item` SET
-	`name_loc4`='糖果包'	-- Treat Bag
+	`name_loc4`='糖果包',	-- Treat Bag
 	`description_loc4`='要赶快打开你的糖果包，因为它会在你退出之后消失。'	-- Open your bag quickly as it will fade on logout.
 WHERE `entry`=20393;
 
@@ -52341,17 +52341,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=20401;
 
 UPDATE `locales_item` SET
-	`name_loc4`='诺兹多姆的使者'	-- Agent of Nozdormu
+	`name_loc4`='诺兹多姆的使者',	-- Agent of Nozdormu
 	`description_loc4`='作为诺兹多姆的代言人，只有你可以从异种虫类的尸体上收集它们的甲壳碎片。请保持你的背包中有足够的空间。'	-- As an Agent of Nozdormu, only you may take the Silithid Carapace Fragments from the corpses of the silithid. Keep your badge in your pack at all times.
 WHERE `entry`=20402;
 
 UPDATE `locales_item` SET
-	`name_loc4`='诺兹多姆的代理人'	-- Proxy of Nozdormu
+	`name_loc4`='诺兹多姆的代理人',	-- Proxy of Nozdormu
 	`description_loc4`='它的表面上印有青铜龙的徽记'	-- Bears the Seal of the Bronze Flight
 WHERE `entry`=20403;
 
 UPDATE `locales_item` SET
-	`name_loc4`='暮光密文信'	-- Encrypted Twilight Text
+	`name_loc4`='暮光密文信',	-- Encrypted Twilight Text
 	`description_loc4`='这些语句完全无法理解'	-- These words are unintelligible
 WHERE `entry`=20404;
 
@@ -52396,7 +52396,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20414;
 
 UPDATE `locales_item` SET
-	`name_loc4`='流沙之战'	-- The War of the Shifting Sands
+	`name_loc4`='流沙之战',	-- The War of the Shifting Sands
 	`description_loc4`='这本书似乎是刚刚写成的。'	-- This tome appears freshly inked.
 WHERE `entry`=20415;
 
@@ -52533,7 +52533,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20452;
 
 UPDATE `locales_item` SET
-	`name_loc4`='地质学家的抄录工具包'	-- Geologist's Transcription Kit
+	`name_loc4`='地质学家的抄录工具包',	-- Geologist's Transcription Kit
 	`description_loc4`='用于雕文水晶。'	-- For use with Glyphed Crystals.
 WHERE `entry`=20453;
 
@@ -52638,7 +52638,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20482;
 
 UPDATE `locales_item` SET
-	`name_loc4`='被污染的奥术薄片'	-- Tainted Arcane Sliver
+	`name_loc4`='被污染的奥术薄片',	-- Tainted Arcane Sliver
 	`description_loc4`='这块奥术薄片发出了怪异的光芒。'	-- This arcane sliver glows with an eerie luster.
 WHERE `entry`=20483;
 
@@ -52651,42 +52651,42 @@ UPDATE `locales_item` SET
 WHERE `entry`=20488;
 
 UPDATE `locales_item` SET
-	`name_loc4`='铁炉堡薄荷糖'	-- Ironforge Mint
+	`name_loc4`='铁炉堡薄荷糖',	-- Ironforge Mint
 	`description_loc4`='矮人的万圣节糖果。'	-- A classic Hallow's End treat of the Dwarves.
 WHERE `entry`=20490;
 
 UPDATE `locales_item` SET
-	`name_loc4`='幽暗城薄荷糖'	-- Undercity Mint
+	`name_loc4`='幽暗城薄荷糖',	-- Undercity Mint
 	`description_loc4`='被遗忘者的万圣节糖果。'	-- A classic Hallow's End treat of the Forsaken.
 WHERE `entry`=20491;
 
 UPDATE `locales_item` SET
-	`name_loc4`='暴风城杏仁糖'	-- Stormwind Nougat
+	`name_loc4`='暴风城杏仁糖',	-- Stormwind Nougat
 	`description_loc4`='人类的万圣节糖果。'	-- A classic Hallow's End treat of the Humans.
 WHERE `entry`=20492;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥格瑞玛软糖'	-- Orgrimmar Nougat
+	`name_loc4`='奥格瑞玛软糖',	-- Orgrimmar Nougat
 	`description_loc4`='兽人的万圣节糖果。'	-- An Orgrimmar classic Hallow's End treat.
 WHERE `entry`=20493;
 
 UPDATE `locales_item` SET
-	`name_loc4`='诺莫瑞根橡皮糖'	-- Gnomeregan Gumdrop
+	`name_loc4`='诺莫瑞根橡皮糖',	-- Gnomeregan Gumdrop
 	`description_loc4`='侏儒的万圣节糖果。'	-- A classic Hallow's End treat of the Gnomes.
 WHERE `entry`=20494;
 
 UPDATE `locales_item` SET
-	`name_loc4`='暗矛橡皮糖'	-- Darkspear Gumdrop
+	`name_loc4`='暗矛橡皮糖',	-- Darkspear Gumdrop
 	`description_loc4`='巨魔的万圣节糖果。'	-- A classic Hallow's End treat of the Darkspear tribe.
 WHERE `entry`=20495;
 
 UPDATE `locales_item` SET
-	`name_loc4`='达纳苏斯水果糖'	-- Darnassus Marzipan
+	`name_loc4`='达纳苏斯水果糖',	-- Darnassus Marzipan
 	`description_loc4`='暗夜精灵的万圣节糖果。'	-- A classic Hallow's End treat of the Night Elves.
 WHERE `entry`=20496;
 
 UPDATE `locales_item` SET
-	`name_loc4`='雷霆崖奶糖'	-- Thunder Bluff Marzipan
+	`name_loc4`='雷霆崖奶糖',	-- Thunder Bluff Marzipan
 	`description_loc4`='牛头人的万圣节糖果。'	-- A classic Hallow's End treat of the Tauren.
 WHERE `entry`=20497;
 
@@ -52759,7 +52759,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20515;
 
 UPDATE `locales_item` SET
-	`name_loc4`='光滑的苹果'	-- Bobbing Apple
+	`name_loc4`='光滑的苹果',	-- Bobbing Apple
 	`description_loc4`='又脆又甜的苹果，而且似乎没有虫蛀。'	-- Crisp, delicious and hopefully worm-free
 WHERE `entry`=20516;
 
@@ -52812,7 +52812,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20533;
 
 UPDATE `locales_item` SET
-	`name_loc4`='深渊碎片'	-- Abyss Shard
+	`name_loc4`='深渊碎片',	-- Abyss Shard
 	`description_loc4`='黑暗的力量被禁锢在黑色的宝石中。'	-- Dark rituals are trapped in dark gems.
 WHERE `entry`=20534;
 
@@ -52841,7 +52841,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20540;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破译的暮光文件'	-- Decoded Twilight Text
+	`name_loc4`='破译的暮光文件',	-- Decoded Twilight Text
 	`description_loc4`='一篇被破译的《真正的信徒》上的文章。'	-- A decoded True Believer article
 WHERE `entry`=20541;
 
@@ -52858,7 +52858,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20544;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破译的暮光文件'	-- Decoded Twilight Text
+	`name_loc4`='破译的暮光文件',	-- Decoded Twilight Text
 	`description_loc4`='一篇被破译的《真正的信徒》上的文章。'	-- A decoded True Believer article
 WHERE `entry`=20545;
 
@@ -52887,7 +52887,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20551;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破译的暮光文件'	-- Decoded Twilight Text
+	`name_loc4`='破译的暮光文件',	-- Decoded Twilight Text
 	`description_loc4`='一篇被破译的《真正的信徒》上的文章。'	-- A decoded True Believer article
 WHERE `entry`=20552;
 
@@ -52912,17 +52912,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=20557;
 
 UPDATE `locales_item` SET
-	`name_loc4`='战歌峡谷荣誉奖章'	-- Warsong Gulch Mark of Honor
+	`name_loc4`='战歌峡谷荣誉奖章',	-- Warsong Gulch Mark of Honor
 	`description_loc4`='为表彰在战歌峡谷中作战而颁发的奖章'	-- Medal awarded for fighting in Warsong Gulch
 WHERE `entry`=20558;
 
 UPDATE `locales_item` SET
-	`name_loc4`='阿拉希盆地荣誉奖章'	-- Arathi Basin Mark of Honor
+	`name_loc4`='阿拉希盆地荣誉奖章',	-- Arathi Basin Mark of Honor
 	`description_loc4`='为表彰在阿拉希盆地中作战而颁发的奖章'	-- Medal awarded for fighting in Arathi Basin
 WHERE `entry`=20559;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奥特兰克山谷荣誉奖章'	-- Alterac Valley Mark of Honor
+	`name_loc4`='奥特兰克山谷荣誉奖章',	-- Alterac Valley Mark of Honor
 	`description_loc4`='为表彰在奥特兰克山谷中作战而颁发的奖章'	-- Medal awarded for fighting in Alterac Valley
 WHERE `entry`=20560;
 
@@ -53035,12 +53035,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=20603;
 
 UPDATE `locales_item` SET
-	`name_loc4`='臭气弹清洁者'	-- Stink Bomb Cleaner
+	`name_loc4`='臭气弹清洁者',	-- Stink Bomb Cleaner
 	`description_loc4`='以松树的芬芳抵御被遗忘者的臭味！'	-- Fights the funk of the Forsaken with the power of pine!
 WHERE `entry`=20604;
 
 UPDATE `locales_item` SET
-	`name_loc4`='烂鸡蛋'	-- Rotten Eggs
+	`name_loc4`='烂鸡蛋',	-- Rotten Eggs
 	`description_loc4`='一只臭蛋就可以彻底毁掉一只酒桶……'	-- Suitable for ruining the contents of a keg...
 WHERE `entry`=20605;
 
@@ -53193,7 +53193,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=20643;
 
 UPDATE `locales_item` SET
-	`name_loc4`='梦魇包裹的物品'	-- Nightmare Engulfed Object
+	`name_loc4`='梦魇包裹的物品',	-- Nightmare Engulfed Object
 	`description_loc4`='一件被包裹在梦魇中的未知物品。'	-- An unknown object shrouded in nightmares.
 WHERE `entry`=20644;
 
@@ -53318,22 +53318,22 @@ UPDATE `locales_item` SET
 WHERE `entry`=20675;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破译的暮光文件'	-- Decoded Twilight Text
+	`name_loc4`='破译的暮光文件',	-- Decoded Twilight Text
 	`description_loc4`='一篇被破译的《真正的信徒》上的文章。'	-- A decoded True Believer article
 WHERE `entry`=20676;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破译的暮光文件'	-- Decoded Twilight Text
+	`name_loc4`='破译的暮光文件',	-- Decoded Twilight Text
 	`description_loc4`='一篇被破译的《真正的信徒》上的文章。'	-- A decoded True Believer article
 WHERE `entry`=20677;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破译的暮光文件'	-- Decoded Twilight Text
+	`name_loc4`='破译的暮光文件',	-- Decoded Twilight Text
 	`description_loc4`='一篇被破译的《真正的信徒》上的文章。'	-- A decoded True Believer article
 WHERE `entry`=20678;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破译的暮光文件'	-- Decoded Twilight Text
+	`name_loc4`='破译的暮光文件',	-- Decoded Twilight Text
 	`description_loc4`='一篇被破译的《真正的信徒》上的文章。'	-- A decoded True Believer article
 WHERE `entry`=20679;
 
@@ -53570,12 +53570,12 @@ WHERE `entry`=20736;
 -- WHERE `entry`=20738;
 
 UPDATE `locales_item` SET
-	`name_loc4`='死木仪祭图腾'	-- Deadwood Ritual Totem
+	`name_loc4`='死木仪祭图腾',	-- Deadwood Ritual Totem
 	`description_loc4`='这根图腾充满了堕落的气息。'	-- The totem is thick with the taint of corruption.
 WHERE `entry`=20741;
 
 UPDATE `locales_item` SET
-	`name_loc4`='冬泉仪祭图腾'	-- Winterfall Ritual Totem
+	`name_loc4`='冬泉仪祭图腾',	-- Winterfall Ritual Totem
 	`description_loc4`='这根图腾充满了堕落的气息。'	-- The totem is thick with the taint of corruption.
 WHERE `entry`=20742;
 
@@ -53916,7 +53916,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21025;
 
 UPDATE `locales_item` SET
-	`name_loc4`='拉克麦拉的肉'	-- Lakmaeran's Carcass
+	`name_loc4`='拉克麦拉的肉',	-- Lakmaeran's Carcass
 	`description_loc4`='它看起来确实像是一只巨大的鸡。'	-- It really does look like a big chicken.
 WHERE `entry`=21027;
 
@@ -53945,7 +53945,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21033;
 
 UPDATE `locales_item` SET
-	`name_loc4`='粗糙的地图'	-- Crude Map
+	`name_loc4`='粗糙的地图',	-- Crude Map
 	`description_loc4`='一张标记者敲诈者所规定的降落地点的地图。'	-- A map indicating where the crooks expect the drop-off to be made.
 WHERE `entry`=21037;
 
@@ -53954,7 +53954,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21038;
 
 UPDATE `locales_item` SET
-	`name_loc4`='纳瑞安的头巾'	-- Narain's Turban
+	`name_loc4`='纳瑞安的头巾',	-- Narain's Turban
 	`description_loc4`='和纳瑞安的长袍配合使用，把你自己打扮成纳瑞安的样子！'	-- Use with Narain's Robe to disguise yourself as Narain!
 WHERE `entry`=21039;
 
@@ -53983,47 +53983,47 @@ UPDATE `locales_item` SET
 WHERE `entry`=21099;
 
 UPDATE `locales_item` SET
-	`name_loc4`='先祖硬币'	-- Coin of Ancestry
+	`name_loc4`='先祖硬币',	-- Coin of Ancestry
 	`description_loc4`='象征着对祖先的尊敬。'	-- A symbol of honor and respect for one's ancestry.
 WHERE `entry`=21100;
 
 UPDATE `locales_item` SET
-	`name_loc4`='龙语傻瓜教程'	-- Draconic for Dummies
+	`name_loc4`='龙语傻瓜教程',	-- Draconic for Dummies
 	`description_loc4`='第一章'	-- Chapter I
 WHERE `entry`=21103;
 
 UPDATE `locales_item` SET
-	`name_loc4`='龙语傻瓜教程'	-- Draconic for Dummies
+	`name_loc4`='龙语傻瓜教程',	-- Draconic for Dummies
 	`description_loc4`='第二章'	-- Chapter II
 WHERE `entry`=21104;
 
 UPDATE `locales_item` SET
-	`name_loc4`='龙语傻瓜教程'	-- Draconic for Dummies
+	`name_loc4`='龙语傻瓜教程',	-- Draconic for Dummies
 	`description_loc4`='第三章'	-- Chapter III
 WHERE `entry`=21105;
 
 UPDATE `locales_item` SET
-	`name_loc4`='龙语傻瓜教程'	-- Draconic for Dummies
+	`name_loc4`='龙语傻瓜教程',	-- Draconic for Dummies
 	`description_loc4`='第四章'	-- Chapter IV
 WHERE `entry`=21106;
 
 UPDATE `locales_item` SET
-	`name_loc4`='龙语傻瓜教程'	-- Draconic for Dummies
+	`name_loc4`='龙语傻瓜教程',	-- Draconic for Dummies
 	`description_loc4`='第五章'	-- Chapter V
 WHERE `entry`=21107;
 
 UPDATE `locales_item` SET
-	`name_loc4`='龙语傻瓜教程'	-- Draconic for Dummies
+	`name_loc4`='龙语傻瓜教程',	-- Draconic for Dummies
 	`description_loc4`='第六章'	-- Chapter VI
 WHERE `entry`=21108;
 
 UPDATE `locales_item` SET
-	`name_loc4`='龙语傻瓜教程'	-- Draconic for Dummies
+	`name_loc4`='龙语傻瓜教程',	-- Draconic for Dummies
 	`description_loc4`='第七章'	-- Chapter VII
 WHERE `entry`=21109;
 
 UPDATE `locales_item` SET
-	`name_loc4`='龙语傻瓜教程'	-- Draconic for Dummies
+	`name_loc4`='龙语傻瓜教程',	-- Draconic for Dummies
 	`description_loc4`='第八章'	-- Chapter VIII
 WHERE `entry`=21110;
 
@@ -54140,7 +54140,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21143;
 
 UPDATE `locales_item` SET
-	`name_loc4`='恶魔召唤火炬'	-- Demon Summoning Torch
+	`name_loc4`='恶魔召唤火炬',	-- Demon Summoning Torch
 	`description_loc4`='由木喉熊怪制造的火炬，用来召唤堕落的恶魔。'	-- A shamanistic device fashioned by the Timbermaw to summon forth corrupting demons.
 WHERE `entry`=21144;
 
@@ -54149,22 +54149,22 @@ UPDATE `locales_item` SET
 WHERE `entry`=21145;
 
 UPDATE `locales_item` SET
-	`name_loc4`='腐蚀梦魇的碎片'	-- Fragment of the Nightmare's Corruption
+	`name_loc4`='腐蚀梦魇的碎片',	-- Fragment of the Nightmare's Corruption
 	`description_loc4`='- 辛特兰'	-- -Hinterlands
 WHERE `entry`=21146;
 
 UPDATE `locales_item` SET
-	`name_loc4`='腐蚀梦魇的碎片'	-- Fragment of the Nightmare's Corruption
+	`name_loc4`='腐蚀梦魇的碎片',	-- Fragment of the Nightmare's Corruption
 	`description_loc4`='- 灰谷'	-- -Ashenvale
 WHERE `entry`=21147;
 
 UPDATE `locales_item` SET
-	`name_loc4`='腐蚀梦魇的碎片'	-- Fragment of the Nightmare's Corruption
+	`name_loc4`='腐蚀梦魇的碎片',	-- Fragment of the Nightmare's Corruption
 	`description_loc4`='- 菲拉斯'	-- -Feralas
 WHERE `entry`=21148;
 
 UPDATE `locales_item` SET
-	`name_loc4`='腐蚀梦魇的碎片'	-- Fragment of the Nightmare's Corruption
+	`name_loc4`='腐蚀梦魇的碎片',	-- Fragment of the Nightmare's Corruption
 	`description_loc4`='- 暮色森林'	-- -Duskwood
 WHERE `entry`=21149;
 
@@ -54185,7 +54185,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21154;
 
 UPDATE `locales_item` SET
-	`name_loc4`='木喉和平契约'	-- Timbermaw Offering of Peace
+	`name_loc4`='木喉和平契约',	-- Timbermaw Offering of Peace
 	`description_loc4`='这件用真银铸成的物品是熊怪的和平契约，上面附着一封信。'	-- This truesilver-wrought item is a furbolg symbol of peace.  A sealed message is attached to it.
 WHERE `entry`=21155;
 
@@ -54310,82 +54310,82 @@ WHERE `entry`=21191;
 -- WHERE `entry`=21192;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='保护者之路'	-- The Path of the Protector
 WHERE `entry`=21196;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='保护者之路'	-- The Path of the Protector
 WHERE `entry`=21197;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='保护者之路'	-- The Path of the Protector
 WHERE `entry`=21198;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='保护者之路'	-- The Path of the Protector
 WHERE `entry`=21199;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='保护者之路'	-- The Path of the Protector
 WHERE `entry`=21200;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='征服者之路'	-- The Path of the Conqueror
 WHERE `entry`=21201;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='征服者之路'	-- The Path of the Conqueror
 WHERE `entry`=21202;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='征服者之路'	-- The Path of the Conqueror
 WHERE `entry`=21203;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='征服者之路'	-- The Path of the Conqueror
 WHERE `entry`=21204;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='征服者之路'	-- The Path of the Conqueror
 WHERE `entry`=21205;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='祈求者之路'	-- The Path of the Invoker
 WHERE `entry`=21206;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='祈求者之路'	-- The Path of the Invoker
 WHERE `entry`=21207;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='祈求者之路'	-- The Path of the Invoker
 WHERE `entry`=21208;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='祈求者之路'	-- The Path of the Invoker
 WHERE `entry`=21209;
 
 UPDATE `locales_item` SET
-	`name_loc4`='青铜龙军团的徽记之戒'	-- Signet Ring of the Bronze Dragonflight
+	`name_loc4`='青铜龙军团的徽记之戒',	-- Signet Ring of the Bronze Dragonflight
 	`description_loc4`='祈求者之路'	-- The Path of the Invoker
 WHERE `entry`=21210;
 
 UPDATE `locales_item` SET
-	`name_loc4`='一包驯鹿之尘'	-- Pouch of Reindeer Dust
+	`name_loc4`='一包驯鹿之尘',	-- Pouch of Reindeer Dust
 	`description_loc4`='把这种奇异的尘埃洒在一头驯鹿身上，就可以让它获得自由。好吧，至少地精是这么说的……'	-- This strange dust should allow Metzen to be freed when sprinkled on him.
 WHERE `entry`=21211;
 
@@ -54402,7 +54402,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21214;
 
 UPDATE `locales_item` SET
-	`name_loc4`='格拉库的肉松蛋糕'	-- Graccu's Mince Meat Fruitcake
+	`name_loc4`='格拉库的肉松蛋糕',	-- Graccu's Mince Meat Fruitcake
 	`description_loc4`='加入了格拉库的密制香料！保质期很长很长……'	-- Preserved with Graccu's special spices!  It'll be a very long time before these turn bad...
 WHERE `entry`=21215;
 
@@ -54467,7 +54467,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21230;
 
 UPDATE `locales_item` SET
-	`name_loc4`='其拉帝王武器'	-- Imperial Qiraji Armaments
+	`name_loc4`='其拉帝王武器',	-- Imperial Qiraji Armaments
 	`description_loc4`='其拉虫人贵族的武器，由其拉步兵使用。'	-- Ceremonial Armaments of the Qiraji Lords. Used by Qiraji infantry.
 WHERE `entry`=21232;
 
@@ -54476,7 +54476,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21235;
 
 UPDATE `locales_item` SET
-	`name_loc4`='其拉帝王徽记'	-- Imperial Qiraji Regalia
+	`name_loc4`='其拉帝王徽记',	-- Imperial Qiraji Regalia
 	`description_loc4`='其拉虫人贵族的徽记，由其拉施法者使用。'	-- Regalia of Qiraji Nobility. Used by Qiraji spell casters.
 WHERE `entry`=21237;
 
@@ -54485,7 +54485,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21241;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神圣其拉战斧'	-- Blessed Qiraji War Axe
+	`name_loc4`='神圣其拉战斧',	-- Blessed Qiraji War Axe
 	`description_loc4`='这件武器经过了源质的强化。'	-- The weapon is infused and reinforced with Elementium.
 WHERE `entry`=21242;
 
@@ -54494,7 +54494,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21243;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神圣其拉短剑'	-- Blessed Qiraji Pugio
+	`name_loc4`='神圣其拉短剑',	-- Blessed Qiraji Pugio
 	`description_loc4`='这件武器经过了源质的强化。'	-- The weapon is infused and reinforced with Elementium.
 WHERE `entry`=21244;
 
@@ -54527,7 +54527,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21253;
 
 UPDATE `locales_item` SET
-	`name_loc4`='冬幕节点心'	-- Winter Veil Cookie
+	`name_loc4`='冬幕节点心',	-- Winter Veil Cookie
 	`description_loc4`='新鲜出炉'	-- Fresh from the oven
 WHERE `entry`=21254;
 
@@ -54584,12 +54584,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=21267;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神圣其拉战锤'	-- Blessed Qiraji War Hammer
+	`name_loc4`='神圣其拉战锤',	-- Blessed Qiraji War Hammer
 	`description_loc4`='这件武器经过了源质的强化。'	-- The weapon is infused and reinforced with Elementium.
 WHERE `entry`=21268;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神圣其拉壁垒'	-- Blessed Qiraji Bulwark
+	`name_loc4`='神圣其拉壁垒',	-- Blessed Qiraji Bulwark
 	`description_loc4`='这面盾牌经过了源质的强化。'	-- The shield is infused and reinforced with Elementium.
 WHERE `entry`=21269;
 
@@ -54602,17 +54602,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=21271;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神圣其拉火枪'	-- Blessed Qiraji Musket
+	`name_loc4`='神圣其拉火枪',	-- Blessed Qiraji Musket
 	`description_loc4`='这件武器经过了源质的强化。'	-- The weapon is infused and reinforced with Elementium.
 WHERE `entry`=21272;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神圣其拉侍僧法杖'	-- Blessed Qiraji Acolyte Staff
+	`name_loc4`='神圣其拉侍僧法杖',	-- Blessed Qiraji Acolyte Staff
 	`description_loc4`='这件武器经过了源质的强化。'	-- The weapon is infused and reinforced with Elementium.
 WHERE `entry`=21273;
 
 UPDATE `locales_item` SET
-	`name_loc4`='神圣其拉占卜法杖'	-- Blessed Qiraji Augur Staff
+	`name_loc4`='神圣其拉占卜法杖',	-- Blessed Qiraji Augur Staff
 	`description_loc4`='这件武器经过了源质的强化。'	-- The weapon is infused and reinforced with Elementium.
 WHERE `entry`=21275;
 
@@ -54761,12 +54761,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=21312;
 
 UPDATE `locales_item` SET
-	`name_loc4`='梅森的信件和便笺'	-- Metzen's Letters and Notes
+	`name_loc4`='梅森的信件和便笺',	-- Metzen's Letters and Notes
 	`description_loc4`='一堆关于驯鹿梅森的去向的线索，外加两封勒索信。'	-- A collection of information related to the whereabouts of Metzen the reindeer, including both ransom notes.
 WHERE `entry`=21314;
 
 UPDATE `locales_item` SET
-	`name_loc4`='烟林背包'	-- Smokywood Satchel
+	`name_loc4`='烟林背包',	-- Smokywood Satchel
 	`description_loc4`='里面的东西可以拯救驯鹿梅森！'	-- Inside are the things you will need to rescue Metzen the Reindeer!
 WHERE `entry`=21315;
 
@@ -55007,7 +55007,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21376;
 
 UPDATE `locales_item` SET
-	`name_loc4`='死木头饰羽毛'	-- Deadwood Headdress Feather
+	`name_loc4`='死木头饰羽毛',	-- Deadwood Headdress Feather
 	`description_loc4`='你可以收集这些东西，换取木喉熊怪的信任。'	-- These may be gathered for the Timbermaw furbolgs to earn their trust.
 WHERE `entry`=21377;
 
@@ -55032,7 +55032,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21382;
 
 UPDATE `locales_item` SET
-	`name_loc4`='冬泉灵魂珠串'	-- Winterfall Spirit Beads
+	`name_loc4`='冬泉灵魂珠串',	-- Winterfall Spirit Beads
 	`description_loc4`='你可以收集这些东西，换取木喉熊怪的信任。'	-- These may be gathered for the Timbermaw furbolgs to earn their trust.
 WHERE `entry`=21383;
 
@@ -55177,12 +55177,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=21418;
 
 UPDATE `locales_item` SET
-	`name_loc4`='联盟荣誉徽章'	-- Alliance Commendation Signet
+	`name_loc4`='联盟荣誉徽章',	-- Alliance Commendation Signet
 	`description_loc4`='在某个联盟嘉奖官处用徽章换取声望。'	-- Seek out an Alliance Commendation Officer to exchange signets for recognition.
 WHERE `entry`=21436;
 
 UPDATE `locales_item` SET
-	`name_loc4`='部落荣誉徽章'	-- Horde Commendation Signet
+	`name_loc4`='部落荣誉徽章',	-- Horde Commendation Signet
 	`description_loc4`='在某个部落嘉奖官处用徽章换取声望。'	-- Seek out an Horde Commendation Officer to exchange signets for recognition.
 WHERE `entry`=21438;
 
@@ -55331,7 +55331,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21487;
 
 UPDATE `locales_item` SET
-	`name_loc4`='虫刺塑像'	-- Fetish of Chitinous Spikes
+	`name_loc4`='虫刺塑像',	-- Fetish of Chitinous Spikes
 	`description_loc4`='啊！'	-- Ouch
 WHERE `entry`=21488;
 
@@ -55372,7 +55372,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21497;
 
 UPDATE `locales_item` SET
-	`name_loc4`='其拉祭祀匕首'	-- Qiraji Sacrificial Dagger
+	`name_loc4`='其拉祭祀匕首',	-- Qiraji Sacrificial Dagger
 	`description_loc4`='仍在滴血'	-- Still dripping with blood
 WHERE `entry`=21498;
 
@@ -55505,17 +55505,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=21532;
 
 UPDATE `locales_item` SET
-	`name_loc4`='佐拉巨甲虫的獠牙'	-- Colossus of Zora's Husk
+	`name_loc4`='佐拉巨甲虫的獠牙',	-- Colossus of Zora's Husk
 	`description_loc4`='一只巨大的虫子身上的一小块碎片。'	-- A tiny fragment of a very large insect.
 WHERE `entry`=21533;
 
 UPDATE `locales_item` SET
-	`name_loc4`='亚什巨甲虫的獠牙'	-- Colossus of Ashi's Husk
+	`name_loc4`='亚什巨甲虫的獠牙',	-- Colossus of Ashi's Husk
 	`description_loc4`='一只巨大的虫子身上的一小块碎片。'	-- A tiny fragment of a very large insect.
 WHERE `entry`=21534;
 
 UPDATE `locales_item` SET
-	`name_loc4`='雷戈巨甲虫的獠牙'	-- Colossus of Regal's Husk
+	`name_loc4`='雷戈巨甲虫的獠牙',	-- Colossus of Regal's Husk
 	`description_loc4`='一只巨大的虫子身上的一小块碎片。'	-- A tiny fragment of a very large insect.
 WHERE `entry`=21535;
 
@@ -55536,7 +55536,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21539;
 
 UPDATE `locales_item` SET
-	`name_loc4`='艾露恩的灯笼'	-- Elune's Lantern
+	`name_loc4`='艾露恩的灯笼',	-- Elune's Lantern
 	`description_loc4`='一件据说可以捕捉艾露恩洒下的月光的物品。'	-- A device said to capture the light shed by Elune herself.
 WHERE `entry`=21540;
 
@@ -55557,7 +55557,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21544;
 
 UPDATE `locales_item` SET
-	`name_loc4`='烟林补给品'	-- Smokywood Supplies
+	`name_loc4`='烟林补给品',	-- Smokywood Supplies
 	`description_loc4`='2012年前使用'	-- Use before 2010
 WHERE `entry`=21545;
 
@@ -55814,7 +55814,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21621;
 
 UPDATE `locales_item` SET
-	`name_loc4`='锋利的异种虫腿'	-- Sharpened Silithid Femur
+	`name_loc4`='锋利的异种虫腿',	-- Sharpened Silithid Femur
 	`description_loc4`='刚刚被吞下去'	-- Recently devoured
 WHERE `entry`=21622;
 
@@ -55847,7 +55847,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21639;
 
 UPDATE `locales_item` SET
-	`name_loc4`='春节烟花包'	-- Lunar Festival Fireworks Pack
+	`name_loc4`='春节烟花包',	-- Lunar Festival Fireworks Pack
 	`description_loc4`='装满了用来庆祝春节的烟花！'	-- Filled with fireworks to celebrate the Lunar Festival in style!
 WHERE `entry`=21640;
 
@@ -56272,47 +56272,47 @@ UPDATE `locales_item` SET
 WHERE `entry`=21814;
 
 UPDATE `locales_item` SET
-	`name_loc4`='爱情信物'	-- Love Token
+	`name_loc4`='爱情信物',	-- Love Token
 	`description_loc4`='传递爱情的小东西……'	-- A small message of affection...
 WHERE `entry`=21815;
 
 UPDATE `locales_item` SET
-	`name_loc4`='情人糖'	-- Heart Candy
+	`name_loc4`='情人糖',	-- Heart Candy
 	`description_loc4`='和我在一起吧！'	-- Be mine!
 WHERE `entry`=21816;
 
 UPDATE `locales_item` SET
-	`name_loc4`='情人糖'	-- Heart Candy
+	`name_loc4`='情人糖',	-- Heart Candy
 	`description_loc4`='我 爱 你'	-- I LOVE YOU
 WHERE `entry`=21817;
 
 UPDATE `locales_item` SET
-	`name_loc4`='情人糖'	-- Heart Candy
+	`name_loc4`='情人糖',	-- Heart Candy
 	`description_loc4`='我会跟随你到艾泽拉斯的每一个角落。'	-- I'll follow you all around Azeroth.
 WHERE `entry`=21818;
 
 UPDATE `locales_item` SET
-	`name_loc4`='情人糖'	-- Heart Candy
+	`name_loc4`='情人糖',	-- Heart Candy
 	`description_loc4`='全心全意。'	-- All yours.
 WHERE `entry`=21819;
 
 UPDATE `locales_item` SET
-	`name_loc4`='情人糖'	-- Heart Candy
+	`name_loc4`='情人糖',	-- Heart Candy
 	`description_loc4`='你是最好的！'	-- You're the best!
 WHERE `entry`=21820;
 
 UPDATE `locales_item` SET
-	`name_loc4`='情人糖'	-- Heart Candy
+	`name_loc4`='情人糖',	-- Heart Candy
 	`description_loc4`='我只属于你！'	-- I'm all yours!
 WHERE `entry`=21821;
 
 UPDATE `locales_item` SET
-	`name_loc4`='情人糖'	-- Heart Candy
+	`name_loc4`='情人糖',	-- Heart Candy
 	`description_loc4`='你是我的！'	-- You're mine!
 WHERE `entry`=21822;
 
 UPDATE `locales_item` SET
-	`name_loc4`='情人糖'	-- Heart Candy
+	`name_loc4`='情人糖',	-- Heart Candy
 	`description_loc4`='火热的双唇。'	-- Hot lips.
 WHERE `entry`=21823;
 
@@ -56321,7 +56321,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21829;
 
 UPDATE `locales_item` SET
-	`name_loc4`='空的包装纸'	-- Empty Wrapper
+	`name_loc4`='空的包装纸',	-- Empty Wrapper
 	`description_loc4`='这东西遗失了……'	-- This one is missing...
 WHERE `entry`=21830;
 
@@ -56402,7 +56402,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21938;
 
 UPDATE `locales_item` SET
-	`name_loc4`='恶魔元素之杖'	-- Fel Elemental Rod
+	`name_loc4`='恶魔元素之杖',	-- Fel Elemental Rod
 	`description_loc4`='恶魔与元素，两者都很棒……'	-- Fel and Elemental, two great tastes...
 WHERE `entry`=21939;
 
@@ -56439,7 +56439,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=21983;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瓦塔拉克饰品的左瓣'	-- Left Piece of Lord Valthalak's Amulet
+	`name_loc4`='瓦塔拉克饰品的左瓣',	-- Left Piece of Lord Valthalak's Amulet
 	`description_loc4`='被禁锢在里面的邪恶力量似乎在不断成长……'	-- The evil trapped within this fragment seems to be growing stronger...
 WHERE `entry`=21984;
 
@@ -56452,17 +56452,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=21986;
 
 UPDATE `locales_item` SET
-	`name_loc4`='伊森迪奥斯的余炭'	-- Incendicite of Incendius
+	`name_loc4`='伊森迪奥斯的余炭',	-- Incendicite of Incendius
 	`description_loc4`='伊森迪奥斯残留的这些东西将是很好的煤炭。'	-- This still-smoldering chunk of Lord Incendius will make for an excellent coal.
 WHERE `entry`=21987;
 
 UPDATE `locales_item` SET
-	`name_loc4`='艾博希尔灰烬'	-- Ember of Emberseer
+	`name_loc4`='艾博希尔灰烬',	-- Ember of Emberseer
 	`description_loc4`='太烫了……根本没法拿起来，最好把它包在无法点燃的东西里！'	-- This one's far too hot to touch... better wrap it in something nonflammable!
 WHERE `entry`=21988;
 
 UPDATE `locales_item` SET
-	`name_loc4`='灰烬公爵的残渣'	-- Cinder of Cynders
+	`name_loc4`='灰烬公爵的残渣',	-- Cinder of Cynders
 	`description_loc4`='公爵的残渣仍在继续燃烧，它对你的仇恨就是燃料。'	-- This visceral chunk of the Duke burns on, fueled by his hatred for you.
 WHERE `entry`=21989;
 
@@ -56559,17 +56559,17 @@ UPDATE `locales_item` SET
 WHERE `entry`=22017;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瓦塔拉克饰品的右瓣'	-- Right Piece of Lord Valthalak's Amulet
+	`name_loc4`='瓦塔拉克饰品的右瓣',	-- Right Piece of Lord Valthalak's Amulet
 	`description_loc4`='这件物品似乎很热切地想要和其它几块重新结合。'	-- This section of the amulet vibrates with a palpable fervor to be rejoined with its sibling pieces.
 WHERE `entry`=22046;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瓦塔拉克饰品的上瓣'	-- Top Piece of Lord Valthalak's Amulet
+	`name_loc4`='瓦塔拉克饰品的上瓣',	-- Top Piece of Lord Valthalak's Amulet
 	`description_loc4`='触摸这件物品时会有很奇怪的感觉，仿佛有什么邪恶的力量想要挣脱出来。'	-- This object feels wrong to the touch, as if an evil within is trying to escape.
 WHERE `entry`=22047;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瓦塔拉克饰品'	-- Lord Valthalak's Amulet
+	`name_loc4`='瓦塔拉克饰品',	-- Lord Valthalak's Amulet
 	`description_loc4`='这件重新结合起来的饰品散发出强大的邪恶力量，瓦塔拉克公爵的灵魂在其中蠢蠢欲动。'	-- Reunited into its whole form, the amulet pulses strongly with the evil spirit of Lord Valthalak.
 WHERE `entry`=22048;
 
@@ -56742,7 +56742,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=22093;
 
 UPDATE `locales_item` SET
-	`name_loc4`='血藻'	-- Bloodkelp
+	`name_loc4`='血藻',	-- Bloodkelp
 	`description_loc4`='红色的汁液可能会弄脏你的衣服，小心一点。'	-- Its red juice can leave an indelible stain on your clothing, so be careful.
 WHERE `entry`=22094;
 
@@ -56867,7 +56867,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=22137;
 
 UPDATE `locales_item` SET
-	`name_loc4`='黑石护腕'	-- Blackrock Bracer
+	`name_loc4`='黑石护腕',	-- Blackrock Bracer
 	`description_loc4`='这些以黑铁为主要材料锻造出来的护腕发出了金属的光芒。'	-- Crudely crafted, mostly from dark iron, these bracers exhibit trace amounts of a shiny metal.
 WHERE `entry`=22138;
 
@@ -57148,22 +57148,22 @@ UPDATE `locales_item` SET
 WHERE `entry`=22225;
 
 UPDATE `locales_item` SET
-	`name_loc4`='德鲁伊的遗骸'	-- Druidical Remains
+	`name_loc4`='德鲁伊的遗骸',	-- Druidical Remains
 	`description_loc4`='异种虫把这位塞纳里奥议会的勇士吃得什么都不剩了。'	-- The silithid have left little to the corpse of this champion of the Cenarion Circle.
 WHERE `entry`=22226;
 
 UPDATE `locales_item` SET
-	`name_loc4`='星风村遗物'	-- Starbreeze Village Relic
+	`name_loc4`='星风村遗物',	-- Starbreeze Village Relic
 	`description_loc4`='这件古代暗夜精灵的器物已经被霜槌巨人冻得结结实实了。小心别弄碎了。'	-- This night elvic antiquity has been frozen solid by the Frostmaul giants. Handle with care.
 WHERE `entry`=22227;
 
 UPDATE `locales_item` SET
-	`name_loc4`='狂热光芒之剑'	-- Brilliant Sword of Zealotry
+	`name_loc4`='狂热光芒之剑',	-- Brilliant Sword of Zealotry
 	`description_loc4`='最锋利的刀刃，可以轻松斩杀任何敌人，无论是活物还是死物。'	-- The keenest of edges, meant to indiscriminately cleave through any foe, living or dead.
 WHERE `entry`=22228;
 
 UPDATE `locales_item` SET
-	`name_loc4`='放逐者的灵魂灰烬'	-- Soul Ashes of the Banished
+	`name_loc4`='放逐者的灵魂灰烬',	-- Soul Ashes of the Banished
 	`description_loc4`='这些灰烬属于一个被放逐的灵魂，它们轻轻散发着生命的气息。'	-- These ashen remains of an exiled soul pulse faintly with the echo of a once-promising life.
 WHERE `entry`=22229;
 
@@ -57252,7 +57252,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=22252;
 
 UPDATE `locales_item` SET
-	`name_loc4`='失落之书'	-- Tome of the Lost
+	`name_loc4`='失落之书',	-- Tome of the Lost
 	`description_loc4`='这本书的标题是“虚无之路”'	-- The title reads "The Brode to Nowhere"
 WHERE `entry`=22253;
 
@@ -57277,7 +57277,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=22259;
 
 UPDATE `locales_item` SET
-	`name_loc4`='友谊手镯'	-- Friendship Bracelet
+	`name_loc4`='友谊手镯',	-- Friendship Bracelet
 	`description_loc4`='这代表着真正的友谊……'	-- These are received from true friends...
 WHERE `entry`=22260;
 
@@ -57286,12 +57286,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=22261;
 
 UPDATE `locales_item` SET
-	`name_loc4`='联盟礼品包'	-- Alliance Gift Collection
+	`name_loc4`='联盟礼品包',	-- Alliance Gift Collection
 	`description_loc4`='把这包礼物交给匹德菲特。'	-- Give this collection to Kwee Q. Peddlefeet.
 WHERE `entry`=22262;
 
 UPDATE `locales_item` SET
-	`name_loc4`='部落礼品包'	-- Horde Gift Collection
+	`name_loc4`='部落礼品包',	-- Horde Gift Collection
 	`description_loc4`='把这包礼物交给匹德菲特。'	-- Give this collection to Kwee Q. Peddlefeet.
 WHERE `entry`=22263;
 
@@ -57520,7 +57520,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=22321;
 
 UPDATE `locales_item` SET
-	`name_loc4`='腭骨粉碎者'	-- The Jaw Breaker
+	`name_loc4`='腭骨粉碎者',	-- The Jaw Breaker
 	`description_loc4`='不可食用'	-- Not edible
 WHERE `entry`=22322;
 
@@ -57605,7 +57605,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=22343;
 
 UPDATE `locales_item` SET
-	`name_loc4`='符咒火盆用户手册'	-- Brazier of Invocation: User's Manual
+	`name_loc4`='符咒火盆用户手册',	-- Brazier of Invocation: User's Manual
 	`description_loc4`='如何找到闹鬼的地点'	-- Where to find Haunted Loci
 WHERE `entry`=22344;
 
@@ -58238,122 +58238,122 @@ WHERE `entry`=22595;
 -- WHERE `entry`=22596;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 致密平衡石'	-- Craftsman's Writ - Dense Weightstone
+	`name_loc4`='工匠文书 - 致密平衡石',	-- Craftsman's Writ - Dense Weightstone
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22600;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 君王板甲'	-- Craftsman's Writ - Imperial Plate Chest
+	`name_loc4`='工匠文书 - 君王板甲',	-- Craftsman's Writ - Imperial Plate Chest
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22601;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 火山战锤'	-- Craftsman's Writ - Volcanic Hammer
+	`name_loc4`='工匠文书 - 火山战锤',	-- Craftsman's Writ - Volcanic Hammer
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22602;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 巨型瑟银战斧'	-- Craftsman's Writ - Huge Thorium Battleaxe
+	`name_loc4`='工匠文书 - 巨型瑟银战斧',	-- Craftsman's Writ - Huge Thorium Battleaxe
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22603;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 辐光头饰'	-- Craftsman's Writ - Radiant Circlet
+	`name_loc4`='工匠文书 - 辐光头饰',	-- Craftsman's Writ - Radiant Circlet
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22604;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 邪恶皮甲头环'	-- Craftsman's Writ - Wicked Leather Headband
+	`name_loc4`='工匠文书 - 邪恶皮甲头环',	-- Craftsman's Writ - Wicked Leather Headband
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22605;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 毛皮护甲片'	-- Craftsman's Writ - Rugged Armor Kit
+	`name_loc4`='工匠文书 - 毛皮护甲片',	-- Craftsman's Writ - Rugged Armor Kit
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22606;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 邪恶皮甲腰带'	-- Craftsman's Writ - Wicked Leather Belt
+	`name_loc4`='工匠文书 - 邪恶皮甲腰带',	-- Craftsman's Writ - Wicked Leather Belt
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22607;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 符文皮甲短裤'	-- Craftsman's Writ - Runic Leather Pants
+	`name_loc4`='工匠文书 - 符文皮甲短裤',	-- Craftsman's Writ - Runic Leather Pants
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22608;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 亮布短裤'	-- Craftsman's Writ - Brightcloth Pants
+	`name_loc4`='工匠文书 - 亮布短裤',	-- Craftsman's Writ - Brightcloth Pants
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22609;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 符文布靴'	-- Craftsman's Writ - Runecloth Boots
+	`name_loc4`='工匠文书 - 符文布靴',	-- Craftsman's Writ - Runecloth Boots
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22610;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 符文布包'	-- Craftsman's Writ - Runecloth Bag
+	`name_loc4`='工匠文书 - 符文布包',	-- Craftsman's Writ - Runecloth Bag
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22611;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 符文布袍'	-- Craftsman's Writ - Runecloth Robe
+	`name_loc4`='工匠文书 - 符文布袍',	-- Craftsman's Writ - Runecloth Robe
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22612;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 地精工兵炸药'	-- Craftsman's Writ - Goblin Sapper Charge
+	`name_loc4`='工匠文书 - 地精工兵炸药',	-- Craftsman's Writ - Goblin Sapper Charge
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22613;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 瑟银手榴弹'	-- Craftsman's Writ - Thorium Grenade
+	`name_loc4`='工匠文书 - 瑟银手榴弹',	-- Craftsman's Writ - Thorium Grenade
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22614;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 侏儒作战小鸡'	-- Craftsman's Writ - Gnomish Battle Chicken
+	`name_loc4`='工匠文书 - 侏儒作战小鸡',	-- Craftsman's Writ - Gnomish Battle Chicken
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22615;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 瑟银管'	-- Craftsman's Writ - Thorium Tube
+	`name_loc4`='工匠文书 - 瑟银管',	-- Craftsman's Writ - Thorium Tube
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22616;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 特效法力药水'	-- Craftsman's Writ - Major Mana Potion
+	`name_loc4`='工匠文书 - 特效法力药水',	-- Craftsman's Writ - Major Mana Potion
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22617;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 特效治疗药水'	-- Craftsman's Writ - Major Healing Potion
+	`name_loc4`='工匠文书 - 特效治疗药水',	-- Craftsman's Writ - Major Healing Potion
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22618;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 强效奥术防护药水'	-- Craftsman's Writ - Greater Arcane Protection Potion
+	`name_loc4`='工匠文书 - 强效奥术防护药水',	-- Craftsman's Writ - Greater Arcane Protection Potion
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22620;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 化石合剂'	-- Craftsman's Writ - Flask of Petrification
+	`name_loc4`='工匠文书 - 化石合剂',	-- Craftsman's Writ - Flask of Petrification
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22621;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 石鳞鳗'	-- Craftsman's Writ - Stonescale Eel
+	`name_loc4`='工匠文书 - 石鳞鳗',	-- Craftsman's Writ - Stonescale Eel
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22622;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 板鳞鱼'	-- Craftsman's Writ - Plated Armorfish
+	`name_loc4`='工匠文书 - 板鳞鱼',	-- Craftsman's Writ - Plated Armorfish
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22623;
 
 UPDATE `locales_item` SET
-	`name_loc4`='工匠文书 - 电鳗'	-- Craftsman's Writ - Lightning Eel
+	`name_loc4`='工匠文书 - 电鳗',	-- Craftsman's Writ - Lightning Eel
 	`description_loc4`='刻有银色黎明的徽记。'	-- Bears the seal of the Argent Dawn.
 WHERE `entry`=22624;
 
@@ -58378,7 +58378,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=22636;
 
 UPDATE `locales_item` SET
-	`name_loc4`='原始哈卡莱神像'	-- Primal Hakkari Idol
+	`name_loc4`='原始哈卡莱神像',	-- Primal Hakkari Idol
 	`description_loc4`='一股原始的邪恶气息在里面翻滚……'	-- An ancient evil stirs within...
 WHERE `entry`=22637;
 
@@ -58527,7 +58527,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=22690;
 
 UPDATE `locales_item` SET
-	`name_loc4`='堕落的灰烬使者'	-- Corrupted Ashbringer
+	`name_loc4`='堕落的灰烬使者',	-- Corrupted Ashbringer
 	`description_loc4`='血色十字军领袖之剑'	-- Blade of the Scarlet Highlord
 WHERE `entry`=22691;
 
@@ -58548,12 +58548,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=22702;
 
 UPDATE `locales_item` SET
-	`name_loc4`='拉玛兰迪的寒冰之握'	-- Ramaladni's Icy Grasp
+	`name_loc4`='拉玛兰迪的寒冰之握',	-- Ramaladni's Icy Grasp
 	`description_loc4`='在戒指上刻着一行字：拉玛兰迪'	-- Inscribed on the band: Ramaladni
 WHERE `entry`=22707;
 
 UPDATE `locales_item` SET
-	`name_loc4`='拉玛兰迪的命运'	-- Fate of Ramaladni
+	`name_loc4`='拉玛兰迪的命运',	-- Fate of Ramaladni
 	`description_loc4`='在戒指上刻着一行字：拉玛兰迪'	-- Inscribed on the band: Ramaladni
 WHERE `entry`=22708;
 
@@ -58606,7 +58606,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=22722;
 
 UPDATE `locales_item` SET
-	`name_loc4`='名单登记员的信'	-- A Letter from the Keeper of the Rolls
+	`name_loc4`='名单登记员的信',	-- A Letter from the Keeper of the Rolls
 	`description_loc4`='银色黎明的徽记被清晰地印在封蜡上。'	-- The indelible mark of the Argent Dawn is pressed clearly into the wax of the seal.
 WHERE `entry`=22723;
 
@@ -58619,12 +58619,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=22725;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃提耶什的碎片'	-- Splinter of Atiesh
+	`name_loc4`='埃提耶什的碎片',	-- Splinter of Atiesh
 	`description_loc4`='一块埃提耶什，守护者的传说之杖的碎片。'	-- A splinter of Atiesh, Greatstaff of the Guardian.
 WHERE `entry`=22726;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃提耶什的杖柄'	-- Frame of Atiesh
+	`name_loc4`='埃提耶什的杖柄',	-- Frame of Atiesh
 	`description_loc4`='这柄法杖的头部和尾部都不见了。'	-- The head and base are missing.
 WHERE `entry`=22727;
 
@@ -58649,12 +58649,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=22734;
 
 UPDATE `locales_item` SET
-	`name_loc4`='安杜尼苏斯，灵魂的收割者'	-- Andonisus, Reaper of Souls
+	`name_loc4`='安杜尼苏斯，灵魂的收割者',	-- Andonisus, Reaper of Souls
 	`description_loc4`='这柄剑虚无缥渺，仿佛正在从这个世界上消失。'	-- This blade is dimensional. It appears to be fading from this plane of existence.
 WHERE `entry`=22736;
 
 UPDATE `locales_item` SET
-	`name_loc4`='埃提耶什，守护者的传说之杖'	-- Atiesh, Greatstaff of the Guardian
+	`name_loc4`='埃提耶什，守护者的传说之杖',	-- Atiesh, Greatstaff of the Guardian
 	`description_loc4`='An entity of great evil is imprisoned within the staff.'	-- An entity of great evil is imprisoned within the staff.
 WHERE `entry`=22737;
 
@@ -58879,7 +58879,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=22821;
 
 UPDATE `locales_item` SET
-	`name_loc4`='宠物兑换券'	-- iCoke Prize Voucher
+	`name_loc4`='宠物兑换券',	-- iCoke Prize Voucher
 	`description_loc4`='交给可乐兑奖员就可以换取你的宠物！'	-- Return to the iCoke redemption vendor to receive a virtual prize
 WHERE `entry`=22822;
 
@@ -59252,7 +59252,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=23021;
 
 UPDATE `locales_item` SET
-	`name_loc4`='坏老头的贿赂'	-- Curmudgeon's Payoff
+	`name_loc4`='坏老头的贿赂',	-- Curmudgeon's Payoff
 	`description_loc4`='内含5金币。专为那些喜欢告诉孩子们“世界上并不存在冬天爷爷”的家伙准备……'	-- A bag of 5 gold.  For those who like telling children there's no Great Father Winter...
 WHERE `entry`=23022;
 
@@ -59649,7 +59649,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=23207;
 
 UPDATE `locales_item` SET
-	`name_loc4`='牛皮糖'	-- Toasted Smorc
+	`name_loc4`='牛皮糖',	-- Toasted Smorc
 	`description_loc4`='软软的，甜甜的……'	-- Gooey, melty, good.
 WHERE `entry`=23211;
 
@@ -60070,12 +60070,12 @@ UPDATE `locales_item` SET
 WHERE `entry`=23577;
 
 UPDATE `locales_item` SET
-	`name_loc4`='健怡特效药'	-- Diet McWeaksauce
+	`name_loc4`='健怡特效药',	-- Diet McWeaksauce
 	`description_loc4`='精神食品'	-- Food for the Mind
 WHERE `entry`=23578;
 
 UPDATE `locales_item` SET
-	`name_loc4`='强者特效药'	-- The McWeaksauce Classic
+	`name_loc4`='强者特效药',	-- The McWeaksauce Classic
 	`description_loc4`='正品。'	-- The Original.
 WHERE `entry`=23579;
 
@@ -60128,27 +60128,27 @@ UPDATE `locales_item` SET
 WHERE `entry`=24222;
 
 UPDATE `locales_item` SET
-	`name_loc4`='粗糙的烛花'	-- Coarse Snuff
+	`name_loc4`='粗糙的烛花',	-- Coarse Snuff
 	`description_loc4`='0'	-- 0
 WHERE `entry`=24231;
 
 UPDATE `locales_item` SET
-	`name_loc4`='破绳结'	-- Shabby Knot
+	`name_loc4`='破绳结',	-- Shabby Knot
 	`description_loc4`='0'	-- 0
 WHERE `entry`=24232;
 
 UPDATE `locales_item` SET
-	`name_loc4`='雕刻过的骨头'	-- Carved Ivory Bone
+	`name_loc4`='雕刻过的骨头',	-- Carved Ivory Bone
 	`description_loc4`='雕刻工作似乎还没有完成……'	-- Looks like the carving was never finished...
 WHERE `entry`=24281;
 
 UPDATE `locales_item` SET
-	`name_loc4`='盗贼的日记'	-- Rogue's Diary
+	`name_loc4`='盗贼的日记',	-- Rogue's Diary
 	`description_loc4`='所有的页面都是空白的。'	-- All the pages are blank.
 WHERE `entry`=24282;
 
 UPDATE `locales_item` SET
-	`name_loc4`='古董枪'	-- An Antique Gun
+	`name_loc4`='古董枪',	-- An Antique Gun
 	`description_loc4`='枪口内壁刻着“拉斯托”这个名字。'	-- The name 'Lasitor' is etched into the barrel.
 WHERE `entry`=24283;
 

@@ -109,8 +109,10 @@ class Maker {
 				let value = trans1 || trans2 || trans3 || enValue
 				value = encodeText(value)
 
-				return comment + `\t\`${name + '_loc4'}\`='${value}'` + '\t-- ' + enValue
+				return comment + `\t\`${name + '_loc4'}\`='${value}',\t-- ${enValue}`
 			}).filter(v => v).join('\n')
+
+			sets = sets.replace(/,(.+?)$/, '$1')
 
 			let wheres = idNames.map(name => {
 				let value = item[name]
