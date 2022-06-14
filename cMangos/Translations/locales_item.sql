@@ -4171,27 +4171,27 @@ UPDATE `locales_item` SET
 WHERE `entry`=2422;
 
 UPDATE `locales_item` SET
-	`name_loc4`='缀鳞布甲外衣'	-- Brigandine Vest
+	`name_loc4`='缀鳞锁甲外衣'	-- Brigandine Vest
 WHERE `entry`=2423;
 
 UPDATE `locales_item` SET
-	`name_loc4`='缀鳞布甲腰带'	-- Brigandine Belt
+	`name_loc4`='缀鳞锁甲腰带'	-- Brigandine Belt
 WHERE `entry`=2424;
 
 UPDATE `locales_item` SET
-	`name_loc4`='缀鳞布甲护腿'	-- Brigandine Leggings
+	`name_loc4`='缀鳞锁甲护腿'	-- Brigandine Leggings
 WHERE `entry`=2425;
 
 UPDATE `locales_item` SET
-	`name_loc4`='缀鳞布甲战靴'	-- Brigandine Boots
+	`name_loc4`='缀鳞锁甲战靴'	-- Brigandine Boots
 WHERE `entry`=2426;
 
 UPDATE `locales_item` SET
-	`name_loc4`='缀鳞布甲护腕'	-- Brigandine Bracers
+	`name_loc4`='缀鳞锁甲护腕'	-- Brigandine Bracers
 WHERE `entry`=2427;
 
 UPDATE `locales_item` SET
-	`name_loc4`='缀鳞布甲手套'	-- Brigandine Gloves
+	`name_loc4`='缀鳞锁甲手套'	-- Brigandine Gloves
 WHERE `entry`=2428;
 
 UPDATE `locales_item` SET
@@ -4695,15 +4695,15 @@ UPDATE `locales_item` SET
 WHERE `entry`=2592;
 
 UPDATE `locales_item` SET
-	`name_loc4`='暴风城褐色酒'	-- Flask of Port
+	`name_loc4`='波尔多酒'	-- Flask of Port
 WHERE `entry`=2593;
 
 UPDATE `locales_item` SET
-	`name_loc4`='壶装矮人蜜酒'	-- Flagon of Mead
+	`name_loc4`='壶装蜜酒'	-- Flagon of Mead
 WHERE `entry`=2594;
 
 UPDATE `locales_item` SET
-	`name_loc4`='罐装荒芜之地波本酒'	-- Jug of Bourbon
+	`name_loc4`='麦芽酒'	-- Jug of Bourbon
 WHERE `entry`=2595;
 
 UPDATE `locales_item` SET
@@ -5136,7 +5136,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=2722;
 
 UPDATE `locales_item` SET
-	`name_loc4`='瓶装达拉然黑葡萄酒'	-- Bottle of Pinot Noir
+	`name_loc4`='黑葡萄酒'	-- Bottle of Pinot Noir
 WHERE `entry`=2723;
 
 UPDATE `locales_item` SET
@@ -8850,7 +8850,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=3893;
 
 UPDATE `locales_item` SET
-	`name_loc4`='缀鳞布甲头盔'	-- Brigandine Helm
+	`name_loc4`='缀鳞锁甲头盔'	-- Brigandine Helm
 WHERE `entry`=3894;
 
 UPDATE `locales_item` SET
