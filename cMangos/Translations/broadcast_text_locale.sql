@@ -8399,7 +8399,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6648 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我们猜想，巴罗夫家族为了保护自己的财产以及生前死后对土地的所有权，他们与一个名叫科尔苏加德的人类法师达成协定。$B$B<艾瓦战栗起来。>$B$B协议中提及了巫术学校：这个成为诅咒神教的地方，变成他们的首府。$B$B随着时间的推移，巴罗夫的房子变得越来越破旧……$B$B黑暗开始笼罩整个房子的各个部份。重新维护是不可能……而且恶心的事。'	-- We suspect that in order to preserve their fortune and hold of the land - well past their lifespan - the Barovs made a deal with a powerful human mage named Kel'Thuzad.$B$B<Eva shudders.>$B$BFrom this deal sprang the school of necromancy: A place which bore the Cult of the Damned and would become their capital.$B$BAs each week passed, the house Barov became more and more decrepit...$B$BDark beings began to take residence in the various wings of the house. Upkeep became impossible... and disgusting.
+	`Text_lang`='我们猜想，巴罗夫家族为了保护自己的财产以及生前死后对土地的所有权，他们与一个名叫科尔苏加德的人类法师达成协定。$B$B<艾瓦战栗起来。>$B$B协议中提及了巫术学校：这个成为诅咒教派的地方，变成他们的首府。$B$B随着时间的推移，巴罗夫的房子变得越来越破旧……$B$B黑暗开始笼罩整个房子的各个部份。重新维护是不可能……而且恶心的事。'	-- We suspect that in order to preserve their fortune and hold of the land - well past their lifespan - the Barovs made a deal with a powerful human mage named Kel'Thuzad.$B$B<Eva shudders.>$B$BFrom this deal sprang the school of necromancy: A place which bore the Cult of the Damned and would become their capital.$B$BAs each week passed, the house Barov became more and more decrepit...$B$BDark beings began to take residence in the various wings of the house. Upkeep became impossible... and disgusting.
 WHERE `Id`=6650 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -8827,7 +8827,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6826 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='诅咒神教正在迅速壮大。从小型村落到首都，从部落到联盟，几乎每座城镇的居民中都有诅咒神教的信徒。$B$B别惊讶，他们只在仪式和庆典上面才身穿统一的服饰。你很可能已经跟他们的信徒碰过面了，只是你不知道而已。'	-- The Cult of the Damned has grown large in scope. Nearly every city, from the capitals to the small hamlets and hovels of both the Horde and Alliance, have Cult members hidden amongst their citizenry.$B$BDo not look so surprised. The Cult only wears a uniform for ritual and ceremony. It is quite possible that you have interacted with one during your adventures and not even known.
+	`Text_lang`='诅咒教派正在迅速壮大。从小型村落到首都，从部落到联盟，几乎每座城镇的居民中都有诅咒教派的信徒。$B$B别惊讶，他们只在仪式和庆典上面才身穿统一的服饰。你很可能已经跟他们的信徒碰过面了，只是你不知道而已。'	-- The Cult of the Damned has grown large in scope. Nearly every city, from the capitals to the small hamlets and hovels of both the Horde and Alliance, have Cult members hidden amongst their citizenry.$B$BDo not look so surprised. The Cult only wears a uniform for ritual and ceremony. It is quite possible that you have interacted with one during your adventures and not even known.
 WHERE `Id`=6843 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -8843,7 +8843,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6846 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='停下来──不。放慢速度──或许这样比较好。$B$B通灵学院是他们接受初级训练和教育的地方。信徒们从那儿走出来，并最终进入我们的社会。$B$B这就是我们必须攻破通灵学院的原因。它是诅咒神教的中心！'	-- Stop - no. Slow down - maybe.$B$BThe Scholomance is their primary source of training and education. It is from there that the Cult members fan out and ultimately, make their way into our societies.$B$BThat is why we must strike at the source. The very heart of the Cult of the Damned!
+	`Text_lang`='停下来──不。放慢速度──或许这样比较好。$B$B通灵学院是他们接受初级训练和教育的地方。信徒们从那儿走出来，并最终进入我们的社会。$B$B这就是我们必须攻破通灵学院的原因。它是诅咒教派的中心！'	-- Stop - no. Slow down - maybe.$B$BThe Scholomance is their primary source of training and education. It is from there that the Cult members fan out and ultimately, make their way into our societies.$B$BThat is why we must strike at the source. The very heart of the Cult of the Damned!
 WHERE `Id`=6847 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -8851,7 +8851,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6848 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='放慢速度，$R。你要杀的人已经死了，对着尸体狂砍是无济于事的。可以真正摧毁僵尸的方法极少，而且你我也无法使用这些方法。为此，我制定了一项计划，这项计划将对诅咒神教产生巨大的影响。'	-- Slow down, $r. The one you need to kill is already dead. Killing him again will serve no purpose. There are very few ways in which a lich can actually be destroyed and none of those means are available to you or I. That is why I have a plan. A plan that will have a very noticeable and real impact upon the Cult.
+	`Text_lang`='放慢速度，$R。你要杀的人已经死了，对着尸体狂砍是无济于事的。可以真正摧毁僵尸的方法极少，而且你我也无法使用这些方法。为此，我制定了一项计划，这项计划将对诅咒教派产生巨大的影响。'	-- Slow down, $r. The one you need to kill is already dead. Killing him again will serve no purpose. There are very few ways in which a lich can actually be destroyed and none of those means are available to you or I. That is why I have a plan. A plan that will have a very noticeable and real impact upon the Cult.
 WHERE `Id`=6849 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -8867,7 +8867,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6852 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='啊，我想我说得太快了。莱斯·霜语是通灵学院的监督者，他负责训练所有的黑暗大师，他是科尔苏加德最欣赏的学生和副官。他曾经是激流堡的法师，一个从来没有接受过达拉然正规训练的流浪巫师。$B$B当科尔苏加德开设诅咒神教的时候，莱斯就是首批加入其中的人，因为他知道透过黑暗魔法可以获得不朽。'	-- Ah, I suppose that I am getting ahead of myself. Ras Frostwhisper is the overseer of this school. The being responsible for training all of its Dark Masters. A lieutenant and favored pupil of Kel'Thuzad. He was once a hedge mage of Stromgarde: A rogue wizard that never received his formal training from Dalaran.$B$BWhen Kel'Thuzad opened the Cult, Ras was among the first to join his ranks. Ras knew that through dark magic, he would find immortality.
+	`Text_lang`='啊，我想我说得太快了。莱斯·霜语是通灵学院的监督者，他负责训练所有的黑暗大师，他是科尔苏加德最欣赏的学生和副官。他曾经是激流堡的法师，一个从来没有接受过达拉然正规训练的流浪巫师。$B$B当科尔苏加德开设诅咒教派的时候，莱斯就是首批加入其中的人，因为他知道透过黑暗魔法可以获得不朽。'	-- Ah, I suppose that I am getting ahead of myself. Ras Frostwhisper is the overseer of this school. The being responsible for training all of its Dark Masters. A lieutenant and favored pupil of Kel'Thuzad. He was once a hedge mage of Stromgarde: A rogue wizard that never received his formal training from Dalaran.$B$BWhen Kel'Thuzad opened the Cult, Ras was among the first to join his ranks. Ras knew that through dark magic, he would find immortality.
 WHERE `Id`=6853 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -8895,7 +8895,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6859 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='告诉我关于诅咒神教的事情。'	-- 11286, Tell me about the Cult of the Damned.
+	`Text_lang`='告诉我关于诅咒教派的事情。'	-- 11286, Tell me about the Cult of the Damned.
 WHERE `Id`=6860 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET

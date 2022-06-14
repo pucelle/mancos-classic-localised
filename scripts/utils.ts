@@ -109,3 +109,21 @@ export async function getTableData<K1 extends string, K2 extends string>(
 
 	return rows as any[]
 }
+
+
+/** 获得表中的数据. */
+export function makeTableIndex<T>(
+	items: T[],
+	idNames: (keyof T)[]
+): Record<string, T> {
+	let index: Record<string, T> = {}
+	
+	for (let item of items) {
+		let idValues = idNames.map(name => item[name])
+		let id = idValues.join('-')
+
+		index[id] = item
+	}
+
+	return index
+}

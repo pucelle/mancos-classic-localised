@@ -1114,13 +1114,13 @@ UPDATE `locales_page_text` SET
 	`text_loc4`='同时，我还派出了阿维罗德上尉，在卡林多大陆执行侦察任务。他的部队完成任务之后，会与我们在提拉加德城堡的部队会合。$B$B阿维罗德上尉的任务可能需要很长时间，因为这片新大陆幅员辽阔、充满危机。如果我或者本尼迪克遭遇不幸的话，阿维罗德将接手城堡的指挥权。$B$B我们会发动一轮接一轮的攻击，直到占领这座要塞！$B$B- 普罗德摩尔上将'	-- Meanwhile, I am sending Lieutenant Alverold on an exploratory mission around the continent of Kalimdor. His forces are to complete their mission and then join our forces at Tiragarde Keep. It is anticipated that Lieutenant Alverold's mission will last quite some time. The new land seems vast and dangerous. But should any misfortune befall myself or Benedict, Alverold's troops will retake the Keep. We will send wave after wave until that stronghold is ours! --Admiral Proudmoore 
 WHERE `entry`=339;
 
-UPDATE `locales_page_text` SET
-	`text_loc4`='<HTML><BODY><H1>Horde Conscription Registration</H1><BR></BR><P>This person has demonstrated incredible feats of strength and skill in the name of the Horde. They should immediately be assigned to work in the Crossroads.</P><BR></BR><BR></BR><P>Respectfully yours:</P><BR></BR><BR></BR><BR></BR><BR></BR><P>Looks good to me.<BR></BR>- Takrin Pathseeker</P></BODY></HTML>'	-- <HTML><BODY><H1>Horde Conscription Registration</H1><BR></BR><P>This person has demonstrated incredible feats of strength and skill in the name of the Horde. They should immediately be assigned to work in the Crossroads.</P><BR></BR><BR></BR><P>Respectfully yours:</P><BR></BR><BR></BR><BR></BR><BR></BR><P>Looks good to me.<BR></BR>- Takrin Pathseeker</P></BODY></HTML>
-WHERE `entry`=340;
+-- UPDATE `locales_page_text` SET
+-- 	`text_loc4`='<HTML><BODY><H1>Horde Conscription Registration</H1><BR></BR><P>This person has demonstrated incredible feats of strength and skill in the name of the Horde. They should immediately be assigned to work in the Crossroads.</P><BR></BR><BR></BR><P>Respectfully yours:</P><BR></BR><BR></BR><BR></BR><BR></BR><P>Looks good to me.<BR></BR>- Takrin Pathseeker</P></BODY></HTML>'	-- <HTML><BODY><H1>Horde Conscription Registration</H1><BR></BR><P>This person has demonstrated incredible feats of strength and skill in the name of the Horde. They should immediately be assigned to work in the Crossroads.</P><BR></BR><BR></BR><P>Respectfully yours:</P><BR></BR><BR></BR><BR></BR><BR></BR><P>Looks good to me.<BR></BR>- Takrin Pathseeker</P></BODY></HTML>
+-- WHERE `entry`=340;
 
-UPDATE `locales_page_text` SET
-	`text_loc4`='<HTML><BODY><H1>Horde Conscription Registration</H1><BR></BR><P>This person has demonstrated incredible feats of strength and skill in the name of the Horde. They should immediately be assigned to work in the Crossroads.</P><BR></BR><BR></BR><P>Respectfully yours:<BR></BR>- Kargal Battlescar</P><BR></BR><BR></BR><BR></BR><P>Looks good to me.<BR></BR>- Takrin Pathseeker</P></BODY></HTML>'	-- <HTML><BODY><H1>Horde Conscription Registration</H1><BR></BR><P>This person has demonstrated incredible feats of strength and skill in the name of the Horde. They should immediately be assigned to work in the Crossroads.</P><BR></BR><BR></BR><P>Respectfully yours:<BR></BR>- Kargal Battlescar</P><BR></BR><BR></BR><BR></BR><P>Looks good to me.<BR></BR>- Takrin Pathseeker</P></BODY></HTML>
-WHERE `entry`=341;
+-- UPDATE `locales_page_text` SET
+-- 	`text_loc4`='<HTML><BODY><H1>Horde Conscription Registration</H1><BR></BR><P>This person has demonstrated incredible feats of strength and skill in the name of the Horde. They should immediately be assigned to work in the Crossroads.</P><BR></BR><BR></BR><P>Respectfully yours:<BR></BR>- Kargal Battlescar</P><BR></BR><BR></BR><BR></BR><P>Looks good to me.<BR></BR>- Takrin Pathseeker</P></BODY></HTML>'	-- <HTML><BODY><H1>Horde Conscription Registration</H1><BR></BR><P>This person has demonstrated incredible feats of strength and skill in the name of the Horde. They should immediately be assigned to work in the Crossroads.</P><BR></BR><BR></BR><P>Respectfully yours:<BR></BR>- Kargal Battlescar</P><BR></BR><BR></BR><BR></BR><P>Looks good to me.<BR></BR>- Takrin Pathseeker</P></BODY></HTML>
+-- WHERE `entry`=341;
 
 UPDATE `locales_page_text` SET
 	`text_loc4`='巴尔莫丹的挖掘$B$B我们探险者协会派出的勘探员所发现的东西看来很有价值，这一带埋藏着的文物对我们来说是无价之宝。无疑，我们可以在巴尔莫丹的沙土之下找到一些关键的线索。$B$B这个地区的地质情况使得我们不得不采取一些极端措施，因为许多沙地都因为长期处于荒芜的环境和多变的天气下而变得十分坚硬了。'	-- The Excavation of Bael ModanThe original survey crew sent by the Explorers' League was indeed correct in their findings. The ground here holds artifacts of unlimited value to our people. No doubt we will find many answers in our quest for knowledge beneath the sand and rock of Bael Modan.The geology of the region dictates we use extreme measures however. Many of the sand deposits have solidified under the harsh conditions and varying climate.
@@ -1767,7 +1767,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=679;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='于是，两人之间签下一份合约。科尔苏加德以对巫妖王的效忠，换取不朽的生命与无穷的力量。而科尔苏加德第一个任务，即利用他在财产与影响力，在罗德隆大陆上，建立一个宗教──诅咒神教。这个邪教向其信徒承诺，只要宣誓永远追随与崇拜诅咒神教的神──耐祖奥，他们将得到平等的对待与永恒的生命。'	-- A pact was struck between the two. Kel'Thuzad would receive immortality and immense power in return for servitude to the Lich King. Kel'Thuzad's first task was to use his wealth and influence in Lordaeron to found the Cult of the Damned. The Cult promised equality and eternal life to all its members as long as they swore an oath to Ner'zhul, the god of the Cult of the Damned.
+	`text_loc4`='于是，两人之间签下一份合约。科尔苏加德以对巫妖王的效忠，换取不朽的生命与无穷的力量。而科尔苏加德第一个任务，即利用他在财产与影响力，在罗德隆大陆上，建立一个宗教──诅咒教派。这个邪教向其信徒承诺，只要宣誓永远追随与崇拜诅咒教派的神──耐祖奥，他们将得到平等的对待与永恒的生命。'	-- A pact was struck between the two. Kel'Thuzad would receive immortality and immense power in return for servitude to the Lich King. Kel'Thuzad's first task was to use his wealth and influence in Lordaeron to found the Cult of the Damned. The Cult promised equality and eternal life to all its members as long as they swore an oath to Ner'zhul, the god of the Cult of the Damned.
 WHERE `entry`=680;
 
 UPDATE `locales_page_text` SET
@@ -3699,7 +3699,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2051;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='科尔苏加德秘密回到了罗德隆，并且在那里活动了三年。他运用他的财富和智商聚集了一些愿意跟随他的人类并组建了一个名为「诅咒神教」的教派。他向信徒们许诺要赐予他们平等的社会地位和永恒的生命以换取他们对耐祖奥的服从。'	-- Kel'Thuzad returned to Lordaeron in disguise, and over the span of three years, he used his fortune and intellect to gather a clandestine brotherhood of like-minded men and women. The brotherhood, which he called the Cult of the Damned, promised its acolytes social equality and eternal life on Azeroth in exchange for their service and obedience to Ner'zhul. 
+	`text_loc4`='科尔苏加德秘密回到了罗德隆，并且在那里活动了三年。他运用他的财富和智商聚集了一些愿意跟随他的人类并组建了一个名为「诅咒教派」的教派。他向信徒们许诺要赐予他们平等的社会地位和永恒的生命以换取他们对耐祖奥的服从。'	-- Kel'Thuzad returned to Lordaeron in disguise, and over the span of three years, he used his fortune and intellect to gather a clandestine brotherhood of like-minded men and women. The brotherhood, which he called the Cult of the Damned, promised its acolytes social equality and eternal life on Azeroth in exchange for their service and obedience to Ner'zhul. 
 WHERE `entry`=2052;
 
 UPDATE `locales_page_text` SET

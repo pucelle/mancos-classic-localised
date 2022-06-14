@@ -41,7 +41,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=36;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暴徒'	-- Defias Thug
+	`name_loc4`='迪菲亚暴徒'	-- Defias Thug
 WHERE `entry`=38;
 
 UPDATE `locales_creature` SET
@@ -60,18 +60,18 @@ UPDATE `locales_creature` SET
 	`name_loc4`='骷髅战士'	-- Skeletal Warrior
 WHERE `entry`=48;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lesser Succubus'	-- Lesser Succubus
--- WHERE `entry`=49;
+UPDATE `locales_creature` SET
+	`name_loc4`='次级魅魔'	-- Lesser Succubus
+WHERE `entry`=49;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='科瑞娜·斯蒂利'	-- Corina Steele
 	`subname_loc4`='武器锻造师'	-- Weaponsmith
 WHERE `entry`=54;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mean Ed the Blacksmith'	-- Mean Ed the Blacksmith
--- WHERE `entry`=55;
+UPDATE `locales_creature` SET
+	`name_loc4`='铁匠米恩·埃德'	-- Mean Ed the Blacksmith
+WHERE `entry`=55;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='矿工鲁克拉尔'	-- Ruklar the Trapper
@@ -81,17 +81,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='索罗斯·莱特芬格'	-- Thuros Lightfingers
 WHERE `entry`=61;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gug Fatcandle'	-- Gug Fatcandle
--- WHERE `entry`=62;
+UPDATE `locales_creature` SET
+	`name_loc4`='大蜡烛伽格'	-- Gug Fatcandle
+WHERE `entry`=62;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Peasant Woman'	-- Peasant Woman
--- WHERE `entry`=65;
+UPDATE `locales_creature` SET
+	`name_loc4`='农妇'	-- Peasant Woman
+WHERE `entry`=65;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='萨瑞恩·博丁'	-- Tharynn Bouden
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=66;
 
 -- UPDATE `locales_creature` SET
@@ -104,7 +104,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=68;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='染病的森林狼'	-- Timber Wolf
+	`name_loc4`='森林狼'	-- Timber Wolf
 WHERE `entry`=69;
 
 -- UPDATE `locales_creature` SET
@@ -119,10 +119,10 @@ WHERE `entry`=69;
 -- 	`name_loc4`='[UNUSED] Antaris the Trader'	-- [UNUSED] Antaris the Trader
 -- WHERE `entry`=72;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Veraina the Apothecary'	-- Veraina the Apothecary
--- 	`subname_loc4`='Questgiver'	-- Questgiver
--- WHERE `entry`=73;
+UPDATE `locales_creature` SET
+	`name_loc4`='药剂师维莱纳'	-- Veraina the Apothecary
+	`subname_loc4`='Questgiver'	-- Questgiver
+WHERE `entry`=73;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='库兰·斯蒂利'	-- Kurran Steele
@@ -175,7 +175,7 @@ WHERE `entry`=92;
 -- WHERE `entry`=93;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='小偷'	-- Defias Cutpurse
+	`name_loc4`='迪菲亚小偷'	-- Defias Cutpurse
 WHERE `entry`=94;
 
 UPDATE `locales_creature` SET
@@ -206,17 +206,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='加瑞克·帕德弗特'	-- Garrick Padfoot
 WHERE `entry`=103;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tall Strider'	-- Tall Strider
--- WHERE `entry`=105;
+UPDATE `locales_creature` SET
+	`name_loc4`='陆行鸟'	-- Tall Strider
+WHERE `entry`=105;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Kodo Beast'	-- Kodo Beast
 -- WHERE `entry`=106;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Raptor'	-- Raptor
--- WHERE `entry`=107;
+UPDATE `locales_creature` SET
+	`name_loc4`='迅猛龙'	-- Raptor
+WHERE `entry`=107;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Green Dragonspawn'	-- Green Dragonspawn
@@ -226,13 +226,13 @@ WHERE `entry`=103;
 -- 	`name_loc4`='White Dragonspawn'	-- White Dragonspawn
 -- WHERE `entry`=109;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Priest'	-- Priest
--- WHERE `entry`=111;
+UPDATE `locales_creature` SET
+	`name_loc4`='牧师'	-- Priest
+WHERE `entry`=111;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Priestess'	-- Priestess
--- WHERE `entry`=112;
+UPDATE `locales_creature` SET
+	`name_loc4`='女牧师'	-- Priestess
+WHERE `entry`=112;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='石牙野猪'	-- Stonetusk Boar
@@ -247,7 +247,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=115;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='强盗'	-- Defias Bandit
+	`name_loc4`='迪菲亚强盗'	-- Defias Bandit
 WHERE `entry`=116;
 
 UPDATE `locales_creature` SET
@@ -262,9 +262,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='长鼻野猪'	-- Longsnout
 WHERE `entry`=119;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Forest Stalker'	-- Forest Stalker
--- WHERE `entry`=120;
+UPDATE `locales_creature` SET
+	`name_loc4`='森林捕猎者'	-- Forest Stalker
+WHERE `entry`=120;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='迪菲亚巡路者'	-- Defias Pathstalker
@@ -326,10 +326,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='杂货供应商'	-- General Supplies
 WHERE `entry`=152;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bethina'	-- Bethina
--- 	`subname_loc4`='iCoke Redemption Vendor'	-- iCoke Redemption Vendor
--- WHERE `entry`=153;
+UPDATE `locales_creature` SET
+	`name_loc4`='贝希娜'	-- Bethina
+	`subname_loc4`='可口可乐兑奖使者'	-- iCoke Redemption Vendor
+WHERE `entry`=153;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='大碎尸鸟'	-- Greater Fleshripper
@@ -399,7 +399,7 @@ WHERE `entry`=199;
 -- WHERE `entry`=201;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='腐烂恐魔'	-- Skeletal Horror
+	`name_loc4`='恐怖骸骨'	-- Skeletal Horror
 WHERE `entry`=202;
 
 UPDATE `locales_creature` SET
@@ -434,9 +434,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='噬骨者'	-- Bone Chewer
 WHERE `entry`=210;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ogre'	-- Ogre
--- WHERE `entry`=211;
+UPDATE `locales_creature` SET
+	`name_loc4`='食人魔'	-- Ogre
+WHERE `entry`=211;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='裂拳战士'	-- Splinter Fist Warrior
@@ -468,10 +468,10 @@ WHERE `entry`=218;
 -- 	`subname_loc4`='Weaponsmith'	-- Weaponsmith
 -- WHERE `entry`=220;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dannus'	-- Dannus
--- 	`subname_loc4`='Merchant'	-- Merchant
--- WHERE `entry`=221;
+UPDATE `locales_creature` SET
+	`name_loc4`='丹努斯'	-- Dannus
+	`subname_loc4`='商人'	-- Merchant
+WHERE `entry`=221;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='尼尔伦·安德玛'	-- Nillen Andemar
@@ -483,10 +483,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='初级制皮师'	-- Journeyman Leatherworker
 WHERE `entry`=223;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Zek Marston'	-- Zek Marston
--- 	`subname_loc4`='Weapon Peddler'	-- Weapon Peddler
--- WHERE `entry`=224;
+UPDATE `locales_creature` SET
+	`name_loc4`='扎克·马斯顿'	-- Zek Marston
+	`subname_loc4`='武器商'	-- Weapon Peddler
+WHERE `entry`=224;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='加文·纳尔特里'	-- Gavin Gnarltree
@@ -512,10 +512,10 @@ WHERE `entry`=228;
 -- 	`name_loc4`='Vaious'	-- Vaious
 -- WHERE `entry`=229;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Thornton Fellwood'	-- Thornton Fellwood
--- 	`subname_loc4`='Woodcrafter'	-- Woodcrafter
--- WHERE `entry`=230;
+UPDATE `locales_creature` SET
+	`name_loc4`='索恩顿·菲尔伍德'	-- Thornton Fellwood
+	`subname_loc4`='木工'	-- Woodcrafter
+WHERE `entry`=230;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='农夫雷恩'	-- Farmer Ray
@@ -526,7 +526,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=233;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='治安官格里安·斯托曼'	-- Gryan Stoutmantle
+	`name_loc4`='格里安·斯托曼'	-- Gryan Stoutmantle
 	`subname_loc4`='人民军'	-- The People's Militia
 WHERE `entry`=234;
 
@@ -554,9 +554,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='雷米'	-- Remy "Two Times"
 WHERE `entry`=241;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Horras Brackwell'	-- Horras Brackwell
--- WHERE `entry`=242;
+UPDATE `locales_creature` SET
+	`name_loc4`='赫拉斯·布拉克威尔'	-- Horras Brackwell
+WHERE `entry`=242;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Greeby Mudwhisker TEST'	-- [UNUSED] Greeby Mudwhisker TEST
@@ -713,16 +713,16 @@ WHERE `entry`=279;
 -- WHERE `entry`=283;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='棕马'	-- Riding Horse (Brown)
+	`name_loc4`='骑乘用马（棕色）'	-- Riding Horse (Brown)
 WHERE `entry`=284;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='鱼人'	-- Murloc
 WHERE `entry`=285;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Old Rotten Gill'	-- Old Rotten Gill
--- WHERE `entry`=286;
+UPDATE `locales_creature` SET
+	`name_loc4`='老不死的基尔'	-- Old Rotten Gill
+WHERE `entry`=286;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Placeholder - Darkhollow Mine'	-- Placeholder - Darkhollow Mine
@@ -785,34 +785,34 @@ UPDATE `locales_creature` SET
 	`name_loc4`='盲眼玛丽'	-- Blind Mary
 WHERE `entry`=302;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Placeholder Interactive Doodad - jk'	-- Placeholder Interactive Doodad - jk
--- 	`subname_loc4`='Use Your Imagination'	-- Use Your Imagination
--- WHERE `entry`=303;
+UPDATE `locales_creature` SET
+	`name_loc4`='Placeholder Interactive Doodad - jk'	-- Placeholder Interactive Doodad - jk
+	`subname_loc4`='自己想象'	-- Use Your Imagination
+WHERE `entry`=303;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='地狱战马'	-- Riding Horse (Felsteed)
+	`name_loc4`='骑乘用马（梦魇）'	-- Riding Horse (Felsteed)
 WHERE `entry`=304;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='白马'	-- Riding Horse (White Stallion)
+	`name_loc4`='骑乘用马（白色）'	-- Riding Horse (White Stallion)
 WHERE `entry`=305;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Riding Horse (Palomino)'	-- Riding Horse (Palomino)
--- WHERE `entry`=306;
+UPDATE `locales_creature` SET
+	`name_loc4`='骑乘用马（褐色）'	-- Riding Horse (Palomino)
+WHERE `entry`=306;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='杂色马'	-- Riding Horse (Pinto)
+	`name_loc4`='骑乘用马（杂色）'	-- Riding Horse (Pinto)
 WHERE `entry`=307;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑马'	-- Riding Horse (Black Stallion)
+	`name_loc4`='骑乘用马（黑色）'	-- Riding Horse (Black Stallion)
 WHERE `entry`=308;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rolf''s corpse'	-- Rolf's corpse
--- WHERE `entry`=309;
+UPDATE `locales_creature` SET
+	`name_loc4`='罗尔夫的尸体'	-- Rolf's corpse
+WHERE `entry`=309;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯温·约根'	-- Sven Yorgen
@@ -891,7 +891,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=331;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='马迪亚斯·肖尔大师'	-- Master Mathias Shaw
+	`name_loc4`='马迪亚斯·肖尔'	-- Master Mathias Shaw
 	`subname_loc4`='军情七处领袖'	-- Leader of SI:7
 WHERE `entry`=332;
 
@@ -963,19 +963,19 @@ UPDATE `locales_creature` SET
 	`name_loc4`='基沙恩下士'	-- Corporal Keeshan
 WHERE `entry`=349;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Peasant'	-- Peasant
--- WHERE `entry`=351;
+UPDATE `locales_creature` SET
+	`name_loc4`='农夫'	-- Peasant
+WHERE `entry`=351;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='杜加尔·朗德瑞克'	-- Dungar Longdrink
 	`subname_loc4`='狮鹫管理员'	-- Gryphon Master
 WHERE `entry`=352;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Antonia Dart'	-- Antonia Dart
--- 	`subname_loc4`='iCoke Redemption Vendor'	-- iCoke Redemption Vendor
--- WHERE `entry`=353;
+UPDATE `locales_creature` SET
+	`name_loc4`='安东尼奥斯·达特'	-- Antonia Dart
+	`subname_loc4`='可口可乐兑奖使者'	-- iCoke Redemption Vendor
+WHERE `entry`=353;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Grall Twomoons'	-- [UNUSED] Grall Twomoons
@@ -983,15 +983,15 @@ WHERE `entry`=352;
 -- WHERE `entry`=354;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑狼'	-- Riding Wolf (Black)
+	`name_loc4`='骑乘用狼（黑色）'	-- Riding Wolf (Black)
 WHERE `entry`=356;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='染病的森林狼'	-- Riding Wolf (Brown)
+	`name_loc4`='骑乘用狼（棕色）'	-- Riding Wolf (Brown)
 WHERE `entry`=358;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='冬狼'	-- Riding Wolf (Winter)
+	`name_loc4`='骑乘用狼（白色）'	-- Riding Wolf (Winter)
 WHERE `entry`=359;
 
 -- UPDATE `locales_creature` SET
@@ -1006,23 +1006,23 @@ WHERE `entry`=359;
 -- 	`name_loc4`='Scott''s Flying Mount'	-- Scott's Flying Mount
 -- WHERE `entry`=365;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Boy'	-- Boy
--- WHERE `entry`=370;
+UPDATE `locales_creature` SET
+	`name_loc4`='小男孩'	-- Boy
+WHERE `entry`=370;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Girl'	-- Girl
--- WHERE `entry`=371;
+UPDATE `locales_creature` SET
+	`name_loc4`='小女孩'	-- Girl
+WHERE `entry`=371;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡姆·铁翎'	-- Karm Ironquill
 	`subname_loc4`='采矿供应商'	-- Mining Supplies
 WHERE `entry`=372;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Murak Winterborn'	-- Murak Winterborn
--- 	`subname_loc4`='Shaman Trainer'	-- Shaman Trainer
--- WHERE `entry`=373;
+UPDATE `locales_creature` SET
+	`name_loc4`='穆拉克·冰角'	-- Murak Winterborn
+	`subname_loc4`='萨满祭司训练师'	-- Shaman Trainer
+WHERE `entry`=373;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='考格·旋轴'	-- Cog Glitzspinner
@@ -1044,7 +1044,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=377;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='达希·帕克'	-- Darcy
+	`name_loc4`='达希'	-- Darcy
 	`subname_loc4`='女服务生'	-- Waitress
 WHERE `entry`=379;
 
@@ -1079,20 +1079,20 @@ WHERE `entry`=385;
 -- 	`subname_loc4`='Wolf Merchant'	-- Wolf Merchant
 -- WHERE `entry`=386;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lord Sammuel'	-- Lord Sammuel
--- 	`subname_loc4`='Master Paladin'	-- Master Paladin
--- WHERE `entry`=387;
+UPDATE `locales_creature` SET
+	`name_loc4`='萨缪尔公爵'	-- Lord Sammuel
+	`subname_loc4`='高阶圣骑士'	-- Master Paladin
+WHERE `entry`=387;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bromos Murphy'	-- Bromos Murphy
--- 	`subname_loc4`='Master Paladin'	-- Master Paladin
--- WHERE `entry`=388;
+UPDATE `locales_creature` SET
+	`name_loc4`='布罗姆斯·墨菲'	-- Bromos Murphy
+	`subname_loc4`='高阶圣骑士'	-- Master Paladin
+WHERE `entry`=388;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lord Lantinga'	-- Lord Lantinga
--- 	`subname_loc4`='Master Paladin'	-- Master Paladin
--- WHERE `entry`=389;
+UPDATE `locales_creature` SET
+	`name_loc4`='兰迪加公爵'	-- Lord Lantinga
+	`subname_loc4`='高阶圣骑士'	-- Master Paladin
+WHERE `entry`=389;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='公主的随从'	-- Porcine Entourage
@@ -1106,16 +1106,16 @@ UPDATE `locales_creature` SET
 	`name_loc4`='葛瑞森船长'	-- Captain Grayson
 WHERE `entry`=392;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tame Wolf'	-- Tame Wolf
--- WHERE `entry`=393;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的狼'	-- Tame Wolf
+WHERE `entry`=393;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='玛库斯'	-- Markus
 WHERE `entry`=395;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='大魔导师杜内'	-- Morganth
+	`name_loc4`='莫甘斯'	-- Morganth
 WHERE `entry`=397;
 
 -- UPDATE `locales_creature` SET
@@ -1187,9 +1187,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='地狱猎犬'	-- Felhunter
 WHERE `entry`=417;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lesser Voidwalker'	-- Lesser Voidwalker
--- WHERE `entry`=418;
+UPDATE `locales_creature` SET
+	`name_loc4`='次级虚空行者'	-- Lesser Voidwalker
+WHERE `entry`=418;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Murphestos'	-- Murphestos
@@ -1327,7 +1327,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=462;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='卫兵队长帕克'	-- Guard Parker
+	`name_loc4`='卫兵帕克'	-- Guard Parker
 WHERE `entry`=464;
 
 UPDATE `locales_creature` SET
@@ -1369,7 +1369,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=473;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='流浪巫师'	-- Defias Rogue Wizard
+	`name_loc4`='迪菲亚流浪巫师'	-- Defias Rogue Wizard
 WHERE `entry`=474;
 
 UPDATE `locales_creature` SET
@@ -1512,7 +1512,7 @@ WHERE `entry`=513;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='铁匠阿古斯'	-- Smith Argus
-	`subname_loc4`='锻造训练师'	-- Journeyman Blacksmith
+	`subname_loc4`='初级铁匠'	-- Journeyman Blacksmith
 WHERE `entry`=514;
 
 UPDATE `locales_creature` SET
@@ -1592,14 +1592,14 @@ UPDATE `locales_creature` SET
 	`name_loc4`='狮鹫'	-- Riding Gryphon
 WHERE `entry`=541;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Califex of the Deep Wood'	-- Califex of the Deep Wood
--- 	`subname_loc4`='Druid Trainer'	-- Druid Trainer
--- WHERE `entry`=542;
+UPDATE `locales_creature` SET
+	`name_loc4`='卡利菲克斯'	-- Califex of the Deep Wood
+	`subname_loc4`='德鲁伊训练师'	-- Druid Trainer
+WHERE `entry`=542;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='纳雷塞特'	-- Nalesette Wildbringer
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=543;
 
 UPDATE `locales_creature` SET
@@ -1622,21 +1622,21 @@ UPDATE `locales_creature` SET
 	`name_loc4`='迪菲亚信使'	-- Defias Messenger
 WHERE `entry`=550;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kobold Slave'	-- Kobold Slave
--- WHERE `entry`=564;
+UPDATE `locales_creature` SET
+	`name_loc4`='狗头人奴隶'	-- Kobold Slave
+WHERE `entry`=564;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='疯狂的恐狼'	-- Rabid Dire Wolf
 WHERE `entry`=565;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='V''rex'	-- V'rex
--- WHERE `entry`=566;
+UPDATE `locales_creature` SET
+	`name_loc4`='维里克斯'	-- V'rex
+WHERE `entry`=566;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blacknails'	-- Blacknails
--- WHERE `entry`=567;
+UPDATE `locales_creature` SET
+	`name_loc4`='黑爪'	-- Blacknails
+WHERE `entry`=567;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='暗皮战士'	-- Shadowhide Warrior
@@ -1688,7 +1688,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=582;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='伏击者'	-- Defias Ambusher
+	`name_loc4`='迪菲亚伏击者'	-- Defias Ambusher
 WHERE `entry`=583;
 
 UPDATE `locales_creature` SET
@@ -1740,19 +1740,19 @@ UPDATE `locales_creature` SET
 WHERE `entry`=598;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='魔理莎·杜派格'	-- Marisa du'Paige
+	`name_loc4`='玛里莎·杜派格'	-- Marisa du'Paige
 WHERE `entry`=599;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Capo the Mean'	-- Capo the Mean
--- WHERE `entry`=601;
+UPDATE `locales_creature` SET
+	`name_loc4`='守财奴卡波尔'	-- Capo the Mean
+WHERE `entry`=601;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格瑞图斯'	-- Grimtooth
 WHERE `entry`=603;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾食尸鬼'	-- Plague Spreader
+	`name_loc4`='瘟疫食尸鬼'	-- Plague Spreader
 WHERE `entry`=604;
 
 -- UPDATE `locales_creature` SET
@@ -1847,9 +1847,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='迪菲亚黑衣卫兵'	-- Defias Blackguard
 WHERE `entry`=636;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Goblin Mercenary'	-- Goblin Mercenary
--- WHERE `entry`=638;
+UPDATE `locales_creature` SET
+	`name_loc4`='地精雇佣兵'	-- Goblin Mercenary
+WHERE `entry`=638;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='艾德温·范克里夫'	-- Edwin VanCleef
@@ -1889,29 +1889,29 @@ UPDATE `locales_creature` SET
 	`name_loc4`='绿皮队长'	-- Captain Greenskin
 WHERE `entry`=647;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bridge Worker Trent'	-- Bridge Worker Trent
--- WHERE `entry`=648;
+UPDATE `locales_creature` SET
+	`name_loc4`='桥梁工人特伦特'	-- Bridge Worker Trent
+WHERE `entry`=648;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bridge Worker Dmitri'	-- Bridge Worker Dmitri
--- WHERE `entry`=649;
+UPDATE `locales_creature` SET
+	`name_loc4`='桥梁工人德米崔'	-- Bridge Worker Dmitri
+WHERE `entry`=649;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bridge Worker Jess'	-- Bridge Worker Jess
--- WHERE `entry`=650;
+UPDATE `locales_creature` SET
+	`name_loc4`='桥梁工人杰斯'	-- Bridge Worker Jess
+WHERE `entry`=650;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bridge Worker Daniel'	-- Bridge Worker Daniel
--- WHERE `entry`=651;
+UPDATE `locales_creature` SET
+	`name_loc4`='桥梁工人丹尼尔'	-- Bridge Worker Daniel
+WHERE `entry`=651;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bridge Worker Matthew'	-- Bridge Worker Matthew
--- WHERE `entry`=652;
+UPDATE `locales_creature` SET
+	`name_loc4`='桥梁工人马泰'	-- Bridge Worker Matthew
+WHERE `entry`=652;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bridge Worker Alex'	-- Bridge Worker Alex
--- WHERE `entry`=653;
+UPDATE `locales_creature` SET
+	`name_loc4`='桥梁工人亚历克斯'	-- Bridge Worker Alex
+WHERE `entry`=653;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='维尔德·蓟草'	-- Wilder Thistlenettle
@@ -2038,10 +2038,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='次级水元素'	-- Lesser Water Elemental
 WHERE `entry`=691;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Secondary Skill Trainer'	-- Secondary Skill Trainer
--- 	`subname_loc4`='Trainer'	-- Trainer
--- WHERE `entry`=693;
+UPDATE `locales_creature` SET
+	`name_loc4`='Secondary Skill Trainer'	-- Secondary Skill Trainer
+	`subname_loc4`='训练师'	-- Trainer
+WHERE `entry`=693;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='血顶掷斧者'	-- Bloodscalp Axe Thrower
@@ -2063,9 +2063,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='血顶兽王'	-- Bloodscalp Beastmaster
 WHERE `entry`=699;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bloodscalp Panther'	-- Bloodscalp Panther
--- WHERE `entry`=700;
+UPDATE `locales_creature` SET
+	`name_loc4`='血顶猎豹'	-- Bloodscalp Panther
+WHERE `entry`=700;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='血顶秘法师'	-- Bloodscalp Mystic
@@ -2076,7 +2076,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=702;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='范高雷将军'	-- Lieutenant Fangore
+	`name_loc4`='范高雷中尉'	-- Lieutenant Fangore
 WHERE `entry`=703;
 
 UPDATE `locales_creature` SET
@@ -2088,7 +2088,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=705;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='霜鬃巨魔新兵'	-- Frostmane Troll Whelp
+	`name_loc4`='霜鬃巨魔幼崽'	-- Frostmane Troll Whelp
 WHERE `entry`=706;
 
 UPDATE `locales_creature` SET
@@ -2123,9 +2123,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='塔林·锐眼'	-- Talin Keeneye
 WHERE `entry`=714;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Hemet Nesingwary'	-- Hemet Nesingwary
--- WHERE `entry`=715;
+UPDATE `locales_creature` SET
+	`name_loc4`='赫米特·奈辛瓦里'	-- Hemet Nesingwary
+WHERE `entry`=715;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巴尼尔·石罐'	-- Barnil Stonepot
@@ -2148,7 +2148,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=723;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='壮实的石腭穴居人'	-- Burly Rockjaw Trogg
+	`name_loc4`='壮实的石腭怪'	-- Burly Rockjaw Trogg
 WHERE `entry`=724;
 
 -- UPDATE `locales_creature` SET
@@ -2233,16 +2233,16 @@ UPDATE `locales_creature` SET
 WHERE `entry`=745;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='龙人长者'	-- Elder Dragonkin
+	`name_loc4`='刃鳞龙人长者'	-- Elder Dragonkin
 WHERE `entry`=746;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='沼泽鱼人'	-- Marsh Murloc
 WHERE `entry`=747;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Marsh Murkdweller'	-- Marsh Murkdweller
--- WHERE `entry`=749;
+UPDATE `locales_creature` SET
+	`name_loc4`='沼泽暗居鱼人'	-- Marsh Murkdweller
+WHERE `entry`=749;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='沼泽喷墨鱼人'	-- Marsh Inkspewer
@@ -2261,7 +2261,7 @@ WHERE `entry`=752;
 -- WHERE `entry`=753;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='反叛军哨兵'	-- Rebel Watchman
+	`name_loc4`='叛军哨兵'	-- Rebel Watchman
 WHERE `entry`=754;
 
 UPDATE `locales_creature` SET
@@ -2276,9 +2276,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='失落者渔夫'	-- Lost One Fisherman
 WHERE `entry`=757;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Skullsplitter Tiger'	-- Skullsplitter Tiger
--- WHERE `entry`=758;
+UPDATE `locales_creature` SET
+	`name_loc4`='劈颅猛虎'	-- Skullsplitter Tiger
+WHERE `entry`=758;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='失落者猎人'	-- Lost One Hunter
@@ -2383,12 +2383,12 @@ WHERE `entry`=787;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='金伯利·海特'	-- Kimberly Hiett
-	`subname_loc4`='弓箭商'	-- Fletcher
+	`subname_loc4`='造箭师'	-- Fletcher
 WHERE `entry`=789;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡伦·泰勒'	-- Karen Taylor
-	`subname_loc4`='锻造和矿工供应商'	-- Mining and Smithing Supplies
+	`subname_loc4`='采矿和铁匠供应商'	-- Mining and Smithing Supplies
 WHERE `entry`=790;
 
 UPDATE `locales_creature` SET
@@ -2546,7 +2546,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=831;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='自由的飓风'	-- Dust Devil
+	`name_loc4`='尘魔'	-- Dust Devil
 WHERE `entry`=832;
 
 UPDATE `locales_creature` SET
@@ -2572,10 +2572,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='守夜人'	-- The Night Watch
 WHERE `entry`=840;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Harl Cutter'	-- Harl Cutter
--- 	`subname_loc4`='Woodcrafting Supplier'	-- Woodcrafting Supplier
--- WHERE `entry`=841;
+UPDATE `locales_creature` SET
+	`name_loc4`='哈尔·卡特'	-- Harl Cutter
+	`subname_loc4`='木工物资供应商'	-- Woodcrafting Supplier
+WHERE `entry`=841;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='伐木工'	-- Lumberjack
@@ -2583,7 +2583,7 @@ WHERE `entry`=842;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='吉娜·马克葛瑞格'	-- Gina MacGregor
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=843;
 
 UPDATE `locales_creature` SET
@@ -2592,7 +2592,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=844;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='腐化的食尸鬼'	-- Ghoul
+	`name_loc4`='食尸鬼'	-- Ghoul
 WHERE `entry`=846;
 
 UPDATE `locales_creature` SET
@@ -2641,16 +2641,16 @@ UPDATE `locales_creature` SET
 WHERE `entry`=857;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='悲伤沼泽织网蛛'	-- Sorrow Spinner
+	`name_loc4`='沼泽纺丝蛛'	-- Sorrow Spinner
 WHERE `entry`=858;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卫兵伯尔顿'	-- Guard Berton
 WHERE `entry`=859;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Pet Wolf'	-- Pet Wolf
--- WHERE `entry`=860;
+UPDATE `locales_creature` SET
+	`name_loc4`='宠物狼'	-- Pet Wolf
+WHERE `entry`=860;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯通纳德斥候'	-- Stonard Scout
@@ -2737,9 +2737,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='苏伦娜·凯尔东'	-- Surena Caledon
 WHERE `entry`=881;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bone Caster'	-- Bone Caster
--- WHERE `entry`=882;
+UPDATE `locales_creature` SET
+	`name_loc4`='白骨法师'	-- Bone Caster
+WHERE `entry`=882;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='鹿'	-- Deer
@@ -2838,7 +2838,7 @@ WHERE `entry`=907;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='弗洛拉·希沃温德'	-- Flora Silverwind
-	`subname_loc4`='草药学训练师'	-- Superior Herbalist
+	`subname_loc4`='高级采药师'	-- Superior Herbalist
 WHERE `entry`=908;
 
 UPDATE `locales_creature` SET
@@ -2934,10 +2934,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='圣骑士训练师'	-- Paladin Trainer
 WHERE `entry`=928;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dreadlord Malganis'	-- Dreadlord Malganis
--- 	`subname_loc4`='Overfiend'	-- Overfiend
--- WHERE `entry`=929;
+UPDATE `locales_creature` SET
+	`name_loc4`='恐惧魔王玛尔加尼斯'	-- Dreadlord Malganis
+	`subname_loc4`='恶魔之王'	-- Overfiend
+WHERE `entry`=929;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='小型黑寡妇蜘蛛'	-- Black Widow Hatchling
@@ -3057,7 +3057,7 @@ WHERE `entry`=956;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='丹恩·林德雷'	-- Dane Lindgren
-	`subname_loc4`='锻造训练师'	-- Journeyman Blacksmith
+	`subname_loc4`='初级铁匠'	-- Journeyman Blacksmith
 WHERE `entry`=957;
 
 UPDATE `locales_creature` SET
@@ -3112,7 +3112,7 @@ WHERE `entry`=982;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='苏塔佐尔'	-- Thultazor
-	`subname_loc4`='炼金术和材料供应商'	-- Arcane Goods Vendor
+	`subname_loc4`='魔法货物商人'	-- Arcane Goods Vendor
 WHERE `entry`=983;
 
 UPDATE `locales_creature` SET
@@ -3142,21 +3142,21 @@ WHERE `entry`=988;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巴纳拉什'	-- Banalash
-	`subname_loc4`='贸易供应商'	-- Trade Goods
+	`subname_loc4`='商人'	-- Trade Goods
 WHERE `entry`=989;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Nahr''ek da Howler'	-- Nahr'ek da Howler
--- WHERE `entry`=994;
+UPDATE `locales_creature` SET
+	`name_loc4`='嚎叫者纳瑞克'	-- Nahr'ek da Howler
+WHERE `entry`=994;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Nahr''ek''s Pack'	-- Nahr'ek's Pack
--- WHERE `entry`=995;
+UPDATE `locales_creature` SET
+	`name_loc4`='纳瑞克的驯狼'	-- Nahr'ek's Pack
+WHERE `entry`=995;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Master Tailor'	-- Master Tailor
--- 	`subname_loc4`='Cheesy Test Tailor'	-- Cheesy Test Tailor
--- WHERE `entry`=996;
+UPDATE `locales_creature` SET
+	`name_loc4`='高级裁缝'	-- Master Tailor
+	`subname_loc4`='Cheesy Test Tailor'	-- Cheesy Test Tailor
+WHERE `entry`=996;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='守夜人罗伊斯'	-- Watcher Royce
@@ -3164,7 +3164,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=999;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='守夜人布伦伯格'	-- Watcher Blomberg
+	`name_loc4`='守夜人布洛伯格'	-- Watcher Blomberg
 	`subname_loc4`='守夜人'	-- The Night Watch
 WHERE `entry`=1000;
 
@@ -3365,13 +3365,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='黑铁爆破手'	-- Dark Iron Demolitionist
 WHERE `entry`=1054;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dreamhunter'	-- Dreamhunter
--- WHERE `entry`=1055;
+UPDATE `locales_creature` SET
+	`name_loc4`='猎梦者'	-- Dreamhunter
+WHERE `entry`=1055;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Emerald Sentinel'	-- Emerald Sentinel
--- WHERE `entry`=1056;
+UPDATE `locales_creature` SET
+	`name_loc4`='翡翠哨兵'	-- Emerald Sentinel
+WHERE `entry`=1056;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='龙喉白骨守卫'	-- Dragonmaw Bonewarder
@@ -3382,13 +3382,13 @@ WHERE `entry`=1057;
 -- WHERE `entry`=1058;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='野蛮的安纳希克'	-- Ana'thek the Cruel
-	`subname_loc4`='劈颅部族酋长'	-- Skullsplitter Chief
+	`name_loc4`='残忍的安纳希克'	-- Ana'thek the Cruel
+	`subname_loc4`='碎颅酋长'	-- Skullsplitter Chief
 WHERE `entry`=1059;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='死灵莫格'	-- Mogh the Undying
-	`subname_loc4`='劈颅部族巫医'	-- Skullsplitter Clan Witchdoctor
+	`subname_loc4`='碎颅部族巫医'	-- Skullsplitter Clan Witchdoctor
 WHERE `entry`=1060;
 
 UPDATE `locales_creature` SET
@@ -3402,7 +3402,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1062;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='翡翠'	-- Jade
+	`name_loc4`='玉龙'	-- Jade
 WHERE `entry`=1063;
 
 UPDATE `locales_creature` SET
@@ -3418,9 +3418,9 @@ WHERE `entry`=1065;
 -- 	`subname_loc4`='UNUSED'	-- UNUSED
 -- WHERE `entry`=1066;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Riverpaw Scavenger'	-- Riverpaw Scavenger
--- WHERE `entry`=1067;
+UPDATE `locales_creature` SET
+	`name_loc4`='河爪食腐者'	-- Riverpaw Scavenger
+WHERE `entry`=1067;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='高恩'	-- Gorn
@@ -3435,7 +3435,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1070;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='坚毅者长须'	-- Longbraid the Grim
+	`name_loc4`='布莱德·长须'	-- Longbraid the Grim
 WHERE `entry`=1071;
 
 UPDATE `locales_creature` SET
@@ -3554,7 +3554,7 @@ WHERE `entry`=1101;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='艾尔丁'	-- Eldrin
-	`subname_loc4`='裁缝训练师'	-- Journeyman Tailor
+	`subname_loc4`='初级裁缝'	-- Journeyman Tailor
 WHERE `entry`=1103;
 
 UPDATE `locales_creature` SET
@@ -3572,11 +3572,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1106;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='薄雾谷猩猩'	-- Mistvale Gorilla
+	`name_loc4`='迷雾谷猩猩'	-- Mistvale Gorilla
 WHERE `entry`=1108;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='血肉撕裂者'	-- Fleshripper
+	`name_loc4`='碎尸鸟'	-- Fleshripper
 WHERE `entry`=1109;
 
 UPDATE `locales_creature` SET
@@ -3612,7 +3612,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1118;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='锤脊'	-- Hammerspine
+	`name_loc4`='雪盲石腭怪'	-- Hammerspine
 WHERE `entry`=1119;
 
 UPDATE `locales_creature` SET
@@ -3805,9 +3805,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='黑铁叛军'	-- Dark Iron Insurgent
 WHERE `entry`=1169;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dark Iron Guerrilla'	-- Dark Iron Guerrilla
--- WHERE `entry`=1171;
+UPDATE `locales_creature` SET
+	`name_loc4`='黑铁游击队员'	-- Dark Iron Guerrilla
+WHERE `entry`=1171;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='坑道鼠歹徒'	-- Tunnel Rat Vermin
@@ -3867,7 +3867,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1185;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑熊'	-- Elder Black Bear
+	`name_loc4`='老黑熊'	-- Elder Black Bear
 WHERE `entry`=1186;
 
 UPDATE `locales_creature` SET
@@ -3981,7 +3981,7 @@ WHERE `entry`=1214;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='炼金师玛洛瑞'	-- Alchemist Mallory
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist
+	`subname_loc4`='初级炼金师'	-- Journeyman Alchemist
 WHERE `entry`=1215;
 
 UPDATE `locales_creature` SET
@@ -4006,7 +4006,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1224;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='老黑炭'	-- Ol' Sooty
+	`name_loc4`='奥尔苏迪'	-- Ol' Sooty
 WHERE `entry`=1225;
 
 UPDATE `locales_creature` SET
@@ -4014,10 +4014,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='牧师训练师'	-- Priest Trainer
 WHERE `entry`=1226;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rygal Rocknell'	-- Rygal Rocknell
--- 	`subname_loc4`='iCoke Redemption Vendor'	-- iCoke Redemption Vendor
--- WHERE `entry`=1227;
+UPDATE `locales_creature` SET
+	`name_loc4`='雷加尔·洛克尼尔'	-- Rygal Rocknell
+	`subname_loc4`='可口可乐兑奖使者'	-- iCoke Redemption Vendor
+WHERE `entry`=1227;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='玛济斯·石衣'	-- Magis Sparkmantle
@@ -4084,7 +4084,7 @@ WHERE `entry`=1240;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='托格努斯·燧火'	-- Tognus Flintfire
-	`subname_loc4`='锻造训练师'	-- Journeyman Blacksmith
+	`subname_loc4`='初级铁匠'	-- Journeyman Blacksmith
 WHERE `entry`=1241;
 
 UPDATE `locales_creature` SET
@@ -4106,7 +4106,7 @@ WHERE `entry`=1245;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='沃萨·布拉克塞尔'	-- Vosur Brakthel
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist
+	`subname_loc4`='初级炼金师'	-- Journeyman Alchemist
 WHERE `entry`=1246;
 
 UPDATE `locales_creature` SET
@@ -4154,7 +4154,7 @@ WHERE `entry`=1256;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='凯德雷克·布舍尔'	-- Keldric Boucher
-	`subname_loc4`='炼金术和材料供应商'	-- Arcane Goods Vendor
+	`subname_loc4`='魔法货物商人'	-- Arcane Goods Vendor
 WHERE `entry`=1257;
 
 UPDATE `locales_creature` SET
@@ -4174,9 +4174,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='山羊饲养者'	-- Ram Breeder
 WHERE `entry`=1261;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='White Ram'	-- White Ram
--- WHERE `entry`=1262;
+UPDATE `locales_creature` SET
+	`name_loc4`='白山羊'	-- White Ram
+WHERE `entry`=1262;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='亚尔林·冻石'	-- Yarlyn Amberstill
@@ -4221,7 +4221,7 @@ WHERE `entry`=1274;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='凯拉·布舍尔'	-- Kyra Boucher
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=1275;
 
 UPDATE `locales_creature` SET
@@ -4267,7 +4267,7 @@ WHERE `entry`=1285;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='艾德娜·穆比'	-- Edna Mullby
-	`subname_loc4`='贸易供应商'	-- Trade Supplier
+	`subname_loc4`='商人'	-- Trade Supplier
 WHERE `entry`=1286;
 
 UPDATE `locales_creature` SET
@@ -4327,7 +4327,7 @@ WHERE `entry`=1297;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='弗德瑞克·斯图瓦'	-- Frederick Stover
-	`subname_loc4`='弓箭商人'	-- Bow & Arrow Merchant
+	`subname_loc4`='弓箭商'	-- Bow & Arrow Merchant
 WHERE `entry`=1298;
 
 UPDATE `locales_creature` SET
@@ -4337,7 +4337,7 @@ WHERE `entry`=1299;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='劳伦斯·瑟尼德'	-- Lawrence Schneider
-	`subname_loc4`='裁缝训练师'	-- Journeyman Tailor
+	`subname_loc4`='初级裁缝'	-- Journeyman Tailor
 WHERE `entry`=1300;
 
 UPDATE `locales_creature` SET
@@ -4377,7 +4377,7 @@ WHERE `entry`=1307;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='欧文·沃弗恩'	-- Owen Vaughn
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=1308;
 
 UPDATE `locales_creature` SET
@@ -4422,7 +4422,7 @@ WHERE `entry`=1316;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='鲁坎·考迪尔'	-- Lucan Cordell
-	`subname_loc4`='附魔训练师'	-- Expert Enchanter
+	`subname_loc4`='中级附魔师'	-- Expert Enchanter
 WHERE `entry`=1317;
 
 UPDATE `locales_creature` SET
@@ -4540,7 +4540,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1342;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='巡山人雷矛'	-- Mountaineer Stormpike
+	`name_loc4`='巡山人卡尔·雷矛'	-- Mountaineer Stormpike
 WHERE `entry`=1343;
 
 UPDATE `locales_creature` SET
@@ -4553,7 +4553,7 @@ WHERE `entry`=1345;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='乔吉奥·波利罗'	-- Georgio Bolero
-	`subname_loc4`='裁缝训练师'	-- Artisan Tailor
+	`subname_loc4`='高级裁缝'	-- Artisan Tailor
 WHERE `entry`=1346;
 
 UPDATE `locales_creature` SET
@@ -4578,7 +4578,7 @@ WHERE `entry`=1350;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡苏斯修士'	-- Brother Cassius
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=1351;
 
 UPDATE `locales_creature` SET
@@ -4686,27 +4686,27 @@ WHERE `entry`=1381;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='玛杜克'	-- Mudduk
-	`subname_loc4`='烹饪训练师'	-- Superior Cook
+	`subname_loc4`='高级厨师'	-- Superior Cook
 WHERE `entry`=1382;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯纳尔'	-- Snarl
-	`subname_loc4`='初级铁匠'	-- Expert Blacksmith
+	`subname_loc4`='中级铁匠'	-- Expert Blacksmith
 WHERE `entry`=1383;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Z''tark'	-- Z'tark
--- 	`subname_loc4`='Superior Miner'	-- Superior Miner
--- WHERE `entry`=1384;
+UPDATE `locales_creature` SET
+	`name_loc4`='兹塔克'	-- Z'tark
+	`subname_loc4`='高级矿工'	-- Superior Miner
+WHERE `entry`=1384;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='布劳恩'	-- Brawn
-	`subname_loc4`='制皮训练师'	-- Expert Leatherworker
+	`subname_loc4`='中级制皮师'	-- Expert Leatherworker
 WHERE `entry`=1385;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='罗格瓦尔'	-- Rogvar
-	`subname_loc4`='炼金术训练师'	-- Master Alchemist
+	`subname_loc4`='大师级炼金师'	-- Master Alchemist
 WHERE `entry`=1386;
 
 UPDATE `locales_creature` SET
@@ -4718,9 +4718,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='瓦加什'	-- Vagash
 WHERE `entry`=1388;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Xon'	-- Xon
--- WHERE `entry`=1392;
+UPDATE `locales_creature` SET
+	`name_loc4`='科松'	-- Xon
+WHERE `entry`=1392;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='狂暴穴居人'	-- Berserk Trogg
@@ -4756,10 +4756,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='托普·麦克纳布'	-- Topper McNabb
 WHERE `entry`=1402;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mogwah'	-- Mogwah
--- 	`subname_loc4`='Warrior Trainer'	-- Warrior Trainer
--- WHERE `entry`=1403;
+UPDATE `locales_creature` SET
+	`name_loc4`='摩格瓦'	-- Mogwah
+	`subname_loc4`='战士训练师'	-- Warrior Trainer
+WHERE `entry`=1403;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克拉格'	-- Kragg
@@ -4770,30 +4770,30 @@ UPDATE `locales_creature` SET
 	`name_loc4`='莫里斯·劳瑞'	-- Morris Lawry
 WHERE `entry`=1405;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ghok'	-- Ghok
--- 	`subname_loc4`='Shaman Trainer'	-- Shaman Trainer
--- WHERE `entry`=1406;
+UPDATE `locales_creature` SET
+	`name_loc4`='高克'	-- Ghok
+	`subname_loc4`='萨满祭司训练师'	-- Shaman Trainer
+WHERE `entry`=1406;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯兰达'	-- Sranda
 	`subname_loc4`='轻甲商'	-- Light Armor & Weapons Merchant
 WHERE `entry`=1407;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Thragg'	-- Thragg
--- 	`subname_loc4`='Warlock Trainer'	-- Warlock Trainer
--- WHERE `entry`=1408;
+UPDATE `locales_creature` SET
+	`name_loc4`='斯拉格'	-- Thragg
+	`subname_loc4`='术士训练师'	-- Warlock Trainer
+WHERE `entry`=1408;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Moorah Stormhoof'	-- Moorah Stormhoof
--- 	`subname_loc4`='Druid Trainer'	-- Druid Trainer
--- WHERE `entry`=1409;
+UPDATE `locales_creature` SET
+	`name_loc4`='摩拉恩·雷蹄'	-- Moorah Stormhoof
+	`subname_loc4`='德鲁伊训练师'	-- Druid Trainer
+WHERE `entry`=1409;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Loranna Dawnfyre UNUSED (Reuse me)'	-- Loranna Dawnfyre UNUSED (Reuse me)
--- 	`subname_loc4`='Priest Trainer'	-- Priest Trainer
--- WHERE `entry`=1410;
+UPDATE `locales_creature` SET
+	`name_loc4`='Loranna Dawnfyre UNUSED (Reuse me)'	-- Loranna Dawnfyre UNUSED (Reuse me)
+	`subname_loc4`='牧师训练师'	-- Priest Trainer
+WHERE `entry`=1410;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='伊安·斯托姆'	-- Ian Strom
@@ -4854,7 +4854,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1424;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='卡布'	-- Grizlak
+	`name_loc4`='格瑞兹拉克'	-- Grizlak
 WHERE `entry`=1425;
 
 UPDATE `locales_creature` SET
@@ -4875,7 +4875,7 @@ WHERE `entry`=1429;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='厨师托马斯'	-- Tomas
-	`subname_loc4`='烹饪训练师'	-- Cook
+	`subname_loc4`='厨师'	-- Cook
 WHERE `entry`=1430;
 
 UPDATE `locales_creature` SET
@@ -5017,12 +5017,12 @@ WHERE `entry`=1461;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='艾德温娜·蒙佐尔'	-- Edwina Monzor
-	`subname_loc4`='弓箭商'	-- Fletcher
+	`subname_loc4`='造箭师'	-- Fletcher
 WHERE `entry`=1462;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='法尔坎·阿莫尼斯'	-- Falkan Armonis
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=1463;
 
 UPDATE `locales_creature` SET
@@ -5045,10 +5045,10 @@ WHERE `entry`=1466;
 -- 	`subname_loc4`='Weaponsmith <Temp>'	-- Weaponsmith <Temp>
 -- WHERE `entry`=1467;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kargh Steelspine'	-- Kargh Steelspine
--- 	`subname_loc4`='Armorer'	-- Armorer
--- WHERE `entry`=1468;
+UPDATE `locales_creature` SET
+	`name_loc4`='卡恩·钢脊'	-- Kargh Steelspine
+	`subname_loc4`='护甲商'	-- Armorer
+WHERE `entry`=1468;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='维罗克·乱枪'	-- Vrok Blunderblast
@@ -5057,7 +5057,7 @@ WHERE `entry`=1469;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='加克'	-- Ghak Healtouch
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist
+	`subname_loc4`='初级炼金师'	-- Journeyman Alchemist
 WHERE `entry`=1470;
 
 UPDATE `locales_creature` SET
@@ -5071,7 +5071,7 @@ WHERE `entry`=1472;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡利'	-- Kali Healtouch
-	`subname_loc4`='草药学训练师'	-- Herbalist
+	`subname_loc4`='采药人'	-- Herbalist
 WHERE `entry`=1473;
 
 UPDATE `locales_creature` SET
@@ -5150,7 +5150,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1492;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='切割者摩卡什'	-- Mok'rash
+	`name_loc4`='摩卡什'	-- Mok'rash
 WHERE `entry`=1493;
 
 UPDATE `locales_creature` SET
@@ -5186,7 +5186,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1501;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='无脑的食尸鬼'	-- Wretched Zombie
+	`name_loc4`='丑陋的僵尸'	-- Wretched Zombie
 WHERE `entry`=1502;
 
 UPDATE `locales_creature` SET
@@ -5239,7 +5239,7 @@ WHERE `entry`=1516;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='药剂师乔汉'	-- Apothecary Johaan
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=1518;
 
 UPDATE `locales_creature` SET
@@ -5326,9 +5326,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='血色前锋'	-- Scarlet Vanguard
 WHERE `entry`=1540;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Vile Fin Murloc'	-- Vile Fin Murloc
--- WHERE `entry`=1541;
+UPDATE `locales_creature` SET
+	`name_loc4`='邪鳍鱼人'	-- Vile Fin Murloc
+WHERE `entry`=1541;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='邪鳍污水鱼人'	-- Vile Fin Puddlejumper
@@ -5384,7 +5384,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1555;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='老迈的薄雾谷猩猩'	-- Elder Mistvale Gorilla
+	`name_loc4`='老迈的迷雾谷猩猩'	-- Elder Mistvale Gorilla
 WHERE `entry`=1557;
 
 UPDATE `locales_creature` SET
@@ -5425,7 +5425,7 @@ WHERE `entry`=1565;
 -- WHERE `entry`=1567;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='送葬者摩尔多'	-- Undertaker Mordo
+	`name_loc4`='管理员摩尔多'	-- Undertaker Mordo
 WHERE `entry`=1568;
 
 UPDATE `locales_creature` SET
@@ -5742,7 +5742,7 @@ WHERE `entry`=1650;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='李·布朗'	-- Lee Brown
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=1651;
 
 UPDATE `locales_creature` SET
@@ -5837,7 +5837,7 @@ WHERE `entry`=1672;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥利萨·伊瓦'	-- Alyssa Eva
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=1673;
 
 UPDATE `locales_creature` SET
@@ -5850,7 +5850,7 @@ WHERE `entry`=1675;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='芬布斯'	-- Finbus Geargrind
-	`subname_loc4`='工程学训练师'	-- Expert Engineer
+	`subname_loc4`='中级技师'	-- Expert Engineer
 WHERE `entry`=1676;
 
 -- UPDATE `locales_creature` SET
@@ -5860,7 +5860,7 @@ WHERE `entry`=1676;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='沃农·黑尔'	-- Vernon Hale
-	`subname_loc4`='渔具供应商'	-- Bait and Tackle Supplier
+	`subname_loc4`='鱼饵和渔具'	-- Bait and Tackle Supplier
 WHERE `entry`=1678;
 
 UPDATE `locales_creature` SET
@@ -5869,7 +5869,7 @@ WHERE `entry`=1679;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='马修·胡柏'	-- Matthew Hooper
-	`subname_loc4`='钓鱼训练师'	-- Fishing Trainer
+	`subname_loc4`='渔具供应商'	-- Fishing Trainer
 WHERE `entry`=1680;
 
 UPDATE `locales_creature` SET
@@ -5884,7 +5884,7 @@ WHERE `entry`=1682;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瓦格·深水'	-- Warg Deepwater
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=1683;
 
 UPDATE `locales_creature` SET
@@ -5965,7 +5965,7 @@ WHERE `entry`=1699;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='帕克斯顿·冈特尔'	-- Paxton Ganter
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=1700;
 
 UPDATE `locales_creature` SET
@@ -5975,16 +5975,16 @@ WHERE `entry`=1701;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='布隆克'	-- Bronk Guzzlegear
-	`subname_loc4`='工程学训练师'	-- Journeyman Engineer
+	`subname_loc4`='初级技师'	-- Journeyman Engineer
 WHERE `entry`=1702;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='阿斯拉·瑞克斯'	-- Uthrar Threx
-	`subname_loc4`='裁缝训练师'	-- Journeyman Tailor
+	`subname_loc4`='初级裁缝'	-- Journeyman Tailor
 WHERE `entry`=1703;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='囚徒'	-- Defias Prisoner
+	`name_loc4`='迪菲亚囚徒'	-- Defias Prisoner
 WHERE `entry`=1706;
 
 UPDATE `locales_creature` SET
@@ -5996,7 +5996,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1708;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='罪犯'	-- Defias Convict
+	`name_loc4`='迪菲亚罪犯'	-- Defias Convict
 WHERE `entry`=1711;
 
 UPDATE `locales_creature` SET
@@ -6008,7 +6008,7 @@ WHERE `entry`=1713;
 -- WHERE `entry`=1714;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='叛军'	-- Defias Insurgent
+	`name_loc4`='迪菲亚叛军'	-- Defias Insurgent
 WHERE `entry`=1715;
 
 UPDATE `locales_creature` SET
@@ -6035,15 +6035,15 @@ UPDATE `locales_creature` SET
 	`name_loc4`='尼科瓦·拉斯克'	-- Nikova Raskol
 WHERE `entry`=1721;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stormwind Citizen'	-- Stormwind Citizen
--- 	`subname_loc4`='Placeholder'	-- Placeholder
--- WHERE `entry`=1723;
+UPDATE `locales_creature` SET
+	`name_loc4`='暴风城平民'	-- Stormwind Citizen
+	`subname_loc4`='Placeholder'	-- Placeholder
+WHERE `entry`=1723;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stormwind Citizen Masculine'	-- Stormwind Citizen Masculine
--- 	`subname_loc4`='Placeholder'	-- Placeholder
--- WHERE `entry`=1724;
+UPDATE `locales_creature` SET
+	`name_loc4`='暴风城男性平民'	-- Stormwind Citizen Masculine
+	`subname_loc4`='Placeholder'	-- Placeholder
+WHERE `entry`=1724;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='迪菲亚哨兵'	-- Defias Watchman
@@ -6061,9 +6061,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='迪菲亚招魂师'	-- Defias Evoker
 WHERE `entry`=1729;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Goblin Buzzcutter'	-- Goblin Buzzcutter
--- WHERE `entry`=1730;
+UPDATE `locales_creature` SET
+	`name_loc4`='地精切割机'	-- Goblin Buzzcutter
+WHERE `entry`=1730;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='地精工匠'	-- Goblin Craftsman
@@ -6119,7 +6119,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1744;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='亡灵卫兵莫里斯'	-- Deathguard Morris
+	`name_loc4`='亡灵卫兵莫瑞斯'	-- Deathguard Morris
 WHERE `entry`=1745;
 
 UPDATE `locales_creature` SET
@@ -6127,8 +6127,8 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1746;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安度因·乌瑞恩'	-- Anduin Wrynn
-	`subname_loc4`='暴风城的王子'	-- King of Stormwind
+	`name_loc4`='安度因·乌瑞恩国王'	-- Anduin Wrynn
+	`subname_loc4`='暴风城的国王'	-- King of Stormwind
 WHERE `entry`=1747;
 
 UPDATE `locales_creature` SET
@@ -6205,7 +6205,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1765;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='疯狂的座狼'	-- Mottled Worg
+	`name_loc4`='杂斑座狼'	-- Mottled Worg
 WHERE `entry`=1766;
 
 UPDATE `locales_creature` SET
@@ -6253,11 +6253,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1779;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='掠网阔步蛛'	-- Moss Stalker
+	`name_loc4`='苔藓阔步者'	-- Moss Stalker
 WHERE `entry`=1780;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='掠网潜伏者'	-- Mist Creeper
+	`name_loc4`='迷雾爬行者'	-- Mist Creeper
 WHERE `entry`=1781;
 
 UPDATE `locales_creature` SET
@@ -6309,12 +6309,12 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1796;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='疯狂的巨熊'	-- Giant Grizzled Bear
+	`name_loc4`='巨型灰斑熊'	-- Giant Grizzled Bear
 WHERE `entry`=1797;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tortured Soul'	-- Tortured Soul
--- WHERE `entry`=1798;
+UPDATE `locales_creature` SET
+	`name_loc4`='被折磨的灵魂'	-- Tortured Soul
+WHERE `entry`=1798;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='寒冰鬼魂'	-- Cold Wraith
@@ -6348,13 +6348,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='食腐秃鹫'	-- Carrion Vulture
 WHERE `entry`=1809;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rotting Condor'	-- Rotting Condor
--- WHERE `entry`=1810;
+UPDATE `locales_creature` SET
+	`name_loc4`='腐烂的秃鹫'	-- Rotting Condor
+WHERE `entry`=1810;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Plaguewing Vulture'	-- Plaguewing Vulture
--- WHERE `entry`=1811;
+UPDATE `locales_creature` SET
+	`name_loc4`='瘟疫秃鹫'	-- Plaguewing Vulture
+WHERE `entry`=1811;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='腐烂的巨兽'	-- Rotting Behemoth
@@ -6376,13 +6376,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='生病的狼'	-- Diseased Wolf
 WHERE `entry`=1817;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Foulmaw Hydra'	-- Foulmaw Hydra
--- WHERE `entry`=1819;
+UPDATE `locales_creature` SET
+	`name_loc4`='邪喉多头蛇'	-- Foulmaw Hydra
+WHERE `entry`=1819;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Elder Foulmaw Hydra'	-- Elder Foulmaw Hydra
--- WHERE `entry`=1820;
+UPDATE `locales_creature` SET
+	`name_loc4`='老年邪喉多头蛇'	-- Elder Foulmaw Hydra
+WHERE `entry`=1820;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='腐虫潜伏者'	-- Carrion Lurker
@@ -6393,7 +6393,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1822;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾潜伏者'	-- Plague Lurker
+	`name_loc4`='瘟疫潜伏者'	-- Plague Lurker
 WHERE `entry`=1824;
 
 UPDATE `locales_creature` SET
@@ -6524,21 +6524,21 @@ UPDATE `locales_creature` SET
 	`name_loc4`='虚空行者'	-- Voidwalker
 WHERE `entry`=1860;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Greater Voidwalker'	-- Greater Voidwalker
--- WHERE `entry`=1861;
+UPDATE `locales_creature` SET
+	`name_loc4`='强效虚空行者'	-- Greater Voidwalker
+WHERE `entry`=1861;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lesser Netherwalker'	-- Lesser Netherwalker
--- WHERE `entry`=1862;
+UPDATE `locales_creature` SET
+	`name_loc4`='次级虚无行者'	-- Lesser Netherwalker
+WHERE `entry`=1862;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='魅魔'	-- Succubus
 WHERE `entry`=1863;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Greater Succubus'	-- Greater Succubus
--- WHERE `entry`=1864;
+UPDATE `locales_creature` SET
+	`name_loc4`='强效魅魔'	-- Greater Succubus
+WHERE `entry`=1864;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='鸦爪袭击者'	-- Ravenclaw Raider
@@ -6572,17 +6572,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='萨雷克·黑石'	-- Tharek Blackstone
 WHERE `entry`=1872;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Noma Bluntnose'	-- Noma Bluntnose
--- WHERE `entry`=1879;
+UPDATE `locales_creature` SET
+	`name_loc4`='诺玛·钝鼻'	-- Noma Bluntnose
+WHERE `entry`=1879;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='波尔特'	-- Berte
 WHERE `entry`=1880;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Evalyn'	-- Evalyn
--- WHERE `entry`=1881;
+UPDATE `locales_creature` SET
+	`name_loc4`='伊瓦琳'	-- Evalyn
+WHERE `entry`=1881;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='血色工人'	-- Scarlet Worker
@@ -6597,11 +6597,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1885;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安伯米尔卫士'	-- Dalaran Watcher
+	`name_loc4`='达拉然卫士'	-- Dalaran Watcher
 WHERE `entry`=1888;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安伯米尔巫师'	-- Dalaran Wizard
+	`name_loc4`='达拉然巫师'	-- Dalaran Wizard
 WHERE `entry`=1889;
 
 UPDATE `locales_creature` SET
@@ -6658,19 +6658,19 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1911;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安伯米尔保卫者'	-- Dalaran Protector
+	`name_loc4`='达拉然保卫者'	-- Dalaran Protector
 WHERE `entry`=1912;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安伯米尔守卫'	-- Dalaran Warder
+	`name_loc4`='达拉然守卫'	-- Dalaran Warder
 WHERE `entry`=1913;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安伯米尔魔导师'	-- Dalaran Mage
+	`name_loc4`='达拉然法师'	-- Dalaran Mage
 WHERE `entry`=1914;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安伯米尔咒术师'	-- Dalaran Conjuror
+	`name_loc4`='达拉然咒术师'	-- Dalaran Conjuror
 WHERE `entry`=1915;
 
 UPDATE `locales_creature` SET
@@ -6690,7 +6690,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1919;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安伯米尔书记员'	-- Dalaran Spellscribe
+	`name_loc4`='达拉然书记员'	-- Dalaran Spellscribe
 WHERE `entry`=1920;
 
 UPDATE `locales_creature` SET
@@ -6740,12 +6740,12 @@ WHERE `entry`=1924;
 -- WHERE `entry`=1930;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='被俘虏的血色狂热者'	-- Captured Scarlet Zealot
+	`name_loc4`='血色十字军俘虏'	-- Captured Scarlet Zealot
 WHERE `entry`=1931;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Black Sheep'	-- Black Sheep
--- WHERE `entry`=1932;
+UPDATE `locales_creature` SET
+	`name_loc4`='黑绵羊'	-- Black Sheep
+WHERE `entry`=1932;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='绵羊'	-- Sheep
@@ -6765,7 +6765,7 @@ WHERE `entry`=1936;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='药剂师伦弗利尔'	-- Apothecary Renferrel
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=1937;
 
 UPDATE `locales_creature` SET
@@ -6777,7 +6777,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=1939;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='腐皮天灾传播者'	-- Rot Hide Plague Weaver
+	`name_loc4`='腐皮瘟疫传播者'	-- Rot Hide Plague Weaver
 WHERE `entry`=1940;
 
 UPDATE `locales_creature` SET
@@ -6950,13 +6950,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='劣魔'	-- Grellkin
 WHERE `entry`=1989;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gremlin'	-- Gremlin
--- WHERE `entry`=1990;
+UPDATE `locales_creature` SET
+	`name_loc4`='大劣魔'	-- Gremlin
+WHERE `entry`=1990;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jaxil Rye'	-- Jaxil Rye
--- WHERE `entry`=1991;
+UPDATE `locales_creature` SET
+	`name_loc4`='加克希尔·雷恩'	-- Jaxil Rye
+WHERE `entry`=1991;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塔琳德拉'	-- Tarindrella
@@ -7118,9 +7118,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='大槌乌萨尔'	-- Ursal the Mauler
 WHERE `entry`=2039;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Haggatha the Crone'	-- Haggatha the Crone
--- WHERE `entry`=2040;
+UPDATE `locales_creature` SET
+	`name_loc4`='老迈的哈加珊'	-- Haggatha the Crone
+WHERE `entry`=2040;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='守护古树'	-- Ancient Protector
@@ -7138,9 +7138,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='弃灵'	-- Forlorn Spirit
 WHERE `entry`=2044;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gunther''s Minion'	-- Gunther's Minion
--- WHERE `entry`=2045;
+UPDATE `locales_creature` SET
+	`name_loc4`='冈瑟尔的爪牙'	-- Gunther's Minion
+WHERE `entry`=2045;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='安德温·克里顿'	-- Andrew Krighton
@@ -7157,9 +7157,9 @@ WHERE `entry`=2050;
 -- 	`subname_loc4`='Model and Texture'	-- Model and Texture
 -- WHERE `entry`=2051;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Nag'	-- Nag
--- WHERE `entry`=2052;
+UPDATE `locales_creature` SET
+	`name_loc4`='纳格'	-- Nag
+WHERE `entry`=2052;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='哈迦德难民'	-- Haggard Refugee
@@ -7171,7 +7171,7 @@ WHERE `entry`=2054;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='大药剂师法拉尼尔'	-- Master Apothecary Faranell
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=2055;
 
 UPDATE `locales_creature` SET
@@ -7252,7 +7252,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2078;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='伊尔萨莱恩'	-- Conservator Ilthalaine
+	`name_loc4`='管理员伊尔萨莱恩'	-- Conservator Ilthalaine
 WHERE `entry`=2079;
 
 UPDATE `locales_creature` SET
@@ -7348,7 +7348,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2105;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='药剂师伯纳德'	-- Apothecary Berard
+	`name_loc4`='药剂师博拉尔德'	-- Apothecary Berard
 WHERE `entry`=2106;
 
 UPDATE `locales_creature` SET
@@ -7359,9 +7359,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='加内格·焦颅'	-- Garneg Charskull
 WHERE `entry`=2108;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Steam Tank'	-- Steam Tank
--- WHERE `entry`=2109;
+UPDATE `locales_creature` SET
+	`name_loc4`='蒸汽坦克'	-- Steam Tank
+WHERE `entry`=2109;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='黑老鼠'	-- Black Rat
@@ -7382,7 +7382,7 @@ WHERE `entry`=2113;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='法鲁萨'	-- Faruza
-	`subname_loc4`='草药学训练师'	-- Apprentice Herbalist
+	`subname_loc4`='见习采药师'	-- Apprentice Herbalist
 WHERE `entry`=2114;
 
 UPDATE `locales_creature` SET
@@ -7402,7 +7402,7 @@ WHERE `entry`=2117;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='阿比盖尔·沙伊尔'	-- Abigail Shiel
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=2118;
 
 UPDATE `locales_creature` SET
@@ -7465,7 +7465,7 @@ WHERE `entry`=2131;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡罗莱·安尼斯'	-- Carolai Anise
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist
+	`subname_loc4`='初级炼金师'	-- Journeyman Alchemist
 WHERE `entry`=2132;
 
 -- UPDATE `locales_creature` SET
@@ -7613,15 +7613,15 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2175;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='被诅咒的上层精灵'	-- Cursed Highborne
+	`name_loc4`='被诅咒的贵族'	-- Cursed Highborne
 WHERE `entry`=2176;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='痛苦的上层精灵'	-- Writhing Highborne
+	`name_loc4`='挣扎的贵族'	-- Writhing Highborne
 WHERE `entry`=2177;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='哀嚎的上层精灵鬼魂'	-- Wailing Highborne
+	`name_loc4`='哀嚎的贵族'	-- Wailing Highborne
 WHERE `entry`=2178;
 
 UPDATE `locales_creature` SET
@@ -7744,9 +7744,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='戴瑟雷萨特'	-- Deth'ryll Satyr
 WHERE `entry`=2212;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Deth''ryll Shadowstalker'	-- Deth'ryll Shadowstalker
--- WHERE `entry`=2213;
+UPDATE `locales_creature` SET
+	`name_loc4`='戴瑟雷巡影者'	-- Deth'ryll Shadowstalker
+WHERE `entry`=2213;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='亡灵哨兵莱什'	-- Deathstalker Lesh
@@ -7758,38 +7758,38 @@ WHERE `entry`=2215;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='药剂师林度恩'	-- Apothecary Lydon
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=2216;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Undead Druid Trainer'	-- Undead Druid Trainer
--- 	`subname_loc4`='Druid Trainer'	-- Druid Trainer
--- WHERE `entry`=2217;
+UPDATE `locales_creature` SET
+	`name_loc4`='Undead Druid Trainer'	-- Undead Druid Trainer
+	`subname_loc4`='德鲁伊训练师'	-- Druid Trainer
+WHERE `entry`=2217;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Undead Hunter Trainer'	-- Undead Hunter Trainer
--- 	`subname_loc4`='Hunter Trainer'	-- Hunter Trainer
--- WHERE `entry`=2218;
+UPDATE `locales_creature` SET
+	`name_loc4`='Undead Hunter Trainer'	-- Undead Hunter Trainer
+	`subname_loc4`='猎人训练师'	-- Hunter Trainer
+WHERE `entry`=2218;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Undead Shaman Trainer'	-- Undead Shaman Trainer
--- 	`subname_loc4`='Shaman Trainer'	-- Shaman Trainer
--- WHERE `entry`=2219;
+UPDATE `locales_creature` SET
+	`name_loc4`='Undead Shaman Trainer'	-- Undead Shaman Trainer
+	`subname_loc4`='萨满祭司训练师'	-- Shaman Trainer
+WHERE `entry`=2219;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Undead Blacksmith Trainer'	-- [UNUSED] Undead Blacksmith Trainer
 -- 	`subname_loc4`='Blacksmith Trainer'	-- Blacksmith Trainer
 -- WHERE `entry`=2220;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Undead Tailor Trainer'	-- Undead Tailor Trainer
--- 	`subname_loc4`='Tailor Trainer'	-- Tailor Trainer
--- WHERE `entry`=2221;
+UPDATE `locales_creature` SET
+	`name_loc4`='Undead Tailor Trainer'	-- Undead Tailor Trainer
+	`subname_loc4`='裁缝训练师'	-- Tailor Trainer
+WHERE `entry`=2221;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Undead Mining Trainer'	-- Undead Mining Trainer
--- 	`subname_loc4`='Mining Trainer'	-- Mining Trainer
--- WHERE `entry`=2222;
+UPDATE `locales_creature` SET
+	`name_loc4`='Undead Mining Trainer'	-- Undead Mining Trainer
+	`subname_loc4`='采矿训练师'	-- Mining Trainer
+WHERE `entry`=2222;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Undead Cooking Trainer'	-- [UNUSED] Undead Cooking Trainer
@@ -7935,7 +7935,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2257;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='玛格拉克'	-- Stone Fury
+	`name_loc4`='狂怒的石元素'	-- Stone Fury
 WHERE `entry`=2258;
 
 UPDATE `locales_creature` SET
@@ -7987,11 +7987,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2272;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='斯坦雷'	-- Stanley
+	`name_loc4`='斯坦利'	-- Stanley
 WHERE `entry`=2274;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暴怒的斯坦雷'	-- Enraged Stanley
+	`name_loc4`='暴怒的斯坦利'	-- Enraged Stanley
 WHERE `entry`=2275;
 
 UPDATE `locales_creature` SET
@@ -8006,23 +8006,23 @@ UPDATE `locales_creature` SET
 	`name_loc4`='梅里萨拉'	-- Melisara
 WHERE `entry`=2278;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Alliance Battleguard'	-- Alliance Battleguard
--- WHERE `entry`=2279;
+UPDATE `locales_creature` SET
+	`name_loc4`='联盟卫兵'	-- Alliance Battleguard
+WHERE `entry`=2279;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Horde Battleguard'	-- Horde Battleguard
--- WHERE `entry`=2280;
+UPDATE `locales_creature` SET
+	`name_loc4`='部落卫兵'	-- Horde Battleguard
+WHERE `entry`=2280;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Baelish Frostbane'	-- Baelish Frostbane
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=2281;
+UPDATE `locales_creature` SET
+	`name_loc4`='拜里斯·霜刺'	-- Baelish Frostbane
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=2281;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='[PH] Orgrun Iceflow'	-- [PH] Orgrun Iceflow
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=2282;
+UPDATE `locales_creature` SET
+	`name_loc4`='[PH] Orgrun Iceflow'	-- [PH] Orgrun Iceflow
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=2282;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='鸦爪摄政者'	-- Ravenclaw Regent
@@ -8045,39 +8045,39 @@ UPDATE `locales_creature` SET
 	`name_loc4`='破碎岭好战者'	-- Crushridge Warmonger
 WHERE `entry`=2287;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Skracher Mudmuzzle'	-- Skracher Mudmuzzle
--- WHERE `entry`=2288;
+UPDATE `locales_creature` SET
+	`name_loc4`='泥嘴斯卡克尔'	-- Skracher Mudmuzzle
+WHERE `entry`=2288;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Connor McCoy'	-- Connor McCoy
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=2289;
+UPDATE `locales_creature` SET
+	`name_loc4`='科诺尔·麦考伊'	-- Connor McCoy
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=2289;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bertran Keldrake'	-- Bertran Keldrake
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=2290;
+UPDATE `locales_creature` SET
+	`name_loc4`='博崔恩·科尔达克'	-- Bertran Keldrake
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=2290;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Corbin Halman'	-- Corbin Halman
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=2291;
+UPDATE `locales_creature` SET
+	`name_loc4`='考宾·哈曼'	-- Corbin Halman
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=2291;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Reginald Berry'	-- Reginald Berry
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=2292;
+UPDATE `locales_creature` SET
+	`name_loc4`='雷纳德·拜瑞'	-- Reginald Berry
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=2292;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Sherra Vayne'	-- [UNUSED] Sherra Vayne
 -- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
 -- WHERE `entry`=2293;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jaynice Sillestan'	-- Jaynice Sillestan
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=2294;
+UPDATE `locales_creature` SET
+	`name_loc4`='吉奈斯·塞林斯坦'	-- Jaynice Sillestan
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=2294;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Bartok Steelgrip'	-- [UNUSED] Bartok Steelgrip
@@ -8094,10 +8094,10 @@ WHERE `entry`=2287;
 -- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
 -- WHERE `entry`=2297;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dolthar Stonefoot'	-- Dolthar Stonefoot
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=2298;
+UPDATE `locales_creature` SET
+	`name_loc4`='杜萨·石足'	-- Dolthar Stonefoot
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=2298;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='博古斯·粗臂'	-- Borgus Stoutarm
@@ -8120,7 +8120,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2302;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='琳妮·羽歌'	-- Lyranne Feathersong
+	`name_loc4`='琳妮·梅'	-- Lyranne Feathersong
 	`subname_loc4`='食物和饮料'	-- Food & Drink
 WHERE `entry`=2303;
 
@@ -8133,7 +8133,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2305;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='瓦杜斯男爵'	-- Baron Vardus
+	`name_loc4`='巴隆·瓦杜斯'	-- Baron Vardus
 WHERE `entry`=2306;
 
 UPDATE `locales_creature` SET
@@ -8209,14 +8209,14 @@ UPDATE `locales_creature` SET
 	`name_loc4`='黑木风语者'	-- Blackwood Windtalker
 WHERE `entry`=2324;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Undead First Aid Trainer'	-- Undead First Aid Trainer
--- 	`subname_loc4`='First Aid Trainer'	-- First Aid Trainer
--- WHERE `entry`=2325;
+UPDATE `locales_creature` SET
+	`name_loc4`='Undead First Aid Trainer'	-- Undead First Aid Trainer
+	`subname_loc4`='急救训练师'	-- First Aid Trainer
+WHERE `entry`=2325;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='萨姆诺·普尔'	-- Thamner Pol
-	`subname_loc4`='急救训练师'	-- Physician
+	`subname_loc4`='医师'	-- Physician
 WHERE `entry`=2326;
 
 UPDATE `locales_creature` SET
@@ -8226,7 +8226,7 @@ WHERE `entry`=2327;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='米歇尔·贝利'	-- Michelle Belle
-	`subname_loc4`='急救训练师'	-- Physician
+	`subname_loc4`='医师'	-- Physician
 WHERE `entry`=2329;
 
 UPDATE `locales_creature` SET
@@ -8290,15 +8290,15 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2348;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='被驯养的食苔蛛'	-- Giant Moss Creeper
+	`name_loc4`='巨型食苔蛛'	-- Giant Moss Creeper
 WHERE `entry`=2349;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='森林爬行者'	-- Forest Moss Creeper
+	`name_loc4`='森林食苔蛛'	-- Forest Moss Creeper
 WHERE `entry`=2350;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='凋零灰熊'	-- Gray Bear
+	`name_loc4`='灰熊'	-- Gray Bear
 WHERE `entry`=2351;
 
 UPDATE `locales_creature` SET
@@ -8360,7 +8360,7 @@ WHERE `entry`=2366;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='唐纳德·拉波尼'	-- Donald Rabonne
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=2367;
 
 UPDATE `locales_creature` SET
@@ -8409,7 +8409,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2378;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='看护者斯密瑟斯'	-- Caretaker Smithers
+	`name_loc4`='管理员斯密瑟斯'	-- Caretaker Smithers
 WHERE `entry`=2379;
 
 UPDATE `locales_creature` SET
@@ -8418,7 +8418,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2380;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='米沙·杨斯'	-- Micha Yance
+	`name_loc4`='米莎·杨斯'	-- Micha Yance
 	`subname_loc4`='商人'	-- Trade Goods
 WHERE `entry`=2381;
 
@@ -8429,7 +8429,7 @@ WHERE `entry`=2382;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='林迪·拉波尼'	-- Lindea Rabonne
-	`subname_loc4`='渔具供应商'	-- Tackle and Bait
+	`subname_loc4`='工具和鱼饵'	-- Tackle and Bait
 WHERE `entry`=2383;
 
 UPDATE `locales_creature` SET
@@ -8437,11 +8437,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2384;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='丘陵猎手'	-- Feral Mountain Lion
+	`name_loc4`='野生山地狮'	-- Feral Mountain Lion
 WHERE `entry`=2385;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='联盟卫兵'	-- Southshore Guard
+	`name_loc4`='南海镇卫兵'	-- Southshore Guard
 WHERE `entry`=2386;
 
 UPDATE `locales_creature` SET
@@ -8460,12 +8460,12 @@ WHERE `entry`=2389;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='阿兰奈·维诺布拉德'	-- Aranae Venomblood
-	`subname_loc4`='草药学训练师'	-- Herbalist
+	`subname_loc4`='采药人'	-- Herbalist
 WHERE `entry`=2390;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瑟尔格·希诺特'	-- Serge Hinott
-	`subname_loc4`='炼金术训练师'	-- Expert Alchemist
+	`subname_loc4`='中级炼金师'	-- Expert Alchemist
 WHERE `entry`=2391;
 
 UPDATE `locales_creature` SET
@@ -8492,7 +8492,7 @@ WHERE `entry`=2396;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='德拉克·奈特弗'	-- Derak Nightfall
-	`subname_loc4`='烹饪训练师'	-- Cook
+	`subname_loc4`='厨师'	-- Cook
 WHERE `entry`=2397;
 
 UPDATE `locales_creature` SET
@@ -8501,7 +8501,7 @@ WHERE `entry`=2398;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='达瑞尔·斯塔克'	-- Daryl Stack
-	`subname_loc4`='裁缝训练师'	-- Master Tailor
+	`subname_loc4`='大师级裁缝'	-- Master Tailor
 WHERE `entry`=2399;
 
 UPDATE `locales_creature` SET
@@ -8705,7 +8705,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2453;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='骸骨魔'	-- Skeletal Fiend (Enraged Form)
+	`name_loc4`='骸骨魔(暴怒状态)'	-- Skeletal Fiend (Enraged Form)
 WHERE `entry`=2454;
 
 UPDATE `locales_creature` SET
@@ -8772,9 +8772,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='守夜人'	-- The Night Watch
 WHERE `entry`=2470;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Flamescale Drake'	-- Flamescale Drake
--- WHERE `entry`=2472;
+UPDATE `locales_creature` SET
+	`name_loc4`='火鳞幼龙'	-- Flamescale Drake
+WHERE `entry`=2472;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格拉尼斯塔德'	-- Granistad
@@ -8789,7 +8789,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2475;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='格什哈尔迪'	-- Large Loch Crocolisk
+	`name_loc4`='大型洛克鳄'	-- Large Loch Crocolisk
 WHERE `entry`=2476;
 
 UPDATE `locales_creature` SET
@@ -9018,11 +9018,11 @@ WHERE `entry`=2529;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='耶尼库'	-- Yenniku
-	`subname_loc4`='赞吉尔的使节'	-- Darkspear Hostage
+	`subname_loc4`='暗矛部族人质'	-- Darkspear Hostage
 WHERE `entry`=2530;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='杜内的爪牙'	-- Minion of Morganth
+	`name_loc4`='莫甘斯的爪牙'	-- Minion of Morganth
 WHERE `entry`=2531;
 
 UPDATE `locales_creature` SET
@@ -9050,7 +9050,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2537;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安伯米尔毒蛇'	-- Dalaran Serpent
+	`name_loc4`='达拉然毒蛇'	-- Dalaran Serpent
 WHERE `entry`=2540;
 
 UPDATE `locales_creature` SET
@@ -9063,8 +9063,8 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2542;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='大法师安斯雷姆·鲁因'	-- Archmage Ansirem Runeweaver
-	`subname_loc4`='Kirin Tor'	-- Kirin Tor
+	`name_loc4`='大法师安斯雷姆·鲁因维沃尔'	-- Archmage Ansirem Runeweaver
+	`subname_loc4`='肯瑞托'	-- Kirin Tor
 WHERE `entry`=2543;
 
 UPDATE `locales_creature` SET
@@ -9224,7 +9224,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2584;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='激流堡士兵'	-- Stromgarde Vindicator
+	`name_loc4`='激流堡仲裁者'	-- Stromgarde Vindicator
 WHERE `entry`=2585;
 
 UPDATE `locales_creature` SET
@@ -9244,7 +9244,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2589;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='辛迪加咒术师'	-- Syndicate Conjuror
+	`name_loc4`='辛迪咒术师'	-- Syndicate Conjuror
 WHERE `entry`=2590;
 
 UPDATE `locales_creature` SET
@@ -9255,9 +9255,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='顽石流放者'	-- Rumbling Exile
 WHERE `entry`=2592;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rough Stone Elemental'	-- Rough Stone Elemental
--- WHERE `entry`=2593;
+UPDATE `locales_creature` SET
+	`name_loc4`='糙石元素'	-- Rough Stone Elemental
+WHERE `entry`=2593;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯普罗格'	-- Sprogger
@@ -9350,7 +9350,7 @@ WHERE `entry`=2612;
 -- WHERE `entry`=2615;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='海盗格罗伊'	-- Privateer Groy
+	`name_loc4`='水手格罗伊'	-- Privateer Groy
 WHERE `entry`=2616;
 
 -- UPDATE `locales_creature` SET
@@ -9393,12 +9393,12 @@ WHERE `entry`=2625;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='老人海明威'	-- Old Man Heming
-	`subname_loc4`='渔具供应商'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=2626;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格拉尼克·古斯提'	-- Grarnik Goodstitch
-	`subname_loc4`='裁缝训练师'	-- Expert Tailor
+	`subname_loc4`='中级裁缝'	-- Expert Tailor
 WHERE `entry`=2627;
 
 UPDATE `locales_creature` SET
@@ -9421,9 +9421,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='黑水船工'	-- Blackwater Deckhand
 WHERE `entry`=2636;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Syndicate Bomb'	-- Syndicate Bomb
--- WHERE `entry`=2637;
+UPDATE `locales_creature` SET
+	`name_loc4`='辛迪加炸弹'	-- Syndicate Bomb
+WHERE `entry`=2637;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='辛迪加鬼魂'	-- Syndicate Spectre
@@ -9513,10 +9513,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='翱翔的锋喙狮鹫'	-- Razorbeak Skylord
 WHERE `entry`=2659;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Port Master Szik'	-- Port Master Szik
--- 	`subname_loc4`='Boat Vendor'	-- Boat Vendor
--- WHERE `entry`=2662;
+UPDATE `locales_creature` SET
+	`name_loc4`='码头管理员斯奇克'	-- Port Master Szik
+	`subname_loc4`='船商'	-- Boat Vendor
+WHERE `entry`=2662;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='纳尔克'	-- Narkk
@@ -9525,12 +9525,12 @@ WHERE `entry`=2663;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='凯尔希·杨斯'	-- Kelsey Yance
-	`subname_loc4`='烹饪训练师'	-- Cook
+	`subname_loc4`='厨师'	-- Cook
 WHERE `entry`=2664;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Proximity Bomb'	-- Proximity Bomb
--- WHERE `entry`=2665;
+UPDATE `locales_creature` SET
+	`name_loc4`='自走炸弹'	-- Proximity Bomb
+WHERE `entry`=2665;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='懒惰结界'	-- Ward of Laze
@@ -9594,7 +9594,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2681;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='弗拉德·飞轮'	-- Fradd Swiftgear
+	`name_loc4`='弗拉德'	-- Fradd Swiftgear
 	`subname_loc4`='工程学供应商'	-- Engineering Supplies
 WHERE `entry`=2682;
 
@@ -9627,13 +9627,13 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='工程学供应商'	-- Engineering Supplies
 WHERE `entry`=2688;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Hill Giant'	-- Hill Giant
--- WHERE `entry`=2689;
+UPDATE `locales_creature` SET
+	`name_loc4`='山巨人'	-- Hill Giant
+WHERE `entry`=2689;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Hill Giant Warden'	-- Hill Giant Warden
--- WHERE `entry`=2690;
+UPDATE `locales_creature` SET
+	`name_loc4`='山巨人卫兵'	-- Hill Giant Warden
+WHERE `entry`=2690;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='高原前锋'	-- Highvale Outrunner
@@ -9713,10 +9713,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='大法师马林'	-- Archmage Malin
 WHERE `entry`=2708;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Imp Trainer'	-- Imp Trainer
--- 	`subname_loc4`='UNUSED'	-- UNUSED
--- WHERE `entry`=2709;
+UPDATE `locales_creature` SET
+	`name_loc4`='小鬼训练师'	-- Imp Trainer
+	`subname_loc4`='UNUSED'	-- UNUSED
+WHERE `entry`=2709;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Voidwalker Trainer'	-- Voidwalker Trainer
@@ -9835,9 +9835,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='暗炉巫师'	-- Shadowforge Darkweaver
 WHERE `entry`=2740;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Shadowforge Excavator'	-- Shadowforge Excavator
--- WHERE `entry`=2741;
+UPDATE `locales_creature` SET
+	`name_loc4`='暗炉挖掘者'	-- Shadowforge Excavator
+WHERE `entry`=2741;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='暗炉吟唱者'	-- Shadowforge Chanter
@@ -9855,17 +9855,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='因弗努斯大使'	-- Ambassador Infernus
 WHERE `entry`=2745;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stonevault Warden'	-- Stonevault Warden
--- WHERE `entry`=2746;
+UPDATE `locales_creature` SET
+	`name_loc4`='石窟守卫'	-- Stonevault Warden
+WHERE `entry`=2746;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='阿扎达斯'	-- Archaedas
-	`subname_loc4`='远古巨石卫士'	-- Ancient Stone Watcher
+	`subname_loc4`='远古石卫士'	-- Ancient Stone Watcher
 WHERE `entry`=2748;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='路障'	-- Siege Golem
+	`name_loc4`='攻城傀儡'	-- Siege Golem
 WHERE `entry`=2749;
 
 UPDATE `locales_creature` SET
@@ -10000,8 +10000,8 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2783;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='麦格尼·铜须国王'	-- King Magni Bronzebeard
-	`subname_loc4`='铁炉堡之王'	-- Lord of Ironforge
+	`name_loc4`='国王麦格尼·铜须'	-- King Magni Bronzebeard
+	`subname_loc4`='铁炉堡国王'	-- Lord of Ironforge
 WHERE `entry`=2784;
 
 UPDATE `locales_creature` SET
@@ -10053,10 +10053,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='菲琳萨'	-- Faelyssa
 WHERE `entry`=2796;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Hovrak Gutrender'	-- Hovrak Gutrender
--- 	`subname_loc4`='iCoke Redemption Vendor'	-- iCoke Redemption Vendor
--- WHERE `entry`=2797;
+UPDATE `locales_creature` SET
+	`name_loc4`='霍瓦克·刃肠'	-- Hovrak Gutrender
+	`subname_loc4`='可口可乐兑奖使者'	-- iCoke Redemption Vendor
+WHERE `entry`=2797;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='潘德·缚石'	-- Pand Stonebinder
@@ -10069,7 +10069,7 @@ WHERE `entry`=2799;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='特蕾萨'	-- Tresa MacGregor
-	`subname_loc4`='鱼人宝宝兑奖使者'	-- iCoke Redemption Vendor
+	`subname_loc4`='可口可乐兑奖使者'	-- iCoke Redemption Vendor
 WHERE `entry`=2801;
 
 UPDATE `locales_creature` SET
@@ -10088,7 +10088,7 @@ WHERE `entry`=2804;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='德尼布·沃克'	-- Deneb Walker
-	`subname_loc4`='材料商'	-- Scrolls & Potions
+	`subname_loc4`='卷轴和药剂'	-- Scrolls & Potions
 WHERE `entry`=2805;
 
 UPDATE `locales_creature` SET
@@ -10096,18 +10096,18 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='杂货商'	-- General Goods
 WHERE `entry`=2806;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Daggerspine Wavecaller'	-- Daggerspine Wavecaller
--- WHERE `entry`=2807;
+UPDATE `locales_creature` SET
+	`name_loc4`='刺脊招潮者'	-- Daggerspine Wavecaller
+WHERE `entry`=2807;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='维基·隆萨夫'	-- Vikki Lonsav
 	`subname_loc4`='杂货商'	-- General Goods
 WHERE `entry`=2808;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Boar'	-- Boar
--- WHERE `entry`=2809;
+UPDATE `locales_creature` SET
+	`name_loc4`='野猪'	-- Boar
+WHERE `entry`=2809;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='哈蒙·卡文'	-- Hammon Karwn
@@ -10168,7 +10168,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2829;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='口渴的兀鹫'	-- Buzzard
+	`name_loc4`='秃鹫'	-- Buzzard
 WHERE `entry`=2830;
 
 UPDATE `locales_creature` SET
@@ -10177,17 +10177,17 @@ WHERE `entry`=2831;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='尼克拉克斯·菲拉莫格'	-- Nixxrax Fillamug
-	`subname_loc4`='食物和饮料'	-- Food and Drink
+	`subname_loc4`='餐饮供应商'	-- Food and Drink
 WHERE `entry`=2832;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='DEBUG - Gossip Gryphon Master'	-- DEBUG - Gossip Gryphon Master
--- 	`subname_loc4`='Gryphon Master'	-- Gryphon Master
--- WHERE `entry`=2833;
+UPDATE `locales_creature` SET
+	`name_loc4`='DEBUG - Gossip Gryphon Master'	-- DEBUG - Gossip Gryphon Master
+	`subname_loc4`='狮鹫管理员'	-- Gryphon Master
+WHERE `entry`=2833;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='麦依兹·拉齐卡'	-- Myizz Luckycatch
-	`subname_loc4`='钓鱼训练师'	-- Superior Fisherman
+	`subname_loc4`='高级渔夫'	-- Superior Fisherman
 WHERE `entry`=2834;
 
 UPDATE `locales_creature` SET
@@ -10197,12 +10197,12 @@ WHERE `entry`=2835;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='布里克·基克拉夫'	-- Brikk Keencraft
-	`subname_loc4`='锻造训练师'	-- Master Blacksmith
+	`subname_loc4`='大师级铁匠'	-- Master Blacksmith
 WHERE `entry`=2836;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='加克森'	-- Jaxin Chong
-	`subname_loc4`='炼金术训练师'	-- Expert Alchemist
+	`subname_loc4`='中级炼金师'	-- Expert Alchemist
 WHERE `entry`=2837;
 
 UPDATE `locales_creature` SET
@@ -10279,17 +10279,17 @@ WHERE `entry`=2853;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯诺恩'	-- Snang
-	`subname_loc4`='裁缝训练师'	-- Journeyman Tailor
+	`subname_loc4`='初级裁缝'	-- Journeyman Tailor
 WHERE `entry`=2855;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='安格伦'	-- Angrun
-	`subname_loc4`='草药学训练师'	-- Superior Herbalist
+	`subname_loc4`='高级采药师'	-- Superior Herbalist
 WHERE `entry`=2856;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='桑德'	-- Thund
-	`subname_loc4`='工程学训练师'	-- Journeyman Engineer
+	`subname_loc4`='初级技师'	-- Journeyman Engineer
 WHERE `entry`=2857;
 
 UPDATE `locales_creature` SET
@@ -10379,12 +10379,12 @@ WHERE `entry`=2876;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='派瑞亚·拉密诺尔'	-- Peria Lamenur
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=2878;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡瑞娜·麦肯达'	-- Karrina Mekenda
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=2879;
 
 UPDATE `locales_creature` SET
@@ -10407,10 +10407,10 @@ WHERE `entry`=2881;
 -- 	`subname_loc4`='Magic Skills Trainer'	-- Magic Skills Trainer
 -- WHERE `entry`=2885;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ranged Skills Trainer'	-- Ranged Skills Trainer
--- 	`subname_loc4`='Ranged Skills Trainer'	-- Ranged Skills Trainer
--- WHERE `entry`=2886;
+UPDATE `locales_creature` SET
+	`name_loc4`='远程武器训练师'	-- Ranged Skills Trainer
+	`subname_loc4`='远程武器训练师'	-- Ranged Skills Trainer
+WHERE `entry`=2886;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='石棱流放者'	-- Prismatic Exile
@@ -10420,17 +10420,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='加瑞克'	-- Garek
 WHERE `entry`=2888;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stonevault Trogg'	-- Stonevault Trogg
--- WHERE `entry`=2889;
+UPDATE `locales_creature` SET
+	`name_loc4`='石窟穴居人'	-- Stonevault Trogg
+WHERE `entry`=2889;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stonevault Scout'	-- Stonevault Scout
--- WHERE `entry`=2890;
+UPDATE `locales_creature` SET
+	`name_loc4`='石窟斥候'	-- Stonevault Scout
+WHERE `entry`=2890;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stonevault Skullthumper'	-- Stonevault Skullthumper
--- WHERE `entry`=2891;
+UPDATE `locales_creature` SET
+	`name_loc4`='石窟击颅者'	-- Stonevault Skullthumper
+WHERE `entry`=2891;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='石窟先知'	-- Stonevault Seer
@@ -10482,7 +10482,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2911;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='首席考古学家杜瑟·灰胡'	-- Chief Archaeologist Greywhisker
+	`name_loc4`='首席考古学家杜瑟·灰须'	-- Chief Archaeologist Greywhisker
 	`subname_loc4`='探险者协会'	-- Explorers' League
 WHERE `entry`=2912;
 
@@ -10496,7 +10496,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2914;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='铁趾的灵魂'	-- Hammertoe's Spirit
+	`name_loc4`='锤趾的灵魂'	-- Hammertoe's Spirit
 WHERE `entry`=2915;
 
 UPDATE `locales_creature` SET
@@ -10504,7 +10504,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2916;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='勘察员雷塔维'	-- Prospector Remtravel
+	`name_loc4`='勘察员雷姆塔维尔'	-- Prospector Remtravel
 	`subname_loc4`='探险者协会'	-- Explorers' League
 WHERE `entry`=2917;
 
@@ -10572,24 +10572,24 @@ UPDATE `locales_creature` SET
 	`name_loc4`='看守者贝尔杜加'	-- Keeper Bel'dugur
 WHERE `entry`=2934;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='[PH] Demon Master'	-- [PH] Demon Master
--- 	`subname_loc4`='Demon Trainer'	-- Demon Trainer
--- WHERE `entry`=2935;
+UPDATE `locales_creature` SET
+	`name_loc4`='[PH] Demon Master'	-- [PH] Demon Master
+	`subname_loc4`='恶魔训练师'	-- Demon Trainer
+WHERE `entry`=2935;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='贪婪的达古恩'	-- Dagun the Ravenous
 WHERE `entry`=2937;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Aldric Hunter'	-- Aldric Hunter
--- 	`subname_loc4`='Bear Trainer'	-- Bear Trainer
--- WHERE `entry`=2938;
+UPDATE `locales_creature` SET
+	`name_loc4`='奥德瑞克·亨特'	-- Aldric Hunter
+	`subname_loc4`='野熊训练师'	-- Bear Trainer
+WHERE `entry`=2938;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jackson Bayne'	-- Jackson Bayne
--- 	`subname_loc4`='Boar Trainer'	-- Boar Trainer
--- WHERE `entry`=2939;
+UPDATE `locales_creature` SET
+	`name_loc4`='杰克逊·贝恩'	-- Jackson Bayne
+	`subname_loc4`='野猪训练师'	-- Boar Trainer
+WHERE `entry`=2939;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Frank Ward'	-- [UNUSED] Frank Ward
@@ -10601,10 +10601,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='狮鹫管理员'	-- Gryphon Master
 WHERE `entry`=2941;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dylan Bissel'	-- Dylan Bissel
--- 	`subname_loc4`='Wolf Trainer'	-- Wolf Trainer
--- WHERE `entry`=2942;
+UPDATE `locales_creature` SET
+	`name_loc4`='戴兰·比塞尔'	-- Dylan Bissel
+	`subname_loc4`='狼训练师'	-- Wolf Trainer
+WHERE `entry`=2942;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='兰森·东尼'	-- Ransin Donner
@@ -10643,7 +10643,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2951;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='刺背入侵者'	-- Bristleback Quilboar
+	`name_loc4`='刺背野猪人'	-- Bristleback Quilboar
 WHERE `entry`=2952;
 
 UPDATE `locales_creature` SET
@@ -10699,7 +10699,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=2965;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='年幼的斗猪'	-- Battleboar
+	`name_loc4`='斗猪'	-- Battleboar
 WHERE `entry`=2966;
 
 UPDATE `locales_creature` SET
@@ -10831,7 +10831,7 @@ WHERE `entry`=2997;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡恩·石蹄'	-- Karn Stonehoof
-	`subname_loc4`='初级铁匠'	-- Expert Blacksmith
+	`subname_loc4`='中级铁匠'	-- Expert Blacksmith
 WHERE `entry`=2998;
 
 UPDATE `locales_creature` SET
@@ -10861,7 +10861,7 @@ WHERE `entry`=3003;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='坦帕'	-- Tepa
-	`subname_loc4`='裁缝训练师'	-- Expert Tailor
+	`subname_loc4`='中级裁缝'	-- Expert Tailor
 WHERE `entry`=3004;
 
 UPDATE `locales_creature` SET
@@ -10871,7 +10871,7 @@ WHERE `entry`=3005;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='犹纳'	-- Una
-	`subname_loc4`='制皮训练师'	-- Artisan Leatherworker
+	`subname_loc4`='高级制皮师'	-- Artisan Leatherworker
 WHERE `entry`=3007;
 
 UPDATE `locales_creature` SET
@@ -10881,7 +10881,7 @@ WHERE `entry`=3008;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='本娜·冰蹄'	-- Bena Winterhoof
-	`subname_loc4`='炼金术训练师'	-- Expert Alchemist
+	`subname_loc4`='中级炼金师'	-- Expert Alchemist
 WHERE `entry`=3009;
 
 UPDATE `locales_creature` SET
@@ -10890,8 +10890,8 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3010;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='泰戈·晨行者'	-- Teg Dawnstrider
-	`subname_loc4`='附魔训练师'	-- Expert Enchanter
+	`name_loc4`='泰戈·黎明行者'	-- Teg Dawnstrider
+	`subname_loc4`='中级附魔师'	-- Expert Enchanter
 WHERE `entry`=3011;
 
 UPDATE `locales_creature` SET
@@ -10925,27 +10925,27 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3017;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='霍高尔·雷蹄'	-- Hogor Thunderhoof
+	`name_loc4`='霍高尔·雷角'	-- Hogor Thunderhoof
 	`subname_loc4`='枪械商'	-- Guns Merchant
 WHERE `entry`=3018;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='德尔贡·暴怒图腾'	-- Delgo Ragetotem
+	`name_loc4`='德尔贡·狂暴图腾'	-- Delgo Ragetotem
 	`subname_loc4`='斧商'	-- Axe Merchant
 WHERE `entry`=3019;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='伊图·暴怒图腾'	-- Etu Ragetotem
+	`name_loc4`='伊图·狂暴图腾'	-- Etu Ragetotem
 	`subname_loc4`='锤和法杖商人'	-- Mace & Staff Merchant
 WHERE `entry`=3020;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='卡德·暴怒图腾'	-- Kard Ragetotem
+	`name_loc4`='卡德·狂暴图腾'	-- Kard Ragetotem
 	`subname_loc4`='剑和匕首商人'	-- Sword and Dagger Merchant
 WHERE `entry`=3021;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='苏恩·暴怒图腾'	-- Sunn Ragetotem
+	`name_loc4`='苏恩·狂暴图腾'	-- Sunn Ragetotem
 	`subname_loc4`='法杖商'	-- Staff Merchant
 WHERE `entry`=3022;
 
@@ -10975,7 +10975,7 @@ WHERE `entry`=3027;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡尔·迷雾行者'	-- Kah Mistrunner
-	`subname_loc4`='钓鱼训练师'	-- Fishing Trainer
+	`subname_loc4`='渔具供应商'	-- Fishing Trainer
 WHERE `entry`=3028;
 
 UPDATE `locales_creature` SET
@@ -11037,17 +11037,17 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3040;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='托姆·暴怒图腾'	-- Torm Ragetotem
+	`name_loc4`='托姆·狂暴图腾'	-- Torm Ragetotem
 	`subname_loc4`='战士训练师'	-- Warrior Trainer
 WHERE `entry`=3041;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='萨尔克·暴怒图腾'	-- Sark Ragetotem
+	`name_loc4`='萨尔克·狂暴图腾'	-- Sark Ragetotem
 	`subname_loc4`='战士训练师'	-- Warrior Trainer
 WHERE `entry`=3042;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='科尔·暴怒图腾'	-- Ker Ragetotem
+	`name_loc4`='科尔·狂暴图腾'	-- Ker Ragetotem
 	`subname_loc4`='战士训练师'	-- Warrior Trainer
 WHERE `entry`=3043;
 
@@ -11161,7 +11161,7 @@ WHERE `entry`=3066;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='派尔·沉默行者'	-- Pyall Silentstride
-	`subname_loc4`='烹饪训练师'	-- Cook
+	`subname_loc4`='厨师'	-- Cook
 WHERE `entry`=3067;
 
 UPDATE `locales_creature` SET
@@ -11342,7 +11342,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3105;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='海浪蟹幼崽'	-- Pygmy Surf Crawler
+	`name_loc4`='小海浪蟹'	-- Pygmy Surf Crawler
 WHERE `entry`=3106;
 
 UPDATE `locales_creature` SET
@@ -11458,7 +11458,7 @@ WHERE `entry`=3135;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克拉莉斯·纳尔特里'	-- Clarise Gnarltree
-	`subname_loc4`='初级铁匠'	-- Expert Blacksmith
+	`subname_loc4`='中级铁匠'	-- Expert Blacksmith
 WHERE `entry`=3136;
 
 UPDATE `locales_creature` SET
@@ -11499,10 +11499,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='祖雷萨'	-- Zureetha Fargaze
 WHERE `entry`=3145;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gurek'	-- Gurek
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=3146;
+UPDATE `locales_creature` SET
+	`name_loc4`='古雷克'	-- Gurek
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=3146;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='弗恩·凝眉'	-- Furl Scornbrow
@@ -11515,23 +11515,23 @@ WHERE `entry`=3147;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='内兹拉斯'	-- Nez'raz
-	`subname_loc4`='杜隆塔尔飞艇管理员'	-- Zeppelin Master
+	`subname_loc4`='飞艇管理员'	-- Zeppelin Master
 WHERE `entry`=3149;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='兴登堡'	-- Hin Denburg
-	`subname_loc4`='杜隆塔尔飞艇管理员'	-- Zeppelin Master
+	`subname_loc4`='飞艇管理员'	-- Zeppelin Master
 WHERE `entry`=3150;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Captain Obvious'	-- Captain Obvious
--- 	`subname_loc4`='Boat Operator'	-- Boat Operator
--- WHERE `entry`=3151;
+UPDATE `locales_creature` SET
+	`name_loc4`='摩根船长'	-- Captain Obvious
+	`subname_loc4`='舵手'	-- Boat Operator
+WHERE `entry`=3151;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Cap''n Copyright'	-- Cap'n Copyright
--- 	`subname_loc4`='Boat Operator'	-- Boat Operator
--- WHERE `entry`=3152;
+UPDATE `locales_creature` SET
+	`name_loc4`='Cap''n Copyright'	-- Cap'n Copyright
+	`subname_loc4`='舵手'	-- Boat Operator
+WHERE `entry`=3152;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='弗朗恩'	-- Frang
@@ -11610,7 +11610,7 @@ WHERE `entry`=3167;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='弗拉克'	-- Flakk
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=3168;
 
 UPDATE `locales_creature` SET
@@ -11640,12 +11640,12 @@ WHERE `entry`=3173;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='杜克'	-- Dwukk
-	`subname_loc4`='锻造训练师'	-- Journeyman Blacksmith
+	`subname_loc4`='初级铁匠'	-- Journeyman Blacksmith
 WHERE `entry`=3174;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克鲁恩'	-- Krunn
-	`subname_loc4`='采矿训练师'	-- Miner
+	`subname_loc4`='矿工'	-- Miner
 WHERE `entry`=3175;
 
 -- UPDATE `locales_creature` SET
@@ -11660,12 +11660,12 @@ WHERE `entry`=3177;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯图亚特·弗雷明'	-- Stuart Fleming
-	`subname_loc4`='渔具供应商'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=3178;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='哈洛德·李格斯'	-- Harold Riggs
-	`subname_loc4`='钓鱼训练师'	-- Fishing Trainer
+	`subname_loc4`='渔具供应商'	-- Fishing Trainer
 WHERE `entry`=3179;
 
 UPDATE `locales_creature` SET
@@ -11688,12 +11688,12 @@ WHERE `entry`=3183;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='米奥赞'	-- Miao'zan
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist
+	`subname_loc4`='初级炼金师'	-- Journeyman Alchemist
 WHERE `entry`=3184;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='米什基'	-- Mishiki
-	`subname_loc4`='草药学训练师'	-- Herbalist
+	`subname_loc4`='采药人'	-- Herbalist
 WHERE `entry`=3185;
 
 UPDATE `locales_creature` SET
@@ -11703,7 +11703,7 @@ WHERE `entry`=3186;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='泰塔希'	-- Tai'tasi
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=3187;
 
 UPDATE `locales_creature` SET
@@ -11768,7 +11768,7 @@ WHERE `entry`=3199;
 -- WHERE `entry`=3202;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='费滋尔·黑爪'	-- Fizzle Darkstorm
+	`name_loc4`='费索·暗雷'	-- Fizzle Darkstorm
 WHERE `entry`=3203;
 
 UPDATE `locales_creature` SET
@@ -11872,7 +11872,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3228;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='尖叫者刺鬃'	-- "Squealer" Thornmantle
+	`name_loc4`='尖叫者索恩曼图'	-- "Squealer" Thornmantle
 WHERE `entry`=3229;
 
 UPDATE `locales_creature` SET
@@ -11953,7 +11953,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3248;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='大型雷鹰'	-- Greater Thunderhawk
+	`name_loc4`='巨型雷鹰'	-- Greater Thunderhawk
 WHERE `entry`=3249;
 
 UPDATE `locales_creature` SET
@@ -11992,9 +11992,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='刺背猎手'	-- Bristleback Hunter
 WHERE `entry`=3258;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bristleback Defender'	-- Bristleback Defender
--- WHERE `entry`=3259;
+UPDATE `locales_creature` SET
+	`name_loc4`='刺背防御者'	-- Bristleback Defender
+WHERE `entry`=3259;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='刺背寻水者'	-- Bristleback Water Seeker
@@ -12004,9 +12004,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='刺背织棘者'	-- Bristleback Thornweaver
 WHERE `entry`=3261;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bristleback Mystic'	-- Bristleback Mystic
--- WHERE `entry`=3262;
+UPDATE `locales_creature` SET
+	`name_loc4`='刺背秘法师'	-- Bristleback Mystic
+WHERE `entry`=3262;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='刺背地卜师'	-- Bristleback Geomancer
@@ -12021,7 +12021,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3266;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='钢鬃掠夺者'	-- Razormane Water Seeker
+	`name_loc4`='钢鬃寻水者'	-- Razormane Water Seeker
 WHERE `entry`=3267;
 
 UPDATE `locales_creature` SET
@@ -12110,7 +12110,7 @@ WHERE `entry`=3289;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='迪克'	-- Deek Fizzlebizz
-	`subname_loc4`='工程学训练师'	-- Journeyman Engineer
+	`subname_loc4`='初级技师'	-- Journeyman Engineer
 WHERE `entry`=3290;
 
 UPDATE `locales_creature` SET
@@ -12132,7 +12132,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3294;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='淤泥畸体'	-- Sludge Beast
+	`name_loc4`='淤泥兽'	-- Sludge Beast
 WHERE `entry`=3295;
 
 UPDATE `locales_creature` SET
@@ -12182,7 +12182,7 @@ WHERE `entry`=3305;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='凯尔达斯'	-- Keldas
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=3306;
 
 -- UPDATE `locales_creature` SET
@@ -12252,12 +12252,12 @@ WHERE `entry`=3321;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡加'	-- Kaja
-	`subname_loc4`='弓箭和枪械商人'	-- Guns and Ammo Merchant
+	`subname_loc4`='枪械和弹药商'	-- Guns and Ammo Merchant
 WHERE `entry`=3322;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='霍苏斯'	-- Horthus
-	`subname_loc4`='材料商'	-- Reagents Vendor
+	`subname_loc4`='施法材料商'	-- Reagents Vendor
 WHERE `entry`=3323;
 
 UPDATE `locales_creature` SET
@@ -12317,7 +12317,7 @@ WHERE `entry`=3334;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='哈格鲁斯'	-- Hagrus
-	`subname_loc4`='材料商'	-- Reagents Vendor
+	`subname_loc4`='施法材料商'	-- Reagents Vendor
 WHERE `entry`=3335;
 
 UPDATE `locales_creature` SET
@@ -12357,7 +12357,7 @@ WHERE `entry`=3344;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='古丹'	-- Godan
-	`subname_loc4`='附魔训练师'	-- Expert Enchanter
+	`subname_loc4`='中级附魔师'	-- Expert Enchanter
 WHERE `entry`=3345;
 
 UPDATE `locales_creature` SET
@@ -12367,7 +12367,7 @@ WHERE `entry`=3346;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='耶尔玛克'	-- Yelmak
-	`subname_loc4`='炼金术训练师'	-- Expert Alchemist
+	`subname_loc4`='中级炼金师'	-- Expert Alchemist
 WHERE `entry`=3347;
 
 UPDATE `locales_creature` SET
@@ -12387,7 +12387,7 @@ WHERE `entry`=3350;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='玛基努斯'	-- Magenius
-	`subname_loc4`='材料商'	-- Reagents Vendor
+	`subname_loc4`='施法材料商'	-- Reagents Vendor
 WHERE `entry`=3351;
 
 UPDATE `locales_creature` SET
@@ -12407,7 +12407,7 @@ WHERE `entry`=3354;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='萨鲁·钢怒'	-- Saru Steelfury
-	`subname_loc4`='锻造训练师'	-- Artisan Blacksmith
+	`subname_loc4`='高级铁匠'	-- Artisan Blacksmith
 WHERE `entry`=3355;
 
 UPDATE `locales_creature` SET
@@ -12447,7 +12447,7 @@ WHERE `entry`=3362;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='玛加尔'	-- Magar
-	`subname_loc4`='裁缝训练师'	-- Expert Tailor
+	`subname_loc4`='中级裁缝'	-- Expert Tailor
 WHERE `entry`=3363;
 
 UPDATE `locales_creature` SET
@@ -12457,7 +12457,7 @@ WHERE `entry`=3364;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡洛雷克'	-- Karolek
-	`subname_loc4`='制皮训练师'	-- Expert Leatherworker
+	`subname_loc4`='中级制皮师'	-- Expert Leatherworker
 WHERE `entry`=3365;
 
 UPDATE `locales_creature` SET
@@ -12467,7 +12467,7 @@ WHERE `entry`=3366;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='菲利卡'	-- Felika
-	`subname_loc4`='贸易供应商'	-- General Trade Goods Merchant
+	`subname_loc4`='杂货供应商'	-- General Trade Goods Merchant
 WHERE `entry`=3367;
 
 UPDATE `locales_creature` SET
@@ -12482,7 +12482,7 @@ WHERE `entry`=3369;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='乌特伦'	-- Urtrun Clanbringer
-	`subname_loc4`='会长'	-- Guild Master
+	`subname_loc4`='公会注册员'	-- Guild Master
 WHERE `entry`=3370;
 
 UPDATE `locales_creature` SET
@@ -12665,7 +12665,7 @@ WHERE `entry`=3411;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='诺格'	-- Nogg
-	`subname_loc4`='工程学训练师'	-- Expert Engineer
+	`subname_loc4`='中级技师'	-- Expert Engineer
 WHERE `entry`=3412;
 
 UPDATE `locales_creature` SET
@@ -12674,7 +12674,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3413;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='双辫将军'	-- General Twinbraid
+	`name_loc4`='塔文布莱德将军'	-- General Twinbraid
 WHERE `entry`=3414;
 
 UPDATE `locales_creature` SET
@@ -12695,7 +12695,7 @@ WHERE `entry`=3418;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='药剂师扎玛'	-- Apothecary Zamah
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=3419;
 
 -- UPDATE `locales_creature` SET
@@ -12758,9 +12758,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='卡兹'	-- Kuz
 WHERE `entry`=3436;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Crekori Mudwater'	-- Crekori Mudwater
--- WHERE `entry`=3437;
+UPDATE `locales_creature` SET
+	`name_loc4`='克雷高里·泥水'	-- Crekori Mudwater
+WHERE `entry`=3437;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克里尼格·糟鼻'	-- Kreenig Snarlsnout
@@ -12851,17 +12851,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='钢鬃战士'	-- Razormane Warfrenzy
 WHERE `entry`=3459;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mud Crawler'	-- Mud Crawler
--- WHERE `entry`=3460;
+UPDATE `locales_creature` SET
+	`name_loc4`='泥沼蟹'	-- Mud Crawler
+WHERE `entry`=3460;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='绿洲钳嘴龟'	-- Oasis Snapjaw
 WHERE `entry`=3461;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Elder Barrens Giraffe'	-- Elder Barrens Giraffe
--- WHERE `entry`=3462;
+UPDATE `locales_creature` SET
+	`name_loc4`='老长颈鹿'	-- Elder Barrens Giraffe
+WHERE `entry`=3462;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='游荡的长颈鹿'	-- Wandering Barrens Giraffe
@@ -12927,7 +12927,7 @@ WHERE `entry`=3477;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='特劳弗'	-- Traugh
-	`subname_loc4`='初级铁匠'	-- Expert Blacksmith
+	`subname_loc4`='中级铁匠'	-- Expert Blacksmith
 WHERE `entry`=3478;
 
 UPDATE `locales_creature` SET
@@ -12947,7 +12947,7 @@ WHERE `entry`=3481;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塔里查'	-- Tari'qa
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=3482;
 
 UPDATE `locales_creature` SET
@@ -12957,7 +12957,7 @@ WHERE `entry`=3483;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='基尔哈拉'	-- Kil'hala
-	`subname_loc4`='裁缝训练师'	-- Journeyman Tailor
+	`subname_loc4`='初级裁缝'	-- Journeyman Tailor
 WHERE `entry`=3484;
 
 UPDATE `locales_creature` SET
@@ -13007,7 +13007,7 @@ WHERE `entry`=3493;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='廷克维斯'	-- Tinkerwiz
-	`subname_loc4`='工程学训练师'	-- Journeyman Engineer
+	`subname_loc4`='初级技师'	-- Journeyman Engineer
 WHERE `entry`=3494;
 
 UPDATE `locales_creature` SET
@@ -13032,12 +13032,12 @@ WHERE `entry`=3498;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='拉尼克'	-- Ranik
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=3499;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塔霍斯'	-- Tarhus
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=3500;
 
 UPDATE `locales_creature` SET
@@ -13115,7 +13115,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3519;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='老艾玛'	-- Ol' Emma
+	`name_loc4`='艾玛'	-- Ol' Emma
 WHERE `entry`=3520;
 
 UPDATE `locales_creature` SET
@@ -13129,7 +13129,7 @@ WHERE `entry`=3522;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='博文·布里斯博埃斯'	-- Bowen Brisboise
-	`subname_loc4`='裁缝训练师'	-- Journeyman Tailor
+	`subname_loc4`='初级裁缝'	-- Journeyman Tailor
 WHERE `entry`=3523;
 
 UPDATE `locales_creature` SET
@@ -13225,7 +13225,7 @@ WHERE `entry`=3544;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克劳德·艾尔克辛'	-- Claude Erksine
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=3545;
 
 UPDATE `locales_creature` SET
@@ -13275,17 +13275,17 @@ WHERE `entry`=3554;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='乔汉·弗彻'	-- Johan Focht
-	`subname_loc4`='采矿训练师'	-- Miner
+	`subname_loc4`='矿工'	-- Miner
 WHERE `entry`=3555;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='安德鲁·希尔伯特'	-- Andrew Hilbert
-	`subname_loc4`='贸易供应商'	-- Trade Goods
+	`subname_loc4`='商人'	-- Trade Goods
 WHERE `entry`=3556;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='古拉摩·索洛伊'	-- Guillaume Sorouy
-	`subname_loc4`='锻造训练师'	-- Journeyman Blacksmith
+	`subname_loc4`='初级铁匠'	-- Journeyman Blacksmith
 WHERE `entry`=3557;
 
 -- UPDATE `locales_creature` SET
@@ -13293,10 +13293,10 @@ WHERE `entry`=3557;
 -- 	`subname_loc4`='Poison Vendor'	-- Poison Vendor
 -- WHERE `entry`=3558;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Temp Poisoning Vendor Dwarf'	-- Temp Poisoning Vendor Dwarf
--- 	`subname_loc4`='Poison Vendor'	-- Poison Vendor
--- WHERE `entry`=3559;
+UPDATE `locales_creature` SET
+	`name_loc4`='Temp Poisoning Vendor Dwarf'	-- Temp Poisoning Vendor Dwarf
+	`subname_loc4`='毒药商'	-- Poison Vendor
+WHERE `entry`=3559;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='治疗结界'	-- Healing Ward
@@ -13309,13 +13309,13 @@ WHERE `entry`=3561;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥兰蒂亚'	-- Alaindia
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=3562;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Temp Reagent Vendor Dwarf'	-- Temp Reagent Vendor Dwarf
--- 	`subname_loc4`='Reagent Vendor'	-- Reagent Vendor
--- WHERE `entry`=3564;
+UPDATE `locales_creature` SET
+	`name_loc4`='Temp Reagent Vendor Dwarf'	-- Temp Reagent Vendor Dwarf
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
+WHERE `entry`=3564;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Temp Reagent Vendor Undead'	-- [UNUSED] Temp Reagent Vendor Undead
@@ -13348,7 +13348,7 @@ WHERE `entry`=3571;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='吉塞克'	-- Zizzek
-	`subname_loc4`='渔具供应商'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=3572;
 
 UPDATE `locales_creature` SET
@@ -13359,17 +13359,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='蝙蝠'	-- Riding Bat
 WHERE `entry`=3574;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Praenus Raxxeus'	-- Praenus Raxxeus
--- 	`subname_loc4`='Bat Handler'	-- Bat Handler
--- WHERE `entry`=3575;
+UPDATE `locales_creature` SET
+	`name_loc4`='普莱努斯·拉克休斯'	-- Praenus Raxxeus
+	`subname_loc4`='蝙蝠管理员'	-- Bat Handler
+WHERE `entry`=3575;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安伯米尔酿酒师'	-- Dalaran Brewmaster
+	`name_loc4`='达拉然酿酒师'	-- Dalaran Brewmaster
 WHERE `entry`=3577;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安伯米尔矿工'	-- Dalaran Miner
+	`name_loc4`='达拉然矿工'	-- Dalaran Miner
 WHERE `entry`=3578;
 
 UPDATE `locales_creature` SET
@@ -13486,12 +13486,12 @@ WHERE `entry`=3602;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塞恩德拉·细语者'	-- Cyndra Kindwhisper
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist
+	`subname_loc4`='初级炼金师'	-- Journeyman Alchemist
 WHERE `entry`=3603;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='玛洛尼·刃叶'	-- Malorne Bladeleaf
-	`subname_loc4`='草药学训练师'	-- Herbalist
+	`subname_loc4`='采药人'	-- Herbalist
 WHERE `entry`=3604;
 
 UPDATE `locales_creature` SET
@@ -13501,12 +13501,12 @@ WHERE `entry`=3605;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥兰纳·鸦眼'	-- Alanna Raveneye
-	`subname_loc4`='附魔训练师'	-- Journeyman Enchanter
+	`subname_loc4`='初级附魔师'	-- Journeyman Enchanter
 WHERE `entry`=3606;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='安多尔·橡木之手'	-- Androl Oakhand
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=3607;
 
 UPDATE `locales_creature` SET
@@ -13541,7 +13541,7 @@ WHERE `entry`=3613;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='纳瑞特·影林'	-- Narret Shadowgrove
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=3614;
 
 UPDATE `locales_creature` SET
@@ -13564,7 +13564,7 @@ WHERE `entry`=3619;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='哈鲁克'	-- Harruk
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=3620;
 
 UPDATE `locales_creature` SET
@@ -13574,7 +13574,7 @@ WHERE `entry`=3621;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格罗科尔'	-- Grokor
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=3622;
 
 -- UPDATE `locales_creature` SET
@@ -13584,7 +13584,7 @@ WHERE `entry`=3622;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='祖德'	-- Zudd
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=3624;
 
 UPDATE `locales_creature` SET
@@ -13732,12 +13732,12 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3666;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安娜雅·晨行者'	-- Anaya Dawnrunner
+	`name_loc4`='安娜雅·晨路'	-- Anaya Dawnrunner
 WHERE `entry`=3667;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tortured Highborne Soul'	-- Tortured Highborne Soul
--- WHERE `entry`=3668;
+UPDATE `locales_creature` SET
+	`name_loc4`='被折磨的贵族精灵的灵魂'	-- Tortured Highborne Soul
+WHERE `entry`=3668;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='考布莱恩'	-- Lord Cobrahn
@@ -13769,7 +13769,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3674;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='穆约'	-- Disciple of Naralex
+	`name_loc4`='纳拉雷克斯的信徒'	-- Disciple of Naralex
 WHERE `entry`=3678;
 
 UPDATE `locales_creature` SET
@@ -13806,7 +13806,7 @@ WHERE `entry`=3685;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瑞班'	-- Reban Freerunner
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=3688;
 
 UPDATE `locales_creature` SET
@@ -13816,7 +13816,7 @@ WHERE `entry`=3689;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡尔·雷歌'	-- Kar Stormsinger
-	`subname_loc4`='骑术训练师'	-- Kodo Riding Instructor
+	`subname_loc4`='科多兽骑术训练师'	-- Kodo Riding Instructor
 WHERE `entry`=3690;
 
 UPDATE `locales_creature` SET
@@ -13836,31 +13836,31 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3694;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='冷酷之爪'	-- Grimclaw
+	`name_loc4`='锐爪'	-- Grimclaw
 WHERE `entry`=3695;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='兰恩·血牙'	-- Ran Bloodtooth
 WHERE `entry`=3696;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kyln Longclaw'	-- Kyln Longclaw
--- 	`subname_loc4`='Boar Trainer'	-- Boar Trainer
--- WHERE `entry`=3697;
+UPDATE `locales_creature` SET
+	`name_loc4`='凯林·长爪'	-- Kyln Longclaw
+	`subname_loc4`='野猪训练师'	-- Boar Trainer
+WHERE `entry`=3697;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='波尔温'	-- Bolyun
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=3698;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Nerra'	-- Nerra
--- 	`subname_loc4`='Cat Trainer'	-- Cat Trainer
--- WHERE `entry`=3699;
+UPDATE `locales_creature` SET
+	`name_loc4`='奈拉'	-- Nerra
+	`subname_loc4`='豹训练师'	-- Cat Trainer
+WHERE `entry`=3699;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='亚德维斯·观海者'	-- Jadenvis Seawatcher
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=3700;
 
 UPDATE `locales_creature` SET
@@ -13873,12 +13873,12 @@ WHERE `entry`=3702;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克鲁姆·满月'	-- Krulmoo Fullmoon
-	`subname_loc4`='制皮训练师'	-- Expert Leatherworker
+	`subname_loc4`='中级制皮师'	-- Expert Leatherworker
 WHERE `entry`=3703;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='马哈尼'	-- Mahani
-	`subname_loc4`='裁缝训练师'	-- Expert Tailor
+	`subname_loc4`='中级裁缝'	-- Expert Tailor
 WHERE `entry`=3704;
 
 UPDATE `locales_creature` SET
@@ -13958,7 +13958,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3733;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='兽人监工'	-- Forsaken Thug
+	`name_loc4`='亡灵暴徒'	-- Forsaken Thug
 WHERE `entry`=3734;
 
 UPDATE `locales_creature` SET
@@ -14069,23 +14069,23 @@ UPDATE `locales_creature` SET
 	`name_loc4`='恶魔杀手'	-- Felslayer
 WHERE `entry`=3774;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Aelyssa'	-- Aelyssa
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=3777;
+UPDATE `locales_creature` SET
+	`name_loc4`='艾丽萨'	-- Aelyssa
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=3777;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Myielea Starwhisper'	-- Myielea Starwhisper
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=3778;
+UPDATE `locales_creature` SET
+	`name_loc4`='米耶利亚·星语'	-- Myielea Starwhisper
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=3778;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='赛娜拉'	-- Syurana
-	`subname_loc4`='贸易供应商'	-- Trade Goods Supplies
+	`subname_loc4`='商人'	-- Trade Goods Supplies
 WHERE `entry`=3779;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='被烧焦的沼泽兽'	-- Shadethicket Moss Eater
+	`name_loc4`='食苔沼泽兽'	-- Shadethicket Moss Eater
 WHERE `entry`=3780;
 
 UPDATE `locales_creature` SET
@@ -14116,21 +14116,21 @@ UPDATE `locales_creature` SET
 	`name_loc4`='恐狼族长'	-- Terrowulf Packlord
 WHERE `entry`=3792;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Initiate Druid'	-- Initiate Druid
--- WHERE `entry`=3793;
+UPDATE `locales_creature` SET
+	`name_loc4`='见习德鲁伊'	-- Initiate Druid
+WHERE `entry`=3793;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Druid of the Talon'	-- Druid of the Talon
--- WHERE `entry`=3794;
+UPDATE `locales_creature` SET
+	`name_loc4`='猛禽德鲁伊'	-- Druid of the Talon
+WHERE `entry`=3794;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Druid of the Claw'	-- Druid of the Claw
--- WHERE `entry`=3795;
+UPDATE `locales_creature` SET
+	`name_loc4`='利爪德鲁伊'	-- Druid of the Claw
+WHERE `entry`=3795;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Druid of the Wild'	-- Druid of the Wild
--- WHERE `entry`=3796;
+UPDATE `locales_creature` SET
+	`name_loc4`='野性德鲁伊'	-- Druid of the Wild
+WHERE `entry`=3796;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塞纳里奥保卫者'	-- Cenarion Protector
@@ -14228,18 +14228,18 @@ UPDATE `locales_creature` SET
 	`name_loc4`='幽爪前锋'	-- Ghostpaw Alpha
 WHERE `entry`=3825;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rabid Ghostpaw'	-- Rabid Ghostpaw
--- WHERE `entry`=3826;
+UPDATE `locales_creature` SET
+	`name_loc4`='疯狂的幽爪狼'	-- Rabid Ghostpaw
+WHERE `entry`=3826;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Ancient Guardian'	-- [UNUSED] Ancient Guardian
 -- 	`subname_loc4`='NEED MODEL'	-- NEED MODEL
 -- WHERE `entry`=3831;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Cenarion Steward'	-- Cenarion Steward
--- WHERE `entry`=3832;
+UPDATE `locales_creature` SET
+	`name_loc4`='塞纳里奥管家'	-- Cenarion Steward
+WHERE `entry`=3832;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塞纳里奥辩护者'	-- Cenarion Vindicator
@@ -14266,16 +14266,16 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='角鹰兽管理员'	-- Hippogryph Master
 WHERE `entry`=3838;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Voidlasher'	-- Voidlasher
--- WHERE `entry`=3839;
+UPDATE `locales_creature` SET
+	`name_loc4`='虚空鞭笞者'	-- Voidlasher
+WHERE `entry`=3839;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='尖牙德鲁伊'	-- Druid of the Fang
 WHERE `entry`=3840;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='特尔迪娜·月羽'	-- Caylais Moonfeather
+	`name_loc4`='凯莱斯·月羽'	-- Caylais Moonfeather
 	`subname_loc4`='角鹰兽管理员'	-- Hippogryph Master
 WHERE `entry`=3841;
 
@@ -14320,9 +14320,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='影牙白头狼人'	-- Shadowfang Whitescalp
 WHERE `entry`=3851;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Shadowfang Bloodhowler'	-- Shadowfang Bloodhowler
--- WHERE `entry`=3852;
+UPDATE `locales_creature` SET
+	`name_loc4`='影牙血啸者'	-- Shadowfang Bloodhowler
+WHERE `entry`=3852;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='影牙夜行者'	-- Shadowfang Moonwalker
@@ -14344,9 +14344,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='影牙暴怒者'	-- Shadowfang Ragetooth
 WHERE `entry`=3859;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Shadowfang Tainted One'	-- Shadowfang Tainted One
--- WHERE `entry`=3860;
+UPDATE `locales_creature` SET
+	`name_loc4`='影牙堕落者'	-- Shadowfang Tainted One
+WHERE `entry`=3860;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='灰色座狼'	-- Bleak Worg
@@ -14376,37 +14376,37 @@ UPDATE `locales_creature` SET
 	`name_loc4`='觅血者'	-- Blood Seeker
 WHERE `entry`=3868;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lesser Gargoyle'	-- Lesser Gargoyle
--- WHERE `entry`=3869;
+UPDATE `locales_creature` SET
+	`name_loc4`='次级石像鬼'	-- Lesser Gargoyle
+WHERE `entry`=3869;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stone Sleeper'	-- Stone Sleeper
--- WHERE `entry`=3870;
+UPDATE `locales_creature` SET
+	`name_loc4`='石头沉睡者'	-- Stone Sleeper
+WHERE `entry`=3870;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='死亡之誓'	-- Deathsworn Captain
 WHERE `entry`=3872;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='痛苦的军官'	-- Tormented Officer
+	`name_loc4`='痛苦的文官'	-- Tormented Officer
 WHERE `entry`=3873;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='鬼怪仆从'	-- Haunted Servitor
 WHERE `entry`=3875;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Traumatized Spirit'	-- Traumatized Spirit
--- WHERE `entry`=3876;
+UPDATE `locales_creature` SET
+	`name_loc4`='受伤的灵魂'	-- Traumatized Spirit
+WHERE `entry`=3876;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='哀嚎的卫兵'	-- Wailing Guardsman
 WHERE `entry`=3877;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Magthrull''s Doomguard'	-- Magthrull's Doomguard
--- WHERE `entry`=3878;
+UPDATE `locales_creature` SET
+	`name_loc4`='玛格苏尔的末日守卫'	-- Magthrull's Doomguard
+WHERE `entry`=3878;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='暗滩刺客'	-- Dark Strand Assassin
@@ -14473,18 +14473,18 @@ UPDATE `locales_creature` SET
 	`name_loc4`='皮尔图拉斯·怀特姆恩'	-- Pelturas Whitemoon
 WHERE `entry`=3894;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Captain Noteo'	-- Captain Noteo
--- 	`subname_loc4`='Boat Operator'	-- Boat Operator
--- WHERE `entry`=3895;
-
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Captain Hart'	-- Captain Hart
--- 	`subname_loc4`='Boat Operator'	-- Boat Operator
--- WHERE `entry`=3896;
+UPDATE `locales_creature` SET
+	`name_loc4`='埃奥船长'	-- Captain Noteo
+	`subname_loc4`='舵手'	-- Boat Operator
+WHERE `entry`=3895;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='克罗尔格'	-- Krolg
+	`name_loc4`='哈特船长'	-- Captain Hart
+	`subname_loc4`='舵手'	-- Boat Operator
+WHERE `entry`=3896;
+
+UPDATE `locales_creature` SET
+	`name_loc4`='克罗格'	-- Krolg
 WHERE `entry`=3897;
 
 UPDATE `locales_creature` SET
@@ -14634,10 +14634,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='旅行面包商'	-- Traveling Baker
 WHERE `entry`=3937;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Roth Bluntblade'	-- Roth Bluntblade
--- 	`subname_loc4`='Kira''s Guard'	-- Kira's Guard
--- WHERE `entry`=3938;
+UPDATE `locales_creature` SET
+	`name_loc4`='罗斯·布朗特布雷德'	-- Roth Bluntblade
+	`subname_loc4`='基拉的卫兵'	-- Kira's Guard
+WHERE `entry`=3938;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='钢鬃狼'	-- Razormane Wolf
@@ -14714,10 +14714,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='炼金术供应商'	-- Alchemy Supplies
 WHERE `entry`=3956;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jainay Featherbreeze'	-- Jainay Featherbreeze
--- 	`subname_loc4`='Cooking Supplies'	-- Cooking Supplies
--- WHERE `entry`=3957;
+UPDATE `locales_creature` SET
+	`name_loc4`='詹奈·轻羽微风'	-- Jainay Featherbreeze
+	`subname_loc4`='烹饪供应商'	-- Cooking Supplies
+WHERE `entry`=3957;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='拉尔丹'	-- Lardan
@@ -14751,22 +14751,22 @@ WHERE `entry`=3963;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='凯兰娜'	-- Kylanna
-	`subname_loc4`='炼金术训练师'	-- Expert Alchemist
+	`subname_loc4`='中级炼金师'	-- Expert Alchemist
 WHERE `entry`=3964;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塞兰妮娅·伏根'	-- Cylania Rootstalker
-	`subname_loc4`='草药学训练师'	-- Herbalist
+	`subname_loc4`='采药人'	-- Herbalist
 WHERE `entry`=3965;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kaleem'	-- Kaleem
--- 	`subname_loc4`='Cook'	-- Cook
--- WHERE `entry`=3966;
+UPDATE `locales_creature` SET
+	`name_loc4`='卡尔里姆'	-- Kaleem
+	`subname_loc4`='厨师'	-- Cook
+WHERE `entry`=3966;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='艾蒂安·花丛之风'	-- Aayndia Floralwind
-	`subname_loc4`='制皮训练师'	-- Expert Leatherworker
+	`subname_loc4`='中级制皮师'	-- Expert Leatherworker
 WHERE `entry`=3967;
 
 UPDATE `locales_creature` SET
@@ -14775,12 +14775,12 @@ WHERE `entry`=3968;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='法兰·沉默之刃'	-- Fahran Silentblade
-	`subname_loc4`='毒药商人'	-- Tools & Supplies
+	`subname_loc4`='工具和补给品'	-- Tools & Supplies
 WHERE `entry`=3969;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='蓝纳'	-- Llana
-	`subname_loc4`='材料供应商'	-- Reagent Supplies
+	`subname_loc4`='施法材料供应商'	-- Reagent Supplies
 WHERE `entry`=3970;
 
 -- UPDATE `locales_creature` SET
@@ -14861,16 +14861,16 @@ UPDATE `locales_creature` SET
 	`name_loc4`='风险投资公司樵夫'	-- Venture Co. Logger
 WHERE `entry`=3989;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Venture Co. Cutter'	-- Venture Co. Cutter
--- WHERE `entry`=3990;
+UPDATE `locales_creature` SET
+	`name_loc4`='风险投资公司切割员'	-- Venture Co. Cutter
+WHERE `entry`=3990;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='风险投资公司砍树工'	-- Venture Co. Deforester
 WHERE `entry`=3991;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='风险投资公司顽徒'	-- Venture Co. Engineer
+	`name_loc4`='风险投资公司工程师'	-- Venture Co. Engineer
 WHERE `entry`=3992;
 
 UPDATE `locales_creature` SET
@@ -14889,9 +14889,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='法德瑞斯·戈森沙尔'	-- Faldreas Goeth'Shael
 WHERE `entry`=3996;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Venture Co. Overboss'	-- Venture Co. Overboss
--- WHERE `entry`=3997;
+UPDATE `locales_creature` SET
+	`name_loc4`='风险投资公司股东'	-- Venture Co. Overboss
+WHERE `entry`=3997;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='风剪歹徒'	-- Windshear Vermin
@@ -14978,7 +14978,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4020;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='堕落的腐蚀兽'	-- Corrosive Sap Beast
+	`name_loc4`='腐蚀性的腐蚀兽'	-- Corrosive Sap Beast
 WHERE `entry`=4021;
 
 UPDATE `locales_creature` SET
@@ -15025,9 +15025,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='奇美拉幼崽'	-- Young Chimaera
 WHERE `entry`=4032;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Charred Stone Spirit'	-- Charred Stone Spirit
--- WHERE `entry`=4033;
+UPDATE `locales_creature` SET
+	`name_loc4`='焦黑的石灵'	-- Charred Stone Spirit
+WHERE `entry`=4033;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='狂怒的石灵'	-- Enraged Stone Spirit
@@ -15049,10 +15049,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='燃烧的破坏者'	-- Burning Destroyer
 WHERE `entry`=4038;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dinnis'	-- Dinnis
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=4039;
+UPDATE `locales_creature` SET
+	`name_loc4`='迪内斯'	-- Dinnis
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=4039;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='洞穴捕猎者'	-- Cave Stalker
@@ -15081,8 +15081,8 @@ WHERE `entry`=4044;
 -- WHERE `entry`=4045;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='玛加萨·恐怖图腾'	-- Magatha Grimtotem
-	`subname_loc4`='巫婆长老'	-- Elder Crone
+	`name_loc4`='玛加萨·野性图腾'	-- Magatha Grimtotem
+	`subname_loc4`='长者'	-- Elder Crone
 WHERE `entry`=4046;
 
 UPDATE `locales_creature` SET
@@ -15118,9 +15118,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='欢笑的姐妹'	-- Laughing Sister
 WHERE `entry`=4054;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mirkfallon Glade Strider'	-- Mirkfallon Glade Strider
--- WHERE `entry`=4055;
+UPDATE `locales_creature` SET
+	`name_loc4`='暗色巡林者'	-- Mirkfallon Glade Strider
+WHERE `entry`=4055;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='暗色守护者'	-- Mirkfallon Keeper
@@ -15166,17 +15166,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='毒蛇信使'	-- Serpent Messenger
 WHERE `entry`=4068;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Venture Co. Planner'	-- Venture Co. Planner
--- WHERE `entry`=4069;
+UPDATE `locales_creature` SET
+	`name_loc4`='风险投资公司规划师'	-- Venture Co. Planner
+WHERE `entry`=4069;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='风险投资公司建筑师'	-- Venture Co. Builder
 WHERE `entry`=4070;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Venture Co. Grinder'	-- Venture Co. Grinder
--- WHERE `entry`=4071;
+UPDATE `locales_creature` SET
+	`name_loc4`='风险投资公司磨工'	-- Venture Co. Grinder
+WHERE `entry`=4071;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='金吉尔的囚犯'	-- Prisoner of Jin'Zil
@@ -15203,7 +15203,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4077;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='科林·玛伦'	-- Collin Mauren
+	`name_loc4`='科林·马伦'	-- Collin Mauren
 WHERE `entry`=4078;
 
 UPDATE `locales_creature` SET
@@ -15292,9 +15292,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='加拉克狂怒者'	-- Galak Stormer
 WHERE `entry`=4097;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Galak Pack Runner'	-- Galak Pack Runner
--- WHERE `entry`=4098;
+UPDATE `locales_creature` SET
+	`name_loc4`='加拉克驯犬者'	-- Galak Pack Runner
+WHERE `entry`=4098;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='加拉克掠夺者'	-- Galak Marauder
@@ -15365,9 +15365,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='雷鸣岩石元素'	-- Thundering Boulderkin
 WHERE `entry`=4120;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Wandering Boulderkin'	-- Wandering Boulderkin
--- WHERE `entry`=4121;
+UPDATE `locales_creature` SET
+	`name_loc4`='游荡岩石元素'	-- Wandering Boulderkin
+WHERE `entry`=4121;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='千针石林山狮'	-- Needles Cougar
@@ -15398,7 +15398,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4131;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='克尔克斯克'	-- Silithid Ravager
+	`name_loc4`='异种破坏者'	-- Silithid Ravager
 WHERE `entry`=4132;
 
 UPDATE `locales_creature` SET
@@ -15439,10 +15439,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='盐石蜥蜴'	-- Saltstone Basilisk
 WHERE `entry`=4147;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kesteryth'	-- Kesteryth
--- 	`subname_loc4`='Foraging Trainer'	-- Foraging Trainer
--- WHERE `entry`=4149;
+UPDATE `locales_creature` SET
+	`name_loc4`='凯斯特雷斯'	-- Kesteryth
+	`subname_loc4`='食物搜寻训练师'	-- Foraging Trainer
+WHERE `entry`=4149;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='盐石凝视者'	-- Saltstone Gazer
@@ -15452,10 +15452,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='盐石水晶蜥蜴'	-- Saltstone Crystalhide
 WHERE `entry`=4151;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kysandia'	-- Kysandia
--- 	`subname_loc4`='Cat Trainer'	-- Cat Trainer
--- WHERE `entry`=4153;
+UPDATE `locales_creature` SET
+	`name_loc4`='凯珊迪亚'	-- Kysandia
+	`subname_loc4`='豹训练师'	-- Cat Trainer
+WHERE `entry`=4153;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='盐湖食腐鹫'	-- Salt Flats Scavenger
@@ -15468,13 +15468,13 @@ WHERE `entry`=4155;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='阿斯坦娅'	-- Astaia
-	`subname_loc4`='钓鱼训练师'	-- Fishing Trainer
+	`subname_loc4`='渔具供应商'	-- Fishing Trainer
 WHERE `entry`=4156;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kitari Farseeker'	-- Kitari Farseeker
--- 	`subname_loc4`='Cartography Trainer'	-- Cartography Trainer
--- WHERE `entry`=4157;
+UPDATE `locales_creature` SET
+	`name_loc4`='基塔利'	-- Kitari Farseeker
+	`subname_loc4`='制图训练师'	-- Cartography Trainer
+WHERE `entry`=4157;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='盐湖秃鹫'	-- Salt Flats Vulture
@@ -15482,17 +15482,17 @@ WHERE `entry`=4158;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='迈里恩'	-- Me'lynn
-	`subname_loc4`='裁缝训练师'	-- Expert Tailor
+	`subname_loc4`='中级裁缝'	-- Expert Tailor
 WHERE `entry`=4159;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='安尼希尔'	-- Ainethil
-	`subname_loc4`='炼金术训练师'	-- Artisan Alchemist
+	`subname_loc4`='高级炼金师'	-- Artisan Alchemist
 WHERE `entry`=4160;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='琳沙娜'	-- Lysheana
-	`subname_loc4`='会长'	-- Guild Master
+	`subname_loc4`='公会注册员'	-- Guild Master
 WHERE `entry`=4161;
 
 UPDATE `locales_creature` SET
@@ -15506,7 +15506,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4164;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='埃莉萨·杜马斯'	-- Elissa Dumas
+	`name_loc4`='埃莉萨'	-- Elissa Dumas
 	`subname_loc4`='传送门训练师'	-- Portal Trainer
 WHERE `entry`=4165;
 
@@ -15549,35 +15549,35 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='弓箭商人'	-- Bow Merchant
 WHERE `entry`=4173;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Siannai'	-- Siannai
--- 	`subname_loc4`='Arrow Merchant'	-- Arrow Merchant
--- WHERE `entry`=4174;
+UPDATE `locales_creature` SET
+	`name_loc4`='希亚奈恩'	-- Siannai
+	`subname_loc4`='弓箭商'	-- Arrow Merchant
+WHERE `entry`=4174;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='温娜希雅'	-- Vinasia
 	`subname_loc4`='布甲商'	-- Cloth Armor Merchant
 WHERE `entry`=4175;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ki''rasia'	-- Ki'rasia
--- 	`subname_loc4`='Cloth Armor Merchant'	-- Cloth Armor Merchant
--- WHERE `entry`=4176;
+UPDATE `locales_creature` SET
+	`name_loc4`='吉拉希亚'	-- Ki'rasia
+	`subname_loc4`='布甲商'	-- Cloth Armor Merchant
+WHERE `entry`=4176;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='梅尔利恩'	-- Melea
 	`subname_loc4`='锁甲商'	-- Mail Armor Merchant
 WHERE `entry`=4177;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Shaia'	-- Shaia
--- 	`subname_loc4`='Mail Armor Merchant'	-- Mail Armor Merchant
--- WHERE `entry`=4178;
+UPDATE `locales_creature` SET
+	`name_loc4`='珊雅'	-- Shaia
+	`subname_loc4`='锁甲商'	-- Mail Armor Merchant
+WHERE `entry`=4178;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Freillania'	-- Freillania
--- 	`subname_loc4`='Shield Merchant'	-- Shield Merchant
--- WHERE `entry`=4179;
+UPDATE `locales_creature` SET
+	`name_loc4`='弗雷兰妮亚'	-- Freillania
+	`subname_loc4`='盾牌商'	-- Shield Merchant
+WHERE `entry`=4179;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='伊林希亚·露珠'	-- Ealyshia Dewwhisper
@@ -15605,12 +15605,12 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4184;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='莎尔蒂'	-- Shaldyn
+	`name_loc4`='沙尔迪恩'	-- Shaldyn
 	`subname_loc4`='布商'	-- Clothier
 WHERE `entry`=4185;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='玛芙琳'	-- Mavralyn
+	`name_loc4`='马弗拉林'	-- Mavralyn
 	`subname_loc4`='制皮师'	-- Leather Armor & Leatherworking Supplies
 WHERE `entry`=4186;
 
@@ -15646,12 +15646,12 @@ WHERE `entry`=4192;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格隆达尔·月风'	-- Grondal Moonbreeze
-	`subname_loc4`='裁缝训练师'	-- Journeyman Tailor
+	`subname_loc4`='初级裁缝'	-- Journeyman Tailor
 WHERE `entry`=4193;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥兰纳'	-- Ullanna
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=4194;
 
 UPDATE `locales_creature` SET
@@ -15699,15 +15699,15 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='猎人训练师'	-- Hunter Trainer
 WHERE `entry`=4205;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Talar'	-- Talar
--- 	`subname_loc4`='Bear Trainer'	-- Bear Trainer
--- WHERE `entry`=4206;
+UPDATE `locales_creature` SET
+	`name_loc4`='塔拉尔'	-- Talar
+	`subname_loc4`='野熊训练师'	-- Bear Trainer
+WHERE `entry`=4206;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Valyen Wolfsong'	-- Valyen Wolfsong
--- 	`subname_loc4`='Wolf Trainer'	-- Wolf Trainer
--- WHERE `entry`=4207;
+UPDATE `locales_creature` SET
+	`name_loc4`='瓦耶尔·狼歌'	-- Valyen Wolfsong
+	`subname_loc4`='狼训练师'	-- Wolf Trainer
+WHERE `entry`=4207;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='莱恩'	-- Lairn
@@ -15731,12 +15731,12 @@ WHERE `entry`=4211;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='泰龙尼斯'	-- Telonis
-	`subname_loc4`='制皮训练师'	-- Artisan Leatherworker
+	`subname_loc4`='高级制皮师'	-- Artisan Leatherworker
 WHERE `entry`=4212;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塔兰丹'	-- Taladan
-	`subname_loc4`='附魔训练师'	-- Expert Enchanter
+	`subname_loc4`='中级附魔师'	-- Expert Enchanter
 WHERE `entry`=4213;
 
 UPDATE `locales_creature` SET
@@ -15745,7 +15745,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4214;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安妮莎尔'	-- Anishar
+	`name_loc4`='安尼沙尔'	-- Anishar
 	`subname_loc4`='盗贼训练师'	-- Rogue Trainer
 WHERE `entry`=4215;
 
@@ -15771,7 +15771,7 @@ WHERE `entry`=4219;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塞罗恩'	-- Cyroen
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=4220;
 
 UPDATE `locales_creature` SET
@@ -15789,10 +15789,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='烹饪供应商'	-- Cooking Supplier
 WHERE `entry`=4223;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Talegon'	-- Talegon
--- 	`subname_loc4`='Cartography Supplier'	-- Cartography Supplier
--- WHERE `entry`=4224;
+UPDATE `locales_creature` SET
+	`name_loc4`='塔雷贡'	-- Talegon
+	`subname_loc4`='制图供应商'	-- Cartography Supplier
+WHERE `entry`=4224;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塞诺里奥'	-- Saenorion
@@ -15811,7 +15811,7 @@ WHERE `entry`=4228;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='迈斯林迪尔'	-- Mythrin'dir
-	`subname_loc4`='贸易供应商'	-- General Trade Supplier
+	`subname_loc4`='杂货供应商'	-- General Trade Supplier
 WHERE `entry`=4229;
 
 UPDATE `locales_creature` SET
@@ -15849,15 +15849,15 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='皮甲商'	-- Leather Armor Merchant
 WHERE `entry`=4236;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Urthoniir'	-- Urthoniir
--- 	`subname_loc4`='Leather Armor Merchant'	-- Leather Armor Merchant
--- WHERE `entry`=4237;
+UPDATE `locales_creature` SET
+	`name_loc4`='乌索尼尔'	-- Urthoniir
+	`subname_loc4`='皮甲商'	-- Leather Armor Merchant
+WHERE `entry`=4237;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lewin Starfeather'	-- Lewin Starfeather
--- 	`subname_loc4`='Leather Armor Merchant'	-- Leather Armor Merchant
--- WHERE `entry`=4239;
+UPDATE `locales_creature` SET
+	`name_loc4`='雷文·星羽'	-- Lewin Starfeather
+	`subname_loc4`='皮甲商'	-- Leather Armor Merchant
+WHERE `entry`=4239;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='坎因鲁斯'	-- Caynrus
@@ -15883,20 +15883,20 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='多利安的宠物'	-- Dorion's Pet
 WHERE `entry`=4244;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mistrunner'	-- Mistrunner
--- 	`subname_loc4`='Valyen''s Pet'	-- Valyen's Pet
--- WHERE `entry`=4245;
+UPDATE `locales_creature` SET
+	`name_loc4`='迷雾'	-- Mistrunner
+	`subname_loc4`='瓦耶尔的宠物'	-- Valyen's Pet
+WHERE `entry`=4245;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Moonprowler'	-- Moonprowler
 -- 	`subname_loc4`='Kysandia''s Pet'	-- Kysandia's Pet
 -- WHERE `entry`=4246;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stonepaw'	-- Stonepaw
--- 	`subname_loc4`='Talar''s Pet'	-- Talar's Pet
--- WHERE `entry`=4247;
+UPDATE `locales_creature` SET
+	`name_loc4`='石爪'	-- Stonepaw
+	`subname_loc4`='塔拉尔的宠物'	-- Talar's Pet
+WHERE `entry`=4247;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='杂毛土狼'	-- Pesterhide Hyena
@@ -15929,7 +15929,7 @@ WHERE `entry`=4254;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='布罗古斯·雷酒'	-- Brogus Thunderbrew
-	`subname_loc4`='餐饮供应商'	-- Food and Drink
+	`subname_loc4`='食物与饮料'	-- Food and Drink
 WHERE `entry`=4255;
 
 UPDATE `locales_creature` SET
@@ -15944,7 +15944,7 @@ WHERE `entry`=4257;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='本古斯·深炉'	-- Bengus Deepforge
-	`subname_loc4`='锻造训练师'	-- Artisan Blacksmith
+	`subname_loc4`='高级铁匠'	-- Artisan Blacksmith
 WHERE `entry`=4258;
 
 UPDATE `locales_creature` SET
@@ -15988,23 +15988,23 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4267;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='灰狼'	-- Riding Wolf (Gray)
+	`name_loc4`='骑乘用狼（灰色）'	-- Riding Wolf (Gray)
 WHERE `entry`=4268;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='栗色马'	-- Riding Horse (Chestnut)
+	`name_loc4`='骑乘用马（栗色）'	-- Riding Horse (Chestnut)
 WHERE `entry`=4269;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='赤狼'	-- Riding Wolf (Red)
+	`name_loc4`='骑乘用狼（红色）'	-- Riding Wolf (Red)
 WHERE `entry`=4270;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='恐狼'	-- Riding Wolf (DarkGray)
+	`name_loc4`='骑乘用狼（暗灰色）'	-- Riding Wolf (DarkGray)
 WHERE `entry`=4271;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='棕狼'	-- Riding Wolf (DarkBrown)
+	`name_loc4`='骑乘用狼（暗棕色）'	-- Riding Wolf (DarkBrown)
 WHERE `entry`=4272;
 
 UPDATE `locales_creature` SET
@@ -16155,11 +16155,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4308;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='高尔姆·恐怖图腾'	-- Gorm Grimtotem
+	`name_loc4`='高尔姆·野性图腾'	-- Gorm Grimtotem
 WHERE `entry`=4309;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='考尔·恐怖图腾'	-- Cor Grimtotem
+	`name_loc4`='考尔·野性图腾'	-- Cor Grimtotem
 WHERE `entry`=4310;
 
 UPDATE `locales_creature` SET
@@ -16205,7 +16205,7 @@ WHERE `entry`=4319;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='凯尔林布'	-- Caelyb
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=4320;
 
 UPDATE `locales_creature` SET
@@ -16213,10 +16213,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='狮鹫管理员'	-- Gryphon Master
 WHERE `entry`=4321;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Corthryn'	-- Corthryn
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=4322;
+UPDATE `locales_creature` SET
+	`name_loc4`='考瑟伦'	-- Corthryn
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=4322;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='灼热龙崽'	-- Searing Hatchling
@@ -16238,9 +16238,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='火鬃灰尾龙人'	-- Firemane Ash Tail
 WHERE `entry`=4331;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Firemane Devourer'	-- Firemane Devourer
--- WHERE `entry`=4333;
+UPDATE `locales_creature` SET
+	`name_loc4`='火鬃吞噬者'	-- Firemane Devourer
+WHERE `entry`=4333;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='火鬃招炎者'	-- Firemane Flamecaller
@@ -16250,10 +16250,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='布雷姆戈'	-- Brimgore
 WHERE `entry`=4339;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mirallia'	-- Mirallia
--- 	`subname_loc4`='Spirit Healer'	-- Spirit Healer
--- WHERE `entry`=4340;
+UPDATE `locales_creature` SET
+	`name_loc4`='米拉莉亚'	-- Mirallia
+	`subname_loc4`='灵魂医者'	-- Spirit Healer
+WHERE `entry`=4340;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='尘泥鳄鱼'	-- Drywallow Crocolisk
@@ -16360,7 +16360,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4376;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暗雾幼蛛'	-- Darkmist Lurker
+	`name_loc4`='暗雾潜伏者'	-- Darkmist Lurker
 WHERE `entry`=4377;
 
 UPDATE `locales_creature` SET
@@ -16419,9 +16419,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='起泡的沼泽软泥怪'	-- Bubbling Swamp Ooze
 WHERE `entry`=4394;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blistering Swamp Ooze'	-- Blistering Swamp Ooze
--- WHERE `entry`=4395;
+UPDATE `locales_creature` SET
+	`name_loc4`='发热的沼泽软泥怪'	-- Blistering Swamp Ooze
+WHERE `entry`=4395;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='泥石海龟'	-- Mudrock Tortoise
@@ -16587,34 +16587,34 @@ UPDATE `locales_creature` SET
 	`name_loc4`='剃刀沼泽防御者'	-- Razorfen Defender
 WHERE `entry`=4442;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Wazza'	-- Wazza
--- 	`subname_loc4`='Totem Merchent'	-- Totem Merchent
--- WHERE `entry`=4443;
+UPDATE `locales_creature` SET
+	`name_loc4`='瓦萨'	-- Wazza
+	`subname_loc4`='图腾商人'	-- Totem Merchent
+WHERE `entry`=4443;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='亡灵哨兵文森特'	-- Deathstalker Vincent
 WHERE `entry`=4444;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Griznak'	-- Griznak
--- 	`subname_loc4`='Race Vendor'	-- Race Vendor
--- WHERE `entry`=4445;
+UPDATE `locales_creature` SET
+	`name_loc4`='格里兹纳克'	-- Griznak
+	`subname_loc4`='票商'	-- Race Vendor
+WHERE `entry`=4445;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mazzer Stripscrew'	-- Mazzer Stripscrew
--- 	`subname_loc4`='Race Vendor'	-- Race Vendor
--- WHERE `entry`=4446;
+UPDATE `locales_creature` SET
+	`name_loc4`='玛兹尔'	-- Mazzer Stripscrew
+	`subname_loc4`='票商'	-- Race Vendor
+WHERE `entry`=4446;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Crazzle Sprysprocket'	-- Crazzle Sprysprocket
--- 	`subname_loc4`='Gnome Ticket Redeemer'	-- Gnome Ticket Redeemer
--- WHERE `entry`=4449;
+UPDATE `locales_creature` SET
+	`name_loc4`='克拉兹·滑链'	-- Crazzle Sprysprocket
+	`subname_loc4`='侏儒奖券商'	-- Gnome Ticket Redeemer
+WHERE `entry`=4449;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rugfizzle'	-- Rugfizzle
--- 	`subname_loc4`='Goblin Ticket Redeemer'	-- Goblin Ticket Redeemer
--- WHERE `entry`=4450;
+UPDATE `locales_creature` SET
+	`name_loc4`='鲁格菲斯'	-- Rugfizzle
+	`subname_loc4`='地精奖券商'	-- Goblin Ticket Redeemer
+WHERE `entry`=4450;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥尔德·石塔'	-- Auld Stonespire
@@ -16653,7 +16653,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4459;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑腮寒冰召唤者'	-- Murkgill Lord
+	`name_loc4`='黑腮首领'	-- Murkgill Lord
 WHERE `entry`=4460;
 
 UPDATE `locales_creature` SET
@@ -16704,9 +16704,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='坏死的僵尸'	-- Blighted Zombie
 WHERE `entry`=4475;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Screaming Haunt'	-- Screaming Haunt
--- WHERE `entry`=4476;
+UPDATE `locales_creature` SET
+	`name_loc4`='尖啸的鬼魅'	-- Screaming Haunt
+WHERE `entry`=4476;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='法迪尔·达比雷'	-- Fardel Dabyrie
@@ -16720,9 +16720,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='马塞尔·达比雷'	-- Marcel Dabyrie
 WHERE `entry`=4481;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Vilebranch Wolf'	-- Vilebranch Wolf
--- WHERE `entry`=4482;
+UPDATE `locales_creature` SET
+	`name_loc4`='邪枝恶狼'	-- Vilebranch Wolf
+WHERE `entry`=4482;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='摩克塔·克林'	-- Moktar Krin
@@ -16740,9 +16740,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='吉纳维·卡隆'	-- Genavie Callow
 WHERE `entry`=4486;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kodiak'	-- Kodiak
--- WHERE `entry`=4487;
+UPDATE `locales_creature` SET
+	`name_loc4`='科迪亚克'	-- Kodiak
+WHERE `entry`=4487;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='帕科瓦·芬塔拉斯'	-- Parqual Fintallas
@@ -16776,10 +16776,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='地精车队老板'	-- Goblin Pit Boss
 WHERE `entry`=4496;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Captain Quirk'	-- Captain Quirk
--- 	`subname_loc4`='Boat Operator'	-- Boat Operator
--- WHERE `entry`=4497;
+UPDATE `locales_creature` SET
+	`name_loc4`='基尔克船长'	-- Captain Quirk
+	`subname_loc4`='舵手'	-- Boat Operator
+WHERE `entry`=4497;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='玛乌林·碎骨'	-- Maurin Bonesplitter
@@ -16835,7 +16835,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4510;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='阿迦玛甘沉默之泪'	-- Agam'ar
+	`name_loc4`='阿迦玛'	-- Agam'ar
 WHERE `entry`=4511;
 
 UPDATE `locales_creature` SET
@@ -17020,12 +17020,12 @@ WHERE `entry`=4560;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='丹尼尔·巴特莱特'	-- Daniel Bartlett
-	`subname_loc4`='贸易供应商'	-- General Trade Supplier
+	`subname_loc4`='杂货供应商'	-- General Trade Supplier
 WHERE `entry`=4561;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='托马斯·莫丹'	-- Thomas Mordan
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=4562;
 
 UPDATE `locales_creature` SET
@@ -17069,7 +17069,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4570;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='莫雷·贝茨'	-- Morley Bates
+	`name_loc4`='莫雷·巴特斯'	-- Morley Bates
 	`subname_loc4`='蘑菇商人'	-- Fungus Vendor
 WHERE `entry`=4571;
 
@@ -17079,7 +17079,7 @@ WHERE `entry`=4572;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='阿曼德·克伦威尔'	-- Armand Cromwell
-	`subname_loc4`='钓鱼训练师'	-- Fishing Trainer
+	`subname_loc4`='渔具供应商'	-- Fishing Trainer
 WHERE `entry`=4573;
 
 UPDATE `locales_creature` SET
@@ -17089,12 +17089,12 @@ WHERE `entry`=4574;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='汉娜·阿克雷'	-- Hannah Akeley
-	`subname_loc4`='材料商'	-- Reagent Supplier
+	`subname_loc4`='施法材料供应商'	-- Reagent Supplier
 WHERE `entry`=4575;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='乔瑟夫·格里高利'	-- Josef Gregorian
-	`subname_loc4`='裁缝训练师'	-- Artisan Tailor
+	`subname_loc4`='高级裁缝'	-- Artisan Tailor
 WHERE `entry`=4576;
 
 UPDATE `locales_creature` SET
@@ -17104,7 +17104,7 @@ WHERE `entry`=4577;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='约瑟芬·李斯特'	-- Josephine Lister
-	`subname_loc4`='裁缝训练师'	-- Master Shadoweave Tailor
+	`subname_loc4`='大师级暗纹裁缝'	-- Master Shadoweave Tailor
 WHERE `entry`=4578;
 
 -- UPDATE `locales_creature` SET
@@ -17144,7 +17144,7 @@ WHERE `entry`=4585;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格拉哈姆·范·塔伦'	-- Graham Van Talen
-	`subname_loc4`='工程学训练师'	-- Journeyman Engineer
+	`subname_loc4`='初级技师'	-- Journeyman Engineer
 WHERE `entry`=4586;
 
 UPDATE `locales_creature` SET
@@ -17154,7 +17154,7 @@ WHERE `entry`=4587;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='亚瑟·摩尔'	-- Arthur Moore
-	`subname_loc4`='制皮训练师'	-- Expert Leatherworker
+	`subname_loc4`='中级制皮师'	-- Expert Leatherworker
 WHERE `entry`=4588;
 
 UPDATE `locales_creature` SET
@@ -17194,7 +17194,7 @@ WHERE `entry`=4595;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='詹姆斯·范·布朗特'	-- James Van Brunt
-	`subname_loc4`='初级铁匠'	-- Expert Blacksmith
+	`subname_loc4`='中级铁匠'	-- Expert Blacksmith
 WHERE `entry`=4596;
 
 UPDATE `locales_creature` SET
@@ -17239,7 +17239,7 @@ WHERE `entry`=4604;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巴兹尔·弗莱伊'	-- Basil Frye
-	`subname_loc4`='锻造训练师'	-- Journeyman Blacksmith
+	`subname_loc4`='初级铁匠'	-- Journeyman Blacksmith
 WHERE `entry`=4605;
 
 UPDATE `locales_creature` SET
@@ -17259,7 +17259,7 @@ WHERE `entry`=4608;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='马尔什医生'	-- Doctor Marsh
-	`subname_loc4`='炼金术训练师'	-- Expert Alchemist
+	`subname_loc4`='中级炼金师'	-- Expert Alchemist
 WHERE `entry`=4609;
 
 UPDATE `locales_creature` SET
@@ -17269,7 +17269,7 @@ WHERE `entry`=4610;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='赫伯特·哈尔希医生'	-- Doctor Herbert Halsey
-	`subname_loc4`='炼金术训练师'	-- Artisan Alchemist
+	`subname_loc4`='高级炼金师'	-- Artisan Alchemist
 WHERE `entry`=4611;
 
 UPDATE `locales_creature` SET
@@ -17278,7 +17278,7 @@ WHERE `entry`=4612;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克里斯托弗·德库尔'	-- Christopher Drakul
-	`subname_loc4`='会长'	-- Guild Master
+	`subname_loc4`='公会注册员'	-- Guild Master
 WHERE `entry`=4613;
 
 UPDATE `locales_creature` SET
@@ -17293,7 +17293,7 @@ WHERE `entry`=4615;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='拉文尼亚·克洛文'	-- Lavinia Crowe
-	`subname_loc4`='附魔训练师'	-- Expert Enchanter
+	`subname_loc4`='中级附魔师'	-- Expert Enchanter
 WHERE `entry`=4616;
 
 UPDATE `locales_creature` SET
@@ -17314,10 +17314,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='裁判员'	-- Race Announcer
 WHERE `entry`=4620;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rebald Yorglun'	-- Rebald Yorglun
--- 	`subname_loc4`='Raptor Trainer'	-- Raptor Trainer
--- WHERE `entry`=4621;
+UPDATE `locales_creature` SET
+	`name_loc4`='雷巴尔德·尤格伦'	-- Rebald Yorglun
+	`subname_loc4`='迅猛龙训练师'	-- Raptor Trainer
+WHERE `entry`=4621;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='野猪人勇士'	-- Quilguard Champion
@@ -17495,9 +17495,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='火刃召唤师'	-- Burning Blade Summoner
 WHERE `entry`=4668;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Burning Blade Conjuror'	-- Burning Blade Conjuror
--- WHERE `entry`=4669;
+UPDATE `locales_creature` SET
+	`name_loc4`='火刃咒术师'	-- Burning Blade Conjuror
+WHERE `entry`=4669;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='怨怒盗贼'	-- Hatefury Rogue
@@ -17551,9 +17551,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='地狱修女'	-- Nether Sister
 WHERE `entry`=4682;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Doomwarder Lord'	-- Doomwarder Lord
--- WHERE `entry`=4683;
+UPDATE `locales_creature` SET
+	`name_loc4`='末日看守领主'	-- Doomwarder Lord
+WHERE `entry`=4683;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='地狱巫女'	-- Nether Sorceress
@@ -17583,9 +17583,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='疯狂的骨爪土狼'	-- Rabid Bonepaw
 WHERE `entry`=4690;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Murderous Bonepaw'	-- Murderous Bonepaw
--- WHERE `entry`=4691;
+UPDATE `locales_creature` SET
+	`name_loc4`='残忍的骨爪土狼'	-- Murderous Bonepaw
+WHERE `entry`=4691;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='恐怖飞扑者'	-- Dread Swoop
@@ -17631,9 +17631,9 @@ WHERE `entry`=4702;
 -- 	`name_loc4`='Raging Kodo'	-- Raging Kodo
 -- WHERE `entry`=4703;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Maraudine Pack Runner'	-- Maraudine Pack Runner
--- WHERE `entry`=4704;
+UPDATE `locales_creature` SET
+	`name_loc4`='玛洛迪驯犬者'	-- Maraudine Pack Runner
+WHERE `entry`=4704;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='火刃祈求者'	-- Burning Blade Invoker
@@ -17657,7 +17657,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4709;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='灰山羊'	-- Riding Ram (Gray)
+	`name_loc4`='骑乘用山羊（灰色）'	-- Riding Ram (Gray)
 WHERE `entry`=4710;
 
 UPDATE `locales_creature` SET
@@ -17684,9 +17684,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='滑刃潮行者'	-- Slitherblade Tidehunter
 WHERE `entry`=4716;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Slitherblade Tide Priestess'	-- Slitherblade Tide Priestess
--- WHERE `entry`=4717;
+UPDATE `locales_creature` SET
+	`name_loc4`='滑刃海潮女祭司'	-- Slitherblade Tide Priestess
+WHERE `entry`=4717;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='滑刃智者'	-- Slitherblade Oracle
@@ -17705,20 +17705,20 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4721;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='拉乌·峭壁信使'	-- Rau Cliffrunner
+	`name_loc4`='劳恩·峭壁行者'	-- Rau Cliffrunner
 WHERE `entry`=4722;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='工头考兹尔'	-- Foreman Cozzle
 WHERE `entry`=4723;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Sandstrider'	-- Sandstrider
--- WHERE `entry`=4724;
+UPDATE `locales_creature` SET
+	`name_loc4`='沙漠陆行鸟'	-- Sandstrider
+WHERE `entry`=4724;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Crazed Sandstrider'	-- Crazed Sandstrider
--- WHERE `entry`=4725;
+UPDATE `locales_creature` SET
+	`name_loc4`='疯狂的沙漠陆行鸟'	-- Crazed Sandstrider
+WHERE `entry`=4725;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='暴怒的雷霆蜥蜴'	-- Raging Thunder Lizard
@@ -17748,48 +17748,48 @@ WHERE `entry`=4731;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='兰达尔·亨特'	-- Randal Hunter
-	`subname_loc4`='骑术训练师'	-- Horse Riding Instructor
+	`subname_loc4`='马骑术训练师'	-- Horse Riding Instructor
 WHERE `entry`=4732;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='基尔达'	-- Kildar
-	`subname_loc4`='骑术训练师'	-- Wolf Riding Instructor
+	`subname_loc4`='狼骑术训练师'	-- Wolf Riding Instructor
 WHERE `entry`=4752;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='贾萨姆'	-- Jartsam
-	`subname_loc4`='骑术训练师'	-- Nightsaber Riding Instructor
+	`subname_loc4`='夜刃豹骑术训练师'	-- Nightsaber Riding Instructor
 WHERE `entry`=4753;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥萨姆·铁角'	-- Ultham Ironhorn
-	`subname_loc4`='骑术训练师'	-- Ram Riding Instructor
+	`subname_loc4`='山羊骑术训练师'	-- Ram Riding Instructor
 WHERE `entry`=4772;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='维尔玛·瓦纳姆'	-- Velma Warnam
-	`subname_loc4`='骑术训练师'	-- Undead Horse Riding Instructor
+	`subname_loc4`='亡灵马骑术训练师'	-- Undead Horse Riding Instructor
 WHERE `entry`=4773;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='菲利希亚·杜安'	-- Felicia Doan
-	`subname_loc4`='贸易供应商'	-- General Trade Goods Vendor
+	`subname_loc4`='杂货供应商'	-- General Trade Goods Vendor
 WHERE `entry`=4775;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='白山羊'	-- Riding Ram (White)
+	`name_loc4`='骑乘用山羊（白色）'	-- Riding Ram (White)
 WHERE `entry`=4777;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='霜山羊'	-- Riding Ram (Blue)
+	`name_loc4`='骑乘用山羊（蓝色）'	-- Riding Ram (Blue)
 WHERE `entry`=4778;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='棕山羊'	-- Riding Ram (Brown)
+	`name_loc4`='骑乘用山羊（棕色）'	-- Riding Ram (Brown)
 WHERE `entry`=4779;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑山羊'	-- Riding Ram (Black)
+	`name_loc4`='骑乘用山羊（黑色）'	-- Riding Ram (Black)
 WHERE `entry`=4780;
 
 UPDATE `locales_creature` SET
@@ -17821,7 +17821,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4786;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='斥候塞尔瑞德'	-- Argent Guard Thaelrid
+	`name_loc4`='银月守卫塞尔瑞德'	-- Argent Guard Thaelrid
 	`subname_loc4`='银色黎明'	-- The Argent Dawn
 WHERE `entry`=4787;
 
@@ -17901,9 +17901,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='巨钳黑泥龙虾人'	-- Murkshallow Snapclaw
 WHERE `entry`=4815;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Murkshallow Shellhide'	-- Murkshallow Shellhide
--- WHERE `entry`=4816;
+UPDATE `locales_creature` SET
+	`name_loc4`='厚壳黑泥龙虾人'	-- Murkshallow Shellhide
+WHERE `entry`=4816;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='盲光鱼人'	-- Blindlight Murloc
@@ -17954,7 +17954,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4831;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暮光领主克尔里斯'	-- Twilight Lord Kelris
+	`name_loc4`='梦游者克尔里斯'	-- Twilight Lord Kelris
 WHERE `entry`=4832;
 
 UPDATE `locales_creature` SET
@@ -18034,9 +18034,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='利齿蝙蝠'	-- Shrike Bat
 WHERE `entry`=4861;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rabid Shrike Bat'	-- Rabid Shrike Bat
--- WHERE `entry`=4862;
+UPDATE `locales_creature` SET
+	`name_loc4`='疯狂的利齿蝙蝠'	-- Rabid Shrike Bat
+WHERE `entry`=4862;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='玉脊蜥蜴'	-- Jadespine Basilisk
@@ -18058,7 +18058,7 @@ WHERE `entry`=4876;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='詹迪亚'	-- Jandia
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=4877;
 
 UPDATE `locales_creature` SET
@@ -18075,10 +18075,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='伊格纳兹'	-- "Stinky" Ignatz
 WHERE `entry`=4880;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Varng'	-- Varng
--- 	`subname_loc4`='Turtle Trainer'	-- Turtle Trainer
--- WHERE `entry`=4881;
+UPDATE `locales_creature` SET
+	`name_loc4`='瓦恩格'	-- Varng
+	`subname_loc4`='海龟训练师'	-- Turtle Trainer
+WHERE `entry`=4881;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Om''kan'	-- [UNUSED] Om'kan
@@ -18141,7 +18141,7 @@ WHERE `entry`=4893;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克莱格·诺瓦德'	-- Craig Nollward
-	`subname_loc4`='烹饪训练师'	-- Cook
+	`subname_loc4`='厨师'	-- Cook
 WHERE `entry`=4894;
 
 UPDATE `locales_creature` SET
@@ -18155,12 +18155,12 @@ WHERE `entry`=4896;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='海伦妮亚·奥德恩'	-- Helenia Olden
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=4897;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='布兰特·加斯布鲁姆'	-- Brant Jasperbloom
-	`subname_loc4`='草药学训练师'	-- Herbalist
+	`subname_loc4`='采药人'	-- Herbalist
 WHERE `entry`=4898;
 
 UPDATE `locales_creature` SET
@@ -18170,7 +18170,7 @@ WHERE `entry`=4899;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='炼金师纳瑞特'	-- Alchemist Narett
-	`subname_loc4`='炼金术训练师'	-- Expert Alchemist
+	`subname_loc4`='中级炼金师'	-- Expert Alchemist
 WHERE `entry`=4900;
 
 UPDATE `locales_creature` SET
@@ -18252,7 +18252,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=4952;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='水蛇'	-- Moccasin
+	`name_loc4`='噬鱼蛇'	-- Moccasin
 WHERE `entry`=4953;
 
 UPDATE `locales_creature` SET
@@ -18260,13 +18260,13 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='屠夫'	-- Butcher
 WHERE `entry`=4954;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Theramore Archery Target 1'	-- Theramore Archery Target 1
--- WHERE `entry`=4955;
+UPDATE `locales_creature` SET
+	`name_loc4`='塞拉摩箭靶 1'	-- Theramore Archery Target 1
+WHERE `entry`=4955;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Theramore Combat Dummy 4'	-- Theramore Combat Dummy 4
--- WHERE `entry`=4957;
+UPDATE `locales_creature` SET
+	`name_loc4`='塞拉摩训练假人 4'	-- Theramore Combat Dummy 4
+WHERE `entry`=4957;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='不散的怨灵'	-- Haunting Spirit
@@ -18336,17 +18336,17 @@ WHERE `entry`=4973;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥德文·拉弗林'	-- Aldwin Laughlin
-	`subname_loc4`='会长'	-- Guild Master
+	`subname_loc4`='公会注册员'	-- Guild Master
 WHERE `entry`=4974;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Theramore Archery Target 2'	-- Theramore Archery Target 2
--- WHERE `entry`=4975;
+UPDATE `locales_creature` SET
+	`name_loc4`='塞拉摩箭靶 2'	-- Theramore Archery Target 2
+WHERE `entry`=4975;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Elise Laughlin'	-- Elise Laughlin
--- 	`subname_loc4`='Guild Tabard Designer'	-- Guild Tabard Designer
--- WHERE `entry`=4976;
+UPDATE `locales_creature` SET
+	`name_loc4`='艾莉丝·拉弗林'	-- Elise Laughlin
+	`subname_loc4`='公会徽章设计师'	-- Guild Tabard Designer
+WHERE `entry`=4976;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='软壳黑泥龙虾人'	-- Murkshallow Softshell
@@ -18382,55 +18382,55 @@ UPDATE `locales_creature` SET
 	`name_loc4`='阿古斯·夜语'	-- Argos Nightwhisper
 WHERE `entry`=4984;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Druid Trainer'	-- World Druid Trainer
--- 	`subname_loc4`='Druid Trainer'	-- Druid Trainer
--- WHERE `entry`=4985;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Druid Trainer'	-- World Druid Trainer
+	`subname_loc4`='德鲁伊训练师'	-- Druid Trainer
+WHERE `entry`=4985;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Hunter Trainer'	-- World Hunter Trainer
--- 	`subname_loc4`='Hunter Trainer'	-- Hunter Trainer
--- WHERE `entry`=4986;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Hunter Trainer'	-- World Hunter Trainer
+	`subname_loc4`='猎人训练师'	-- Hunter Trainer
+WHERE `entry`=4986;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Mage Trainer'	-- World Mage Trainer
--- 	`subname_loc4`='Mage Trainer'	-- Mage Trainer
--- WHERE `entry`=4987;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Mage Trainer'	-- World Mage Trainer
+	`subname_loc4`='法师训练师'	-- Mage Trainer
+WHERE `entry`=4987;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Paladin Trainer'	-- World Paladin Trainer
--- 	`subname_loc4`='Paladin Trainer'	-- Paladin Trainer
--- WHERE `entry`=4988;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Paladin Trainer'	-- World Paladin Trainer
+	`subname_loc4`='圣骑士训练师'	-- Paladin Trainer
+WHERE `entry`=4988;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Priest Trainer'	-- World Priest Trainer
--- 	`subname_loc4`='Priest Trainer'	-- Priest Trainer
--- WHERE `entry`=4989;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Priest Trainer'	-- World Priest Trainer
+	`subname_loc4`='牧师训练师'	-- Priest Trainer
+WHERE `entry`=4989;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Rogue Trainer'	-- World Rogue Trainer
--- 	`subname_loc4`='Rogue Trainer'	-- Rogue Trainer
--- WHERE `entry`=4990;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Rogue Trainer'	-- World Rogue Trainer
+	`subname_loc4`='盗贼训练师'	-- Rogue Trainer
+WHERE `entry`=4990;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Shaman Trainer'	-- World Shaman Trainer
--- 	`subname_loc4`='Shaman Trainer'	-- Shaman Trainer
--- WHERE `entry`=4991;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Shaman Trainer'	-- World Shaman Trainer
+	`subname_loc4`='萨满祭司训练师'	-- Shaman Trainer
+WHERE `entry`=4991;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Warrior Trainer'	-- World Warrior Trainer
--- 	`subname_loc4`='Warrior Trainer'	-- Warrior Trainer
--- WHERE `entry`=4992;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Warrior Trainer'	-- World Warrior Trainer
+	`subname_loc4`='战士训练师'	-- Warrior Trainer
+WHERE `entry`=4992;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Warlock Trainer'	-- World Warlock Trainer
--- 	`subname_loc4`='Warlock Trainer'	-- Warlock Trainer
--- WHERE `entry`=4993;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Warlock Trainer'	-- World Warlock Trainer
+	`subname_loc4`='术士训练师'	-- Warlock Trainer
+WHERE `entry`=4993;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Wolf Trainer'	-- World Wolf Trainer
--- 	`subname_loc4`='Wolf Pet Trainer'	-- Wolf Pet Trainer
--- WHERE `entry`=4994;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Wolf Trainer'	-- World Wolf Trainer
+	`subname_loc4`='狼训练师'	-- Wolf Pet Trainer
+WHERE `entry`=4994;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='监狱守卫'	-- Stockade Guard
@@ -18440,110 +18440,110 @@ UPDATE `locales_creature` SET
 	`name_loc4`='受伤的监狱守卫'	-- Injured Stockade Guard
 WHERE `entry`=4996;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Fishing Trainer'	-- World Fishing Trainer
--- 	`subname_loc4`='Fishing Trainer'	-- Fishing Trainer
--- WHERE `entry`=4997;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Fishing Trainer'	-- World Fishing Trainer
+	`subname_loc4`='渔具供应商'	-- Fishing Trainer
+WHERE `entry`=4997;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Herbalism Trainer'	-- World Herbalism Trainer
--- 	`subname_loc4`='Herbalism Trainer'	-- Herbalism Trainer
--- WHERE `entry`=4998;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Herbalism Trainer'	-- World Herbalism Trainer
+	`subname_loc4`='草药学训练师'	-- Herbalism Trainer
+WHERE `entry`=4998;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Mining Trainer'	-- World Mining Trainer
--- 	`subname_loc4`='Mining Trainer'	-- Mining Trainer
--- WHERE `entry`=4999;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Mining Trainer'	-- World Mining Trainer
+	`subname_loc4`='采矿训练师'	-- Mining Trainer
+WHERE `entry`=4999;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Hunter Beast Trainer'	-- World Hunter Beast Trainer
--- 	`subname_loc4`='Hunter Beast Trainer'	-- Hunter Beast Trainer
--- WHERE `entry`=5000;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Bear Trainer'	-- World Hunter Beast Trainer
+	`subname_loc4`='猎人野兽训练师'	-- Hunter Beast Trainer
+WHERE `entry`=5000;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Bird Trainer'	-- World Bird Trainer
--- 	`subname_loc4`='Bird Pet Trainer'	-- Bird Pet Trainer
--- WHERE `entry`=5001;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Bird Trainer'	-- World Bird Trainer
+	`subname_loc4`='猛禽训练师'	-- Bird Pet Trainer
+WHERE `entry`=5001;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Boar Trainer'	-- World Boar Trainer
--- 	`subname_loc4`='Boar Pet Trainer'	-- Boar Pet Trainer
--- WHERE `entry`=5002;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Boar Trainer'	-- World Boar Trainer
+	`subname_loc4`='野猪训练师'	-- Boar Pet Trainer
+WHERE `entry`=5002;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Cat Trainer'	-- World Cat Trainer
--- 	`subname_loc4`='Cat Pet Trainer'	-- Cat Pet Trainer
--- WHERE `entry`=5003;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Cat Trainer'	-- World Cat Trainer
+	`subname_loc4`='豹训练师'	-- Cat Pet Trainer
+WHERE `entry`=5003;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Crawler Trainer'	-- World Crawler Trainer
--- 	`subname_loc4`='Crawler Pet Trainer'	-- Crawler Pet Trainer
--- WHERE `entry`=5004;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Crawler Trainer'	-- World Crawler Trainer
+	`subname_loc4`='螃蟹训练师'	-- Crawler Pet Trainer
+WHERE `entry`=5004;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Crocodile Trainer'	-- World Crocodile Trainer
--- 	`subname_loc4`='Crocodile Pet Trainer'	-- Crocodile Pet Trainer
--- WHERE `entry`=5005;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Crocodile Trainer'	-- World Crocodile Trainer
+	`subname_loc4`='鳄鱼训练师'	-- Crocodile Pet Trainer
+WHERE `entry`=5005;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Demon Trainer'	-- World Demon Trainer
--- 	`subname_loc4`='Demon Trainer'	-- Demon Trainer
--- WHERE `entry`=5006;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Demon Trainer'	-- World Demon Trainer
+	`subname_loc4`='恶魔训练师'	-- Demon Trainer
+WHERE `entry`=5006;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='World Felhunter Trainer'	-- World Felhunter Trainer
 -- 	`subname_loc4`='UNUSED'	-- UNUSED
 -- WHERE `entry`=5007;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Gorilla Trainer'	-- World Gorilla Trainer
--- 	`subname_loc4`='Gorilla Pet Trainer'	-- Gorilla Pet Trainer
--- WHERE `entry`=5008;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Gorilla Trainer'	-- World Gorilla Trainer
+	`subname_loc4`='猩猩训练师'	-- Gorilla Pet Trainer
+WHERE `entry`=5008;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Horse Trainer'	-- World Horse Trainer
--- 	`subname_loc4`='Horse Pet Trainer'	-- Horse Pet Trainer
--- WHERE `entry`=5009;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Horse Trainer'	-- World Horse Trainer
+	`subname_loc4`='马训练师'	-- Horse Pet Trainer
+WHERE `entry`=5009;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='World Imp Trainer'	-- World Imp Trainer
 -- 	`subname_loc4`='UNUSED'	-- UNUSED
 -- WHERE `entry`=5010;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Raptor Trainer'	-- World Raptor Trainer
--- 	`subname_loc4`='Raptor Pet Trainer'	-- Raptor Pet Trainer
--- WHERE `entry`=5011;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Raptor Trainer'	-- World Raptor Trainer
+	`subname_loc4`='迅猛龙训练师'	-- Raptor Pet Trainer
+WHERE `entry`=5011;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Scorpid Trainer'	-- World Scorpid Trainer
--- 	`subname_loc4`='Scorpid Pet Trainer'	-- Scorpid Pet Trainer
--- WHERE `entry`=5012;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Scorpid Trainer'	-- World Scorpid Trainer
+	`subname_loc4`='蝎子训练师'	-- Scorpid Pet Trainer
+WHERE `entry`=5012;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Spider Trainer'	-- World Spider Trainer
--- 	`subname_loc4`='Spider Pet Trainer'	-- Spider Pet Trainer
--- WHERE `entry`=5013;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Spider Trainer'	-- World Spider Trainer
+	`subname_loc4`='蜘蛛训练师'	-- Spider Pet Trainer
+WHERE `entry`=5013;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='World Succubus Trainer'	-- World Succubus Trainer
 -- 	`subname_loc4`='UNUSED'	-- UNUSED
 -- WHERE `entry`=5014;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Tallstrider Trainer'	-- World Tallstrider Trainer
--- 	`subname_loc4`='Tallstrider Pet Trainer'	-- Tallstrider Pet Trainer
--- WHERE `entry`=5015;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Tallstrider Trainer'	-- World Tallstrider Trainer
+	`subname_loc4`='陆行鸟训练师'	-- Tallstrider Pet Trainer
+WHERE `entry`=5015;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='World Voidwalker Trainer'	-- World Voidwalker Trainer
 -- 	`subname_loc4`='UNUSED'	-- UNUSED
 -- WHERE `entry`=5016;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Turtle Trainer'	-- World Turtle Trainer
--- 	`subname_loc4`='Turtle Pet Trainer'	-- Turtle Pet Trainer
--- WHERE `entry`=5017;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Turtle Trainer'	-- World Turtle Trainer
+	`subname_loc4`='海龟训练师'	-- Turtle Pet Trainer
+WHERE `entry`=5017;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='World Portal: Darnassus Trainer'	-- World Portal: Darnassus Trainer
@@ -18575,97 +18575,97 @@ WHERE `entry`=4996;
 -- 	`subname_loc4`='Portal: Undercity Trainer'	-- Portal: Undercity Trainer
 -- WHERE `entry`=5023;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World First Aid Trainer'	-- World First Aid Trainer
--- 	`subname_loc4`='First Aid Trainer'	-- First Aid Trainer
--- WHERE `entry`=5024;
+UPDATE `locales_creature` SET
+	`name_loc4`='World First Aid Trainer'	-- World First Aid Trainer
+	`subname_loc4`='急救训练师'	-- First Aid Trainer
+WHERE `entry`=5024;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Horse Riding Trainer'	-- World Horse Riding Trainer
--- 	`subname_loc4`='Horse Riding Trainer'	-- Horse Riding Trainer
--- WHERE `entry`=5026;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Horse Riding Trainer'	-- World Horse Riding Trainer
+	`subname_loc4`='马骑术训练师'	-- Horse Riding Trainer
+WHERE `entry`=5026;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Lockpicking Trainer'	-- World Lockpicking Trainer
--- 	`subname_loc4`='Lockpicking Trainer'	-- Lockpicking Trainer
--- WHERE `entry`=5027;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Lockpicking Trainer'	-- World Lockpicking Trainer
+	`subname_loc4`='开锁训练师'	-- Lockpicking Trainer
+WHERE `entry`=5027;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Ram Riding Trainer'	-- World Ram Riding Trainer
--- 	`subname_loc4`='Ram Riding Trainer'	-- Ram Riding Trainer
--- WHERE `entry`=5028;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Ram Riding Trainer'	-- World Ram Riding Trainer
+	`subname_loc4`='山羊骑术训练师'	-- Ram Riding Trainer
+WHERE `entry`=5028;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Survival Trainer'	-- World Survival Trainer
--- 	`subname_loc4`='Survival Trainer'	-- Survival Trainer
--- WHERE `entry`=5029;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Survival Trainer'	-- World Survival Trainer
+	`subname_loc4`='生存技能训练师'	-- Survival Trainer
+WHERE `entry`=5029;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Tiger Riding Trainer'	-- World Tiger Riding Trainer
--- 	`subname_loc4`='Tiger Riding Trainer'	-- Tiger Riding Trainer
--- WHERE `entry`=5030;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Tiger Riding Trainer'	-- World Tiger Riding Trainer
+	`subname_loc4`='豹骑术训练师'	-- Tiger Riding Trainer
+WHERE `entry`=5030;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Wolf Riding Trainer'	-- World Wolf Riding Trainer
--- 	`subname_loc4`='Wolf Riding Trainer'	-- Wolf Riding Trainer
--- WHERE `entry`=5031;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Wolf Riding Trainer'	-- World Wolf Riding Trainer
+	`subname_loc4`='狼骑术训练师'	-- Wolf Riding Trainer
+WHERE `entry`=5031;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Alchemy Trainer'	-- World Alchemy Trainer
--- 	`subname_loc4`='Alchemy Trainer'	-- Alchemy Trainer
--- WHERE `entry`=5032;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Alchemy Trainer'	-- World Alchemy Trainer
+	`subname_loc4`='炼金术训练师'	-- Alchemy Trainer
+WHERE `entry`=5032;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Blacksmith Trainer'	-- World Blacksmith Trainer
--- 	`subname_loc4`='Blacksmith Trainer'	-- Blacksmith Trainer
--- WHERE `entry`=5033;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Blacksmith Trainer'	-- World Blacksmith Trainer
+	`subname_loc4`='锻造训练师'	-- Blacksmith Trainer
+WHERE `entry`=5033;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Brewing Trainer'	-- World Brewing Trainer
--- 	`subname_loc4`='Brewing Trainer'	-- Brewing Trainer
--- WHERE `entry`=5034;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Brewing Trainer'	-- World Brewing Trainer
+	`subname_loc4`='酿酒训练师'	-- Brewing Trainer
+WHERE `entry`=5034;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Cartography Trainer'	-- World Cartography Trainer
--- 	`subname_loc4`='Cartography Trainer'	-- Cartography Trainer
--- WHERE `entry`=5035;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Cartography Trainer'	-- World Cartography Trainer
+	`subname_loc4`='制图训练师'	-- Cartography Trainer
+WHERE `entry`=5035;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Cooking Trainer'	-- World Cooking Trainer
--- 	`subname_loc4`='Cooking Trainer'	-- Cooking Trainer
--- WHERE `entry`=5036;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Cooking Trainer'	-- World Cooking Trainer
+	`subname_loc4`='烹饪训练师'	-- Cooking Trainer
+WHERE `entry`=5036;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Engineering Trainer'	-- World Engineering Trainer
--- 	`subname_loc4`='Engineering Trainer'	-- Engineering Trainer
--- WHERE `entry`=5037;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Engineering Trainer'	-- World Engineering Trainer
+	`subname_loc4`='工程学供应商'	-- Engineering Trainer
+WHERE `entry`=5037;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Enchanting Trainer'	-- World Enchanting Trainer
--- 	`subname_loc4`='Enchanting Trainer'	-- Enchanting Trainer
--- WHERE `entry`=5038;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Enchanting Trainer'	-- World Enchanting Trainer
+	`subname_loc4`='附魔训练师'	-- Enchanting Trainer
+WHERE `entry`=5038;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Tracking Trainer'	-- World Tracking Trainer
--- 	`subname_loc4`='Tracking Trainer'	-- Tracking Trainer
--- WHERE `entry`=5039;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Tracking Trainer'	-- World Tracking Trainer
+	`subname_loc4`='追踪训练商'	-- Tracking Trainer
+WHERE `entry`=5039;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='World Leatherworking Trainer'	-- World Leatherworking Trainer
 -- 	`subname_loc4`='Leatherworking Trainer'	-- Leatherworking Trainer
 -- WHERE `entry`=5040;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Tailoring Trainer'	-- World Tailoring Trainer
--- 	`subname_loc4`='Tailoring Trainer'	-- Tailoring Trainer
--- WHERE `entry`=5041;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Tailoring Trainer'	-- World Tailoring Trainer
+	`subname_loc4`='裁缝训练师'	-- Tailoring Trainer
+WHERE `entry`=5041;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='护士莉莲'	-- Nurse Lillian
 WHERE `entry`=5042;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暴徒'	-- Defias Rioter
+	`name_loc4`='迪菲亚暴徒'	-- Defias Rioter
 WHERE `entry`=5043;
 
 UPDATE `locales_creature` SET
@@ -18691,7 +18691,7 @@ WHERE `entry`=5048;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='利莎·钢眉'	-- Lyesa Steelbrow
-	`subname_loc4`='战袍商人'	-- Guild Tabard Vendor
+	`subname_loc4`='公会徽章商人'	-- Guild Tabard Vendor
 WHERE `entry`=5049;
 
 -- UPDATE `locales_creature` SET
@@ -18715,7 +18715,7 @@ WHERE `entry`=5053;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克拉姆'	-- Krumn
-	`subname_loc4`='会长'	-- Guild Master
+	`subname_loc4`='公会注册员'	-- Guild Master
 WHERE `entry`=5054;
 
 UPDATE `locales_creature` SET
@@ -18734,33 +18734,33 @@ UPDATE `locales_creature` SET
 	`name_loc4`='警戒座狼'	-- Wolfguard Worg
 WHERE `entry`=5058;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Galthogran the Callous'	-- Galthogran the Callous
--- WHERE `entry`=5059;
+UPDATE `locales_creature` SET
+	`name_loc4`='无情的加尔索根'	-- Galthogran the Callous
+WHERE `entry`=5059;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Banker'	-- World Banker
--- 	`subname_loc4`='Banker'	-- Banker
--- WHERE `entry`=5060;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Banker'	-- World Banker
+	`subname_loc4`='银行职员'	-- Banker
+WHERE `entry`=5060;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Guild Tabbard Vendor'	-- World Guild Tabbard Vendor
--- 	`subname_loc4`='Guild Tabard Vendor'	-- Guild Tabard Vendor
--- WHERE `entry`=5061;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Guild Tabbard Vendor'	-- World Guild Tabbard Vendor
+	`subname_loc4`='公会徽章商人'	-- Guild Tabard Vendor
+WHERE `entry`=5061;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Reagent Vendor'	-- World Reagent Vendor
--- 	`subname_loc4`='Reagents/Totems Vendor'	-- Reagents/Totems Vendor
--- WHERE `entry`=5062;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Reagent Vendor'	-- World Reagent Vendor
+	`subname_loc4`='施法材料和图腾商'	-- Reagents/Totems Vendor
+WHERE `entry`=5062;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Pat''s Test Kobold'	-- Pat's Test Kobold
 -- WHERE `entry`=5063;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Trade Supplies'	-- World Trade Supplies
--- 	`subname_loc4`='Trade Supplies'	-- Trade Supplies
--- WHERE `entry`=5064;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Trade Supplies'	-- World Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
+WHERE `entry`=5064;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='科诺尔·瑞沃斯'	-- Connor Rivers
@@ -18772,19 +18772,19 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5082;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='出纳员兰德里'	-- Clerk Lendry
+	`name_loc4`='书记员伦德瑞'	-- Clerk Lendry
 WHERE `entry`=5083;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ironforge Zinn'	-- Ironforge Zinn
--- WHERE `entry`=5084;
+UPDATE `locales_creature` SET
+	`name_loc4`='铁炉堡的齐恩'	-- Ironforge Zinn
+WHERE `entry`=5084;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='警戒哨岗卫兵'	-- Sentry Point Guard
 WHERE `entry`=5085;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='维摩尔上尉'	-- Sentry Point Captain
+	`name_loc4`='警戒哨岗上尉'	-- Sentry Point Captain
 WHERE `entry`=5086;
 
 UPDATE `locales_creature` SET
@@ -18845,7 +18845,7 @@ WHERE `entry`=5099;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='菲留斯·旋翼'	-- Fillius Fizzlespinner
-	`subname_loc4`='贸易供应商'	-- Trade Supplier
+	`subname_loc4`='商人'	-- Trade Supplier
 WHERE `entry`=5100;
 
 UPDATE `locales_creature` SET
@@ -18863,15 +18863,15 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='武器商'	-- Weapon Merchant
 WHERE `entry`=5103;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Laene Thundershot'	-- Laene Thundershot
--- 	`subname_loc4`='Gun Trainer'	-- Gun Trainer
--- WHERE `entry`=5104;
+UPDATE `locales_creature` SET
+	`name_loc4`='莱尼·雷弹'	-- Laene Thundershot
+	`subname_loc4`='枪械训练师'	-- Gun Trainer
+WHERE `entry`=5104;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gilbin'	-- Gilbin
--- 	`subname_loc4`='Light Armor Merchant'	-- Light Armor Merchant
--- WHERE `entry`=5105;
+UPDATE `locales_creature` SET
+	`name_loc4`='吉尔宾'	-- Gilbin
+	`subname_loc4`='轻甲商'	-- Light Armor Merchant
+WHERE `entry`=5105;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='波洛米尔·奥姆森'	-- Bromiir Ormsen
@@ -18895,7 +18895,7 @@ WHERE `entry`=5109;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巴瑞姆·贾根斯塔德'	-- Barim Jurgenstaad
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=5110;
 
 UPDATE `locales_creature` SET
@@ -18980,7 +18980,7 @@ WHERE `entry`=5126;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='费布·钢轴'	-- Fimble Finespindle
-	`subname_loc4`='制皮训练师'	-- Expert Leatherworker
+	`subname_loc4`='中级制皮师'	-- Expert Leatherworker
 WHERE `entry`=5127;
 
 UPDATE `locales_creature` SET
@@ -18995,7 +18995,7 @@ WHERE `entry`=5129;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='乔多·钢眉'	-- Jondor Steelbrow
-	`subname_loc4`='会长'	-- Guild Master
+	`subname_loc4`='公会注册员'	-- Guild Master
 WHERE `entry`=5130;
 
 -- UPDATE `locales_creature` SET
@@ -19095,7 +19095,7 @@ WHERE `entry`=5150;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='吉恩'	-- Ginny Longberry
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=5151;
 
 UPDATE `locales_creature` SET
@@ -19105,7 +19105,7 @@ WHERE `entry`=5152;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='约莫德·石眉'	-- Jormund Stonebrow
-	`subname_loc4`='裁缝训练师'	-- Expert Tailor
+	`subname_loc4`='中级裁缝'	-- Expert Tailor
 WHERE `entry`=5153;
 
 UPDATE `locales_creature` SET
@@ -19125,7 +19125,7 @@ WHERE `entry`=5156;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='吉布·草须'	-- Gimble Thistlefuzz
-	`subname_loc4`='附魔训练师'	-- Expert Enchanter
+	`subname_loc4`='中级附魔师'	-- Expert Enchanter
 WHERE `entry`=5157;
 
 UPDATE `locales_creature` SET
@@ -19145,7 +19145,7 @@ WHERE `entry`=5160;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格瑞诺尔·石印'	-- Grimnur Stonebrand
-	`subname_loc4`='钓鱼训练师'	-- Fishing Trainer
+	`subname_loc4`='渔具供应商'	-- Fishing Trainer
 WHERE `entry`=5161;
 
 UPDATE `locales_creature` SET
@@ -19155,12 +19155,12 @@ WHERE `entry`=5162;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巴比克·齿轮'	-- Burbik Gearspanner
-	`subname_loc4`='贸易供应商'	-- Trade Supplier
+	`subname_loc4`='商人'	-- Trade Supplier
 WHERE `entry`=5163;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格鲁努斯·削钢'	-- Grumnus Steelshaper
-	`subname_loc4`='锻造训练师'	-- Armor Crafter
+	`subname_loc4`='铸甲师'	-- Armor Crafter
 WHERE `entry`=5164;
 
 UPDATE `locales_creature` SET
@@ -19205,7 +19205,7 @@ WHERE `entry`=5173;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='宾斯匹德'	-- Springspindle Fizzlegear
-	`subname_loc4`='工程学训练师'	-- Artisan Engineer
+	`subname_loc4`='高级技师'	-- Artisan Engineer
 WHERE `entry`=5174;
 
 UPDATE `locales_creature` SET
@@ -19215,7 +19215,7 @@ WHERE `entry`=5175;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塔雷·浆泡'	-- Tally Berryfizz
-	`subname_loc4`='炼金术训练师'	-- Expert Alchemist
+	`subname_loc4`='中级炼金师'	-- Expert Alchemist
 WHERE `entry`=5177;
 
 UPDATE `locales_creature` SET
@@ -19235,28 +19235,28 @@ UPDATE `locales_creature` SET
 	`name_loc4`='鲨鱼'	-- Basking Shark
 WHERE `entry`=5186;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Southsea Cannon'	-- Southsea Cannon
--- WHERE `entry`=5187;
+UPDATE `locales_creature` SET
+	`name_loc4`='南海火炮'	-- Southsea Cannon
+WHERE `entry`=5187;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='伽雷尔'	-- Garyl
-	`subname_loc4`='战袍商人'	-- Tabard Vendor
+	`subname_loc4`='公会徽章商人'	-- Tabard Vendor
 WHERE `entry`=5188;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瑟拉姆'	-- Thrumn
-	`subname_loc4`='战袍商人'	-- Tabard Vendor
+	`subname_loc4`='公会徽章商人'	-- Tabard Vendor
 WHERE `entry`=5189;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='迈瑞尔·普莱森斯'	-- Merill Pleasance
-	`subname_loc4`='战袍商人'	-- Tabard Vendor
+	`subname_loc4`='公会徽章商人'	-- Tabard Vendor
 WHERE `entry`=5190;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='沙鲁蒙'	-- Shalumon
-	`subname_loc4`='战袍商人'	-- Tabard Vendor
+	`subname_loc4`='公会徽章商人'	-- Tabard Vendor
 WHERE `entry`=5191;
 
 -- UPDATE `locales_creature` SET
@@ -19266,7 +19266,7 @@ WHERE `entry`=5191;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瑞贝卡·拉弗林'	-- Rebecca Laughlin
-	`subname_loc4`='战袍商人'	-- Tabard Vendor
+	`subname_loc4`='公会徽章商人'	-- Tabard Vendor
 WHERE `entry`=5193;
 
 UPDATE `locales_creature` SET
@@ -19286,7 +19286,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5197;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='极地座狼'	-- Arctic Riding Wolf
+	`name_loc4`='白毛座狼'	-- Arctic Riding Wolf
 WHERE `entry`=5198;
 
 UPDATE `locales_creature` SET
@@ -19307,7 +19307,7 @@ WHERE `entry`=5202;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='药剂师金格'	-- Apothecary Zinge
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=5204;
 
 UPDATE `locales_creature` SET
@@ -19330,9 +19330,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='戈杜尼食人魔'	-- Gordunni Ogre
 WHERE `entry`=5229;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gordunni Enforcer'	-- Gordunni Enforcer
--- WHERE `entry`=5231;
+UPDATE `locales_creature` SET
+	`name_loc4`='戈杜尼执行者'	-- Gordunni Enforcer
+WHERE `entry`=5231;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='戈杜尼蛮兵'	-- Gordunni Brute
@@ -19438,9 +19438,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='阿塔莱木乃伊'	-- Mummified Atal'ai
 WHERE `entry`=5263;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Groddoc Chestpounder'	-- Groddoc Chestpounder
--- WHERE `entry`=5264;
+UPDATE `locales_creature` SET
+	`name_loc4`='格罗多克捶胸者'	-- Groddoc Chestpounder
+WHERE `entry`=5264;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='阿塔莱行尸'	-- Unliving Atal'ai
@@ -19566,9 +19566,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='范迪姆'	-- Phantim
 WHERE `entry`=5314;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jademir Dragonspawn'	-- Jademir Dragonspawn
--- WHERE `entry`=5315;
+UPDATE `locales_creature` SET
+	`name_loc4`='加德米尔龙人'	-- Jademir Dragonspawn
+WHERE `entry`=5315;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='加德米尔龙族'	-- Jademir Oracle
@@ -19582,9 +19582,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='加德米尔卫兵'	-- Jademir Boughguard
 WHERE `entry`=5320;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Coast Crawl Clacker'	-- Coast Crawl Clacker
--- WHERE `entry`=5326;
+UPDATE `locales_creature` SET
+	`name_loc4`='海滩响钳龙虾人'	-- Coast Crawl Clacker
+WHERE `entry`=5326;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='海滩利爪龙虾人'	-- Coast Crawl Snapclaw
@@ -19638,9 +19638,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='滑翔者安蒂鲁斯'	-- Antilus the Soarer
 WHERE `entry`=5347;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dreamwatcher Forktongue'	-- Dreamwatcher Forktongue
--- WHERE `entry`=5348;
+UPDATE `locales_creature` SET
+	`name_loc4`='睡梦守卫弗克托'	-- Dreamwatcher Forktongue
+WHERE `entry`=5348;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='阿拉瑟希斯'	-- Arash-ethis
@@ -19706,9 +19706,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='北泉唤风者'	-- Northspring Windcaller
 WHERE `entry`=5366;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Scillia Daggerquil'	-- Scillia Daggerquil
--- WHERE `entry`=5367;
+UPDATE `locales_creature` SET
+	`name_loc4`='希利亚·匕羽'	-- Scillia Daggerquil
+WHERE `entry`=5367;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='布罗哈恩·铁桶'	-- Brohann Caskbelly
@@ -19729,7 +19729,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5387;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='因格·绒套'	-- Ingo Woolybush
+	`name_loc4`='因格'	-- Ingo Woolybush
 	`subname_loc4`='探险者协会'	-- Explorers' League
 WHERE `entry`=5388;
 
@@ -19792,7 +19792,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5402;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='白马坐骑'	-- White Stallion
+	`name_loc4`='白马'	-- White Stallion
 WHERE `entry`=5403;
 
 UPDATE `locales_creature` SET
@@ -19812,7 +19812,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5407;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='被奴役的收割者'	-- Harvester Swarm
+	`name_loc4`='工蝎群'	-- Harvester Swarm
 WHERE `entry`=5409;
 
 UPDATE `locales_creature` SET
@@ -19830,12 +19830,12 @@ WHERE `entry`=5413;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='药剂师法奥斯丁'	-- Apothecary Faustin
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=5414;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Centaur Outrunner'	-- Centaur Outrunner
--- WHERE `entry`=5415;
+UPDATE `locales_creature` SET
+	`name_loc4`='半人马先驱者'	-- Centaur Outrunner
+WHERE `entry`=5415;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='间谍玛克森'	-- Infiltrator Marksen
@@ -19901,9 +19901,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='巨型滑浪龟'	-- Giant Surf Glider
 WHERE `entry`=5432;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Bear'	-- Tamed Bear
--- WHERE `entry`=5433;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的熊'	-- Tamed Bear
+WHERE `entry`=5433;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='锤头鲨'	-- Coral Shark
@@ -19913,33 +19913,33 @@ UPDATE `locales_creature` SET
 	`name_loc4`='浅海锤头鲨'	-- Sand Shark
 WHERE `entry`=5435;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Bird'	-- Tamed Bird
--- WHERE `entry`=5436;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的猛禽'	-- Tamed Bird
+WHERE `entry`=5436;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Boar'	-- Tamed Boar
--- WHERE `entry`=5437;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的野猪'	-- Tamed Boar
+WHERE `entry`=5437;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Cat'	-- Tamed Cat
--- WHERE `entry`=5438;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的猎豹'	-- Tamed Cat
+WHERE `entry`=5438;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Crawler'	-- Tamed Crawler
--- WHERE `entry`=5439;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的海蟹'	-- Tamed Crawler
+WHERE `entry`=5439;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Crocolisk'	-- Tamed Crocolisk
--- WHERE `entry`=5440;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的鳄鱼'	-- Tamed Crocolisk
+WHERE `entry`=5440;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='哈扎里异种蝎'	-- Hazzali Wasp
 WHERE `entry`=5441;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Gorilla'	-- Tamed Gorilla
--- WHERE `entry`=5442;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的猩猩'	-- Tamed Gorilla
+WHERE `entry`=5442;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Tamed Zhevra'	-- Tamed Zhevra
@@ -19949,25 +19949,25 @@ WHERE `entry`=5441;
 -- 	`name_loc4`='Tamed Raptor'	-- Tamed Raptor
 -- WHERE `entry`=5444;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Scorpid'	-- Tamed Scorpid
--- WHERE `entry`=5445;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的蝎子'	-- Tamed Scorpid
+WHERE `entry`=5445;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Spider'	-- Tamed Spider
--- WHERE `entry`=5446;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的蜘蛛'	-- Tamed Spider
+WHERE `entry`=5446;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Tallstrider'	-- Tamed Tallstrider
--- WHERE `entry`=5447;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的陆行鸟'	-- Tamed Tallstrider
+WHERE `entry`=5447;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Turtle'	-- Tamed Turtle
--- WHERE `entry`=5448;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的海龟'	-- Tamed Turtle
+WHERE `entry`=5448;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tamed Wolf'	-- Tamed Wolf
--- WHERE `entry`=5449;
+UPDATE `locales_creature` SET
+	`name_loc4`='被驯服的狼'	-- Tamed Wolf
+WHERE `entry`=5449;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='哈扎里毒刺蝎'	-- Hazzali Stinger
@@ -20037,9 +20037,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='深海居住者'	-- Deep Dweller
 WHERE `entry`=5467;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Wandering Dune Smasher'	-- Wandering Dune Smasher
--- WHERE `entry`=5468;
+UPDATE `locales_creature` SET
+	`name_loc4`='游荡的沙丘重击者'	-- Wandering Dune Smasher
+WHERE `entry`=5468;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='沙丘重击者'	-- Dune Smasher
@@ -20161,12 +20161,12 @@ WHERE `entry`=5498;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='莉琳希亚·夜风'	-- Lilyssia Nightbreeze
-	`subname_loc4`='炼金术训练师'	-- Expert Alchemist
+	`subname_loc4`='中级炼金师'	-- Expert Alchemist
 WHERE `entry`=5499;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='泰兰希尔'	-- Tel'Athir
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist
+	`subname_loc4`='初级炼金师'	-- Journeyman Alchemist
 WHERE `entry`=5500;
 
 UPDATE `locales_creature` SET
@@ -20199,14 +20199,14 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='德鲁伊训练师'	-- Druid Trainer
 WHERE `entry`=5506;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Celmoridan'	-- Celmoridan
--- 	`subname_loc4`='Tallstrider Trainer'	-- Tallstrider Trainer
--- WHERE `entry`=5507;
+UPDATE `locales_creature` SET
+	`name_loc4`='塞尔摩瑞丹'	-- Celmoridan
+	`subname_loc4`='陆行鸟训练师'	-- Tallstrider Trainer
+WHERE `entry`=5507;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯塔诺尔·火踵'	-- Strumner Flintheel
-	`subname_loc4`='护甲商'	-- Armor Crafter
+	`subname_loc4`='铸甲师'	-- Armor Crafter
 WHERE `entry`=5508;
 
 UPDATE `locales_creature` SET
@@ -20221,7 +20221,7 @@ WHERE `entry`=5510;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瑟鲁姆·深炉'	-- Therum Deepforge
-	`subname_loc4`='初级铁匠'	-- Expert Blacksmith
+	`subname_loc4`='中级铁匠'	-- Expert Blacksmith
 WHERE `entry`=5511;
 
 UPDATE `locales_creature` SET
@@ -20256,7 +20256,7 @@ WHERE `entry`=5517;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='利廉姆·火轴'	-- Lilliam Sparkspindle
-	`subname_loc4`='工程学训练师'	-- Expert Engineer
+	`subname_loc4`='中级技师'	-- Expert Engineer
 WHERE `entry`=5518;
 
 UPDATE `locales_creature` SET
@@ -20269,10 +20269,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='恶魔训练师'	-- Demon Trainer
 WHERE `entry`=5520;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Glenrunner'	-- Glenrunner
--- 	`subname_loc4`='Celmoridan''s Pet'	-- Celmoridan's Pet
--- WHERE `entry`=5521;
+UPDATE `locales_creature` SET
+	`name_loc4`='峡谷行者'	-- Glenrunner
+	`subname_loc4`='塞尔摩瑞丹的宠物'	-- Celmoridan's Pet
+WHERE `entry`=5521;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Ironclaw'	-- Ironclaw
@@ -20283,21 +20283,21 @@ UPDATE `locales_creature` SET
 	`name_loc4`='群居科多兽'	-- War Party Kodo
 WHERE `entry`=5523;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Caravan Watcher'	-- Caravan Watcher
--- WHERE `entry`=5524;
+UPDATE `locales_creature` SET
+	`name_loc4`='商队前哨'	-- Caravan Watcher
+WHERE `entry`=5524;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Caravan Packhorse'	-- Caravan Packhorse
 -- WHERE `entry`=5525;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Caravan Merchant'	-- Caravan Merchant
--- WHERE `entry`=5526;
+UPDATE `locales_creature` SET
+	`name_loc4`='商队贸易者'	-- Caravan Merchant
+WHERE `entry`=5526;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stormwind Traveling Merchant'	-- Stormwind Traveling Merchant
--- WHERE `entry`=5542;
+UPDATE `locales_creature` SET
+	`name_loc4`='暴风城旅行商人'	-- Stormwind Traveling Merchant
+WHERE `entry`=5542;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克拉莉斯·弗斯特'	-- Clarice Foster
@@ -20381,7 +20381,7 @@ WHERE `entry`=5547;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='西蒙·坦纳尔'	-- Simon Tanner
-	`subname_loc4`='制皮训练师'	-- Expert Leatherworker
+	`subname_loc4`='中级制皮师'	-- Expert Leatherworker
 WHERE `entry`=5564;
 
 UPDATE `locales_creature` SET
@@ -20396,7 +20396,7 @@ WHERE `entry`=5566;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塞拉多斯'	-- Sellandus
-	`subname_loc4`='裁缝训练师'	-- Expert Tailor
+	`subname_loc4`='中级裁缝'	-- Expert Tailor
 WHERE `entry`=5567;
 
 UPDATE `locales_creature` SET
@@ -20545,12 +20545,12 @@ WHERE `entry`=5618;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='调酒师温塔尔'	-- Bartender Wental
-	`subname_loc4`='食物和饮料'	-- Food and Drinks
+	`subname_loc4`='餐饮供应商'	-- Food and Drinks
 WHERE `entry`=5620;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Timmy'	-- Timmy
--- WHERE `entry`=5621;
+UPDATE `locales_creature` SET
+	`name_loc4`='迪米'	-- Timmy
+WHERE `entry`=5621;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='盎格库尔'	-- Ongeku
@@ -20564,41 +20564,41 @@ UPDATE `locales_creature` SET
 	`name_loc4`='幽暗城守护者'	-- Undercity Guardian
 WHERE `entry`=5624;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Theramore Transport'	-- Theramore Transport
--- WHERE `entry`=5625;
+UPDATE `locales_creature` SET
+	`name_loc4`='塞拉摩运输船'	-- Theramore Transport
+WHERE `entry`=5625;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Joey'	-- Joey
--- WHERE `entry`=5626;
+UPDATE `locales_creature` SET
+	`name_loc4`='乔伊'	-- Joey
+WHERE `entry`=5626;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Johnny'	-- Johnny
--- WHERE `entry`=5627;
+UPDATE `locales_creature` SET
+	`name_loc4`='约翰尼'	-- Johnny
+WHERE `entry`=5627;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lieutenant Beech'	-- Lieutenant Beech
--- WHERE `entry`=5628;
+UPDATE `locales_creature` SET
+	`name_loc4`='比奇中尉'	-- Lieutenant Beech
+WHERE `entry`=5628;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Theramore Commando'	-- Theramore Commando
--- WHERE `entry`=5629;
+UPDATE `locales_creature` SET
+	`name_loc4`='塞拉摩特种兵'	-- Theramore Commando
+WHERE `entry`=5629;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Theramore Mage'	-- Theramore Mage
--- WHERE `entry`=5630;
+UPDATE `locales_creature` SET
+	`name_loc4`='塞拉摩法师'	-- Theramore Mage
+WHERE `entry`=5630;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Theramore Medic'	-- Theramore Medic
--- WHERE `entry`=5631;
+UPDATE `locales_creature` SET
+	`name_loc4`='塞拉摩军医'	-- Theramore Medic
+WHERE `entry`=5631;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Theramore Incursion Master Control Program'	-- Theramore Incursion Master Control Program
 -- WHERE `entry`=5632;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lieutenant Baxter'	-- Lieutenant Baxter
--- WHERE `entry`=5633;
+UPDATE `locales_creature` SET
+	`name_loc4`='巴克斯特中尉'	-- Lieutenant Baxter
+WHERE `entry`=5633;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='拉普索迪·铁铲'	-- Rhapsody Shindigger
@@ -20676,7 +20676,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5651;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='幽暗城练习假人'	-- Practice Dummy
+	`name_loc4`='练习用的假人'	-- Practice Dummy
 WHERE `entry`=5652;
 
 UPDATE `locales_creature` SET
@@ -20817,13 +20817,13 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='旅店老板'	-- Innkeeper
 WHERE `entry`=5688;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Steed'	-- Steed
--- WHERE `entry`=5689;
+UPDATE `locales_creature` SET
+	`name_loc4`='骏马'	-- Steed
+WHERE `entry`=5689;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克莱德·凯林'	-- Clyde Kellen
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=5690;
 
 UPDATE `locales_creature` SET
@@ -20844,7 +20844,7 @@ WHERE `entry`=5694;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='范斯·安德格鲁姆'	-- Vance Undergloom
-	`subname_loc4`='附魔训练师'	-- Journeyman Enchanter
+	`subname_loc4`='初级附魔师'	-- Journeyman Enchanter
 WHERE `entry`=5695;
 
 UPDATE `locales_creature` SET
@@ -20973,7 +20973,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5726;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='耶瑟莉的地狱战马'	-- Jezelle's Felsteed
+	`name_loc4`='耶瑟莉的梦魇'	-- Jezelle's Felsteed
 WHERE `entry`=5727;
 
 UPDATE `locales_creature` SET
@@ -20990,22 +20990,22 @@ WHERE `entry`=5730;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='药剂师瓦里安'	-- Apothecary Vallia
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=5731;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='药剂师卡崔娜'	-- Apothecary Katrina
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=5732;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='药剂师里卡努斯'	-- Apothecary Lycanus
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=5733;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='药剂师基佛'	-- Apothecary Keever
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=5734;
 
 UPDATE `locales_creature` SET
@@ -21016,9 +21016,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='笼中的男性人类'	-- Caged Human Male
 WHERE `entry`=5736;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Caged Dwarf Female'	-- Caged Dwarf Female
--- WHERE `entry`=5737;
+UPDATE `locales_creature` SET
+	`name_loc4`='笼中的女性矮人'	-- Caged Dwarf Female
+WHERE `entry`=5737;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='笼中的男性矮人'	-- Caged Dwarf Male
@@ -21028,9 +21028,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='笼中的松鼠'	-- Caged Squirrel
 WHERE `entry`=5739;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Caged Chicken'	-- Caged Chicken
--- WHERE `entry`=5740;
+UPDATE `locales_creature` SET
+	`name_loc4`='笼中的小鸡'	-- Caged Chicken
+WHERE `entry`=5740;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='笼中的兔子'	-- Caged Rabbit
@@ -21048,13 +21048,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='塞德瑞克·斯塔姆比尔'	-- Cedric Stumpel
 WHERE `entry`=5744;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lazlow Ashby'	-- Lazlow Ashby
--- WHERE `entry`=5745;
+UPDATE `locales_creature` SET
+	`name_loc4`='拉兹洛·阿什比'	-- Lazlow Ashby
+WHERE `entry`=5745;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Appolonia Kimble'	-- Appolonia Kimble
--- WHERE `entry`=5746;
+UPDATE `locales_creature` SET
+	`name_loc4`='阿波罗尼亚·金博'	-- Appolonia Kimble
+WHERE `entry`=5746;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='海普斯巴恩·塞迪维克'	-- Hepzibah Sedgewick
@@ -21142,12 +21142,12 @@ WHERE `entry`=5766;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='纳尔帕克'	-- Nalpak
-	`subname_loc4`='穆约'	-- Disciple of Naralex
+	`subname_loc4`='纳拉雷克斯的信徒'	-- Disciple of Naralex
 WHERE `entry`=5767;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='厄布鲁'	-- Ebru
-	`subname_loc4`='穆约'	-- Disciple of Naralex
+	`subname_loc4`='纳拉雷克斯的信徒'	-- Disciple of Naralex
 WHERE `entry`=5768;
 
 UPDATE `locales_creature` SET
@@ -21190,9 +21190,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='大型软浆怪（黑）'	-- Evolving Ectoplasm (Black)
 WHERE `entry`=5778;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Summoned Viper'	-- Summoned Viper
--- WHERE `entry`=5779;
+UPDATE `locales_creature` SET
+	`name_loc4`='毒蛇'	-- Summoned Viper
+WHERE `entry`=5779;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克隆软浆怪'	-- Cloned Ectoplasm
@@ -21228,20 +21228,20 @@ UPDATE `locales_creature` SET
 	`name_loc4`='执行者埃米尔冈德'	-- Enforcer Emilgund
 WHERE `entry`=5787;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gelgann Direforge'	-- Gelgann Direforge
--- 	`subname_loc4`='Ironforge Surveyor'	-- Ironforge Surveyor
--- WHERE `entry`=5788;
+UPDATE `locales_creature` SET
+	`name_loc4`='基尔加·厄炉'	-- Gelgann Direforge
+	`subname_loc4`='铁炉堡勘察队'	-- Ironforge Surveyor
+WHERE `entry`=5788;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Serra Mountainhome'	-- Serra Mountainhome
--- 	`subname_loc4`='Ironforge Surveyor'	-- Ironforge Surveyor
--- WHERE `entry`=5789;
+UPDATE `locales_creature` SET
+	`name_loc4`='瑟拉·山岭'	-- Serra Mountainhome
+	`subname_loc4`='铁炉堡勘察队'	-- Ironforge Surveyor
+WHERE `entry`=5789;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lizzle Sprysprocket'	-- Lizzle Sprysprocket
--- 	`subname_loc4`='Ironforge Surveyor'	-- Ironforge Surveyor
--- WHERE `entry`=5790;
+UPDATE `locales_creature` SET
+	`name_loc4`='里兹·滑链'	-- Lizzle Sprysprocket
+	`subname_loc4`='铁炉堡勘察队'	-- Ironforge Surveyor
+WHERE `entry`=5790;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='考布莱恩蛇形态'	-- Cobrahn Snake Form
@@ -21252,25 +21252,25 @@ UPDATE `locales_creature` SET
 	`name_loc4`='拖车管理员米格林'	-- Drag Master Miglen
 WHERE `entry`=5792;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Captain Armistice'	-- Captain Armistice
--- 	`subname_loc4`='Alliance Peacekeeper'	-- Alliance Peacekeeper
--- WHERE `entry`=5793;
+UPDATE `locales_creature` SET
+	`name_loc4`='阿米斯迪斯队长'	-- Captain Armistice
+	`subname_loc4`='联盟维和部队'	-- Alliance Peacekeeper
+WHERE `entry`=5793;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Thurmonde the Devout'	-- Thurmonde the Devout
--- 	`subname_loc4`='Alliance Peacekeeper'	-- Alliance Peacekeeper
--- WHERE `entry`=5794;
+UPDATE `locales_creature` SET
+	`name_loc4`='虔诚的瑟蒙德'	-- Thurmonde the Devout
+	`subname_loc4`='联盟维和部队'	-- Alliance Peacekeeper
+WHERE `entry`=5794;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Grash Thunderbrew'	-- Grash Thunderbrew
--- 	`subname_loc4`='Alliance Peacekeeper'	-- Alliance Peacekeeper
--- WHERE `entry`=5795;
+UPDATE `locales_creature` SET
+	`name_loc4`='格拉什·雷酒'	-- Grash Thunderbrew
+	`subname_loc4`='联盟维和部队'	-- Alliance Peacekeeper
+WHERE `entry`=5795;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ben'	-- Ben
--- 	`subname_loc4`='Grash Thunderbrew''s Pet'	-- Grash Thunderbrew's Pet
--- WHERE `entry`=5796;
+UPDATE `locales_creature` SET
+	`name_loc4`='本恩'	-- Ben
+	`subname_loc4`='格拉什·雷酒的宠物'	-- Grash Thunderbrew's Pet
+WHERE `entry`=5796;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='艾恩·流水'	-- Aean Swiftriver
@@ -21309,7 +21309,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5808;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='科提斯中士'	-- Watch Commander Zalaphil
+	`name_loc4`='指挥官萨拉菲尔'	-- Watch Commander Zalaphil
 WHERE `entry`=5809;
 
 UPDATE `locales_creature` SET
@@ -21348,7 +21348,7 @@ WHERE `entry`=5816;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='史穆拉'	-- Shimra
-	`subname_loc4`='贸易供应商'	-- General Trade Goods Merchant
+	`subname_loc4`='杂货供应商'	-- General Trade Goods Merchant
 WHERE `entry`=5817;
 
 -- UPDATE `locales_creature` SET
@@ -21384,9 +21384,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='战地卫兵队长'	-- Captain of the Battleguard
 WHERE `entry`=5824;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Corrupt Tyranis Malem'	-- Corrupt Tyranis Malem
--- WHERE `entry`=5825;
+UPDATE `locales_creature` SET
+	`name_loc4`='堕落的泰拉尼斯·玛雷姆'	-- Corrupt Tyranis Malem
+WHERE `entry`=5825;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='吉欧洛德·杂斑'	-- Geolord Mottle
@@ -21703,10 +21703,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='空气之魂'	-- Minor Manifestation of Air
 WHERE `entry`=5902;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Nyx Bloodrage'	-- Nyx Bloodrage
--- 	`subname_loc4`='iCoke Redemption Vendor'	-- iCoke Redemption Vendor
--- WHERE `entry`=5903;
+UPDATE `locales_creature` SET
+	`name_loc4`='纳克斯·血怒'	-- Nyx Bloodrage
+	`subname_loc4`='可口可乐兑奖使者'	-- iCoke Redemption Vendor
+WHERE `entry`=5903;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Hurll Kans'	-- [UNUSED] Hurll Kans
@@ -21801,7 +21801,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5926;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='元素抵抗图腾'	-- Fire Resistance Totem
+	`name_loc4`='抗火图腾'	-- Fire Resistance Totem
 WHERE `entry`=5927;
 
 UPDATE `locales_creature` SET
@@ -21825,20 +21825,20 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5932;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='流放者阿切鲁斯'	-- Achellios the Banished
+	`name_loc4`='被流放的阿切鲁斯'	-- Achellios the Banished
 WHERE `entry`=5933;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='锐爪飞心'	-- Heartrazor
+	`name_loc4`='哈特拉斯'	-- Heartrazor
 WHERE `entry`=5934;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='不可战胜的铁眼'	-- Ironeye the Invincible
+	`name_loc4`='不可战胜的的铁眼'	-- Ironeye the Invincible
 WHERE `entry`=5935;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Orca'	-- Orca
--- WHERE `entry`=5936;
+UPDATE `locales_creature` SET
+	`name_loc4`='逆戟鲸'	-- Orca
+WHERE `entry`=5936;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='邪刺恐蝎'	-- Vile Sting
@@ -21846,7 +21846,7 @@ WHERE `entry`=5937;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='尤萨恩·静水'	-- Uthan Stillwater
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=5938;
 
 UPDATE `locales_creature` SET
@@ -21861,7 +21861,7 @@ WHERE `entry`=5940;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='劳迪克'	-- Lau'Tiki
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=5941;
 
 UPDATE `locales_creature` SET
@@ -21879,9 +21879,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='裁缝和制皮供应商'	-- Tailoring & Leatherworking Supplies
 WHERE `entry`=5944;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Owl Companion'	-- Owl Companion
--- WHERE `entry`=5945;
+UPDATE `locales_creature` SET
+	`name_loc4`='猫头鹰'	-- Owl Companion
+WHERE `entry`=5945;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='男性黑暗刺客'	-- Male Dark Assassin
@@ -21915,17 +21915,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='剃刀岭步兵'	-- Razor Hill Grunt
 WHERE `entry`=5953;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Shade'	-- Shade
--- WHERE `entry`=5954;
+UPDATE `locales_creature` SET
+	`name_loc4`='影魔'	-- Shade
+WHERE `entry`=5954;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='图加'	-- Tooga
 WHERE `entry`=5955;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Graznab'	-- Graznab
--- WHERE `entry`=5956;
+UPDATE `locales_creature` SET
+	`name_loc4`='格拉兹纳布'	-- Graznab
+WHERE `entry`=5956;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='比尔吉特·克兰斯顿'	-- Birgitte Cranston
@@ -21937,80 +21937,80 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='传送门训练师'	-- Portal Trainer
 WHERE `entry`=5958;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Dwarf Male Warrior Trainer'	-- World Dwarf Male Warrior Trainer
--- 	`subname_loc4`='Warrior Trainer'	-- Warrior Trainer
--- WHERE `entry`=5959;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Dwarf Male Warrior Trainer'	-- World Dwarf Male Warrior Trainer
+	`subname_loc4`='战士训练师'	-- Warrior Trainer
+WHERE `entry`=5959;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Human Male Rogue Trainer'	-- World Human Male Rogue Trainer
--- 	`subname_loc4`='Rogue Trainer'	-- Rogue Trainer
--- WHERE `entry`=5960;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Human Male Rogue Trainer'	-- World Human Male Rogue Trainer
+	`subname_loc4`='盗贼训练师'	-- Rogue Trainer
+WHERE `entry`=5960;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Gnome Male Mage Trainer'	-- World Gnome Male Mage Trainer
--- 	`subname_loc4`='Mage Trainer'	-- Mage Trainer
--- WHERE `entry`=5961;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Gnome Male Mage Trainer'	-- World Gnome Male Mage Trainer
+	`subname_loc4`='法师训练师'	-- Mage Trainer
+WHERE `entry`=5961;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Orc Male Warlock Trainer'	-- World Orc Male Warlock Trainer
--- 	`subname_loc4`='Warlock Trainer'	-- Warlock Trainer
--- WHERE `entry`=5962;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Orc Male Warlock Trainer'	-- World Orc Male Warlock Trainer
+	`subname_loc4`='术士训练师'	-- Warlock Trainer
+WHERE `entry`=5962;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Tauren Male Druid Trainer'	-- World Tauren Male Druid Trainer
--- 	`subname_loc4`='Druid Trainer'	-- Druid Trainer
--- WHERE `entry`=5963;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Tauren Male Druid Trainer'	-- World Tauren Male Druid Trainer
+	`subname_loc4`='德鲁伊训练师'	-- Druid Trainer
+WHERE `entry`=5963;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Undead Male Priest Trainer'	-- World Undead Male Priest Trainer
--- 	`subname_loc4`='Priest Trainer'	-- Priest Trainer
--- WHERE `entry`=5964;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Undead Male Priest Trainer'	-- World Undead Male Priest Trainer
+	`subname_loc4`='牧师训练师'	-- Priest Trainer
+WHERE `entry`=5964;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Troll Male Shaman Trainer'	-- World Troll Male Shaman Trainer
--- 	`subname_loc4`='Shaman Trainer'	-- Shaman Trainer
--- WHERE `entry`=5965;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Troll Male Shaman Trainer'	-- World Troll Male Shaman Trainer
+	`subname_loc4`='萨满祭司训练师'	-- Shaman Trainer
+WHERE `entry`=5965;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Night Elf Male Warrior Trainer'	-- World Night Elf Male Warrior Trainer
--- 	`subname_loc4`='Warrior Trainer'	-- Warrior Trainer
--- WHERE `entry`=5966;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Night Elf Male Warrior Trainer'	-- World Night Elf Male Warrior Trainer
+	`subname_loc4`='战士训练师'	-- Warrior Trainer
+WHERE `entry`=5966;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Dwarf Female Warrior Trainer'	-- World Dwarf Female Warrior Trainer
--- 	`subname_loc4`='Warrior Trainer'	-- Warrior Trainer
--- WHERE `entry`=5967;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Dwarf Female Warrior Trainer'	-- World Dwarf Female Warrior Trainer
+	`subname_loc4`='战士训练师'	-- Warrior Trainer
+WHERE `entry`=5967;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Human Female Rogue Trainer'	-- World Human Female Rogue Trainer
--- 	`subname_loc4`='Rogue Trainer'	-- Rogue Trainer
--- WHERE `entry`=5968;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Human Female Rogue Trainer'	-- World Human Female Rogue Trainer
+	`subname_loc4`='盗贼训练师'	-- Rogue Trainer
+WHERE `entry`=5968;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Gnome Female Mage Trainer'	-- World Gnome Female Mage Trainer
--- 	`subname_loc4`='Mage Trainer'	-- Mage Trainer
--- WHERE `entry`=5969;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Gnome Female Mage Trainer'	-- World Gnome Female Mage Trainer
+	`subname_loc4`='法师训练师'	-- Mage Trainer
+WHERE `entry`=5969;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Orc Female Warlock Trainer'	-- World Orc Female Warlock Trainer
--- 	`subname_loc4`='Warlock Trainer'	-- Warlock Trainer
--- WHERE `entry`=5970;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Orc Female Warlock Trainer'	-- World Orc Female Warlock Trainer
+	`subname_loc4`='术士训练师'	-- Warlock Trainer
+WHERE `entry`=5970;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Troll Female Shaman Trainer'	-- World Troll Female Shaman Trainer
--- 	`subname_loc4`='Shaman Trainer'	-- Shaman Trainer
--- WHERE `entry`=5971;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Troll Female Shaman Trainer'	-- World Troll Female Shaman Trainer
+	`subname_loc4`='萨满祭司训练师'	-- Shaman Trainer
+WHERE `entry`=5971;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Tauren Female Druid Trainer'	-- World Tauren Female Druid Trainer
--- 	`subname_loc4`='Druid Trainer'	-- Druid Trainer
--- WHERE `entry`=5972;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Tauren Female Druid Trainer'	-- World Tauren Female Druid Trainer
+	`subname_loc4`='德鲁伊训练师'	-- Druid Trainer
+WHERE `entry`=5972;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Undead Female Priest Trainer'	-- World Undead Female Priest Trainer
--- 	`subname_loc4`='Priest Trainer'	-- Priest Trainer
--- WHERE `entry`=5973;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Undead Female Priest Trainer'	-- World Undead Female Priest Trainer
+	`subname_loc4`='牧师训练师'	-- Priest Trainer
+WHERE `entry`=5973;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巨槌食人魔'	-- Dreadmaul Ogre
@@ -22036,9 +22036,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='悲惨的失落者'	-- Wretched Lost One
 WHERE `entry`=5979;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Broken One'	-- Broken One
--- WHERE `entry`=5980;
+UPDATE `locales_creature` SET
+	`name_loc4`='患病者'	-- Broken One
+WHERE `entry`=5980;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='传送门搜寻者'	-- Portal Seeker
@@ -22049,7 +22049,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=5982;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='拾骨邪饲者'	-- Bonepicker
+	`name_loc4`='拾骨者'	-- Bonepicker
 WHERE `entry`=5983;
 
 UPDATE `locales_creature` SET
@@ -22060,21 +22060,21 @@ UPDATE `locales_creature` SET
 	`name_loc4`='弯牙土狼'	-- Snickerfang Hyena
 WHERE `entry`=5985;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rabid Snickerfang'	-- Rabid Snickerfang
--- WHERE `entry`=5986;
+UPDATE `locales_creature` SET
+	`name_loc4`='疯狂的弯牙土狼'	-- Rabid Snickerfang
+WHERE `entry`=5986;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Scorpok Snapper'	-- Scorpok Snapper
--- WHERE `entry`=5987;
+UPDATE `locales_creature` SET
+	`name_loc4`='厚甲巨钳蝎'	-- Scorpok Snapper
+WHERE `entry`=5987;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='厚甲毒刺蝎'	-- Scorpok Stinger
 WHERE `entry`=5988;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Scorpok Lasher'	-- Scorpok Lasher
--- WHERE `entry`=5989;
+UPDATE `locales_creature` SET
+	`name_loc4`='厚甲长尾蝎'	-- Scorpok Lasher
+WHERE `entry`=5989;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='红石蜥蜴'	-- Redstone Basilisk
@@ -22097,9 +22097,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='高阶祭司'	-- High Priest
 WHERE `entry`=5994;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Nethergarde Worker'	-- Nethergarde Worker
--- WHERE `entry`=5995;
+UPDATE `locales_creature` SET
+	`name_loc4`='守望堡工人'	-- Nethergarde Worker
+WHERE `entry`=5995;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='守望堡矿工'	-- Nethergarde Miner
@@ -22134,7 +22134,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6003;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='魔誓仪祭师'	-- Shadowsworn Cultist
+	`name_loc4`='魔誓祭司'	-- Shadowsworn Cultist
 WHERE `entry`=6004;
 
 UPDATE `locales_creature` SET
@@ -22207,13 +22207,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='野猪之魂'	-- Boar Spirit
 WHERE `entry`=6021;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Captain Drakoar'	-- Captain Drakoar
--- WHERE `entry`=6022;
+UPDATE `locales_creature` SET
+	`name_loc4`='德拉考尔队长'	-- Captain Drakoar
+WHERE `entry`=6022;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kernon Shadowclaw'	-- Kernon Shadowclaw
--- WHERE `entry`=6023;
+UPDATE `locales_creature` SET
+	`name_loc4`='科尔农·影爪'	-- Kernon Shadowclaw
+WHERE `entry`=6023;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='布雷依克'	-- Breyk
@@ -22255,9 +22255,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='剃刀沼泽捕猎者'	-- Razorfen Stalker
 WHERE `entry`=6035;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Guardian of Backus'	-- Guardian of Backus
--- WHERE `entry`=6036;
+UPDATE `locales_creature` SET
+	`name_loc4`='巴库斯的守护者'	-- Guardian of Backus
+WHERE `entry`=6036;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Gozwin Vilesprocket'	-- [UNUSED] Gozwin Vilesprocket
@@ -22288,7 +22288,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6070;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='军团犬'	-- Legion Hound
+	`name_loc4`='恶魔指挥官'	-- Legion Hound
 WHERE `entry`=6071;
 
 UPDATE `locales_creature` SET
@@ -22300,11 +22300,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6073;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='条纹霜刃豹'	-- Riding Tiger (White Striped)
+	`name_loc4`='骑乘用虎（乳白色）'	-- Riding Tiger (White Striped)
 WHERE `entry`=6074;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='绿色迅猛龙'	-- Riding Raptor (Emerald)
+	`name_loc4`='骑乘用迅猛龙（绿色）'	-- Riding Raptor (Emerald)
 WHERE `entry`=6075;
 
 UPDATE `locales_creature` SET
@@ -22333,9 +22333,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='食物和饮料商人'	-- Food & Drink Vendor
 WHERE `entry`=6091;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Minor Phantasm'	-- Minor Phantasm
--- WHERE `entry`=6092;
+UPDATE `locales_creature` SET
+	`name_loc4`='小型幻影'	-- Minor Phantasm
+WHERE `entry`=6092;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='蛀牙杰克'	-- Dead-Tooth Jack
@@ -22346,17 +22346,17 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='急救训练师'	-- First Aid Trainer
 WHERE `entry`=6094;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lesser Phantasm'	-- Lesser Phantasm
--- WHERE `entry`=6106;
+UPDATE `locales_creature` SET
+	`name_loc4`='次级幻影'	-- Lesser Phantasm
+WHERE `entry`=6106;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Phantasm'	-- Phantasm
--- WHERE `entry`=6107;
+UPDATE `locales_creature` SET
+	`name_loc4`='幻影'	-- Phantasm
+WHERE `entry`=6107;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Greater Phantasm'	-- Greater Phantasm
--- WHERE `entry`=6108;
+UPDATE `locales_creature` SET
+	`name_loc4`='巨型幻影'	-- Greater Phantasm
+WHERE `entry`=6108;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='艾索雷葛斯'	-- Azuregos
@@ -22383,7 +22383,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6114;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='咆哮的恶魔卫士'	-- Felguard
+	`name_loc4`='恶魔守卫'	-- Felguard
 WHERE `entry`=6115;
 
 UPDATE `locales_creature` SET
@@ -22496,7 +22496,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6142;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='亚考罗克的仆从'	-- Servant of Arkkoroc
+	`name_loc4`='阿考洛克的仆从'	-- Servant of Arkkoroc
 WHERE `entry`=6143;
 
 UPDATE `locales_creature` SET
@@ -22635,9 +22635,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='恶鞭侍从'	-- Spitelash Myrmidon
 WHERE `entry`=6196;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Spitelash Sorceress'	-- Spitelash Sorceress
--- WHERE `entry`=6197;
+UPDATE `locales_creature` SET
+	`name_loc4`='恶鞭巫师'	-- Spitelash Sorceress
+WHERE `entry`=6197;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='血精灵勘测员'	-- Blood Elf Surveyor
@@ -22648,15 +22648,15 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6199;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='雷加什萨特'	-- Legashi Satyr
+	`name_loc4`='雷加斯萨特'	-- Legashi Satyr
 WHERE `entry`=6200;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='雷加什盗贼'	-- Legashi Rogue
+	`name_loc4`='雷加斯盗贼'	-- Legashi Rogue
 WHERE `entry`=6201;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='雷加什唤魔者'	-- Legashi Hellcaller
+	`name_loc4`='雷加斯唤魔者'	-- Legashi Hellcaller
 WHERE `entry`=6202;
 
 UPDATE `locales_creature` SET
@@ -22691,9 +22691,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='辐射入侵者'	-- Irradiated Invader
 WHERE `entry`=6213;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Irradiated Burrower'	-- Irradiated Burrower
--- WHERE `entry`=6214;
+UPDATE `locales_creature` SET
+	`name_loc4`='辐射穴居者'	-- Irradiated Burrower
+WHERE `entry`=6214;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='咀嚼者'	-- Chomper
@@ -22740,7 +22740,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6227;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑铁大使'	-- Dark Iron Ambassador
+	`name_loc4`='黑铁大师'	-- Dark Iron Ambassador
 WHERE `entry`=6228;
 
 UPDATE `locales_creature` SET
@@ -22796,10 +22796,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='白洛尔·石手'	-- Bailor Stonehand
 WHERE `entry`=6241;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Skinning Trainer'	-- World Skinning Trainer
--- 	`subname_loc4`='Skinning Trainer'	-- Skinning Trainer
--- WHERE `entry`=6242;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Skinning Trainer'	-- World Skinning Trainer
+	`subname_loc4`='剥皮训练师'	-- Skinning Trainer
+WHERE `entry`=6242;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格里哈斯特'	-- Gelihast
@@ -22862,16 +22862,16 @@ UPDATE `locales_creature` SET
 	`name_loc4`='地狱猎犬'	-- Summoned Felhunter
 WHERE `entry`=6268;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Azgalaril'	-- Azgalaril
--- WHERE `entry`=6269;
-
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Asjorah'	-- Asjorah
--- WHERE `entry`=6270;
+UPDATE `locales_creature` SET
+	`name_loc4`='阿加拉瑞尔'	-- Azgalaril
+WHERE `entry`=6269;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='耗子'	-- Mouse
+	`name_loc4`='艾卓拉'	-- Asjorah
+WHERE `entry`=6270;
+
+UPDATE `locales_creature` SET
+	`name_loc4`='老鼠'	-- Mouse
 WHERE `entry`=6271;
 
 UPDATE `locales_creature` SET
@@ -22881,27 +22881,27 @@ WHERE `entry`=6272;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='扎瑞恩'	-- Zarrin
-	`subname_loc4`='烹饪训练师'	-- Cook
+	`subname_loc4`='厨师'	-- Cook
 WHERE `entry`=6286;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='拉德纳尔·织发'	-- Radnaal Maneweaver
-	`subname_loc4`='剥皮训练师'	-- Skinner
+	`subname_loc4`='剥皮师'	-- Skinner
 WHERE `entry`=6287;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='杰拉'	-- Jayla
-	`subname_loc4`='剥皮训练师'	-- Skinner
+	`subname_loc4`='剥皮师'	-- Skinner
 WHERE `entry`=6288;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='兰德·洛巴尔特'	-- Rand Rhobart
-	`subname_loc4`='剥皮训练师'	-- Skinner
+	`subname_loc4`='剥皮师'	-- Skinner
 WHERE `entry`=6289;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='姚恩·深刺'	-- Yonn Deepcut
-	`subname_loc4`='剥皮训练师'	-- Skinner
+	`subname_loc4`='剥皮师'	-- Skinner
 WHERE `entry`=6290;
 
 UPDATE `locales_creature` SET
@@ -22927,9 +22927,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='剥皮训练师'	-- Skinning Trainer
 WHERE `entry`=6295;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Flame Elemental'	-- Flame Elemental
--- WHERE `entry`=6296;
+UPDATE `locales_creature` SET
+	`name_loc4`='烈焰元素'	-- Flame Elemental
+WHERE `entry`=6296;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='库德拉姆·石锤'	-- Kurdram Stonehammer
@@ -22943,7 +22943,7 @@ WHERE `entry`=6298;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='迪尔弗拉姆·火须'	-- Delfrum Flintbeard
-	`subname_loc4`='锻造训练师'	-- Journeyman Blacksmith
+	`subname_loc4`='初级铁匠'	-- Journeyman Blacksmith
 WHERE `entry`=6299;
 
 UPDATE `locales_creature` SET
@@ -22953,23 +22953,23 @@ WHERE `entry`=6300;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='高尔博德·钢手'	-- Gorbold Steelhand
-	`subname_loc4`='贸易供应商'	-- General Trade Supplier
+	`subname_loc4`='杂货供应商'	-- General Trade Supplier
 WHERE `entry`=6301;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='海伦尼·派特斯金纳'	-- Helene Peltskinner
-	`subname_loc4`='剥皮训练师'	-- Skinner
+	`subname_loc4`='剥皮师'	-- Skinner
 WHERE `entry`=6306;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Horde Wargryphoner'	-- Horde Wargryphoner
--- 	`subname_loc4`='Wargryphon Master'	-- Wargryphon Master
--- WHERE `entry`=6326;
+UPDATE `locales_creature` SET
+	`name_loc4`='部落飞龙骑士'	-- Horde Wargryphoner
+	`subname_loc4`='飞龙骑士'	-- Wargryphon Master
+WHERE `entry`=6326;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Alliance Wargryphoner'	-- Alliance Wargryphoner
--- 	`subname_loc4`='Wargryphon Master'	-- Wargryphon Master
--- WHERE `entry`=6327;
+UPDATE `locales_creature` SET
+	`name_loc4`='联盟狮鹫骑士'	-- Alliance Wargryphoner
+	`subname_loc4`='狮鹫骑士'	-- Wargryphon Master
+WHERE `entry`=6327;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='丹尼·血泡'	-- Dannie Fizzwizzle
@@ -22980,9 +22980,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='辐射抢劫者'	-- Irradiated Pillager
 WHERE `entry`=6329;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Skeletal Horse'	-- Skeletal Horse
--- WHERE `entry`=6346;
+UPDATE `locales_creature` SET
+	`name_loc4`='骸骨战马'	-- Skeletal Horse
+WHERE `entry`=6346;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='幼年碎浪多头怪'	-- Young Wavethrasher
@@ -23083,7 +23083,7 @@ WHERE `entry`=6386;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='德拉恩'	-- Dranh
-	`subname_loc4`='剥皮训练师'	-- Skinner
+	`subname_loc4`='剥皮师'	-- Skinner
 WHERE `entry`=6387;
 
 UPDATE `locales_creature` SET
@@ -23107,11 +23107,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6392;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='赫纳·暴怒图腾'	-- Henen Ragetotem
+	`name_loc4`='赫纳·狂暴图腾'	-- Henen Ragetotem
 WHERE `entry`=6393;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='鲁迦·暴怒图腾'	-- Ruga Ragetotem
+	`name_loc4`='鲁迦·狂暴图腾'	-- Ruga Ragetotem
 WHERE `entry`=6394;
 
 UPDATE `locales_creature` SET
@@ -23160,7 +23160,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6467;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑色骸骨军马'	-- Riding Skeletal Horse (Black)
+	`name_loc4`='骑乘用骸骨战马（黑色）'	-- Riding Skeletal Horse (Black)
 WHERE `entry`=6486;
 
 UPDATE `locales_creature` SET
@@ -23373,9 +23373,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='石头守护者'	-- Stone Guardian
 WHERE `entry`=6560;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stone Warden'	-- Stone Warden
--- WHERE `entry`=6561;
+UPDATE `locales_creature` SET
+	`name_loc4`='石头看守者'	-- Stone Warden
+WHERE `entry`=6561;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='艾斯特蕾·根德瑞'	-- Estelle Gendry
@@ -23470,7 +23470,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6607;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='勇敢的强生'	-- "Plucky" Johnson
+	`name_loc4`='胆大的约翰森'	-- "Plucky" Johnson
 WHERE `entry`=6626;
 
 UPDATE `locales_creature` SET
@@ -23494,7 +23494,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6650;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='护门者拉格罗尔'	-- Gatekeeper Rageroar
+	`name_loc4`='拉格罗尔'	-- Gatekeeper Rageroar
 WHERE `entry`=6651;
 
 UPDATE `locales_creature` SET
@@ -23506,7 +23506,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6653;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='强生的人类形态'	-- "Plucky" Johnson's Human Form
+	`name_loc4`='约翰森的人类形态'	-- "Plucky" Johnson's Human Form
 WHERE `entry`=6666;
 
 UPDATE `locales_creature` SET
@@ -23541,7 +23541,7 @@ WHERE `entry`=6706;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='法拉德'	-- Fahrad
-	`subname_loc4`='宗师级盗贼'	-- Grand Master Rogue
+	`subname_loc4`='祖师级盗贼'	-- Grand Master Rogue
 WHERE `entry`=6707;
 
 UPDATE `locales_creature` SET
@@ -23606,7 +23606,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6738;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='旅店老板贝茨'	-- Innkeeper Bates
+	`name_loc4`='旅店老板拜特斯'	-- Innkeeper Bates
 	`subname_loc4`='旅店老板'	-- Innkeeper
 WHERE `entry`=6739;
 
@@ -23635,7 +23635,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6748;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='艾玛'	-- Erma
+	`name_loc4`='旅店老板艾玛'	-- Erma
 	`subname_loc4`='兽栏管理员'	-- Stable Master
 WHERE `entry`=6749;
 
@@ -23644,10 +23644,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='刺客联盟'	-- Assassin's League
 WHERE `entry`=6766;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Garona'	-- Garona
--- 	`subname_loc4`='Grand Master of the Assassin''s League'	-- Grand Master of the Assassin's League
--- WHERE `entry`=6767;
+UPDATE `locales_creature` SET
+	`name_loc4`='迦罗娜'	-- Garona
+	`subname_loc4`='刺客联盟的祖师级盗贼'	-- Grand Master of the Assassin's League
+WHERE `entry`=6767;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='乔拉齐·拉文霍德公爵'	-- Lord Jorach Ravenholdt
@@ -23768,12 +23768,12 @@ UPDATE `locales_creature` SET
 	`name_loc4`='塔瓦斯德·基瑟尔'	-- Talvash del Kissel
 WHERE `entry`=6826;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Crab'	-- Crab
--- WHERE `entry`=6827;
+UPDATE `locales_creature` SET
+	`name_loc4`='螃蟹'	-- Crab
+WHERE `entry`=6827;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='码头主管'	-- Defias Dockmaster
+	`name_loc4`='迪菲亚码头主管'	-- Defias Dockmaster
 WHERE `entry`=6846;
 
 UPDATE `locales_creature` SET
@@ -23793,7 +23793,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=6886;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='雅尔达'	-- Yalda
+	`name_loc4`='哈尔伦'	-- Yalda
 WHERE `entry`=6887;
 
 UPDATE `locales_creature` SET
@@ -23833,7 +23833,7 @@ WHERE `entry`=6913;
 -- WHERE `entry`=6926;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='码头工人'	-- Defias Dockworker
+	`name_loc4`='迪菲亚码头工人'	-- Defias Dockworker
 WHERE `entry`=6927;
 
 UPDATE `locales_creature` SET
@@ -23879,17 +23879,17 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='杜佛斯回收店'	-- Droffers and Son Salvage
 WHERE `entry`=6987;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blackrock Assassin'	-- Blackrock Assassin
--- WHERE `entry`=7006;
+UPDATE `locales_creature` SET
+	`name_loc4`='黑石刺客'	-- Blackrock Assassin
+WHERE `entry`=7006;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='提夫·摩杜恩'	-- Tiev Mordune
 WHERE `entry`=7007;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blackrock Reaver'	-- Blackrock Reaver
--- WHERE `entry`=7008;
+UPDATE `locales_creature` SET
+	`name_loc4`='黑石劫掠者'	-- Blackrock Reaver
+WHERE `entry`=7008;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='混乱之手阿兰提尔'	-- Arantir
@@ -23908,13 +23908,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='土灵雕刻者'	-- Earthen Sculptor
 WHERE `entry`=7012;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blackrock Rampager'	-- Blackrock Rampager
--- WHERE `entry`=7013;
+UPDATE `locales_creature` SET
+	`name_loc4`='黑石狂暴者'	-- Blackrock Rampager
+WHERE `entry`=7013;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Commander Kartak Dwarfdefiler'	-- Commander Kartak Dwarfdefiler
--- WHERE `entry`=7014;
+UPDATE `locales_creature` SET
+	`name_loc4`='指挥官卡塔克'	-- Commander Kartak Dwarfdefiler
+WHERE `entry`=7014;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='残忍的弗拉格莫克'	-- Flagglemurk the Cruel
@@ -24005,11 +24005,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7040;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑色龙人'	-- Black Wyrmkin
+	`name_loc4`='火鳞龙人'	-- Black Wyrmkin
 WHERE `entry`=7041;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='火鳞龙人'	-- Flamescale Dragonspawn
+	`name_loc4`='黑色龙族'	-- Flamescale Dragonspawn
 WHERE `entry`=7042;
 
 UPDATE `locales_creature` SET
@@ -24092,13 +24092,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='被诅咒的审判者'	-- Cursed Justicar
 WHERE `entry`=7072;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Arados the Damned'	-- Arados the Damned
--- WHERE `entry`=7073;
+UPDATE `locales_creature` SET
+	`name_loc4`='可憎的阿拉杜斯'	-- Arados the Damned
+WHERE `entry`=7073;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Judge Thelgram'	-- Judge Thelgram
--- WHERE `entry`=7074;
+UPDATE `locales_creature` SET
+	`name_loc4`='审判者塞尔格拉姆'	-- Judge Thelgram
+WHERE `entry`=7074;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='痛苦的法师'	-- Writhing Mage
@@ -24231,41 +24231,41 @@ UPDATE `locales_creature` SET
 	`name_loc4`='加德纳尔精兵'	-- Jaedenar Adept
 WHERE `entry`=7115;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jaedenar Dreadweaver'	-- Jaedenar Dreadweaver
--- WHERE `entry`=7116;
+UPDATE `locales_creature` SET
+	`name_loc4`='加德纳尔恐怖法师'	-- Jaedenar Dreadweaver
+WHERE `entry`=7116;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jaedenar Instigator'	-- Jaedenar Instigator
--- WHERE `entry`=7117;
+UPDATE `locales_creature` SET
+	`name_loc4`='加德纳尔鼓动者'	-- Jaedenar Instigator
+WHERE `entry`=7117;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='加德纳尔暗法师'	-- Jaedenar Darkweaver
 WHERE `entry`=7118;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jaedenar Summoner'	-- Jaedenar Summoner
--- WHERE `entry`=7119;
+UPDATE `locales_creature` SET
+	`name_loc4`='加德纳尔召唤者'	-- Jaedenar Summoner
+WHERE `entry`=7119;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='加德纳尔术士'	-- Jaedenar Warlock
 WHERE `entry`=7120;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jaedenar Arch Warlock'	-- Jaedenar Arch Warlock
--- WHERE `entry`=7121;
+UPDATE `locales_creature` SET
+	`name_loc4`='高阶术士'	-- Jaedenar Arch Warlock
+WHERE `entry`=7121;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Shadow Council Champion'	-- Shadow Council Champion
--- WHERE `entry`=7122;
+UPDATE `locales_creature` SET
+	`name_loc4`='暗影议会勇士'	-- Shadow Council Champion
+WHERE `entry`=7122;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Shadow Council Master'	-- Shadow Council Master
--- WHERE `entry`=7123;
+UPDATE `locales_creature` SET
+	`name_loc4`='暗影议会控制者'	-- Shadow Council Master
+WHERE `entry`=7123;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Shadow Council Highlord'	-- Shadow Council Highlord
--- WHERE `entry`=7124;
+UPDATE `locales_creature` SET
+	`name_loc4`='暗影议会成员'	-- Shadow Council Highlord
+WHERE `entry`=7124;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='加德纳尔恶犬'	-- Jaedenar Hound
@@ -24275,37 +24275,37 @@ UPDATE `locales_creature` SET
 	`name_loc4`='加德纳尔猎犬'	-- Jaedenar Hunter
 WHERE `entry`=7126;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jaedenar Stalker'	-- Jaedenar Stalker
--- WHERE `entry`=7127;
+UPDATE `locales_creature` SET
+	`name_loc4`='加德纳尔捕猎者'	-- Jaedenar Stalker
+WHERE `entry`=7127;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jaedenar Mana Leech'	-- Jaedenar Mana Leech
--- WHERE `entry`=7128;
+UPDATE `locales_creature` SET
+	`name_loc4`='加德纳尔噬魔犬'	-- Jaedenar Mana Leech
+WHERE `entry`=7128;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Enslaved Voidwalker'	-- Enslaved Voidwalker
--- WHERE `entry`=7129;
+UPDATE `locales_creature` SET
+	`name_loc4`='被奴役的虚空行者'	-- Enslaved Voidwalker
+WHERE `entry`=7129;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Voidwalker Servant'	-- Voidwalker Servant
--- WHERE `entry`=7130;
+UPDATE `locales_creature` SET
+	`name_loc4`='虚空行者奴仆'	-- Voidwalker Servant
+WHERE `entry`=7130;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Voidwalker Guardian'	-- Voidwalker Guardian
--- WHERE `entry`=7131;
+UPDATE `locales_creature` SET
+	`name_loc4`='虚空行者守卫'	-- Voidwalker Guardian
+WHERE `entry`=7131;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='剧毒之水'	-- Toxic Horror
 WHERE `entry`=7132;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Noxious Horror'	-- Noxious Horror
--- WHERE `entry`=7133;
+UPDATE `locales_creature` SET
+	`name_loc4`='毒性之水'	-- Noxious Horror
+WHERE `entry`=7133;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Poison Flayer'	-- Poison Flayer
--- WHERE `entry`=7134;
+UPDATE `locales_creature` SET
+	`name_loc4`='毒性掠夺者'	-- Poison Flayer
+WHERE `entry`=7134;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='地狱火保镖'	-- Infernal Bodyguard
@@ -24327,33 +24327,33 @@ UPDATE `locales_creature` SET
 	`name_loc4`='铁木践踏者'	-- Irontree Stomper
 WHERE `entry`=7139;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Decaying Treant'	-- Decaying Treant
--- WHERE `entry`=7143;
+UPDATE `locales_creature` SET
+	`name_loc4`='腐朽的树人'	-- Decaying Treant
+WHERE `entry`=7143;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Withered Treant'	-- Withered Treant
--- WHERE `entry`=7144;
+UPDATE `locales_creature` SET
+	`name_loc4`='枯萎的树人'	-- Withered Treant
+WHERE `entry`=7144;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Treant Protector'	-- Treant Protector
--- WHERE `entry`=7146;
+UPDATE `locales_creature` SET
+	`name_loc4`='树人保卫者'	-- Treant Protector
+WHERE `entry`=7146;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='枯萎的保护者'	-- Withered Protector
 WHERE `entry`=7149;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Withered Guardian'	-- Withered Guardian
--- WHERE `entry`=7150;
+UPDATE `locales_creature` SET
+	`name_loc4`='枯萎的守卫者'	-- Withered Guardian
+WHERE `entry`=7150;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Withered Watcher'	-- Withered Watcher
--- WHERE `entry`=7151;
+UPDATE `locales_creature` SET
+	`name_loc4`='枯萎的看守者'	-- Withered Watcher
+WHERE `entry`=7151;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Withered Forest Walker'	-- Withered Forest Walker
--- WHERE `entry`=7152;
+UPDATE `locales_creature` SET
+	`name_loc4`='枯萎的森林行者'	-- Withered Forest Walker
+WHERE `entry`=7152;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='死木战士'	-- Deadwood Warrior
@@ -24404,15 +24404,15 @@ UPDATE `locales_creature` SET
 	`name_loc4`='诺甘农的看门人'	-- Lore Keeper of Norgannon
 WHERE `entry`=7172;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Weaponsmithing Trainer'	-- World Weaponsmithing Trainer
--- 	`subname_loc4`='Weaponsmith Trainer'	-- Weaponsmith Trainer
--- WHERE `entry`=7173;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Weaponsmithing Trainer'	-- World Weaponsmithing Trainer
+	`subname_loc4`='武器铸造训练师'	-- Weaponsmith Trainer
+WHERE `entry`=7173;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Armorsmithing Trainer'	-- World Armorsmithing Trainer
--- 	`subname_loc4`='Armorsmithing Trainer'	-- Armorsmithing Trainer
--- WHERE `entry`=7174;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Armorsmithing Trainer'	-- World Armorsmithing Trainer
+	`subname_loc4`='铸甲训练师'	-- Armorsmithing Trainer
+WHERE `entry`=7174;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='石窟伏击者'	-- Stonevault Ambusher
@@ -24423,7 +24423,7 @@ WHERE `entry`=7175;
 -- WHERE `entry`=7186;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='远古巨石卫士'	-- Ancient Stone Keeper
+	`name_loc4`='古代的石头看守者'	-- Ancient Stone Keeper
 WHERE `entry`=7206;
 
 UPDATE `locales_creature` SET
@@ -24442,31 +24442,31 @@ UPDATE `locales_creature` SET
 	`name_loc4`='沙漠风暴'	-- Sand Storm
 WHERE `entry`=7226;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Cobaltine Dragonspawn'	-- Cobaltine Dragonspawn
--- WHERE `entry`=7227;
+UPDATE `locales_creature` SET
+	`name_loc4`='蔚蓝龙人'	-- Cobaltine Dragonspawn
+WHERE `entry`=7227;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='艾隆纳亚'	-- Ironaya
 WHERE `entry`=7228;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Arantir''s Shadow'	-- Arantir's Shadow
--- WHERE `entry`=7229;
+UPDATE `locales_creature` SET
+	`name_loc4`='阿兰提尔之影'	-- Arantir's Shadow
+WHERE `entry`=7229;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='莎伊斯·钢怒'	-- Shayis Steelfury
-	`subname_loc4`='锻造训练师'	-- Armor Crafter
+	`subname_loc4`='铸甲师'	-- Armor Crafter
 WHERE `entry`=7230;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克尔格鲁克·血斧'	-- Kelgruk Bloodaxe
-	`subname_loc4`='锻造训练师'	-- Weapon Crafter
+	`subname_loc4`='武器铸造师'	-- Weapon Crafter
 WHERE `entry`=7231;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='博古斯·钢拳'	-- Borgus Steelhand
-	`subname_loc4`='锻造训练师'	-- Weapon Crafter
+	`subname_loc4`='武器铸造师'	-- Weapon Crafter
 WHERE `entry`=7232;
 
 UPDATE `locales_creature` SET
@@ -24510,9 +24510,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='圣甲虫'	-- Scarab
 WHERE `entry`=7269;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Sandfury Zombie'	-- Sandfury Zombie
--- WHERE `entry`=7270;
+UPDATE `locales_creature` SET
+	`name_loc4`='沙怒僵尸'	-- Sandfury Zombie
+WHERE `entry`=7270;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巫医祖穆拉恩'	-- Witch Doctor Zum'rah
@@ -24617,10 +24617,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='女祭司艾茉拉'	-- Priestess A'moora
 WHERE `entry`=7313;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Test BattleMaster'	-- Test BattleMaster
--- 	`subname_loc4`='Battle Master'	-- Battle Master
--- WHERE `entry`=7314;
+UPDATE `locales_creature` SET
+	`name_loc4`='Test BattleMaster'	-- Test BattleMaster
+	`subname_loc4`='战斗大师'	-- Battle Master
+WHERE `entry`=7314;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='达纳斯·刃歌'	-- Darnath Bladesinger
@@ -24653,7 +24653,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7321;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑色夜刃豹'	-- Riding Tiger (Black)
+	`name_loc4`='骑乘用虎（黑色）'	-- Riding Tiger (Black)
 WHERE `entry`=7322;
 
 UPDATE `locales_creature` SET
@@ -24787,11 +24787,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7363;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='无瑕的德莱尼水晶球'	-- Flawless Draenethyst Sphere
+	`name_loc4`='无暇的德莱尼水晶球'	-- Flawless Draenethyst Sphere
 WHERE `entry`=7364;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='无瑕的德莱尼水晶碎片'	-- Flawless Draenethyst Fragment
+	`name_loc4`='无暇的德莱尼水晶碎片'	-- Flawless Draenethyst Fragment
 WHERE `entry`=7365;
 
 UPDATE `locales_creature` SET
@@ -24822,17 +24822,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='逆风术士'	-- Deadwind Warlock
 WHERE `entry`=7372;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Deadwind Enforcer'	-- Deadwind Enforcer
--- WHERE `entry`=7373;
+UPDATE `locales_creature` SET
+	`name_loc4`='逆风执行者'	-- Deadwind Enforcer
+WHERE `entry`=7373;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Vengeful Wraith'	-- Vengeful Wraith
--- WHERE `entry`=7374;
+UPDATE `locales_creature` SET
+	`name_loc4`='寻仇的鬼魂'	-- Vengeful Wraith
+WHERE `entry`=7374;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Spirit of Wrath'	-- Spirit of Wrath
--- WHERE `entry`=7375;
+UPDATE `locales_creature` SET
+	`name_loc4`='愤怒之魂'	-- Spirit of Wrath
+WHERE `entry`=7375;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='暗影鹫'	-- Sky Shadow
@@ -24902,9 +24902,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='农场小鸡'	-- Prairie Chicken
 WHERE `entry`=7392;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='White Plymouth Rock'	-- White Plymouth Rock
--- WHERE `entry`=7393;
+UPDATE `locales_creature` SET
+	`name_loc4`='白色小鸡'	-- White Plymouth Rock
+WHERE `entry`=7393;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='灰色小鸡'	-- Ancona Chicken
@@ -24956,7 +24956,7 @@ WHERE `entry`=7405;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥格索普·奥布诺提斯'	-- Oglethorpe Obnoticus
-	`subname_loc4`='侏儒工程学训练师'	-- Master Gnome Engineer
+	`subname_loc4`='大师级侏儒技师'	-- Master Gnome Engineer
 WHERE `entry`=7406;
 
 UPDATE `locales_creature` SET
@@ -25015,7 +25015,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7425;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='泰姆·暴怒图腾'	-- Taim Ragetotem
+	`name_loc4`='泰姆·狂暴图腾'	-- Taim Ragetotem
 	`subname_loc4`='奥特兰克山谷军官'	-- Alterac Valley Battlemaster
 WHERE `entry`=7427;
 
@@ -25028,7 +25028,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7429;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='幼霜刃豹'	-- Frostsaber Cub
+	`name_loc4`='霜刃豹幼崽'	-- Frostsaber Cub
 WHERE `entry`=7430;
 
 UPDATE `locales_creature` SET
@@ -25208,10 +25208,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='风之优雅图腾 II'	-- Grace of Air Totem II
 WHERE `entry`=7487;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Haka''wani'	-- Haka'wani
--- 	`subname_loc4`='Mage Trainer'	-- Mage Trainer
--- WHERE `entry`=7488;
+UPDATE `locales_creature` SET
+	`name_loc4`='哈卡瓦尼'	-- Haka'wani
+	`subname_loc4`='法师训练师'	-- Mage Trainer
+WHERE `entry`=7488;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='银松森林亡灵卫兵'	-- Silverpine Deathguard
@@ -25241,24 +25241,24 @@ UPDATE `locales_creature` SET
 	`name_loc4`='痛苦的上层精灵'	-- Anguished Highborne
 WHERE `entry`=7524;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Leatherworking Dragonscale Trainer'	-- World Leatherworking Dragonscale Trainer
--- 	`subname_loc4`='Dragonscale Leatherworking Trainer'	-- Dragonscale Leatherworking Trainer
--- WHERE `entry`=7525;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Leatherworking Dragonscale Trainer'	-- World Leatherworking Dragonscale Trainer
+	`subname_loc4`='龙鳞制皮训练师'	-- Dragonscale Leatherworking Trainer
+WHERE `entry`=7525;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Leatherworking Elemental Trainer'	-- World Leatherworking Elemental Trainer
--- 	`subname_loc4`='Elemental Leatherworking Trainer'	-- Elemental Leatherworking Trainer
--- WHERE `entry`=7526;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Leatherworking Elemental Trainer'	-- World Leatherworking Elemental Trainer
+	`subname_loc4`='元素制皮训练师'	-- Elemental Leatherworking Trainer
+WHERE `entry`=7526;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='地精暗雷'	-- Goblin Land Mine
 WHERE `entry`=7527;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Leatherworking Tribal Trainer'	-- World Leatherworking Tribal Trainer
--- 	`subname_loc4`='Tribal Leatherworking Trainer'	-- Tribal Leatherworking Trainer
--- WHERE `entry`=7528;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Leatherworking Tribal Trainer'	-- World Leatherworking Tribal Trainer
+	`subname_loc4`='部族制皮训练师'	-- Tribal Leatherworking Trainer
+WHERE `entry`=7528;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='黑龙宝宝'	-- Dark Whelpling
@@ -25325,7 +25325,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7559;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='雪兔'	-- Snowshoe Rabbit
+	`name_loc4`='黄纹兔'	-- Snowshoe Rabbit
 WHERE `entry`=7560;
 
 UPDATE `locales_creature` SET
@@ -25336,9 +25336,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='棕色蟒蛇'	-- Brown Snake
 WHERE `entry`=7562;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blue Racer'	-- Blue Racer
--- WHERE `entry`=7563;
+UPDATE `locales_creature` SET
+	`name_loc4`='蓝鳞蛇'	-- Blue Racer
+WHERE `entry`=7563;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='马林·诺格弗格'	-- Marin Noggenfogger
@@ -25416,9 +25416,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='本戈尔'	-- Bengor
 WHERE `entry`=7643;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ashenvale Warrior'	-- Ashenvale Warrior
--- WHERE `entry`=7663;
+UPDATE `locales_creature` SET
+	`name_loc4`='灰谷战士'	-- Ashenvale Warrior
+WHERE `entry`=7663;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='污染者拉瑟莱克'	-- Razelikh the Defiler
@@ -25458,43 +25458,43 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7683;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='猎豹'	-- Riding Tiger (Yellow)
+	`name_loc4`='骑乘用虎（黄色）'	-- Riding Tiger (Yellow)
 WHERE `entry`=7684;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='丛林虎'	-- Riding Tiger (Red)
+	`name_loc4`='骑乘用虎（红色）'	-- Riding Tiger (Red)
 WHERE `entry`=7686;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='斑点霜刃豹'	-- Riding Tiger (White Spotted)
+	`name_loc4`='骑乘用虎（雪白色）'	-- Riding Tiger (White Spotted)
 WHERE `entry`=7687;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='斑点夜刃豹'	-- Riding Tiger (BlackSpotted)
+	`name_loc4`='骑乘用虎（黑色斑点）'	-- Riding Tiger (BlackSpotted)
 WHERE `entry`=7689;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='条纹夜刃豹'	-- Riding Tiger (BlackStriped)
+	`name_loc4`='骑乘用虎（黑色斑纹）'	-- Riding Tiger (BlackStriped)
 WHERE `entry`=7690;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑色迅猛龙'	-- Riding Raptor (Obsidian)
+	`name_loc4`='骑乘用迅猛龙（黑色）'	-- Riding Raptor (Obsidian)
 WHERE `entry`=7703;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='杂斑红色迅猛龙'	-- Riding Raptor (Crimson)
+	`name_loc4`='骑乘用迅猛龙（红色）'	-- Riding Raptor (Crimson)
 WHERE `entry`=7704;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='白色迅猛龙'	-- Riding Raptor (Ivory)
+	`name_loc4`='骑乘用迅猛龙（黄色）'	-- Riding Raptor (Ivory)
 WHERE `entry`=7706;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='青色迅猛龙'	-- Riding Raptor (Turquoise)
+	`name_loc4`='骑乘用迅猛龙（绿色）'	-- Riding Raptor (Turquoise)
 WHERE `entry`=7707;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='紫色迅猛龙'	-- Riding Raptor (Violet)
+	`name_loc4`='骑乘用迅猛龙（紫色）'	-- Riding Raptor (Violet)
 WHERE `entry`=7708;
 
 UPDATE `locales_creature` SET
@@ -25518,7 +25518,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7713;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='比鲁拉'	-- Innkeeper Byula
+	`name_loc4`='旅店老板比鲁拉'	-- Innkeeper Byula
 	`subname_loc4`='旅店老板'	-- Innkeeper
 WHERE `entry`=7714;
 
@@ -25590,45 +25590,45 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7738;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='红色机械陆行鸟'	-- Riding MechaStrider (Red)
+	`name_loc4`='骑乘用机械陆行鸟（黄色）'	-- Riding MechaStrider (Red)
 WHERE `entry`=7739;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格拉希娜·灵风'	-- Gracina Spiritmight
 WHERE `entry`=7740;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Undead Horse Riding Trainer'	-- World Undead Horse Riding Trainer
--- 	`subname_loc4`='Undead Horse Riding Trainer'	-- Undead Horse Riding Trainer
--- WHERE `entry`=7743;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Undead Horse Riding Trainer'	-- World Undead Horse Riding Trainer
+	`subname_loc4`='亡灵马骑术训练师'	-- Undead Horse Riding Trainer
+WHERE `entry`=7743;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='旅店老板苏弗拉姆'	-- Innkeeper Thulfram
 	`subname_loc4`='旅店老板'	-- Innkeeper
 WHERE `entry`=7744;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Raptor Riding Trainer'	-- World Raptor Riding Trainer
--- 	`subname_loc4`='Raptor Riding Trainer'	-- Raptor Riding Trainer
--- WHERE `entry`=7745;
-
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Mechastrider Riding Trainer'	-- World Mechastrider Riding Trainer
--- 	`subname_loc4`='Mechastrider Riding Trainer'	-- Mechastrider Riding Trainer
--- WHERE `entry`=7746;
-
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Mount Vendor'	-- World Mount Vendor
--- 	`subname_loc4`='Mount Vendor'	-- Mount Vendor
--- WHERE `entry`=7747;
-
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Horse Vendor'	-- World Horse Vendor
--- 	`subname_loc4`='Horse Vendor'	-- Horse Vendor
--- WHERE `entry`=7748;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Raptor Riding Trainer'	-- World Raptor Riding Trainer
+	`subname_loc4`='迅猛龙骑术训练师'	-- Raptor Riding Trainer
+WHERE `entry`=7745;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='蓝色机械陆行鸟'	-- Riding MechaStrider (Blue)
+	`name_loc4`='World Mechastrider Riding Trainer'	-- World Mechastrider Riding Trainer
+	`subname_loc4`='机械陆行鸟骑术训练师'	-- Mechastrider Riding Trainer
+WHERE `entry`=7746;
+
+UPDATE `locales_creature` SET
+	`name_loc4`='World Mount Vendor'	-- World Mount Vendor
+	`subname_loc4`='坐骑商人'	-- Mount Vendor
+WHERE `entry`=7747;
+
+UPDATE `locales_creature` SET
+	`name_loc4`='World Horse Vendor'	-- World Horse Vendor
+	`subname_loc4`='养马人'	-- Horse Vendor
+WHERE `entry`=7748;
+
+UPDATE `locales_creature` SET
+	`name_loc4`='骑乘用机械陆行鸟（蓝色）'	-- Riding MechaStrider (Blue)
 WHERE `entry`=7749;
 
 UPDATE `locales_creature` SET
@@ -25781,7 +25781,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7799;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='机械师瑟玛普拉格'	-- Mekgineer Thermaplugg
+	`name_loc4`='麦克尼尔·瑟玛普拉格'	-- Mekgineer Thermaplugg
 WHERE `entry`=7800;
 
 UPDATE `locales_creature` SET
@@ -25921,32 +25921,32 @@ WHERE `entry`=7865;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='彼得·加林'	-- Peter Galen
-	`subname_loc4`='制皮训练师'	-- Master Dragonscale Leatherworker
+	`subname_loc4`='大师级龙鳞制皮师'	-- Master Dragonscale Leatherworker
 WHERE `entry`=7866;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='索卡夫·龙眼'	-- Thorkaf Dragoneye
-	`subname_loc4`='制皮训练师'	-- Master Dragonscale Leatherworker
+	`subname_loc4`='大师级龙鳞制皮师'	-- Master Dragonscale Leatherworker
 WHERE `entry`=7867;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='萨拉·坦尼'	-- Sarah Tanner
-	`subname_loc4`='制皮训练师'	-- Master Elemental Leatherworker
+	`subname_loc4`='大师级元素制皮师'	-- Master Elemental Leatherworker
 WHERE `entry`=7868;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='布鲁姆·白蹄'	-- Brumn Winterhoof
-	`subname_loc4`='制皮训练师'	-- Master Elemental Leatherworker
+	`subname_loc4`='大师级元素制皮师'	-- Master Elemental Leatherworker
 WHERE `entry`=7869;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='凯雷希亚·猎月'	-- Caryssia Moonhunter
-	`subname_loc4`='制皮训练师'	-- Tribal Leatherworking Trainer
+	`subname_loc4`='部族制皮训练师'	-- Tribal Leatherworking Trainer
 WHERE `entry`=7870;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瑟伊布'	-- Se'Jib
-	`subname_loc4`='制皮训练师'	-- Master Tribal Leatherworker
+	`subname_loc4`='大师级部族制皮师'	-- Master Tribal Leatherworker
 WHERE `entry`=7871;
 
 UPDATE `locales_creature` SET
@@ -26014,9 +26014,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='布拉德雷大使'	-- Ambassador Bloodrage
 WHERE `entry`=7895;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Southsea Buccaneer'	-- Southsea Buccaneer
--- WHERE `entry`=7896;
+UPDATE `locales_creature` SET
+	`name_loc4`='南海冒险家'	-- Southsea Buccaneer
+WHERE `entry`=7896;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='警报炸弹2600型'	-- Alarm-a-bomb 2600
@@ -26049,12 +26049,12 @@ WHERE `entry`=7903;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='贾克布'	-- Jacob
-	`subname_loc4`='安吉拉的宠物'	-- Angelas' Pet
+	`subname_loc4`='安吉拉斯的宠物'	-- Angelas' Pet
 WHERE `entry`=7904;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Goldshire Guard'	-- Goldshire Guard
--- WHERE `entry`=7906;
+UPDATE `locales_creature` SET
+	`name_loc4`='闪金镇卫兵'	-- Goldshire Guard
+WHERE `entry`=7906;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='达蕾恩·轻风'	-- Daryn Lightwind
@@ -26081,9 +26081,9 @@ WHERE `entry`=7918;
 -- 	`name_loc4`='Gnomeregan - Matrix Punchograph 3005-A'	-- Gnomeregan - Matrix Punchograph 3005-A
 -- WHERE `entry`=7919;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Irradiated Ozzie'	-- Irradiated Ozzie
--- WHERE `entry`=7935;
+UPDATE `locales_creature` SET
+	`name_loc4`='被辐射的奥齐'	-- Irradiated Ozzie
+WHERE `entry`=7935;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='莱恩·山心'	-- Lyon Mountainheart
@@ -26124,7 +26124,7 @@ WHERE `entry`=7943;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='工匠大师欧沃斯巴克'	-- Tinkmaster Overspark
-	`subname_loc4`='侏儒工程学训练师'	-- Master Gnome Engineer
+	`subname_loc4`='大师级侏儒技师'	-- Master Gnome Engineer
 WHERE `entry`=7944;
 
 UPDATE `locales_creature` SET
@@ -26134,22 +26134,22 @@ WHERE `entry`=7945;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='布拉诺克'	-- Brannock
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=7946;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='薇薇安娜'	-- Vivianna
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=7947;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='凯兰娜·风语'	-- Kylanna Windwhisper
-	`subname_loc4`='炼金术训练师'	-- Master Alchemist
+	`subname_loc4`='大师级炼金师'	-- Master Alchemist
 WHERE `entry`=7948;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='辛琳妮亚·星光'	-- Xylinnia Starshine
-	`subname_loc4`='附魔训练师'	-- Expert Enchanter
+	`subname_loc4`='中级附魔师'	-- Expert Enchanter
 WHERE `entry`=7949;
 
 UPDATE `locales_creature` SET
@@ -26167,12 +26167,12 @@ WHERE `entry`=7952;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克萨尔迪'	-- Xar'Ti
-	`subname_loc4`='骑术训练师'	-- Raptor Riding Trainer
+	`subname_loc4`='迅猛龙骑术训练师'	-- Raptor Riding Trainer
 WHERE `entry`=7953;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='宾吉·羽哨'	-- Binjy Featherwhistle
-	`subname_loc4`='骑术训练师'	-- Mechanostrider Pilot
+	`subname_loc4`='机械陆行鸟驾驶员'	-- Mechanostrider Pilot
 WHERE `entry`=7954;
 
 UPDATE `locales_creature` SET
@@ -26189,7 +26189,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=7957;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='纳拉其营地卫士'	-- Mulgore Protector
+	`name_loc4`='莫高雷卫士'	-- Mulgore Protector
 WHERE `entry`=7975;
 
 UPDATE `locales_creature` SET
@@ -26299,7 +26299,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=8095;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='月溪旅卫士'	-- Protector of the People
+	`name_loc4`='人民军卫兵'	-- Protector of the People
 	`subname_loc4`='人民军'	-- The People's Militia
 WHERE `entry`=8096;
 
@@ -26358,7 +26358,7 @@ WHERE `entry`=8125;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='尼克斯·斯普克斯宾'	-- Nixx Sprocketspring
-	`subname_loc4`='地精工程学训练师'	-- Master Goblin Engineer
+	`subname_loc4`='大师级地精技师'	-- Master Goblin Engineer
 WHERE `entry`=8126;
 
 UPDATE `locales_creature` SET
@@ -26368,7 +26368,7 @@ WHERE `entry`=8127;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='皮库尔'	-- Pikkle
-	`subname_loc4`='采矿训练师'	-- Miner
+	`subname_loc4`='矿工'	-- Miner
 WHERE `entry`=8128;
 
 UPDATE `locales_creature` SET
@@ -26430,7 +26430,7 @@ WHERE `entry`=8144;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='希恩德拉·深草'	-- Sheendra Tallgrass
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=8145;
 
 UPDATE `locales_creature` SET
@@ -26442,10 +26442,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='莫沙彻营地卫兵'	-- Camp Mojache Brave
 WHERE `entry`=8147;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Waurg'	-- Waurg
--- 	`subname_loc4`='Food & Drink'	-- Food & Drink
--- WHERE `entry`=8148;
+UPDATE `locales_creature` SET
+	`name_loc4`='瓦尔格'	-- Waurg
+	`subname_loc4`='食物和饮料'	-- Food & Drink
+WHERE `entry`=8148;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='苏利萨斯卫士'	-- Sul'lithuz Warder
@@ -26467,7 +26467,7 @@ WHERE `entry`=8152;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='纳夫'	-- Narv Hidecrafter
-	`subname_loc4`='制皮训练师'	-- Expert Leathercrafter
+	`subname_loc4`='中级制皮师'	-- Expert Leathercrafter
 WHERE `entry`=8153;
 
 UPDATE `locales_creature` SET
@@ -26566,12 +26566,12 @@ UPDATE `locales_creature` SET
 	`name_loc4`='贪婪的哈尔卡'	-- Haarka the Ravenous
 WHERE `entry`=8205;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Soul of Tanaris'	-- Soul of Tanaris
--- WHERE `entry`=8206;
+UPDATE `locales_creature` SET
+	`name_loc4`='塔纳利斯之魂'	-- Soul of Tanaris
+WHERE `entry`=8206;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='余烬之翼'	-- Greater Firebird
+	`name_loc4`='巨型火鸟'	-- Greater Firebird
 WHERE `entry`=8207;
 
 UPDATE `locales_creature` SET
@@ -26709,7 +26709,7 @@ WHERE `entry`=8305;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='杜恩格'	-- Duhng
-	`subname_loc4`='烹饪训练师'	-- Cook
+	`subname_loc4`='厨师'	-- Cook
 WHERE `entry`=8306;
 
 UPDATE `locales_creature` SET
@@ -26812,7 +26812,7 @@ WHERE `entry`=8360;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='切比'	-- Chepi
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=8361;
 
 UPDATE `locales_creature` SET
@@ -26822,7 +26822,7 @@ WHERE `entry`=8362;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='沙迪·迷雾行者'	-- Shadi Mistrunner
-	`subname_loc4`='贸易供应商'	-- Trade Goods Supplier
+	`subname_loc4`='商人'	-- Trade Goods Supplier
 WHERE `entry`=8363;
 
 UPDATE `locales_creature` SET
@@ -26834,9 +26834,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='机械小鸡'	-- Mechanical Chicken
 WHERE `entry`=8376;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ahdi of Shadow Hall'	-- Ahdi of Shadow Hall
--- WHERE `entry`=8377;
+UPDATE `locales_creature` SET
+	`name_loc4`='暗影大厅的安迪'	-- Ahdi of Shadow Hall
+WHERE `entry`=8377;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='亚历山大·布拉森'	-- Alexandra Blazen
@@ -26955,13 +26955,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='奥汀克'	-- Ogtinc
 WHERE `entry`=8405;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Or''lin Oakenfist'	-- Or'lin Oakenfist
--- WHERE `entry`=8406;
+UPDATE `locales_creature` SET
+	`name_loc4`='奥尔林·木拳'	-- Or'lin Oakenfist
+WHERE `entry`=8406;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Makron the Corrupt'	-- Makron the Corrupt
--- WHERE `entry`=8407;
+UPDATE `locales_creature` SET
+	`name_loc4`='玛科隆'	-- Makron the Corrupt
+WHERE `entry`=8407;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='军阀克雷利安'	-- Warlord Krellian
@@ -27138,7 +27138,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=8519;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾破坏者'	-- Plague Ravager
+	`name_loc4`='瘟疫破坏者'	-- Plague Ravager
 WHERE `entry`=8520;
 
 UPDATE `locales_creature` SET
@@ -27146,7 +27146,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=8521;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾水元素'	-- Plague Monstrosity
+	`name_loc4`='瘟疫水元素'	-- Plague Monstrosity
 WHERE `entry`=8522;
 
 UPDATE `locales_creature` SET
@@ -27197,13 +27197,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='腐烂的尖啸者'	-- Putrid Shrieker
 WHERE `entry`=8535;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Putrid Slayer'	-- Putrid Slayer
--- WHERE `entry`=8536;
+UPDATE `locales_creature` SET
+	`name_loc4`='腐烂的杀戮者'	-- Putrid Slayer
+WHERE `entry`=8536;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Interloper'	-- Interloper
--- WHERE `entry`=8537;
+UPDATE `locales_creature` SET
+	`name_loc4`='闯入者'	-- Interloper
+WHERE `entry`=8537;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='无影仆从'	-- Unseen Servant
@@ -27234,7 +27234,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=8544;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='缝合傀儡'	-- Abomination
+	`name_loc4`='憎恶'	-- Abomination
 WHERE `entry`=8545;
 
 UPDATE `locales_creature` SET
@@ -27267,10 +27267,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='诅咒教派'	-- Cult of the Damned
 WHERE `entry`=8551;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Necrolyte'	-- Necrolyte
--- 	`subname_loc4`='Cult of the Damned'	-- Cult of the Damned
--- WHERE `entry`=8552;
+UPDATE `locales_creature` SET
+	`name_loc4`='亡灵侍僧'	-- Necrolyte
+	`subname_loc4`='诅咒教派'	-- Cult of the Damned
+WHERE `entry`=8552;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='亡灵巫师'	-- Necromancer
@@ -27278,11 +27278,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=8553;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='锋牙·刺鬃酋长'	-- Chief Sharptusk Thornmantle
+	`name_loc4`='刺鬃酋长'	-- Chief Sharptusk Thornmantle
 WHERE `entry`=8554;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='地穴阔步者'	-- Crypt Fiend
+	`name_loc4`='地穴恶魔'	-- Crypt Fiend
 WHERE `entry`=8555;
 
 UPDATE `locales_creature` SET
@@ -27297,9 +27297,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='地穴屠戮者'	-- Crypt Slayer
 WHERE `entry`=8558;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Undead Nerubian'	-- Undead Nerubian
--- WHERE `entry`=8559;
+UPDATE `locales_creature` SET
+	`name_loc4`='亡灵蜘蛛怪'	-- Undead Nerubian
+WHERE `entry`=8559;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='烂苔斥候'	-- Mossflayer Scout
@@ -27314,15 +27314,15 @@ UPDATE `locales_creature` SET
 WHERE `entry`=8562;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='失心的护林者'	-- Woodsman
+	`name_loc4`='护林者'	-- Woodsman
 WHERE `entry`=8563;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='失心的游侠'	-- Ranger
+	`name_loc4`='游侠'	-- Ranger
 WHERE `entry`=8564;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='失心的巡路者'	-- Pathstrider
+	`name_loc4`='巡路者'	-- Pathstrider
 WHERE `entry`=8565;
 
 UPDATE `locales_creature` SET
@@ -27383,31 +27383,31 @@ UPDATE `locales_creature` SET
 WHERE `entry`=8588;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾幼犬'	-- Plaguehound Runt
+	`name_loc4`='瘟疫幼犬'	-- Plaguehound Runt
 WHERE `entry`=8596;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾犬'	-- Plaguehound
+	`name_loc4`='瘟疫犬'	-- Plaguehound
 WHERE `entry`=8597;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='狂怒的天灾犬'	-- Frenzied Plaguehound
+	`name_loc4`='狂怒的瘟疫犬'	-- Frenzied Plaguehound
 WHERE `entry`=8598;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Plaguehound Mastiff'	-- Plaguehound Mastiff
--- WHERE `entry`=8599;
+UPDATE `locales_creature` SET
+	`name_loc4`='瘟疫巨犬'	-- Plaguehound Mastiff
+WHERE `entry`=8599;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾蝙蝠'	-- Plaguebat
+	`name_loc4`='瘟疫蝙蝠'	-- Plaguebat
 WHERE `entry`=8600;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='毒性天灾蝙蝠'	-- Noxious Plaguebat
+	`name_loc4`='毒性瘟疫蝙蝠'	-- Noxious Plaguebat
 WHERE `entry`=8601;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='巨型天灾蝙蝠'	-- Monstrous Plaguebat
+	`name_loc4`='巨型瘟疫蝙蝠'	-- Monstrous Plaguebat
 WHERE `entry`=8602;
 
 UPDATE `locales_creature` SET
@@ -27431,7 +27431,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=8608;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='亚历山大·康斯坦丁'	-- Alexandra Constantine
+	`name_loc4`='亚莉珊德拉·康斯坦丁'	-- Alexandra Constantine
 	`subname_loc4`='狮鹫管理员'	-- Gryphon Master
 WHERE `entry`=8609;
 
@@ -27448,9 +27448,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='尖啸者的灵魂'	-- Screecher Spirit
 WHERE `entry`=8612;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ozzie'	-- Ozzie
--- WHERE `entry`=8613;
+UPDATE `locales_creature` SET
+	`name_loc4`='奥奇'	-- Ozzie
+WHERE `entry`=8613;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='秘银幼龙'	-- Mithril Dragonling
@@ -27500,12 +27500,12 @@ UPDATE `locales_creature` SET
 	`name_loc4`='塑像烤箱火焰目标'	-- Idol Oven Fire Target
 WHERE `entry`=8662;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Splinterbone Elite'	-- Splinterbone Elite
--- WHERE `entry`=8663;
+UPDATE `locales_creature` SET
+	`name_loc4`='碎骨精英'	-- Splinterbone Elite
+WHERE `entry`=8663;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='烈日行者赛恩'	-- Saern Priderunner
+	`name_loc4`='赛恩'	-- Saern Priderunner
 WHERE `entry`=8664;
 
 UPDATE `locales_creature` SET
@@ -27554,18 +27554,18 @@ UPDATE `locales_creature` SET
 	`name_loc4`='地狱兽'	-- Felbeast
 WHERE `entry`=8675;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Gnome Engineering Trainer'	-- World Gnome Engineering Trainer
--- 	`subname_loc4`='Gnome Engineering Trainer'	-- Gnome Engineering Trainer
--- WHERE `entry`=8676;
-
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Goblin Engineering Trainer'	-- World Goblin Engineering Trainer
--- 	`subname_loc4`='Goblin Engineering Trainer'	-- Goblin Engineering Trainer
--- WHERE `entry`=8677;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Gnome Engineering Trainer'	-- World Gnome Engineering Trainer
+	`subname_loc4`='侏儒工程学训练师'	-- Gnome Engineering Trainer
+WHERE `entry`=8676;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='朱比·加基斯宾'	-- Jubie Gadgetspring
+	`name_loc4`='World Goblin Engineering Trainer'	-- World Goblin Engineering Trainer
+	`subname_loc4`='地精工程学训练师'	-- Goblin Engineering Trainer
+WHERE `entry`=8677;
+
+UPDATE `locales_creature` SET
+	`name_loc4`='朱比'	-- Jubie Gadgetspring
 	`subname_loc4`='工程学供应商'	-- Engineering Supplier
 WHERE `entry`=8678;
 
@@ -27625,7 +27625,7 @@ WHERE `entry`=8724;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巴兹克·布拉斯温'	-- Buzzek Bracketswing
-	`subname_loc4`='工程学训练师'	-- Master Engineer
+	`subname_loc4`='大师级技师'	-- Master Engineer
 WHERE `entry`=8736;
 
 UPDATE `locales_creature` SET
@@ -27634,7 +27634,7 @@ WHERE `entry`=8737;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瓦萨里奥·林克格雷斯'	-- Vazario Linkgrease
-	`subname_loc4`='地精工程学训练师'	-- Master Goblin Engineer
+	`subname_loc4`='大师级地精技师'	-- Master Goblin Engineer
 WHERE `entry`=8738;
 
 UPDATE `locales_creature` SET
@@ -27676,9 +27676,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='雾翼掠夺者'	-- Mistwing Ravager
 WHERE `entry`=8764;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Forest Creeper'	-- Forest Creeper
--- WHERE `entry`=8765;
+UPDATE `locales_creature` SET
+	`name_loc4`='森林爬行者'	-- Forest Creeper
+WHERE `entry`=8765;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='森林软泥怪'	-- Forest Ooze
@@ -27692,10 +27692,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='翡翠雏龙'	-- Emerald Dragon Whelp
 WHERE `entry`=8776;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Seinrick Coulthane'	-- Seinrick Coulthane
--- 	`subname_loc4`='Skinning Trainer'	-- Skinning Trainer
--- WHERE `entry`=8777;
+UPDATE `locales_creature` SET
+	`name_loc4`='辛里克·考尔萨恩'	-- Seinrick Coulthane
+	`subname_loc4`='剥皮训练师'	-- Skinning Trainer
+WHERE `entry`=8777;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Swimming Murloc Test'	-- Swimming Murloc Test
@@ -27734,9 +27734,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='皇家历史学家阿克瑟努斯'	-- Royal Historian Archesonus
 WHERE `entry`=8879;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mechastrider'	-- Mechastrider
--- WHERE `entry`=8880;
+UPDATE `locales_creature` SET
+	`name_loc4`='机械陆行鸟'	-- Mechastrider
+WHERE `entry`=8880;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='骑乘用山羊'	-- Riding Ram
@@ -27942,7 +27942,7 @@ WHERE `entry`=8933;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克里斯托弗·赫温'	-- Christopher Hewen
-	`subname_loc4`='贸易供应商'	-- General Trade Goods Vendor
+	`subname_loc4`='杂货供应商'	-- General Trade Goods Vendor
 WHERE `entry`=8934;
 
 -- UPDATE `locales_creature` SET
@@ -27978,7 +27978,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=8961;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='尼达'	-- Hilary
+	`name_loc4`='希拉里'	-- Hilary
 WHERE `entry`=8962;
 
 UPDATE `locales_creature` SET
@@ -28104,7 +28104,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=9032;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='怒炉将军'	-- General Angerforge
+	`name_loc4`='安格弗将军'	-- General Angerforge
 WHERE `entry`=9033;
 
 UPDATE `locales_creature` SET
@@ -28280,7 +28280,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=9157;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='战马'	-- Riding Horse (Warhorse)
+	`name_loc4`='骑乘用马（军马）'	-- Riding Horse (Warhorse)
 WHERE `entry`=9158;
 
 UPDATE `locales_creature` SET
@@ -28308,7 +28308,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=9167;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='格尔洛普'	-- Gor'tesh
+	`name_loc4`='戈泰什'	-- Gor'tesh
 WHERE `entry`=9176;
 
 UPDATE `locales_creature` SET
@@ -28538,7 +28538,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=9396;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='出土的化石'	-- Living Storm
+	`name_loc4`='活风暴'	-- Living Storm
 WHERE `entry`=9397;
 
 UPDATE `locales_creature` SET
@@ -28550,9 +28550,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='裂盾军团'	-- Scarshield Legion
 WHERE `entry`=9416;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Sleeping Dragon'	-- Sleeping Dragon
--- WHERE `entry`=9417;
+UPDATE `locales_creature` SET
+	`name_loc4`='沉睡之龙'	-- Sleeping Dragon
+WHERE `entry`=9417;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='贝尔加的产物'	-- Spawn of Bael'Gar
@@ -28875,7 +28875,7 @@ WHERE `entry`=9563;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='弗雷萨'	-- Frezza
-	`subname_loc4`='杜隆塔尔飞艇管理员'	-- Zeppelin Master
+	`subname_loc4`='飞艇管理员'	-- Zeppelin Master
 WHERE `entry`=9564;
 
 UPDATE `locales_creature` SET
@@ -28884,7 +28884,7 @@ WHERE `entry`=9565;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='飞艇管理员萨匹塔'	-- Zapetta
-	`subname_loc4`='杜隆塔尔飞艇管理员'	-- Zeppelin Master
+	`subname_loc4`='飞艇管理员'	-- Zeppelin Master
 WHERE `entry`=9566;
 
 -- UPDATE `locales_creature` SET
@@ -28895,39 +28895,39 @@ UPDATE `locales_creature` SET
 	`name_loc4`='维姆萨拉克'	-- Overlord Wyrmthalak
 WHERE `entry`=9568;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stormwind Talent Master'	-- Stormwind Talent Master
--- 	`subname_loc4`='Talent Master'	-- Talent Master
--- WHERE `entry`=9576;
+UPDATE `locales_creature` SET
+	`name_loc4`='Stormwind Talent Master'	-- Stormwind Talent Master
+	`subname_loc4`='天赋大师'	-- Talent Master
+WHERE `entry`=9576;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Gorilla Test'	-- [UNUSED] Gorilla Test
 -- WHERE `entry`=9577;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ironforge Talent Master'	-- Ironforge Talent Master
--- 	`subname_loc4`='Talent Master'	-- Talent Master
--- WHERE `entry`=9578;
+UPDATE `locales_creature` SET
+	`name_loc4`='Ironforge Talent Master'	-- Ironforge Talent Master
+	`subname_loc4`='天赋大师'	-- Talent Master
+WHERE `entry`=9578;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Darnassus Talent Master'	-- Darnassus Talent Master
--- 	`subname_loc4`='Talent Master'	-- Talent Master
--- WHERE `entry`=9579;
+UPDATE `locales_creature` SET
+	`name_loc4`='Darnassus Talent Master'	-- Darnassus Talent Master
+	`subname_loc4`='天赋大师'	-- Talent Master
+WHERE `entry`=9579;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Orgrimmar Talent Master'	-- Orgrimmar Talent Master
--- 	`subname_loc4`='Talent Master'	-- Talent Master
--- WHERE `entry`=9580;
+UPDATE `locales_creature` SET
+	`name_loc4`='Orgrimmar Talent Master'	-- Orgrimmar Talent Master
+	`subname_loc4`='天赋大师'	-- Talent Master
+WHERE `entry`=9580;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Thunder Bluff Talent Master'	-- Thunder Bluff Talent Master
--- 	`subname_loc4`='Talent Master'	-- Talent Master
--- WHERE `entry`=9581;
+UPDATE `locales_creature` SET
+	`name_loc4`='Thunder Bluff Talent Master'	-- Thunder Bluff Talent Master
+	`subname_loc4`='天赋大师'	-- Talent Master
+WHERE `entry`=9581;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Undercity Talent Master'	-- Undercity Talent Master
--- 	`subname_loc4`='Talent Master'	-- Talent Master
--- WHERE `entry`=9582;
+UPDATE `locales_creature` SET
+	`name_loc4`='Undercity Talent Master'	-- Undercity Talent Master
+	`subname_loc4`='天赋大师'	-- Talent Master
+WHERE `entry`=9582;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='血斧精兵'	-- Bloodaxe Veteran
@@ -28936,7 +28936,7 @@ WHERE `entry`=9583;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='嘉莱恩·艾罗'	-- Jalane Ayrole
-	`subname_loc4`='裁缝训练师'	-- Master Shadoweave Tailor
+	`subname_loc4`='大师级暗纹裁缝'	-- Master Shadoweave Tailor
 WHERE `entry`=9584;
 
 UPDATE `locales_creature` SET
@@ -28949,7 +28949,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=9598;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='艾雷'	-- Arei Transformed
+	`name_loc4`='变形后的艾雷'	-- Arei Transformed
 WHERE `entry`=9599;
 
 UPDATE `locales_creature` SET
@@ -29014,11 +29014,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=9637;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='炸弹宠物'	-- Tiny Walking Bomb
+	`name_loc4`='步行炸弹'	-- Tiny Walking Bomb
 WHERE `entry`=9656;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='发条娃娃'	-- Lil' Smoky
+	`name_loc4`='发条机器人'	-- Lil' Smoky
 WHERE `entry`=9657;
 
 -- UPDATE `locales_creature` SET
@@ -29141,17 +29141,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='黑石塔蝎子'	-- Spire Scorpid
 WHERE `entry`=9701;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Grurk'	-- Grurk
--- WHERE `entry`=9702;
+UPDATE `locales_creature` SET
+	`name_loc4`='格鲁尔克'	-- Grurk
+WHERE `entry`=9702;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Il''thurk'	-- Il'thurk
--- WHERE `entry`=9703;
+UPDATE `locales_creature` SET
+	`name_loc4`='伊尔苏克'	-- Il'thurk
+WHERE `entry`=9703;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lumurk'	-- Lumurk
--- WHERE `entry`=9704;
+UPDATE `locales_creature` SET
+	`name_loc4`='拉穆尔克'	-- Lumurk
+WHERE `entry`=9704;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='睡梦守卫的幻象'	-- Illusionary Dreamwatcher
@@ -29236,9 +29236,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='玛瑟迪斯·火芒'	-- Mathredis Firestar
 WHERE `entry`=9836;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lithilia'	-- Lithilia
--- WHERE `entry`=9837;
+UPDATE `locales_creature` SET
+	`name_loc4`='利希莉亚'	-- Lithilia
+WHERE `entry`=9837;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='拍卖师格里夫'	-- Auctioneer Grimful
@@ -29284,10 +29284,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='热能恐兽'	-- Entropic Horror
 WHERE `entry`=9879;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='World Stable Master'	-- World Stable Master
--- 	`subname_loc4`='Stable Master'	-- Stable Master
--- WHERE `entry`=9896;
+UPDATE `locales_creature` SET
+	`name_loc4`='World Stable Master'	-- World Stable Master
+	`subname_loc4`='兽栏管理员'	-- Stable Master
+WHERE `entry`=9896;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='加奎亚'	-- Jarquia
@@ -29571,9 +29571,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='狂爪火鳞龙人'	-- Rage Talon Flamescale
 WHERE `entry`=10083;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rage Talon Whelp'	-- Rage Talon Whelp
--- WHERE `entry`=10084;
+UPDATE `locales_creature` SET
+	`name_loc4`='狂爪雏龙'	-- Rage Talon Whelp
+WHERE `entry`=10084;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='贾琳希亚'	-- Jaelysia
@@ -29582,22 +29582,22 @@ WHERE `entry`=10085;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='赫苏瓦·雷角'	-- Hesuwa Thunderhorn
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=10086;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='肖祖'	-- Xao'tsu
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=10088;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='西尔瓦莉雅'	-- Silvaria
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=10089;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='贝莉亚·雷岩'	-- Belia Thundergranite
-	`subname_loc4`='兽栏管理员'	-- Pet Trainer
+	`subname_loc4`='宠物训练师'	-- Pet Trainer
 WHERE `entry`=10090;
 
 UPDATE `locales_creature` SET
@@ -29668,15 +29668,15 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10177;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='荧光机械陆行鸟'	-- Riding MechaStrider (Flourescent Green)
+	`name_loc4`='骑乘用机械陆行鸟（粉绿色）'	-- Riding MechaStrider (Flourescent Green)
 WHERE `entry`=10178;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='白色机械陆行鸟B型'	-- Riding MechaStrider (Black)
+	`name_loc4`='骑乘用机械陆行鸟（黑色）'	-- Riding MechaStrider (Black)
 WHERE `entry`=10179;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='未涂色的机械陆行鸟'	-- Riding MechaStrider (Steel)
+	`name_loc4`='骑乘用机械陆行鸟（青灰色）'	-- Riding MechaStrider (Steel)
 WHERE `entry`=10180;
 
 UPDATE `locales_creature` SET
@@ -29725,12 +29725,12 @@ UPDATE `locales_creature` SET
 	`name_loc4`='埃苏罗斯'	-- Azurous
 WHERE `entry`=10202;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Berylgos'	-- Berylgos
--- WHERE `entry`=10203;
+UPDATE `locales_creature` SET
+	`name_loc4`='伯里苟斯'	-- Berylgos
+WHERE `entry`=10203;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='米莎'	-- Misha
+	`name_loc4`='米沙'	-- Misha
 WHERE `entry`=10204;
 
 UPDATE `locales_creature` SET
@@ -29757,21 +29757,21 @@ UPDATE `locales_creature` SET
 	`name_loc4`='血斧座狼幼崽'	-- Bloodaxe Worg Pup
 WHERE `entry`=10221;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Wep'	-- Wep
--- WHERE `entry`=10236;
+UPDATE `locales_creature` SET
+	`name_loc4`='维普'	-- Wep
+WHERE `entry`=10236;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Yor'	-- Yor
--- WHERE `entry`=10237;
+UPDATE `locales_creature` SET
+	`name_loc4`='犹尔'	-- Yor
+WHERE `entry`=10237;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Staggon'	-- Staggon
--- WHERE `entry`=10238;
+UPDATE `locales_creature` SET
+	`name_loc4`='斯塔贡'	-- Staggon
+WHERE `entry`=10238;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tepolar'	-- Tepolar
--- WHERE `entry`=10239;
+UPDATE `locales_creature` SET
+	`name_loc4`='泰伯拉'	-- Tepolar
+WHERE `entry`=10239;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] World Weapon Master Trainer'	-- [UNUSED] World Weapon Master Trainer
@@ -29816,7 +29816,7 @@ WHERE `entry`=10264;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='乌格索克'	-- Ug'thok
-	`subname_loc4`='锻造训练师'	-- Journeyman Blacksmith
+	`subname_loc4`='初级铁匠'	-- Journeyman Blacksmith
 WHERE `entry`=10266;
 
 UPDATE `locales_creature` SET
@@ -29829,64 +29829,64 @@ WHERE `entry`=10268;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='洛特加斯·石须'	-- Rotgath Stonebeard
-	`subname_loc4`='初级铁匠'	-- Expert Blacksmith
+	`subname_loc4`='中级铁匠'	-- Expert Blacksmith
 WHERE `entry`=10276;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格鲁姆·石须'	-- Groum Stonebeard
-	`subname_loc4`='锻造训练师'	-- Journeyman Blacksmith
+	`subname_loc4`='初级铁匠'	-- Journeyman Blacksmith
 WHERE `entry`=10277;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瑟拉格·石蹄'	-- Thrag Stonehoof
-	`subname_loc4`='锻造训练师'	-- Journeyman Blacksmith
+	`subname_loc4`='初级铁匠'	-- Journeyman Blacksmith
 WHERE `entry`=10278;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='被捕获的费伍德软泥怪'	-- Captured Felwood Ooze
 WHERE `entry`=10290;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Krysteea'	-- Krysteea
--- 	`subname_loc4`='Warrior Trainer'	-- Warrior Trainer
--- WHERE `entry`=10291;
+UPDATE `locales_creature` SET
+	`name_loc4`='克莱蒂亚'	-- Krysteea
+	`subname_loc4`='战士训练师'	-- Warrior Trainer
+WHERE `entry`=10291;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rombulus Frostmoon'	-- Rombulus Frostmoon
--- 	`subname_loc4`='Dagger Trainer'	-- Dagger Trainer
--- WHERE `entry`=10292;
+UPDATE `locales_creature` SET
+	`name_loc4`='鲁布洛斯·霜月'	-- Rombulus Frostmoon
+	`subname_loc4`='匕首训练师'	-- Dagger Trainer
+WHERE `entry`=10292;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='杜希雅·霜月'	-- Dulciea Frostmoon
 	`subname_loc4`='布甲商'	-- Cloth Armor Merchant
 WHERE `entry`=10293;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Malakar Frostmoon'	-- Malakar Frostmoon
--- 	`subname_loc4`='Fist Weapons Trainer'	-- Fist Weapons Trainer
--- WHERE `entry`=10294;
-
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jennail Mooncaller'	-- Jennail Mooncaller
--- 	`subname_loc4`='Staves Trainer'	-- Staves Trainer
--- WHERE `entry`=10295;
+UPDATE `locales_creature` SET
+	`name_loc4`='玛拉卡·霜月'	-- Malakar Frostmoon
+	`subname_loc4`='拳套训练师'	-- Fist Weapons Trainer
+WHERE `entry`=10294;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='阿克莱德'	-- Vaelan
+	`name_loc4`='耶奈尔·唤月'	-- Jennail Mooncaller
+	`subname_loc4`='法杖训练师'	-- Staves Trainer
+WHERE `entry`=10295;
+
+UPDATE `locales_creature` SET
+	`name_loc4`='维埃兰'	-- Vaelan
 WHERE `entry`=10296;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gerratys Nightrunner'	-- Gerratys Nightrunner
--- 	`subname_loc4`='Bow Trainer'	-- Bow Trainer
--- WHERE `entry`=10297;
-
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Traelion Shadewhisper'	-- Traelion Shadewhisper
--- 	`subname_loc4`='Thrown Weapons Trainer'	-- Thrown Weapons Trainer
--- WHERE `entry`=10298;
+UPDATE `locales_creature` SET
+	`name_loc4`='盖拉提斯·夜行者'	-- Gerratys Nightrunner
+	`subname_loc4`='弓箭训练师'	-- Bow Trainer
+WHERE `entry`=10297;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='阿克莱德'	-- Scarshield Infiltrator
+	`name_loc4`='特莱利·影语'	-- Traelion Shadewhisper
+	`subname_loc4`='投掷武器训练师'	-- Thrown Weapons Trainer
+WHERE `entry`=10298;
+
+UPDATE `locales_creature` SET
+	`name_loc4`='裂盾渗透者'	-- Scarshield Infiltrator
 	`subname_loc4`='裂盾军团'	-- Scarshield Legion
 WHERE `entry`=10299;
 
@@ -29895,7 +29895,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10300;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='加隆·塑石者'	-- Jaron Stoneshaper
+	`name_loc4`='加隆·石矛'	-- Jaron Stoneshaper
 	`subname_loc4`='探险者协会'	-- Explorers' League
 WHERE `entry`=10301;
 
@@ -30013,7 +30013,7 @@ WHERE `entry`=10363;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='雅里卡·长爪'	-- Yaelika Farclaw
-	`subname_loc4`='材料与毒药商'	-- Reagents & Poisons
+	`subname_loc4`='毒药与材料商'	-- Reagents & Poisons
 WHERE `entry`=10364;
 
 -- UPDATE `locales_creature` SET
@@ -30027,7 +30027,7 @@ WHERE `entry`=10366;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='沙耶·怒拳'	-- Shrye Ragefist
-	`subname_loc4`='餐饮供应商'	-- Food and Drink
+	`subname_loc4`='食物与饮料'	-- Food and Drink
 WHERE `entry`=10367;
 
 -- UPDATE `locales_creature` SET
@@ -30079,7 +30079,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10378;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='奥索巴·暴怒图腾'	-- Altsoba Ragetotem
+	`name_loc4`='奥索巴·狂怒图腾'	-- Altsoba Ragetotem
 	`subname_loc4`='武器商'	-- Weapon Merchant
 WHERE `entry`=10379;
 
@@ -30136,13 +30136,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='黑衣守卫斥候'	-- Black Guard Sentry
 WHERE `entry`=10394;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Black Guard Warrior'	-- Black Guard Warrior
--- WHERE `entry`=10395;
+UPDATE `locales_creature` SET
+	`name_loc4`='黑衣守卫战士'	-- Black Guard Warrior
+WHERE `entry`=10395;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Black Guard Executioner'	-- Black Guard Executioner
--- WHERE `entry`=10397;
+UPDATE `locales_creature` SET
+	`name_loc4`='黑衣守卫刽子手'	-- Black Guard Executioner
+WHERE `entry`=10397;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='图萨丁暗影法师'	-- Thuzadin Shadowcaster
@@ -30221,43 +30221,43 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10417;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的卫兵'	-- Crimson Guardsman
+	`name_loc4`='红衣卫兵'	-- Crimson Guardsman
 WHERE `entry`=10418;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的魔术师'	-- Crimson Conjuror
+	`name_loc4`='红衣魔术师'	-- Crimson Conjuror
 WHERE `entry`=10419;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的新兵'	-- Crimson Initiate
+	`name_loc4`='红衣新兵'	-- Crimson Initiate
 WHERE `entry`=10420;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的防御者'	-- Crimson Defender
+	`name_loc4`='红衣防御者'	-- Crimson Defender
 WHERE `entry`=10421;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的法术师'	-- Crimson Sorcerer
+	`name_loc4`='红衣法术师'	-- Crimson Sorcerer
 WHERE `entry`=10422;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的牧师'	-- Crimson Priest
+	`name_loc4`='红衣牧师'	-- Crimson Priest
 WHERE `entry`=10423;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的豪侠'	-- Crimson Gallant
+	`name_loc4`='红衣豪侠'	-- Crimson Gallant
 WHERE `entry`=10424;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的战斗法师'	-- Crimson Battle Mage
+	`name_loc4`='红衣战斗法师'	-- Crimson Battle Mage
 WHERE `entry`=10425;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的审查者'	-- Crimson Inquisitor
+	`name_loc4`='红衣审查者'	-- Crimson Inquisitor
 WHERE `entry`=10426;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='帕奥卡·迅山'	-- Pao'ka Swiftmountain
+	`name_loc4`='波卡·雨山'	-- Pao'ka Swiftmountain
 WHERE `entry`=10427;
 
 UPDATE `locales_creature` SET
@@ -30310,7 +30310,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10440;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾鼠'	-- Plagued Rat
+	`name_loc4`='瘟疫鼠'	-- Plagued Rat
 WHERE `entry`=10441;
 
 UPDATE `locales_creature` SET
@@ -30346,35 +30346,35 @@ WHERE `entry`=10447;
 -- 	`subname_loc4`='Sword Trainer'	-- Sword Trainer
 -- WHERE `entry`=10448;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Emily Vaccar'	-- Emily Vaccar
--- 	`subname_loc4`='Polearm Trainer'	-- Polearm Trainer
--- WHERE `entry`=10449;
+UPDATE `locales_creature` SET
+	`name_loc4`='艾米莉·维卡'	-- Emily Vaccar
+	`subname_loc4`='长柄武器训练师'	-- Polearm Trainer
+WHERE `entry`=10449;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Paul Burges'	-- [UNUSED] Paul Burges
 -- 	`subname_loc4`='Crossbow Trainer'	-- Crossbow Trainer
 -- WHERE `entry`=10450;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Sarah Arello'	-- Sarah Arello
--- 	`subname_loc4`='Staves Trainer'	-- Staves Trainer
--- WHERE `entry`=10451;
+UPDATE `locales_creature` SET
+	`name_loc4`='萨拉·埃雷罗'	-- Sarah Arello
+	`subname_loc4`='法杖训练师'	-- Staves Trainer
+WHERE `entry`=10451;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Farbrahm Steelfist'	-- Farbrahm Steelfist
--- 	`subname_loc4`='Mace Trainer'	-- Mace Trainer
--- WHERE `entry`=10452;
+UPDATE `locales_creature` SET
+	`name_loc4`='法布拉姆·钢拳'	-- Farbrahm Steelfist
+	`subname_loc4`='锤训练师'	-- Mace Trainer
+WHERE `entry`=10452;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Grimbur Flintaxe'	-- Grimbur Flintaxe
--- 	`subname_loc4`='Axe Trainer'	-- Axe Trainer
--- WHERE `entry`=10453;
+UPDATE `locales_creature` SET
+	`name_loc4`='格雷布·火斧'	-- Grimbur Flintaxe
+	`subname_loc4`='斧训练师'	-- Axe Trainer
+WHERE `entry`=10453;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Filliwick Featherfizz'	-- Filliwick Featherfizz
--- 	`subname_loc4`='Crossbow Trainer'	-- Crossbow Trainer
--- WHERE `entry`=10454;
+UPDATE `locales_creature` SET
+	`name_loc4`='费利维克'	-- Filliwick Featherfizz
+	`subname_loc4`='弩训练师'	-- Crossbow Trainer
+WHERE `entry`=10454;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='宾尼·冰刃'	-- Binny Springblade
@@ -30393,7 +30393,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10460;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾虫'	-- Plagued Insect
+	`name_loc4`='瘟疫虫'	-- Plagued Insect
 WHERE `entry`=10461;
 
 UPDATE `locales_creature` SET
@@ -30404,10 +30404,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='哀嚎的女妖'	-- Wailing Banshee
 WHERE `entry`=10464;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Styleen Silvercart'	-- Styleen Silvercart
--- 	`subname_loc4`='Exotic Item Vendor'	-- Exotic Item Vendor
--- WHERE `entry`=10466;
+UPDATE `locales_creature` SET
+	`name_loc4`='斯泰林·希沃卡特'	-- Styleen Silvercart
+	`subname_loc4`='特殊货物商人'	-- Exotic Item Vendor
+WHERE `entry`=10466;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='法力之潮图腾'	-- Mana Tide Totem
@@ -30422,7 +30422,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10469;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='通灵学院新生'	-- Scholomance Neophyte
+	`name_loc4`='通灵学院新学徒'	-- Scholomance Neophyte
 WHERE `entry`=10470;
 
 UPDATE `locales_creature` SET
@@ -30433,9 +30433,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='通灵学院神秘学者'	-- Scholomance Occultist
 WHERE `entry`=10472;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Scholomance Shadowcaster'	-- Scholomance Shadowcaster
--- WHERE `entry`=10473;
+UPDATE `locales_creature` SET
+	`name_loc4`='通灵学院暗影法师'	-- Scholomance Shadowcaster
+WHERE `entry`=10473;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='通灵学院学员'	-- Scholomance Student
@@ -30469,13 +30469,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='复活的侍从'	-- Risen Lackey
 WHERE `entry`=10482;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Risen Flayer'	-- Risen Flayer
--- WHERE `entry`=10483;
+UPDATE `locales_creature` SET
+	`name_loc4`='复活的抢劫者'	-- Risen Flayer
+WHERE `entry`=10483;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Risen Terror'	-- Risen Terror
--- WHERE `entry`=10484;
+UPDATE `locales_creature` SET
+	`name_loc4`='复活的恐惧骷髅'	-- Risen Terror
+WHERE `entry`=10484;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='复活的畸形骷髅'	-- Risen Aberration
@@ -30501,17 +30501,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='复活的骷髅守卫'	-- Risen Bonewarder
 WHERE `entry`=10491;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Risen Shadowmage'	-- Risen Shadowmage
--- WHERE `entry`=10492;
+UPDATE `locales_creature` SET
+	`name_loc4`='复活的暗影法师'	-- Risen Shadowmage
+WHERE `entry`=10492;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Risen Sorcerer'	-- Risen Sorcerer
--- WHERE `entry`=10493;
+UPDATE `locales_creature` SET
+	`name_loc4`='复活的巫师'	-- Risen Sorcerer
+WHERE `entry`=10493;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Decrepit Ghoul'	-- Decrepit Ghoul
--- WHERE `entry`=10494;
+UPDATE `locales_creature` SET
+	`name_loc4`='衰老的食尸鬼'	-- Decrepit Ghoul
+WHERE `entry`=10494;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='生病的食尸鬼'	-- Diseased Ghoul
@@ -30542,7 +30542,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10503;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='阿雷克斯·巴罗夫领主'	-- Lord Alexei Barov
+	`name_loc4`='阿雷克斯·巴罗夫'	-- Lord Alexei Barov
 WHERE `entry`=10504;
 
 UPDATE `locales_creature` SET
@@ -30566,16 +30566,16 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='黑手军团'	-- Blackhand Legion
 WHERE `entry`=10509;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Plagued Slime'	-- Plagued Slime
--- WHERE `entry`=10510;
+UPDATE `locales_creature` SET
+	`name_loc4`='瘟疫软泥怪'	-- Plagued Slime
+WHERE `entry`=10510;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='不可宽恕者'	-- The Unforgiven
 WHERE `entry`=10516;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾蛆'	-- Plagued Maggot
+	`name_loc4`='瘟疫蛆'	-- Plagued Maggot
 WHERE `entry`=10536;
 
 UPDATE `locales_creature` SET
@@ -30620,7 +30620,7 @@ WHERE `entry`=10577;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='波贝'	-- Bom'bay
-	`subname_loc4`='见习巫医'	-- Witch Doctor in Training
+	`subname_loc4`='训练中的巫医'	-- Witch Doctor in Training
 WHERE `entry`=10578;
 
 UPDATE `locales_creature` SET
@@ -30682,7 +30682,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10604;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='血色医者'	-- Scarlet Medic
+	`name_loc4`='血色医护员'	-- Scarlet Medic
 WHERE `entry`=10605;
 
 UPDATE `locales_creature` SET
@@ -30824,7 +30824,7 @@ WHERE `entry`=10664;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='初级药剂师霍兰德'	-- Junior Apothecary Holland
-	`subname_loc4`='皇家药剂师协会'	-- Royal Apothecary Society
+	`subname_loc4`='皇家药剂师学会'	-- Royal Apothecary Society
 WHERE `entry`=10665;
 
 UPDATE `locales_creature` SET
@@ -30844,7 +30844,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10676;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾龙崽'	-- Plagued Hatchling
+	`name_loc4`='瘟疫龙崽'	-- Plagued Hatchling
 WHERE `entry`=10678;
 
 UPDATE `locales_creature` SET
@@ -31133,24 +31133,24 @@ UPDATE `locales_creature` SET
 	`name_loc4`='杜甘·蛮锤'	-- Duggan Wildhammer
 WHERE `entry`=10817;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Death Knight Soulbearer'	-- Death Knight Soulbearer
--- WHERE `entry`=10818;
+UPDATE `locales_creature` SET
+	`name_loc4`='死亡骑士索比莱尔'	-- Death Knight Soulbearer
+WHERE `entry`=10818;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Baron Bloodbane'	-- Baron Bloodbane
--- WHERE `entry`=10819;
+UPDATE `locales_creature` SET
+	`name_loc4`='布拉德贝恩男爵'	-- Baron Bloodbane
+WHERE `entry`=10819;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Duke Ragereaver'	-- Duke Ragereaver
--- WHERE `entry`=10820;
+UPDATE `locales_creature` SET
+	`name_loc4`='瑞格雷沃公爵'	-- Duke Ragereaver
+WHERE `entry`=10820;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='腐烂者海德姆什'	-- Hed'mush the Rotting
 WHERE `entry`=10821;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='督军塔雷金'	-- Warlord Thresh'jin
+	`name_loc4`='塔雷什森'	-- Warlord Thresh'jin
 WHERE `entry`=10822;
 
 UPDATE `locales_creature` SET
@@ -31158,7 +31158,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10823;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='死亡猎人霍克斯比尔'	-- Ranger Lord Hawkspear
+	`name_loc4`='游侠之王霍克斯比尔'	-- Ranger Lord Hawkspear
 WHERE `entry`=10824;
 
 UPDATE `locales_creature` SET
@@ -31175,7 +31175,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10827;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='莉尼亚·阿比迪斯'	-- High General Abbendis
+	`name_loc4`='阿比迪斯将军'	-- High General Abbendis
 WHERE `entry`=10828;
 
 UPDATE `locales_creature` SET
@@ -31248,10 +31248,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='角鹰兽管理员'	-- Hippogryph Master
 WHERE `entry`=10897;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blackhand Armorsmith'	-- Blackhand Armorsmith
--- 	`subname_loc4`='Blackhand Legion'	-- Blackhand Legion
--- WHERE `entry`=10898;
+UPDATE `locales_creature` SET
+	`name_loc4`='黑手铸甲师'	-- Blackhand Armorsmith
+	`subname_loc4`='黑手军团'	-- Blackhand Legion
+WHERE `entry`=10898;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='古拉鲁克'	-- Goraluk Anvilcrack
@@ -31464,9 +31464,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='冰斧狂战士'	-- Winterax Berserker
 WHERE `entry`=10984;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ice Giant'	-- Ice Giant
--- WHERE `entry`=10985;
+UPDATE `locales_creature` SET
+	`name_loc4`='冰巨人'	-- Ice Giant
+WHERE `entry`=10985;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='雪盲鹰身人'	-- Snowblind Harpy
@@ -31480,9 +31480,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='科多之魂'	-- Kodo Spirit
 WHERE `entry`=10988;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blizzard Elemental'	-- Blizzard Elemental
--- WHERE `entry`=10989;
+UPDATE `locales_creature` SET
+	`name_loc4`='暴风雪元素'	-- Blizzard Elemental
+WHERE `entry`=10989;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥特兰克山羊'	-- Alterac Ram
@@ -31498,7 +31498,7 @@ WHERE `entry`=10992;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='图兹维克·斯普格林'	-- Twizwick Sprocketgrind
-	`subname_loc4`='工程学训练师'	-- Journeyman Engineer
+	`subname_loc4`='初级技师'	-- Journeyman Engineer
 WHERE `entry`=10993;
 
 UPDATE `locales_creature` SET
@@ -31506,7 +31506,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=10996;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='希望破坏者威利'	-- Cannon Master Willey
+	`name_loc4`='炮手威利'	-- Cannon Master Willey
 WHERE `entry`=10997;
 
 UPDATE `locales_creature` SET
@@ -31515,7 +31515,7 @@ WHERE `entry`=11016;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='罗克希克'	-- Roxxik
-	`subname_loc4`='工程学训练师'	-- Artisan Engineer
+	`subname_loc4`='高级技师'	-- Artisan Engineer
 WHERE `entry`=11017;
 
 UPDATE `locales_creature` SET
@@ -31551,12 +31551,12 @@ WHERE `entry`=11024;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='穆德拉克'	-- Mukdrak
-	`subname_loc4`='工程学训练师'	-- Journeyman Engineer
+	`subname_loc4`='初级技师'	-- Journeyman Engineer
 WHERE `entry`=11025;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯普莱特'	-- Sprite Jumpsprocket
-	`subname_loc4`='工程学训练师'	-- Journeyman Engineer
+	`subname_loc4`='初级技师'	-- Journeyman Engineer
 WHERE `entry`=11026;
 
 UPDATE `locales_creature` SET
@@ -31565,12 +31565,12 @@ WHERE `entry`=11027;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='耶玛'	-- Jemma Quikswitch
-	`subname_loc4`='工程学训练师'	-- Journeyman Engineer
+	`subname_loc4`='初级技师'	-- Journeyman Engineer
 WHERE `entry`=11028;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='特里克希'	-- Trixie Quikswitch
-	`subname_loc4`='工程学训练师'	-- Expert Engineer
+	`subname_loc4`='中级技师'	-- Expert Engineer
 WHERE `entry`=11029;
 
 UPDATE `locales_creature` SET
@@ -31579,11 +31579,11 @@ WHERE `entry`=11030;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='弗兰克林·洛伊德'	-- Franklin Lloyd
-	`subname_loc4`='工程学训练师'	-- Expert Engineer
+	`subname_loc4`='中级技师'	-- Expert Engineer
 WHERE `entry`=11031;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='指挥官玛洛尔'	-- Malor the Zealous
+	`name_loc4`='狂热的玛洛尔'	-- Malor the Zealous
 WHERE `entry`=11032;
 
 UPDATE `locales_creature` SET
@@ -31607,7 +31607,7 @@ WHERE `entry`=11036;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='洁娜·雷姆尼利'	-- Jenna Lemkenilli
-	`subname_loc4`='工程学训练师'	-- Journeyman Engineer
+	`subname_loc4`='初级技师'	-- Journeyman Engineer
 WHERE `entry`=11037;
 
 UPDATE `locales_creature` SET
@@ -31627,60 +31627,60 @@ WHERE `entry`=11040;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='米拉·法拉科纳'	-- Milla Fairancora
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist
+	`subname_loc4`='初级炼金师'	-- Journeyman Alchemist
 WHERE `entry`=11041;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='希尔瓦娜·林月'	-- Sylvanna Forestmoon
-	`subname_loc4`='炼金术训练师'	-- Expert Alchemist
+	`subname_loc4`='中级炼金师'	-- Expert Alchemist
 WHERE `entry`=11042;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的僧侣'	-- Crimson Monk
+	`name_loc4`='红衣僧侣'	-- Crimson Monk
 WHERE `entry`=11043;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='马丁·费尔本'	-- Doctor Martin Felben
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist Trainer
+	`subname_loc4`='初级炼金术训练师'	-- Journeyman Alchemist Trainer
 WHERE `entry`=11044;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Burns'	-- Burns
--- WHERE `entry`=11045;
+UPDATE `locales_creature` SET
+	`name_loc4`='博恩斯'	-- Burns
+WHERE `entry`=11045;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='伍特'	-- Whuut
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist
+	`subname_loc4`='初级炼金师'	-- Journeyman Alchemist
 WHERE `entry`=11046;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克瑞'	-- Kray
-	`subname_loc4`='炼金术训练师'	-- Journeyman Alchemist
+	`subname_loc4`='初级炼金师'	-- Journeyman Alchemist
 WHERE `entry`=11047;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='维克多·瓦德'	-- Victor Ward
-	`subname_loc4`='裁缝训练师'	-- Journeyman Tailor
+	`subname_loc4`='初级裁缝'	-- Journeyman Tailor
 WHERE `entry`=11048;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='雷安诺·戴维斯'	-- Rhiannon Davis
-	`subname_loc4`='裁缝训练师'	-- Expert Tailor
+	`subname_loc4`='中级裁缝'	-- Expert Tailor
 WHERE `entry`=11049;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='蒂安娜'	-- Trianna
-	`subname_loc4`='裁缝训练师'	-- Journeyman Tailor
+	`subname_loc4`='初级裁缝'	-- Journeyman Tailor
 WHERE `entry`=11050;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='范恩'	-- Vhan
-	`subname_loc4`='裁缝训练师'	-- Journeyman Tailor
+	`subname_loc4`='初级裁缝'	-- Journeyman Tailor
 WHERE `entry`=11051;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='提莫斯·沃森特'	-- Timothy Worthington
-	`subname_loc4`='裁缝训练师'	-- Master Tailor
+	`subname_loc4`='大师级裁缝'	-- Master Tailor
 WHERE `entry`=11052;
 
 UPDATE `locales_creature` SET
@@ -31688,7 +31688,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11053;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的火枪手'	-- Crimson Rifleman
+	`name_loc4`='红衣火枪手'	-- Crimson Rifleman
 WHERE `entry`=11054;
 
 UPDATE `locales_creature` SET
@@ -31718,22 +31718,22 @@ WHERE `entry`=11064;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='索恩斯·火石'	-- Thonys Pillarstone
-	`subname_loc4`='附魔训练师'	-- Journeyman Enchanter
+	`subname_loc4`='初级附魔师'	-- Journeyman Enchanter
 WHERE `entry`=11065;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='夏格'	-- Jhag
-	`subname_loc4`='附魔训练师'	-- Journeyman Enchanter
+	`subname_loc4`='初级附魔师'	-- Journeyman Enchanter
 WHERE `entry`=11066;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='玛考布·维恩'	-- Malcomb Wynn
-	`subname_loc4`='附魔训练师'	-- Journeyman Enchanter
+	`subname_loc4`='初级附魔师'	-- Journeyman Enchanter
 WHERE `entry`=11067;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='贝蒂·奎恩'	-- Betty Quin
-	`subname_loc4`='附魔训练师'	-- Journeyman Enchanter
+	`subname_loc4`='初级附魔师'	-- Journeyman Enchanter
 WHERE `entry`=11068;
 
 UPDATE `locales_creature` SET
@@ -31743,27 +31743,27 @@ WHERE `entry`=11069;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='拉琳娜·夏月'	-- Lalina Summermoon
-	`subname_loc4`='附魔训练师'	-- Journeyman Enchanter
+	`subname_loc4`='初级附魔师'	-- Journeyman Enchanter
 WHERE `entry`=11070;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='莫特·晨行者'	-- Mot Dawnstrider
-	`subname_loc4`='附魔训练师'	-- Journeyman Enchanter
+	`subname_loc4`='初级附魔师'	-- Journeyman Enchanter
 WHERE `entry`=11071;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='基塔·费温德'	-- Kitta Firewind
-	`subname_loc4`='附魔训练师'	-- Artisan Enchanter
+	`subname_loc4`='高级附魔师'	-- Artisan Enchanter
 WHERE `entry`=11072;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='安诺拉'	-- Annora
-	`subname_loc4`='附魔训练师'	-- Master Enchanter
+	`subname_loc4`='大师级附魔师'	-- Master Enchanter
 WHERE `entry`=11073;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='赫加斯'	-- Hgarth
-	`subname_loc4`='附魔训练师'	-- Artisan Enchanter
+	`subname_loc4`='高级附魔师'	-- Artisan Enchanter
 WHERE `entry`=11074;
 
 UPDATE `locales_creature` SET
@@ -31792,7 +31792,7 @@ WHERE `entry`=11079;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='法多恩'	-- Faldron
-	`subname_loc4`='制皮训练师'	-- Expert Leatherworker
+	`subname_loc4`='中级制皮师'	-- Expert Leatherworker
 WHERE `entry`=11081;
 
 UPDATE `locales_creature` SET
@@ -31806,7 +31806,7 @@ WHERE `entry`=11083;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塔恩'	-- Tarn
-	`subname_loc4`='制皮训练师'	-- Expert Leatherworker
+	`subname_loc4`='中级制皮师'	-- Expert Leatherworker
 WHERE `entry`=11084;
 
 UPDATE `locales_creature` SET
@@ -31816,12 +31816,12 @@ WHERE `entry`=11096;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='德拉克·石拳'	-- Drakk Stonehand
-	`subname_loc4`='制皮训练师'	-- Master Leatherworking Trainer
+	`subname_loc4`='大师级制皮训练师'	-- Master Leatherworking Trainer
 WHERE `entry`=11097;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='哈拉纳·铁皮'	-- Hahrana Ironhide
-	`subname_loc4`='制皮训练师'	-- Master Leatherworker
+	`subname_loc4`='大师级制皮者'	-- Master Leatherworker
 WHERE `entry`=11098;
 
 UPDATE `locales_creature` SET
@@ -31883,7 +31883,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11119;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复生的铸锤师'	-- Crimson Hammersmith
+	`name_loc4`='红衣铸锤师'	-- Crimson Hammersmith
 WHERE `entry`=11120;
 
 UPDATE `locales_creature` SET
@@ -31929,9 +31929,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='邮差马龙'	-- Postmaster Malown
 WHERE `entry`=11143;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Oracle Sphere'	-- Oracle Sphere
--- WHERE `entry`=11144;
+UPDATE `locales_creature` SET
+	`name_loc4`='预言之球'	-- Oracle Sphere
+WHERE `entry`=11144;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='米洛尔·怒斩'	-- Myolor Sunderfury
@@ -31939,7 +31939,7 @@ WHERE `entry`=11145;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='埃隆努斯·冷钢'	-- Ironus Coldsteel
-	`subname_loc4`='武器铸造大师'	-- Special Weapon Crafter
+	`subname_loc4`='特殊武器商'	-- Special Weapon Crafter
 WHERE `entry`=11146;
 
 UPDATE `locales_creature` SET
@@ -31979,7 +31979,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11155;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='绿色骸骨军马'	-- Green Skeletal Warhorse
+	`name_loc4`='绿色骷髅战马'	-- Green Skeletal Warhorse
 WHERE `entry`=11156;
 
 UPDATE `locales_creature` SET
@@ -31988,12 +31988,12 @@ WHERE `entry`=11176;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥克索斯·铁怒'	-- Okothos Ironrager
-	`subname_loc4`='锻造训练师'	-- Armorsmith
+	`subname_loc4`='护甲锻造师'	-- Armorsmith
 WHERE `entry`=11177;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='伯古什'	-- Borgosh Corebender
-	`subname_loc4`='武器铸造大师'	-- Weaponsmith
+	`subname_loc4`='武器锻造师'	-- Weaponsmith
 WHERE `entry`=11178;
 
 UPDATE `locales_creature` SET
@@ -32046,7 +32046,7 @@ WHERE `entry`=11188;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='琦亚'	-- Qia
-	`subname_loc4`='贸易供应商'	-- Trade Goods Supplies
+	`subname_loc4`='商人'	-- Trade Goods Supplies
 WHERE `entry`=11189;
 
 UPDATE `locales_creature` SET
@@ -32071,7 +32071,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11194;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='死亡战马'	-- Skeletal Black Warhorse
+	`name_loc4`='黑色骸骨战马'	-- Skeletal Black Warhorse
 WHERE `entry`=11195;
 
 UPDATE `locales_creature` SET
@@ -32083,7 +32083,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11197;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='破碎流放者'	-- Draenei Exile
+	`name_loc4`='德莱尼流放者'	-- Draenei Exile
 WHERE `entry`=11198;
 
 UPDATE `locales_creature` SET
@@ -32212,9 +32212,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='不死的烂苔巨魔'	-- Unliving Mossflayer
 WHERE `entry`=11291;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mossflayer Berserker'	-- Mossflayer Berserker
--- WHERE `entry`=11292;
+UPDATE `locales_creature` SET
+	`name_loc4`='烂苔狂暴者'	-- Mossflayer Berserker
+WHERE `entry`=11292;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='达隆郡恶鬼'	-- Darrowshire Poltergeist
@@ -32267,7 +32267,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11326;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='跳虫'	-- Zergling
+	`name_loc4`='跳跳虫'	-- Zergling
 WHERE `entry`=11327;
 
 UPDATE `locales_creature` SET
@@ -32442,9 +32442,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='妖术师金度'	-- Jin'do the Hexxer
 WHERE `entry`=11380;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jin'	-- Jin
--- WHERE `entry`=11381;
+UPDATE `locales_creature` SET
+	`name_loc4`='吉恩'	-- Jin
+WHERE `entry`=11381;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='血领主曼多基尔'	-- Bloodlord Mandokir
@@ -32483,7 +32483,7 @@ WHERE `entry`=11389;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='碎颅部族演讲者'	-- Skullsplitter Speaker
-	`subname_loc4`='劈颅巨魔大使'	-- Skullsplitter Troll Ambassador
+	`subname_loc4`='碎颅巨魔大使'	-- Skullsplitter Troll Ambassador
 WHERE `entry`=11390;
 
 UPDATE `locales_creature` SET
@@ -32491,63 +32491,63 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='邪枝巨魔大使'	-- Vilebranch Troll Ambassador
 WHERE `entry`=11391;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Audrey Vergara'	-- Audrey Vergara
--- WHERE `entry`=11392;
+UPDATE `locales_creature` SET
+	`name_loc4`='奥德雷·沃加拉'	-- Audrey Vergara
+WHERE `entry`=11392;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Josh Miller'	-- Josh Miller
--- WHERE `entry`=11393;
+UPDATE `locales_creature` SET
+	`name_loc4`='约什·米勒'	-- Josh Miller
+WHERE `entry`=11393;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lauren Preston'	-- Lauren Preston
--- WHERE `entry`=11394;
+UPDATE `locales_creature` SET
+	`name_loc4`='劳伦·普雷斯通'	-- Lauren Preston
+WHERE `entry`=11394;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kevin Faulder'	-- Kevin Faulder
--- WHERE `entry`=11395;
+UPDATE `locales_creature` SET
+	`name_loc4`='凯文·法德尔'	-- Kevin Faulder
+WHERE `entry`=11395;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Joelle McCarthy'	-- Joelle McCarthy
--- WHERE `entry`=11396;
+UPDATE `locales_creature` SET
+	`name_loc4`='约雷·麦卡锡'	-- Joelle McCarthy
+WHERE `entry`=11396;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='娜拉·梅德隆'	-- Nara Meideros
 	`subname_loc4`='牧师训练师'	-- Priest Trainer
 WHERE `entry`=11397;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Charisse Moonrunner'	-- Charisse Moonrunner
--- WHERE `entry`=11398;
+UPDATE `locales_creature` SET
+	`name_loc4`='卡利斯·月行者'	-- Charisse Moonrunner
+WHERE `entry`=11398;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ashlyn Vor''lair'	-- Ashlyn Vor'lair
--- WHERE `entry`=11399;
+UPDATE `locales_creature` SET
+	`name_loc4`='阿什林·沃莱尔'	-- Ashlyn Vor'lair
+WHERE `entry`=11399;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ann''rimor Falchi'	-- Ann'rimor Falchi
--- WHERE `entry`=11400;
+UPDATE `locales_creature` SET
+	`name_loc4`='安雷摩尔·法尔其'	-- Ann'rimor Falchi
+WHERE `entry`=11400;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='女祭司阿兰希雅'	-- Priestess Alathea
 	`subname_loc4`='牧师训练师'	-- Priest Trainer
 WHERE `entry`=11401;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jarvis Greenhammer'	-- Jarvis Greenhammer
--- WHERE `entry`=11402;
+UPDATE `locales_creature` SET
+	`name_loc4`='加维斯·绿锤'	-- Jarvis Greenhammer
+WHERE `entry`=11402;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Russle Hochstein'	-- Russle Hochstein
--- WHERE `entry`=11403;
+UPDATE `locales_creature` SET
+	`name_loc4`='卢瑟霍斯登'	-- Russle Hochstein
+WHERE `entry`=11403;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dillon Gregor'	-- Dillon Gregor
--- WHERE `entry`=11404;
+UPDATE `locales_creature` SET
+	`name_loc4`='迪隆·格雷戈'	-- Dillon Gregor
+WHERE `entry`=11404;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Diana Battleheart'	-- Diana Battleheart
--- WHERE `entry`=11405;
+UPDATE `locales_creature` SET
+	`name_loc4`='蒂亚娜·战心'	-- Diana Battleheart
+WHERE `entry`=11405;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='高阶牧师洛汉'	-- High Priest Rohan
@@ -32558,41 +32558,41 @@ UPDATE `locales_creature` SET
 	`name_loc4`='瓦祖恩'	-- Var'jun
 WHERE `entry`=11407;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Watna'	-- Watna
--- WHERE `entry`=11408;
+UPDATE `locales_creature` SET
+	`name_loc4`='瓦特纳'	-- Watna
+WHERE `entry`=11408;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jo''bu'	-- Jo'bu
--- WHERE `entry`=11409;
+UPDATE `locales_creature` SET
+	`name_loc4`='祖布'	-- Jo'bu
+WHERE `entry`=11409;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Shal''vol'	-- Shal'vol
--- WHERE `entry`=11410;
+UPDATE `locales_creature` SET
+	`name_loc4`='沙沃尔'	-- Shal'vol
+WHERE `entry`=11410;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Priestess Kara''van'	-- Priestess Kara'van
--- WHERE `entry`=11411;
+UPDATE `locales_creature` SET
+	`name_loc4`='卡拉范'	-- Priestess Kara'van
+WHERE `entry`=11411;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Danielle Koppen'	-- Danielle Koppen
--- WHERE `entry`=11412;
+UPDATE `locales_creature` SET
+	`name_loc4`='达妮蕾·考博恩'	-- Danielle Koppen
+WHERE `entry`=11412;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Vincent Wilfork'	-- Vincent Wilfork
--- WHERE `entry`=11413;
+UPDATE `locales_creature` SET
+	`name_loc4`='文森特·维尔弗克'	-- Vincent Wilfork
+WHERE `entry`=11413;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Nicole Tarlow'	-- Nicole Tarlow
--- WHERE `entry`=11414;
+UPDATE `locales_creature` SET
+	`name_loc4`='尼古拉·塔罗'	-- Nicole Tarlow
+WHERE `entry`=11414;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Amber Provost'	-- Amber Provost
--- WHERE `entry`=11415;
+UPDATE `locales_creature` SET
+	`name_loc4`='安波尔·普洛沃斯'	-- Amber Provost
+WHERE `entry`=11415;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Thomas Brady'	-- Thomas Brady
--- WHERE `entry`=11416;
+UPDATE `locales_creature` SET
+	`name_loc4`='托马斯·布莱迪'	-- Thomas Brady
+WHERE `entry`=11416;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='小型地狱火'	-- Minor Infernal
@@ -32742,9 +32742,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='艾德雷斯妖灵'	-- Eldreth Spectre
 WHERE `entry`=11473;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Eldreth Wraith'	-- Eldreth Wraith
--- WHERE `entry`=11474;
+UPDATE `locales_creature` SET
+	`name_loc4`='艾德雷斯鬼魂'	-- Eldreth Wraith
+WHERE `entry`=11474;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='艾德雷斯幻像'	-- Eldreth Phantasm
@@ -32762,9 +32762,9 @@ WHERE `entry`=11477;
 -- 	`name_loc4`='[UNUSED] Mana Beast'	-- [UNUSED] Mana Beast
 -- WHERE `entry`=11478;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Arcane Horror'	-- Arcane Horror
--- WHERE `entry`=11479;
+UPDATE `locales_creature` SET
+	`name_loc4`='奥术恶兽'	-- Arcane Horror
+WHERE `entry`=11479;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='奥术畸兽'	-- Arcane Aberration
@@ -32807,7 +32807,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11491;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='荒野变形者奥兹恩'	-- Alzzin the Wildshaper
+	`name_loc4`='奥兹恩'	-- Alzzin the Wildshaper
 WHERE `entry`=11492;
 
 -- UPDATE `locales_creature` SET
@@ -32831,7 +32831,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11497;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='沮丧的斯卡尔'	-- Skarr the Unbreakable
+	`name_loc4`='无敌的斯卡尔'	-- Skarr the Unbreakable
 WHERE `entry`=11498;
 
 -- UPDATE `locales_creature` SET
@@ -32928,13 +32928,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='罗哈图'	-- Loh'atu
 WHERE `entry`=11548;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Austin Burwell'	-- Austin Burwell
--- WHERE `entry`=11549;
+UPDATE `locales_creature` SET
+	`name_loc4`='奥斯汀·布维尔'	-- Austin Burwell
+WHERE `entry`=11549;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Taylor Burwell'	-- Taylor Burwell
--- WHERE `entry`=11550;
+UPDATE `locales_creature` SET
+	`name_loc4`='泰勒·布维尔'	-- Taylor Burwell
+WHERE `entry`=11550;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='通灵魔'	-- Necrofiend
@@ -33004,17 +33004,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='旋风切割者'	-- Whirlwind Shredder
 WHERE `entry`=11578;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tempest'	-- Tempest
--- WHERE `entry`=11579;
+UPDATE `locales_creature` SET
+	`name_loc4`='泰匹斯特'	-- Tempest
+WHERE `entry`=11579;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kelemis the Lifeless'	-- Kelemis the Lifeless
--- WHERE `entry`=11580;
+UPDATE `locales_creature` SET
+	`name_loc4`='无命者克里米斯'	-- Kelemis the Lifeless
+WHERE `entry`=11580;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Scarlet Assassin'	-- Scarlet Assassin
--- WHERE `entry`=11581;
+UPDATE `locales_creature` SET
+	`name_loc4`='血色刺客'	-- Scarlet Assassin
+WHERE `entry`=11581;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='通灵学院黑暗召唤师'	-- Scholomance Dark Summoner
@@ -33064,9 +33064,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='白须监工'	-- Whitewhisker Overseer
 WHERE `entry`=11605;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Whitewhisker Tunnel Rat'	-- Whitewhisker Tunnel Rat
--- WHERE `entry`=11606;
+UPDATE `locales_creature` SET
+	`name_loc4`='白须坑道鼠'	-- Whitewhisker Tunnel Rat
+WHERE `entry`=11606;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巴尔度·锐眼'	-- Bardu Sharpeye
@@ -33100,17 +33100,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='纳萨尼尔·杜马'	-- Nathaniel Dumah
 WHERE `entry`=11616;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Digger "The Wrench" Veriatus'	-- Digger "The Wrench" Veriatus
--- WHERE `entry`=11617;
+UPDATE `locales_creature` SET
+	`name_loc4`='维里图斯'	-- Digger "The Wrench" Veriatus
+WHERE `entry`=11617;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Archmage Antonio'	-- Archmage Antonio
--- WHERE `entry`=11618;
+UPDATE `locales_creature` SET
+	`name_loc4`='大法师安东尼奥'	-- Archmage Antonio
+WHERE `entry`=11618;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Merchant Bolden'	-- Merchant Bolden
--- WHERE `entry`=11619;
+UPDATE `locales_creature` SET
+	`name_loc4`='商人波尔登'	-- Merchant Bolden
+WHERE `entry`=11619;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='鬼灵掠夺者'	-- Spectral Marauder
@@ -33161,7 +33161,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11637;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='战歌苦工'	-- Horde Peon
+	`name_loc4`='部落苦工'	-- Horde Peon
 WHERE `entry`=11656;
 
 UPDATE `locales_creature` SET
@@ -33181,19 +33181,19 @@ WHERE `entry`=11659;
 -- WHERE `entry`=11660;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='火妖'	-- Flamewaker
+	`name_loc4`='烈焰行者'	-- Flamewaker
 WHERE `entry`=11661;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='火妖祭司'	-- Flamewaker Priest
+	`name_loc4`='烈焰行者祭司'	-- Flamewaker Priest
 WHERE `entry`=11662;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='火妖医师'	-- Flamewaker Healer
+	`name_loc4`='烈焰行者医师'	-- Flamewaker Healer
 WHERE `entry`=11663;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='火妖精英'	-- Flamewaker Elite
+	`name_loc4`='烈焰行者精英'	-- Flamewaker Elite
 WHERE `entry`=11664;
 
 UPDATE `locales_creature` SET
@@ -33229,16 +33229,16 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11672;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='熔火恶犬'	-- Ancient Core Hound
+	`name_loc4`='上古熔火恶犬'	-- Ancient Core Hound
 WHERE `entry`=11673;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='雪盲唤风者'	-- Snowblind Windcaller
 WHERE `entry`=11675;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Fjordune the Greater'	-- Fjordune the Greater
--- WHERE `entry`=11676;
+UPDATE `locales_creature` SET
+	`name_loc4`='巨人弗瑟杜恩'	-- Fjordune the Greater
+WHERE `entry`=11676;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='工头斯尼维尔'	-- Taskmaster Snivvle
@@ -33257,19 +33257,19 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11680;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='战歌伐木工'	-- Horde Deforester
+	`name_loc4`='部落伐木工'	-- Horde Deforester
 WHERE `entry`=11681;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='战歌步兵'	-- Horde Grunt
+	`name_loc4`='部落步兵'	-- Horde Grunt
 WHERE `entry`=11682;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='战歌萨满祭司'	-- Horde Shaman
+	`name_loc4`='部落萨满祭司'	-- Horde Shaman
 WHERE `entry`=11683;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='地精伐木机'	-- Warsong Shredder
+	`name_loc4`='战歌伐木机'	-- Warsong Shredder
 WHERE `entry`=11684;
 
 UPDATE `locales_creature` SET
@@ -33311,7 +33311,7 @@ WHERE `entry`=11698;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瓦里安·乌瑞恩'	-- Varian Wrynn
-	`subname_loc4`='暴风城的王子'	-- King of Stormwind
+	`subname_loc4`='暴风城的国王'	-- King of Stormwind
 WHERE `entry`=11699;
 
 UPDATE `locales_creature` SET
@@ -33393,9 +33393,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='萨恩·棕眼'	-- Sar Browneye
 WHERE `entry`=11718;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Navi Quickdraw'	-- Navi Quickdraw
--- WHERE `entry`=11719;
+UPDATE `locales_creature` SET
+	`name_loc4`='纳维·快弓'	-- Navi Quickdraw
+WHERE `entry`=11719;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='罗鲁克·森林行者'	-- Loruk Foreststrider
@@ -33446,7 +33446,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11731;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='雷戈喷毒者'	-- Hive'Regal Spitfire
+	`name_loc4`='雷戈喷火者'	-- Hive'Regal Spitfire
 WHERE `entry`=11732;
 
 UPDATE `locales_creature` SET
@@ -33565,13 +33565,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='暗影碎片击碎者'	-- Shadowshard Smasher
 WHERE `entry`=11778;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Shadowshard Thunderer'	-- Shadowshard Thunderer
--- WHERE `entry`=11779;
+UPDATE `locales_creature` SET
+	`name_loc4`='暗影碎片雷鸣者'	-- Shadowshard Thunderer
+WHERE `entry`=11779;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ambershard Rager'	-- Ambershard Rager
--- WHERE `entry`=11780;
+UPDATE `locales_creature` SET
+	`name_loc4`='琥珀碎片暴怒者'	-- Ambershard Rager
+WHERE `entry`=11780;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='琥珀碎片摧毁者'	-- Ambershard Crusher
@@ -33626,7 +33626,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11793;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='塞雷布拉斯姐妹'	-- Sister of Celebrian
+	`name_loc4`='塞雷布拉斯的姐妹'	-- Sister of Celebrian
 WHERE `entry`=11794;
 
 UPDATE `locales_creature` SET
@@ -33690,9 +33690,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='格鲁姆·红须'	-- Grum Redbeard
 WHERE `entry`=11808;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Danni Palewing'	-- Danni Palewing
--- WHERE `entry`=11809;
+UPDATE `locales_creature` SET
+	`name_loc4`='达尼·灰翼'	-- Danni Palewing
+WHERE `entry`=11809;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='霍文·鹰羽'	-- Howin Kindfeather
@@ -33828,7 +33828,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11857;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='格鲁迪格·黑云'	-- Grundig Darkcloud
+	`name_loc4`='格鲁迪格·暗云'	-- Grundig Darkcloud
 WHERE `entry`=11858;
 
 UPDATE `locales_creature` SET
@@ -33983,37 +33983,37 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='双足飞龙管理员'	-- Wind Rider Master
 WHERE `entry`=11901;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Aiden'	-- Aiden
--- WHERE `entry`=11902;
+UPDATE `locales_creature` SET
+	`name_loc4`='艾登'	-- Aiden
+WHERE `entry`=11902;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Alexander'	-- Alexander
--- WHERE `entry`=11903;
+UPDATE `locales_creature` SET
+	`name_loc4`='亚历山大'	-- Alexander
+WHERE `entry`=11903;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Noah'	-- Noah
--- WHERE `entry`=11904;
+UPDATE `locales_creature` SET
+	`name_loc4`='诺亚'	-- Noah
+WHERE `entry`=11904;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jordan'	-- Jordan
--- WHERE `entry`=11905;
+UPDATE `locales_creature` SET
+	`name_loc4`='乔丹'	-- Jordan
+WHERE `entry`=11905;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Sophia'	-- Sophia
--- WHERE `entry`=11906;
+UPDATE `locales_creature` SET
+	`name_loc4`='索菲亚'	-- Sophia
+WHERE `entry`=11906;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Alanna'	-- Alanna
--- WHERE `entry`=11907;
+UPDATE `locales_creature` SET
+	`name_loc4`='阿兰娜'	-- Alanna
+WHERE `entry`=11907;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mirah'	-- Mirah
--- WHERE `entry`=11908;
+UPDATE `locales_creature` SET
+	`name_loc4`='米拉'	-- Mirah
+WHERE `entry`=11908;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Penelope'	-- Penelope
--- WHERE `entry`=11909;
+UPDATE `locales_creature` SET
+	`name_loc4`='波尼'	-- Penelope
+WHERE `entry`=11909;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='恐怖图腾恶徒'	-- Grimtotem Ruffian
@@ -34036,7 +34036,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11914;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='滚岩护石者'	-- Gogger Rock Keeper
+	`name_loc4`='高戈护石者'	-- Gogger Rock Keeper
 WHERE `entry`=11915;
 
 UPDATE `locales_creature` SET
@@ -34044,16 +34044,16 @@ UPDATE `locales_creature` SET
 WHERE `entry`=11916;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='滚岩地卜师'	-- Gogger Geomancer
+	`name_loc4`='高戈地卜师'	-- Gogger Geomancer
 WHERE `entry`=11917;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='滚岩裂石者'	-- Gogger Stonepounder
+	`name_loc4`='高戈裂石者'	-- Gogger Stonepounder
 WHERE `entry`=11918;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Claudia'	-- Claudia
--- WHERE `entry`=11919;
+UPDATE `locales_creature` SET
+	`name_loc4`='克劳迪娅'	-- Claudia
+WHERE `entry`=11919;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='高戈罗克'	-- Goggeroc
@@ -34075,9 +34075,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='恶魔之门的卫士'	-- Demon Portal Guardian
 WHERE `entry`=11937;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Young Tirion'	-- Young Tirion
--- WHERE `entry`=11938;
+UPDATE `locales_creature` SET
+	`name_loc4`='年轻的提里奥'	-- Young Tirion
+WHERE `entry`=11938;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='阿姆伯尔'	-- Umber
@@ -34135,10 +34135,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='巨豹之灵'	-- Great Cat Spirit
 WHERE `entry`=11957;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gracchus Spiritlight'	-- Gracchus Spiritlight
--- 	`subname_loc4`='Argent Dawn'	-- Argent Dawn
--- WHERE `entry`=11958;
+UPDATE `locales_creature` SET
+	`name_loc4`='格拉库·斯比莱特'	-- Gracchus Spiritlight
+	`subname_loc4`='银色黎明'	-- Argent Dawn
+WHERE `entry`=11958;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='[UNUSED] Obsidian Watcher'	-- [UNUSED] Obsidian Watcher
@@ -34202,10 +34202,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='食物和饮料商人'	-- Food & Drink Merchant
 WHERE `entry`=12019;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Moonglade Alchemy Trainer'	-- Moonglade Alchemy Trainer
--- 	`subname_loc4`='Artisan Alchemist'	-- Artisan Alchemist
--- WHERE `entry`=12020;
+UPDATE `locales_creature` SET
+	`name_loc4`='Moonglade Alchemy Trainer'	-- Moonglade Alchemy Trainer
+	`subname_loc4`='高级炼金师'	-- Artisan Alchemist
+WHERE `entry`=12020;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='黛欧琳·夏叶'	-- Daeolyn Summerleaf
@@ -34214,7 +34214,7 @@ WHERE `entry`=12021;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='罗莱尔·冬歌'	-- Lorelae Wintersong
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=12022;
 
 UPDATE `locales_creature` SET
@@ -34229,7 +34229,7 @@ WHERE `entry`=12024;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='玛沃尔'	-- Malvor
-	`subname_loc4`='草药学训练师'	-- Herbalist
+	`subname_loc4`='采药人'	-- Herbalist
 WHERE `entry`=12025;
 
 UPDATE `locales_creature` SET
@@ -34244,7 +34244,7 @@ WHERE `entry`=12027;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='拉玛维'	-- Lah'Mawhani
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=12028;
 
 UPDATE `locales_creature` SET
@@ -34264,7 +34264,7 @@ WHERE `entry`=12031;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='鲁伊马拉'	-- Lui'Mala
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=12032;
 
 UPDATE `locales_creature` SET
@@ -34276,15 +34276,15 @@ UPDATE `locales_creature` SET
 	`name_loc4`='科尔特'	-- Koiter
 WHERE `entry`=12034;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Aerie Peak Mining Trainer'	-- Aerie Peak Mining Trainer
--- 	`subname_loc4`='Miner'	-- Miner
--- WHERE `entry`=12035;
+UPDATE `locales_creature` SET
+	`name_loc4`='鹰巢山采矿训练师'	-- Aerie Peak Mining Trainer
+	`subname_loc4`='矿工'	-- Miner
+WHERE `entry`=12035;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Aerie Peak General Goods'	-- Aerie Peak General Goods
--- 	`subname_loc4`='General Goods'	-- General Goods
--- WHERE `entry`=12036;
+UPDATE `locales_creature` SET
+	`name_loc4`='鹰巢山杂货商人'	-- Aerie Peak General Goods
+	`subname_loc4`='杂货商'	-- General Goods
+WHERE `entry`=12036;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='乌索洛克'	-- Ursol'lok
@@ -34295,15 +34295,15 @@ WHERE `entry`=12037;
 -- 	`subname_loc4`='Cooking Supplies'	-- Cooking Supplies
 -- WHERE `entry`=12038;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Aerie Peak Meat Vendor'	-- Aerie Peak Meat Vendor
--- 	`subname_loc4`='Butcher'	-- Butcher
--- WHERE `entry`=12039;
+UPDATE `locales_creature` SET
+	`name_loc4`='鹰巢山肉商'	-- Aerie Peak Meat Vendor
+	`subname_loc4`='屠夫'	-- Butcher
+WHERE `entry`=12039;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Aerie Peak Mail Armor Vendor'	-- Aerie Peak Mail Armor Vendor
--- 	`subname_loc4`='Armorsmith'	-- Armorsmith
--- WHERE `entry`=12040;
+UPDATE `locales_creature` SET
+	`name_loc4`='鹰巢山锁甲商'	-- Aerie Peak Mail Armor Vendor
+	`subname_loc4`='护甲锻造师'	-- Armorsmith
+WHERE `entry`=12040;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='洛甘纳尔'	-- Loganaar
@@ -34312,13 +34312,13 @@ WHERE `entry`=12042;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='库尔维亚'	-- Kulwia
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=12043;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Sun Rock Blacksmithing Supplies'	-- Sun Rock Blacksmithing Supplies
--- 	`subname_loc4`='Blacksmithing & Mining Supplies'	-- Blacksmithing & Mining Supplies
--- WHERE `entry`=12044;
+UPDATE `locales_creature` SET
+	`name_loc4`='烈日石居铁匠供应商'	-- Sun Rock Blacksmithing Supplies
+	`subname_loc4`='锻造和矿工供应商'	-- Blacksmithing & Mining Supplies
+WHERE `entry`=12044;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='海维拉尼'	-- Hae'Wilani
@@ -34402,11 +34402,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12118;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='火妖护卫'	-- Flamewaker Protector
+	`name_loc4`='烈焰行者护卫'	-- Flamewaker Protector
 WHERE `entry`=12119;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾白蚁'	-- Plagueland Termite
+	`name_loc4`='瘟疫白蚁'	-- Plagueland Termite
 WHERE `entry`=12120;
 
 UPDATE `locales_creature` SET
@@ -34448,12 +34448,12 @@ WHERE `entry`=12129;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯纳尔克'	-- Snurk Bucksquick
-	`subname_loc4`='杜隆塔尔飞艇管理员'	-- Zeppelin Master
+	`subname_loc4`='飞艇管理员'	-- Zeppelin Master
 WHERE `entry`=12136;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯奎比'	-- Squibby Overspeck
-	`subname_loc4`='杜隆塔尔飞艇管理员'	-- Zeppelin Master
+	`subname_loc4`='飞艇管理员'	-- Zeppelin Master
 WHERE `entry`=12137;
 
 UPDATE `locales_creature` SET
@@ -34468,9 +34468,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='冰图腾'	-- Ice Totem
 WHERE `entry`=12141;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Flamewaker Guardian'	-- Flamewaker Guardian
--- WHERE `entry`=12142;
+UPDATE `locales_creature` SET
+	`name_loc4`='烈焰行者卫兵'	-- Flamewaker Guardian
+WHERE `entry`=12142;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='烈焰之子'	-- Son of Flame
@@ -34536,9 +34536,9 @@ WHERE `entry`=12160;
 -- 	`name_loc4`='Tame Kodo'	-- Tame Kodo
 -- WHERE `entry`=12176;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kyle Blackthorne'	-- Kyle Blackthorne
--- WHERE `entry`=12177;
+UPDATE `locales_creature` SET
+	`name_loc4`='凯勒·布莱索恩'	-- Kyle Blackthorne
+WHERE `entry`=12177;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='被折磨的德鲁伊'	-- Tortured Druid
@@ -34548,9 +34548,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='被折磨的哨兵'	-- Tortured Sentinel
 WHERE `entry`=12179;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Anubisath'	-- Anubisath
--- WHERE `entry`=12180;
+UPDATE `locales_creature` SET
+	`name_loc4`='阿努比萨斯'	-- Anubisath
+WHERE `entry`=12180;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='旅店老板凯利斯克'	-- Innkeeper Kaylisk
@@ -34571,16 +34571,16 @@ UPDATE `locales_creature` SET
 	`name_loc4`='珀月的阴影'	-- Shade of Ambermoon
 WHERE `entry`=12199;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Cobaltine Wyrmkin'	-- Cobaltine Wyrmkin
--- WHERE `entry`=12200;
+UPDATE `locales_creature` SET
+	`name_loc4`='蔚蓝龙族'	-- Cobaltine Wyrmkin
+WHERE `entry`=12200;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瑟莱德丝公主'	-- Princess Theradras
 WHERE `entry`=12201;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='人类徽记'	-- Human Skull
+	`name_loc4`='人类颅骨'	-- Human Skull
 WHERE `entry`=12202;
 
 UPDATE `locales_creature` SET
@@ -34855,11 +34855,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12344;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='杂斑赤色迅猛龙'	-- Mottled Red Raptor
+	`name_loc4`='红色迅猛龙'	-- Mottled Red Raptor
 WHERE `entry`=12345;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='绿色迅猛龙坐骑'	-- Emerald Raptor
+	`name_loc4`='绿色迅猛龙'	-- Emerald Raptor
 WHERE `entry`=12346;
 
 UPDATE `locales_creature` SET
@@ -34871,11 +34871,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12348;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='青色迅猛龙坐骑'	-- Turquoise Raptor
+	`name_loc4`='青色迅猛龙'	-- Turquoise Raptor
 WHERE `entry`=12349;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='紫色骑乘迅猛龙'	-- Violet Raptor
+	`name_loc4`='紫色迅猛龙'	-- Violet Raptor
 WHERE `entry`=12350;
 
 UPDATE `locales_creature` SET
@@ -34907,7 +34907,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12357;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='骑乘用条纹霜刃豹'	-- Riding Striped Frostsaber
+	`name_loc4`='骑乘用斑纹霜刃豹'	-- Riding Striped Frostsaber
 WHERE `entry`=12358;
 
 UPDATE `locales_creature` SET
@@ -34915,7 +34915,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12359;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='骑乘用条纹夜刃豹'	-- Riding Striped Nightsaber
+	`name_loc4`='骑乘用斑纹夜刃豹'	-- Riding Striped Nightsaber
 WHERE `entry`=12360;
 
 UPDATE `locales_creature` SET
@@ -34939,7 +34939,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12365;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='未涂色的机械陆行鸟X型'	-- Unpainted Mechanostrider
+	`name_loc4`='未涂色的机械陆行鸟'	-- Unpainted Mechanostrider
 WHERE `entry`=12366;
 
 UPDATE `locales_creature` SET
@@ -35019,9 +35019,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='迫击炮小队高级活动假人'	-- Mortar Team Advanced Target Dummy
 WHERE `entry`=12385;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Magus Kyara'	-- Magus Kyara
--- WHERE `entry`=12386;
+UPDATE `locales_creature` SET
+	`name_loc4`='大法师克亚拉'	-- Magus Kyara
+WHERE `entry`=12386;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='可憎的大软泥怪'	-- Large Vile Slime
@@ -35101,7 +35101,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12432;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暗网编织者克雷希斯'	-- Krethis Shadowspinner
+	`name_loc4`='克雷希斯'	-- Krethis Shadowspinner
 WHERE `entry`=12433;
 
 UPDATE `locales_creature` SET
@@ -35125,11 +35125,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12459;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='死爪龙人护卫'	-- Death Talon Wyrmguard
+	`name_loc4`='黑翼龙人护卫'	-- Death Talon Wyrmguard
 WHERE `entry`=12460;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='死爪监工'	-- Death Talon Overseer
+	`name_loc4`='黑翼监工'	-- Death Talon Overseer
 WHERE `entry`=12461;
 
 -- UPDATE `locales_creature` SET
@@ -35169,7 +35169,7 @@ WHERE `entry`=12468;
 -- WHERE `entry`=12470;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='奥金机械幼龙'	-- Arcanite Dragonling
+	`name_loc4`='奥金幼龙'	-- Arcanite Dragonling
 WHERE `entry`=12473;
 
 UPDATE `locales_creature` SET
@@ -35181,7 +35181,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12475;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='翡翠智者'	-- Emeraldon Oracle
+	`name_loc4`='翡翠圣贤'	-- Emeraldon Oracle
 WHERE `entry`=12476;
 
 UPDATE `locales_creature` SET
@@ -35293,11 +35293,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12658;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='尖爪'	-- Sharptalon
+	`name_loc4`='沙普塔隆'	-- Sharptalon
 WHERE `entry`=12676;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='猎影'	-- Shadumbra
+	`name_loc4`='萨杜布拉'	-- Shadumbra
 WHERE `entry`=12677;
 
 UPDATE `locales_creature` SET
@@ -35346,7 +35346,7 @@ WHERE `entry`=12724;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='耶努萨克雷'	-- Je'neu Sancrea
-	`subname_loc4`='大地之环'	-- The Earthen Ring
+	`subname_loc4`='陶土议会'	-- The Earthen Ring
 WHERE `entry`=12736;
 
 UPDATE `locales_creature` SET
@@ -35392,8 +35392,8 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12776;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='迪格汉默上尉'	-- Captain Dirgehammer
-	`subname_loc4`='护甲军需官'	-- Armor Quartermaster
+	`name_loc4`='戴格哈默中尉'	-- Captain Dirgehammer
+	`subname_loc4`='板甲军需官'	-- Armor Quartermaster
 WHERE `entry`=12777;
 
 UPDATE `locales_creature` SET
@@ -35420,17 +35420,17 @@ WHERE `entry`=12782;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡特尔中尉'	-- Lieutenant Karter
-	`subname_loc4`='战争坐骑军需官'	-- Mount Vendor
+	`subname_loc4`='坐骑商人'	-- Mount Vendor
 WHERE `entry`=12783;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='加克斯宾中尉'	-- Lieutenant Jackspring
-	`subname_loc4`='武器军需官'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=12784;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克莱特军士长'	-- Sergeant Major Clate
-	`subname_loc4`='护甲军需官'	-- Food and Drink
+	`subname_loc4`='餐饮供应商'	-- Food and Drink
 WHERE `entry`=12785;
 
 UPDATE `locales_creature` SET
@@ -35458,28 +35458,28 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12791;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='潘兰希尔女士'	-- Lady Palanseer
-	`subname_loc4`='护甲军需官'	-- Armor Quartermaster
+	`name_loc4`='帕兰蒂尔'	-- Lady Palanseer
+	`subname_loc4`='布甲军需官'	-- Armor Quartermaster
 WHERE `entry`=12792;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卫兵布莱恩·石皮'	-- Brave Stonehide
-	`subname_loc4`='杂货军需官'	-- Officer Accessories Quartermaster
+	`subname_loc4`='皮甲军需官'	-- Officer Accessories Quartermaster
 WHERE `entry`=12793;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='石头守卫扎尔格'	-- Stone Guard Zarg
-	`subname_loc4`='武器军需官'	-- Food and Drink
+	`subname_loc4`='餐饮供应商'	-- Food and Drink
 WHERE `entry`=12794;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='一等军士长霍拉麦'	-- First Sergeant Hola'mahi
-	`subname_loc4`='护甲军需官'	-- Reagent Vendor
+	`subname_loc4`='板甲军需官'	-- Reagent Vendor
 WHERE `entry`=12795;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='狼骑兵波尔克'	-- Raider Bork
-	`subname_loc4`='战争坐骑军需官'	-- Mount Quartermaster
+	`subname_loc4`='坐骑军需官'	-- Mount Quartermaster
 WHERE `entry`=12796;
 
 UPDATE `locales_creature` SET
@@ -35520,13 +35520,13 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='杂货军需官'	-- Accessories Quartermaster
 WHERE `entry`=12805;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Magmakin'	-- Magmakin
--- WHERE `entry`=12806;
+UPDATE `locales_creature` SET
+	`name_loc4`='熔岩怪'	-- Magmakin
+WHERE `entry`=12806;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格雷沙卡'	-- Greshka
-	`subname_loc4`='恶魔训练师'	-- Demon Master
+	`subname_loc4`='恶魔大师'	-- Demon Master
 WHERE `entry`=12807;
 
 UPDATE `locales_creature` SET
@@ -35553,9 +35553,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='灰谷先驱者'	-- Ashenvale Outrunner
 WHERE `entry`=12856;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Elogit'	-- Elogit
--- WHERE `entry`=12857;
+UPDATE `locales_creature` SET
+	`name_loc4`='埃罗吉特'	-- Elogit
+WHERE `entry`=12857;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='托雷克'	-- Torek
@@ -35630,7 +35630,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12902;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='碎木岗哨守卫'	-- Splintertree Guard
+	`name_loc4`='碎木岗哨卫兵'	-- Splintertree Guard
 WHERE `entry`=12903;
 
 UPDATE `locales_creature` SET
@@ -35701,7 +35701,7 @@ WHERE `entry`=12940;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='贾斯·法拉恩'	-- Jase Farlane
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=12941;
 
 UPDATE `locales_creature` SET
@@ -35725,13 +35725,13 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12956;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='布里莫·加基斯宾'	-- Blimo Gadgetspring
-	`subname_loc4`='贸易供应商'	-- Trade Supplier
+	`name_loc4`='布里莫'	-- Blimo Gadgetspring
+	`subname_loc4`='商人'	-- Trade Supplier
 WHERE `entry`=12957;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='吉盖特·火油'	-- Gigget Zipcoil
-	`subname_loc4`='贸易供应商'	-- Trade Supplies
+	`subname_loc4`='商人'	-- Trade Supplies
 WHERE `entry`=12958;
 
 UPDATE `locales_creature` SET
@@ -35746,7 +35746,7 @@ WHERE `entry`=12960;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='基尔希瓦纳'	-- Kil'Hiwana
-	`subname_loc4`='钓鱼训练师'	-- Fisherman
+	`subname_loc4`='渔夫'	-- Fisherman
 WHERE `entry`=12961;
 
 UPDATE `locales_creature` SET
@@ -35776,7 +35776,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=12998;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='世界隐藏触发器'	-- Blackwing Trigger
+	`name_loc4`='黑翼触发器'	-- Blackwing Trigger
 WHERE `entry`=12999;
 
 UPDATE `locales_creature` SET
@@ -35812,7 +35812,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=13022;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='戈多克猎犬'	-- Gordok Mastiff
+	`name_loc4`='戈多克驯狼'	-- Gordok Mastiff
 WHERE `entry`=13036;
 
 -- UPDATE `locales_creature` SET
@@ -35844,9 +35844,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='施舍者'	-- Giver of the Beatings
 WHERE `entry`=13082;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Echo of Archimonde'	-- Echo of Archimonde
--- WHERE `entry`=13083;
+UPDATE `locales_creature` SET
+	`name_loc4`='阿克蒙德的回响'	-- Echo of Archimonde
+WHERE `entry`=13083;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='比克斯'	-- Bixi Wobblebonk
@@ -35918,7 +35918,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=13139;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='指挥官达尔多什'	-- Commander Dardosh
+	`name_loc4`='指挥官达多什'	-- Commander Dardosh
 WHERE `entry`=13140;
 
 UPDATE `locales_creature` SET
@@ -35981,9 +35981,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='亡灵卫兵密探'	-- Deathstalker Agent
 WHERE `entry`=13155;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Carrosh'	-- Carrosh
--- WHERE `entry`=13156;
+UPDATE `locales_creature` SET
+	`name_loc4`='加罗什'	-- Carrosh
+WHERE `entry`=13156;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='马卡斯加'	-- Makasgar
@@ -36054,7 +36054,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=13218;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='乔雷克·铁盾'	-- Jekyll Flandring
+	`name_loc4`='耶克里·弗兰迪'	-- Jekyll Flandring
 	`subname_loc4`='霜狼军需官'	-- Frostwolf Supply Officer
 WHERE `entry`=13219;
 
@@ -36099,9 +36099,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='海多斯博恩'	-- Hydrospawn
 WHERE `entry`=13280;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Furis'	-- Furis
--- WHERE `entry`=13281;
+UPDATE `locales_creature` SET
+	`name_loc4`='弗雷斯'	-- Furis
+WHERE `entry`=13281;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='诺克赛恩'	-- Noxxion
@@ -36165,7 +36165,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=13320;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='小青蛙'	-- Frog
+	`name_loc4`='青蛙'	-- Frog
 WHERE `entry`=13321;
 
 UPDATE `locales_creature` SET
@@ -36420,17 +36420,17 @@ UPDATE `locales_creature` SET
 WHERE `entry`=13456;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='赞巴莱'	-- Balai Lok'Wein
-	`subname_loc4`='德鲁伊训练师'	-- Potions, Scrolls and Reagents
+	`name_loc4`='巴莱·洛克维'	-- Balai Lok'Wein
+	`subname_loc4`='药剂、卷轴和材料'	-- Potions, Scrolls and Reagents
 WHERE `entry`=13476;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='诺克赛恩触发器'	-- Noxxion Trigger
 WHERE `entry`=13477;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Risen Ancient'	-- Risen Ancient
--- WHERE `entry`=13496;
+UPDATE `locales_creature` SET
+	`name_loc4`='复生的古树'	-- Risen Ancient
+WHERE `entry`=13496;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='霜狼前锋'	-- Frostwolf Outrunner
@@ -36625,7 +36625,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=13601;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='讨厌的格林奇'	-- The Abominable Greench
+	`name_loc4`='格林奇'	-- The Abominable Greench
 WHERE `entry`=13602;
 
 UPDATE `locales_creature` SET
@@ -36848,30 +36848,30 @@ UPDATE `locales_creature` SET
 	`name_loc4`='被折磨的幼龙'	-- Tortured Drake
 WHERE `entry`=13976;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gash''nak the Cannibal'	-- Gash'nak the Cannibal
--- WHERE `entry`=13977;
+UPDATE `locales_creature` SET
+	`name_loc4`='食尸者加什纳克'	-- Gash'nak the Cannibal
+WHERE `entry`=13977;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='黑翼技师'	-- Blackwing Technician
 WHERE `entry`=13996;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ushalac the Gloomdweller'	-- Ushalac the Gloomdweller
--- WHERE `entry`=14016;
+UPDATE `locales_creature` SET
+	`name_loc4`='乌什拉克'	-- Ushalac the Gloomdweller
+WHERE `entry`=14016;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Withered Troll'	-- Withered Troll
--- WHERE `entry`=14017;
+UPDATE `locales_creature` SET
+	`name_loc4`='干瘪的巨魔'	-- Withered Troll
+WHERE `entry`=14017;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rezrelek'	-- Rezrelek
--- 	`subname_loc4`='Winterax Hero'	-- Winterax Hero
--- WHERE `entry`=14018;
+UPDATE `locales_creature` SET
+	`name_loc4`='勒兹雷克'	-- Rezrelek
+	`subname_loc4`='冰斧英雄'	-- Winterax Hero
+WHERE `entry`=14018;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Tatterhide'	-- Tatterhide
--- WHERE `entry`=14019;
+UPDATE `locales_creature` SET
+	`name_loc4`='碎毛雪人'	-- Tatterhide
+WHERE `entry`=14019;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克洛玛古斯'	-- Chromaggus
@@ -36925,22 +36925,22 @@ UPDATE `locales_creature` SET
 	`name_loc4`='哈格尔'	-- Haggle
 WHERE `entry`=14041;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rytama'	-- Rytama
--- 	`subname_loc4`='Binder of the Moro''gai'	-- Binder of the Moro'gai
--- WHERE `entry`=14042;
+UPDATE `locales_creature` SET
+	`name_loc4`='雷塔玛'	-- Rytama
+	`subname_loc4`='莫洛加缚灵者'	-- Binder of the Moro'gai
+WHERE `entry`=14042;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Phase Lasher (Fire)'	-- Phase Lasher (Fire)
--- WHERE `entry`=14061;
+UPDATE `locales_creature` SET
+	`name_loc4`='相位鞭笞者（火焰）'	-- Phase Lasher (Fire)
+WHERE `entry`=14061;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Phase Lasher (Nature)'	-- Phase Lasher (Nature)
--- WHERE `entry`=14062;
+UPDATE `locales_creature` SET
+	`name_loc4`='相位鞭笞者（自然）'	-- Phase Lasher (Nature)
+WHERE `entry`=14062;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Phase Lasher (Arcane)'	-- Phase Lasher (Arcane)
--- WHERE `entry`=14063;
+UPDATE `locales_creature` SET
+	`name_loc4`='相位鞭笞者（奥术）'	-- Phase Lasher (Arcane)
+WHERE `entry`=14063;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='恶魔之门'	-- Demon Portal
@@ -36962,48 +36962,48 @@ UPDATE `locales_creature` SET
 	`name_loc4`='钢腭钳嘴龟'	-- Steeljaw Snapper
 WHERE `entry`=14123;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stormpike Reclaimer'	-- Stormpike Reclaimer
--- WHERE `entry`=14141;
+UPDATE `locales_creature` SET
+	`name_loc4`='雷矛回收者'	-- Stormpike Reclaimer
+WHERE `entry`=14141;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Frostwolf Reclaimer'	-- Frostwolf Reclaimer
--- WHERE `entry`=14142;
+UPDATE `locales_creature` SET
+	`name_loc4`='霜狼回收者'	-- Frostwolf Reclaimer
+WHERE `entry`=14142;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ar''lia'	-- Ar'lia
--- 	`subname_loc4`='The Moro''gai'	-- The Moro'gai
--- WHERE `entry`=14143;
+UPDATE `locales_creature` SET
+	`name_loc4`='阿里亚'	-- Ar'lia
+	`subname_loc4`='莫洛加'	-- The Moro'gai
+WHERE `entry`=14143;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Taroen'	-- Taroen
--- 	`subname_loc4`='The Moro''gai'	-- The Moro'gai
--- WHERE `entry`=14144;
+UPDATE `locales_creature` SET
+	`name_loc4`='塔罗恩'	-- Taroen
+	`subname_loc4`='莫洛加'	-- The Moro'gai
+WHERE `entry`=14144;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ja''ker'	-- Ja'ker
--- 	`subname_loc4`='The Moro''gai'	-- The Moro'gai
--- WHERE `entry`=14145;
+UPDATE `locales_creature` SET
+	`name_loc4`='亚克尔'	-- Ja'ker
+	`subname_loc4`='莫洛加'	-- The Moro'gai
+WHERE `entry`=14145;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Urrul'	-- Urrul
--- 	`subname_loc4`='The Moro''gai'	-- The Moro'gai
--- WHERE `entry`=14146;
+UPDATE `locales_creature` SET
+	`name_loc4`='乌尔鲁尔'	-- Urrul
+	`subname_loc4`='莫洛加'	-- The Moro'gai
+WHERE `entry`=14146;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lorael'	-- Lorael
--- 	`subname_loc4`='The Moro''gai'	-- The Moro'gai
--- WHERE `entry`=14147;
+UPDATE `locales_creature` SET
+	`name_loc4`='罗莱尔'	-- Lorael
+	`subname_loc4`='莫洛加'	-- The Moro'gai
+WHERE `entry`=14147;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Fre''an'	-- Fre'an
--- 	`subname_loc4`='The Moro''gai'	-- The Moro'gai
--- WHERE `entry`=14148;
+UPDATE `locales_creature` SET
+	`name_loc4`='弗雷安'	-- Fre'an
+	`subname_loc4`='莫洛加'	-- The Moro'gai
+WHERE `entry`=14148;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Karana'	-- Karana
--- 	`subname_loc4`='The Moro''gai'	-- The Moro'gai
--- WHERE `entry`=14161;
+UPDATE `locales_creature` SET
+	`name_loc4`='卡拉纳'	-- Karana
+	`subname_loc4`='莫洛加'	-- The Moro'gai
+WHERE `entry`=14161;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='RaidMage'	-- RaidMage
@@ -37022,9 +37022,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='炮兵舍尔杜'	-- Artilleryman Sheldonore
 WHERE `entry`=14183;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Phase Lasher (Frost)'	-- Phase Lasher (Frost)
--- WHERE `entry`=14184;
+UPDATE `locales_creature` SET
+	`name_loc4`='相位鞭笞者（冰霜）'	-- Phase Lasher (Frost)
+WHERE `entry`=14184;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='纳亚克·海克森'	-- Najak Hexxen
@@ -37242,7 +37242,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14303;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='库卡隆精英卫士'	-- Kor'kron Elite
+	`name_loc4`='奥格瑞玛精英卫士'	-- Kor'kron Elite
 WHERE `entry`=14304;
 
 UPDATE `locales_creature` SET
@@ -37319,7 +37319,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14331;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑色战驹'	-- Black War Steed
+	`name_loc4`='黑色战马'	-- Black War Steed
 WHERE `entry`=14332;
 
 UPDATE `locales_creature` SET
@@ -37327,11 +37327,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14333;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑色作战机械陆行鸟'	-- Black Battlestrider
+	`name_loc4`='黑色作战陆行鸟'	-- Black Battlestrider
 WHERE `entry`=14334;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑色战羊'	-- Black War Ram
+	`name_loc4`='白色战羊'	-- Black War Ram
 WHERE `entry`=14335;
 
 UPDATE `locales_creature` SET
@@ -37354,9 +37354,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='奥辛尔·灵息'	-- Alshirr Banebreath
 WHERE `entry`=14340;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Felendor the Accuser'	-- Felendor the Accuser
--- WHERE `entry`=14341;
+UPDATE `locales_creature` SET
+	`name_loc4`='控诉者法雷多尔'	-- Felendor the Accuser
+WHERE `entry`=14341;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='拉吉波尔'	-- Ragepaw
@@ -37374,9 +37374,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='欧加尔'	-- The Ongar
 WHERE `entry`=14345;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Captain Greshkil'	-- Captain Greshkil
--- WHERE `entry`=14346;
+UPDATE `locales_creature` SET
+	`name_loc4`='格雷基尔上尉'	-- Captain Greshkil
+WHERE `entry`=14346;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='德米提恩'	-- Highlord Demitrian
@@ -37398,10 +37398,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='高多克·布斯瓦克'	-- Gordok Bushwacker
 WHERE `entry`=14351;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Duke Landressar'	-- Duke Landressar
--- 	`subname_loc4`='Agent of Therazane'	-- Agent of Therazane
--- WHERE `entry`=14352;
+UPDATE `locales_creature` SET
+	`name_loc4`='兰德雷萨公爵'	-- Duke Landressar
+	`subname_loc4`='塞拉赞恩的使者'	-- Agent of Therazane
+WHERE `entry`=14352;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='米兹勒'	-- Mizzle the Crafty
@@ -37656,7 +37656,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14433;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='侏儒报警机器人'	-- Alarm-o-Bot
+	`name_loc4`='报警机器人'	-- Alarm-o-Bot
 WHERE `entry`=14434;
 
 UPDATE `locales_creature` SET
@@ -37685,7 +37685,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14440;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暴怒图腾捕猎者'	-- Hunter Ragetotem
+	`name_loc4`='捕猎者拉图特'	-- Hunter Ragetotem
 WHERE `entry`=14441;
 
 UPDATE `locales_creature` SET
@@ -37701,7 +37701,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14444;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='维尔玛克中尉'	-- Lord Captain Wyrmak
+	`name_loc4`='维尔玛克将军'	-- Lord Captain Wyrmak
 WHERE `entry`=14445;
 
 UPDATE `locales_creature` SET
@@ -37861,12 +37861,12 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14484;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='被感染的农夫'	-- Plagued Peasant
+	`name_loc4`='感染瘟疫的农夫'	-- Plagued Peasant
 WHERE `entry`=14485;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='天灾步兵'	-- Scourge Footsoldier
-	`subname_loc4`='克尔苏加德的爪牙'	-- Kel'Thuzad's Minion
+	`subname_loc4`='科尔苏加德的爪牙'	-- Kel'Thuzad's Minion
 WHERE `entry`=14486;
 
 UPDATE `locales_creature` SET
@@ -37886,7 +37886,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14490;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='库尔莫克'	-- Kurmokk
+	`name_loc4`='科尔摩克'	-- Kurmokk
 WHERE `entry`=14491;
 
 UPDATE `locales_creature` SET
@@ -37944,7 +37944,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14504;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='恐惧战马'	-- Riding Horse (Dreadsteed)
+	`name_loc4`='骑乘用马（恐惧战马）'	-- Riding Horse (Dreadsteed)
 WHERE `entry`=14505;
 
 UPDATE `locales_creature` SET
@@ -38182,7 +38182,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14564;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='军马'	-- Riding Horse (Charger)
+	`name_loc4`='骑乘用马（军马）'	-- Riding Horse (Charger)
 WHERE `entry`=14565;
 
 UPDATE `locales_creature` SET
@@ -38199,7 +38199,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14568;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='雷角中士'	-- Sergeant Thunderhorn
+	`name_loc4`='军士霍斯·雷角'	-- Sergeant Thunderhorn
 	`subname_loc4`='武器军需官'	-- Weapons Quartermaster
 WHERE `entry`=14581;
 
@@ -38237,7 +38237,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14622;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='战歌峡谷军官'	-- Warsong Gulch Battlemaster
+	`name_loc4`='战歌峡谷指挥官'	-- Warsong Gulch Battlemaster
 WHERE `entry`=14623;
 
 UPDATE `locales_creature` SET
@@ -38374,133 +38374,133 @@ UPDATE `locales_creature` SET
 	`name_loc4`='塞沃尔'	-- Sever
 WHERE `entry`=14682;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Baron Titus Rivendare'	-- Baron Titus Rivendare
--- WHERE `entry`=14683;
+UPDATE `locales_creature` SET
+	`name_loc4`='提图斯·瑞文戴尔男爵'	-- Baron Titus Rivendare
+WHERE `entry`=14683;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巴尔萨冯'	-- Balzaphon
 WHERE `entry`=14684;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Morbus'	-- Morbus
--- WHERE `entry`=14685;
+UPDATE `locales_creature` SET
+	`name_loc4`='莫布斯'	-- Morbus
+WHERE `entry`=14685;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='法瑟蕾丝夫人'	-- Lady Falther'ess
 WHERE `entry`=14686;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Soulless'	-- Soulless
--- WHERE `entry`=14687;
+UPDATE `locales_creature` SET
+	`name_loc4`='无魂者'	-- Soulless
+WHERE `entry`=14687;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Master Sandoval'	-- Master Sandoval
--- WHERE `entry`=14688;
+UPDATE `locales_creature` SET
+	`name_loc4`='萨杜瓦尔'	-- Master Sandoval
+WHERE `entry`=14688;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mana Elemental'	-- Mana Elemental
--- WHERE `entry`=14689;
+UPDATE `locales_creature` SET
+	`name_loc4`='法力元素'	-- Mana Elemental
+WHERE `entry`=14689;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='雷瓦克安'	-- Revanchion
 WHERE `entry`=14690;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Basalt'	-- Basalt
--- WHERE `entry`=14691;
+UPDATE `locales_creature` SET
+	`name_loc4`='巴沙尔特'	-- Basalt
+WHERE `entry`=14691;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Wollstonecraft'	-- Wollstonecraft
--- WHERE `entry`=14692;
+UPDATE `locales_creature` SET
+	`name_loc4`='沃斯通·卡夫特'	-- Wollstonecraft
+WHERE `entry`=14692;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='瑟克恩'	-- Scorn
 WHERE `entry`=14693;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Necrosis'	-- Necrosis
--- WHERE `entry`=14694;
+UPDATE `locales_creature` SET
+	`name_loc4`='奈克罗希斯'	-- Necrosis
+WHERE `entry`=14694;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='布莱克伍德公爵'	-- Lord Blackwood
 WHERE `entry`=14695;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stitched Behemoth'	-- Stitched Behemoth
--- WHERE `entry`=14696;
+UPDATE `locales_creature` SET
+	`name_loc4`='缝合巨兽'	-- Stitched Behemoth
+WHERE `entry`=14696;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='笨拙的憎恶'	-- Lumbering Horror
 WHERE `entry`=14697;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Silent Stalker'	-- Silent Stalker
--- WHERE `entry`=14698;
+UPDATE `locales_creature` SET
+	`name_loc4`='无声潜猎者'	-- Silent Stalker
+WHERE `entry`=14698;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Spectral Soldier UNUSED'	-- Spectral Soldier UNUSED
 -- WHERE `entry`=14699;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Unclean Spirit'	-- Unclean Spirit
--- WHERE `entry`=14700;
+UPDATE `locales_creature` SET
+	`name_loc4`='肮脏的灵魂'	-- Unclean Spirit
+WHERE `entry`=14700;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Doom Wraith'	-- Doom Wraith
--- WHERE `entry`=14701;
+UPDATE `locales_creature` SET
+	`name_loc4`='末日怨鬼'	-- Doom Wraith
+WHERE `entry`=14701;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Wailing Widow'	-- Wailing Widow
--- WHERE `entry`=14702;
+UPDATE `locales_creature` SET
+	`name_loc4`='哀嚎的寡妇'	-- Wailing Widow
+WHERE `entry`=14702;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Death Siren'	-- Death Siren
--- WHERE `entry`=14703;
+UPDATE `locales_creature` SET
+	`name_loc4`='死亡女妖'	-- Death Siren
+WHERE `entry`=14703;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Skittering Dread'	-- Skittering Dread
--- WHERE `entry`=14704;
+UPDATE `locales_creature` SET
+	`name_loc4`='编网地穴恶魔'	-- Skittering Dread
+WHERE `entry`=14704;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Nerubian Webspinner'	-- Nerubian Webspinner
--- WHERE `entry`=14705;
+UPDATE `locales_creature` SET
+	`name_loc4`='尼拉布织网者'	-- Nerubian Webspinner
+WHERE `entry`=14705;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Skeletal Shocktrooper UNUSED'	-- Skeletal Shocktrooper UNUSED
 -- WHERE `entry`=14706;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bone Warder'	-- Bone Warder
--- WHERE `entry`=14707;
+UPDATE `locales_creature` SET
+	`name_loc4`='白骨看守者'	-- Bone Warder
+WHERE `entry`=14707;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Decaying Warrior'	-- Decaying Warrior
--- WHERE `entry`=14708;
+UPDATE `locales_creature` SET
+	`name_loc4`='腐烂的战士'	-- Decaying Warrior
+WHERE `entry`=14708;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blighted Dead'	-- Blighted Dead
--- WHERE `entry`=14709;
+UPDATE `locales_creature` SET
+	`name_loc4`='荒芜死者'	-- Blighted Dead
+WHERE `entry`=14709;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dread Sorcerer'	-- Dread Sorcerer
--- WHERE `entry`=14710;
+UPDATE `locales_creature` SET
+	`name_loc4`='恐怖法术师'	-- Dread Sorcerer
+WHERE `entry`=14710;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Plagued Eater UNUSED'	-- Plagued Eater UNUSED
 -- WHERE `entry`=14711;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Midden Ghoul'	-- Midden Ghoul
--- WHERE `entry`=14712;
+UPDATE `locales_creature` SET
+	`name_loc4`='恶臭食尸鬼'	-- Midden Ghoul
+WHERE `entry`=14712;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Putrid Flyer'	-- Putrid Flyer
--- WHERE `entry`=14713;
+UPDATE `locales_creature` SET
+	`name_loc4`='腐烂飞行者'	-- Putrid Flyer
+WHERE `entry`=14713;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Winged Horror'	-- Winged Horror
--- WHERE `entry`=14714;
+UPDATE `locales_creature` SET
+	`name_loc4`='石翼恐惧者'	-- Winged Horror
+WHERE `entry`=14714;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='银翼精英'	-- Silverwing Elite
@@ -38607,7 +38607,7 @@ WHERE `entry`=14738;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='秘法师雅尔金'	-- Mystic Yayo'jin
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=14739;
 
 UPDATE `locales_creature` SET
@@ -38626,16 +38626,16 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14742;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='雷戈·水炉'	-- Jhordy Lapforge
+	`name_loc4`='霍尔迪·水炉'	-- Jhordy Lapforge
 	`subname_loc4`='技师'	-- Engineer
 WHERE `entry`=14743;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='霜狼嗥叫者'	-- Frostwolf Riding Wolf
+	`name_loc4`='霜狼坐骑'	-- Frostwolf Riding Wolf
 WHERE `entry`=14744;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='雷矛军用坐骑'	-- Stormpike Riding Ram
+	`name_loc4`='雷矛坐骑'	-- Stormpike Riding Ram
 WHERE `entry`=14745;
 
 -- UPDATE `locales_creature` SET
@@ -38651,11 +38651,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14750;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='霜狼战旗'	-- Frostwolf Battle Standard
+	`name_loc4`='霜狼军旗'	-- Frostwolf Battle Standard
 WHERE `entry`=14751;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='雷矛战旗'	-- Stormpike Battle Standard
+	`name_loc4`='雷矛军旗'	-- Stormpike Battle Standard
 WHERE `entry`=14752;
 
 UPDATE `locales_creature` SET
@@ -38749,16 +38749,16 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14776;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='西部霜狼将领'	-- West Frostwolf Warmaster
+	`name_loc4`='霜狼西部将领'	-- West Frostwolf Warmaster
 WHERE `entry`=14777;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='沙塔尔·碎颅'	-- Captain Shatterskull
 WHERE `entry`=14781;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Wild Polymorph Target'	-- Wild Polymorph Target
--- WHERE `entry`=14801;
+UPDATE `locales_creature` SET
+	`name_loc4`='野外变形目标'	-- Wild Polymorph Target
+WHERE `entry`=14801;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='拉扎什迅猛龙'	-- Razzashi Raptor
@@ -38790,7 +38790,7 @@ WHERE `entry`=14827;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='吉瓦斯·格里加特'	-- Gelvas Grimegate
-	`subname_loc4`='纪念品与玩具奖励'	-- Darkmoon Faire Ticket Redemption
+	`subname_loc4`='暗月马戏团奖券兑换员'	-- Darkmoon Faire Ticket Redemption
 WHERE `entry`=14828;
 
 UPDATE `locales_creature` SET
@@ -38835,22 +38835,22 @@ WHERE `entry`=14843;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塞兰妮亚'	-- Sylannia
-	`subname_loc4`='饮料商人'	-- Darkmoon Faire Drink Vendor
+	`subname_loc4`='暗月马戏团饮料商'	-- Darkmoon Faire Drink Vendor
 WHERE `entry`=14844;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='斯塔姆·雷角'	-- Stamp Thunderhorn
-	`subname_loc4`='食品商'	-- Darkmoon Faire Food Vendor
+	`subname_loc4`='暗月马戏团食品商'	-- Darkmoon Faire Food Vendor
 WHERE `entry`=14845;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='兰拉'	-- Lhara
-	`subname_loc4`='宠物与坐骑奖励'	-- Darkmoon Faire Exotic Goods
+	`subname_loc4`='暗月马戏团特殊商品'	-- Darkmoon Faire Exotic Goods
 WHERE `entry`=14846;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='萨杜斯·帕雷教授'	-- Professor Thaddeus Paleo
-	`subname_loc4`='暗月卡片商人'	-- Darkmoon Faire Cards & Exotic Goods
+	`subname_loc4`='暗月马戏团卡片和特殊商品销售员'	-- Darkmoon Faire Cards & Exotic Goods
 WHERE `entry`=14847;
 
 UPDATE `locales_creature` SET
@@ -38858,44 +38858,44 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14848;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暗月艺人'	-- Darkmoon Faire Carnie
+	`name_loc4`='暗月马戏团艺人'	-- Darkmoon Faire Carnie
 WHERE `entry`=14849;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格鲁克'	-- Gruk
 WHERE `entry`=14850;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Bog'	-- Bog
--- WHERE `entry`=14851;
+UPDATE `locales_creature` SET
+	`name_loc4`='伯格'	-- Bog
+WHERE `entry`=14851;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Throk'	-- Throk
--- WHERE `entry`=14852;
+UPDATE `locales_creature` SET
+	`name_loc4`='斯洛克'	-- Throk
+WHERE `entry`=14852;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Torg'	-- Torg
--- WHERE `entry`=14853;
+UPDATE `locales_creature` SET
+	`name_loc4`='托尔格'	-- Torg
+WHERE `entry`=14853;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Kall'	-- Kall
--- WHERE `entry`=14854;
+UPDATE `locales_creature` SET
+	`name_loc4`='卡尔'	-- Kall
+WHERE `entry`=14854;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Dagg'	-- Dagg
--- WHERE `entry`=14855;
+UPDATE `locales_creature` SET
+	`name_loc4`='达戈'	-- Dagg
+WHERE `entry`=14855;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mott'	-- Mott
--- WHERE `entry`=14856;
+UPDATE `locales_creature` SET
+	`name_loc4`='莫特'	-- Mott
+WHERE `entry`=14856;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='埃尔克'	-- Erk
 WHERE `entry`=14857;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Progk'	-- Progk
--- WHERE `entry`=14858;
+UPDATE `locales_creature` SET
+	`name_loc4`='普罗克'	-- Progk
+WHERE `entry`=14858;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卫兵塔鲁克'	-- Guard Taruc
@@ -38934,7 +38934,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=14868;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='迷你鸡蛇兽'	-- Pygmy Cockatrice
+	`name_loc4`='派格米'	-- Pygmy Cockatrice
 WHERE `entry`=14869;
 
 -- UPDATE `locales_creature` SET
@@ -39003,9 +39003,9 @@ WHERE `entry`=14884;
 -- 	`subname_loc4`='Designer Extraordinaire'	-- Designer Extraordinaire
 -- WHERE `entry`=14885;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='The Good Rabbit'	-- The Good Rabbit
--- WHERE `entry`=14886;
+UPDATE `locales_creature` SET
+	`name_loc4`='好兔子'	-- The Good Rabbit
+WHERE `entry`=14886;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='伊森德雷'	-- Ysondre
@@ -39371,9 +39371,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='拉斯塔哈之手'	-- Hand of Rastakhan
 WHERE `entry`=15080;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Gri''lek'	-- Gri'lek
--- WHERE `entry`=15081;
+UPDATE `locales_creature` SET
+	`name_loc4`='格里雷克'	-- Gri'lek
+WHERE `entry`=15081;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格里雷克'	-- Gri'lek
@@ -39408,7 +39408,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15089;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='拉扎什迅猛龙'	-- Swift Razzashi Raptor
+	`name_loc4`='拉卡什迅猛龙'	-- Swift Razzashi Raptor
 WHERE `entry`=15090;
 
 UPDATE `locales_creature` SET
@@ -39493,9 +39493,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='钓鱼大赛宣传员'	-- Fishing Promoter
 WHERE `entry`=15119;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Skeletal Magelord'	-- Skeletal Magelord
--- WHERE `entry`=15121;
+UPDATE `locales_creature` SET
+	`name_loc4`='骷髅魔法大师'	-- Skeletal Magelord
+WHERE `entry`=15121;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='死亡的加兹兰卡'	-- Gahz'ranka Dead
@@ -39547,9 +39547,9 @@ WHERE `entry`=15131;
 -- 	`name_loc4`='Outlands Test Dummy Warrior 70'	-- Outlands Test Dummy Warrior 70
 -- WHERE `entry`=15134;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Chromatic Drake Mount'	-- Chromatic Drake Mount
--- WHERE `entry`=15135;
+UPDATE `locales_creature` SET
+	`name_loc4`='多彩座龙'	-- Chromatic Drake Mount
+WHERE `entry`=15135;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='落锤精英'	-- Hammerfall Elite
@@ -39653,7 +39653,7 @@ WHERE `entry`=15164;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='傲慢的店主'	-- Haughty Modiste
-	`subname_loc4`='新潮服装设计师'	-- Fashion Designer
+	`subname_loc4`='新潮设计师'	-- Fashion Designer
 WHERE `entry`=15165;
 
 -- UPDATE `locales_creature` SET
@@ -39696,7 +39696,7 @@ WHERE `entry`=15174;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='库尔·锐角'	-- Khur Hornstriker
-	`subname_loc4`='材料商'	-- Reagent Vendor
+	`subname_loc4`='施法材料商'	-- Reagent Vendor
 WHERE `entry`=15175;
 
 UPDATE `locales_creature` SET
@@ -39716,7 +39716,7 @@ WHERE `entry`=15178;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='米什塔'	-- Mishta
-	`subname_loc4`='贸易供应商'	-- General Trade Goods Vendor
+	`subname_loc4`='杂货商'	-- General Trade Goods Vendor
 WHERE `entry`=15179;
 
 UPDATE `locales_creature` SET
@@ -39773,7 +39773,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15192;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='希尔瓦娜斯·风行者'	-- The Banshee Queen
+	`name_loc4`='女妖之王'	-- The Banshee Queen
 WHERE `entry`=15193;
 
 UPDATE `locales_creature` SET
@@ -39792,9 +39792,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='黑暗召唤者雅恩卡'	-- Darkcaller Yanka
 WHERE `entry`=15197;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blackwing'	-- Blackwing
--- WHERE `entry`=15198;
+UPDATE `locales_creature` SET
+	`name_loc4`='黑翼'	-- Blackwing
+WHERE `entry`=15198;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='哈特曼中士'	-- Sergeant Hartman
@@ -39849,10 +39849,10 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='深渊议会'	-- Abyssal Council
 WHERE `entry`=15209;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Vulculon UNUSED'	-- Vulculon UNUSED
--- 	`subname_loc4`='Abyssal Council'	-- Abyssal Council
--- WHERE `entry`=15210;
+UPDATE `locales_creature` SET
+	`name_loc4`='Vulculon UNUSED'	-- Vulculon UNUSED
+	`subname_loc4`='深渊议会'	-- Abyssal Council
+WHERE `entry`=15210;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='碧蓝圣殿骑士'	-- Azure Templar
@@ -39907,13 +39907,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='鲁特加尔隐形触发器'	-- Rutgar Invisible Trigger
 WHERE `entry`=15222;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='[PH] [UNUSED] Lord Inquisitor Opalezzix'	-- [PH] [UNUSED] Lord Inquisitor Opalezzix
--- 	`subname_loc4`='Abyssal Council'	-- Abyssal Council
--- WHERE `entry`=15223;
+UPDATE `locales_creature` SET
+	`name_loc4`='[PH] [UNUSED] Lord Inquisitor Opalezzix'	-- [PH] [UNUSED] Lord Inquisitor Opalezzix
+	`subname_loc4`='深渊议会'	-- Abyssal Council
+WHERE `entry`=15223;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='梦境之雾'	-- Dream Fog
+	`name_loc4`='梦雾'	-- Dream Fog
 WHERE `entry`=15224;
 
 -- UPDATE `locales_creature` SET
@@ -40124,7 +40124,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15302;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='玛克希玛·雷管'	-- Maxima Blastenheimer
+	`name_loc4`='玛克希玛'	-- Maxima Blastenheimer
 	`subname_loc4`='暗月马戏团炮手'	-- Darkmoon Faire Cannoneer
 WHERE `entry`=15303;
 
@@ -40177,7 +40177,7 @@ WHERE `entry`=15314;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='麦琳妮·霜月'	-- Mylini Frostmoon
-	`subname_loc4`='武器商'	-- Weapon Merchant
+	`subname_loc4`='武器商人'	-- Weapon Merchant
 WHERE `entry`=15315;
 
 UPDATE `locales_creature` SET
@@ -40225,7 +40225,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15327;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暗月蒸汽坦克'	-- Steam Tonk
+	`name_loc4`='蒸汽车'	-- Steam Tonk
 WHERE `entry`=15328;
 
 -- UPDATE `locales_creature` SET
@@ -40320,9 +40320,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='联盟准将'	-- Alliance Brigadier General
 WHERE `entry`=15351;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Corrupted Water Elemental'	-- Corrupted Water Elemental
--- WHERE `entry`=15352;
+UPDATE `locales_creature` SET
+	`name_loc4`='堕落的水元素'	-- Corrupted Water Elemental
+WHERE `entry`=15352;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡提娜·闪星'	-- Katrina Shimmerstar
@@ -40338,25 +40338,25 @@ UPDATE `locales_creature` SET
 	`name_loc4`='阿努比萨斯守卫者'	-- Anubisath Guardian
 WHERE `entry`=15355;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Blue Baby Murloc'	-- Blue Baby Murloc
--- WHERE `entry`=15356;
+UPDATE `locales_creature` SET
+	`name_loc4`='蓝色小鱼人'	-- Blue Baby Murloc
+WHERE `entry`=15356;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Purple Baby Murloc'	-- Purple Baby Murloc
--- WHERE `entry`=15357;
+UPDATE `locales_creature` SET
+	`name_loc4`='紫色小鱼人'	-- Purple Baby Murloc
+WHERE `entry`=15357;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='White Baby Murloc'	-- White Baby Murloc
--- WHERE `entry`=15358;
+UPDATE `locales_creature` SET
+	`name_loc4`='白色小鱼人'	-- White Baby Murloc
+WHERE `entry`=15358;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Pink Baby Murloc'	-- Pink Baby Murloc
--- WHERE `entry`=15359;
+UPDATE `locales_creature` SET
+	`name_loc4`='粉色小鱼人'	-- Pink Baby Murloc
+WHERE `entry`=15359;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Green Baby Murloc'	-- Green Baby Murloc
--- WHERE `entry`=15360;
+UPDATE `locales_creature` SET
+	`name_loc4`='绿色小鱼人'	-- Green Baby Murloc
+WHERE `entry`=15360;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Murki'	-- Murki
@@ -40415,7 +40415,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15379;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='阿瑞苟斯'	-- Arygos
+	`name_loc4`='亚雷戈斯'	-- Arygos
 WHERE `entry`=15380;
 
 UPDATE `locales_creature` SET
@@ -40484,7 +40484,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15410;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='阿瑞苟斯'	-- Arygos Dragon Form
+	`name_loc4`='亚雷戈斯龙类形态'	-- Arygos Dragon Form
 WHERE `entry`=15411;
 
 UPDATE `locales_creature` SET
@@ -40505,7 +40505,7 @@ WHERE `entry`=15415;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='卡妮亚'	-- Kania
-	`subname_loc4`='附魔供应商'	-- Enchanting Supplier
+	`subname_loc4`='附魔材料商'	-- Enchanting Supplier
 WHERE `entry`=15419;
 
 UPDATE `locales_creature` SET
@@ -40559,9 +40559,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='荆棘藻收集者'	-- Stranglekelp Collector
 WHERE `entry`=15434;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Ironforge Brigade Mortarman'	-- Ironforge Brigade Mortarman
--- WHERE `entry`=15435;
+UPDATE `locales_creature` SET
+	`name_loc4`='铁炉堡军团迫击炮手'	-- Ironforge Brigade Mortarman
+WHERE `entry`=15435;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='迫击炮中士斯托特·石锤'	-- Mortar Sergeant Stouthammer
@@ -40708,7 +40708,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15473;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='甲虫'	-- Beetle
+	`name_loc4`='甲壳虫'	-- Beetle
 WHERE `entry`=15475;
 
 UPDATE `locales_creature` SET
@@ -40763,9 +40763,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='运河狂鱼'	-- Canal Frenzy
 WHERE `entry`=15505;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stewvul'	-- Stewvul
--- WHERE `entry`=15506;
+UPDATE `locales_creature` SET
+	`name_loc4`='斯图沃尔'	-- Stewvul
+WHERE `entry`=15506;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='吞咽者布鲁'	-- Buru the Gorger Transform Visual
@@ -40810,13 +40810,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='奥罗'	-- Ouro
 WHERE `entry`=15517;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Auctioneer Grum'	-- Auctioneer Grum
--- WHERE `entry`=15518;
+UPDATE `locales_creature` SET
+	`name_loc4`='拍卖师格鲁姆'	-- Auctioneer Grum
+WHERE `entry`=15518;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Auctioneer Bertram'	-- Auctioneer Bertram
--- WHERE `entry`=15519;
+UPDATE `locales_creature` SET
+	`name_loc4`='拍卖师贝特拉姆'	-- Auctioneer Bertram
+WHERE `entry`=15519;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='雷利'	-- O'Reily
@@ -40858,14 +40858,14 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='魔纹绷带收集者'	-- Mageweave Bandage Collector
 WHERE `entry`=15529;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Twilight Master Xarvos'	-- Twilight Master Xarvos
--- 	`subname_loc4`='Twilight''s Hammer'	-- Twilight's Hammer
--- WHERE `entry`=15530;
+UPDATE `locales_creature` SET
+	`name_loc4`='暮光主宰萨尔沃斯'	-- Twilight Master Xarvos
+	`subname_loc4`='暮光之锤'	-- Twilight's Hammer
+WHERE `entry`=15530;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='石头守卫陶蹄'	-- Stoneguard Clayhoof
-	`subname_loc4`='符文布绷带收集者'	-- Runecloth Bandage Collector
+	`name_loc4`='尼根·陶蹄'	-- Stoneguard Clayhoof
+	`subname_loc4`='符文布收集者'	-- Runecloth Bandage Collector
 WHERE `entry`=15532;
 
 UPDATE `locales_creature` SET
@@ -40883,9 +40883,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='烤鲑鱼收集者'	-- Baked Salmon Collector
 WHERE `entry`=15535;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Noxxie Razzlebrack'	-- Noxxie Razzlebrack
--- WHERE `entry`=15536;
+UPDATE `locales_creature` SET
+	`name_loc4`='诺克希·拉兹布拉克'	-- Noxxie Razzlebrack
+WHERE `entry`=15536;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='阿努比萨斯战士'	-- Anubisath Warrior
@@ -41047,7 +41047,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15579;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='长者伊萨·麦蹄'	-- Elder Proudhorn
+	`name_loc4`='傲角长者'	-- Elder Proudhorn
 WHERE `entry`=15580;
 
 UPDATE `locales_creature` SET
@@ -41063,11 +41063,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15583;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='星眼长者'	-- Elder Skyseer
+	`name_loc4`='星灵长者'	-- Elder Skyseer
 WHERE `entry`=15584;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='晨行者长者'	-- Elder Dawnstrider
+	`name_loc4`='晨行长者'	-- Elder Dawnstrider
 WHERE `entry`=15585;
 
 UPDATE `locales_creature` SET
@@ -41075,7 +41075,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15586;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='迷雾行者长者'	-- Elder Mistwalker
+	`name_loc4`='迷雾长者'	-- Elder Mistwalker
 WHERE `entry`=15587;
 
 UPDATE `locales_creature` SET
@@ -41103,11 +41103,11 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15593;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='袭月长者'	-- Elder Moonstrike
+	`name_loc4`='月击长者'	-- Elder Moonstrike
 WHERE `entry`=15594;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='袭月长者'	-- Elder Bladeleaf
+	`name_loc4`='锋叶长者'	-- Elder Bladeleaf
 WHERE `entry`=15595;
 
 UPDATE `locales_creature` SET
@@ -41115,7 +41115,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15596;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='月卫长者'	-- Elder Moonwarden
+	`name_loc4`='月光长者'	-- Elder Moonwarden
 WHERE `entry`=15597;
 
 UPDATE `locales_creature` SET
@@ -41158,12 +41158,12 @@ UPDATE `locales_creature` SET
 	`name_loc4`='远风长者'	-- Elder Farwhisper
 WHERE `entry`=15607;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Medivh'	-- Medivh
--- WHERE `entry`=15608;
+UPDATE `locales_creature` SET
+	`name_loc4`='麦迪文'	-- Medivh
+WHERE `entry`=15608;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='塞纳里奥斥候兰蒂奥'	-- Cenarion Scout Landion
+	`name_loc4`='塞纳里奥斥候兰迪奥'	-- Cenarion Scout Landion
 WHERE `entry`=15609;
 
 UPDATE `locales_creature` SET
@@ -41171,7 +41171,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15610;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='塞纳里奥斥候加莉亚'	-- Cenarion Scout Jalia
+	`name_loc4`='塞纳里奥斥候佳莉亚'	-- Cenarion Scout Jalia
 WHERE `entry`=15611;
 
 UPDATE `locales_creature` SET
@@ -41184,7 +41184,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15613;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天启者乔纳森'	-- J.D. Shadesong
+	`name_loc4`='沙德森'	-- J.D. Shadesong
 WHERE `entry`=15614;
 
 UPDATE `locales_creature` SET
@@ -41199,9 +41199,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='奥格瑞玛军团掷斧者'	-- Orgrimmar Legion Axe Thrower
 WHERE `entry`=15617;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Orgrimmar Legion Hexxer'	-- Orgrimmar Legion Hexxer
--- WHERE `entry`=15618;
+UPDATE `locales_creature` SET
+	`name_loc4`='奥格瑞玛军团妖术师'	-- Orgrimmar Legion Hexxer
+WHERE `entry`=15618;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='silithus test mob'	-- silithus test mob
@@ -41231,13 +41231,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='暮光腐蚀者'	-- Twilight Corrupter
 WHERE `entry`=15625;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Celestine Omencaller'	-- Celestine Omencaller
--- WHERE `entry`=15626;
+UPDATE `locales_creature` SET
+	`name_loc4`='塞雷斯坦'	-- Celestine Omencaller
+WHERE `entry`=15626;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jarod Shadowsong'	-- Jarod Shadowsong
--- WHERE `entry`=15627;
+UPDATE `locales_creature` SET
+	`name_loc4`='亚罗德·影歌'	-- Jarod Shadowsong
+WHERE `entry`=15627;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='被救赎的伊兰尼库斯'	-- Eranikus the Redeemed
@@ -41261,7 +41261,7 @@ WHERE `entry`=15631;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='泰兰德'	-- Tyrande
-	`subname_loc4`='艾露恩的高阶女祭司'	-- High Priestess of Elune
+	`subname_loc4`='艾露恩的高阶祭司'	-- High Priestess of Elune
 WHERE `entry`=15633;
 
 UPDATE `locales_creature` SET
@@ -41276,9 +41276,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='被变形的伊兰尼库斯'	-- Eranikus Transformed
 WHERE `entry`=15660;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Baby Shark'	-- Baby Shark
--- WHERE `entry`=15661;
+UPDATE `locales_creature` SET
+	`name_loc4`='鲨鱼宝宝'	-- Baby Shark
+WHERE `entry`=15661;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='战备志愿者'	-- War Effort Volunteer
@@ -41293,7 +41293,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15665;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='蓝色其拉作战坦克'	-- Black Qiraji Battle Tank
+	`name_loc4`='黑色其拉作战坦克'	-- Black Qiraji Battle Tank
 WHERE `entry`=15666;
 
 UPDATE `locales_creature` SET
@@ -41437,7 +41437,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15712;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='黑色其拉作战坦克'	-- Blue Qiraji Battle Tank
+	`name_loc4`='蓝色其拉作战坦克'	-- Blue Qiraji Battle Tank
 WHERE `entry`=15713;
 
 UPDATE `locales_creature` SET
@@ -42202,9 +42202,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='维希度斯启动器'	-- Viscidus Trigger
 WHERE `entry`=15922;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Toxic Slime'	-- Toxic Slime
--- WHERE `entry`=15925;
+UPDATE `locales_creature` SET
+	`name_loc4`='毒性泥浆怪'	-- Toxic Slime
+WHERE `entry`=15925;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='塔迪乌斯'	-- Thaddius
@@ -42247,7 +42247,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15953;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='药剂师诺斯'	-- Noth the Plaguebringer
+	`name_loc4`='瘟疫使者诺斯'	-- Noth the Plaguebringer
 WHERE `entry`=15954;
 
 UPDATE `locales_creature` SET
@@ -42275,7 +42275,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15964;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='奥特兰克山谷军官'	-- Alterac Valley Battlemaster
+	`name_loc4`='奥特兰克峡谷军官'	-- Alterac Valley Battlemaster
 WHERE `entry`=15972;
 
 UPDATE `locales_creature` SET
@@ -42295,7 +42295,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15976;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='毒性蜘蛛'	-- Infectious Skitterer
+	`name_loc4`='染疫蜘蛛'	-- Infectious Skitterer
 WHERE `entry`=15977;
 
 UPDATE `locales_creature` SET
@@ -42330,17 +42330,17 @@ WHERE `entry`=15984;
 -- 	`name_loc4`='[PH] Eric Maloof Test Guy'	-- [PH] Eric Maloof Test Guy
 -- WHERE `entry`=15985;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Sapphiron'	-- Sapphiron
--- WHERE `entry`=15989;
+UPDATE `locales_creature` SET
+	`name_loc4`='萨菲隆'	-- Sapphiron
+WHERE `entry`=15989;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='克尔苏加德'	-- Kel'Thuzad
 WHERE `entry`=15990;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lady Dena Kennedy'	-- Lady Dena Kennedy
--- WHERE `entry`=15991;
+UPDATE `locales_creature` SET
+	`name_loc4`='德娜·肯尼迪'	-- Lady Dena Kennedy
+WHERE `entry`=15991;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Sam''s Test Dummy 1'	-- Sam's Test Dummy 1
@@ -42395,7 +42395,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16007;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='泰玛'	-- Temma of the Wells
+	`name_loc4`='井边的泰玛'	-- Temma of the Wells
 WHERE `entry`=16008;
 
 UPDATE `locales_creature` SET
@@ -42419,7 +42419,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16014;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='恶性角斗士的小木槌'	-- Vi'el
+	`name_loc4`='维尔'	-- Vi'el
 	`subname_loc4`='特殊材料商人'	-- Exotic Reagent Merchant
 WHERE `entry`=16015;
 
@@ -42435,10 +42435,10 @@ UPDATE `locales_creature` SET
 	`name_loc4`='胆汁呕吐者'	-- Bile Retcher
 WHERE `entry`=16018;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Boorana Thunderhoof'	-- Boorana Thunderhoof
--- 	`subname_loc4`='Panda Cub Caretaker'	-- Panda Cub Caretaker
--- WHERE `entry`=16019;
+UPDATE `locales_creature` SET
+	`name_loc4`='布拉娜·雷蹄'	-- Boorana Thunderhoof
+	`subname_loc4`='熊猫宝宝看护员'	-- Panda Cub Caretaker
+WHERE `entry`=16019;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='疯狂的科学家'	-- Mad Scientist
@@ -42452,17 +42452,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='外科助手'	-- Surgical Assistant
 WHERE `entry`=16022;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Allenya Moonshadow'	-- Allenya Moonshadow
--- 	`subname_loc4`='Panda Cub Caretaker'	-- Panda Cub Caretaker
--- WHERE `entry`=16023;
+UPDATE `locales_creature` SET
+	`name_loc4`='艾蕾拉·月影'	-- Allenya Moonshadow
+	`subname_loc4`='熊猫宝宝看护员'	-- Panda Cub Caretaker
+WHERE `entry`=16023;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='腐液软泥怪'	-- Embalming Slime
 WHERE `entry`=16024;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='缝合巨人'	-- Stitched Spewer
+	`name_loc4`='缝合呕吐者'	-- Stitched Spewer
 WHERE `entry`=16025;
 
 -- UPDATE `locales_creature` SET
@@ -42498,7 +42498,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16033;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾兽'	-- Plague Beast
+	`name_loc4`='瘟疫兽'	-- Plague Beast
 WHERE `entry`=16034;
 
 -- UPDATE `locales_creature` SET
@@ -42631,7 +42631,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16066;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='死亡战马'	-- Skeletal Steed
+	`name_loc4`='骸骨战马'	-- Skeletal Steed
 WHERE `entry`=16067;
 
 UPDATE `locales_creature` SET
@@ -42687,7 +42687,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16082;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='莫尔·灰蹄'	-- Mor Grayhoof Transformation Visual
+	`name_loc4`='莫尔·灰蹄变形'	-- Mor Grayhoof Transformation Visual
 WHERE `entry`=16083;
 
 -- UPDATE `locales_creature` SET
@@ -42737,17 +42737,17 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16096;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='伊萨利恩'	-- Isalien
+	`name_loc4`='伊萨莉恩'	-- Isalien
 WHERE `entry`=16097;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='埃菲里恩'	-- Empyrean
 WHERE `entry`=16098;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='[PH] Naxxramas Test Boss'	-- [PH] Naxxramas Test Boss
--- 	`subname_loc4`='Minion of Alex'	-- Minion of Alex
--- WHERE `entry`=16099;
+UPDATE `locales_creature` SET
+	`name_loc4`='[PH] Naxxramas Test Boss'	-- [PH] Naxxramas Test Boss
+	`subname_loc4`='仆从'	-- Minion of Alex
+WHERE `entry`=16099;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='亚希达触发器'	-- Ysida's Trigger
@@ -42799,7 +42799,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16111;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='十字军指挥官科尔法克斯'	-- Korfax, Champion of the Light
+	`name_loc4`='科尔法克斯，圣光之勇士'	-- Korfax, Champion of the Light
 	`subname_loc4`='圣光兄弟会'	-- Brotherhood of the Light
 WHERE `entry`=16112;
 
@@ -42814,7 +42814,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16114;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='十字军指挥官埃里戈尔·黎明使者'	-- Commander Eligor Dawnbringer
+	`name_loc4`='指挥官埃里戈尔·黎明使者'	-- Commander Eligor Dawnbringer
 	`subname_loc4`='圣光兄弟会'	-- Brotherhood of the Light
 WHERE `entry`=16115;
 
@@ -42824,7 +42824,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16116;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾野猪'	-- Plagued Swine
+	`name_loc4`='瘟疫野猪'	-- Plagued Swine
 WHERE `entry`=16117;
 
 UPDATE `locales_creature` SET
@@ -42839,9 +42839,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='白骨法师'	-- Bone Mage
 WHERE `entry`=16120;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Mortar'	-- Mortar
--- WHERE `entry`=16121;
+UPDATE `locales_creature` SET
+	`name_loc4`='迫击炮'	-- Mortar
+WHERE `entry`=16121;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='格雷姆尼克'	-- Gremnik Rizzlesprang
@@ -42863,9 +42863,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='鬼灵学徒'	-- Spectral Trainee
 WHERE `entry`=16127;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Rhonin'	-- Rhonin
--- WHERE `entry`=16128;
+UPDATE `locales_creature` SET
+	`name_loc4`='罗宁'	-- Rhonin
+WHERE `entry`=16128;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='暗影裂隙'	-- Shadow Fissure
@@ -42888,7 +42888,7 @@ WHERE `entry`=16133;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='雷布拉特·碎地者'	-- Rimblat Earthshatter
-	`subname_loc4`='大地之环'	-- The Earthen Ring
+	`subname_loc4`='陶土议会'	-- The Earthen Ring
 WHERE `entry`=16134;
 
 UPDATE `locales_creature` SET
@@ -42949,7 +42949,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16150;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='复活的侍从'	-- Risen Deathknight
+	`name_loc4`='复活的死亡骑士'	-- Risen Deathknight
 WHERE `entry`=16154;
 
 UPDATE `locales_creature` SET
@@ -42993,9 +42993,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='破损的死灵碎片'	-- Damaged Necrotic Shard
 WHERE `entry`=16172;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Crystal Zapper'	-- Crystal Zapper
--- WHERE `entry`=16182;
+UPDATE `locales_creature` SET
+	`name_loc4`='水晶毁灭者'	-- Crystal Zapper
+WHERE `entry`=16182;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='蛛怪监工'	-- Nerubian Overseer
@@ -43022,9 +43022,9 @@ UPDATE `locales_creature` SET
 	`subname_loc4`='银色黎明'	-- The Argent Dawn
 WHERE `entry`=16212;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Necropolis Controller'	-- Necropolis Controller
--- WHERE `entry`=16214;
+UPDATE `locales_creature` SET
+	`name_loc4`='浮空城控制器'	-- Necropolis Controller
+WHERE `entry`=16214;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='邪恶法杖'	-- Unholy Staff
@@ -43070,17 +43070,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='运货的骡子'	-- Caravan Mule
 WHERE `entry`=16232;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Plaguewing Slug'	-- Plaguewing Slug
--- WHERE `entry`=16233;
+UPDATE `locales_creature` SET
+	`name_loc4`='瘟疫毒虫'	-- Plaguewing Slug
+WHERE `entry`=16233;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Flesh Ripper'	-- Flesh Ripper
--- WHERE `entry`=16234;
+UPDATE `locales_creature` SET
+	`name_loc4`='血肉撕裂者'	-- Flesh Ripper
+WHERE `entry`=16234;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Plague Flesh Tentacle'	-- Plague Flesh Tentacle
--- WHERE `entry`=16235;
+UPDATE `locales_creature` SET
+	`name_loc4`='瘟疫血肉触须'	-- Plague Flesh Tentacle
+WHERE `entry`=16235;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='眼柄'	-- Eye Stalk
@@ -43092,7 +43092,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16241;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾软泥怪'	-- Plague Slime
+	`name_loc4`='瘟疫软泥怪'	-- Plague Slime
 WHERE `entry`=16243;
 
 UPDATE `locales_creature` SET
@@ -43185,7 +43185,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16361;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾云雾'	-- Grobbulus Cloud
+	`name_loc4`='瘟疫云雾'	-- Grobbulus Cloud
 WHERE `entry`=16363;
 
 UPDATE `locales_creature` SET
@@ -43206,7 +43206,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16371;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='绵羊'	-- Polymorphed Sheep
+	`name_loc4`='小绵羊'	-- Polymorphed Sheep
 WHERE `entry`=16372;
 
 UPDATE `locales_creature` SET
@@ -43214,7 +43214,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16373;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='变形蟑螂'	-- Polymorphed Cockroach
+	`name_loc4`='小强'	-- Polymorphed Cockroach
 WHERE `entry`=16374;
 
 UPDATE `locales_creature` SET
@@ -43359,7 +43359,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16430;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='破碎的死灵水晶'	-- Cracked Necrotic Crystal
+	`name_loc4`='碎裂的死灵水晶'	-- Cracked Necrotic Crystal
 WHERE `entry`=16431;
 
 UPDATE `locales_creature` SET
@@ -43395,7 +43395,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16438;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='大检察官法尔班克斯'	-- Fairbanks Transformed
+	`name_loc4`='法尔班克斯变形'	-- Fairbanks Transformed
 WHERE `entry`=16439;
 
 UPDATE `locales_creature` SET
@@ -43407,9 +43407,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='寒冰皇冠卫士'	-- Guardian of Icecrown
 WHERE `entry`=16441;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Terky'	-- Terky
--- WHERE `entry`=16445;
+UPDATE `locales_creature` SET
+	`name_loc4`='塔吉'	-- Terky
+WHERE `entry`=16445;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='疫病石像鬼'	-- Plagued Gargoyle
@@ -43427,13 +43427,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='纳克萨玛斯之魂'	-- Spirit of Naxxramas
 WHERE `entry`=16449;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='She number one'	-- She number one
--- 	`subname_loc4`='CocaCola Ambassador'	-- CocaCola Ambassador
--- WHERE `entry`=16450;
+UPDATE `locales_creature` SET
+	`name_loc4`='赫比'	-- She number one
+	`subname_loc4`='可口可乐使者'	-- CocaCola Ambassador
+WHERE `entry`=16450;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='死亡骑士复仇者'	-- Deathknight Vindicator
+	`name_loc4`='死亡骑士辩护者'	-- Deathknight Vindicator
 WHERE `entry`=16451;
 
 UPDATE `locales_creature` SET
@@ -43444,19 +43444,19 @@ UPDATE `locales_creature` SET
 	`name_loc4`='死灵捕猎者'	-- Necro Stalker
 WHERE `entry`=16453;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='She number two'	-- She number two
--- 	`subname_loc4`='CocaCola Ambassador'	-- CocaCola Ambassador
--- WHERE `entry`=16454;
+UPDATE `locales_creature` SET
+	`name_loc4`='艾拉'	-- She number two
+	`subname_loc4`='可口可乐使者'	-- CocaCola Ambassador
+WHERE `entry`=16454;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='She number three'	-- She number three
 -- 	`subname_loc4`='CocaCola Ambassador'	-- CocaCola Ambassador
 -- WHERE `entry`=16455;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Poley'	-- Poley
--- WHERE `entry`=16456;
+UPDATE `locales_creature` SET
+	`name_loc4`='波利'	-- Poley
+WHERE `entry`=16456;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='旅店老板法拉莉亚'	-- Innkeeper Faralia
@@ -43538,7 +43538,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16513;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='暗淡的死灵水晶'	-- Faint Necrotic Crystal
+	`name_loc4`='暗淡的通灵水晶'	-- Faint Necrotic Crystal
 WHERE `entry`=16531;
 
 -- UPDATE `locales_creature` SET
@@ -43554,7 +43554,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16547;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='扭扭先生'	-- Mr. Wiggles
+	`name_loc4`='哼哼先生'	-- Mr. Wiggles
 WHERE `entry`=16548;
 
 UPDATE `locales_creature` SET
@@ -43565,9 +43565,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='地穴卫士'	-- Crypt Guard
 WHERE `entry`=16573;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Midsummer Bonfire'	-- Midsummer Bonfire
--- WHERE `entry`=16592;
+UPDATE `locales_creature` SET
+	`name_loc4`='仲夏篝火'	-- Midsummer Bonfire
+WHERE `entry`=16592;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='黑翼法术标记'	-- Blackwing Spell Marker
@@ -43619,15 +43619,15 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16781;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾软泥（蓝）'	-- Plague Slime (Blue)
+	`name_loc4`='蓝色瘟疫软泥怪'	-- Plague Slime (Blue)
 WHERE `entry`=16783;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾软泥（红）'	-- Plague Slime (Red)
+	`name_loc4`='红色瘟疫软泥怪'	-- Plague Slime (Red)
 WHERE `entry`=16784;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾软泥（绿）'	-- Plague Slime (Green)
+	`name_loc4`='绿色瘟疫软泥怪'	-- Plague Slime (Green)
 WHERE `entry`=16785;
 
 UPDATE `locales_creature` SET
@@ -43645,7 +43645,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16788;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='死亡骑士学员'	-- Deathknight Understudy
+	`name_loc4`='见习死亡骑士'	-- Deathknight Understudy
 WHERE `entry`=16803;
 
 UPDATE `locales_creature` SET
@@ -43660,9 +43660,9 @@ UPDATE `locales_creature` SET
 	`name_loc4`='死亡领主'	-- Death Lord
 WHERE `entry`=16861;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Stormwind Celebrant'	-- Stormwind Celebrant
--- WHERE `entry`=16889;
+UPDATE `locales_creature` SET
+	`name_loc4`='暴风城司仪'	-- Stormwind Celebrant
+WHERE `entry`=16889;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Ironforge Celebrant'	-- Ironforge Celebrant
@@ -43677,52 +43677,52 @@ WHERE `entry`=16861;
 -- 	`name_loc4`='Darnassus Celebrant'	-- Darnassus Celebrant
 -- WHERE `entry`=16892;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Orgrimmar Celebrant'	-- Orgrimmar Celebrant
--- WHERE `entry`=16893;
+UPDATE `locales_creature` SET
+	`name_loc4`='奥格瑞玛司仪'	-- Orgrimmar Celebrant
+WHERE `entry`=16893;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Thunder Bluff Celebrant'	-- Thunder Bluff Celebrant
--- WHERE `entry`=16894;
+UPDATE `locales_creature` SET
+	`name_loc4`='雷霆崖司仪'	-- Thunder Bluff Celebrant
+WHERE `entry`=16894;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Undercity Celebrant'	-- Undercity Celebrant
--- WHERE `entry`=16895;
+UPDATE `locales_creature` SET
+	`name_loc4`='幽暗城司仪'	-- Undercity Celebrant
+WHERE `entry`=16895;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Midsummer Merchant'	-- Midsummer Merchant
--- 	`subname_loc4`='Festival Supplies'	-- Festival Supplies
--- WHERE `entry`=16979;
+UPDATE `locales_creature` SET
+	`name_loc4`='仲夏商人'	-- Midsummer Merchant
+	`subname_loc4`='节日商人'	-- Festival Supplies
+WHERE `entry`=16979;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='巫妖王'	-- The Lich King
 WHERE `entry`=16980;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾卫士'	-- Plagued Guardian
+	`name_loc4`='瘟疫卫士'	-- Plagued Guardian
 WHERE `entry`=16981;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾构造体'	-- Plagued Construct
+	`name_loc4`='瘟疫构造体'	-- Plagued Construct
 WHERE `entry`=16982;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾勇士'	-- Plagued Champion
+	`name_loc4`='瘟疫勇士'	-- Plagued Champion
 WHERE `entry`=16983;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天灾战士'	-- Plagued Warrior
+	`name_loc4`='瘟疫战士'	-- Plagued Warrior
 WHERE `entry`=16984;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Midsummer Merchant Horde Costume'	-- Midsummer Merchant Horde Costume
--- 	`subname_loc4`='Festival Supplies'	-- Festival Supplies
--- WHERE `entry`=16985;
+UPDATE `locales_creature` SET
+	`name_loc4`='仲夏部落商人'	-- Midsummer Merchant Horde Costume
+	`subname_loc4`='节日商人'	-- Festival Supplies
+WHERE `entry`=16985;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Midsummer Merchant Alliance Costume'	-- Midsummer Merchant Alliance Costume
--- 	`subname_loc4`='Festival Supplies'	-- Festival Supplies
--- WHERE `entry`=16986;
+UPDATE `locales_creature` SET
+	`name_loc4`='仲夏联盟商人'	-- Midsummer Merchant Alliance Costume
+	`subname_loc4`='节日商人'	-- Festival Supplies
+WHERE `entry`=16986;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='节日护火者：牛头人'	-- Festival Flamekeeper Costume: Tauren
@@ -43741,7 +43741,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16990;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='巫妖王的使者'	-- Mouth of Kel'Thuzad
+	`name_loc4`='克尔苏加德之口'	-- Mouth of Kel'Thuzad
 WHERE `entry`=16995;
 
 UPDATE `locales_creature` SET
@@ -43765,9 +43765,9 @@ WHERE `entry`=17025;
 -- 	`name_loc4`='Varel Redrock'	-- Varel Redrock
 -- WHERE `entry`=17031;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Varl Stonebleeder'	-- Varl Stonebleeder
--- WHERE `entry`=17032;
+UPDATE `locales_creature` SET
+	`name_loc4`='瓦尔·石血'	-- Varl Stonebleeder
+WHERE `entry`=17032;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='暴风城食火者'	-- Stormwind Firebreather
@@ -43821,14 +43821,14 @@ UPDATE `locales_creature` SET
 	`name_loc4`='塞纳里奥斥候'	-- Cenarion Scout
 WHERE `entry`=17074;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Sandworm'	-- Sandworm
--- WHERE `entry`=17075;
+UPDATE `locales_creature` SET
+	`name_loc4`='沙虫'	-- Sandworm
+WHERE `entry`=17075;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Jimmy McWeaksauce'	-- Jimmy McWeaksauce
--- 	`subname_loc4`='Cool Guy'	-- Cool Guy
--- WHERE `entry`=17078;
+UPDATE `locales_creature` SET
+	`name_loc4`='吉米·维克'	-- Jimmy McWeaksauce
+	`subname_loc4`='正强者'	-- Cool Guy
+WHERE `entry`=17078;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='吉里卡将军'	-- General Kirika
@@ -43876,17 +43876,17 @@ UPDATE `locales_creature` SET
 	`name_loc4`='恶魔卫士'	-- Felguard
 WHERE `entry`=17252;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='White Tiger Cub'	-- White Tiger Cub
--- WHERE `entry`=17254;
+UPDATE `locales_creature` SET
+	`name_loc4`='白色虎崽'	-- White Tiger Cub
+WHERE `entry`=17254;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Hippogryph Hatchling'	-- Hippogryph Hatchling
--- WHERE `entry`=17255;
+UPDATE `locales_creature` SET
+	`name_loc4`='角鹰兽宝宝'	-- Hippogryph Hatchling
+WHERE `entry`=17255;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Purple Ogre Costume'	-- Purple Ogre Costume
--- WHERE `entry`=17258;
+UPDATE `locales_creature` SET
+	`name_loc4`='紫色食人魔装束'	-- Purple Ogre Costume
+WHERE `entry`=17258;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='骑乘用海龟'	-- Riding Turtle
@@ -43896,29 +43896,29 @@ WHERE `entry`=17266;
 -- 	`name_loc4`='Lottery Commissioner [DND]'	-- Lottery Commissioner [DND]
 -- WHERE `entry`=17284;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Invisible Man'	-- Invisible Man
--- WHERE `entry`=17286;
+UPDATE `locales_creature` SET
+	`name_loc4`='隐形人'	-- Invisible Man
+WHERE `entry`=17286;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Plague Wave'	-- Plague Wave
--- WHERE `entry`=17293;
+UPDATE `locales_creature` SET
+	`name_loc4`='瘟疫波'	-- Plague Wave
+WHERE `entry`=17293;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Unkillable Test Dummy Spammer'	-- Unkillable Test Dummy Spammer
 -- WHERE `entry`=17313;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lordaeron Mage'	-- Lordaeron Mage
--- WHERE `entry`=17415;
+UPDATE `locales_creature` SET
+	`name_loc4`='洛丹伦法师'	-- Lordaeron Mage
+WHERE `entry`=17415;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Lordaeron Spirit'	-- Lordaeron Spirit
--- WHERE `entry`=17466;
+UPDATE `locales_creature` SET
+	`name_loc4`='洛丹伦幽魂'	-- Lordaeron Spirit
+WHERE `entry`=17466;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='雷艾'	-- Renn'az
-	`subname_loc4`='Ammunition Vendor'	-- Ammunition Vendor
+	`subname_loc4`='军火商'	-- Ammunition Vendor
 WHERE `entry`=17598;
 
 UPDATE `locales_creature` SET
@@ -44009,13 +44009,13 @@ UPDATE `locales_creature` SET
 	`name_loc4`='洛丹伦斗士'	-- Lordaeron Fighter
 WHERE `entry`=17996;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='Spirit of Victory'	-- Spirit of Victory
--- WHERE `entry`=18039;
+UPDATE `locales_creature` SET
+	`name_loc4`='胜利之魂'	-- Spirit of Victory
+WHERE `entry`=18039;
 
--- UPDATE `locales_creature` SET
--- 	`name_loc4`='The Evil Rabbit'	-- The Evil Rabbit
--- WHERE `entry`=18078;
+UPDATE `locales_creature` SET
+	`name_loc4`='坏兔子'	-- The Evil Rabbit
+WHERE `entry`=18078;
 
 -- UPDATE `locales_creature` SET
 -- 	`name_loc4`='Spirit Healer (DND)'	-- Spirit Healer (DND)

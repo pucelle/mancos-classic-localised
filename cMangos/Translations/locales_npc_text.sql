@@ -2,13 +2,13 @@ SET NAMES 'utf8';
 
 INSERT IGNORE INTO `locales_npc_text` (`entry`) SELECT `ID` FROM `npc_text`;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings $N'	-- Greetings $N
-WHERE `entry`=1;
+-- UPDATE `locales_npc_text` SET
+-- `text0_1_loc4`='Greetings $N'	-- Greetings $N
+-- WHERE `entry`=1;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hey there, $N. How can I help you?'	-- Hey there, $N. How can I help you?
-WHERE `entry`=2;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hey there, $N. How can I help you?'	-- Hey there, $N. How can I help you?
+-- WHERE `entry`=2;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$N。'	-- Greetings $N
@@ -112,7 +112,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=1131;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='$N，这真是你做的吗？真是一件精美的作品。我会继续训练你的，相信总有一天你可以达到皇家铸甲匠的水准。'	-- $N, was it? That is a mighty fine piece of work ye have there. I'll take ye on, train ye how to make armor fit fer King Magni himself.
+	`text0_0_loc4`='$N，这真是你做的吗？真是一件精美的作品。我会继续训练你的，相信总有一天你可以达到皇家铸甲师的水准。'	-- $N, was it? That is a mighty fine piece of work ye have there. I'll take ye on, train ye how to make armor fit fer King Magni himself.
 WHERE `entry`=1136;
 
 UPDATE `locales_npc_text` SET
@@ -170,16 +170,16 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=1616;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='你所锻造的护甲能够抵挡最锋利的刀刃。$N你给我留下了深刻的印象，这可不容易。去找一个名叫莎伊斯·钢怒的兽人吧，她是除了那些该死的矮人之外最好的铸甲匠。'	-- Armor like the kind you make could stop even the sharpest axe. I'm impressed $N, that doesn't happen often. Seek out an Orc named Shayis Steelfury, she makes the best armor outside of that cursed Dwarven stronghold.
+	`text0_0_loc4`='你所锻造的护甲能够抵挡最锋利的刀刃。$N你给我留下了深刻的印象，这可不容易。去找一个名叫莎伊斯·钢怒的兽人吧，她是除了那些该死的矮人之外最好的铸甲师。'	-- Armor like the kind you make could stop even the sharpest axe. I'm impressed $N, that doesn't happen often. Seek out an Orc named Shayis Steelfury, she makes the best armor outside of that cursed Dwarven stronghold.
 WHERE `entry`=1617;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Go to the Orc city of Orgrimmar, find him in the Valley of Honor at a shop called the Arms of Legend.'	-- Go to the Orc city of Orgrimmar, find him in the Valley of Honor at a shop called the Arms of Legend.
-WHERE `entry`=1620;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Go to the Orc city of Orgrimmar, find him in the Valley of Honor at a shop called the Arms of Legend.'	-- Go to the Orc city of Orgrimmar, find him in the Valley of Honor at a shop called the Arms of Legend.
+-- WHERE `entry`=1620;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='These are good blades you make, $N. Cut a stone and still sharp enough to slit a throat. I have seen better though, an orc named Kelgrum Bloodaxe makes them, go and learn all he can teach you.'	-- These are good blades you make, $N. Cut a stone and still sharp enough to slit a throat. I have seen better though, an orc named Kelgrum Bloodaxe makes them, go and learn all he can teach you.
-WHERE `entry`=1621;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='These are good blades you make, $N. Cut a stone and still sharp enough to slit a throat. I have seen better though, an orc named Kelgrum Bloodaxe makes them, go and learn all he can teach you.'	-- These are good blades you make, $N. Cut a stone and still sharp enough to slit a throat. I have seen better though, an orc named Kelgrum Bloodaxe makes them, go and learn all he can teach you.
+-- WHERE `entry`=1621;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N，欢迎回到大锻炉。你是来拜访我的，还是准备进行下一阶段的训练？'	-- Welcome back to the Great Forge, $N. Ye come to visit an old Dwarf or do ye think yer ready for the next step in yer training?
@@ -193,9 +193,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N，你是回来学更多东西的吗？那么当你准备好的时候，我们就继续吧。'	-- Back to learn more, $N? Come over here and show me you are ready.
 WHERE `entry`=1637;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='How are your travels, $N? $g Sumi and Tumi missed you, you should say hi after your lesson : I have heard tales of your adventures, sounds like you have been busy;. Now let''s see what you''ve learned while you were away.'	-- How are your travels, $N? $g Sumi and Tumi missed you, you should say hi after your lesson : I have heard tales of your adventures, sounds like you have been busy;. Now let's see what you've learned while you were away.
-WHERE `entry`=1638;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='How are your travels, $N? $g Sumi and Tumi missed you, you should say hi after your lesson : I have heard tales of your adventures, sounds like you have been busy;. Now let''s see what you''ve learned while you were away.'	-- How are your travels, $N? $g Sumi and Tumi missed you, you should say hi after your lesson : I have heard tales of your adventures, sounds like you have been busy;. Now let's see what you've learned while you were away.
+-- WHERE `entry`=1638;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='矩阵式科技知识检测器探测到了你所具备的工程学天赋。你可以从以下选项中进行选择：$B$B01000111 01101111 00100000 01100111 01101111 00100000 01100111 01101111 00100001 00100001'	-- The Matrix Punchograph Technologic Huerist-o-meter has detected your aptitude in engineering.  You may now choose from the following option(s):$b$b01000111 01101111 00100000 01100111 01101111 00100000 01100111 01101111 00100001 00100001
@@ -209,9 +209,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='资料访问授权。祝你开心！$B$B01001110 01100001 01110100 01100001 01101100 01101001 01100101 00100000 01010000 01101111 01110010 01110100 01101101 01100001 01101110 00100000 01010010 01101111 01100011 01101011 01110011'	-- Data access granted.  Have a nice day!$b$b01001110 01100001 01110100 01100001 01101100 01101001 01100101 00100000 01010000 01101111 01110010 01110100 01101101 01100001 01101110 00100000 01010010 01101111 01100011 01101011 01110011
 WHERE `entry`=1657;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Please, a moment, $N. Kindal is down below in the Grimtotem camp trying to free the faerie dragons from captivity. We were just lucky that help came along when it did. Who knows what those foul tauren would have done to them.'	-- Please, a moment, $N. Kindal is down below in the Grimtotem camp trying to free the faerie dragons from captivity. We were just lucky that help came along when it did. Who knows what those foul tauren would have done to them.
-WHERE `entry`=1673;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Please, a moment, $N. Kindal is down below in the Grimtotem camp trying to free the faerie dragons from captivity. We were just lucky that help came along when it did. Who knows what those foul tauren would have done to them.'	-- Please, a moment, $N. Kindal is down below in the Grimtotem camp trying to free the faerie dragons from captivity. We were just lucky that help came along when it did. Who knows what those foul tauren would have done to them.
+-- WHERE `entry`=1673;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你现在进展顺利，$N。但是你还有很多东西要学的，南贫瘠之地将是你获得进一步发展的地方。'	-- You are well on your way, $N.  But you still have much to learn.  The southern Barrens may be where your next lesson is found.
@@ -237,9 +237,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='再次感谢你帮助尼达，$G先生:小姐;！我长大了也要成为你这样的英雄！'	-- Thank you again for helping Hilary, $g mister : miss;!  When I grow up, I wanna be a hero just like you!
 WHERE `entry`=2277;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Ahoy, $N! Not a pretty picture, is it?$B$BThe Horizon Scout at the bottom of the sea, my crew in shambles, and our cargo and passengers strewn about like so much debris that you''d think this was one of Stormwind''s canals after a festival.$B$BAnd that''s not where the trouble ends...'	-- Ahoy, $N! Not a pretty picture, is it?$B$BThe Horizon Scout at the bottom of the sea, my crew in shambles, and our cargo and passengers strewn about like so much debris that you'd think this was one of Stormwind's canals after a festival.$B$BAnd that's not where the trouble ends...
-WHERE `entry`=2293;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Ahoy, $N! Not a pretty picture, is it?$B$BThe Horizon Scout at the bottom of the sea, my crew in shambles, and our cargo and passengers strewn about like so much debris that you''d think this was one of Stormwind''s canals after a festival.$B$BAnd that''s not where the trouble ends...'	-- Ahoy, $N! Not a pretty picture, is it?$B$BThe Horizon Scout at the bottom of the sea, my crew in shambles, and our cargo and passengers strewn about like so much debris that you'd think this was one of Stormwind's canals after a festival.$B$BAnd that's not where the trouble ends...
+-- WHERE `entry`=2293;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='勇敢的$C，欢迎来到石槌堡。我能帮你什么忙吗？'	-- Welcome to Camp Mojache, brave $C. How may I assist you this day?
@@ -281,9 +281,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='费伍德森林的堕落禁锢了我的灵魂……我也许永远都得不到安宁……'	-- The corruption of Felwood has trapped my spirit here... I may never rest...
 WHERE `entry`=2726;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hmm, I don''t have any mithril casings. I''m all out. Is that all you need to get to fix A-Me? Oh, that would be fantastic!$B$BMithril casings aren''t too hard to find back in civilization. Just ask any skilled engineer to make one for you. I think it takes a few bars of mithril, but if you could help me out, I''ll make sure you''re well rewarded!'	-- Hmm, I don't have any mithril casings. I'm all out. Is that all you need to get to fix A-Me? Oh, that would be fantastic!$B$BMithril casings aren't too hard to find back in civilization. Just ask any skilled engineer to make one for you. I think it takes a few bars of mithril, but if you could help me out, I'll make sure you're well rewarded!
-WHERE `entry`=2735;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hmm, I don''t have any mithril casings. I''m all out. Is that all you need to get to fix A-Me? Oh, that would be fantastic!$B$BMithril casings aren''t too hard to find back in civilization. Just ask any skilled engineer to make one for you. I think it takes a few bars of mithril, but if you could help me out, I''ll make sure you''re well rewarded!'	-- Hmm, I don't have any mithril casings. I'm all out. Is that all you need to get to fix A-Me? Oh, that would be fantastic!$B$BMithril casings aren't too hard to find back in civilization. Just ask any skilled engineer to make one for you. I think it takes a few bars of mithril, but if you could help me out, I'll make sure you're well rewarded!
+-- WHERE `entry`=2735;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我经受过痛苦，但是现在我能感觉到它正从我身上消退。我感到……自由了。'	-- I have suffered, but now I can feel it slowly fading from me. I feel... free.
@@ -293,9 +293,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='约莫德•石眉对缝纫有独到之处，真的。如果你想接受训练的话，就去大锻炉北边的石眉布衣店找他吧。'	-- I can get back to the Stronghold on my own -- I just need a hand getting the blazes out of this hive!$B$BWho... who are you?
 WHERE `entry`=2818;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='"Darnassae?"$B$BThe night elf druid looks at you expectantly, but it is clear you cannot verbally communicate with her.  Undaunted, she points to herself and smiles.  She points at you and smiles once more.  She finally motions several times down the path to the north.$B$BPerhaps she is indicating that there is a druid you can speak to further up the road?'	-- "Darnassae?"$B$BThe night elf druid looks at you expectantly, but it is clear you cannot verbally communicate with her.  Undaunted, she points to herself and smiles.  She points at you and smiles once more.  She finally motions several times down the path to the north.$B$BPerhaps she is indicating that there is a druid you can speak to further up the road?
-WHERE `entry`=2845;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='"Darnassae?"$B$BThe night elf druid looks at you expectantly, but it is clear you cannot verbally communicate with her.  Undaunted, she points to herself and smiles.  She points at you and smiles once more.  She finally motions several times down the path to the north.$B$BPerhaps she is indicating that there is a druid you can speak to further up the road?'	-- "Darnassae?"$B$BThe night elf druid looks at you expectantly, but it is clear you cannot verbally communicate with her.  Undaunted, she points to herself and smiles.  She points at you and smiles once more.  She finally motions several times down the path to the north.$B$BPerhaps she is indicating that there is a druid you can speak to further up the road?
+-- WHERE `entry`=2845;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='数年前居住在此地的暗夜精灵修建了这座神殿。$B$B它隐藏着什么秘密吗？'	-- The large shrine was built many years ago by the night elves that once inhabited this land.$B$BWhat secrets could it hold?
@@ -333,9 +333,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='世间动物死时会将它们的生命和兽皮赐予我们。要是你能尊重它们的牺牲，或许剥皮者这个职业会适合你的。去达纳苏斯北部的工匠区，找艾拉迪尔谈谈，学习更多知识。'	-- Do you prefer guns or bows?
 WHERE `entry`=3061;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You''ll have to give me a moment, $c, the naga are attacking us right now. I''ll speak to you as soon as the attack is done!'	-- You'll have to give me a moment, $c, the naga are attacking us right now. I'll speak to you as soon as the attack is done!
-WHERE `entry`=3073;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You''ll have to give me a moment, $c, the naga are attacking us right now. I''ll speak to you as soon as the attack is done!'	-- You'll have to give me a moment, $c, the naga are attacking us right now. I'll speak to you as soon as the attack is done!
+-- WHERE `entry`=3073;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='看看这些样本！这意？着什么？这意味着什么？我需要时间来解读这些资讯。我还需要更多我无法获得的资讯……该死！好好想想，拉里斯，好好想想！$B$B你要做什么？什么？！$B$B必须得有解决的方法！'	-- Look at these samples! What does it mean? What does it mean? I'm going to need time, time to look at all this information. And I'll need more information. Information I can't get... damn! Think, Laris, think!$B$BWhat are you going to do? What?!$B$BThere has to be a solution!
@@ -357,13 +357,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='愿你能得心应手地应用熔炼黑铁的技能，$N。但是不要让你的知识使你堕落……就像我们一样堕落了。'	-- May your skills in smelting dark iron serve you well, $N.  But do not let your knowledge corrupt you... as it corrupted us.
 WHERE `entry`=3297;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Kar Aman, $N. You look to be a strong $c--you would do well to mind yourself in this area. Touching things you know nothing about, or showing disrespect to your elders is just cause for punishment.$B$BYou may not respect me or my companions, but you will learn to respect our power if you prove foolish enough.$B$BNow, enough with the pleasantries, was there something I can do for you?'	-- Kar Aman, $N. You look to be a strong $c--you would do well to mind yourself in this area. Touching things you know nothing about, or showing disrespect to your elders is just cause for punishment.$B$BYou may not respect me or my companions, but you will learn to respect our power if you prove foolish enough.$B$BNow, enough with the pleasantries, was there something I can do for you?
-WHERE `entry`=3298;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Kar Aman, $N. You look to be a strong $c--you would do well to mind yourself in this area. Touching things you know nothing about, or showing disrespect to your elders is just cause for punishment.$B$BYou may not respect me or my companions, but you will learn to respect our power if you prove foolish enough.$B$BNow, enough with the pleasantries, was there something I can do for you?'	-- Kar Aman, $N. You look to be a strong $c--you would do well to mind yourself in this area. Touching things you know nothing about, or showing disrespect to your elders is just cause for punishment.$B$BYou may not respect me or my companions, but you will learn to respect our power if you prove foolish enough.$B$BNow, enough with the pleasantries, was there something I can do for you?
+-- WHERE `entry`=3298;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Ah, a fellow warlock who has proven $ghis:her; worth to some degree.$B$BI am pleased to meet your acquaintance. My name is Menara Voidrender... and not without just cause.$B$BYou seem powerful and well-learned enough that other tools... more powerful tools... would be welcome and not foolishly imparted. If this is true, then speak to me further. If not, well then, you know your way  back to the docks and off into the ocean.'	-- Ah, a fellow warlock who has proven $ghis:her; worth to some degree.$B$BI am pleased to meet your acquaintance. My name is Menara Voidrender... and not without just cause.$B$BYou seem powerful and well-learned enough that other tools... more powerful tools... would be welcome and not foolishly imparted. If this is true, then speak to me further. If not, well then, you know your way  back to the docks and off into the ocean.
-WHERE `entry`=3299;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Ah, a fellow warlock who has proven $ghis:her; worth to some degree.$B$BI am pleased to meet your acquaintance. My name is Menara Voidrender... and not without just cause.$B$BYou seem powerful and well-learned enough that other tools... more powerful tools... would be welcome and not foolishly imparted. If this is true, then speak to me further. If not, well then, you know your way  back to the docks and off into the ocean.'	-- Ah, a fellow warlock who has proven $ghis:her; worth to some degree.$B$BI am pleased to meet your acquaintance. My name is Menara Voidrender... and not without just cause.$B$BYou seem powerful and well-learned enough that other tools... more powerful tools... would be welcome and not foolishly imparted. If this is true, then speak to me further. If not, well then, you know your way  back to the docks and off into the ocean.
+-- WHERE `entry`=3299;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='死亡之翼，曾被称为奈萨里安，它是代表世界的力量的守护巨龙──世界的缔造者卡兹格罗斯赋予了他无尽的力量，让他保护这个世界。$B$B但是这个卑鄙的家伙欺骗了其它四条守护巨龙，让他们使用自己的力量制造了恶魔之魂──这使得他们的力量大为减弱，巨龙军团于是就分裂了。'	-- Dis ain't no game mon. Joo want to use da axe, joo got to say da line. Say it wif me???Say hello, to ma little friend.
@@ -373,9 +373,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='啊，我最喜爱的顾客之一。你似乎是个有能力的术士，$N。很高兴认识你。要是我能帮上什么忙，请尽管开口。$B$B我和我的兄弟都认为你这样的人才能领导我们进入新纪元。一个拥有力量……和控制力的人……让军团臣服于你只是时间问题。$B$B我有些羡慕你了。'	-- Ah, one of my favorite customers. You look to be of a warlock of some power, $N. I am pleased to meet you. If there is anything I can do for you, please, just ask.$B$BMy brother and I feel that it will be your kind who lead us into the next great era. One with such power... such control... it's only a matter of time before the Legion itself bends to your will.$B$BI am but a little envious.
 WHERE `entry`=3358;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Da Cache of Mau''ari holds great secrets... The shards used ta make it are reflective, and you can use its shiny surface ta siphon power from other tings and den reflect it onto yourself.$B$BKeeping da charm in your inventory lets you collect e''ko, da spiritual power from the beasts you fight. Once you find e''ko, you bring it ta Mau''ari.'	-- Da Cache of Mau'ari holds great secrets... The shards used ta make it are reflective, and you can use its shiny surface ta siphon power from other tings and den reflect it onto yourself.$B$BKeeping da charm in your inventory lets you collect e'ko, da spiritual power from the beasts you fight. Once you find e'ko, you bring it ta Mau'ari.
-WHERE `entry`=3382;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Da Cache of Mau''ari holds great secrets... The shards used ta make it are reflective, and you can use its shiny surface ta siphon power from other tings and den reflect it onto yourself.$B$BKeeping da charm in your inventory lets you collect e''ko, da spiritual power from the beasts you fight. Once you find e''ko, you bring it ta Mau''ari.'	-- Da Cache of Mau'ari holds great secrets... The shards used ta make it are reflective, and you can use its shiny surface ta siphon power from other tings and den reflect it onto yourself.$B$BKeeping da charm in your inventory lets you collect e'ko, da spiritual power from the beasts you fight. Once you find e'ko, you bring it ta Mau'ari.
+-- WHERE `entry`=3382;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你是来接受训练的吗？我也是刚刚开始学习这方面的知识，但是我很乐意把我所知道的教给你。'	-- Here for training eh? Just began my training meself, but I would be glad ta teach ye what I can.
@@ -389,9 +389,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你确实有点本事。我打赌你的技术足够让你学些东西了，我们来看看我有什么能教给你的，好吗？'	-- Ye've got a little skill on ye. Enough to learn ye a few things I wager. Let's see what I can teach ye, shall we?
 WHERE `entry`=3399;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Ah am very surprised that one wit such a careless nature has gotten dis far...$B$BYah, you may have another charm, but Mau''ari is very displeased wit your actions!$B$BGo, now. '	-- Ah am very surprised that one wit such a careless nature has gotten dis far...$B$BYah, you may have another charm, but Mau'ari is very displeased wit your actions!$B$BGo, now. 
-WHERE `entry`=3425;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Ah am very surprised that one wit such a careless nature has gotten dis far...$B$BYah, you may have another charm, but Mau''ari is very displeased wit your actions!$B$BGo, now. '	-- Ah am very surprised that one wit such a careless nature has gotten dis far...$B$BYah, you may have another charm, but Mau'ari is very displeased wit your actions!$B$BGo, now. 
+-- WHERE `entry`=3425;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='很抱歉，$G小伙子:姑娘;，你还不够资格在我这儿求学。去找我的儿子 格鲁姆，他会收你做学生的。'	-- Sorry $g lad : lass;, ye aren't quite up to the challenge of learning from me. Go see my son Groum, it would make his day to get a new apprentice.
@@ -401,17 +401,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我希望有一天能用敌人的骨头制作武器。'	-- Yer skill is not without merit, but I need to put one last test to ye before I take ye on.
 WHERE `entry`=3458;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hmm, your work is allright but it''s nowhere near the quality I look for in a student. Go talk with Smith Argus in Goldshire, I''m sure he can teach you some basics. Then when you''re done, come on back to me and I''ll give you a little test to make sure you are ready.'	-- Hmm, your work is allright but it's nowhere near the quality I look for in a student. Go talk with Smith Argus in Goldshire, I'm sure he can teach you some basics. Then when you're done, come on back to me and I'll give you a little test to make sure you are ready.
-WHERE `entry`=3462;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hmm, your work is allright but it''s nowhere near the quality I look for in a student. Go talk with Smith Argus in Goldshire, I''m sure he can teach you some basics. Then when you''re done, come on back to me and I''ll give you a little test to make sure you are ready.'	-- Hmm, your work is allright but it's nowhere near the quality I look for in a student. Go talk with Smith Argus in Goldshire, I'm sure he can teach you some basics. Then when you're done, come on back to me and I'll give you a little test to make sure you are ready.
+-- WHERE `entry`=3462;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You do fine work, but it''s a bit rough around the edges. Don''t worry about it, it will come with practice. Speaking of which, how about we see what you''ve been working on?'	-- You do fine work, but it's a bit rough around the edges. Don't worry about it, it will come with practice. Speaking of which, how about we see what you've been working on?
-WHERE `entry`=3464;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You do fine work, but it''s a bit rough around the edges. Don''t worry about it, it will come with practice. Speaking of which, how about we see what you''ve been working on?'	-- You do fine work, but it's a bit rough around the edges. Don't worry about it, it will come with practice. Speaking of which, how about we see what you've been working on?
+-- WHERE `entry`=3464;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Now I''m the one who feels rough around the edges, I honestly don''t think there''s anything left I can teach you. But you know who can? Bengus Deepforge in Ironforge, now there''s a dwarf that knows his steel. Go look him up in The Great Forge of Ironforge, see if he''s up to having a new trainee under him.'	-- Now I'm the one who feels rough around the edges, I honestly don't think there's anything left I can teach you. But you know who can? Bengus Deepforge in Ironforge, now there's a dwarf that knows his steel. Go look him up in The Great Forge of Ironforge, see if he's up to having a new trainee under him.
-WHERE `entry`=3465;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Now I''m the one who feels rough around the edges, I honestly don''t think there''s anything left I can teach you. But you know who can? Bengus Deepforge in Ironforge, now there''s a dwarf that knows his steel. Go look him up in The Great Forge of Ironforge, see if he''s up to having a new trainee under him.'	-- Now I'm the one who feels rough around the edges, I honestly don't think there's anything left I can teach you. But you know who can? Bengus Deepforge in Ironforge, now there's a dwarf that knows his steel. Go look him up in The Great Forge of Ironforge, see if he's up to having a new trainee under him.
+-- WHERE `entry`=3465;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我无法对你光用铁锤和铁砧就做出如此令人称奇的东西提供足够的意见。现在，不要告诉别人我建议你去找一位地精，不过那确实就是我想要做的事。布里克·基克拉夫是他的名字，我最后一次听到他是在藏宝海湾经营一家商店。'	-- I can't say enough about yer work, truly amazing things that ye can do with a hammer and an anvil. Now, don't be tellin anyone that I suggested ye go find a goblin to teach ye but that's exactly what I'm gonna do. Brikk Keencraft is his name, and last I heard he was operating a shop down in Booty bay.
@@ -421,41 +421,41 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你已经成为一个出色的猎手了，$N！你不但证明了你的技能，你还胜过了达瑞尔，这是你在我的名册中得到了额外的分数！$B$B欢迎你随时来到这里。'	-- You've become quite the hunter, $N! Not only have you proven your skills, you also bested Daryl, which gets you extra points in my book!$B$BYou're welcome here any time.
 WHERE `entry`=3495;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Get that head and it''s sure to give Daryl a fright. Not that he doesn''t deserve it, the bloody arrogant bastard. But ha! I can''t wait to see the look on his face when you show it to him.'	-- Get that head and it's sure to give Daryl a fright. Not that he doesn't deserve it, the bloody arrogant bastard. But ha! I can't wait to see the look on his face when you show it to him.
-WHERE `entry`=3522;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Get that head and it''s sure to give Daryl a fright. Not that he doesn''t deserve it, the bloody arrogant bastard. But ha! I can''t wait to see the look on his face when you show it to him.'	-- Get that head and it's sure to give Daryl a fright. Not that he doesn't deserve it, the bloody arrogant bastard. But ha! I can't wait to see the look on his face when you show it to him.
+-- WHERE `entry`=3522;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You''re always welcome here, $N. Thanks for the laugh -- and don''t worry about Daryl, he had one coming!'	-- You're always welcome here, $N. Thanks for the laugh -- and don't worry about Daryl, he had one coming!
-WHERE `entry`=3525;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You''re always welcome here, $N. Thanks for the laugh -- and don''t worry about Daryl, he had one coming!'	-- You're always welcome here, $N. Thanks for the laugh -- and don't worry about Daryl, he had one coming!
+-- WHERE `entry`=3525;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Oh, ok!  Here you are, $N.  It''s the least I can do for all the help you''ve given me.'	-- Oh, ok!  Here you are, $N.  It's the least I can do for all the help you've given me.
-WHERE `entry`=3540;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Oh, ok!  Here you are, $N.  It''s the least I can do for all the help you''ve given me.'	-- Oh, ok!  Here you are, $N.  It's the least I can do for all the help you've given me.
+-- WHERE `entry`=3540;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Listen to your elders, $N. If you are strong of will and dedicated, there is no power you cannot control.'	-- Listen to your elders, $N. If you are strong of will and dedicated, there is no power you cannot control.
-WHERE `entry`=3586;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Listen to your elders, $N. If you are strong of will and dedicated, there is no power you cannot control.'	-- Listen to your elders, $N. If you are strong of will and dedicated, there is no power you cannot control.
+-- WHERE `entry`=3586;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Not all Forsaken are driven by Sylvanas'' will, $N. Some of us are driven by true power--power we earn for ourselves.'	-- Not all Forsaken are driven by Sylvanas' will, $N. Some of us are driven by true power--power we earn for ourselves.
-WHERE `entry`=3587;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Not all Forsaken are driven by Sylvanas'' will, $N. Some of us are driven by true power--power we earn for ourselves.'	-- Not all Forsaken are driven by Sylvanas' will, $N. Some of us are driven by true power--power we earn for ourselves.
+-- WHERE `entry`=3587;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It... is... not... the best... time, $N. I must concen... trate.'	-- It... is... not... the best... time, $N. I must concen... trate.
-WHERE `entry`=3589;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It... is... not... the best... time, $N. I must concen... trate.'	-- It... is... not... the best... time, $N. I must concen... trate.
+-- WHERE `entry`=3589;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The infernal is one of the most powerful demons a warlock could hope to have at $Ghis:her; side in battle. The creature is stong, well-armored, and delivers devastating blows upon any foe. If you were to choose to put the spirit of an infernal into your weapon, you would gain some of those benefits--greater health and regeneration and the like.$B$BIf you wish to know more about felhounds, then you should speak to Wytula across from me.'	-- The infernal is one of the most powerful demons a warlock could hope to have at $Ghis:her; side in battle. The creature is stong, well-armored, and delivers devastating blows upon any foe. If you were to choose to put the spirit of an infernal into your weapon, you would gain some of those benefits--greater health and regeneration and the like.$B$BIf you wish to know more about felhounds, then you should speak to Wytula across from me.
-WHERE `entry`=3591;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The infernal is one of the most powerful demons a warlock could hope to have at $Ghis:her; side in battle. The creature is stong, well-armored, and delivers devastating blows upon any foe. If you were to choose to put the spirit of an infernal into your weapon, you would gain some of those benefits--greater health and regeneration and the like.$B$BIf you wish to know more about felhounds, then you should speak to Wytula across from me.'	-- The infernal is one of the most powerful demons a warlock could hope to have at $Ghis:her; side in battle. The creature is stong, well-armored, and delivers devastating blows upon any foe. If you were to choose to put the spirit of an infernal into your weapon, you would gain some of those benefits--greater health and regeneration and the like.$B$BIf you wish to know more about felhounds, then you should speak to Wytula across from me.
+-- WHERE `entry`=3591;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The felhound... a vicious creature indeed. It is not as physically strong as an infernal, but a wise warlock knows that brute force is not always the answer--if it was, you would have chosen the path of a warrior instead, wouldn''t you?$B$BThe felhound draws upon the mana of its foes, using that and its quickness to overcome enemies. Its strength comes from the arcane and using that arcane power for its own ends.$B$BIf you wish to know more about infernals, then you should speak to Magaz across from me.'	-- The felhound... a vicious creature indeed. It is not as physically strong as an infernal, but a wise warlock knows that brute force is not always the answer--if it was, you would have chosen the path of a warrior instead, wouldn't you?$B$BThe felhound draws upon the mana of its foes, using that and its quickness to overcome enemies. Its strength comes from the arcane and using that arcane power for its own ends.$B$BIf you wish to know more about infernals, then you should speak to Magaz across from me.
-WHERE `entry`=3592;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The felhound... a vicious creature indeed. It is not as physically strong as an infernal, but a wise warlock knows that brute force is not always the answer--if it was, you would have chosen the path of a warrior instead, wouldn''t you?$B$BThe felhound draws upon the mana of its foes, using that and its quickness to overcome enemies. Its strength comes from the arcane and using that arcane power for its own ends.$B$BIf you wish to know more about infernals, then you should speak to Magaz across from me.'	-- The felhound... a vicious creature indeed. It is not as physically strong as an infernal, but a wise warlock knows that brute force is not always the answer--if it was, you would have chosen the path of a warrior instead, wouldn't you?$B$BThe felhound draws upon the mana of its foes, using that and its quickness to overcome enemies. Its strength comes from the arcane and using that arcane power for its own ends.$B$BIf you wish to know more about infernals, then you should speak to Magaz across from me.
+-- WHERE `entry`=3592;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Have you spoken to either of my acolytes inside the tower yet, $N? We cannot complete your orb until you''ve done one of their tasks. Speak to them now, if you''re ready.'	-- Have you spoken to either of my acolytes inside the tower yet, $N? We cannot complete your orb until you've done one of their tasks. Speak to them now, if you're ready.
-WHERE `entry`=3594;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Have you spoken to either of my acolytes inside the tower yet, $N? We cannot complete your orb until you''ve done one of their tasks. Speak to them now, if you''re ready.'	-- Have you spoken to either of my acolytes inside the tower yet, $N? We cannot complete your orb until you've done one of their tasks. Speak to them now, if you're ready.
+-- WHERE `entry`=3594;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这本书的标题是手写体：莫琳·达尔松的日记。'	-- The title of this book reads with a handwritten flourish: Maureen Dalson's Diary.
@@ -485,9 +485,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='他拿走了那块未铸造的符文胸甲，用于制造魔铸胸甲，并且没有付钱就跑掉了。我不是傻瓜，但是……没有配方的话，那块未铸造的符文胸甲一文不值。$B$B我在想……他是否安全地呆在黑石塔里，试图制造点什么出来？我知道他不敢离开！'	-- He took the unforged rune covered breastplate, used in the making of the demon forged breastplate and ran away without making payment. A fool, I am not, however... the unforged chest piece is useless without knowledge or the recipe to apply said knowledge.$B$BI wonder... does he sit safely in his city of Blackrock Spire and attempt to create the item from the raw material? I know he dare not leave!
 WHERE `entry`=3763;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Oh hi! My name''s Sarah. What can I do for you?'	-- Oh hi! My name's Sarah. What can I do for you?
-WHERE `entry`=3804;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Oh hi! My name''s Sarah. What can I do for you?'	-- Oh hi! My name's Sarah. What can I do for you?
+-- WHERE `entry`=3804;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='假设存在这种东西。只有体型更大的炫彩飞龙才可能具有这样的外壳。'	-- Presumed to exist. Only a greater chromatic dragonkin or dragon could possess such a carapace.
@@ -505,17 +505,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='通灵学院的巴罗夫家族将它作为照耀他们不复存在的灵魂的镜子。那是一件贵重的纪念品。'	-- Used by the Barov family of the Scholomance as a mirror into the souls that they no longer possess. A valuable keepsake.
 WHERE `entry`=3859;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Have you seen Watcher Backus? So brave...$B$BI think he''s the toughest of all the Night Watch. I wonder if he even notices I''m around....'	-- Have you seen Watcher Backus? So brave...$B$BI think he's the toughest of all the Night Watch. I wonder if he even notices I'm around....
-WHERE `entry`=3868;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Have you seen Watcher Backus? So brave...$B$BI think he''s the toughest of all the Night Watch. I wonder if he even notices I''m around....'	-- Have you seen Watcher Backus? So brave...$B$BI think he's the toughest of all the Night Watch. I wonder if he even notices I'm around....
+-- WHERE `entry`=3868;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你在锻造方面的技术已经非常高超了，$N。该做出决定了。有两条路你可以选择：武器锻造师或是护甲锻造师。$B$B注意，当你做出决定以后，就不能回头了。这两门技艺的守则都不允许你三心二意。'	-- Your skill in blacksmithing is exceptional, $N. The time has come to make a decision. There are two paths you may choose: The way of the weaponsmith or the art of the armorsmith.$B$BBe warned, when you have chosen to dedicate yourself to a path, there is no going back. The discipline each path requires leaves no room for hybrids.
 WHERE `entry`=3938;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='As you inspect the cage and the Night elf inside, you get an odd sense of deja vu. For some reason she does not make eye contact with you--it is almost as if you are not there to her.'	-- As you inspect the cage and the Night elf inside, you get an odd sense of deja vu. For some reason she does not make eye contact with you--it is almost as if you are not there to her.
-WHERE `entry`=4114;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='As you inspect the cage and the Night elf inside, you get an odd sense of deja vu. For some reason she does not make eye contact with you--it is almost as if you are not there to her.'	-- As you inspect the cage and the Night elf inside, you get an odd sense of deja vu. For some reason she does not make eye contact with you--it is almost as if you are not there to her.
+-- WHERE `entry`=4114;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='他们并未意识到自己已经死了，$R。他们受到诅咒，在头脑中保留了这个城镇被毁灭之前的记忆，大部分是这样，还有一部分人更为不幸。$B$B你认为是天谴军团所为？那时天谴军团还不存在呢，就算是它们的话，我们也会与它们展开一场恶战的。$B$B不，这场恐怖而极具破坏性的瘟疫源于通灵学院，它摧毁了整座城镇，无人生还。$B$B让我独自承受这悲伤吧。'	-- They don't realize that they're dead, $r. They are cursed to relive the last memory they had before the town was eaten alive from the inside out. Most of them, anyway. Some were less fortunate.$B$BYou thought the Scourge did this? The Scourge did not yet exist and if they had, we would have at least put up a damned fight.$B$BNo, this was the result of a plague that came out of Scholomance and ravaged the town. It was horrifying and devastating. None survived.$B$BNow leave me to my sorrows.
@@ -559,25 +559,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我的眼睛被黑暗所蒙蔽，但是你把我从邪恶的幻想中拯救出来。你救了我，$N。$B$B现在我求你……原谅我。'	-- A darkness had fallen over my eyes, but you tore me from my unholy reverie.  You saved me, $N.$B$BAnd now I beg you... to forgive me.
 WHERE `entry`=4778;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Thanks again, $n! I''m very pleased with what we found.$B$BGood luck to you!'	-- Thanks again, $n! I'm very pleased with what we found.$B$BGood luck to you!
-WHERE `entry`=4787;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Thanks again, $n! I''m very pleased with what we found.$B$BGood luck to you!'	-- Thanks again, $n! I'm very pleased with what we found.$B$BGood luck to you!
+-- WHERE `entry`=4787;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='让我来教导你猎人之道。'	-- Let me train you in the ways of the hunter.
 WHERE `entry`=4864;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If you''re looking for a flight back to Thunder Bluff, then you should talk to my tauren counterpart, Bunthen Plainswind.'	-- If you're looking for a flight back to Thunder Bluff, then you should talk to my tauren counterpart, Bunthen Plainswind.
-WHERE `entry`=4915;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If you''re looking for a flight back to Thunder Bluff, then you should talk to my tauren counterpart, Bunthen Plainswind.'	-- If you're looking for a flight back to Thunder Bluff, then you should talk to my tauren counterpart, Bunthen Plainswind.
+-- WHERE `entry`=4915;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你想飞回鲁瑟兰村，就该找暗夜精灵希尔瓦·菲纳雯斯谈谈。'	-- If you're looking for a flight back to Rut'theran Village, then you should talk to my night elven counterpart, Silva Fil'naveth.
 WHERE `entry`=4917;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Shrine of Remulos is a sacred place for us in the Cenarion Circle here in Moonglade... so please conduct yourself in a manner befitting a visitor.$B$BA visitor who doesn''t want my scimitar buried in them, that is.'	-- The Shrine of Remulos is a sacred place for us in the Cenarion Circle here in Moonglade... so please conduct yourself in a manner befitting a visitor.$B$BA visitor who doesn't want my scimitar buried in them, that is.
-WHERE `entry`=4977;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Shrine of Remulos is a sacred place for us in the Cenarion Circle here in Moonglade... so please conduct yourself in a manner befitting a visitor.$B$BA visitor who doesn''t want my scimitar buried in them, that is.'	-- The Shrine of Remulos is a sacred place for us in the Cenarion Circle here in Moonglade... so please conduct yourself in a manner befitting a visitor.$B$BA visitor who doesn't want my scimitar buried in them, that is.
+-- WHERE `entry`=4977;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$G先生:女士;。我想握你的手，但是如你所见，我正忙着做事。我可以帮忙吗？'	-- Good day, $gsir:ma'am;. I'd shake your hand, but as you see, I'm in the middle of something. May I be of assistance?
@@ -615,25 +615,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='对不起，$N，但是我真的没有时间花费在新手身上了，你需要去寻找适合你的训练师。去找暗夜精灵米拉，她在达纳苏斯的工匠区的露台。'	-- I'm sorry, $N, but I have no time to spend on novices. You want someone closer to your own skill level. Try the night elf Milla Fairancora, in the Craftsmen's Terrace of Darnassus.
 WHERE `entry`=5051;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='That''s nice, $N. Go show whatever it is to Vosur over there. He''ll answer any questions you have.'	-- That's nice, $N. Go show whatever it is to Vosur over there. He'll answer any questions you have.
-WHERE `entry`=5057;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='That''s nice, $N. Go show whatever it is to Vosur over there. He''ll answer any questions you have.'	-- That's nice, $N. Go show whatever it is to Vosur over there. He'll answer any questions you have.
+-- WHERE `entry`=5057;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Teaching is not a one-sided trade, $N. As I teach you, I learn more myself, and my understanding grows.'	-- Teaching is not a one-sided trade, $N. As I teach you, I learn more myself, and my understanding grows.
-WHERE `entry`=5060;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Teaching is not a one-sided trade, $N. As I teach you, I learn more myself, and my understanding grows.'	-- Teaching is not a one-sided trade, $N. As I teach you, I learn more myself, and my understanding grows.
+-- WHERE `entry`=5060;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我有许多处方可供选择，我还可以为你打折！'	-- I've got plenty of great recipes for you to take a look at, and at discounted prices, too!
 WHERE `entry`=5075;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Can you not sense the anguish of the Earth Mother for her lost children, the undead? Speak quickly, $N. Every second costs me dearly. We must help them find their way back to her!'	-- Can you not sense the anguish of the Earth Mother for her lost children, the undead? Speak quickly, $N. Every second costs me dearly. We must help them find their way back to her!
-WHERE `entry`=5080;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Can you not sense the anguish of the Earth Mother for her lost children, the undead? Speak quickly, $N. Every second costs me dearly. We must help them find their way back to her!'	-- Can you not sense the anguish of the Earth Mother for her lost children, the undead? Speak quickly, $N. Every second costs me dearly. We must help them find their way back to her!
+-- WHERE `entry`=5080;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I cannot in good conscience spend time training novices while our allies, the undead, are suffering so terribly. Please speak with Kray over there instead; he can help you for now.'	-- I cannot in good conscience spend time training novices while our allies, the undead, are suffering so terribly. Please speak with Kray over there instead; he can help you for now.
-WHERE `entry`=5081;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I cannot in good conscience spend time training novices while our allies, the undead, are suffering so terribly. Please speak with Kray over there instead; he can help you for now.'	-- I cannot in good conscience spend time training novices while our allies, the undead, are suffering so terribly. Please speak with Kray over there instead; he can help you for now.
+-- WHERE `entry`=5081;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='别浪费我时间。我从事研究的时间比你的年纪还要大。去跟幽暗城炼金房的亡灵马丁·费尔本谈谈。他或许能传授给你一些基础知识。'	-- Don't waste my time. I have research projects older than you. Go talk to Doctor Martin Felben in the Apothecarium of the Undercity. He's a Forsaken who can probably manage to teach you the basics.
@@ -667,17 +667,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我很高兴能在你事业开始的时候帮上忙，！让我们抓紧纺纱机，开始吧……'	-- I would be delighted to aid you in the commencement of your pursuit! Let me grab my spinner and we'll get started...
 WHERE `entry`=5117;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Oh, you''ve got oodles of things to learn still. I would teach you everything if I could, but I''m still learning too! Why don''t you talk to Trixie Quickswitch in Ironforge, she''ll help you further your education!'	-- Oh, you've got oodles of things to learn still. I would teach you everything if I could, but I'm still learning too! Why don't you talk to Trixie Quickswitch in Ironforge, she'll help you further your education!
-WHERE `entry`=5122;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Oh, you''ve got oodles of things to learn still. I would teach you everything if I could, but I''m still learning too! Why don''t you talk to Trixie Quickswitch in Ironforge, she''ll help you further your education!'	-- Oh, you've got oodles of things to learn still. I would teach you everything if I could, but I'm still learning too! Why don't you talk to Trixie Quickswitch in Ironforge, she'll help you further your education!
+-- WHERE `entry`=5122;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You want to train? With me? Fantastic! The only thing better than assembling bullets and explosive devices is to share that knowledge with someone else! Let''s get started!'	-- You want to train? With me? Fantastic! The only thing better than assembling bullets and explosive devices is to share that knowledge with someone else! Let's get started!
-WHERE `entry`=5123;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You want to train? With me? Fantastic! The only thing better than assembling bullets and explosive devices is to share that knowledge with someone else! Let''s get started!'	-- You want to train? With me? Fantastic! The only thing better than assembling bullets and explosive devices is to share that knowledge with someone else! Let's get started!
+-- WHERE `entry`=5123;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This kind of work isn''t for the faint of heart. I have an uncle who lost a hand! Poor old Stumpy... anyway, if you''re still interested I might be able to show you a few things.'	-- This kind of work isn't for the faint of heart. I have an uncle who lost a hand! Poor old Stumpy... anyway, if you're still interested I might be able to show you a few things.
-WHERE `entry`=5126;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This kind of work isn''t for the faint of heart. I have an uncle who lost a hand! Poor old Stumpy... anyway, if you''re still interested I might be able to show you a few things.'	-- This kind of work isn't for the faint of heart. I have an uncle who lost a hand! Poor old Stumpy... anyway, if you're still interested I might be able to show you a few things.
+-- WHERE `entry`=5126;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='是的，我有些东西要给你看看。我们来看一下你做得怎么样，或许你会令我吃惊的！'	-- Yeah, I'll show you a few things. We'll see how you do, maybe you'll surprise me!
@@ -735,9 +735,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你可以马上跟我学习？但时机不到！为什么你不从跟我右边的斯普莱特谈话开始呢。你适应以后再来找我！'	-- You can learn from me in time, but not yet! Why don't you start out by talking to Sprite Jumpsprocket to my right here. You can check in with me after you've gotten your feet wet!
 WHERE `entry`=5150;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Close, but no cigar! I''m afraid you''ll have to talk to my sis, Jemma first. After she''s gone over the basics with you, come see me and I''ll show you the juicy stuff!'	-- Close, but no cigar! I'm afraid you'll have to talk to my sis, Jemma first. After she's gone over the basics with you, come see me and I'll show you the juicy stuff!
-WHERE `entry`=5155;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Close, but no cigar! I''m afraid you''ll have to talk to my sis, Jemma first. After she''s gone over the basics with you, come see me and I''ll show you the juicy stuff!'	-- Close, but no cigar! I'm afraid you'll have to talk to my sis, Jemma first. After she's gone over the basics with you, come see me and I'll show you the juicy stuff!
+-- WHERE `entry`=5155;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你赢得了到一个更高级的导师那里学习的权利。去见见我那边的朋友罗克希克。'	-- You have earned the privilege of training with a higher instructor. Go see my pal Roxxik there.
@@ -783,29 +783,29 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='很好！无论其他人怎么说，我想我对你的看法是正确的。哈哈！我是开玩笑的！好吧，开始上课？'	-- Nice going! I knew I was right about you, no matter what those other people said. Ha! I'm kidding! Okay, on with your lessons.
 WHERE `entry`=5176;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hmm... well you seem capable enough. If you truly desire to learn, then nothing will stand in your way! I will guide you through your first steps on what I hope will be a long and fulfilling path.'	-- Hmm... well you seem capable enough. If you truly desire to learn, then nothing will stand in your way! I will guide you through your first steps on what I hope will be a long and fulfilling path.
-WHERE `entry`=5183;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hmm... well you seem capable enough. If you truly desire to learn, then nothing will stand in your way! I will guide you through your first steps on what I hope will be a long and fulfilling path.'	-- Hmm... well you seem capable enough. If you truly desire to learn, then nothing will stand in your way! I will guide you through your first steps on what I hope will be a long and fulfilling path.
+-- WHERE `entry`=5183;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你确实是个不错的附魔师！现在你该继续了。我想让你与楼上的吉布·草须谈谈。他人有些古怪，但是他会继续指引你！'	-- Ye're a fine enchanter indeed! Now it's time fer ye to move on. I want ye to talk to Gimble Thistlefuzz, upstairs. He's a bit of a character, but he'll steer ye in the right direction from here on out!
 WHERE `entry`=5185;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Your skills are beyond my reach. It is time for you to face new challenges. Taladan will help you prepare. He is standing by the table there.'	-- Your skills are beyond my reach. It is time for you to face new challenges. Taladan will help you prepare. He is standing by the table there.
-WHERE `entry`=5188;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Your skills are beyond my reach. It is time for you to face new challenges. Taladan will help you prepare. He is standing by the table there.'	-- Your skills are beyond my reach. It is time for you to face new challenges. Taladan will help you prepare. He is standing by the table there.
+-- WHERE `entry`=5188;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I will teach you what I can. Each lesson is a gift from the Goddess herself. Use her gifts wisely, and you shall not falter.'	-- I will teach you what I can. Each lesson is a gift from the Goddess herself. Use her gifts wisely, and you shall not falter.
-WHERE `entry`=5189;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I will teach you what I can. Each lesson is a gift from the Goddess herself. Use her gifts wisely, and you shall not falter.'	-- I will teach you what I can. Each lesson is a gift from the Goddess herself. Use her gifts wisely, and you shall not falter.
+-- WHERE `entry`=5189;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You have truly accelled in your knowledge of enchanting. There is much more to learn, if you are willing. Speak to Taladan, in the Craftsmen''s Terrace in Darnassus.'	-- You have truly accelled in your knowledge of enchanting. There is much more to learn, if you are willing. Speak to Taladan, in the Craftsmen's Terrace in Darnassus.
-WHERE `entry`=5191;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You have truly accelled in your knowledge of enchanting. There is much more to learn, if you are willing. Speak to Taladan, in the Craftsmen''s Terrace in Darnassus.'	-- You have truly accelled in your knowledge of enchanting. There is much more to learn, if you are willing. Speak to Taladan, in the Craftsmen's Terrace in Darnassus.
+-- WHERE `entry`=5191;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Open your mind, wanderer, and we shall begin.'	-- Open your mind, wanderer, and we shall begin.
-WHERE `entry`=5192;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Open your mind, wanderer, and we shall begin.'	-- Open your mind, wanderer, and we shall begin.
+-- WHERE `entry`=5192;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='呃，你进展到这个程度了吗？去那边的书架找拉文尼亚·克洛文。要是你没把事情搞糟，或许你能学到更多知识。'	-- Eh, well you've made it this far... go see Lavinia Crowe by the other bookshelf there. If you don't mess things up with her, maybe you can learn some more.
@@ -852,17 +852,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你还没有学会基础知识，流浪者。你找我的助手拉琳娜·夏月谈话了吗？可能你需要跟她谈谈。'	-- You have not yet learned the basics, wanderer. Have you spoken to my assistant, Lalina Summermoon? Perhaps you should.
 WHERE `entry`=5216;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If you are seeking a truly rewarding pursuit, then a life of enchanting is for you!'	-- If you are seeking a truly rewarding pursuit, then a life of enchanting is for you!
-WHERE `entry`=5218;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If you are seeking a truly rewarding pursuit, then a life of enchanting is for you!'	-- If you are seeking a truly rewarding pursuit, then a life of enchanting is for you!
+-- WHERE `entry`=5218;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I know many things, stranger, but your knowledge rivals my own. Enchanters who wish to hone their skills further are known to travel to the Tower of Azora, where an artisan named Kitta Firewind resides.'	-- I know many things, stranger, but your knowledge rivals my own. Enchanters who wish to hone their skills further are known to travel to the Tower of Azora, where an artisan named Kitta Firewind resides.
-WHERE `entry`=5219;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I know many things, stranger, but your knowledge rivals my own. Enchanters who wish to hone their skills further are known to travel to the Tower of Azora, where an artisan named Kitta Firewind resides.'	-- I know many things, stranger, but your knowledge rivals my own. Enchanters who wish to hone their skills further are known to travel to the Tower of Azora, where an artisan named Kitta Firewind resides.
+-- WHERE `entry`=5219;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Why don''t we see just what you''re capable of? If you complete the task I shall be happy to further your training!'	-- Why don't we see just what you're capable of? If you complete the task I shall be happy to further your training!
-WHERE `entry`=5220;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Why don''t we see just what you''re capable of? If you complete the task I shall be happy to further your training!'	-- Why don't we see just what you're capable of? If you complete the task I shall be happy to further your training!
+-- WHERE `entry`=5220;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='明显莫特并没有派你到我这儿来。他知道得很清楚。你还无法理解我能传授给你的知识。去外面找我的儿子莫特，他会对你进行训练的。'	-- Surely Mot didn't send you to me? He knows better. You are not yet capable of understanding what I would teach you. See my son Mot, just outside there, and finish training with him.
@@ -872,17 +872,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='啊，非常好。我认为你是一个不错的学生。现在，可能开始训练了？？'	-- Ah, very good. I am satisfied that you are a worthy student. Now, your training with me may begin???
 WHERE `entry`=5227;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hmm, you scratch my back, I''ll scratch yours. If you do what I ask, and do it well, maybe we can discuss your training.'	-- Hmm, you scratch my back, I'll scratch yours. If you do what I ask, and do it well, maybe we can discuss your training.
-WHERE `entry`=5230;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hmm, you scratch my back, I''ll scratch yours. If you do what I ask, and do it well, maybe we can discuss your training.'	-- Hmm, you scratch my back, I'll scratch yours. If you do what I ask, and do it well, maybe we can discuss your training.
+-- WHERE `entry`=5230;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='No, no, you''ll need FAR more training before you''re ready to learn from me! Go talk to that uptight dabbler Malcomb Wynn. He''s the one buried in books over there.'	-- No, no, you'll need FAR more training before you're ready to learn from me! Go talk to that uptight dabbler Malcomb Wynn. He's the one buried in books over there.
-WHERE `entry`=5231;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='No, no, you''ll need FAR more training before you''re ready to learn from me! Go talk to that uptight dabbler Malcomb Wynn. He''s the one buried in books over there.'	-- No, no, you'll need FAR more training before you're ready to learn from me! Go talk to that uptight dabbler Malcomb Wynn. He's the one buried in books over there.
+-- WHERE `entry`=5231;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Well, I''ve seen better. But, you have potential, I won''t deny it. Pay attention and you just might learn something!'	-- Well, I've seen better. But, you have potential, I won't deny it. Pay attention and you just might learn something!
-WHERE `entry`=5232;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Well, I''ve seen better. But, you have potential, I won''t deny it. Pay attention and you just might learn something!'	-- Well, I've seen better. But, you have potential, I won't deny it. Pay attention and you just might learn something!
+-- WHERE `entry`=5232;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你可能拥有它所需的。让我们查明真相！'	-- You may have what it takes. Let's find out!
@@ -896,49 +896,49 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='干得好！你有那些触动在你眼里？？我非常清楚，当号我刚刚​​开始的时候也是一样！现在，让号我看看有什么可以教你的。'	-- Well done! You have that spark in your eye, I know it well, it's the same spark I had when I was but a pup! Now, let's see if I can't teach you something.
 WHERE `entry`=5242;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You have nearly reached the pinnacle of your training. To become the greatest enchanter you can possibly be, you have one more instructor to seek out. Her name is Annora, and you may find her in Uldaman.'	-- You have nearly reached the pinnacle of your training. To become the greatest enchanter you can possibly be, you have one more instructor to seek out. Her name is Annora, and you may find her in Uldaman.
-WHERE `entry`=5244;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You have nearly reached the pinnacle of your training. To become the greatest enchanter you can possibly be, you have one more instructor to seek out. Her name is Annora, and you may find her in Uldaman.'	-- You have nearly reached the pinnacle of your training. To become the greatest enchanter you can possibly be, you have one more instructor to seek out. Her name is Annora, and you may find her in Uldaman.
+-- WHERE `entry`=5244;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You are eager, that is good. However, you are not yet ready to train with the likes of me.'	-- You are eager, that is good. However, you are not yet ready to train with the likes of me.
-WHERE `entry`=5246;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You are eager, that is good. However, you are not yet ready to train with the likes of me.'	-- You are eager, that is good. However, you are not yet ready to train with the likes of me.
+-- WHERE `entry`=5246;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Your skills are truly becoming extraordinary. Now, let us continue your training...'	-- Your skills are truly becoming extraordinary. Now, let us continue your training...
-WHERE `entry`=5247;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Your skills are truly becoming extraordinary. Now, let us continue your training...'	-- Your skills are truly becoming extraordinary. Now, let us continue your training...
+-- WHERE `entry`=5247;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='日复一日地坚持训练吧。当你熟练掌握所有技能的时候，再来找我。'	-- Train hard, train every day. And when you have perfected your skills, return to me.
 WHERE `entry`=5251;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Your education is nearly complete. One final task is all that stands between you and the culmination of all your efforts.'	-- Your education is nearly complete. One final task is all that stands between you and the culmination of all your efforts.
-WHERE `entry`=5255;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Your education is nearly complete. One final task is all that stands between you and the culmination of all your efforts.'	-- Your education is nearly complete. One final task is all that stands between you and the culmination of all your efforts.
+-- WHERE `entry`=5255;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='There are still lessons you must learn from others before my knowledge may be shared with you. Be diligent, and do not give up hope.'	-- There are still lessons you must learn from others before my knowledge may be shared with you. Be diligent, and do not give up hope.
-WHERE `entry`=5256;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='There are still lessons you must learn from others before my knowledge may be shared with you. Be diligent, and do not give up hope.'	-- There are still lessons you must learn from others before my knowledge may be shared with you. Be diligent, and do not give up hope.
+-- WHERE `entry`=5256;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Gosh, I''m sorry. I don''t have anything new to teach you. How about you go talk to Simon Tanner in the Old Town section of Stormwind? He''s a human with big muscles and dreamy red hair.'	-- Gosh, I'm sorry. I don't have anything new to teach you. How about you go talk to Simon Tanner in the Old Town section of Stormwind? He's a human with big muscles and dreamy red hair.
-WHERE `entry`=5258;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Gosh, I''m sorry. I don''t have anything new to teach you. How about you go talk to Simon Tanner in the Old Town section of Stormwind? He''s a human with big muscles and dreamy red hair.'	-- Gosh, I'm sorry. I don't have anything new to teach you. How about you go talk to Simon Tanner in the Old Town section of Stormwind? He's a human with big muscles and dreamy red hair.
+-- WHERE `entry`=5258;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='How''s it going? I love the smell of leather; don''t you?'	-- How's it going? I love the smell of leather; don't you?
-WHERE `entry`=5259;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='How''s it going? I love the smell of leather; don''t you?'	-- How's it going? I love the smell of leather; don't you?
+-- WHERE `entry`=5259;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='My apologies, but you have already learned everything I know. The night elf Faldron could offer you further training, however. Look for him in the Craftsmen''s Terrace of Darnassus.'	-- My apologies, but you have already learned everything I know. The night elf Faldron could offer you further training, however. Look for him in the Craftsmen's Terrace of Darnassus.
-WHERE `entry`=5264;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='My apologies, but you have already learned everything I know. The night elf Faldron could offer you further training, however. Look for him in the Craftsmen''s Terrace of Darnassus.'	-- My apologies, but you have already learned everything I know. The night elf Faldron could offer you further training, however. Look for him in the Craftsmen's Terrace of Darnassus.
+-- WHERE `entry`=5264;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Oh, goody, something else to do while I wait! You''re a real life-saver, $N!'	-- Oh, goody, something else to do while I wait! You're a real life-saver, $N!
-WHERE `entry`=5278;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Oh, goody, something else to do while I wait! You''re a real life-saver, $N!'	-- Oh, goody, something else to do while I wait! You're a real life-saver, $N!
+-- WHERE `entry`=5278;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='My teachings would be too advanced for you at this stage. If you wish to learn more of potions, speak with Tel''Athir here instead.'	-- My teachings would be too advanced for you at this stage. If you wish to learn more of potions, speak with Tel'Athir here instead.
-WHERE `entry`=5316;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='My teachings would be too advanced for you at this stage. If you wish to learn more of potions, speak with Tel''Athir here instead.'	-- My teachings would be too advanced for you at this stage. If you wish to learn more of potions, speak with Tel'Athir here instead.
+-- WHERE `entry`=5316;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='即使我也有我的局限性！如果你想继续学习的话去找幽暗城的拉文尼亚·克洛文谈谈。'	-- Even I have my limitations! Go talk to Lavinia Crowe in Undercity if you wish to further your training.
@@ -948,13 +948,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嗯，我声明！他是个新学生！只要你再多掌握一点技能，我会很乐意将我所知道的一切都教给你的。去跟格雷塔谈谈，好吗？她会教你如何速成技能的。'	-- Well, I declare! It's a new student! I'll gladly teach you everything I know once you have a little more skill. Go talk to Gretta Finespindle over there, would you? She'll have you up to speed in no time.
 WHERE `entry`=5333;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Training you further is beyond my abilities. Speak to Telonis in the Craftsmen''s Terrace of Darnassus. He is always glad to help talented students.'	-- Training you further is beyond my abilities. Speak to Telonis in the Craftsmen's Terrace of Darnassus. He is always glad to help talented students.
-WHERE `entry`=5361;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Training you further is beyond my abilities. Speak to Telonis in the Craftsmen''s Terrace of Darnassus. He is always glad to help talented students.'	-- Training you further is beyond my abilities. Speak to Telonis in the Craftsmen's Terrace of Darnassus. He is always glad to help talented students.
+-- WHERE `entry`=5361;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I only teach students who have already mastered the basics. You must seek out the night elf Darianna in the Craftsmen''s Terrace of Darnassus. Her skills will be a perfect complement to yours.'	-- I only teach students who have already mastered the basics. You must seek out the night elf Darianna in the Craftsmen's Terrace of Darnassus. Her skills will be a perfect complement to yours.
-WHERE `entry`=5363;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I only teach students who have already mastered the basics. You must seek out the night elf Darianna in the Craftsmen''s Terrace of Darnassus. Her skills will be a perfect complement to yours.'	-- I only teach students who have already mastered the basics. You must seek out the night elf Darianna in the Craftsmen's Terrace of Darnassus. Her skills will be a perfect complement to yours.
+-- WHERE `entry`=5363;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你必须去西部荒野的海洋搜寻，朝正西方西──金海岸矿坑与海岸交接处往西北方向。海岸边有一只锚，看来附近一定有艘沉船。水下的压力很大；如果游得太远的话，即使是最优秀的潜水者也可能死于疲劳。$B$B去找一处适宜的自然环境吧，$N──这附近有起泡的海底裂缝，能在深海潜水时提供氧气。'	-- The waters of Westfall is where you must search, due west-northwest of where the Gold Coast Quarry meets with the shore.  An anchor shows where a boat has sunk beyond it, deep within the water.  The underwater pressure is fierce here; swimming too far will crush even the mightiest swimmer from fatigue.  $B$BLook for a natural formation to aid you, $N - a bubbly fissure is near here, offering deep-water swimmers a chance for renewed breath.$b
@@ -964,9 +964,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='在银松森林北流海岸边缘，海滩上搁着一艘废弃的船。船只以西有你要找的东西；游得太远的话，你会因疲劳无法游回海岸的。海床上有一只上了锁的带锁箱，等着你去取呢。$B$B要是没有人帮忙的话，潜到这样的深度会承受极大的水压，要小心；海床上有一道裂缝，能释放出气泡，有助于你寻找那半块坠饰。好好利用吧。'	-- In the Silverpine Forest along the edges of the North Tide's Run, a derelict boat rests on the shore.  Out to the west of this lies what you seek; swim too far and the ocean will crush you from fatigue.  It resides on the ocean floor in a lockbox, waiting for you to claim it.$B$BYou'll be hard pressed to survive a dive to such depths without aid, so take heart; a bubbly fissure offers renewed breath to divers seeking this half of the pendant.  Use it wisely.
 WHERE `entry`=5374;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='In the northeastern Barrens lies a pool of water sickened by pollution.  The locals call it the Sludge Fen; the Venture Company has turned the once crystal-blue waters into a mire of industrial byproducts and waste.  In the heart of this fen lies what you seek, $N.$B$BBe warned - the Venture Company does not tolerate trespassers, and they consider anyone who does not work for them as such.  You''ll especially be a target as a protector of nature, something they vehemently oppose.'	-- In the northeastern Barrens lies a pool of water sickened by pollution.  The locals call it the Sludge Fen; the Venture Company has turned the once crystal-blue waters into a mire of industrial byproducts and waste.  In the heart of this fen lies what you seek, $N.$B$BBe warned - the Venture Company does not tolerate trespassers, and they consider anyone who does not work for them as such.  You'll especially be a target as a protector of nature, something they vehemently oppose.
-WHERE `entry`=5376;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='In the northeastern Barrens lies a pool of water sickened by pollution.  The locals call it the Sludge Fen; the Venture Company has turned the once crystal-blue waters into a mire of industrial byproducts and waste.  In the heart of this fen lies what you seek, $N.$B$BBe warned - the Venture Company does not tolerate trespassers, and they consider anyone who does not work for them as such.  You''ll especially be a target as a protector of nature, something they vehemently oppose.'	-- In the northeastern Barrens lies a pool of water sickened by pollution.  The locals call it the Sludge Fen; the Venture Company has turned the once crystal-blue waters into a mire of industrial byproducts and waste.  In the heart of this fen lies what you seek, $N.$B$BBe warned - the Venture Company does not tolerate trespassers, and they consider anyone who does not work for them as such.  You'll especially be a target as a protector of nature, something they vehemently oppose.
+-- WHERE `entry`=5376;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你的进步已经超越了我能教授的技艺了。现在到辛特兰的鹰巢山去找矮人德拉克·石拳谈话。他的作品太棒了，比我的好多了。'	-- You have advanced beyond my skill to teach you. Journey now to Aerie Peak in the Hinterlands and speak with the dwarf Drakk Stonehand. His work is magnificent, far better than my own.
@@ -980,9 +980,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我不是来教那些刚离开摇篮的宝宝的。你离我对学生的要求还差远了。你不过是个年幼的$G小伙子:姑娘;，你最好别在这儿烦我了。'	-- I'm not here to teach babes fresh out of the cradle. Ye've nowhere near the amount of skill I require in my students. In fact, ye're a sad figure of a $glad:lass;, an' I'll thank ye not to stand there jibber-jabberin' at me.
 WHERE `entry`=5406;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I only wish I had more students like you. Not many will venture so far into enemy territory. I salute your courage.'	-- I only wish I had more students like you. Not many will venture so far into enemy territory. I salute your courage.
-WHERE `entry`=5408;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I only wish I had more students like you. Not many will venture so far into enemy territory. I salute your courage.'	-- I only wish I had more students like you. Not many will venture so far into enemy territory. I salute your courage.
+-- WHERE `entry`=5408;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我对裁缝业知之甚少，但你需要更多的帮助。我听说有个暗夜精灵精通裁缝技术。他居住在暴风城的魔法区。'	-- I'm a simple man who knows a few things about tailoring, but you need more assistance than I can provide. I have heard of a Night Elf who is quite an accomplished tailor. He resides in Stormwind, in the Magic District.
@@ -1016,9 +1016,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='带着大地之母的祝福，我们要开始了。'	-- With the Earth Mother's blessing, we shall begin.
 WHERE `entry`=5430;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You will not be disappointed, traveler. Tailoring is a joyous endeavor.'	-- You will not be disappointed, traveler. Tailoring is a joyous endeavor.
-WHERE `entry`=5439;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You will not be disappointed, traveler. Tailoring is a joyous endeavor.'	-- You will not be disappointed, traveler. Tailoring is a joyous endeavor.
+-- WHERE `entry`=5439;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你所掌握的知识已经跟我差不多啦。或许你可以去奥格玛找玛加尔。他虽然不是最好的裁缝，但是他一定可以帮助你。'	-- At dis point you know as much as I do, mon. Maybe you go see Magar in Orgrimmar. He not be da happiest tailor around, but he help you anyway.
@@ -1068,41 +1068,41 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嗯，嗯，还不坏。或许我能让你看点什么……'	-- Well well, not too bad. Maybe I CAN show you a few things...
 WHERE `entry`=5539;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='There are basics that must be learned. Trianna is standing nearby, speak with her and return to me later.'	-- There are basics that must be learned. Trianna is standing nearby, speak with her and return to me later.
-WHERE `entry`=5543;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='There are basics that must be learned. Trianna is standing nearby, speak with her and return to me later.'	-- There are basics that must be learned. Trianna is standing nearby, speak with her and return to me later.
+-- WHERE `entry`=5543;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You have done well, traveler. I am proud to call you my student!'	-- You have done well, traveler. I am proud to call you my student!
-WHERE `entry`=5544;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You have done well, traveler. I am proud to call you my student!'	-- You have done well, traveler. I am proud to call you my student!
+-- WHERE `entry`=5544;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Your knowledge is great, traveler. You must learn from one who is wiser than I. Many tales have been told of the wisdom of Josef Gregorian. You may find him in Undercity.'	-- Your knowledge is great, traveler. You must learn from one who is wiser than I. Many tales have been told of the wisdom of Josef Gregorian. You may find him in Undercity.
-WHERE `entry`=5546;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Your knowledge is great, traveler. You must learn from one who is wiser than I. Many tales have been told of the wisdom of Josef Gregorian. You may find him in Undercity.'	-- Your knowledge is great, traveler. You must learn from one who is wiser than I. Many tales have been told of the wisdom of Josef Gregorian. You may find him in Undercity.
+-- WHERE `entry`=5546;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Expertly accomplished! Now, let us continue your education...'	-- Expertly accomplished! Now, let us continue your education...
-WHERE `entry`=5549;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Expertly accomplished! Now, let us continue your education...'	-- Expertly accomplished! Now, let us continue your education...
+-- WHERE `entry`=5549;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='My knowledge is limited, though I am still learning. It is time for you to move on, traveler. Find Josef Gregorian in Undercity and tell him you are ready.'	-- My knowledge is limited, though I am still learning. It is time for you to move on, traveler. Find Josef Gregorian in Undercity and tell him you are ready.
-WHERE `entry`=5552;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='My knowledge is limited, though I am still learning. It is time for you to move on, traveler. Find Josef Gregorian in Undercity and tell him you are ready.'	-- My knowledge is limited, though I am still learning. It is time for you to move on, traveler. Find Josef Gregorian in Undercity and tell him you are ready.
+-- WHERE `entry`=5552;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='There are fundamental things you must learn before I can aid you. Speak to my apprentice, Vhan. He is kind and patient and will teach you what you need to know.'	-- There are fundamental things you must learn before I can aid you. Speak to my apprentice, Vhan. He is kind and patient and will teach you what you need to know.
-WHERE `entry`=5554;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='There are fundamental things you must learn before I can aid you. Speak to my apprentice, Vhan. He is kind and patient and will teach you what you need to know.'	-- There are fundamental things you must learn before I can aid you. Speak to my apprentice, Vhan. He is kind and patient and will teach you what you need to know.
+-- WHERE `entry`=5554;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You are truly a determined student. I will be happy to provide you with instruction!'	-- You are truly a determined student. I will be happy to provide you with instruction!
-WHERE `entry`=5555;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You are truly a determined student. I will be happy to provide you with instruction!'	-- You are truly a determined student. I will be happy to provide you with instruction!
+-- WHERE `entry`=5555;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You have worked your way up, time to see the boss. Go to Josef and tell him you are ready.'	-- You have worked your way up, time to see the boss. Go to Josef and tell him you are ready.
-WHERE `entry`=5557;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You have worked your way up, time to see the boss. Go to Josef and tell him you are ready.'	-- You have worked your way up, time to see the boss. Go to Josef and tell him you are ready.
+-- WHERE `entry`=5557;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='How can I share my secrets with a beginner? Try speaking with Victor Ward first.'	-- How can I share my secrets with a beginner? Try speaking with Victor Ward first.
-WHERE `entry`=5559;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='How can I share my secrets with a beginner? Try speaking with Victor Ward first.'	-- How can I share my secrets with a beginner? Try speaking with Victor Ward first.
+-- WHERE `entry`=5559;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我恐怕在我可以教授你知识之前你要需要更多的训练。'	-- You'll need more training before I can share my knowledge with you, I'm afraid.
@@ -1132,9 +1132,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='谁派你来的？你还没有准备好接受我的指令！当你们准备好以后会得到通知的。'	-- Who sent you here? You're not ready for my instruction yet! You'll be told when you're ready.
 WHERE `entry`=5578;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='While nothing can change the past, time can heal all wounds. Thank you for showing me that it is possible, $N. I wish you well.'	-- While nothing can change the past, time can heal all wounds. Thank you for showing me that it is possible, $N. I wish you well.
-WHERE `entry`=5818;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='While nothing can change the past, time can heal all wounds. Thank you for showing me that it is possible, $N. I wish you well.'	-- While nothing can change the past, time can heal all wounds. Thank you for showing me that it is possible, $N. I wish you well.
+-- WHERE `entry`=5818;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='不，回答我，$N：$B在洛丹伦瘟疫爆发之前，是谁变成了巫妖王？'	-- Now, answer me this, $N:$BWhich creature became the Lich King before spreading the plague across Lordaeron?
@@ -1204,25 +1204,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这座纪念碑是用于缅怀在暴风城保卫战中牺牲的勇士。我们的人民经受了难以想像的痛苦才得以恢复自由，重新掌握自己的命运。我们将永远铭记那些在第一次兽人战争中牺牲的同胞。'	-- This monument is dedicated to all those who have fallen in the protection of Stormwind. Our people have weathered unbelievable hardships to retain their freedoms and to control their own destinies. It is here we remember every sacrifice our citizens have made during the first war that riddled our people.
 WHERE `entry`=6062;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I have made contact, $N. It is Lokholar the Ice Lord. He has deemed our cause worthy - our earth bound sacrifice sufficient. He comes soon... prepare yourself.'	-- I have made contact, $N. It is Lokholar the Ice Lord. He has deemed our cause worthy - our earth bound sacrifice sufficient. He comes soon... prepare yourself.
-WHERE `entry`=6100;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I have made contact, $N. It is Lokholar the Ice Lord. He has deemed our cause worthy - our earth bound sacrifice sufficient. He comes soon... prepare yourself.'	-- I have made contact, $N. It is Lokholar the Ice Lord. He has deemed our cause worthy - our earth bound sacrifice sufficient. He comes soon... prepare yourself.
+-- WHERE `entry`=6100;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='日志中似乎记载了关于贸易、买主和其他商业事件的资讯。'	-- The pages of the journal seem to be filled with information about trades, buyers  and other miscellaneous business related events.
 WHERE `entry`=6104;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The fleet is ready, $N. You must take this beacon and place it at the eastern crater of the central battlezone. Defend the beacon from attackers until the fleet is able to lock on to its coordinates!'	-- The fleet is ready, $N. You must take this beacon and place it at the eastern crater of the central battlezone. Defend the beacon from attackers until the fleet is able to lock on to its coordinates!
-WHERE `entry`=6107;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The fleet is ready, $N. You must take this beacon and place it at the eastern crater of the central battlezone. Defend the beacon from attackers until the fleet is able to lock on to its coordinates!'	-- The fleet is ready, $N. You must take this beacon and place it at the eastern crater of the central battlezone. Defend the beacon from attackers until the fleet is able to lock on to its coordinates!
+-- WHERE `entry`=6107;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N，很高兴见到你。我们和其它元素领主的战争是很激烈的，但你的努力有助于确保我们的胜利……'	-- $N, it is good to see you.  Our war with the other elemental lords yet rages, but your efforts help ensure our victory.
 WHERE `entry`=6109;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The fleet is ready, $N. You must take this beacon and place it at the western crater of the central battlezone. Defend the beacon from attackers until the fleet is able to lock on to its coordinates!'	-- The fleet is ready, $N. You must take this beacon and place it at the western crater of the central battlezone. Defend the beacon from attackers until the fleet is able to lock on to its coordinates!
-WHERE `entry`=6110;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The fleet is ready, $N. You must take this beacon and place it at the western crater of the central battlezone. Defend the beacon from attackers until the fleet is able to lock on to its coordinates!'	-- The fleet is ready, $N. You must take this beacon and place it at the western crater of the central battlezone. Defend the beacon from attackers until the fleet is able to lock on to its coordinates!
+-- WHERE `entry`=6110;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N，你在等什么？ 到战场找到特拉元帅并且交个他攻击命令。当他得到命令，他和她的部属向部落进攻并那些那些战俘！'	-- $N, what are you waiting for?  Find Field Marshal Teravaine in the Field of Strife and give him the assault orders.  Once he gets the orders, he and his troops will charge into the Horde and take no prisoners!
@@ -1254,17 +1254,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们奉命从达纳苏斯来到这儿，帮助身处患难的雷矛氏族。'	-- We have been sent here from Darnassus to aid the Stormpike in their time of need.
 WHERE `entry`=6173;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I have been lost in the Dream. I sense his lifeforce but my powers have not yet grown strong enough to make contact.'	-- I have been lost in the Dream. I sense his lifeforce but my powers have not yet grown strong enough to make contact.
-WHERE `entry`=6175;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I have been lost in the Dream. I sense his lifeforce but my powers have not yet grown strong enough to make contact.'	-- I have been lost in the Dream. I sense his lifeforce but my powers have not yet grown strong enough to make contact.
+-- WHERE `entry`=6175;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Yes. $N. I have located the Forest Lord. We must redouble our efforts! More crystals are needed!'	-- Yes. $N. I have located the Forest Lord. We must redouble our efforts! More crystals are needed!
-WHERE `entry`=6176;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Yes. $N. I have located the Forest Lord. We must redouble our efforts! More crystals are needed!'	-- Yes. $N. I have located the Forest Lord. We must redouble our efforts! More crystals are needed!
+-- WHERE `entry`=6176;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Forest Lord is aware of the destruction in this valley, $N. Soon we must make our way to the Circle of Calling. Prepare yourself!'	-- The Forest Lord is aware of the destruction in this valley, $N. Soon we must make our way to the Circle of Calling. Prepare yourself!
-WHERE `entry`=6177;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Forest Lord is aware of the destruction in this valley, $N. Soon we must make our way to the Circle of Calling. Prepare yourself!'	-- The Forest Lord is aware of the destruction in this valley, $N. Soon we must make our way to the Circle of Calling. Prepare yourself!
+-- WHERE `entry`=6177;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我不能再存储物资啦。我的背包都满啦！'	-- I cannot store any more supplies.  I have all I can handle!
@@ -1290,25 +1290,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='没有结合权杖两部分所需的咒语，维利塔恩领主是无法使用权杖的。但是，我已经从维利塔恩的诅咒中解放啦，如果你能将权杖的两部分交给我──权杖的头部和杖身，我会帮助你的。'	-- Without knowledge of the incantations required to unite the two parts, Lord Vyletongue was unable to use the scepter. However, now that I am free of the curse of Vyletongue's corruption, I will be able to assist you, if you'd like to bring me the two parts -- both the head and the rod of the scepter.
 WHERE `entry`=6385;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hail, $N!  It is good you came to see me.  We are prepared to launch a ground assuault through the Field of Strife!  Once Warmaster Garrick gets his orders, he and his reavers will cut a swath through the Alliance!$B$BDo you want to deliver those orders, $N?  Garrick is waiting in the Field of Strife...'	-- Hail, $N!  It is good you came to see me.  We are prepared to launch a ground assuault through the Field of Strife!  Once Warmaster Garrick gets his orders, he and his reavers will cut a swath through the Alliance!$B$BDo you want to deliver those orders, $N?  Garrick is waiting in the Field of Strife...
-WHERE `entry`=6433;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hail, $N!  It is good you came to see me.  We are prepared to launch a ground assuault through the Field of Strife!  Once Warmaster Garrick gets his orders, he and his reavers will cut a swath through the Alliance!$B$BDo you want to deliver those orders, $N?  Garrick is waiting in the Field of Strife...'	-- Hail, $N!  It is good you came to see me.  We are prepared to launch a ground assuault through the Field of Strife!  Once Warmaster Garrick gets his orders, he and his reavers will cut a swath through the Alliance!$B$BDo you want to deliver those orders, $N?  Garrick is waiting in the Field of Strife...
+-- WHERE `entry`=6433;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It''s good to have veterans like you in Alterac Valley, $N.  Our supplies are too low to launch a ground assault through Alterac Valley... speak with our quartermaster - he''ll tell you how to increase our supply base.'	-- It's good to have veterans like you in Alterac Valley, $N.  Our supplies are too low to launch a ground assault through Alterac Valley... speak with our quartermaster - he'll tell you how to increase our supply base.
-WHERE `entry`=6435;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It''s good to have veterans like you in Alterac Valley, $N.  Our supplies are too low to launch a ground assault through Alterac Valley... speak with our quartermaster - he''ll tell you how to increase our supply base.'	-- It's good to have veterans like you in Alterac Valley, $N.  Our supplies are too low to launch a ground assault through Alterac Valley... speak with our quartermaster - he'll tell you how to increase our supply base.
+-- WHERE `entry`=6435;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You!  $N!  What are you doing wandering around the village like this?  There are Alliance foes in Alterac!  We must drive them out!$B$BOur supplies are too low to launch a large ground assault, so speak with our quatermaster.  He''ll tell you how you can increase our supply base.'	-- You!  $N!  What are you doing wandering around the village like this?  There are Alliance foes in Alterac!  We must drive them out!$B$BOur supplies are too low to launch a large ground assault, so speak with our quatermaster.  He'll tell you how you can increase our supply base.
-WHERE `entry`=6437;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You!  $N!  What are you doing wandering around the village like this?  There are Alliance foes in Alterac!  We must drive them out!$B$BOur supplies are too low to launch a large ground assault, so speak with our quatermaster.  He''ll tell you how you can increase our supply base.'	-- You!  $N!  What are you doing wandering around the village like this?  There are Alliance foes in Alterac!  We must drive them out!$B$BOur supplies are too low to launch a large ground assault, so speak with our quatermaster.  He'll tell you how you can increase our supply base.
+-- WHERE `entry`=6437;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='现在还不是让你长眠的时候。我会帮你起死回生……但你也要为此付出一些代价。'	-- It is not yet your time. I shall aid your journey back to the realm of the living... for a price.
 WHERE `entry`=6491;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You have completed Teronis'' mission, and I appreciate all you have done, $N.'	-- You have completed Teronis' mission, and I appreciate all you have done, $N.
-WHERE `entry`=6555;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You have completed Teronis'' mission, and I appreciate all you have done, $N.'	-- You have completed Teronis' mission, and I appreciate all you have done, $N.
+-- WHERE `entry`=6555;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='听好了，$C$A$A你能感到那些来自号我这里的能量吗？现在是不是士气高涨呢？哎呀，还是另外一派的。扰乱他们的防御削弱了他们的部队将是不容易的任务，但必须做到！胜利将是我们的！'	-- Then listen well, $c.$B$BCan you feel the power radiating from me? Does your morale not swell? Aye, it is the same for the other side. To disrupt their defenses and thin out their troops will be no easy task, but it must be done! Victory will be ours!
@@ -1552,9 +1552,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你有办法改善这个装置，那就让我们知道！'	-- If you figure out any way to improve the device let me know!
 WHERE `entry`=7253;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='$N, it''s good to see you again!  Are you having fun at the Faire?$B$BWant to arm wrestle?  No, of course not... you want to keep your arm!'	-- $N, it's good to see you again!  Are you having fun at the Faire?$B$BWant to arm wrestle?  No, of course not... you want to keep your arm!
-WHERE `entry`=7394;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='$N, it''s good to see you again!  Are you having fun at the Faire?$B$BWant to arm wrestle?  No, of course not... you want to keep your arm!'	-- $N, it's good to see you again!  Are you having fun at the Faire?$B$BWant to arm wrestle?  No, of course not... you want to keep your arm!
+-- WHERE `entry`=7394;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，年轻的$C。就是在这里，你的大酋长挑战了奥格林·末日锤！虽然这事情已经过去了很久，但是在我的记忆中，它依然犹如刚刚发生过一样。'	-- Greetings young $c. It is here that your Warchief challenged Orgrim Doomhammer! Although it happened so many years ago, it is an image still fresh in my mind.
@@ -1584,13 +1584,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我会在通往霜狼要塞的路上巡逻。只要你一声令下，我就可以起飞，指挥官。'	-- I'll patrol the pass leading up to Frostwolf Keep. Just give me the word and I'll take flight, Commander.
 WHERE `entry`=7479;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='There are several battlegrounds from which to choose.  To which battlemaster shall I send you?'	-- There are several battlegrounds from which to choose.  To which battlemaster shall I send you?
-WHERE `entry`=7495;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='There are several battlegrounds from which to choose.  To which battlemaster shall I send you?'	-- There are several battlegrounds from which to choose.  To which battlemaster shall I send you?
+-- WHERE `entry`=7495;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I know just the one that you speak of $c.  You must seek out Brogun Stoneshield on the Warrior''s Terrace.'	-- I know just the one that you speak of $c.  You must seek out Brogun Stoneshield on the Warrior's Terrace.
-WHERE `entry`=7496;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I know just the one that you speak of $c.  You must seek out Brogun Stoneshield on the Warrior''s Terrace.'	-- I know just the one that you speak of $c.  You must seek out Brogun Stoneshield on the Warrior's Terrace.
+-- WHERE `entry`=7496;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='感谢你的援助，你想要加入哪个战场？'	-- Aye, and which battleground be ye looking for?
@@ -1785,13 +1785,13 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Hail $c. Didn''t I see you recently at an exclusive gathering? You look familiar, but then again this city is a busy place.$B$BIf you attended that convention, then surely you were given a secret code. Tell me your code and I will give you a special prize in return.'	-- Hail $c. Didn't I see you recently at an exclusive gathering? You look familiar, but then again this city is a busy place.$B$BIf you attended that convention, then surely you were given a secret code. Tell me your code and I will give you a special prize in return.
 WHERE `entry`=7780;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='$N!  I hope you''re ready to get to work, because there is much for you to do here on Sunstrider Isle.$B$BEver since the destruction of the Sunwell by Arthas and the Scourge, we have been a race adrift on a sea of uncertainty.  We teeter on the edge of oblivion.  This will change, $c, and you will learn and aid our recovery at the same time.$B$BThe Outland awaits us!'	-- $N!  I hope you're ready to get to work, because there is much for you to do here on Sunstrider Isle.$B$BEver since the destruction of the Sunwell by Arthas and the Scourge, we have been a race adrift on a sea of uncertainty.  We teeter on the edge of oblivion.  This will change, $c, and you will learn and aid our recovery at the same time.$B$BThe Outland awaits us!
-WHERE `entry`=7781;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='$N!  I hope you''re ready to get to work, because there is much for you to do here on Sunstrider Isle.$B$BEver since the destruction of the Sunwell by Arthas and the Scourge, we have been a race adrift on a sea of uncertainty.  We teeter on the edge of oblivion.  This will change, $c, and you will learn and aid our recovery at the same time.$B$BThe Outland awaits us!'	-- $N!  I hope you're ready to get to work, because there is much for you to do here on Sunstrider Isle.$B$BEver since the destruction of the Sunwell by Arthas and the Scourge, we have been a race adrift on a sea of uncertainty.  We teeter on the edge of oblivion.  This will change, $c, and you will learn and aid our recovery at the same time.$B$BThe Outland awaits us!
+-- WHERE `entry`=7781;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The ghostly figure looks at you with mistrust in her eyes and remains silent.'	-- The ghostly figure looks at you with mistrust in her eyes and remains silent.
-WHERE `entry`=7783;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The ghostly figure looks at you with mistrust in her eyes and remains silent.'	-- The ghostly figure looks at you with mistrust in her eyes and remains silent.
+-- WHERE `entry`=7783;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='曾经……日尖塔处于太阳之井旁的优渥位置。如今我们的生活方式从天堂掉落了地狱，$N，但我们仍在努力向前迈进。我们是幸存者，这是我们的生存方式。$B$B如果你想从这场动乱中活下来……靠自己的力量活下去，那你一定要学会如何生存。所有的血精灵都是如此。你一定要在心中对于魔法永无止尽的渴望主宰你之前先主宰它。'	-- The Sunspire held a beautiful vantage of the Sunwell... once.  Our lives have been turned upside down, $N, but we nonetheless carry on.  It is our way; we are survivors.$B$BIf you are to survive this upheaval... to carry on in your own right, then you MUST learn how to survive.  All blood elves must do this.  You must master your insatiable hungering for magic before it masters you.
@@ -1809,9 +1809,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你在我研究最关键的时刻打扰了我！别担心，欢迎你加入我一起安静的沉思……重点是「安静」，如果你不介意的话。'	-- You've caught me at a critical time in my research!  No worries, you're welcome to join me in quiet contemplation... emphasis on "quiet", if you don't mind though.
 WHERE `entry`=7787;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If you''re heading toward the city, then I have something important for you to do!'	-- If you're heading toward the city, then I have something important for you to do!
-WHERE `entry`=7788;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If you''re heading toward the city, then I have something important for you to do!'	-- If you're heading toward the city, then I have something important for you to do!
+-- WHERE `entry`=7788;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$N。'	-- Greetings, $N.
@@ -1839,9 +1839,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N，很高兴再见到你。$B$B记得专注于你的学习，你代表着我们的未来。如果你失败的话，我们的未来就会黯淡无光。'	-- $N, it is good to see you again.$B$BRemember to stay focused on your learning.  You represent our future, and should you falter our future will be dark indeed.
 WHERE `entry`=7869;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to the Falconwing Square Inn. May I prepare a meal for you, or ready a room?'	-- Welcome to the Falconwing Square Inn. May I prepare a meal for you, or ready a room?
-WHERE `entry`=7872;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to the Falconwing Square Inn. May I prepare a meal for you, or ready a room?'	-- Welcome to the Falconwing Square Inn. May I prepare a meal for you, or ready a room?
+-- WHERE `entry`=7872;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='魔法的奥秘不光是那些神秘的施法动作而已……但是跟我对话的你也明白这点，对吗？$B$B你来找我学习而你将得偿所望……只要你专心学习并且听从我的指示。恶魔的秘密不会平白无故提供给傻瓜，而我也不会。'	-- There is more to magic than just arcane gesticulations... but I am speaking to someone who already knows this, yes?$B$BYou've come to me to learn, and learn you will... just so long as you pay attention and do as I say.  The secrets of the demons do not cater to fools, and neither do I.
@@ -1894,13 +1894,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们历尽千辛万苦终于让家园重返以往的荣耀，$C。但是我们仍然要对那些入侵并败坏奎尔萨拉斯的人保持警惕。不把他们处理掉决不善罢甘休。$B$B不要让任何人阻挡辛多雷！'	-- Long have we toiled to see our land returned to its former glory, $c. Ever shall we remain vigilant against those who have invaded and defiled Quel'thalas. We will not rest until they are driven from our sight.$B$BLet none exist who stand in the way of the sin'dorei!
 WHERE `entry`=8226;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It''s all a mess, $c, and it''s all my fault! I was warned to get out of dock while there was still time, but did I listen? No.$B$BWhat am I going to do now? Those sickly blood elves, the Wretched, have made off with my magical goods, and ate them I think. I''m pretty sure that means they can''t be retrieved. And the Grimscale murlocs pirated away the rest of my goods in the dead of night! Furthermore, to kick an honest merchant when she''s down, my crew abandoned ship!$B$BI think I''m going to cry.'	-- It's all a mess, $c, and it's all my fault! I was warned to get out of dock while there was still time, but did I listen? No.$B$BWhat am I going to do now? Those sickly blood elves, the Wretched, have made off with my magical goods, and ate them I think. I'm pretty sure that means they can't be retrieved. And the Grimscale murlocs pirated away the rest of my goods in the dead of night! Furthermore, to kick an honest merchant when she's down, my crew abandoned ship!$B$BI think I'm going to cry.
-WHERE `entry`=8227;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It''s all a mess, $c, and it''s all my fault! I was warned to get out of dock while there was still time, but did I listen? No.$B$BWhat am I going to do now? Those sickly blood elves, the Wretched, have made off with my magical goods, and ate them I think. I''m pretty sure that means they can''t be retrieved. And the Grimscale murlocs pirated away the rest of my goods in the dead of night! Furthermore, to kick an honest merchant when she''s down, my crew abandoned ship!$B$BI think I''m going to cry.'	-- It's all a mess, $c, and it's all my fault! I was warned to get out of dock while there was still time, but did I listen? No.$B$BWhat am I going to do now? Those sickly blood elves, the Wretched, have made off with my magical goods, and ate them I think. I'm pretty sure that means they can't be retrieved. And the Grimscale murlocs pirated away the rest of my goods in the dead of night! Furthermore, to kick an honest merchant when she's down, my crew abandoned ship!$B$BI think I'm going to cry.
+-- WHERE `entry`=8227;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, $c. These are troubling times indeed if this is what is to become of our beloved Quel''Thalas.'	-- Hello, $c. These are troubling times indeed if this is what is to become of our beloved Quel'Thalas.
-WHERE `entry`=8228;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, $c. These are troubling times indeed if this is what is to become of our beloved Quel''Thalas.'	-- Hello, $c. These are troubling times indeed if this is what is to become of our beloved Quel'Thalas.
+-- WHERE `entry`=8228;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='鄙恶者一直是我方的眼中钉，$N。他们不是在汲取不稳定的秘法能源以满足其渴望，就是在计划着打垮我们美好的家园。'	-- The Wretched are a constant thorn in my side, $N.  When they're not being a danger to themselves by tapping unstable arcane sources to satisfy their cravings, they're cooking up half-brained schemes against our respectable society.
@@ -1950,13 +1950,13 @@ WHERE `entry`=8292;
 -- 	`text0_1_loc4`='After all these years of fighting, now everyone''s falling in love!'	-- After all these years of fighting, now everyone's falling in love!
 -- WHERE `entry`=8311;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The assortment of images, shapes, and markings come together before your eyes. The book seems to know your skill with leatherworking and offers you a choice - but be warned - you may only select one and once you have done so, may not change your mind!:'	-- The assortment of images, shapes, and markings come together before your eyes. The book seems to know your skill with leatherworking and offers you a choice - but be warned - you may only select one and once you have done so, may not change your mind!:
-WHERE `entry`=8326;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The assortment of images, shapes, and markings come together before your eyes. The book seems to know your skill with leatherworking and offers you a choice - but be warned - you may only select one and once you have done so, may not change your mind!:'	-- The assortment of images, shapes, and markings come together before your eyes. The book seems to know your skill with leatherworking and offers you a choice - but be warned - you may only select one and once you have done so, may not change your mind!:
+-- WHERE `entry`=8326;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I cannot teach you dragonscale leatherworking, $N. You must go to Tanaris and find the home of Narain Soothfancy. Once there, consult the book "Soothsaying for Dummies."'	-- I cannot teach you dragonscale leatherworking, $N. You must go to Tanaris and find the home of Narain Soothfancy. Once there, consult the book "Soothsaying for Dummies."
-WHERE `entry`=8327;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I cannot teach you dragonscale leatherworking, $N. You must go to Tanaris and find the home of Narain Soothfancy. Once there, consult the book "Soothsaying for Dummies."'	-- I cannot teach you dragonscale leatherworking, $N. You must go to Tanaris and find the home of Narain Soothfancy. Once there, consult the book "Soothsaying for Dummies."
+-- WHERE `entry`=8327;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='喔，哈罗……嗯，你是？$B$B不要紧，是什么风把你吹来我在这美丽乡村的离家之园啊？'	-- Oh, hello there.. um, what's your name?$B$BNo matter, what brings you to my home-away-from-home here out in the beautiful countryside?
@@ -1966,25 +1966,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嗨，$C。想必你们一定玩得很开心吧？你们觉得的派对好玩吗？希望我们派对上的东西都够供应。饮料跟开胃点心如果不够就是派对的致命伤啊，对吧？$B$B嗯，好啦，我要去招待其他宾客罗。尽兴玩。'	-- Hello, $c. I trust that you are enjoying youself? What do you think of the party? I do so hope that we aren't running out of anything. Nothing kills a fete faster than running out of drinks and hors d'oeuvres, wouldn't you say?$B$BYes, well, I must be about attending to my other guests. Do enjoy your stay.
 WHERE `entry`=8375;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings, my $g lord : lady;. I trust that you are having a pleasant time?'	-- Greetings, my $g lord : lady;. I trust that you are having a pleasant time?
-WHERE `entry`=8378;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings, my $g lord : lady;. I trust that you are having a pleasant time?'	-- Greetings, my $g lord : lady;. I trust that you are having a pleasant time?
+-- WHERE `entry`=8378;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Isn''t this just so much fun? I''m so glad that Lord Saltheril throws these parties every night, especially with all of that nastiness occurring to the south. Kind of just makes all of that go away, don''t you think?'	-- Isn't this just so much fun? I'm so glad that Lord Saltheril throws these parties every night, especially with all of that nastiness occurring to the south. Kind of just makes all of that go away, don't you think?
-WHERE `entry`=8379;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Isn''t this just so much fun? I''m so glad that Lord Saltheril throws these parties every night, especially with all of that nastiness occurring to the south. Kind of just makes all of that go away, don''t you think?'	-- Isn't this just so much fun? I'm so glad that Lord Saltheril throws these parties every night, especially with all of that nastiness occurring to the south. Kind of just makes all of that go away, don't you think?
+-- WHERE `entry`=8379;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们对那些失心者太仁慈了，要我说，我们应该拔出剑刺向他们。$B$B他们在阳帆港的大胆行径是不可饶恕的。'	-- We're too merciful with the Wretched.  We ought to drive a sword through each of them.$B$BTheir boldness in Sunsail Anchorage is unpardonable.
 WHERE `entry`=8402;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It''s been a long day of cutting down the mindless Scourge that endlessly parade down the Dead Scar.  I hope you''re here to lend a hand and not to waste my time with idle chatter.'	-- It's been a long day of cutting down the mindless Scourge that endlessly parade down the Dead Scar.  I hope you're here to lend a hand and not to waste my time with idle chatter.
-WHERE `entry`=8403;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It''s been a long day of cutting down the mindless Scourge that endlessly parade down the Dead Scar.  I hope you''re here to lend a hand and not to waste my time with idle chatter.'	-- It's been a long day of cutting down the mindless Scourge that endlessly parade down the Dead Scar.  I hope you're here to lend a hand and not to waste my time with idle chatter.
+-- WHERE `entry`=8403;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Another lovely, gloomy day here in Tranquillien, wouldn''t you say, $c?$B$BWhat can I do for you?'	-- Another lovely, gloomy day here in Tranquillien, wouldn't you say, $c?$B$BWhat can I do for you?
-WHERE `entry`=8410;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Another lovely, gloomy day here in Tranquillien, wouldn''t you say, $c?$B$BWhat can I do for you?'	-- Another lovely, gloomy day here in Tranquillien, wouldn't you say, $c?$B$BWhat can I do for you?
+-- WHERE `entry`=8410;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='没有什么是比翱翔天空更自由的事，$C。有什么需要我帮忙的吗？'	-- No greater freedom than to soar through the skies, $c. What can I do for you today?
@@ -1998,33 +1998,33 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$C，看看他们对我们可爱的土地做了什么。天谴军团一定要被消灭！'	-- $C, look what they've done to our beloved land. The Scourge must be destroyed!
 WHERE `entry`=8417;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It''s going to take a bit of work, but I think we can save this blood elf''s life.'	-- It's going to take a bit of work, but I think we can save this blood elf's life.
-WHERE `entry`=8418;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It''s going to take a bit of work, but I think we can save this blood elf''s life.'	-- It's going to take a bit of work, but I think we can save this blood elf's life.
+-- WHERE `entry`=8418;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我……不行了……我失败了。'	-- Who are you?  I feel... so... cold.
 WHERE `entry`=8419;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It is shameful that we sin''dorei have lost so much of what we used to call home.  It shall not be long before we regain our strength and retake our southern lands back from the Scourge!'	-- It is shameful that we sin'dorei have lost so much of what we used to call home.  It shall not be long before we regain our strength and retake our southern lands back from the Scourge!
-WHERE `entry`=8421;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It is shameful that we sin''dorei have lost so much of what we used to call home.  It shall not be long before we regain our strength and retake our southern lands back from the Scourge!'	-- It is shameful that we sin'dorei have lost so much of what we used to call home.  It shall not be long before we regain our strength and retake our southern lands back from the Scourge!
+-- WHERE `entry`=8421;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='高阶执行官和阿莉法娜奥丝夫人让我在哪边枯等，但我真的没时间！我朋友正在垂死边缘挣扎啊，$C！'	-- The high executor and Dame Auriferous are making me wait, but I don't have time for this! My friends are out there dying, $c!
 WHERE `entry`=8423;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I sent Ranger Salissa south to the enclave and Ranger Lethvalin west to Tranquillien more than a day ago! Have you seen either of them? Are you the aid that''s been sent back?'	-- I sent Ranger Salissa south to the enclave and Ranger Lethvalin west to Tranquillien more than a day ago! Have you seen either of them? Are you the aid that's been sent back?
-WHERE `entry`=8424;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I sent Ranger Salissa south to the enclave and Ranger Lethvalin west to Tranquillien more than a day ago! Have you seen either of them? Are you the aid that''s been sent back?'	-- I sent Ranger Salissa south to the enclave and Ranger Lethvalin west to Tranquillien more than a day ago! Have you seen either of them? Are you the aid that's been sent back?
+-- WHERE `entry`=8424;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='有时候我觉得我好像永远也无法回归到简单正常的生活来效忠阿莉法娜奥丝夫人。我永远也离不开战争。$B$B幸好总是有像你这样的人热切于见到奎尔萨拉斯回到它原来的样貌。摧毁天谴军团，$C！不管你在何方都要摧毁他们！'	-- Sometimes it feels like I'll never go back to being a simple functionary in service to Dame Auriferous. I'm not cut out for war.$B$BThankfully there are those like you who burn to see Quel'Thalas restored to its former beauty. Crush the Scourge, $c! Crush them wherever you can!
 WHERE `entry`=8425;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Ah, here''s the $g hero : heroine; of the hour now! Good to see you again, $N! I trust that you''re still destroying the Scourge wherever you find them?'	-- Ah, here's the $g hero : heroine; of the hour now! Good to see you again, $N! I trust that you're still destroying the Scourge wherever you find them?
-WHERE `entry`=8426;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Ah, here''s the $g hero : heroine; of the hour now! Good to see you again, $N! I trust that you''re still destroying the Scourge wherever you find them?'	-- Ah, here's the $g hero : heroine; of the hour now! Good to see you again, $N! I trust that you're still destroying the Scourge wherever you find them?
+-- WHERE `entry`=8426;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我得到消息说你帮助了游侠瓦兰娜和派往塞布索雷的上尉。$B$B感谢你，$C。我想我现在应该回远行者营地了。'	-- I received word that you were able to help Ranger Valanna and the lieutenant at Zeb'Sora.$B$BThank you, $c. I suppose I should make my way back to Farstrider Enclave now.
@@ -2038,21 +2038,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='啊，你好，$R。如你所见，我还没开始营业。所以，如果你不介意，我要先忙了。'	-- Ah, hello there, $r. As you can see, I'm not open for business quite yet. Now, if you'll excuse me, I'm very busy.
 WHERE `entry`=8431;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to Tranquillien, $c. I apologize for the state that you find it in. As you can see, we''ve been having some trouble, but the Forsaken, and their Lady Sylvanas Windrunner, have been gracious enough to lend us a great deal of assistance in our time of need.$B$BIf you can lend a hand please do not hesitate to do so. We can use all of the help that we can get in our struggle against the myriad forces arrayed against us.'	-- Welcome to Tranquillien, $c. I apologize for the state that you find it in. As you can see, we've been having some trouble, but the Forsaken, and their Lady Sylvanas Windrunner, have been gracious enough to lend us a great deal of assistance in our time of need.$B$BIf you can lend a hand please do not hesitate to do so. We can use all of the help that we can get in our struggle against the myriad forces arrayed against us.
-WHERE `entry`=8433;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to Tranquillien, $c. I apologize for the state that you find it in. As you can see, we''ve been having some trouble, but the Forsaken, and their Lady Sylvanas Windrunner, have been gracious enough to lend us a great deal of assistance in our time of need.$B$BIf you can lend a hand please do not hesitate to do so. We can use all of the help that we can get in our struggle against the myriad forces arrayed against us.'	-- Welcome to Tranquillien, $c. I apologize for the state that you find it in. As you can see, we've been having some trouble, but the Forsaken, and their Lady Sylvanas Windrunner, have been gracious enough to lend us a great deal of assistance in our time of need.$B$BIf you can lend a hand please do not hesitate to do so. We can use all of the help that we can get in our struggle against the myriad forces arrayed against us.
+-- WHERE `entry`=8433;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='剑而已，不用害怕。要小心羊肉才是真的！'	-- Don't be afraid of the sword, nubling. It's the mutton that gets ya!
 WHERE `entry`=8435;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It is very important that we find out what the the night elves are up to, $c! Please concentrate all of your efforts toward that end.'	-- It is very important that we find out what the the night elves are up to, $c! Please concentrate all of your efforts toward that end.
-WHERE `entry`=8439;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It is very important that we find out what the the night elves are up to, $c! Please concentrate all of your efforts toward that end.'	-- It is very important that we find out what the the night elves are up to, $c! Please concentrate all of your efforts toward that end.
+-- WHERE `entry`=8439;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We are most pleased with your actions against the night elves. When you uncovered their plot to use the ley-line nexi and their so-called moon crystals to spy upon us, you strengthened our position here by an order of magnitude.$B$BYou have our gratitude, $N.'	-- We are most pleased with your actions against the night elves. When you uncovered their plot to use the ley-line nexi and their so-called moon crystals to spy upon us, you strengthened our position here by an order of magnitude.$B$BYou have our gratitude, $N.
-WHERE `entry`=8440;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We are most pleased with your actions against the night elves. When you uncovered their plot to use the ley-line nexi and their so-called moon crystals to spy upon us, you strengthened our position here by an order of magnitude.$B$BYou have our gratitude, $N.'	-- We are most pleased with your actions against the night elves. When you uncovered their plot to use the ley-line nexi and their so-called moon crystals to spy upon us, you strengthened our position here by an order of magnitude.$B$BYou have our gratitude, $N.
+-- WHERE `entry`=8440;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你是援军吗？暗夜精灵已被击溃了！'	-- Are you the reinforcements? The night elves have been routed!
@@ -2078,13 +2078,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<血精灵倒在地上看起来变的很迟缓。>'	-- <The blood elf lies on the floor in some manner of induced torpor.>
 WHERE `entry`=8457;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='<The Forsaken female is curled up on the floor, her face in a grimace.  She does not appear capable of getting up on her own at the moment.>'	-- <The Forsaken female is curled up on the floor, her face in a grimace.  She does not appear capable of getting up on her own at the moment.>
-WHERE `entry`=8459;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='<The Forsaken female is curled up on the floor, her face in a grimace.  She does not appear capable of getting up on her own at the moment.>'	-- <The Forsaken female is curled up on the floor, her face in a grimace.  She does not appear capable of getting up on her own at the moment.>
+-- WHERE `entry`=8459;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Ahhhhggg... this pain in my head is killing me.$B$BThey must''ve sent you to rescue me.  Took them long enough!  Do you have any idea of the things they do to prisoners here?'	-- Ahhhhggg... this pain in my head is killing me.$B$BThey must've sent you to rescue me.  Took them long enough!  Do you have any idea of the things they do to prisoners here?
-WHERE `entry`=8460;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Ahhhhggg... this pain in my head is killing me.$B$BThey must''ve sent you to rescue me.  Took them long enough!  Do you have any idea of the things they do to prisoners here?'	-- Ahhhhggg... this pain in my head is killing me.$B$BThey must've sent you to rescue me.  Took them long enough!  Do you have any idea of the things they do to prisoners here?
+-- WHERE `entry`=8460;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<血精灵毫无生气地躺在桌上。虽然他还有呼吸，但他明显地中了高效的镇静毒素。>'	-- <The blood elf lies limp on the table.  While he's still breathing, he appears to have been the victim of potent sedative toxins.>
@@ -2098,25 +2098,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<当恢复药剂开始生效瓦尼司激烈地咳嗽。>$B$B谢谢你救了我。我一定要立刻回到安宁地！'	-- <Varnis coughs violently as the restorative draught takes effect.>$B$BThank you for rescuing me.  I must go back to Tranquillien at once!
 WHERE `entry`=8463;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If it is a matter of import that you wish to speak on, $c, it may be more appropriate to seek an audience with Dame Auriferous. I warn you though, she is very busy and you may be in for quite a wait.'	-- If it is a matter of import that you wish to speak on, $c, it may be more appropriate to seek an audience with Dame Auriferous. I warn you though, she is very busy and you may be in for quite a wait.
-WHERE `entry`=8466;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If it is a matter of import that you wish to speak on, $c, it may be more appropriate to seek an audience with Dame Auriferous. I warn you though, she is very busy and you may be in for quite a wait.'	-- If it is a matter of import that you wish to speak on, $c, it may be more appropriate to seek an audience with Dame Auriferous. I warn you though, she is very busy and you may be in for quite a wait.
+-- WHERE `entry`=8466;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Normally it would not be my place to speak with you directly; rather, you would seek an audience with milady. However, I did give you a task directly, so what is it that we need to discuss?'	-- Normally it would not be my place to speak with you directly; rather, you would seek an audience with milady. However, I did give you a task directly, so what is it that we need to discuss?
-WHERE `entry`=8467;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Normally it would not be my place to speak with you directly; rather, you would seek an audience with milady. However, I did give you a task directly, so what is it that we need to discuss?'	-- Normally it would not be my place to speak with you directly; rather, you would seek an audience with milady. However, I did give you a task directly, so what is it that we need to discuss?
+-- WHERE `entry`=8467;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='$C, Dame Auriferous has conveyed to me her great pleasure in the service that you have done us in the past. She wishes to extend to you her hope that you will continue to be a champion of sin''dorei interests here in the Ghostlands.'	-- $C, Dame Auriferous has conveyed to me her great pleasure in the service that you have done us in the past. She wishes to extend to you her hope that you will continue to be a champion of sin'dorei interests here in the Ghostlands.
-WHERE `entry`=8468;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='$C, Dame Auriferous has conveyed to me her great pleasure in the service that you have done us in the past. She wishes to extend to you her hope that you will continue to be a champion of sin''dorei interests here in the Ghostlands.'	-- $C, Dame Auriferous has conveyed to me her great pleasure in the service that you have done us in the past. She wishes to extend to you her hope that you will continue to be a champion of sin'dorei interests here in the Ghostlands.
+-- WHERE `entry`=8468;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We''ve important work to do, $N.  Let us attack our enemies while their guard is down.  Let us show them that sin''dorei vengeance never forgets nor forgives.'	-- We've important work to do, $N.  Let us attack our enemies while their guard is down.  Let us show them that sin'dorei vengeance never forgets nor forgives.
-WHERE `entry`=8470;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We''ve important work to do, $N.  Let us attack our enemies while their guard is down.  Let us show them that sin''dorei vengeance never forgets nor forgives.'	-- We've important work to do, $N.  Let us attack our enemies while their guard is down.  Let us show them that sin'dorei vengeance never forgets nor forgives.
+-- WHERE `entry`=8470;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Well this is troublesome! How am I supposed to collect the ore samples for the magisters if the mines have been overrun with gnoll vermin?'	-- Well this is troublesome! How am I supposed to collect the ore samples for the magisters if the mines have been overrun with gnoll vermin?
-WHERE `entry`=8472;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Well this is troublesome! How am I supposed to collect the ore samples for the magisters if the mines have been overrun with gnoll vermin?'	-- Well this is troublesome! How am I supposed to collect the ore samples for the magisters if the mines have been overrun with gnoll vermin?
+-- WHERE `entry`=8472;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='她会在哪？我满早以前就派我的学徒，莎夏莉雅去西边的光底矿坑了。我们需要把那些矿石样本带回来，要快，否则我们的实验就会失败！'	-- Where could she possibly be? I sent my apprentice, Shatharia, to the Underlight Mines to the west quite some time ago. We need those ore samples back, and fast or our experiment is going to fail!
@@ -2126,29 +2126,29 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果没有那个光底矿石，这样的情况下，我们的研究一定会失败。$B$B等莎夏莉雅回来这里再说吧。我有一些有趣的任务要交给她，你可以相信我！'	-- Without delivery of the Underlight ore in such a timely fashion, our research would have failed.$B$BJust wait until Shatharia shows her head here again. I've got some interesting tasks for her, you can be sure of it!
 WHERE `entry`=8475;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Sin''dorei have lost far too much in the past years.  Our land, our homes, even our identities...$B$BIt''s about time we started taking it all back.'	-- Sin'dorei have lost far too much in the past years.  Our land, our homes, even our identities...$B$BIt's about time we started taking it all back.
-WHERE `entry`=8476;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Sin''dorei have lost far too much in the past years.  Our land, our homes, even our identities...$B$BIt''s about time we started taking it all back.'	-- Sin'dorei have lost far too much in the past years.  Our land, our homes, even our identities...$B$BIt's about time we started taking it all back.
+-- WHERE `entry`=8476;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='在我们战胜像天谴军团和阿曼尼这些外患之前，一定要先克服内忧。鄙恶者已经惹人厌够久了，是时候消灭他们了。'	-- Before we can overcome external obstacles like the Scourge and the Amani trolls, we must overcome obstacles from within.  The Wretched have been a nuisance for long enough; it is time we vanquished them.
 WHERE `entry`=8477;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Think you could help me to get out of here?'	-- Think you could help me to get out of here?
-WHERE `entry`=8478;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Think you could help me to get out of here?'	-- Think you could help me to get out of here?
+-- WHERE `entry`=8478;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='在那几张羊皮纸里有核对清单和其他远行者的资料，其中有一张特别抢眼。那是一张丑陋的巨魔素描，可能是你见过最可怕的生物！'	-- Amongst the various pieces of parchment containing checklists and other information from the Farstriders, one stands out. It is a drawing of a hideous troll, perhaps the most fearsome creature that you have ever seen!
 WHERE `entry`=8479;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Many an advantage can be gained from getting to know your enemy.  Take that lesson to heart, $N.$B$BThe more we learn about the Scourge the better prepared we are to defeat them.'	-- Many an advantage can be gained from getting to know your enemy.  Take that lesson to heart, $N.$B$BThe more we learn about the Scourge the better prepared we are to defeat them.
-WHERE `entry`=8485;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Many an advantage can be gained from getting to know your enemy.  Take that lesson to heart, $N.$B$BThe more we learn about the Scourge the better prepared we are to defeat them.'	-- Many an advantage can be gained from getting to know your enemy.  Take that lesson to heart, $N.$B$BThe more we learn about the Scourge the better prepared we are to defeat them.
+-- WHERE `entry`=8485;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You''re welcome to stay at the Farstrider Enclave for as long as you''d like, $c.  We welcome any who would aid us in our endeavors in the Ghostlands.'	-- You're welcome to stay at the Farstrider Enclave for as long as you'd like, $c.  We welcome any who would aid us in our endeavors in the Ghostlands.
-WHERE `entry`=8487;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You''re welcome to stay at the Farstrider Enclave for as long as you''d like, $c.  We welcome any who would aid us in our endeavors in the Ghostlands.'	-- You're welcome to stay at the Farstrider Enclave for as long as you'd like, $c.  We welcome any who would aid us in our endeavors in the Ghostlands.
+-- WHERE `entry`=8487;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='流散的秘法力量会对大地，元素，甚至亡者的灵魂做出奇怪的事情。'	-- Stray arcane forces can do strange things to the land, the elements and even the spirits of the dead.
@@ -2186,9 +2186,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这些符文石保护永歌森林的大地不受天谴军团污染。西边的符文石很久前就失去作用了，逼迫我们燃烧它周围的土壤。$B$B只要我还活着我就绝不允许剩下的符文石再次失效。我发誓。'	-- These Runestones protect the lands in Eversong from becoming tainted by the Scourge.  The Western Runestone failed long ago, forcing us to burn the ground around it.$B$BAs long as I live I won't allow the remaining Runestones to fail us.  That is my oath.
 WHERE `entry`=8504;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Well, you didn''t come all this way out here to jaw over a cup of tea. Let''s see how you might be able to help get us out of this situation.'	-- Well, you didn't come all this way out here to jaw over a cup of tea. Let's see how you might be able to help get us out of this situation.
-WHERE `entry`=8505;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Well, you didn''t come all this way out here to jaw over a cup of tea. Let''s see how you might be able to help get us out of this situation.'	-- Well, you didn't come all this way out here to jaw over a cup of tea. Let's see how you might be able to help get us out of this situation.
+-- WHERE `entry`=8505;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='有些人认为银色黎明已经是明日黄花。我也持相同的观点，但不是因为天灾军团的威胁已经消除。$B$B不……真正的原因是他们因循守旧的行事风格。他们变得和其努力摆脱的教会越来越像──太过刻板，太过受制于荣耀与秩序。总之，这正是我想要说给巴萨罗梅听的。$B$B当然，这听起来有些过于激进，不过应该会激发一次有意义的辩论。'	-- There are those who would say that the Argent Crusade is a thing of the past. I am one of them, but not because the Scourge have fallen.$b$bNo... it is because of their stubborn ways.  They've become too much like the church that they seceded from: too rigid, too governed by honor and order.  This is what I'm trying to tell Barthalomew, anyhow.$b$bSure, it may sound a bit jingoistic, but it makes for a good debate.
@@ -2210,13 +2210,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='那是萨瑟里避难所的清单吗？没问题，他的身分地位可以获得一瓶最好的酒。当然，任何萨瑟里领主的朋友都可以特殊的价格买到这样上好的葡萄酒。'	-- Is that a list from Saltheril's Haven?  No doubt, his lordship will require a bottle of my finest.  And, of course, any friend of Lord Saltheril deserves a special price on such a fine vintage.
 WHERE `entry`=8550;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If you have the coin, I have the food and drink to keep that appetite of yours satisfied.  Every copper goes to keeping the Retreat in tip-top shape.'	-- If you have the coin, I have the food and drink to keep that appetite of yours satisfied.  Every copper goes to keeping the Retreat in tip-top shape.
-WHERE `entry`=8552;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If you have the coin, I have the food and drink to keep that appetite of yours satisfied.  Every copper goes to keeping the Retreat in tip-top shape.'	-- If you have the coin, I have the food and drink to keep that appetite of yours satisfied.  Every copper goes to keeping the Retreat in tip-top shape.
+-- WHERE `entry`=8552;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Is that a list from Lord Saltheril that you have there? Yes, I can sell you a batch of appetizers, fresh off the fire.'	-- Is that a list from Lord Saltheril that you have there? Yes, I can sell you a batch of appetizers, fresh off the fire.
-WHERE `entry`=8553;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Is that a list from Lord Saltheril that you have there? Yes, I can sell you a batch of appetizers, fresh off the fire.'	-- Is that a list from Lord Saltheril that you have there? Yes, I can sell you a batch of appetizers, fresh off the fire.
+-- WHERE `entry`=8553;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我出售各式各样的物品，$C。随意看看。'	-- I have all manner of goods for sale, $c.  Browse at your leisure.
@@ -2226,9 +2226,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='一个清单……好奇怪。啊对了，萨瑟里领主的烟火。他还没付帐；你是代表他来这里的吗，$C？'	-- A list... how intriguing.  Ah yes, the shipment of fireworks for Lord Saltheril.  He hasn't paid for them; are you here to purchase them on his behalf, $c?
 WHERE `entry`=8557;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Is there no end to these undead?  It seems that for every ghoul or skeleton we kill, two take its place.'	-- Is there no end to these undead?  It seems that for every ghoul or skeleton we kill, two take its place.
-WHERE `entry`=8558;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Is there no end to these undead?  It seems that for every ghoul or skeleton we kill, two take its place.'	-- Is there no end to these undead?  It seems that for every ghoul or skeleton we kill, two take its place.
+-- WHERE `entry`=8558;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$C，你不会刚好在来这里的路上看到一个信差吧？我们在等待银月城的消息而他们的信差迟到了！'	-- $C, you didn't happen to see a courier on your way here? We are awaiting word from Silvermoon City and their messenger is late!
@@ -2246,33 +2246,33 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='投毒成功，那些巨魔要倒大霉了，$C。你真是个有前途的$G小伙子:姑娘;！'	-- I must say, you delivered my poison and dealt with those trolls most ruthlessly, $c. You've got the makings of quite a talented young $g man : lady;!
 WHERE `entry`=8566;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We must maintain a state of vigilance, $c! Between Dar''Khan the Betrayer and his Scourge, and the Shadowpine trolls backed by the might of Zul''Aman, we''re barely keeping our heads above water here. We really shouldn''t have to be dividing our attentions!$B$BI hope you''re here to help.'	-- We must maintain a state of vigilance, $c! Between Dar'Khan the Betrayer and his Scourge, and the Shadowpine trolls backed by the might of Zul'Aman, we're barely keeping our heads above water here. We really shouldn't have to be dividing our attentions!$B$BI hope you're here to help.
-WHERE `entry`=8569;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We must maintain a state of vigilance, $c! Between Dar''Khan the Betrayer and his Scourge, and the Shadowpine trolls backed by the might of Zul''Aman, we''re barely keeping our heads above water here. We really shouldn''t have to be dividing our attentions!$B$BI hope you''re here to help.'	-- We must maintain a state of vigilance, $c! Between Dar'Khan the Betrayer and his Scourge, and the Shadowpine trolls backed by the might of Zul'Aman, we're barely keeping our heads above water here. We really shouldn't have to be dividing our attentions!$B$BI hope you're here to help.
+-- WHERE `entry`=8569;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''m glad that you''re here to help, $c. The faster we can deal with these trolls, the faster we''ll get to send the scourge back to where they came from.'	-- I'm glad that you're here to help, $c. The faster we can deal with these trolls, the faster we'll get to send the scourge back to where they came from.
-WHERE `entry`=8570;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''m glad that you''re here to help, $c. The faster we can deal with these trolls, the faster we''ll get to send the scourge back to where they came from.'	-- I'm glad that you're here to help, $c. The faster we can deal with these trolls, the faster we'll get to send the scourge back to where they came from.
+-- WHERE `entry`=8570;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='One set of trolls dealt with, one yet to go. You have no idea how much I appreciate what you''re doing, $N! Before you came along I didn''t think we''d ever get the Shadowpine problem under control.'	-- One set of trolls dealt with, one yet to go. You have no idea how much I appreciate what you're doing, $N! Before you came along I didn't think we'd ever get the Shadowpine problem under control.
-WHERE `entry`=8571;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='One set of trolls dealt with, one yet to go. You have no idea how much I appreciate what you''re doing, $N! Before you came along I didn''t think we''d ever get the Shadowpine problem under control.'	-- One set of trolls dealt with, one yet to go. You have no idea how much I appreciate what you're doing, $N! Before you came along I didn't think we'd ever get the Shadowpine problem under control.
+-- WHERE `entry`=8571;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You wouldn''t believe some of the rabble that we''ve had come through here lately. Most are more trouble than the supposed help that they provide. Nothing at all like you.$B$BYou sure you don''t want to sign up with the Farstriders?'	-- You wouldn't believe some of the rabble that we've had come through here lately. Most are more trouble than the supposed help that they provide. Nothing at all like you.$B$BYou sure you don't want to sign up with the Farstriders?
-WHERE `entry`=8572;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You wouldn''t believe some of the rabble that we''ve had come through here lately. Most are more trouble than the supposed help that they provide. Nothing at all like you.$B$BYou sure you don''t want to sign up with the Farstriders?'	-- You wouldn't believe some of the rabble that we've had come through here lately. Most are more trouble than the supposed help that they provide. Nothing at all like you.$B$BYou sure you don't want to sign up with the Farstriders?
+-- WHERE `entry`=8572;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What brings you here, $N?  We don''t see too many people around these parts.  With good reason, I suppose.'	-- What brings you here, $N?  We don't see too many people around these parts.  With good reason, I suppose.
-WHERE `entry`=8575;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What brings you here, $N?  We don''t see too many people around these parts.  With good reason, I suppose.'	-- What brings you here, $N?  We don't see too many people around these parts.  With good reason, I suppose.
+-- WHERE `entry`=8575;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Do you wish to learn the blacksmithing profession or is there something else you wish to tell me?'	-- Do you wish to learn the blacksmithing profession or is there something else you wish to tell me?
-WHERE `entry`=8576;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Do you wish to learn the blacksmithing profession or is there something else you wish to tell me?'	-- Do you wish to learn the blacksmithing profession or is there something else you wish to tell me?
+-- WHERE `entry`=8576;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We are very fortunate to be alive, you and I!'	-- We are very fortunate to be alive, you and I!
-WHERE `entry`=8579;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We are very fortunate to be alive, you and I!'	-- We are very fortunate to be alive, you and I!
+-- WHERE `entry`=8579;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你在这附近没看到很多学徒，对吧？我开始认为那是因为他们把所有不想做的危险工作都给了我们。'	-- You don't see too many apprentices around these parts, do you?  I'm beginning to think it's because the magisters give us all the dangerous work they'd rather not do themselves.
@@ -2298,9 +2298,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='We practitioners of the arcane and elemental ways follow a never ending path of discovery. Is that why you seek my counsel? You wish further training?'	-- We practitioners of the arcane and elemental ways follow a never ending path of discovery. Is that why you seek my counsel? You wish further training?
 WHERE `entry`=8589;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='In the Light we all cast shadows, my $g brother : sister;.  Do you seek further guidance today?'	-- In the Light we all cast shadows, my $g brother : sister;.  Do you seek further guidance today?
-WHERE `entry`=8591;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='In the Light we all cast shadows, my $g brother : sister;.  Do you seek further guidance today?'	-- In the Light we all cast shadows, my $g brother : sister;.  Do you seek further guidance today?
+-- WHERE `entry`=8591;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你能在我们的城镇获得越多名声，我就能让你得到越多的东西，$N。由于我们的装备短缺所以只能提供给我们信任的人。'	-- As you gain renown with our town, I can make more goods available to you, $N.  With equipment in such short supply we can only afford to provide it to those we trust.
@@ -2314,9 +2314,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='不是我的错……那不是我的错！！！$B$B如果他们照着我的话做一切都不会有事。但是不！他们根本不听。$B$B现在他们都死了。$B$B我只想回家。回到银月城的家。我累垮了。'	-- It's not my fault... IT'S NOT MY FAULT!!!$B$BIf they'd just done what I told them to do everything would have been fine. But no! They wouldn't listen.$B$BNow they're all dead.$B$BI just want to go home. Home to Silvermoon. I'm so tired.
 WHERE `entry`=8620;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, $c. If you haven''t already, you really should speak with Farstrider Solanna.'	-- Hello, $c. If you haven't already, you really should speak with Farstrider Solanna.
-WHERE `entry`=8638;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, $c. If you haven''t already, you really should speak with Farstrider Solanna.'	-- Hello, $c. If you haven't already, you really should speak with Farstrider Solanna.
+-- WHERE `entry`=8638;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我非常感激你的帮助，$C！'	-- I am most grateful for your help, $c!
@@ -2335,17 +2335,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='谢谢你帮忙递交清单！我的腿差不多已经痊愈，这样我就可以自己走回坠毁点了。'	-- Thank you for delivering that list!  My leg is almost recovered enough that I'll be able to walk back to the crash site.
 WHERE `entry`=8663;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='How are we ever going to get out of here?'	-- How are we ever going to get out of here?
-WHERE `entry`=8664;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='How are we ever going to get out of here?'	-- How are we ever going to get out of here?
+-- WHERE `entry`=8664;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Thank you for taking care of the lake, the lashers and the owlkin, $c.'	-- Thank you for taking care of the lake, the lashers and the owlkin, $c.
-WHERE `entry`=8665;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Thank you for taking care of the lake, the lashers and the owlkin, $c.'	-- Thank you for taking care of the lake, the lashers and the owlkin, $c.
+-- WHERE `entry`=8665;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='None will question your actions, $c.  You did what had to be done.'	-- None will question your actions, $c.  You did what had to be done.
-WHERE `entry`=8666;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='None will question your actions, $c.  You did what had to be done.'	-- None will question your actions, $c.  You did what had to be done.
+-- WHERE `entry`=8666;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='看到你还活得好好的真好，$N！'	-- It is good to see you alive and well, $N!
@@ -2355,9 +2355,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='再次感谢你补充了我们的治疗水晶。我听说你到处在帮忙人们。保持下去！'	-- Thank you again for replenishing our healing crystals. I hear that you're helping out all over the place. Keep up the good work!
 WHERE `entry`=8669;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Here''s to hoping not all of Outland is as barren as this region.  This is quite a change from the green grasslands and forests of Eversong.'	-- Here's to hoping not all of Outland is as barren as this region.  This is quite a change from the green grasslands and forests of Eversong.
-WHERE `entry`=8674;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Here''s to hoping not all of Outland is as barren as this region.  This is quite a change from the green grasslands and forests of Eversong.'	-- Here's to hoping not all of Outland is as barren as this region.  This is quite a change from the green grasslands and forests of Eversong.
+-- WHERE `entry`=8674;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='外域里存在着比我们以前见过还强大很多的恶魔势力。$B$B强大的力量应该给予那些不会畏惧的人，但能学着驾驭和控制它的力量。'	-- There exist in Outland demonic presences much more powerful than anything we'd ever seen in the old world.$B$BGreat power shall come to those who do not shy away from it, but learn to harness and master its strength.
@@ -2376,21 +2376,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='外域散发着魔法能量，就在那空气中。你能感觉到吗，$N？我想不到比这更适合我们种族的地方了。很快辛多雷就有自己的新土地了！'	-- Outland just oozes with magical energy, it's in the very air.  Can you feel it, $N?  I can't think of a place better suited to our race.  Soon the sin'dorei shall have a new land to call our own!
 WHERE `entry`=8680;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='My husband''s been missing for days.  We went on this pilgrimage together; we were supposed to finish it together.$B$BAll this worry has gotten me tapping into mana crystals more often than I really should.'	-- My husband's been missing for days.  We went on this pilgrimage together; we were supposed to finish it together.$B$BAll this worry has gotten me tapping into mana crystals more often than I really should.
-WHERE `entry`=8681;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='My husband''s been missing for days.  We went on this pilgrimage together; we were supposed to finish it together.$B$BAll this worry has gotten me tapping into mana crystals more often than I really should.'	-- My husband's been missing for days.  We went on this pilgrimage together; we were supposed to finish it together.$B$BAll this worry has gotten me tapping into mana crystals more often than I really should.
+-- WHERE `entry`=8681;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Dragonhawks, if raised properly, are really quite tame.  Don''t you think that is fascinating?  To be so friendly and companionable if raised right and so vicious and deadly in the wild...I just love them so much.'	-- Dragonhawks, if raised properly, are really quite tame.  Don't you think that is fascinating?  To be so friendly and companionable if raised right and so vicious and deadly in the wild...I just love them so much.
-WHERE `entry`=8682;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Dragonhawks, if raised properly, are really quite tame.  Don''t you think that is fascinating?  To be so friendly and companionable if raised right and so vicious and deadly in the wild...I just love them so much.'	-- Dragonhawks, if raised properly, are really quite tame.  Don't you think that is fascinating?  To be so friendly and companionable if raised right and so vicious and deadly in the wild...I just love them so much.
+-- WHERE `entry`=8682;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='别……担心……我……'	-- Don't... worry... about me...
 WHERE `entry`=8683;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I really don''t think our situation is so bad.  I am certain it will all be rectified soon and the Sunwell''s power will be restored.  It just can''t possibly be as bad as everyone is making it out to be.'	-- I really don't think our situation is so bad.  I am certain it will all be rectified soon and the Sunwell's power will be restored.  It just can't possibly be as bad as everyone is making it out to be.
-WHERE `entry`=8684;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I really don''t think our situation is so bad.  I am certain it will all be rectified soon and the Sunwell''s power will be restored.  It just can''t possibly be as bad as everyone is making it out to be.'	-- I really don't think our situation is so bad.  I am certain it will all be rectified soon and the Sunwell's power will be restored.  It just can't possibly be as bad as everyone is making it out to be.
+-- WHERE `entry`=8684;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='和逐日者交朋友各有各的好处；我用只能在外域找到的实验品来进行研究，而他们则获得……我迷人的个性和粗犷的帅脸蛋。'	-- Befriending the Sunstriders has paid off; I get to conduct research with subjects I can only find in Outland and they get... my charming personality and rugged good looks.
@@ -2400,33 +2400,33 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你认为我对这个小人太残忍了吗？$B$B他们这个月已经杀了我手下两个人！我们对这些鄙恶人渣太仁慈了。'	-- You think I'm being cruel to this worm?$B$BThey've killed two of my men this month!  We're too kind to this Wretched scum.
 WHERE `entry`=8698;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to Fairbreeze Village.  Silvermoon''s all but given up on us, but we refuse to leave.  This is our home.'	-- Welcome to Fairbreeze Village.  Silvermoon's all but given up on us, but we refuse to leave.  This is our home.
-WHERE `entry`=8699;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to Fairbreeze Village.  Silvermoon''s all but given up on us, but we refuse to leave.  This is our home.'	-- Welcome to Fairbreeze Village.  Silvermoon's all but given up on us, but we refuse to leave.  This is our home.
+-- WHERE `entry`=8699;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='My job consists of one task and one task only: ensuring that the West Sanctum runs smoothly.$B$BYou''ll have to excuse my temper but, as you can see, the situation here is a bit out of hand.'	-- My job consists of one task and one task only: ensuring that the West Sanctum runs smoothly.$B$BYou'll have to excuse my temper but, as you can see, the situation here is a bit out of hand.
-WHERE `entry`=8700;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='My job consists of one task and one task only: ensuring that the West Sanctum runs smoothly.$B$BYou''ll have to excuse my temper but, as you can see, the situation here is a bit out of hand.'	-- My job consists of one task and one task only: ensuring that the West Sanctum runs smoothly.$B$BYou'll have to excuse my temper but, as you can see, the situation here is a bit out of hand.
+-- WHERE `entry`=8700;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你在找工作，$C，拿起一个工具开始挖吧。这里所见都是废墟！'	-- If you're looking for work, $c, grab yourself a pick and get to digging. There're ruins out there as far as the eye can see!
 WHERE `entry`=8712;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings, $N. My fellow Sons of Lothar and I have been stuck on this miserable world for close to twenty years now. We held on as best we could, but it still amazes me that the threats we face today are just the shadows of our past failures.$B$BPerhaps you will help us atone for them?  $B'	-- Greetings, $N. My fellow Sons of Lothar and I have been stuck on this miserable world for close to twenty years now. We held on as best we could, but it still amazes me that the threats we face today are just the shadows of our past failures.$B$BPerhaps you will help us atone for them?  $B
-WHERE `entry`=8713;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings, $N. My fellow Sons of Lothar and I have been stuck on this miserable world for close to twenty years now. We held on as best we could, but it still amazes me that the threats we face today are just the shadows of our past failures.$B$BPerhaps you will help us atone for them?  $B'	-- Greetings, $N. My fellow Sons of Lothar and I have been stuck on this miserable world for close to twenty years now. We held on as best we could, but it still amazes me that the threats we face today are just the shadows of our past failures.$B$BPerhaps you will help us atone for them?  $B
+-- WHERE `entry`=8713;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The extent of the corruption in Outland is truly astonishing, $c. The Cenarion Circle hopes to understand how these creatures have managed to survive. Studying this broken, tortured land and its inhabitants may yet teach us how to heal ailing parts of our own world.'	-- The extent of the corruption in Outland is truly astonishing, $c. The Cenarion Circle hopes to understand how these creatures have managed to survive. Studying this broken, tortured land and its inhabitants may yet teach us how to heal ailing parts of our own world.
-WHERE `entry`=8715;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The extent of the corruption in Outland is truly astonishing, $c. The Cenarion Circle hopes to understand how these creatures have managed to survive. Studying this broken, tortured land and its inhabitants may yet teach us how to heal ailing parts of our own world.'	-- The extent of the corruption in Outland is truly astonishing, $c. The Cenarion Circle hopes to understand how these creatures have managed to survive. Studying this broken, tortured land and its inhabitants may yet teach us how to heal ailing parts of our own world.
+-- WHERE `entry`=8715;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你看起来若有所失，$C。不要逼我让你和那些苦工一样到墙上去工作。'	-- You look lost, $c. Don't make me put you to work on the walls with the other peons.
 WHERE `entry`=8717;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Well met, $c. Your arrival in Thrallmar could not have occurred at a better time. The warchief is depending on us, since he cannot be here himself.'	-- Well met, $c. Your arrival in Thrallmar could not have occurred at a better time. The warchief is depending on us, since he cannot be here himself.
-WHERE `entry`=8718;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Well met, $c. Your arrival in Thrallmar could not have occurred at a better time. The warchief is depending on us, since he cannot be here himself.'	-- Well met, $c. Your arrival in Thrallmar could not have occurred at a better time. The warchief is depending on us, since he cannot be here himself.
+-- WHERE `entry`=8718;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='索尔玛需要你，$C。大酋长需要你。准备好履行你的职责。'	-- Thrallmar needs you, $c. The warchief needs you. Stand ready to do your duty.
@@ -2445,9 +2445,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我听说过你的一些功绩，$N。我知道当你在这被遗忘者的土地时你会带着尊严行动，像个辛多雷真正的英雄。'	-- I've heard something of your exploits, $N.  I know that while you're here in Forsaken lands that you'll comport yourself with dignity and as a true hero of the sin'dorei!
 WHERE `entry`=8740;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I bid you welcome, $c.'	-- I bid you welcome, $c.
-WHERE `entry`=8750;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I bid you welcome, $c.'	-- I bid you welcome, $c.
+-- WHERE `entry`=8750;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我没时间闲聊，$C。我一定要照料那些朝圣者确保他们为前方漫长的旅途做好准备。'	-- I haven't time for idle chatter, $c. I must see to the pilgrims and ensure they are prepared for the long journey ahead.
@@ -2457,17 +2457,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎来到猎鹰岗哨，$C。我留意着那些朝圣者的需求，并帮助他们继续走完漫长的旅程。如果你还没有开始朝圣，我可以给你提供一些你需要的信息。'	-- Welcome to Falcon Watch, $c. I see to the needs of the pilgrims and help them in continuing their long journey. If you haven't yet undertaken the pilgrimage, I can provide you with the information you will need.
 WHERE `entry`=8752;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Walk always in the Light, $N.'	-- Walk always in the Light, $N.
-WHERE `entry`=8754;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Walk always in the Light, $N.'	-- Walk always in the Light, $N.
+-- WHERE `entry`=8754;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to the Farstrider Retreat.  We are rangers sworn to defend our people from enemies both near and far.'	-- Welcome to the Farstrider Retreat.  We are rangers sworn to defend our people from enemies both near and far.
-WHERE `entry`=8755;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to the Farstrider Retreat.  We are rangers sworn to defend our people from enemies both near and far.'	-- Welcome to the Farstrider Retreat.  We are rangers sworn to defend our people from enemies both near and far.
+-- WHERE `entry`=8755;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I think I''m beginning to regret undertaking this pilgrimage. I anticipated that the road would be rough and I''m no stranger to travel, but I wasn''t prepared for the rigors of Outland.$B$BOn top of everything else, that Taleris seems to want to push me out of here before I''ve regained my strength completely.'	-- I think I'm beginning to regret undertaking this pilgrimage. I anticipated that the road would be rough and I'm no stranger to travel, but I wasn't prepared for the rigors of Outland.$B$BOn top of everything else, that Taleris seems to want to push me out of here before I've regained my strength completely.
-WHERE `entry`=8756;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I think I''m beginning to regret undertaking this pilgrimage. I anticipated that the road would be rough and I''m no stranger to travel, but I wasn''t prepared for the rigors of Outland.$B$BOn top of everything else, that Taleris seems to want to push me out of here before I''ve regained my strength completely.'	-- I think I'm beginning to regret undertaking this pilgrimage. I anticipated that the road would be rough and I'm no stranger to travel, but I wasn't prepared for the rigors of Outland.$B$BOn top of everything else, that Taleris seems to want to push me out of here before I've regained my strength completely.
+-- WHERE `entry`=8756;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='喔……我认识你吗 ？'	-- Oh... do I know you?
@@ -2483,41 +2483,41 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我让我自己成了一个笑柄。先知瑞卡酷试着警告我，但我的粗心最后还是让我哉了个跟斗。$B$B我来这里研究札斯可废墟，但却在路上与燃烧军团发生冲突。现在，我所有的一切就是腿上一个讨厌的伤口。'	-- I've managed to work myself into quite a spot here. Far Seer Regulkut tried to warn me, but my carelessness has finally caught up with me.$B$BI came down here to study the ruins of Zeth'Gor, but ran afoul of the Legion on my way. Now, all I have to show for it is a nasty gash on my leg.
 WHERE `entry`=8767;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It is very important that we find out what the the night elves are up to, $c! Please concentrate all of your efforts toward that end.'	-- It is very important that we find out what the the night elves are up to, $c! Please concentrate all of your efforts toward that end.
-WHERE `entry`=8769;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It is very important that we find out what the the night elves are up to, $c! Please concentrate all of your efforts toward that end.'	-- It is very important that we find out what the the night elves are up to, $c! Please concentrate all of your efforts toward that end.
+-- WHERE `entry`=8769;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This emitter is driving me nuts!  I''m missing all sorts of parts that I need to fix it.'	-- This emitter is driving me nuts!  I'm missing all sorts of parts that I need to fix it.
-WHERE `entry`=8775;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This emitter is driving me nuts!  I''m missing all sorts of parts that I need to fix it.'	-- This emitter is driving me nuts!  I'm missing all sorts of parts that I need to fix it.
+-- WHERE `entry`=8775;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='$N!  Thanks again for all the help.'	-- $N!  Thanks again for all the help.
-WHERE `entry`=8776;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='$N!  Thanks again for all the help.'	-- $N!  Thanks again for all the help.
+-- WHERE `entry`=8776;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Nope, still not done with these repairs.  Shouldn''t be long though.'	-- Nope, still not done with these repairs.  Shouldn't be long though.
-WHERE `entry`=8777;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Nope, still not done with these repairs.  Shouldn''t be long though.'	-- Nope, still not done with these repairs.  Shouldn't be long though.
+-- WHERE `entry`=8777;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello!  So good to meet you!'	-- Hello!  So good to meet you!
-WHERE `entry`=8787;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello!  So good to meet you!'	-- Hello!  So good to meet you!
+-- WHERE `entry`=8787;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings.  You are here to help?'	-- Greetings.  You are here to help?
-WHERE `entry`=8788;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings.  You are here to help?'	-- Greetings.  You are here to help?
+-- WHERE `entry`=8788;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Just remember, $N, it''s in our best interests that you do as much as possible for these... these people.'	-- Just remember, $N, it's in our best interests that you do as much as possible for these... these people.
-WHERE `entry`=8789;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Just remember, $N, it''s in our best interests that you do as much as possible for these... these people.'	-- Just remember, $N, it's in our best interests that you do as much as possible for these... these people.
+-- WHERE `entry`=8789;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings, $r!  I trust this day finds you well?'	-- Greetings, $r!  I trust this day finds you well?
-WHERE `entry`=8790;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings, $r!  I trust this day finds you well?'	-- Greetings, $r!  I trust this day finds you well?
+-- WHERE `entry`=8790;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Any news from home, $c?'	-- Any news from home, $c?
-WHERE `entry`=8791;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Any news from home, $c?'	-- Any news from home, $c?
+-- WHERE `entry`=8791;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嗨。你今天过的还好吗？'	-- Hello.  I trust that this day finds you well?
@@ -2535,53 +2535,53 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='当我们教导联盟其他种族的人，我们有很多要和他们多学习的地方。保持你的眼睛、耳朵和你的心处于学习状态，$C。'	-- While we have much to teach the other races of the Alliance, we have as much to learn from them.  Keep your eyes, ears and mind open, $c.
 WHERE `entry`=8799;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hail to thee, $c.'	-- Hail to thee, $c.
-WHERE `entry`=8800;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hail to thee, $c.'	-- Hail to thee, $c.
+-- WHERE `entry`=8800;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Is this city not beautiful, $c?  It warms my heart that we have found such good friends in these night elves.'	-- Is this city not beautiful, $c?  It warms my heart that we have found such good friends in these night elves.
-WHERE `entry`=8801;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Is this city not beautiful, $c?  It warms my heart that we have found such good friends in these night elves.'	-- Is this city not beautiful, $c?  It warms my heart that we have found such good friends in these night elves.
+-- WHERE `entry`=8801;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings,  I am Vindicator Palanaar, a traveling paladin of the Light.  I am here to be of assistance to the night elves.'	-- Greetings,  I am Vindicator Palanaar, a traveling paladin of the Light.  I am here to be of assistance to the night elves.
-WHERE `entry`=8802;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings,  I am Vindicator Palanaar, a traveling paladin of the Light.  I am here to be of assistance to the night elves.'	-- Greetings,  I am Vindicator Palanaar, a traveling paladin of the Light.  I am here to be of assistance to the night elves.
+-- WHERE `entry`=8802;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It is my fervent hope that we will be able to bring the Light to those places in Ashenvale where it has been forsaken.'	-- It is my fervent hope that we will be able to bring the Light to those places in Ashenvale where it has been forsaken.
-WHERE `entry`=8803;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It is my fervent hope that we will be able to bring the Light to those places in Ashenvale where it has been forsaken.'	-- It is my fervent hope that we will be able to bring the Light to those places in Ashenvale where it has been forsaken.
+-- WHERE `entry`=8803;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This is going to be such fun!  Don''t you think, my dear?'	-- This is going to be such fun!  Don't you think, my dear?
-WHERE `entry`=8805;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This is going to be such fun!  Don''t you think, my dear?'	-- This is going to be such fun!  Don't you think, my dear?
+-- WHERE `entry`=8805;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Did Balandar Brightstar send you to rescue me?'	-- Did Balandar Brightstar send you to rescue me?
-WHERE `entry`=8808;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Did Balandar Brightstar send you to rescue me?'	-- Did Balandar Brightstar send you to rescue me?
+-- WHERE `entry`=8808;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Oh, most excellent!  That was great fun, was it not?  Little by little I''ve been cursing more of those disgusting Lost Ones.  Soon enough I''ll be ready to try it on the draenei!'	-- Oh, most excellent!  That was great fun, was it not?  Little by little I've been cursing more of those disgusting Lost Ones.  Soon enough I'll be ready to try it on the draenei!
-WHERE `entry`=8809;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Oh, most excellent!  That was great fun, was it not?  Little by little I''ve been cursing more of those disgusting Lost Ones.  Soon enough I''ll be ready to try it on the draenei!'	-- Oh, most excellent!  That was great fun, was it not?  Little by little I've been cursing more of those disgusting Lost Ones.  Soon enough I'll be ready to try it on the draenei!
+-- WHERE `entry`=8809;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='May the spirits guide you, $r.'	-- May the spirits guide you, $r.
-WHERE `entry`=8810;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='May the spirits guide you, $r.'	-- May the spirits guide you, $r.
+-- WHERE `entry`=8810;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Strength to the Clans, $c!  What brings you here?'	-- Strength to the Clans, $c!  What brings you here?
-WHERE `entry`=8811;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Strength to the Clans, $c!  What brings you here?'	-- Strength to the Clans, $c!  What brings you here?
+-- WHERE `entry`=8811;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='在我们之间你是受欢迎的，$C。至少现在是。'	-- You are welcome among us, $c.  At least for the time being.
 WHERE `entry`=8813;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Isn''t that adorable! How did you make it out of the Vale? Maybe you should get back there before someone sends a search party after you.'	-- Isn't that adorable! How did you make it out of the Vale? Maybe you should get back there before someone sends a search party after you.
-WHERE `entry`=8821;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Isn''t that adorable! How did you make it out of the Vale? Maybe you should get back there before someone sends a search party after you.'	-- Isn't that adorable! How did you make it out of the Vale? Maybe you should get back there before someone sends a search party after you.
+-- WHERE `entry`=8821;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I haven''t got anymore work for you, $N. I do want you to know that the red snapper we shared was something special that I''ll never forget...'	-- I haven't got anymore work for you, $N. I do want you to know that the red snapper we shared was something special that I'll never forget...
-WHERE `entry`=8822;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I haven''t got anymore work for you, $N. I do want you to know that the red snapper we shared was something special that I''ll never forget...'	-- I haven't got anymore work for you, $N. I do want you to know that the red snapper we shared was something special that I'll never forget...
+-- WHERE `entry`=8822;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我当然有工作给你！我们一直都在寻找$C。希望你比那些被我们送回艾克索达……参加葬礼的德莱尼好一点。$B$B<艾克缇昂笑着。>$B$B开玩笑的！你真该看看你刚才的表情。他们被送回艾克索达治疗小伤。没有什么无法复原的大伤……'	-- Of course I've got a job for you! We're always looking for hunters. Hopefully you'll fare better than the draenei we had to send back to the Exodar -- for burial.$B$B<Acteon laughs.>$B$BI'm joking! You should have seen the look on your face. They got sent back to the Exodar for treatment of minor wounds. Nothin' that they won't recover from...
@@ -2615,21 +2615,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='哈罗。什么事让你今天来到冰风营地？'	-- Hello.  What brings you to Chillwind Camp today?
 WHERE `entry`=8846;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Good day to you, $c.$B$BI''m waiting to hear from one of the High Thane''s advisors about an audience. It was a struggle just to get the opportunity to present my credentials.$B$BI''ve heard the Wildhammer described as ''wary of outsiders,'' but that''s proven to be quite an understatement.  Hopefully, things will improve once I''ve had the opportunity to meet with Featherbeard, whom I''m told favors closer ties with the Alliance.'	-- Good day to you, $c.$B$BI'm waiting to hear from one of the High Thane's advisors about an audience. It was a struggle just to get the opportunity to present my credentials.$B$BI've heard the Wildhammer described as 'wary of outsiders,' but that's proven to be quite an understatement.  Hopefully, things will improve once I've had the opportunity to meet with Featherbeard, whom I'm told favors closer ties with the Alliance.
-WHERE `entry`=8847;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Good day to you, $c.$B$BI''m waiting to hear from one of the High Thane''s advisors about an audience. It was a struggle just to get the opportunity to present my credentials.$B$BI''ve heard the Wildhammer described as ''wary of outsiders,'' but that''s proven to be quite an understatement.  Hopefully, things will improve once I''ve had the opportunity to meet with Featherbeard, whom I''m told favors closer ties with the Alliance.'	-- Good day to you, $c.$B$BI'm waiting to hear from one of the High Thane's advisors about an audience. It was a struggle just to get the opportunity to present my credentials.$B$BI've heard the Wildhammer described as 'wary of outsiders,' but that's proven to be quite an understatement.  Hopefully, things will improve once I've had the opportunity to meet with Featherbeard, whom I'm told favors closer ties with the Alliance.
+-- WHERE `entry`=8847;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What do you want?$B$BIt''s a bit rude to walk up to strangers for no reason, don''t you think?'	-- What do you want?$B$BIt's a bit rude to walk up to strangers for no reason, don't you think?
-WHERE `entry`=8848;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What do you want?$B$BIt''s a bit rude to walk up to strangers for no reason, don''t you think?'	-- What do you want?$B$BIt's a bit rude to walk up to strangers for no reason, don't you think?
+-- WHERE `entry`=8848;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='圣光与你同在，$C。'	-- Light be with you, $c.
 WHERE `entry`=8851;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It looks like help has finally arrived!  The Omenai welcome you to our remnant camp, $N.'	-- It looks like help has finally arrived!  The Omenai welcome you to our remnant camp, $N.
-WHERE `entry`=8852;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It looks like help has finally arrived!  The Omenai welcome you to our remnant camp, $N.'	-- It looks like help has finally arrived!  The Omenai welcome you to our remnant camp, $N.
+-- WHERE `entry`=8852;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$N，我是兰德鲁·郎绍特，黑色烈焰的主管。这或许是你第一次听说黑色烈焰。我对此并不惊讶，因为我们向来低调。我们希望能够避免……派系争斗。$B$B黑色烈焰一贯致力于提供最好的服务和娱乐。只要你出得起价钱，不管是稀有的物品，刺激的战斗还是赚钱的游戏机会，我们都能提供。$B$B你是来找什么特殊的东西的吗？'	-- Welcome, $N. I am Landro Longshot - manager of the Black Flame. Perhaps you've not heard of the Black Flame until now. That doesn't surprise me; we work to keep things that way. We prefer to avoid... factional entanglements.$B$BThe Black Flame specializes in providing the finest services and entertainment money can buy, whether they happen to be hard to find items, gladiatorial combat, or lucrative games of chance.$B$BAre you here seeking something specific?$B
@@ -2639,25 +2639,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你想要什么，孩子？'	-- Ah - oddities and rarities. We specialize in Azeroth's more unique items for the discerning adventurer.$B$BSince you're speaking with me, you must already have an idea of what you're looking for. So, $N, which item are you interested in?
 WHERE `entry`=8856;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Do you need something, $c?  Perhaps I can assist you.'	-- Do you need something, $c?  Perhaps I can assist you.
-WHERE `entry`=8858;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Do you need something, $c?  Perhaps I can assist you.'	-- Do you need something, $c?  Perhaps I can assist you.
+-- WHERE `entry`=8858;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='<Priestess Il''dinare eyes you suspiciously.>'	-- <Priestess Il'dinare eyes you suspiciously.>
-WHERE `entry`=8861;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='<Priestess Il''dinare eyes you suspiciously.>'	-- <Priestess Il'dinare eyes you suspiciously.>
+-- WHERE `entry`=8861;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I am a night elf, stranger. While you may know nothing of my kind, we know much of you and your progenitors. You may not call yourself eredar but, in appearance, you share many similarities.$B$BYou have helped my allies, and for that I am thankful; but for the time being, you walk a tenuous path. Perhaps in time, you will be able to dissolve the doubts and fears that I hold in my heart.'	-- I am a night elf, stranger. While you may know nothing of my kind, we know much of you and your progenitors. You may not call yourself eredar but, in appearance, you share many similarities.$B$BYou have helped my allies, and for that I am thankful; but for the time being, you walk a tenuous path. Perhaps in time, you will be able to dissolve the doubts and fears that I hold in my heart.
-WHERE `entry`=8862;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I am a night elf, stranger. While you may know nothing of my kind, we know much of you and your progenitors. You may not call yourself eredar but, in appearance, you share many similarities.$B$BYou have helped my allies, and for that I am thankful; but for the time being, you walk a tenuous path. Perhaps in time, you will be able to dissolve the doubts and fears that I hold in my heart.'	-- I am a night elf, stranger. While you may know nothing of my kind, we know much of you and your progenitors. You may not call yourself eredar but, in appearance, you share many similarities.$B$BYou have helped my allies, and for that I am thankful; but for the time being, you walk a tenuous path. Perhaps in time, you will be able to dissolve the doubts and fears that I hold in my heart.
+-- WHERE `entry`=8862;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='到现在为止你帮了很大的忙，$N。你对营地的其他人也会很有助益。$B$B不要担心那些地精，我处理好所有的事了。'	-- You've been a great help thus far, $N. You would do well to help out the others at the encampment.$B$BAnd don't worry about those goblins, I'm taking care of everything.
 WHERE `entry`=8865;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It is good to see you again, $N. Perhaps once things have settled down, I can talk to you about the priceless treasure that we have lost...'	-- It is good to see you again, $N. Perhaps once things have settled down, I can talk to you about the priceless treasure that we have lost...
-WHERE `entry`=8866;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It is good to see you again, $N. Perhaps once things have settled down, I can talk to you about the priceless treasure that we have lost...'	-- It is good to see you again, $N. Perhaps once things have settled down, I can talk to you about the priceless treasure that we have lost...
+-- WHERE `entry`=8866;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你在看什么？'	-- What are you lookin' at?
@@ -2687,9 +2687,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$C。在暗夜精灵邀请德莱尼加入他们之前，这片林地是被遗忘的。$B$B卡多雷和这片土地关系密切，而我们德莱尼很荣幸他们要我们一起接下重新振作林歌神殿的任务。'	-- Greetings, $c. Before the night elves invited the draenei to join them here, this glade was all but forgotten.$B$BThe kaldorei are deeply tied to these lands, and we draenei are honored that they have asked us to share in the task of revitalizing Forest Song.
 WHERE `entry`=8873;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It''s good to see a new face out here. Our outpost is small and our enemies plentiful. We are surrounded by those who seek to destroy us: the satyr to the west, the orcs of the Warsong Lumber camp to the south, and the demons of Felfire Hill.$B$BWe''re grateful that the draenei have accepted our invitation to join us in fortifying Forest Song against these myriad threats.'	-- It's good to see a new face out here. Our outpost is small and our enemies plentiful. We are surrounded by those who seek to destroy us: the satyr to the west, the orcs of the Warsong Lumber camp to the south, and the demons of Felfire Hill.$B$BWe're grateful that the draenei have accepted our invitation to join us in fortifying Forest Song against these myriad threats.
-WHERE `entry`=8874;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It''s good to see a new face out here. Our outpost is small and our enemies plentiful. We are surrounded by those who seek to destroy us: the satyr to the west, the orcs of the Warsong Lumber camp to the south, and the demons of Felfire Hill.$B$BWe''re grateful that the draenei have accepted our invitation to join us in fortifying Forest Song against these myriad threats.'	-- It's good to see a new face out here. Our outpost is small and our enemies plentiful. We are surrounded by those who seek to destroy us: the satyr to the west, the orcs of the Warsong Lumber camp to the south, and the demons of Felfire Hill.$B$BWe're grateful that the draenei have accepted our invitation to join us in fortifying Forest Song against these myriad threats.
+-- WHERE `entry`=8874;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='再次在林歌神殿这里听到其他人的声音真好。我开始觉得好像我会是这片土地衰退腐败前最后一个注视它们的卡多雷人。'	-- It's good to hear the voices of others here in Forest Song again. I'd begun to feel as though I might be the last of the kaldorei ever to set eyes on these lands before their descent into corruption.
@@ -2707,25 +2707,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你是一个$R，对吗？在这里见到你让我很振奋！我们可以利用所有能获得的帮助。'	-- You're a $r, right?  I am heartened to see you here!  We can use all of the help that we can get.
 WHERE `entry`=8881;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='There are demons to kill, $c.  Do you have the backbone to do what needs to be done?'	-- There are demons to kill, $c.  Do you have the backbone to do what needs to be done?
-WHERE `entry`=8883;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='There are demons to kill, $c.  Do you have the backbone to do what needs to be done?'	-- There are demons to kill, $c.  Do you have the backbone to do what needs to be done?
+-- WHERE `entry`=8883;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='With a good portion of their demons slain, the Legion will think twice about attacking our lumber camp again.  However, I still sense demonic evil stirring.'	-- With a good portion of their demons slain, the Legion will think twice about attacking our lumber camp again.  However, I still sense demonic evil stirring.
-WHERE `entry`=8887;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='With a good portion of their demons slain, the Legion will think twice about attacking our lumber camp again.  However, I still sense demonic evil stirring.'	-- With a good portion of their demons slain, the Legion will think twice about attacking our lumber camp again.  However, I still sense demonic evil stirring.
+-- WHERE `entry`=8887;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='All hail the exalted hero!'	-- All hail the exalted hero!
-WHERE `entry`=8893;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='All hail the exalted hero!'	-- All hail the exalted hero!
+-- WHERE `entry`=8893;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='真希望与你同行，$N。去暴风要塞吧，跟国王觐见室的塞尔曼・岩拳谈谈，他会帮助你转至奥特兰克山谷的。'	-- Hi there, $N. How may I help you?
 WHERE `entry`=8934;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to Forest Song, $c. If there is anything I can do for you, please let me know.'	-- Welcome to Forest Song, $c. If there is anything I can do for you, please let me know.
-WHERE `entry`=8939;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to Forest Song, $c. If there is anything I can do for you, please let me know.'	-- Welcome to Forest Song, $c. If there is anything I can do for you, please let me know.
+-- WHERE `entry`=8939;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='西洋棋：人类步卒'	-- <The footman stand resolute, muscles tense.>
@@ -2735,13 +2735,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='什么事让你千里迢迢的来到这里，小$R？'	-- What brings you all the way up here, little $r?
 WHERE `entry`=8954;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings, $c.  I get so few visitors up here.  To what do I owe the pleasure?'	-- Greetings, $c.  I get so few visitors up here.  To what do I owe the pleasure?
-WHERE `entry`=8956;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings, $c.  I get so few visitors up here.  To what do I owe the pleasure?'	-- Greetings, $c.  I get so few visitors up here.  To what do I owe the pleasure?
+-- WHERE `entry`=8956;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I have been expecting you.'	-- I have been expecting you.
-WHERE `entry`=8959;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I have been expecting you.'	-- I have been expecting you.
+-- WHERE `entry`=8959;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='小声点，$C！'	-- Keep your voice down, $c!
@@ -2763,9 +2763,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='那些被感染的小型夜间潜伏者好像是从北边来的。如果我是你，我会从那里开始猎捕。'	-- The infected nightstalker runts seem to be coming from the north. If I were you, that's where I would start my hunt.
 WHERE `entry`=8974;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Wow, you totally bombed out there. Let''s think of that as a rehearsal, shall we? Ready to go out again?'	-- Wow, you totally bombed out there. Let's think of that as a rehearsal, shall we? Ready to go out again?
-WHERE `entry`=8975;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Wow, you totally bombed out there. Let''s think of that as a rehearsal, shall we? Ready to go out again?'	-- Wow, you totally bombed out there. Let's think of that as a rehearsal, shall we? Ready to go out again?
+-- WHERE `entry`=8975;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='粗俗的观众，但你会说服他们的。准备好再试一次吗？'	-- Rough audience, but you'll win them over. Ready for another shot?
@@ -2791,9 +2791,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='那你知道紫罗兰之眼吗？或许我等下才有空跟你说话。$B$B我要回去工作了。'	-- You know about the Violet Eye then?  Maybe I'll have time for you later.$B$BI have to get back to my work.
 WHERE `entry`=9004;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='<Eralan appears to be chewing on some deathweed.>$b$bIf you''re looking to make a love potion, you''ve got the wrong place.  Blinding, crippling, and killing is my business and hopefully yours.'	-- <Eralan appears to be chewing on some deathweed.>$b$bIf you're looking to make a love potion, you've got the wrong place.  Blinding, crippling, and killing is my business and hopefully yours.
-WHERE `entry`=9005;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='<Eralan appears to be chewing on some deathweed.>$b$bIf you''re looking to make a love potion, you''ve got the wrong place.  Blinding, crippling, and killing is my business and hopefully yours.'	-- <Eralan appears to be chewing on some deathweed.>$b$bIf you're looking to make a love potion, you've got the wrong place.  Blinding, crippling, and killing is my business and hopefully yours.
+-- WHERE `entry`=9005;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我可以感觉到你对力量的渴望，$C。'	-- I can sense your desire for power, $c.
@@ -2805,21 +2805,21 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='The Light gives us the strength and magic to triumph.'	-- The Light gives us the strength and magic to triumph.
 WHERE `entry`=9007;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to the Registrar of Guilds.  How can I be of service to you?'	-- Welcome to the Registrar of Guilds.  How can I be of service to you?
-WHERE `entry`=9008;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to the Registrar of Guilds.  How can I be of service to you?'	-- Welcome to the Registrar of Guilds.  How can I be of service to you?
+-- WHERE `entry`=9008;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, my child.'	-- Hello, my child.
-WHERE `entry`=9009;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, my child.'	-- Hello, my child.
+-- WHERE `entry`=9009;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The better to hear you with, my child.'	-- The better to hear you with, my child.
-WHERE `entry`=9010;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The better to hear you with, my child.'	-- The better to hear you with, my child.
+-- WHERE `entry`=9010;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The better to see you with, my child.'	-- The better to see you with, my child.
-WHERE `entry`=9011;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The better to see you with, my child.'	-- The better to see you with, my child.
+-- WHERE `entry`=9011;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们会一起解决水质腐败的问题。'	-- Together we will deal with this corruption of the water.
@@ -2829,17 +2829,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你做了一件伟大的事，$N。这里任何时候都欢迎你。'	-- You have done a great thing, $N.  You are welcome here at any time.
 WHERE `entry`=9016;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Come for some blacksmithing supplies, have ya?'	-- Come for some blacksmithing supplies, have ya?
-WHERE `entry`=9019;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Come for some blacksmithing supplies, have ya?'	-- Come for some blacksmithing supplies, have ya?
+-- WHERE `entry`=9019;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我有新鲜的肉，鱼，和蘑菇。还有一大堆饮料！'	-- I've got fresh meat, fish and mushrooms.  And plenty to drink!
 WHERE `entry`=9020;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Everything that has happened since the crash is little more than a blur. It seems like a lifetime ago that I was aboard the Exodar.$B$BNow, my reality is restricted to this island with its mutant creatures and endless sea of blood elf agents. Soon, it will be as if I''ve never known anything different...'	-- Everything that has happened since the crash is little more than a blur. It seems like a lifetime ago that I was aboard the Exodar.$B$BNow, my reality is restricted to this island with its mutant creatures and endless sea of blood elf agents. Soon, it will be as if I've never known anything different...
-WHERE `entry`=9034;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Everything that has happened since the crash is little more than a blur. It seems like a lifetime ago that I was aboard the Exodar.$B$BNow, my reality is restricted to this island with its mutant creatures and endless sea of blood elf agents. Soon, it will be as if I''ve never known anything different...'	-- Everything that has happened since the crash is little more than a blur. It seems like a lifetime ago that I was aboard the Exodar.$B$BNow, my reality is restricted to this island with its mutant creatures and endless sea of blood elf agents. Soon, it will be as if I've never known anything different...
+-- WHERE `entry`=9034;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='谢谢你的警告，$N！我们会做好准备！'	-- Thanks for the warning, $N! We shall prepare!
@@ -2905,13 +2905,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='翻遍血骑士的尸体之后，你找到了那枚徽章。它并没有因为战争和周围的环境而受到任何损伤。'	-- A search of the corpse's clothing and equipment reveals the insignia you need, undamaged by the battle and foul environment.
 WHERE `entry`=9072;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Elune''s grace upon you.  How can I serve?'	-- Elune's grace upon you.  How can I serve?
-WHERE `entry`=9073;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Elune''s grace upon you.  How can I serve?'	-- Elune's grace upon you.  How can I serve?
+-- WHERE `entry`=9073;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings, $c.  It is good you''ve decided to visit us.'	-- Greetings, $c.  It is good you've decided to visit us.
-WHERE `entry`=9074;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings, $c.  It is good you''ve decided to visit us.'	-- Greetings, $c.  It is good you've decided to visit us.
+-- WHERE `entry`=9074;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$C。我是库罗斯，三头政治的第二人。'	-- Greetings, $c. I am Kuros, second of the Triumvirate of the Hand.
@@ -2949,17 +2949,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='随着新的敌人向我们逼近，我们绝对不能让旧时的敌人利用了我们现在的状况！'	-- With new enemies on our doorsteps, we must not allow our ancient enemies to take advantage of our situation!
 WHERE `entry`=9108;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Can you believe this place?  ''Course, it''s a mite stuffy up here if you ask me.'	-- Can you believe this place?  'Course, it's a mite stuffy up here if you ask me.
-WHERE `entry`=9109;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Can you believe this place?  ''Course, it''s a mite stuffy up here if you ask me.'	-- Can you believe this place?  'Course, it's a mite stuffy up here if you ask me.
+-- WHERE `entry`=9109;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你说，你看到西面那个拱形的东西划过湖泊吗？我在想那东西去哪里了……也许我应该潜水到那里去看看。'	-- Say, you happen to see that arch in the lake to the west?  I wonder where that goes?  I should go divin' over there.
 WHERE `entry`=9110;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If only I hadn''t twisted my ankle coming into this place, I''d be in there with my friends.  Hmmm, now that I think about it, maybe it''s better that I''m out here?'	-- If only I hadn't twisted my ankle coming into this place, I'd be in there with my friends.  Hmmm, now that I think about it, maybe it's better that I'm out here?
-WHERE `entry`=9112;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If only I hadn''t twisted my ankle coming into this place, I''d be in there with my friends.  Hmmm, now that I think about it, maybe it''s better that I''m out here?'	-- If only I hadn't twisted my ankle coming into this place, I'd be in there with my friends.  Hmmm, now that I think about it, maybe it's better that I'm out here?
+-- WHERE `entry`=9112;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='费斯伍尔喜欢小孢子人。他们拯救费斯伍尔。费斯伍尔不吃他们。$B$B费斯伍尔痛恨纳迦。费斯伍尔猛击！'	-- Fhwoor like little sporelings.  They save Fhwoor.  Not eat them.$B$BFhwoor hate naga.  Fhwoor smash!
@@ -2985,27 +2985,27 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='身为唯一显而易见的幸存「破碎者」，传承先知诺柏多的萨满教学是我的责任也是荣耀。'	-- As the only apparent surviving 'Broken', it is both my duty and honor to carry on the shamanistic teachings of Farseer Nobundo.
 WHERE `entry`=9122;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Damn those blood elves and their reckless magic!'	-- Damn those blood elves and their reckless magic!
-WHERE `entry`=9123;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Damn those blood elves and their reckless magic!'	-- Damn those blood elves and their reckless magic!
+-- WHERE `entry`=9123;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='不要浪费我的时间。你想要什么？'	-- Do not waste my time.  What is it you want?
 	`text0_1_loc4`='Do not waste my time.  What is it you want?'	-- Do not waste my time.  What is it you want?
 WHERE `entry`=9124;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='May the Light bend to your will in all endeavors.'	-- May the Light bend to your will in all endeavors.
-WHERE `entry`=9127;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='May the Light bend to your will in all endeavors.'	-- May the Light bend to your will in all endeavors.
+-- WHERE `entry`=9127;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<被俘虏的太阳之鹰密探怀疑地看着你。>$B$B我从没见过你。你是谁？'	-- <The captured Sunhawk agent eyes you suspiciously.>$B$BI've never seen you before. Who are you?
 	`text0_1_loc4`='<The captured Sunhawk agent eyes you suspiciously.>$B$BI''ve never seen you before. Who are you?'	-- <The captured Sunhawk agent eyes you suspiciously.>$B$BI've never seen you before. Who are you?
 WHERE `entry`=9136;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I am patiently awaiting orders, $c.'	-- I am patiently awaiting orders, $c.
-WHERE `entry`=9143;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I am patiently awaiting orders, $c.'	-- I am patiently awaiting orders, $c.
+-- WHERE `entry`=9143;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='粗野的干扰已结束，如我所说，奎克米瑞已经接近了！$B$B依先前允诺的，我可以用一个魔法恩赐增强你的力量，帮助你与他对抗。'	-- Now that the rude interruption is over, as I was saying, Quagmirran is nearby!$B$BAs promised, I can fortify you with a magical boon that should aid you in your fight with him.
@@ -3027,21 +3027,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='德莱尼的勇士就走在我们之中。这是个蓝谜岛和血谜岛救星的庆祝活动！'	-- The draenei champion walks among us. This is a celebration for the savior of Azuremyst and Bloodmyst!
 WHERE `entry`=9162;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I have no idea who you are, but your presence is most welcome. Archimonde and his Scourge army could attack at any time, $C. Will you stand with us against this evil?'	-- I have no idea who you are, but your presence is most welcome. Archimonde and his Scourge army could attack at any time, $C. Will you stand with us against this evil?
-WHERE `entry`=9168;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I have no idea who you are, but your presence is most welcome. Archimonde and his Scourge army could attack at any time, $C. Will you stand with us against this evil?'	-- I have no idea who you are, but your presence is most welcome. Archimonde and his Scourge army could attack at any time, $C. Will you stand with us against this evil?
+-- WHERE `entry`=9168;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Thank you, $R. Now prepare yourselves. Archimonde is on the march, and we must hold off the inevitable for as long as we can.'	-- Thank you, $R. Now prepare yourselves. Archimonde is on the march, and we must hold off the inevitable for as long as we can.
-WHERE `entry`=9169;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Thank you, $R. Now prepare yourselves. Archimonde is on the march, and we must hold off the inevitable for as long as we can.'	-- Thank you, $R. Now prepare yourselves. Archimonde is on the march, and we must hold off the inevitable for as long as we can.
+-- WHERE `entry`=9169;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We must continue to hold on for as long as we can! Fight on!'	-- We must continue to hold on for as long as we can! Fight on!
-WHERE `entry`=9170;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We must continue to hold on for as long as we can! Fight on!'	-- We must continue to hold on for as long as we can! Fight on!
+-- WHERE `entry`=9170;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I am the leader of the Blood Watch defenses. What can I help you with?'	-- I am the leader of the Blood Watch defenses. What can I help you with?
-WHERE `entry`=9172;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I am the leader of the Blood Watch defenses. What can I help you with?'	-- I am the leader of the Blood Watch defenses. What can I help you with?
+-- WHERE `entry`=9172;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='[操着不流利的普通语]静松做好准备！非常感激！'	-- [In broken Common] Stillpine be ready! Many thanks!
@@ -3051,13 +3051,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎来到奎尔萨拉斯的防卫者，血骑士的总部，我们是银月忠诚的仆人，也是圣光真正的主人。'	-- Welcome to the headquarters of the Blood Knights, the defenders of Quel'Thalas, the faithful servants of Silvermoon, and the true masters of the Light.
 WHERE `entry`=9174;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings, $N.'	-- Greetings, $N.
-WHERE `entry`=9179;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings, $N.'	-- Greetings, $N.
+-- WHERE `entry`=9179;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='How can my people fight when the elements are in such turmoil? Do they not see that without the support of the elements, the world simply cannot be.'	-- How can my people fight when the elements are in such turmoil? Do they not see that without the support of the elements, the world simply cannot be.
-WHERE `entry`=9182;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='How can my people fight when the elements are in such turmoil? Do they not see that without the support of the elements, the world simply cannot be.'	-- How can my people fight when the elements are in such turmoil? Do they not see that without the support of the elements, the world simply cannot be.
+-- WHERE `entry`=9182;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我可以感觉到你对力量的渴望，$C。'	-- I can sense your desire for power, $c.
@@ -3104,25 +3104,25 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Ours is a path for those with an iron will and unfaltering resolve. You seem to possess none of these traits, $c.'	-- Ours is a path for those with an iron will and unfaltering resolve. You seem to possess none of these traits, $c.
 WHERE `entry`=9193;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='May the winds guide you, $N.'	-- May the winds guide you, $N.
-WHERE `entry`=9196;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='May the winds guide you, $N.'	-- May the winds guide you, $N.
+-- WHERE `entry`=9196;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这本书包含了外域植物种类的资料。大部份详述的植物都是赞格沼泽土生土长的。$B$B书里的图表对你而言有点难以理解。或许作者可以给你一些指示。'	-- This book contains information on the plant species of Outland.  Most of the plants detailed are native to Zangarmarsh.$B$BThe charts and diagrams are a bit beyond your understanding.  Perhaps the author could give you some pointers.
 WHERE `entry`=9197;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''ve always liked sorting and organizing things.  I guess I take after my mother.'	-- I've always liked sorting and organizing things.  I guess I take after my mother.
-WHERE `entry`=9199;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''ve always liked sorting and organizing things.  I guess I take after my mother.'	-- I've always liked sorting and organizing things.  I guess I take after my mother.
+-- WHERE `entry`=9199;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='多亏了你我们的青年们才能安全，$N。前往斯博格尔见见我的人民。他们都听过你伟大的事迹了。'	-- Thanks to you our young ones will be safe, $N.  Go to Sporeggar and meet my people.  They've all heard great things about you.
 WHERE `entry`=9204;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Defenders of Blood Watch protect this outpost from any threat. '	-- The Defenders of Blood Watch protect this outpost from any threat. 
-WHERE `entry`=9206;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Defenders of Blood Watch protect this outpost from any threat. '	-- The Defenders of Blood Watch protect this outpost from any threat. 
+-- WHERE `entry`=9206;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N！我对你的打猎本领印象深刻。你在荆棘谷的开始或许不太稳当，但你坚持到底，捕获老邦加拉西成为最出色的人之一。$B$B但听好了，$G小伙子:小姑娘;，外域的猎物是真的很难对付。我还有疤可以证明这点！'	-- $N!  I remember your hunting prowess all too well.  You might have gotten off to a shaky start in Stranglethorn, but you stuck in there and became one o' the finest when you bagged old Bangalash.$B$BBut listen, $g lad : lass;, the prey out here in the Outland is the real deal.  And I've the scars to prove it!
@@ -3140,9 +3140,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='卡拉赞不只是个建筑物，$N。如果你追溯横跨艾泽拉斯的能量界线，你会发现它们都会合在那里。$B$B<艾特罗斯指向哨塔下隐密的一点。>$B$B很棒，对吧？'	-- Karazhan is more than a mere building, $N.  If you traced the ley-lines traversing Azeroth you would find that they all converge right about there.$B$B<Alturus points at an invisible spot below the tower.>$B$BFascinating, isn't it?
 WHERE `entry`=9242;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='A thick red slash has been drawn across the words WANTED: Deathclaw.  "This bounty has been claimed by the heroic $N, who has overcome the fearsome beast," declares more writing in the same red ink.'	-- A thick red slash has been drawn across the words WANTED: Deathclaw.  "This bounty has been claimed by the heroic $N, who has overcome the fearsome beast," declares more writing in the same red ink.
-WHERE `entry`=9245;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='A thick red slash has been drawn across the words WANTED: Deathclaw.  "This bounty has been claimed by the heroic $N, who has overcome the fearsome beast," declares more writing in the same red ink.'	-- A thick red slash has been drawn across the words WANTED: Deathclaw.  "This bounty has been claimed by the heroic $N, who has overcome the fearsome beast," declares more writing in the same red ink.
+-- WHERE `entry`=9245;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这块告示写着许多宣布事项和奖励办法。'	-- This sign contains various announcements and notices of rewards.
@@ -3156,9 +3156,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='现在你别想试图逃跑小鱼人！我有着像老鹰一样的眼睛，像……像……像某种有强大能量动物的耳朵！'	-- Now don't you be thinkin' about tryin' to make off with me baby murlocs! I got the eyes of a hawk and ears like... ears like... like somethin' with mighty powerful ears!
 WHERE `entry`=9249;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Tor''gash believes he can see the future in the entrails of birds, or by tossing the knucklebones of his ancestors. Really, all you need to do is ask the spirits. But don''t try telling him that, $N. He''s very stubborn.'	-- Tor'gash believes he can see the future in the entrails of birds, or by tossing the knucklebones of his ancestors. Really, all you need to do is ask the spirits. But don't try telling him that, $N. He's very stubborn.
-WHERE `entry`=9250;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Tor''gash believes he can see the future in the entrails of birds, or by tossing the knucklebones of his ancestors. Really, all you need to do is ask the spirits. But don''t try telling him that, $N. He''s very stubborn.'	-- Tor'gash believes he can see the future in the entrails of birds, or by tossing the knucklebones of his ancestors. Really, all you need to do is ask the spirits. But don't try telling him that, $N. He's very stubborn.
+-- WHERE `entry`=9250;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你已证明自己是个非常称职的王牌猎人，$N。但仍有一只野兽还萦绕在你梦中……长牙！'	-- You've proven yourself a very capable game hunter, $N.  But there's still one beastie that haunts your dreams... Tusker!
@@ -3172,13 +3172,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我第一次看到蘑菇长的比树还要高，我不知道我是否可以称这个地方为家。过了一阵子之后你就不再注意了。'	-- The first time I saw mushrooms taller than trees, I wasn't so sure I could call this place home. After a while you just stop noticing.
 WHERE `entry`=9259;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Don''t forget to take some time out to fish while you''re in Zangarmarsh. You never know when you''ll see water again.'	-- Don't forget to take some time out to fish while you're in Zangarmarsh. You never know when you'll see water again.
-WHERE `entry`=9260;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Don''t forget to take some time out to fish while you''re in Zangarmarsh. You never know when you''ll see water again.'	-- Don't forget to take some time out to fish while you're in Zangarmarsh. You never know when you'll see water again.
+-- WHERE `entry`=9260;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The view from the top of Telredor is magnificent, isn''t it?'	-- The view from the top of Telredor is magnificent, isn't it?
-WHERE `entry`=9262;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The view from the top of Telredor is magnificent, isn''t it?'	-- The view from the top of Telredor is magnificent, isn't it?
+-- WHERE `entry`=9262;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='暗影猎人丹杰派我和一支由建筑商和战士组成的小分遣队来这里建立这座前哨。我们才刚建好而他就已经开始向我们要报告了！$B$B如果你需要补给，我可以提供一些东西，但我们仍在等待第一批货物。'	-- Shadow Hunter Denjai sent me here with a small contingent of builders and warriors to establish this outpost. We've barely finished building it and he's already asking for reports!$B$BIf you need supplies, I can offer a few things, but we're still waiting for our first shipment.
@@ -3188,9 +3188,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你看到巫医托卡斯就告诉他，他的混合物和符咒根本没用！我完全照着他的话做，但玛卡莎眼里还是只有祖瑞伊。$B$B不要相信那个假巫医告诉你的任何话！'	-- If you ever meet Witch Doctor Tor'gash, tell him his concoctions and charms don't work! I did exactly as he told me to and still Magasha has eyes only for Zurai.$B$BDon't believe a thing that sham witch doctor tells you!
 WHERE `entry`=9268;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Reavij has all the subtlety of a kodo! What''s funny is that he doesn''t think he''s being obvious. I see the way he stares at me when he thinks no one''s looking.$B$BHe creeps me out. I really wish Shadow Hunter Denjai hadn''t sent him with us. Setting up Swamprat Post was the perfect opportunity to get away from him.'	-- Reavij has all the subtlety of a kodo! What's funny is that he doesn't think he's being obvious. I see the way he stares at me when he thinks no one's looking.$B$BHe creeps me out. I really wish Shadow Hunter Denjai hadn't sent him with us. Setting up Swamprat Post was the perfect opportunity to get away from him.
-WHERE `entry`=9269;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Reavij has all the subtlety of a kodo! What''s funny is that he doesn''t think he''s being obvious. I see the way he stares at me when he thinks no one''s looking.$B$BHe creeps me out. I really wish Shadow Hunter Denjai hadn''t sent him with us. Setting up Swamprat Post was the perfect opportunity to get away from him.'	-- Reavij has all the subtlety of a kodo! What's funny is that he doesn't think he's being obvious. I see the way he stares at me when he thinks no one's looking.$B$BHe creeps me out. I really wish Shadow Hunter Denjai hadn't sent him with us. Setting up Swamprat Post was the perfect opportunity to get away from him.
+-- WHERE `entry`=9269;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='卡拉达尔处于一团混乱中，陌生人。自从主母生病后，卡尔洛斯就得变的意气消沉。他已经变的不像他爸爸的儿子了。$B$B<可库许叹气。>'	-- Garadar is in shambles, stranger. Since the Greatmother took ill, Garrosh has gone into a deep depression. He is most certainly not his father's boy.$B$B<Kurkush sighs.>$B
@@ -3228,21 +3228,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你知道我们是谁吗，陌生人？我们是玛格哈 - 咖啡色兽人，我听过你们族人这样称呼我们。玛格哈是生还者：一个堕落朝代的生还者；红色帕斯的生还者；一个粉碎世界的生还者……$B$B我是乔林，基尔罗格之子；亡眼的最后一个后裔：血之谷氏族的酋长。'	-- Do you know who we are, stranger? We are Mag'har - brown orcs, as I have heard your kind call us. The Mag'har are survivors: Survivors of a fallen dynasty; Survivors of the Red Pox; Survivors of a shattered world...$B$BI am Jorin, son of Kilrogg; last of the lineage of Deadeye: Warchief of the Bleeding Hollow Clan.
 WHERE `entry`=9289;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We wouldn''t have crashed if Hemet could learn how to avoid shooting through the ailerons when he''s trying to bag game on the ground!$B$BNo worries though, I''ll have her fixed up quick enough.'	-- We wouldn't have crashed if Hemet could learn how to avoid shooting through the ailerons when he's trying to bag game on the ground!$B$BNo worries though, I'll have her fixed up quick enough.
-WHERE `entry`=9290;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We wouldn''t have crashed if Hemet could learn how to avoid shooting through the ailerons when he''s trying to bag game on the ground!$B$BNo worries though, I''ll have her fixed up quick enough.'	-- We wouldn't have crashed if Hemet could learn how to avoid shooting through the ailerons when he's trying to bag game on the ground!$B$BNo worries though, I'll have her fixed up quick enough.
+-- WHERE `entry`=9290;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I am SO glad that evil Gankly Rottenfist got his just desserts!  I have lots of skins if you want some to give to Harold.'	-- I am SO glad that evil Gankly Rottenfist got his just desserts!  I have lots of skins if you want some to give to Harold.
-WHERE `entry`=9292;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I am SO glad that evil Gankly Rottenfist got his just desserts!  I have lots of skins if you want some to give to Harold.'	-- I am SO glad that evil Gankly Rottenfist got his just desserts!  I have lots of skins if you want some to give to Harold.
+-- WHERE `entry`=9292;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$N。'	-- Greetings $N.
 WHERE `entry`=9296;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Greatmother raised all of us. Any Mag''hari that you see has had their life touched in some special way by the Greatmother. We will miss her greatly when she passes.'	-- The Greatmother raised all of us. Any Mag'hari that you see has had their life touched in some special way by the Greatmother. We will miss her greatly when she passes.
-WHERE `entry`=9297;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Greatmother raised all of us. Any Mag''hari that you see has had their life touched in some special way by the Greatmother. We will miss her greatly when she passes.'	-- The Greatmother raised all of us. Any Mag'hari that you see has had their life touched in some special way by the Greatmother. We will miss her greatly when she passes.
+-- WHERE `entry`=9297;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你要发动一系列活动让吉尔索洛堡垒的吉尔索洛相信战槌巨魔攻击了他们的基地，再策划另一系列活动让战槌巨魔相信吉尔索洛正要攻击他们的基地。$B$B这样做你就解决了我们的两个麻烦。$B$B石拳将夺回他们的领土而你的人民将不再遭受石拳，战槌，和吉尔索洛的攻击。'	-- You will stage a series of events that will lead the Kil'sorrow orcs of Kil'sorrow Fortress to believe that the Warmaul ogres have attacked their base and then another series of events to make the Warmaul ogres believe the Kil'sorrow orcs are attacking their base.$B$BDo this and you solve both of our problems.$B$BThe Boulderfist will have their territory back and your people will be free from attack from Boulderfist, Warmaul and Shadow Council.
@@ -3273,21 +3273,21 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='I can instruct you in mining.  Interested?'	-- I can instruct you in mining.  Interested?
 WHERE `entry`=9384;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Amazing! Anatheron''s defeat at your hands has delayed Archimonde from his objective, and brought us that much closer to victory. My forces cannot stay here, however. My troops and I are exhausted, and now is the time for retreat. If your strength has not waned, head east to Thrall''s encampment. That is where we make another stand. Be well.'	-- Amazing! Anatheron's defeat at your hands has delayed Archimonde from his objective, and brought us that much closer to victory. My forces cannot stay here, however. My troops and I are exhausted, and now is the time for retreat. If your strength has not waned, head east to Thrall's encampment. That is where we make another stand. Be well.
-WHERE `entry`=9387;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Amazing! Anatheron''s defeat at your hands has delayed Archimonde from his objective, and brought us that much closer to victory. My forces cannot stay here, however. My troops and I are exhausted, and now is the time for retreat. If your strength has not waned, head east to Thrall''s encampment. That is where we make another stand. Be well.'	-- Amazing! Anatheron's defeat at your hands has delayed Archimonde from his objective, and brought us that much closer to victory. My forces cannot stay here, however. My troops and I are exhausted, and now is the time for retreat. If your strength has not waned, head east to Thrall's encampment. That is where we make another stand. Be well.
+-- WHERE `entry`=9387;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We''ve got to get those supply crates back!'	-- We've got to get those supply crates back!
-WHERE `entry`=9389;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We''ve got to get those supply crates back!'	-- We've got to get those supply crates back!
+-- WHERE `entry`=9389;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这个森林是个令人毛骨悚然的地方。到处都是比联盟更多的邪恶护符，所以你要小心自身安全。'	-- This forest be a spooky place.  It's full of more bad juju than just the Alliance, so you watch out for yourself.
 WHERE `entry`=9392;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Horde isn''t the only danger in this forest. Don''t let its seeming tranquility fool you.'	-- The Horde isn't the only danger in this forest. Don't let its seeming tranquility fool you.
-WHERE `entry`=9393;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Horde isn''t the only danger in this forest. Don''t let its seeming tranquility fool you.'	-- The Horde isn't the only danger in this forest. Don't let its seeming tranquility fool you.
+-- WHERE `entry`=9393;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='别挡我的路，$R。没看到我们正在打斗吗！'	-- Get out of my way, $r. Can't you see that we're in the middle of a battle!
@@ -3313,13 +3313,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果这场大屠杀是我们最不可能做的事，我们会追根究底！'	-- We'll get to the bottom of this massacre if it's the last thing we do!
 WHERE `entry`=9407;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Your assistance fighting the Burning Legion would be most appreciated. Lady Jaina Proudmoore could use your help on the front lines.'	-- Your assistance fighting the Burning Legion would be most appreciated. Lady Jaina Proudmoore could use your help on the front lines.
-WHERE `entry`=9408;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Your assistance fighting the Burning Legion would be most appreciated. Lady Jaina Proudmoore could use your help on the front lines.'	-- Your assistance fighting the Burning Legion would be most appreciated. Lady Jaina Proudmoore could use your help on the front lines.
+-- WHERE `entry`=9408;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The moment we''ve been dreading is now at hand, $C. Archimonde has made his way to Nordrassil, and is beginning to devour the World Tree''s energies. Malfurion needs more time for his plan to work, so we must do the unthinkable. You must attack Archimonde directly, while my own troops hold off the streams of Burning Legion forces approaching the top of the mount.'	-- The moment we've been dreading is now at hand, $C. Archimonde has made his way to Nordrassil, and is beginning to devour the World Tree's energies. Malfurion needs more time for his plan to work, so we must do the unthinkable. You must attack Archimonde directly, while my own troops hold off the streams of Burning Legion forces approaching the top of the mount.
-WHERE `entry`=9410;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The moment we''ve been dreading is now at hand, $C. Archimonde has made his way to Nordrassil, and is beginning to devour the World Tree''s energies. Malfurion needs more time for his plan to work, so we must do the unthinkable. You must attack Archimonde directly, while my own troops hold off the streams of Burning Legion forces approaching the top of the mount.'	-- The moment we've been dreading is now at hand, $C. Archimonde has made his way to Nordrassil, and is beginning to devour the World Tree's energies. Malfurion needs more time for his plan to work, so we must do the unthinkable. You must attack Archimonde directly, while my own troops hold off the streams of Burning Legion forces approaching the top of the mount.
+-- WHERE `entry`=9410;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎来到时光之穴！'	-- Welcome to the Taverns of Time!
@@ -3333,29 +3333,29 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这是我从你收集的调查资讯中获得的结果。$B$B有两个主要的炼冶场：西边的炼冶场：仇恨和西南方的炼冶场：恐惧。每个炼冶场有一个军团传送器，一个熔炉，和几个法术防护哨塔。此外，还有愤怒守卫操纵恶魔火炮来守卫炼冶场。最后，每个炼冶场都有一个深渊领主监督者。$B$B好吧，这样应该一点问题都没有了……$B$B<奥翠司笑着。>'	-- This is what I have gathered from the information that you collected from the survey.$B$BThere are two primary forge camps: Forge Camp: Hate, directly west of where we stand and Forge Camp: Fear, directly southwest. Each camp has a Legion transporter, one forge, and several spell warding towers. Additionally, the camps are guarded by wrathguards manning fel cannons. Lastly, each camp has a pit lord overseer.$B$BRight then, this should be no problem at all...$B$B<Altruis laughs.>
 WHERE `entry`=9427;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Twin Spire Ruins is not yet secure! My orders are to only give out battle standards when the two beacons are lit and the area is secure. Get out there and gain control of those beacons!'	-- Twin Spire Ruins is not yet secure! My orders are to only give out battle standards when the two beacons are lit and the area is secure. Get out there and gain control of those beacons!
-WHERE `entry`=9433;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Twin Spire Ruins is not yet secure! My orders are to only give out battle standards when the two beacons are lit and the area is secure. Get out there and gain control of those beacons!'	-- Twin Spire Ruins is not yet secure! My orders are to only give out battle standards when the two beacons are lit and the area is secure. Get out there and gain control of those beacons!
+-- WHERE `entry`=9433;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='再次谢谢你，$N，帮助我揭发灌木丛这里发生的事。'	-- Thank you again, $N, for helping me to uncover what happened here at the thicket.
 WHERE `entry`=9444;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='My job is to care for these poor souls.  I accept the help of any willing to lend a hand, be they Aldor or Scryer.$B$BWe are so understaffed, I wouldn''t turn an ogre away if they knew how to apply a tourniquet.  The politics of the city are of little matter to me. '	-- My job is to care for these poor souls.  I accept the help of any willing to lend a hand, be they Aldor or Scryer.$B$BWe are so understaffed, I wouldn't turn an ogre away if they knew how to apply a tourniquet.  The politics of the city are of little matter to me. 
-WHERE `entry`=9451;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='My job is to care for these poor souls.  I accept the help of any willing to lend a hand, be they Aldor or Scryer.$B$BWe are so understaffed, I wouldn''t turn an ogre away if they knew how to apply a tourniquet.  The politics of the city are of little matter to me. '	-- My job is to care for these poor souls.  I accept the help of any willing to lend a hand, be they Aldor or Scryer.$B$BWe are so understaffed, I wouldn't turn an ogre away if they knew how to apply a tourniquet.  The politics of the city are of little matter to me. 
+-- WHERE `entry`=9451;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Can you believe it?  This ethereal does not have a single basilisk eye on him!$B$BAnd his leader has the gall to call himself "the Smuggler Prince!"'	-- Can you believe it?  This ethereal does not have a single basilisk eye on him!$B$BAnd his leader has the gall to call himself "the Smuggler Prince!"
-WHERE `entry`=9452;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Can you believe it?  This ethereal does not have a single basilisk eye on him!$B$BAnd his leader has the gall to call himself "the Smuggler Prince!"'	-- Can you believe it?  This ethereal does not have a single basilisk eye on him!$B$BAnd his leader has the gall to call himself "the Smuggler Prince!"
+-- WHERE `entry`=9452;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='小心点，$C。森林里充满了隐藏的危险和潜在的敌人。'	-- Be wary, $c. The forest is full of hidden dangers and potential enemies.
 WHERE `entry`=9472;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You are here to assist the Aldor?'	-- You are here to assist the Aldor?
-WHERE `entry`=9478;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You are here to assist the Aldor?'	-- You are here to assist the Aldor?
+-- WHERE `entry`=9478;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你期待会有什么正式欢迎款待之类的话，你恐怕要失望了，$C。在这里我们传统不算什么，有什么工作就好好做。'	-- If you're expecting some kind of official welcome, you're going to be disappointed, $c. We don't stand on tradition, here. What works is what goes.
@@ -3365,17 +3365,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='悬赏告示上钉着几张羊皮纸，一张新的告示引人注目的钉在这个告示牌上。宣布一则在白骨荒野杀死鞭骨者的消息。'	-- One note stands out from the other various pieces of parchment that are tacked onto this wanted poster.  It's a call to slay the bonelashers of the Bone Wastes.
 WHERE `entry`=9482;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='No, don''t feel bad.  I get that a lot.$B$B<Taela looks both amused and annoyed.>$B$BI''m a HIGH elf, not a blood elf.  Don''t worry, I''m not going to suck all of the magic out of you.'	-- No, don't feel bad.  I get that a lot.$B$B<Taela looks both amused and annoyed.>$B$BI'm a HIGH elf, not a blood elf.  Don't worry, I'm not going to suck all of the magic out of you.
-WHERE `entry`=9484;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='No, don''t feel bad.  I get that a lot.$B$B<Taela looks both amused and annoyed.>$B$BI''m a HIGH elf, not a blood elf.  Don''t worry, I''m not going to suck all of the magic out of you.'	-- No, don't feel bad.  I get that a lot.$B$B<Taela looks both amused and annoyed.>$B$BI'm a HIGH elf, not a blood elf.  Don't worry, I'm not going to suck all of the magic out of you.
+-- WHERE `entry`=9484;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='鞭骨者，我恨死他们了！$B$B要不是因为我没看到，而且还中了晕眩法术，我会在同一时间把他们全都射下！'	-- Bonelashers, I hate them all!$B$BIf it weren't for the loss of my eye, and the fainting spells that I get sometimes, I'd be out there shooting them down all the time!
 WHERE `entry`=9485;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='There''s a whole vast forest out there, $c. Let the shaman play with the spirits and the warriors toy with their swords. Terokkar is where I''ll make my fortune.'	-- There's a whole vast forest out there, $c. Let the shaman play with the spirits and the warriors toy with their swords. Terokkar is where I'll make my fortune.
-WHERE `entry`=9487;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='There''s a whole vast forest out there, $c. Let the shaman play with the spirits and the warriors toy with their swords. Terokkar is where I''ll make my fortune.'	-- There's a whole vast forest out there, $c. Let the shaman play with the spirits and the warriors toy with their swords. Terokkar is where I'll make my fortune.
+-- WHERE `entry`=9487;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='玛鲁卡兹不断喋喋不休地讲着这个森林的历史有多重要，但我现在没有兴趣听这个历史，除非我们当前的问题解决了。$B$B我不是说他在这里的工作不重要，但要有个人去看管防御工事并掌管后勤流程。'	-- Malukaz chatters incessantly about the historical importance of this forest, but I don't have the luxury of indulging in history until our present problems are settled.$B$BI'm not saying his work here isn't important, but someone has to see to the defenses and logistics of running the hold.
@@ -3385,13 +3385,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='从纳葛兰旅行直到来到这个森林，我很害怕我们的原始文化会消逝，但我很高兴我错了。$B$B这里还是一如既往！'	-- Until I traveled through Nagrand and came to the forest, I feared that too much of our original culture was lost. I'm thankful to see that I was wrong.$B$BThere is so much to be done here!
 WHERE `entry`=9489;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The opening of the Dark Portal brought news of my people''s fate. In a way, my exile shielded me from sharing in their downfall, but to see the Farstriders throw their lot in with Kael''thas...$B$BI never imagined my one-time brethren capable of such a thing.$B$BThe homecoming I once dreamt of will never happen. This forest is the only home I have left.'	-- The opening of the Dark Portal brought news of my people's fate. In a way, my exile shielded me from sharing in their downfall, but to see the Farstriders throw their lot in with Kael'thas...$B$BI never imagined my one-time brethren capable of such a thing.$B$BThe homecoming I once dreamt of will never happen. This forest is the only home I have left.
-WHERE `entry`=9490;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The opening of the Dark Portal brought news of my people''s fate. In a way, my exile shielded me from sharing in their downfall, but to see the Farstriders throw their lot in with Kael''thas...$B$BI never imagined my one-time brethren capable of such a thing.$B$BThe homecoming I once dreamt of will never happen. This forest is the only home I have left.'	-- The opening of the Dark Portal brought news of my people's fate. In a way, my exile shielded me from sharing in their downfall, but to see the Farstriders throw their lot in with Kael'thas...$B$BI never imagined my one-time brethren capable of such a thing.$B$BThe homecoming I once dreamt of will never happen. This forest is the only home I have left.
+-- WHERE `entry`=9490;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='When I first arrived, I''d hoped to meet the town''s namesake.$B$B<Ros''eleth glances around.>$B$BMost young high elves outgrow the ''I wanna be a Farstrider'' phase by the time they''re taken as apprentices. Then, it''s onto the ''I''m going to be a magister'' stage.$B$BI don''t think I ever quite outgrew the Farstrider phase, to be honest. No one dreams of growing up to be a seamstress, but we can''t have the Farstriders running around naked, as my mother used to say.'	-- When I first arrived, I'd hoped to meet the town's namesake.$B$B<Ros'eleth glances around.>$B$BMost young high elves outgrow the 'I wanna be a Farstrider' phase by the time they're taken as apprentices. Then, it's onto the 'I'm going to be a magister' stage.$B$BI don't think I ever quite outgrew the Farstrider phase, to be honest. No one dreams of growing up to be a seamstress, but we can't have the Farstriders running around naked, as my mother used to say.
-WHERE `entry`=9492;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='When I first arrived, I''d hoped to meet the town''s namesake.$B$B<Ros''eleth glances around.>$B$BMost young high elves outgrow the ''I wanna be a Farstrider'' phase by the time they''re taken as apprentices. Then, it''s onto the ''I''m going to be a magister'' stage.$B$BI don''t think I ever quite outgrew the Farstrider phase, to be honest. No one dreams of growing up to be a seamstress, but we can''t have the Farstriders running around naked, as my mother used to say.'	-- When I first arrived, I'd hoped to meet the town's namesake.$B$B<Ros'eleth glances around.>$B$BMost young high elves outgrow the 'I wanna be a Farstrider' phase by the time they're taken as apprentices. Then, it's onto the 'I'm going to be a magister' stage.$B$BI don't think I ever quite outgrew the Farstrider phase, to be honest. No one dreams of growing up to be a seamstress, but we can't have the Farstriders running around naked, as my mother used to say.
+-- WHERE `entry`=9492;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<凯德对你发出嘘声>$B$B安静点，要不然你能击败兽人和联盟吗，你这个笨手笨脚的蠢蛋！$B$B这就对了，点头就好了，当我们谈话结束，你就离开这里然后忘记你在这里找到了我。'	-- <Kaide hisses at you.>$B$BBe quiet, or you'll bring the orcs and the Alliance down on us, you clumsy oaf!$B$BThat's right, nod your head, and when we're done speaking, you'll walk away and forget you found me here.
@@ -3411,49 +3411,49 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Practicing!  Soon I''ll be good enough to join the other summoners and take my turn inside the Shadow Labyrinth at Auchindoun.$B$BI hope that I''ll get the chance to summon something big!  Maybe something as big as Murmur, though I wouldn''t lose control of him!'	-- Practicing!  Soon I'll be good enough to join the other summoners and take my turn inside the Shadow Labyrinth at Auchindoun.$B$BI hope that I'll get the chance to summon something big!  Maybe something as big as Murmur, though I wouldn't lose control of him!
 WHERE `entry`=9503;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, young $r.'	-- Hello, young $r.
-WHERE `entry`=9507;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, young $r.'	-- Hello, young $r.
+-- WHERE `entry`=9507;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, dear. I am Geyah, matron of the Mag''har.$B$B<Greatmother Geyah coughs.>$B$BIf you are here, it would be safe to assume that the portal has opened. Most of the orcs here were too young or too sick to remember the Dark Portal.$B$B<Greatmother Geyah points to the orcs around her.>$B$BMany of them were orphans or would soon become orphans. Aye, Blackhand would have it no other way. Keep the sick from the healthy. Only the strong would survive... Or so they say.'	-- Hello, dear. I am Geyah, matron of the Mag'har.$B$B<Greatmother Geyah coughs.>$B$BIf you are here, it would be safe to assume that the portal has opened. Most of the orcs here were too young or too sick to remember the Dark Portal.$B$B<Greatmother Geyah points to the orcs around her.>$B$BMany of them were orphans or would soon become orphans. Aye, Blackhand would have it no other way. Keep the sick from the healthy. Only the strong would survive... Or so they say.
-WHERE `entry`=9508;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, dear. I am Geyah, matron of the Mag''har.$B$B<Greatmother Geyah coughs.>$B$BIf you are here, it would be safe to assume that the portal has opened. Most of the orcs here were too young or too sick to remember the Dark Portal.$B$B<Greatmother Geyah points to the orcs around her.>$B$BMany of them were orphans or would soon become orphans. Aye, Blackhand would have it no other way. Keep the sick from the healthy. Only the strong would survive... Or so they say.'	-- Hello, dear. I am Geyah, matron of the Mag'har.$B$B<Greatmother Geyah coughs.>$B$BIf you are here, it would be safe to assume that the portal has opened. Most of the orcs here were too young or too sick to remember the Dark Portal.$B$B<Greatmother Geyah points to the orcs around her.>$B$BMany of them were orphans or would soon become orphans. Aye, Blackhand would have it no other way. Keep the sick from the healthy. Only the strong would survive... Or so they say.
+-- WHERE `entry`=9508;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='They have grown up here. We kept them safe from harm. We did the best that we could in nursing them back to health. Many perished but many, many more grew strong. Like Garrosh...$B$B<Greatmother Geyah sighs.>$B$BHe has lost his heart, you know. He tells me that I am his balance. That without me, the blood lust that consumed his father and ultimately cursed our people would take him over.'	-- They have grown up here. We kept them safe from harm. We did the best that we could in nursing them back to health. Many perished but many, many more grew strong. Like Garrosh...$B$B<Greatmother Geyah sighs.>$B$BHe has lost his heart, you know. He tells me that I am his balance. That without me, the blood lust that consumed his father and ultimately cursed our people would take him over.
-WHERE `entry`=9509;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='They have grown up here. We kept them safe from harm. We did the best that we could in nursing them back to health. Many perished but many, many more grew strong. Like Garrosh...$B$B<Greatmother Geyah sighs.>$B$BHe has lost his heart, you know. He tells me that I am his balance. That without me, the blood lust that consumed his father and ultimately cursed our people would take him over.'	-- They have grown up here. We kept them safe from harm. We did the best that we could in nursing them back to health. Many perished but many, many more grew strong. Like Garrosh...$B$B<Greatmother Geyah sighs.>$B$BHe has lost his heart, you know. He tells me that I am his balance. That without me, the blood lust that consumed his father and ultimately cursed our people would take him over.
+-- WHERE `entry`=9509;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='<Greathmother Geyah laughs weakly.>$B$BOf course not, dear. But it''s not me that has to believe...$B$BGarrosh can lead the Mag''har. He is strong and wise. All of the spirits approve of him. He just needs to believe in himself. He fears so much... He fears so deeply that if he lets himself go, his rage will consume him and all that would be near him.'	-- <Greathmother Geyah laughs weakly.>$B$BOf course not, dear. But it's not me that has to believe...$B$BGarrosh can lead the Mag'har. He is strong and wise. All of the spirits approve of him. He just needs to believe in himself. He fears so much... He fears so deeply that if he lets himself go, his rage will consume him and all that would be near him.
-WHERE `entry`=9510;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='<Greathmother Geyah laughs weakly.>$B$BOf course not, dear. But it''s not me that has to believe...$B$BGarrosh can lead the Mag''har. He is strong and wise. All of the spirits approve of him. He just needs to believe in himself. He fears so much... He fears so deeply that if he lets himself go, his rage will consume him and all that would be near him.'	-- <Greathmother Geyah laughs weakly.>$B$BOf course not, dear. But it's not me that has to believe...$B$BGarrosh can lead the Mag'har. He is strong and wise. All of the spirits approve of him. He just needs to believe in himself. He fears so much... He fears so deeply that if he lets himself go, his rage will consume him and all that would be near him.
+-- WHERE `entry`=9510;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I wish I knew, dear. He will not listen to you nor will he listen to me. In truth, it is why I am still here. It is why I have not left with Mother Kashur. He must find his heart. Our people will not survive through the winter without leadership.'	-- I wish I knew, dear. He will not listen to you nor will he listen to me. In truth, it is why I am still here. It is why I have not left with Mother Kashur. He must find his heart. Our people will not survive through the winter without leadership.
-WHERE `entry`=9511;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I wish I knew, dear. He will not listen to you nor will he listen to me. In truth, it is why I am still here. It is why I have not left with Mother Kashur. He must find his heart. Our people will not survive through the winter without leadership.'	-- I wish I knew, dear. He will not listen to you nor will he listen to me. In truth, it is why I am still here. It is why I have not left with Mother Kashur. He must find his heart. Our people will not survive through the winter without leadership.
+-- WHERE `entry`=9511;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='<Greatmother Geyah smiles.>$B$BI am old. It is my time. When I pass, my spirit will move on to the spirit realm. It is there that I will stand with my ancestors. It is there that we will watch over our people.$B$BWhen Garad was alive Mother Kashur''s duty was the same as my duty now.'	-- <Greatmother Geyah smiles.>$B$BI am old. It is my time. When I pass, my spirit will move on to the spirit realm. It is there that I will stand with my ancestors. It is there that we will watch over our people.$B$BWhen Garad was alive Mother Kashur's duty was the same as my duty now.
-WHERE `entry`=9512;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='<Greatmother Geyah smiles.>$B$BI am old. It is my time. When I pass, my spirit will move on to the spirit realm. It is there that I will stand with my ancestors. It is there that we will watch over our people.$B$BWhen Garad was alive Mother Kashur''s duty was the same as my duty now.'	-- <Greatmother Geyah smiles.>$B$BI am old. It is my time. When I pass, my spirit will move on to the spirit realm. It is there that I will stand with my ancestors. It is there that we will watch over our people.$B$BWhen Garad was alive Mother Kashur's duty was the same as my duty now.
+-- WHERE `entry`=9512;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The duty of a clan mother is to listen. To listen to the wind and the water and the fire and the earth. To gather information for her clan in the way others gather furs to stay warm. It is the spirits that I commune with... In my dreams, Mother Kashur speaks to me like the spirits that spoke to her once... When I pass, I will speak to Drakia and Celestine in this manner.$B$B<Greatmother Geyah smiles.>'	-- The duty of a clan mother is to listen. To listen to the wind and the water and the fire and the earth. To gather information for her clan in the way others gather furs to stay warm. It is the spirits that I commune with... In my dreams, Mother Kashur speaks to me like the spirits that spoke to her once... When I pass, I will speak to Drakia and Celestine in this manner.$B$B<Greatmother Geyah smiles.>
-WHERE `entry`=9513;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The duty of a clan mother is to listen. To listen to the wind and the water and the fire and the earth. To gather information for her clan in the way others gather furs to stay warm. It is the spirits that I commune with... In my dreams, Mother Kashur speaks to me like the spirits that spoke to her once... When I pass, I will speak to Drakia and Celestine in this manner.$B$B<Greatmother Geyah smiles.>'	-- The duty of a clan mother is to listen. To listen to the wind and the water and the fire and the earth. To gather information for her clan in the way others gather furs to stay warm. It is the spirits that I commune with... In my dreams, Mother Kashur speaks to me like the spirits that spoke to her once... When I pass, I will speak to Drakia and Celestine in this manner.$B$B<Greatmother Geyah smiles.>
+-- WHERE `entry`=9513;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这里有许多燃烧装置，$N。要小心一点，要是使用不当，它们会在一个时间内造成重大伤害。'	-- Here are more of the incendiary devices, $N. Be careful with these, they can cause a great deal of disruption to time if used improperly.
 WHERE `entry`=9515;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We need to figure out what this shadowy group is doing here at Grangol''var Village!'	-- We need to figure out what this shadowy group is doing here at Grangol'var Village!
-WHERE `entry`=9520;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We need to figure out what this shadowy group is doing here at Grangol''var Village!'	-- We need to figure out what this shadowy group is doing here at Grangol'var Village!
+-- WHERE `entry`=9520;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='对于这里我们有应尽的义务，$G男孩:女孩;好好留意，别让任何人对我们进行突袭。$B$B也就是说我们要主动行动！'	-- We've a duty out here, $g boy : girl;, to see to it that we don't let anyone surprise us.$B$BThat means proactive action!
 WHERE `entry`=9521;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I must have made a misstep somewhere to be assigned here.'	-- I must have made a misstep somewhere to be assigned here.
-WHERE `entry`=9522;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I must have made a misstep somewhere to be assigned here.'	-- I must have made a misstep somewhere to be assigned here.
+-- WHERE `entry`=9522;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你有把我教授给你的技巧好好地磨练一番吗？'	-- Have you honed your skills enough to learn what I have to teach?
@@ -3474,9 +3474,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='是的，$T居民:居民;，你有什么重要的事非要引起我的注意？'	-- Yes, $t citizen : citizen;, what matter of import do you have to bring to my attention?
 WHERE `entry`=9566;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hi!  Do you think you might help me to get out of here?'	-- Hi!  Do you think you might help me to get out of here?
-WHERE `entry`=9568;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hi!  Do you think you might help me to get out of here?'	-- Hi!  Do you think you might help me to get out of here?
+-- WHERE `entry`=9568;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='什么？那是什么？'	-- Yes?  What is it?
@@ -3496,13 +3496,13 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Please, don''t say anything to me. I don''t want to get into any more trouble with them.'	-- Please, don't say anything to me. I don't want to get into any more trouble with them.
 WHERE `entry`=9587;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We''ve just arrived here and already we''ve buried too many of our friends and comrades.'	-- We've just arrived here and already we've buried too many of our friends and comrades.
-WHERE `entry`=9591;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We''ve just arrived here and already we''ve buried too many of our friends and comrades.'	-- We've just arrived here and already we've buried too many of our friends and comrades.
+-- WHERE `entry`=9591;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If you are not here to help the cause, get out.'	-- If you are not here to help the cause, get out.
-WHERE `entry`=9595;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If you are not here to help the cause, get out.'	-- If you are not here to help the cause, get out.
+-- WHERE `entry`=9595;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='有了你的帮忙，我们也许能赢得这个东西！'	-- With your help, we might be able to win this thing!
@@ -3517,21 +3517,21 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='I can instruct you in skinning.  Interested?'	-- I can instruct you in skinning.  Interested?
 WHERE `entry`=9599;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Thank you for helping Thrall escape, friends. Now I only hope you can help me as well. I awoke this morning to find myself trapped in this magical prison. A strange wizard told me that I would have to stay here for a while.'	-- Thank you for helping Thrall escape, friends. Now I only hope you can help me as well. I awoke this morning to find myself trapped in this magical prison. A strange wizard told me that I would have to stay here for a while.
-WHERE `entry`=9610;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Thank you for helping Thrall escape, friends. Now I only hope you can help me as well. I awoke this morning to find myself trapped in this magical prison. A strange wizard told me that I would have to stay here for a while.'	-- Thank you for helping Thrall escape, friends. Now I only hope you can help me as well. I awoke this morning to find myself trapped in this magical prison. A strange wizard told me that I would have to stay here for a while.
+-- WHERE `entry`=9610;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Yes, friends. This man was no wizard of Dalaran. His clothes looked quite foreign, and his accent was unfamiliar. All he could mumble about was time this, time that. You''ll have to find that wizard and convince him to release me.'	-- Yes, friends. This man was no wizard of Dalaran. His clothes looked quite foreign, and his accent was unfamiliar. All he could mumble about was time this, time that. You'll have to find that wizard and convince him to release me.
-WHERE `entry`=9613;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Yes, friends. This man was no wizard of Dalaran. His clothes looked quite foreign, and his accent was unfamiliar. All he could mumble about was time this, time that. You''ll have to find that wizard and convince him to release me.'	-- Yes, friends. This man was no wizard of Dalaran. His clothes looked quite foreign, and his accent was unfamiliar. All he could mumble about was time this, time that. You'll have to find that wizard and convince him to release me.
+-- WHERE `entry`=9613;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我很高兴塔蕾莎还活着。我们现在得想个法子，从充满魔力的束缚中解救她。'	-- I'm glad Taretha is alive. We now must find a way to free her from her magical bindings.
 WHERE `entry`=9614;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='As a representative of the Lower City, I''m here to put forward our case that Auchindoun must be cleared of its Shadow Council infestation.  That is, if we''re to have any hope for a future and stave off the possibility of a cataclysm greater than the creation of the Bone Wastes!$B$BAll of our peoples have suffered too much already.  I am here to see to it that the suffering stops!'	-- As a representative of the Lower City, I'm here to put forward our case that Auchindoun must be cleared of its Shadow Council infestation.  That is, if we're to have any hope for a future and stave off the possibility of a cataclysm greater than the creation of the Bone Wastes!$B$BAll of our peoples have suffered too much already.  I am here to see to it that the suffering stops!
-WHERE `entry`=9615;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='As a representative of the Lower City, I''m here to put forward our case that Auchindoun must be cleared of its Shadow Council infestation.  That is, if we''re to have any hope for a future and stave off the possibility of a cataclysm greater than the creation of the Bone Wastes!$B$BAll of our peoples have suffered too much already.  I am here to see to it that the suffering stops!'	-- As a representative of the Lower City, I'm here to put forward our case that Auchindoun must be cleared of its Shadow Council infestation.  That is, if we're to have any hope for a future and stave off the possibility of a cataclysm greater than the creation of the Bone Wastes!$B$BAll of our peoples have suffered too much already.  I am here to see to it that the suffering stops!
+-- WHERE `entry`=9615;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你想在这里休息，你只需要问一下就好了！'	-- If you be wantin' ta rest here, ya just need to ask!
@@ -3541,9 +3541,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='谢谢你帮忙制作药膏，$N。只要有机会可以减轻疼痛，不管多远我都可以靠这条腿找寻找它。'	-- Thank you for your help in making the salve, $N. Once it's had a chance to dull the pain, I'm going to see how far I can get on this leg.
 WHERE `entry`=9619;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to Garadar, stranger. Are you looking for a place to rest?'	-- Welcome to Garadar, stranger. Are you looking for a place to rest?
-WHERE `entry`=9620;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to Garadar, stranger. Are you looking for a place to rest?'	-- Welcome to Garadar, stranger. Are you looking for a place to rest?
+-- WHERE `entry`=9620;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='啊…… 又一个在寻找启发的萨满吗，或许吧？是不是精灵讲得不清楚？你希望借由我的帮助以看见什么在你未来吗？'	-- Ah... another shaman seeks enlightenment, perhaps? Are the spirits speaking unclearly? Do you wish my help in seeing what lies before you?
@@ -3606,21 +3606,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='都是肌肉没有大脑，那样等于是劳工！当你能激励他们的时候，他们是伟大的，但他们必须被「踢」动，你知道我的意思吧。'	-- All muscle and no brain, that's what peons are! They're great when you can motivate them, but they have to be 'kick' started, if you know what I mean.
 WHERE `entry`=9642;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Like anything that you see, $c?'	-- Like anything that you see, $c?
-WHERE `entry`=9643;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Like anything that you see, $c?'	-- Like anything that you see, $c?
+-- WHERE `entry`=9643;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你有钱，我就有你需要的。'	-- If you have the money, I have what you need.
 WHERE `entry`=9644;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Take a look around and let me know if there''s anything that you''re interested in.'	-- Take a look around and let me know if there's anything that you're interested in.
-WHERE `entry`=9645;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Take a look around and let me know if there''s anything that you''re interested in.'	-- Take a look around and let me know if there's anything that you're interested in.
+-- WHERE `entry`=9645;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Take your time, look the weapons over.  I also repair weapons and armor if you need such services.'	-- Take your time, look the weapons over.  I also repair weapons and armor if you need such services.
-WHERE `entry`=9646;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Take your time, look the weapons over.  I also repair weapons and armor if you need such services.'	-- Take your time, look the weapons over.  I also repair weapons and armor if you need such services.
+-- WHERE `entry`=9646;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我这里只有你施法所需要的东西。'	-- I have just the thing you need to cast your spell.
@@ -3634,17 +3634,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我卖工艺师需要的物品。基本和不花俏所需的物品。'	-- I sell wares that crafters need. Just the basics, nothing fancy.
 WHERE `entry`=9650;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Are you lost? Most of the town''s vendors are situated near the center of town.'	-- Are you lost? Most of the town's vendors are situated near the center of town.
-WHERE `entry`=9652;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Are you lost? Most of the town''s vendors are situated near the center of town.'	-- Are you lost? Most of the town's vendors are situated near the center of town.
+-- WHERE `entry`=9652;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I carry odds and ends, but mostly just odds.'	-- I carry odds and ends, but mostly just odds.
-WHERE `entry`=9653;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I carry odds and ends, but mostly just odds.'	-- I carry odds and ends, but mostly just odds.
+-- WHERE `entry`=9653;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It is regrettable that, among our many enemies in Hellfire Peninsula, the orcs of Hellfire Citadel stand among them.$B$BBut... who better to challenge and hone the Horde... than orcs?'	-- It is regrettable that, among our many enemies in Hellfire Peninsula, the orcs of Hellfire Citadel stand among them.$B$BBut... who better to challenge and hone the Horde... than orcs?
-WHERE `entry`=9657;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It is regrettable that, among our many enemies in Hellfire Peninsula, the orcs of Hellfire Citadel stand among them.$B$BBut... who better to challenge and hone the Horde... than orcs?'	-- It is regrettable that, among our many enemies in Hellfire Peninsula, the orcs of Hellfire Citadel stand among them.$B$BBut... who better to challenge and hone the Horde... than orcs?
+-- WHERE `entry`=9657;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='真高兴再次见到你，$N！只需一些更多的调整，而跳跃轨道将会是完美的！'	-- Good to see you again, $N! Just a few more adjustments and the trajectory of the jump will be perfect!
@@ -3775,13 +3775,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='啊，你禁不住吧，你可以吗？想要更好，更强大，更快吗？这些护身符中的每一个都保证可做到我所说的。走向前并且买一个这些奇迹般的小玩意！以两倍便宜的价格买到喔！'	-- Ahh, ya couldn't resist, could ya? Want to be better, stronger, faster? Each one of these amulets be guaranteed to do just what I say they be doin'. Step up and buy one of these miraculous baubles! Cheap at twice the price!
 WHERE `entry`=9755;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome. Will you take your rest here, or perhaps a meal?'	-- Welcome. Will you take your rest here, or perhaps a meal?
-WHERE `entry`=9766;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome. Will you take your rest here, or perhaps a meal?'	-- Welcome. Will you take your rest here, or perhaps a meal?
+-- WHERE `entry`=9766;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We must discover what''s behind the mystery of the giant crystal that fell from the heavens on Fallen Sky Ridge.'	-- We must discover what's behind the mystery of the giant crystal that fell from the heavens on Fallen Sky Ridge.
-WHERE `entry`=9769;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We must discover what''s behind the mystery of the giant crystal that fell from the heavens on Fallen Sky Ridge.'	-- We must discover what's behind the mystery of the giant crystal that fell from the heavens on Fallen Sky Ridge.
+-- WHERE `entry`=9769;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='有时候直接逼近问题是最好的方法。'	-- Sometimes the straightforward approach to a problem is the best.
@@ -3791,13 +3791,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你被军团抓到，告诉他们「（恶魔语）沙尔·伊欧·罗马斯·达·泰斯比。」他们将因为你侮辱他们的神而立刻杀死你，让你免于遭受惨忍的拷问或更惨的事……'	-- If you're ever captured by the Legion, tell them "Xar il romath da tidesbi." They will kill you instantly for insulting their god, saving you intolerable torture or worse...
 WHERE `entry`=9771;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We''re here to protect Gadgetzan interests in Un''Goro and that''s none of your business.'	-- We're here to protect Gadgetzan interests in Un'Goro and that's none of your business.
-WHERE `entry`=9774;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We''re here to protect Gadgetzan interests in Un''Goro and that''s none of your business.'	-- We're here to protect Gadgetzan interests in Un'Goro and that's none of your business.
+-- WHERE `entry`=9774;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hellfire Peninsula is a shattered realm - ruthless and unforgiving to its inhabitants. Be sure to repair and stock up on supplies before venturing out.'	-- Hellfire Peninsula is a shattered realm - ruthless and unforgiving to its inhabitants. Be sure to repair and stock up on supplies before venturing out.
-WHERE `entry`=9775;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hellfire Peninsula is a shattered realm - ruthless and unforgiving to its inhabitants. Be sure to repair and stock up on supplies before venturing out.'	-- Hellfire Peninsula is a shattered realm - ruthless and unforgiving to its inhabitants. Be sure to repair and stock up on supplies before venturing out.
+-- WHERE `entry`=9775;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='降低你的音量，并张大你的双眼，$N。我们的外面到处都是敌人。'	-- Keep your voice low and your eyes open, $N. We're surrounded by enemies out here.
@@ -3815,9 +3815,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='“虚空风暴”不是永远如你现在所看见的一样。$B$B曾几何时这块被践踏的土地被称为法拉隆平原。那些原有的面目现在却已面目全非。'	-- 'Netherstorm' was not always as you see it now.$B$BThere was a time when this crumbling land was known as the Plains of Farahlon. Little of those days has survived the evil that has taken hold here.
 WHERE `entry`=9826;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='$C, hold your attack, this is just a disguise!  I''m a spy working for the Lower City coalition out of Shattrath City.$B$BI hope you''re here to help!'	-- $C, hold your attack, this is just a disguise!  I'm a spy working for the Lower City coalition out of Shattrath City.$B$BI hope you're here to help!
-WHERE `entry`=9827;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='$C, hold your attack, this is just a disguise!  I''m a spy working for the Lower City coalition out of Shattrath City.$B$BI hope you''re here to help!'	-- $C, hold your attack, this is just a disguise!  I'm a spy working for the Lower City coalition out of Shattrath City.$B$BI hope you're here to help!
+-- WHERE `entry`=9827;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='大法师瓦戈斯在告知我如何从血精灵对紫色之塔的攻击中逃离后将他的法杖委托于我。我按他所告诉我的去做，希望能在阿克隆的旧德莱尼殖民地里避难。$B$B没有暂缓。我已经一直走进燃烧军团部队的前方。恶魔从我那儿抢走法杖，但是我都幸运的逃离。$B$B虽然我的主人对我的失败一无所知，但它仍然使我羞愧。'	-- Archmage Vargoth enstrusted me with his staff when he told me to flee from the blood elf attack on Violet Tower. I did as he told me, hoping to take refuge in the old draenei settlement of Arklon.$B$BThere was to be no respite. I had walked right into the leading edge of a Burning Legion force. The demons wrested the staff from me, but I managed to escape with my life.$B$BThough my master knows nothing of my failure, it still shames me.
@@ -3859,13 +3859,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='火箭主管夫斯拉吉，B.O.O.M.指挥官 - 轨道操控和机械的首脑 - 任你差遣。$B$B所有系统正常吗？！X-52虚空火箭看起来像仍然需要许多工作！$B$B来吧工人们……火箭倒数的时间从来不在！'	-- Rocket-Chief Fuselage, commander of B.O.O.M - the Braintrust of Orbital Operations and Mechanics - at your service.$B$BAre all systems go?!  It looks like the X-52 Nether-Rocket still needs a lot of work!$B$BCome on people... we're T-minus NEVER here!
 WHERE `entry`=9844;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to the Allerian Stronghold, $N.'	-- Welcome to the Allerian Stronghold, $N.
-WHERE `entry`=9845;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to the Allerian Stronghold, $N.'	-- Welcome to the Allerian Stronghold, $N.
+-- WHERE `entry`=9845;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This is delicate work out here, you know?  It can''t just be rushed, or something''s likely to get broken.$B$BLike Fuselage''s head!$B$BYou might be wondering about my bots?  I''m always working on the Mk. I, and the Mk. II gained sentience for a split-second before his brain capacitor blew out and he went insane!$B$BI decided to skip III and IV, and went straight to the Mk. V - my pride and joy!'	-- This is delicate work out here, you know?  It can't just be rushed, or something's likely to get broken.$B$BLike Fuselage's head!$B$BYou might be wondering about my bots?  I'm always working on the Mk. I, and the Mk. II gained sentience for a split-second before his brain capacitor blew out and he went insane!$B$BI decided to skip III and IV, and went straight to the Mk. V - my pride and joy!
-WHERE `entry`=9846;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This is delicate work out here, you know?  It can''t just be rushed, or something''s likely to get broken.$B$BLike Fuselage''s head!$B$BYou might be wondering about my bots?  I''m always working on the Mk. I, and the Mk. II gained sentience for a split-second before his brain capacitor blew out and he went insane!$B$BI decided to skip III and IV, and went straight to the Mk. V - my pride and joy!'	-- This is delicate work out here, you know?  It can't just be rushed, or something's likely to get broken.$B$BLike Fuselage's head!$B$BYou might be wondering about my bots?  I'm always working on the Mk. I, and the Mk. II gained sentience for a split-second before his brain capacitor blew out and he went insane!$B$BI decided to skip III and IV, and went straight to the Mk. V - my pride and joy!
+-- WHERE `entry`=9846;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='在废墟里要小心，$C。你在那里发现的肯瑞托幽灵将不会认得你是一位朋友。$B$B管理者和我是这地方唯一能够维持我们原本面貌的幽灵。'	-- Be careful among the ruins, $c. The Kirin Tor spirits you find there will not recognize you as a friend.$B$BThe custodian and I are the only ones whose spirits retained a strong enough tie to this place to preserve our full identities in death.
@@ -3879,17 +3879,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你帮葛利克读悬赏告示？$B$B葛利克想帮忙！'	-- You read wanted poster to Grek?$B$BGrek want to help!
 WHERE `entry`=9853;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, what business brings you here?$B$BThis is an orphanage for the children of Outland who have lost their parents and have no one else to look after them.$B$BPerhaps you are here because you are considering adoption?'	-- Hello, what business brings you here?$B$BThis is an orphanage for the children of Outland who have lost their parents and have no one else to look after them.$B$BPerhaps you are here because you are considering adoption?
-WHERE `entry`=9854;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, what business brings you here?$B$BThis is an orphanage for the children of Outland who have lost their parents and have no one else to look after them.$B$BPerhaps you are here because you are considering adoption?'	-- Hello, what business brings you here?$B$BThis is an orphanage for the children of Outland who have lost their parents and have no one else to look after them.$B$BPerhaps you are here because you are considering adoption?
+-- WHERE `entry`=9854;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你平时都做何消遣呢？拉张椅子坐下喝一杯吧。$B$B我是布兹，B.O.O.M.的首席调酒师和超级酒保！$B$B只要是够呛够辣的酒，老布兹都可以帮你特调。'	-- What's your pleasure?  Pull up a seat and knock one back.$B$BI'm Boots, lead mixologist for B.O.O.M. and bartender extraordinaire!$B$BIf it's got kick, Ol' Boots can give it to ya.
 WHERE `entry`=9863;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Are you the correspondent from the Gadgetzan Times? If you just follow me, I''ll show you my experimental apparatus...$B$B<You tell the magus that you''re not the reporter she''s expecting.>$B$BOh, you''re not? Well then, if you need reagents, find what you need and don''t tarry. I''m expecting someone.'	-- Are you the correspondent from the Gadgetzan Times? If you just follow me, I'll show you my experimental apparatus...$B$B<You tell the magus that you're not the reporter she's expecting.>$B$BOh, you're not? Well then, if you need reagents, find what you need and don't tarry. I'm expecting someone.
-WHERE `entry`=9868;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Are you the correspondent from the Gadgetzan Times? If you just follow me, I''ll show you my experimental apparatus...$B$B<You tell the magus that you''re not the reporter she''s expecting.>$B$BOh, you''re not? Well then, if you need reagents, find what you need and don''t tarry. I''m expecting someone.'	-- Are you the correspondent from the Gadgetzan Times? If you just follow me, I'll show you my experimental apparatus...$B$B<You tell the magus that you're not the reporter she's expecting.>$B$BOh, you're not? Well then, if you need reagents, find what you need and don't tarry. I'm expecting someone.
+-- WHERE `entry`=9868;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='辐射！$B$B不，你不用担心那个！去，现在人们相信的东西。$B$B那么，你觉得我们在这里的运作怎么样？艺术之都，宝贝！你最好相信。'	-- Radiation?!$B$BNo, you don't need to worry about that!  Sheesh, the things that people believe these days.$B$BSo, what do you think of our operations down here?  State of the art, baby!  You better believe it.
@@ -3935,9 +3935,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='小声点！我不想让他们看到我在这里。$B$B喔，这真的让我怒火中烧！这些以太族以为他们是谁啊？$B$B这是我的土地！'	-- Keep it down!  I don't want them to see me over here.$B$BOoh, this really burns me up!  Who do these ethereals think they are?$B$BThis is MY claim!
 WHERE `entry`=9904;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Please leave me to my sadness.'	-- Please leave me to my sadness.
-WHERE `entry`=9905;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Please leave me to my sadness.'	-- Please leave me to my sadness.
+-- WHERE `entry`=9905;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='那个孩子让我心寒。他整天站在那里和他的祖父交谈。然后他会再把祖父跟他说的话转告他母亲，她 - 当然 - 只有微笑的点点头。$B$B笨蛋！鼠辈！全部的一切！'	-- That child gives me chills. He stands there all day long communing with his grandfather. He'll then turn to tell his mother what the grandfather told him and she - of course - just smiles and nods her head.$B$BLambs! Lemmings! All of them!$B
@@ -3947,9 +3947,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你成为阴郁城的朋友，或许我们可以做点生意？'	-- If you become a friend of the Lower City, perhaps we can do business?
 WHERE `entry`=9918;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Can you believe this ethereal technology?!$B$BI''m sure glad they let me stay out here with them.  I''m gonna learn a lot... and maybe get some of it for myself, too!'	-- Can you believe this ethereal technology?!$B$BI'm sure glad they let me stay out here with them.  I'm gonna learn a lot... and maybe get some of it for myself, too!
-WHERE `entry`=9919;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Can you believe this ethereal technology?!$B$BI''m sure glad they let me stay out here with them.  I''m gonna learn a lot... and maybe get some of it for myself, too!'	-- Can you believe this ethereal technology?!$B$BI'm sure glad they let me stay out here with them.  I'm gonna learn a lot... and maybe get some of it for myself, too!
+-- WHERE `entry`=9919;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='忙啊忙！好多事要做，时间却好少！$B$B我把那个火扳手放到哪去了？我知道它就在这附近……我刚刚才被它烫到手指的！'	-- Busy, busy!  So much to do, so little time!$B$BNow where did I put that pyrospanner?  I know it's around here somewhere... I burned my fingers on it just a moment ago!
@@ -3975,17 +3975,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='法力熔炉杜罗是离风暴要塞最近的设备，所以它承载大部份的负荷。$B$B你该知道，这些法力熔炉如果超载会让管线造成漏洞。放射能量吸引了有害的法力生物。我们在许多漏洞地点都有生物侵扰的问题；法力熔炉杜罗目前最受打击。'	-- Manaforge Duro is the closest facility to Tempest Keep, so it handles most of the load.$B$BAs you should know, overloading these manaforges causes leaks in the pipelines.  The emanating energy attracts unwanted mana creatures.  We've had mana creature infestations at many leak locations; Manaforge Duro is being hit the hardest at the moment.
 WHERE `entry`=9930;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Working with this technology is a huge headache.  Everything is constructed in such an alien way.'	-- Working with this technology is a huge headache.  Everything is constructed in such an alien way.
-WHERE `entry`=9931;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Working with this technology is a huge headache.  Everything is constructed in such an alien way.'	-- Working with this technology is a huge headache.  Everything is constructed in such an alien way.
+-- WHERE `entry`=9931;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Don''t they teach you new recruits anything?  These manaforges were built from parts of Tempest Keep designed to siphon energy from the nether.$B$BThe naaru used this technology to power their vessel during its travels.  Some said the technology might not be safe to use on land.  They were promptly silenced.'	-- Don't they teach you new recruits anything?  These manaforges were built from parts of Tempest Keep designed to siphon energy from the nether.$B$BThe naaru used this technology to power their vessel during its travels.  Some said the technology might not be safe to use on land.  They were promptly silenced.
-WHERE `entry`=9934;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Don''t they teach you new recruits anything?  These manaforges were built from parts of Tempest Keep designed to siphon energy from the nether.$B$BThe naaru used this technology to power their vessel during its travels.  Some said the technology might not be safe to use on land.  They were promptly silenced.'	-- Don't they teach you new recruits anything?  These manaforges were built from parts of Tempest Keep designed to siphon energy from the nether.$B$BThe naaru used this technology to power their vessel during its travels.  Some said the technology might not be safe to use on land.  They were promptly silenced.
+-- WHERE `entry`=9934;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It''s my passion, you know. In life and in death, armorcrafting is what I love. Please, treat me as if I were a living draenei, stranger. Let me know what it is to feel again... Allow me the honor of repairing your items.'	-- It's my passion, you know. In life and in death, armorcrafting is what I love. Please, treat me as if I were a living draenei, stranger. Let me know what it is to feel again... Allow me the honor of repairing your items.
-WHERE `entry`=9936;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It''s my passion, you know. In life and in death, armorcrafting is what I love. Please, treat me as if I were a living draenei, stranger. Let me know what it is to feel again... Allow me the honor of repairing your items.'	-- It's my passion, you know. In life and in death, armorcrafting is what I love. Please, treat me as if I were a living draenei, stranger. Let me know what it is to feel again... Allow me the honor of repairing your items.
+-- WHERE `entry`=9936;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='联合团会对萨希斯背叛者复仇的！'	-- The Consortium will exact its revenge upon the Zaxxis betrayers!
@@ -4007,9 +4007,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我弟弟在这里是联合团中的新兴之星。当然，他太谦虚所以不会承认的。'	-- My younger brother here is quite the rising star in the Consortium. Of course, he's too modest to acknowledge it.
 WHERE `entry`=9948;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='When he says, ''younger brother,'' he fails to mention that we''re twins. He''s really only older by a couple of minutes.$B$BDon''t let that ''rising star'' bit of his fool you. I''ll never be a trader of the same magnitude that he is.'	-- When he says, 'younger brother,' he fails to mention that we're twins. He's really only older by a couple of minutes.$B$BDon't let that 'rising star' bit of his fool you. I'll never be a trader of the same magnitude that he is.
-WHERE `entry`=9949;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='When he says, ''younger brother,'' he fails to mention that we''re twins. He''s really only older by a couple of minutes.$B$BDon''t let that ''rising star'' bit of his fool you. I''ll never be a trader of the same magnitude that he is.'	-- When he says, 'younger brother,' he fails to mention that we're twins. He's really only older by a couple of minutes.$B$BDon't let that 'rising star' bit of his fool you. I'll never be a trader of the same magnitude that he is.
+-- WHERE `entry`=9949;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$R。我在这里做什么下一次再告诉你。喔，那是个糟糕的故事。$B$B我和我的兄弟被困在这里，介于我们的现在和时间之间。我们不敢离开是因为担心造成时间的矛盾。我们耐心地等待直到龙族让我们恢复至恰当的时间线。$B$B你问已经过了多久？我真的不太确定。问我兄弟好了。$B$B想来点起司吗？'	-- Hail to you, $r. What I am doing here is a story for another time. Oof, that was a bad one.$B$BMy brother and I are stuck here, between our time and the present. We dare not leave for fear of causing a temporal paradox. Patiently we wait until the dragons restore us to our proper timeline.$B$BHow long has it been you ask? I'm not sure really. Ask my brother.$B$BCare for some cheese?
@@ -4045,9 +4045,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='The druids are holding a great celebration of Lunar Festival in Moonglade. If that''s too far to walk, they''re transporting people from the big cities.'	-- The druids are holding a great celebration of Lunar Festival in Moonglade. If that's too far to walk, they're transporting people from the big cities.
 WHERE `entry`=9964;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''ve never seen anything like these nether dragons. They seem to have inherited their sire''s temperment, but they have become something entirely different.'	-- I've never seen anything like these nether dragons. They seem to have inherited their sire's temperment, but they have become something entirely different.
-WHERE `entry`=9968;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''ve never seen anything like these nether dragons. They seem to have inherited their sire''s temperment, but they have become something entirely different.'	-- I've never seen anything like these nether dragons. They seem to have inherited their sire's temperment, but they have become something entirely different.
+-- WHERE `entry`=9968;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这世界上只有3种人：竞争者，消费者，和受雇者。竞争者会被残忍地粉碎，消费者沉迷于欲望，而受雇者则被严格地监督。$B$B独立的承包人是个神话。他们想获得比受雇者更好的待遇，但又想被当成消费者对待。永远不要相信以那个头衔自称的人。'	-- There are only 3 kinds of people in this world: competitors, customers, and employees. Competitors are to be crushed ruthlessly, customers indulged, and employees strictly supervised.$B$BIndependent contractors are a myth.They want to be paid better than employees, but treated like customers. Never trust one who calls himself by that title.
@@ -4061,33 +4061,33 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='阿拉希盆地已被污染者侵扰。你能帮我们吗，$N？'	-- Arathi Basin has been overrun by The Defilers.  Will you help us, $N?
 WHERE `entry`=9979;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Go, $N, into Arathi Basin! Slay, SLAY, as you''ve never slain before!'	-- Go, $N, into Arathi Basin! Slay, SLAY, as you've never slain before!
-WHERE `entry`=9981;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Go, $N, into Arathi Basin! Slay, SLAY, as you''ve never slain before!'	-- Go, $N, into Arathi Basin! Slay, SLAY, as you've never slain before!
+-- WHERE `entry`=9981;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='战歌峡谷的入口就在你面前。你会对抗那里卑鄙的联盟吗？'	-- The entrance to Warsong Gulch stands before you. Will you fight the wretched Alliance there?
 WHERE `entry`=9982;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Well met, $c. Even now, the Horde attacks Warsong Gulch. Will you fight alongside the Alliance there?'	-- Well met, $c. Even now, the Horde attacks Warsong Gulch. Will you fight alongside the Alliance there?
-WHERE `entry`=9983;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Well met, $c. Even now, the Horde attacks Warsong Gulch. Will you fight alongside the Alliance there?'	-- Well met, $c. Even now, the Horde attacks Warsong Gulch. Will you fight alongside the Alliance there?
+-- WHERE `entry`=9983;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你在这里干什么？！去奥特兰克山谷吧，那里需要你！'	-- What are ye doin' here?! Get yer chatty self ta Alterac Vallery, where ye're needed!
 WHERE `entry`=9984;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='BOAR''S DUNG! Why must I stay here to guide others to Alterac Valley, when I could be fighting there myself? You! Have you come to fight the Alliance?'	-- BOAR'S DUNG! Why must I stay here to guide others to Alterac Valley, when I could be fighting there myself? You! Have you come to fight the Alliance?
-WHERE `entry`=9985;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='BOAR''S DUNG! Why must I stay here to guide others to Alterac Valley, when I could be fighting there myself? You! Have you come to fight the Alliance?'	-- BOAR'S DUNG! Why must I stay here to guide others to Alterac Valley, when I could be fighting there myself? You! Have you come to fight the Alliance?
+-- WHERE `entry`=9985;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='森林和改变的种子一同歌唱着，但它也因痛苦而悲鸣。$B$B就像你一样，我们的新朋友德莱尼来到这帮助我们。我们必须阻止我的树木兄弟和姐妹们遭到杀害，在一切都毁灭和灰谷消失之前。'	-- The forest sings with the seeds of change.  Our new friends, the draenei, are here, and we will help them to build a place of their own.
 WHERE `entry`=9986;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''ve arranged for your flight to Manaforge Coruu.  Are you ready, $N?  You will be dropped off behind enemy lines so make sure you bring everything you need.'	-- I've arranged for your flight to Manaforge Coruu.  Are you ready, $N?  You will be dropped off behind enemy lines so make sure you bring everything you need.
-WHERE `entry`=9990;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''ve arranged for your flight to Manaforge Coruu.  Are you ready, $N?  You will be dropped off behind enemy lines so make sure you bring everything you need.'	-- I've arranged for your flight to Manaforge Coruu.  Are you ready, $N?  You will be dropped off behind enemy lines so make sure you bring everything you need.
+-- WHERE `entry`=9990;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='又一个士兵往$G他:她;去荣誉堡的路上了……以库德兰的胡须为名，他们需要帮助！'	-- Another soldier on $ghis:her; way to Honor Hold... by Kurdran's beard, they can use the help!
@@ -4126,25 +4126,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我的兄弟在暴风城告诉我不要加入军队……我很高兴，我没有听他的话！'	-- My brothers in Stormwind told me not to join the military... I'm glad I didn't listen to them!
 WHERE `entry`=10009;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hawkstriders are noble creatures.  Make sure to always treat yours well; there are fewer things more dangerous than an angry hawkstrider.'	-- Hawkstriders are noble creatures.  Make sure to always treat yours well; there are fewer things more dangerous than an angry hawkstrider.
-WHERE `entry`=10011;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hawkstriders are noble creatures.  Make sure to always treat yours well; there are fewer things more dangerous than an angry hawkstrider.'	-- Hawkstriders are noble creatures.  Make sure to always treat yours well; there are fewer things more dangerous than an angry hawkstrider.
+-- WHERE `entry`=10011;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I am sure that, with our help, Botanist Taerix will be able to find solutions to our problems.'	-- I am sure that, with our help, Botanist Taerix will be able to find solutions to our problems.
-WHERE `entry`=10012;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I am sure that, with our help, Botanist Taerix will be able to find solutions to our problems.'	-- I am sure that, with our help, Botanist Taerix will be able to find solutions to our problems.
+-- WHERE `entry`=10012;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Heading to Outland? Visit Vixton Pinchwhistle in Netherstorm''s Area 52. As the Steamwheedle Fighting Circuit''s official Arena Vendor, he has all sorts of incredible items for sale to those with enough Arena Points.'	-- Heading to Outland? Visit Vixton Pinchwhistle in Netherstorm's Area 52. As the Steamwheedle Fighting Circuit's official Arena Vendor, he has all sorts of incredible items for sale to those with enough Arena Points.
-WHERE `entry`=10018;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Heading to Outland? Visit Vixton Pinchwhistle in Netherstorm''s Area 52. As the Steamwheedle Fighting Circuit''s official Arena Vendor, he has all sorts of incredible items for sale to those with enough Arena Points.'	-- Heading to Outland? Visit Vixton Pinchwhistle in Netherstorm's Area 52. As the Steamwheedle Fighting Circuit's official Arena Vendor, he has all sorts of incredible items for sale to those with enough Arena Points.
+-- WHERE `entry`=10018;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='想帮助我拿下南边燃烧军团营地里的那个星移门吗？'	-- Feel like helping me to take down the warp-gate in that Burning Legion camp to the south?
 WHERE `entry`=10019;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='These people arrived from Shattrath a few nights ago and they haven''t stopped arguing since then.$B$BI''m glad to see that hasn''t turned you away, I was beginning to think they were scaring off potential customers.'	-- These people arrived from Shattrath a few nights ago and they haven't stopped arguing since then.$B$BI'm glad to see that hasn't turned you away, I was beginning to think they were scaring off potential customers.
-WHERE `entry`=10022;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='These people arrived from Shattrath a few nights ago and they haven''t stopped arguing since then.$B$BI''m glad to see that hasn''t turned you away, I was beginning to think they were scaring off potential customers.'	-- These people arrived from Shattrath a few nights ago and they haven't stopped arguing since then.$B$BI'm glad to see that hasn't turned you away, I was beginning to think they were scaring off potential customers.
+-- WHERE `entry`=10022;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='在外域的暴风之眼，德莱尼部队和他们的联盟与部落开始了战争。你愿意加入他们来扭转战争的情势吗？'	-- Draenei forces and their Alliance allies are engaged with the Horde in the Eye of the Storm in Outland. Will you join them in an effort to turn the tide of battle in our favor?
@@ -4168,17 +4168,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N，请确实的将我们的成功转告加鲁。'	-- $N, please make sure that you tell Gahruj of our success.
 WHERE `entry`=10039;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Emissary Taluun brought me with him hoping I could teach our new allies about the elements of this world... but no one will listen.'	-- Emissary Taluun brought me with him hoping I could teach our new allies about the elements of this world... but no one will listen.
-WHERE `entry`=10040;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Emissary Taluun brought me with him hoping I could teach our new allies about the elements of this world... but no one will listen.'	-- Emissary Taluun brought me with him hoping I could teach our new allies about the elements of this world... but no one will listen.
+-- WHERE `entry`=10040;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='While the focus of the Sha''tar remains on Shadowmoon Valley and Illidan, we cannot ignore the threat that Kael''thas Sunstrider presents.'	-- While the focus of the Sha'tar remains on Shadowmoon Valley and Illidan, we cannot ignore the threat that Kael'thas Sunstrider presents.
-WHERE `entry`=10042;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='While the focus of the Sha''tar remains on Shadowmoon Valley and Illidan, we cannot ignore the threat that Kael''thas Sunstrider presents.'	-- While the focus of the Sha'tar remains on Shadowmoon Valley and Illidan, we cannot ignore the threat that Kael'thas Sunstrider presents.
+-- WHERE `entry`=10042;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I grow bored of guarding Ambassador Sunsorrow, $n. Care to spar a bit? Perhaps one of us will learn something.'	-- I grow bored of guarding Ambassador Sunsorrow, $n. Care to spar a bit? Perhaps one of us will learn something.
-WHERE `entry`=10044;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I grow bored of guarding Ambassador Sunsorrow, $n. Care to spar a bit? Perhaps one of us will learn something.'	-- I grow bored of guarding Ambassador Sunsorrow, $n. Care to spar a bit? Perhaps one of us will learn something.
+-- WHERE `entry`=10044;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='当你接近控制台时，你身上的控制水晶发出轻柔的嗡嗡声以及一阵阵光源的脉动。$B$B一阵讯息突然涌入你的脑海，突然之间你明了了法力熔炉的能量生产水准，它的产量稳定以及它透过不同的输送管运送能源。控制台等待你的命令。'	-- As you approach the console the access crystal you have with you begins to hum softly and pulse with light.$B$BA rush of information flows into your mind and all of a sudden you're aware of the manaforge's energy production levels, its stability and its output to different pipelines.  The console awaits your command.
@@ -4237,9 +4237,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='护国者指挥官授权密探亚希克斯和我一项优先处理的重要任务，消灭奥崔斯的所有虚无生物。这本来应该是是战术上的突袭战。在返回护国者哨站之前的最后一次突袭，我们的目标是一个名叫阿肯纳斯的虚无领主，他的身躯因为吸取当地的生命体而茁壮强大。$B$B可惜，我们到达的太晚。亚希克斯和我在与噬尸兽的激烈交战中被分开了。现在他被困在里面，被阻挡在敌军后方。'	-- Agent Ya-six and I were given a high priority mission from Protectorate command to eradicate all signs of void creature infestation at Ultris. These were to be tactical strikes. Our last hit before returning to the Protectorate Watch Post was to be on a void lord named Arconus who had been getting fat off the fleshlings of the area.$B$BUnfortunately, we arrived a bit late. Ya-six and I got separated in the firefight with the flesh beasts. Now he's trapped inside, pinned down behind enemy lines.$B
 WHERE `entry`=10065;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Be sure to visit Vixton Pinchwhistle in Netherstorm''s Area 52. As the Steamwheedle Fighting Circuit''s official Arena Vendor, he has all sorts of incredible items for sale to those with enough Arena Points.'	-- Be sure to visit Vixton Pinchwhistle in Netherstorm's Area 52. As the Steamwheedle Fighting Circuit's official Arena Vendor, he has all sorts of incredible items for sale to those with enough Arena Points.
-WHERE `entry`=10069;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Be sure to visit Vixton Pinchwhistle in Netherstorm''s Area 52. As the Steamwheedle Fighting Circuit''s official Arena Vendor, he has all sorts of incredible items for sale to those with enough Arena Points.'	-- Be sure to visit Vixton Pinchwhistle in Netherstorm's Area 52. As the Steamwheedle Fighting Circuit's official Arena Vendor, he has all sorts of incredible items for sale to those with enough Arena Points.
+-- WHERE `entry`=10069;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你要什么？！我听说英雄谷里有一个古怪的德莱尼女人。或许她知道。'	-- You want what?! I've heard something about one of those odd draenei creatures in the Valley of Heroes. Maybe she knows; I don't.
@@ -4256,17 +4256,17 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Paladin? Have you been partaking of the Apothecary''s concoctions or some such thing? I have heard a rumor that some elven contingent is visiting the Dark Lady within the Undercity. Perhaps one of them might know.'	-- Paladin? Have you been partaking of the Apothecary's concoctions or some such thing? I have heard a rumor that some elven contingent is visiting the Dark Lady within the Undercity. Perhaps one of them might know.
 WHERE `entry`=10108;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Your help was invaluable, my friend.$B$BI can assure you that the Cenarion Expedition will do everything in its power to counter any future tainted crystals dropped from the heavens by Illidan.'	-- Your help was invaluable, my friend.$B$BI can assure you that the Cenarion Expedition will do everything in its power to counter any future tainted crystals dropped from the heavens by Illidan.
-WHERE `entry`=10109;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Your help was invaluable, my friend.$B$BI can assure you that the Cenarion Expedition will do everything in its power to counter any future tainted crystals dropped from the heavens by Illidan.'	-- Your help was invaluable, my friend.$B$BI can assure you that the Cenarion Expedition will do everything in its power to counter any future tainted crystals dropped from the heavens by Illidan.
+-- WHERE `entry`=10109;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='就在这里……的某个地方……我知道的。在这座图书馆的某处有我正在寻找的知识……'	-- It's here... somewhere... I know it. Somewhere in this library is the knowledge I'm looking for...
 WHERE `entry`=10124;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This tower is complete and utter madness. This isn''t a library, it''s a huge haystack of books and I don''t think the needle even exists! Now, what was I doing?'	-- This tower is complete and utter madness. This isn't a library, it's a huge haystack of books and I don't think the needle even exists! Now, what was I doing?
-WHERE `entry`=10125;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This tower is complete and utter madness. This isn''t a library, it''s a huge haystack of books and I don''t think the needle even exists! Now, what was I doing?'	-- This tower is complete and utter madness. This isn't a library, it's a huge haystack of books and I don't think the needle even exists! Now, what was I doing?
+-- WHERE `entry`=10125;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你在这里会影响我做一项重要的工作。请立刻离开。对了，我又做到哪了？'	-- Your presence here is interfering with very important work. Please leave at once. Where was I, again?
@@ -4280,9 +4280,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，老百姓。我是纳巫德，护国者哨站的首席研究员。'	-- Greetings, fleshling. I am Navuud, chief researcher here at the Protectorate Watch Post.
 WHERE `entry`=10152;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Leaving Kael''thas was the best thing any of us ever did.  His followers are too blind or too scared to realize where he''s leading them.$B$BWe, however, are not.'	-- Leaving Kael'thas was the best thing any of us ever did.  His followers are too blind or too scared to realize where he's leading them.$B$BWe, however, are not.
-WHERE `entry`=10153;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Leaving Kael''thas was the best thing any of us ever did.  His followers are too blind or too scared to realize where he''s leading them.$B$BWe, however, are not.'	-- Leaving Kael'thas was the best thing any of us ever did.  His followers are too blind or too scared to realize where he's leading them.$B$BWe, however, are not.
+-- WHERE `entry`=10153;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='在以太族中，某些成员特别喜欢处理肉块和生物的血肉之躯。那些人被称为血肉处理者。'	-- Among ethereals, certain members deal specifically with flesh and beings of flesh. Those individuals are known as flesh handlers.
@@ -4309,9 +4309,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='占卜者派你与我联系吗？你看起来根本不像占卜者。'	-- Did the Scryers send you to contact me?  You do not look like a Scryer at all.
 WHERE `entry`=10211;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Speak quickly; I don''t have time to waste on idle chatter. The Forsaken have become a force to be reckoned with, but there is still much to do in a given day. This city doesn''t run itself.$b$bWhat do you want?'	-- Speak quickly; I don't have time to waste on idle chatter. The Forsaken have become a force to be reckoned with, but there is still much to do in a given day. This city doesn't run itself.$b$bWhat do you want?
-WHERE `entry`=10212;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Speak quickly; I don''t have time to waste on idle chatter. The Forsaken have become a force to be reckoned with, but there is still much to do in a given day. This city doesn''t run itself.$b$bWhat do you want?'	-- Speak quickly; I don't have time to waste on idle chatter. The Forsaken have become a force to be reckoned with, but there is still much to do in a given day. This city doesn't run itself.$b$bWhat do you want?
+-- WHERE `entry`=10212;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='好吧，$C。你认为你的实力足够参加热砂战斗同盟竞技场的战斗吗？'	-- All right, $c. You think you have what it takes to make it in the Steamwheedle Fighting Circuit's arena battlegrounds?
@@ -4323,9 +4323,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Ye''ll find the battlemasters around the war table in the Hall of Arms.'	-- Ye'll find the battlemasters around the war table in the Hall of Arms.
 WHERE `entry`=10216;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You will find the the battlemasters gathered at the Warrior''s Terrace.'	-- You will find the the battlemasters gathered at the Warrior's Terrace.
-WHERE `entry`=10217;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You will find the the battlemasters gathered at the Warrior''s Terrace.'	-- You will find the the battlemasters gathered at the Warrior's Terrace.
+-- WHERE `entry`=10217;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你可以在暴风要塞的战争室找到战场军官。'	-- You'll find the battlemasters in the war room of Stormwind Keep.
@@ -4367,22 +4367,22 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎来到秘境领地，旅游者。我要警告你谨慎处理那个地精，休利。我相信我之前从没听过任何人使用这个字「哥们」作为标点符号。'	-- Welcome to Eco-Dome Midrealm, traveler. I would warn you to be wary of dealing with that goblin, Shauly. I don't believe I've ever heard anyone use the word "buddy" as punctuation before.
 WHERE `entry`=10233;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If you''re going to come out here, make yourself useful because the shadowstalker over there isn''t doing much.'	-- If you're going to come out here, make yourself useful because the shadowstalker over there isn't doing much.
-WHERE `entry`=10236;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If you''re going to come out here, make yourself useful because the shadowstalker over there isn''t doing much.'	-- If you're going to come out here, make yourself useful because the shadowstalker over there isn't doing much.
+-- WHERE `entry`=10236;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Battle of Mount Hyjal is one of the most well-guarded events of this timeline.  Should an intruder alter its outcome, the impact would extend to all subsequent moments in history.$B$BAs the Aspect''s prime mate I''m far more in tune with the flow of time than other bronze dragons.  I recently sensed a minute ripple in time emanating from the events surrounding the Battle of Mount Hyjal.  Someone or something is attempting to change this timeline and they must be stopped.'	-- The Battle of Mount Hyjal is one of the most well-guarded events of this timeline.  Should an intruder alter its outcome, the impact would extend to all subsequent moments in history.$B$BAs the Aspect's prime mate I'm far more in tune with the flow of time than other bronze dragons.  I recently sensed a minute ripple in time emanating from the events surrounding the Battle of Mount Hyjal.  Someone or something is attempting to change this timeline and they must be stopped.
-WHERE `entry`=10237;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Battle of Mount Hyjal is one of the most well-guarded events of this timeline.  Should an intruder alter its outcome, the impact would extend to all subsequent moments in history.$B$BAs the Aspect''s prime mate I''m far more in tune with the flow of time than other bronze dragons.  I recently sensed a minute ripple in time emanating from the events surrounding the Battle of Mount Hyjal.  Someone or something is attempting to change this timeline and they must be stopped.'	-- The Battle of Mount Hyjal is one of the most well-guarded events of this timeline.  Should an intruder alter its outcome, the impact would extend to all subsequent moments in history.$B$BAs the Aspect's prime mate I'm far more in tune with the flow of time than other bronze dragons.  I recently sensed a minute ripple in time emanating from the events surrounding the Battle of Mount Hyjal.  Someone or something is attempting to change this timeline and they must be stopped.
+-- WHERE `entry`=10237;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你有什么目的？大声说。我不会把我的任何伊莱克托付给你，直到你证明你对我们族人的奉献和友谊。'	-- What are you after? Speak up. I'm not about to trust you with one of my Elekks until you prove your dedication and friendship to our people.
 	`text0_1_loc4`='What are you after? Speak up. I''m not about to trust you with one of my Elekks until you prove your dedication and friendship to our people.'	-- What are you after? Speak up. I'm not about to trust you with one of my Elekks until you prove your dedication and friendship to our people.
 WHERE `entry`=10239;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Our work in the Living Grove must not be endangered.  Our very lives hinge upon its continued health and growth.'	-- Our work in the Living Grove must not be endangered.  Our very lives hinge upon its continued health and growth.
-WHERE `entry`=10245;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Our work in the Living Grove must not be endangered.  Our very lives hinge upon its continued health and growth.'	-- Our work in the Living Grove must not be endangered.  Our very lives hinge upon its continued health and growth.
+-- WHERE `entry`=10245;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果我听到的没错，你已经为希尔瓦纳完成了令人满意的工作。$B$B保持下去，或许我们能够把家留在这里。'	-- If I heard correctly, you're already doing good work for Sylvanaar.$B$BKeep it up and maybe we'll be able to keep our home here.
@@ -4421,49 +4421,49 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='拉紧在骨头之间延展的皮是一个号召对抗联盟的希尔瓦纳主要防卫者和西方的生命之林的信号。'	-- The skin stretched taut between the bones is a call to arms against the main defender of the Alliance's Sylvanaar and the Living Grove to the west.
 WHERE `entry`=10257;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Well met, I''m Azimi! I often make the walk out here to sell the men fresh fruit and water. Are you hungry, or perhaps thirsty?'	-- Well met, I'm Azimi! I often make the walk out here to sell the men fresh fruit and water. Are you hungry, or perhaps thirsty?
-WHERE `entry`=10258;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Well met, I''m Azimi! I often make the walk out here to sell the men fresh fruit and water. Are you hungry, or perhaps thirsty?'	-- Well met, I'm Azimi! I often make the walk out here to sell the men fresh fruit and water. Are you hungry, or perhaps thirsty?
+-- WHERE `entry`=10258;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嗯！我看起来像是有时间无所事事闲扯的人吗？$B$B我是吗？$B$B快去做你的正事。去杀掉那里的巨魔！'	-- Bah!  Do I look like I have time for idle chit-chat?$B$BDo I?$B$BBe quick about your business.  There are ogres to be killed!
 WHERE `entry`=10259;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to the Cenarion Refuge, $n. I''ve been instructed to offer you basic supplies for purchase, should you need them.'	-- Welcome to the Cenarion Refuge, $n. I've been instructed to offer you basic supplies for purchase, should you need them.
-WHERE `entry`=10266;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to the Cenarion Refuge, $n. I''ve been instructed to offer you basic supplies for purchase, should you need them.'	-- Welcome to the Cenarion Refuge, $n. I've been instructed to offer you basic supplies for purchase, should you need them.
+-- WHERE `entry`=10266;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你准备好对抗奥特兰克山谷的雷矛卫兵了吗，$N？'	-- Are you ready to fight the Stormpike Guard in Alterac Valley, $n?
 WHERE `entry`=10269;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Borgrim might be correct.  Maybe we do need to take a break.$B$BBut now that we''re here, I''m eager to get my hands dirty and study what this land has to offer.'	-- Borgrim might be correct.  Maybe we do need to take a break.$B$BBut now that we're here, I'm eager to get my hands dirty and study what this land has to offer.
-WHERE `entry`=10271;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Borgrim might be correct.  Maybe we do need to take a break.$B$BBut now that we''re here, I''m eager to get my hands dirty and study what this land has to offer.'	-- Borgrim might be correct.  Maybe we do need to take a break.$B$BBut now that we're here, I'm eager to get my hands dirty and study what this land has to offer.
+-- WHERE `entry`=10271;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N，我很高兴见到你。我们的矮人盟友在奥特兰克山谷需要我们的帮助。你能帮助他们吗？'	-- $n, I am pleased to see you. Our dwarven allies require our assistance in Alterac Valley. Will you help them?
 WHERE `entry`=10272;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Even now, free-willed undead battle the League of Arathor in Arathi Basin.  Will you aid the Defilers in defeating the humans and their Alliance allies?'	-- Even now, free-willed undead battle the League of Arathor in Arathi Basin.  Will you aid the Defilers in defeating the humans and their Alliance allies?
-WHERE `entry`=10276;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Even now, free-willed undead battle the League of Arathor in Arathi Basin.  Will you aid the Defilers in defeating the humans and their Alliance allies?'	-- Even now, free-willed undead battle the League of Arathor in Arathi Basin.  Will you aid the Defilers in defeating the humans and their Alliance allies?
+-- WHERE `entry`=10276;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='(兽人语)你好，$N。战歌峡谷需要像你这样的英雄。'	-- Throm'ka, $n.  Warsong Gulch is in need of heroes such as you.
 WHERE `entry`=10277;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Our friends in the Alliance gather to fight alongside the Silverwing Sentinels in Warsong Gulch. Will you travel there to help them?'	-- Our friends in the Alliance gather to fight alongside the Silverwing Sentinels in Warsong Gulch. Will you travel there to help them?
-WHERE `entry`=10279;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Our friends in the Alliance gather to fight alongside the Silverwing Sentinels in Warsong Gulch. Will you travel there to help them?'	-- Our friends in the Alliance gather to fight alongside the Silverwing Sentinels in Warsong Gulch. Will you travel there to help them?
+-- WHERE `entry`=10279;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，旅人。我是欧朗诺克。请坐在火旁，温暖一下。$B$B小心我们下方破碎暗礁的贪婪野兽！'	-- Greetings, traveler. I am Oronok. Please, sit by my fire and warm yourself.$B$BBeware the ravenous beasts of the shattered shelf below us!
 WHERE `entry`=10280;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Do not forget, $c, battles still rage in Azeroth. Will you return to help the Horde in Alterac Valley?'	-- Do not forget, $c, battles still rage in Azeroth. Will you return to help the Horde in Alterac Valley?
-WHERE `entry`=10282;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Do not forget, $c, battles still rage in Azeroth. Will you return to help the Horde in Alterac Valley?'	-- Do not forget, $c, battles still rage in Azeroth. Will you return to help the Horde in Alterac Valley?
+-- WHERE `entry`=10282;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='(兽人语)你好，$C。你知道我们与银翼哨兵在战歌峡谷的战斗还在继续吗？那里将会欢迎你的出现……'	-- Throm'ka, $c. Did you know our fight with the Silverwing Sentinels in Warsong Gulch continues still? Your presence would be welcome there...
@@ -4473,9 +4473,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我已经走了很远就为了寻找一个可以在阿拉希盆地里战胜阿拉索联军大使的最终方法，但是那名穿铁衣的笨蛋亚当·伊特纳姆紧追着我一切的行动。$B$B尽管如此，如果像你们这样的杀戮者回到艾泽拉斯，也许我们终可战胜联盟！'	-- I have traveled far in search of a way to ultimately defeat the League of Arathor in Arathi Basin, but that loin-clothed lummox Adam Eternum hounds my every move.$B$b$BStill, if slayers such as you were to return to Azeroth, perhaps we could defeat the Alliance once and for all!
 WHERE `entry`=10284;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='How are ye? Had yer fill o'' Outland, and ready ta head back ta Alterac Valley and give the Horde what for?'	-- How are ye? Had yer fill o' Outland, and ready ta head back ta Alterac Valley and give the Horde what for?
-WHERE `entry`=10285;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='How are ye? Had yer fill o'' Outland, and ready ta head back ta Alterac Valley and give the Horde what for?'	-- How are ye? Had yer fill o' Outland, and ready ta head back ta Alterac Valley and give the Horde what for?
+-- WHERE `entry`=10285;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='银翼哨兵仍然在战歌峡谷跟部落作战，$C。要是你回到那里去帮助他们，结果会是怎样都还不知道。'	-- The Silverwing Sentinels still fight the Horde in Warsong Gulch, $c. What remains to be seen is if you will return there to help them.
@@ -4493,25 +4493,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<它是一只巨大，身穿护甲，披上鞍具的攻击猫。就算他不会说话不也是够蠢了吗？>'	-- <It's a giant, armored, saddle-bearing attack cat. Isn't that already silly enough without it talking, too?>
 WHERE `entry`=10290;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Only a mage can learn portal magic, $c.'	-- Only a mage can learn portal magic, $c.
-WHERE `entry`=10291;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Only a mage can learn portal magic, $c.'	-- Only a mage can learn portal magic, $c.
+-- WHERE `entry`=10291;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='A mage... you seek to learn the magic of portals, yes?'	-- A mage... you seek to learn the magic of portals, yes?
-WHERE `entry`=10292;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='A mage... you seek to learn the magic of portals, yes?'	-- A mage... you seek to learn the magic of portals, yes?
+-- WHERE `entry`=10292;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Royal Apothecary Society of the Undercity is eager to aid our orc allies here, in Outland.  It is an opportunity to strengthen our bonds, and to find new specimens and compounds for study.$B$BCompounds...such as poisons.'	-- The Royal Apothecary Society of the Undercity is eager to aid our orc allies here, in Outland.  It is an opportunity to strengthen our bonds, and to find new specimens and compounds for study.$B$BCompounds...such as poisons.
-WHERE `entry`=10293;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Royal Apothecary Society of the Undercity is eager to aid our orc allies here, in Outland.  It is an opportunity to strengthen our bonds, and to find new specimens and compounds for study.$B$BCompounds...such as poisons.'	-- The Royal Apothecary Society of the Undercity is eager to aid our orc allies here, in Outland.  It is an opportunity to strengthen our bonds, and to find new specimens and compounds for study.$B$BCompounds...such as poisons.
+-- WHERE `entry`=10293;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='白沙岗哨对我来说就像是个意外的一站，温和的放下它。我的客户正指望我运送达我的货品，我开始怀疑我是否可以在所有的耽搁下把东西即时送达。'	-- Whitereach Post is something of an unintended stop for me, to put it mildly. My clients are counting on me to deliver my wares and I'm starting to wonder if I'm going to make it in time with all the delays involved.
 WHERE `entry`=10299;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hey, don''t open the cage!  Okay?$B$BThese ogres have got me right where I want them.'	-- Hey, don't open the cage!  Okay?$B$BThese ogres have got me right where I want them.
-WHERE `entry`=10300;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hey, don''t open the cage!  Okay?$B$BThese ogres have got me right where I want them.'	-- Hey, don't open the cage!  Okay?$B$BThese ogres have got me right where I want them.
+-- WHERE `entry`=10300;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我听说地狱火半岛的灰尘和热度十分令人烦燥……我不知道，不过我会相信我那受人尊敬，还活着着的生命，盟友。'	-- I am told that the dust and heat of Hellfire Peninsula is quite irritating... I would not know, but I will trust my esteemed, and still living, allies.
@@ -4522,9 +4522,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Forgetting elemental leatherworking is not something to do lightly.  If you choose to abandon it you will forget all recipes that require elemental leatherworking as well!'	-- Forgetting elemental leatherworking is not something to do lightly.  If you choose to abandon it you will forget all recipes that require elemental leatherworking as well!
 WHERE `entry`=10302;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You''ll be purchasing no hawkstrider here until you''ve proven your worth and dedication to our people.$bDo not return until you are considered exalted among the blood elves. Away with you!'	-- You'll be purchasing no hawkstrider here until you've proven your worth and dedication to our people.$bDo not return until you are considered exalted among the blood elves. Away with you!
-WHERE `entry`=10305;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You''ll be purchasing no hawkstrider here until you''ve proven your worth and dedication to our people.$bDo not return until you are considered exalted among the blood elves. Away with you!'	-- You'll be purchasing no hawkstrider here until you've proven your worth and dedication to our people.$bDo not return until you are considered exalted among the blood elves. Away with you!
+-- WHERE `entry`=10305;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='These orcs must really be eager to stake their claim in Outland! If I told you how much they were paying for my allegiance, you''d kill me out of jealousy!'	-- These orcs must really be eager to stake their claim in Outland! If I told you how much they were paying for my allegiance, you'd kill me out of jealousy!
@@ -4538,17 +4538,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你必须在血精灵一族中达到崇拜声望，我才能教你骑术，$C。'	-- You must be exalted with the blood elves before I will teach you a riding skill, $c.
 WHERE `entry`=10310;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I came to this place because of my study into the backward culture that used to be the Thunderlord clan.$B$BThey were weak and succumbed to the lure of power that came with being transformed into fel orcs through Mannoroth''s blood.$B$BI have read all of their texts.  I am particularly interested in the recovery of an artifact, a drum, an arrow and a tablet that were lost when we crushed the Bladespire ogres and pushed them back down into their hold.'	-- I came to this place because of my study into the backward culture that used to be the Thunderlord clan.$B$BThey were weak and succumbed to the lure of power that came with being transformed into fel orcs through Mannoroth's blood.$B$BI have read all of their texts.  I am particularly interested in the recovery of an artifact, a drum, an arrow and a tablet that were lost when we crushed the Bladespire ogres and pushed them back down into their hold.
-WHERE `entry`=10322;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I came to this place because of my study into the backward culture that used to be the Thunderlord clan.$B$BThey were weak and succumbed to the lure of power that came with being transformed into fel orcs through Mannoroth''s blood.$B$BI have read all of their texts.  I am particularly interested in the recovery of an artifact, a drum, an arrow and a tablet that were lost when we crushed the Bladespire ogres and pushed them back down into their hold.'	-- I came to this place because of my study into the backward culture that used to be the Thunderlord clan.$B$BThey were weak and succumbed to the lure of power that came with being transformed into fel orcs through Mannoroth's blood.$B$BI have read all of their texts.  I am particularly interested in the recovery of an artifact, a drum, an arrow and a tablet that were lost when we crushed the Bladespire ogres and pushed them back down into their hold.
+-- WHERE `entry`=10322;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='阿尔托无生命迹象的身体被恶魔魔法悬浮在半空中。他们夺走了他，即便死了也一样……'	-- Ar'tor's lifeless body remains suspended in mid-air by demonic magic. They take from him, even in death...
 WHERE `entry`=10323;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I am pleased that you''ve decided to take up our cause.  As a reward I will infuse a ring with the remnants of the Well of Eternity you brought me.$B$BI offer you four different paths in which to unlock their power.  Choose wisely, $N.  The sands of time flow easily in one direction and not the other.'	-- I am pleased that you've decided to take up our cause.  As a reward I will infuse a ring with the remnants of the Well of Eternity you brought me.$B$BI offer you four different paths in which to unlock their power.  Choose wisely, $N.  The sands of time flow easily in one direction and not the other.
-WHERE `entry`=10324;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I am pleased that you''ve decided to take up our cause.  As a reward I will infuse a ring with the remnants of the Well of Eternity you brought me.$B$BI offer you four different paths in which to unlock their power.  Choose wisely, $N.  The sands of time flow easily in one direction and not the other.'	-- I am pleased that you've decided to take up our cause.  As a reward I will infuse a ring with the remnants of the Well of Eternity you brought me.$B$BI offer you four different paths in which to unlock their power.  Choose wisely, $N.  The sands of time flow easily in one direction and not the other.
+-- WHERE `entry`=10324;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我……死了。$B$B为什么我还在这里？没有我可以去的大猎场吗？$B$B不……我必须先完成我的任务。在我可以离开这个世界之前，毁灭密码的第2个部分必须被收回。'	-- I... died.$B$BWhy am I still here? Is there no great hunting ground that I ascend to?$B$BNo... I must first complete my task. Before I can leave this world, the second part of the Cipher of Damnation must be recovered.
@@ -4564,9 +4564,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如你所期望的，$N。幽魂猎手准备好了。'	-- As you wish, $N. The spirit hunter is ready.
 WHERE `entry`=10338;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''ve done my time in the trenches, and spent many years training the pups. It''s good to be home. No matter what has become of it, this is my home.'	-- I've done my time in the trenches, and spent many years training the pups. It's good to be home. No matter what has become of it, this is my home.
-WHERE `entry`=10339;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''ve done my time in the trenches, and spent many years training the pups. It''s good to be home. No matter what has become of it, this is my home.'	-- I've done my time in the trenches, and spent many years training the pups. It's good to be home. No matter what has become of it, this is my home.
+-- WHERE `entry`=10339;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这些巨魔，他们把我埋到只剩我的脖子，然后就忘记回来了。$B$B是啊，老兄，真有趣。笑出来吧。没有身体的鬼魂头在这里。$B$B当然，如果你想要帮我出来，我也许值得你花点时间。$B$B但是不准，一直笑。'	-- The ogres, they bury me here up to my neck and then forget to come back.$B$BYah, mon, funny.  Laugh it up.  Disembodied ghost head here.$B$BOf course, if you want to help me out, I might be able to make it worth your while.$B$BBut no, keep laughing.
@@ -4586,9 +4586,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='The footlockers of Kil''sorrow Fortress in Nagrand would provide a considerable challenge to even a rogue of your notable skill.'	-- The footlockers of Kil'sorrow Fortress in Nagrand would provide a considerable challenge to even a rogue of your notable skill.
 WHERE `entry`=10355;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Toshley''s Station is the best!  The solitude and supply of strange, Outland power sources is an ideal setting for extreme experiments!'	-- Toshley's Station is the best!  The solitude and supply of strange, Outland power sources is an ideal setting for extreme experiments!
-WHERE `entry`=10359;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Toshley''s Station is the best!  The solitude and supply of strange, Outland power sources is an ideal setting for extreme experiments!'	-- Toshley's Station is the best!  The solitude and supply of strange, Outland power sources is an ideal setting for extreme experiments!
+-- WHERE `entry`=10359;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你有与我的克隆交谈--我的意思是……我的双胞胎吗？'	-- Have you talked to my clone--I mean... my twin?
@@ -4634,17 +4634,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你准备好我们就战斗吧，$N。'	-- We will fight when you are ready, $N.
 WHERE `entry`=10421;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I AM FLUENT IN OVER TWO LANGUAGES: DWARVISH, GNOMISH AND THE VERY COMMON TONGUE OF HUMANS.  BUT I HAVE NO IDEA WHAT YOU ARE SAYING!$B$BSPEAK UP; I CANNOT HEAR YOU OVER THE GRINDING OF MY GEARS!'	-- I AM FLUENT IN OVER TWO LANGUAGES: DWARVISH, GNOMISH AND THE VERY COMMON TONGUE OF HUMANS.  BUT I HAVE NO IDEA WHAT YOU ARE SAYING!$B$BSPEAK UP; I CANNOT HEAR YOU OVER THE GRINDING OF MY GEARS!
-WHERE `entry`=10422;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I AM FLUENT IN OVER TWO LANGUAGES: DWARVISH, GNOMISH AND THE VERY COMMON TONGUE OF HUMANS.  BUT I HAVE NO IDEA WHAT YOU ARE SAYING!$B$BSPEAK UP; I CANNOT HEAR YOU OVER THE GRINDING OF MY GEARS!'	-- I AM FLUENT IN OVER TWO LANGUAGES: DWARVISH, GNOMISH AND THE VERY COMMON TONGUE OF HUMANS.  BUT I HAVE NO IDEA WHAT YOU ARE SAYING!$B$BSPEAK UP; I CANNOT HEAR YOU OVER THE GRINDING OF MY GEARS!
+-- WHERE `entry`=10422;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='是，是……欢迎到我的基地。$B$B那么，你觉得如何呢？漂亮的俏皮话我们在这里都说过了，你不来点吗？$B$B无论如何，我很高兴能够摆脱那些希尔瓦纳的自大精灵。$B$B四处找点事做吧；到处都有许多的实验及匿名者等着需要帮忙。'	-- Yeah, yeah... welcome to my station.$B$BSo, what do you think?  Pretty nifty what we've done here, wouldn't you say?$B$BMakes me glad to be rid of those stuffy elves at Sylvanaar anyway.$B$BMake yourself useful around here; there're plenty of experiments and whatnot to help out with.
 WHERE `entry`=10423;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Glory to the naaru, $N.  The Light will soon triumph over its enemies.'	-- Glory to the naaru, $N.  The Light will soon triumph over its enemies.
-WHERE `entry`=10424;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Glory to the naaru, $N.  The Light will soon triumph over its enemies.'	-- Glory to the naaru, $N.  The Light will soon triumph over its enemies.
+-- WHERE `entry`=10424;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<通灵师身上泛起了黑暗魔法的涟漪。>'	-- <Dark magic ripples from the necrolyte.>
@@ -4670,37 +4670,37 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='全部的效命报酬交由公告员毕尔斯纳特分配。$B$B不张贴清单。'	-- All rewards for services renedered to be dispensed by Warcaller Beersnout.$B$BPost no bills.
 WHERE `entry`=10449;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Are you interested in learning the intricacies of Jewelcrafting?'	-- Are you interested in learning the intricacies of Jewelcrafting?
-WHERE `entry`=10451;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Are you interested in learning the intricacies of Jewelcrafting?'	-- Are you interested in learning the intricacies of Jewelcrafting?
+-- WHERE `entry`=10451;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What do you wish to know of Jewelcrafting?'	-- What do you wish to know of Jewelcrafting?
-WHERE `entry`=10454;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What do you wish to know of Jewelcrafting?'	-- What do you wish to know of Jewelcrafting?
+-- WHERE `entry`=10454;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Until you have mastered the Apprentice level of Jewelcrafting we shall not speak again.'	-- Until you have mastered the Apprentice level of Jewelcrafting we shall not speak again.
-WHERE `entry`=10455;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Until you have mastered the Apprentice level of Jewelcrafting we shall not speak again.'	-- Until you have mastered the Apprentice level of Jewelcrafting we shall not speak again.
+-- WHERE `entry`=10455;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='My knowledge of Jewelcrafting I will share with you.'	-- My knowledge of Jewelcrafting I will share with you.
-WHERE `entry`=10456;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='My knowledge of Jewelcrafting I will share with you.'	-- My knowledge of Jewelcrafting I will share with you.
+-- WHERE `entry`=10456;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I wish I had more time to teach all who came before me, but alas that is not the way of things. Until you have learned all that Padaar has to teach, I cannot help you.'	-- I wish I had more time to teach all who came before me, but alas that is not the way of things. Until you have learned all that Padaar has to teach, I cannot help you.
-WHERE `entry`=10458;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I wish I had more time to teach all who came before me, but alas that is not the way of things. Until you have learned all that Padaar has to teach, I cannot help you.'	-- I wish I had more time to teach all who came before me, but alas that is not the way of things. Until you have learned all that Padaar has to teach, I cannot help you.
+-- WHERE `entry`=10458;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I am blessed to be able to help someone of your skills to learn more of Jewelcrafting. What do you wish to know?'	-- I am blessed to be able to help someone of your skills to learn more of Jewelcrafting. What do you wish to know?
-WHERE `entry`=10459;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I am blessed to be able to help someone of your skills to learn more of Jewelcrafting. What do you wish to know?'	-- I am blessed to be able to help someone of your skills to learn more of Jewelcrafting. What do you wish to know?
+-- WHERE `entry`=10459;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''m extremely busy, $r.$B$BWe have a terrible problem on our hands that must be dealt with at once!'	-- I'm extremely busy, $r.$B$BWe have a terrible problem on our hands that must be dealt with at once!
-WHERE `entry`=10460;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''m extremely busy, $r.$B$BWe have a terrible problem on our hands that must be dealt with at once!'	-- I'm extremely busy, $r.$B$BWe have a terrible problem on our hands that must be dealt with at once!
+-- WHERE `entry`=10460;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='When you run with Razak''s Roughriders, you learn a thing or two about following orders.$B$BThe first thing is that you fight until you die.  The second thing is, see the first thing.'	-- When you run with Razak's Roughriders, you learn a thing or two about following orders.$B$BThe first thing is that you fight until you die.  The second thing is, see the first thing.
-WHERE `entry`=10466;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='When you run with Razak''s Roughriders, you learn a thing or two about following orders.$B$BThe first thing is that you fight until you die.  The second thing is, see the first thing.'	-- When you run with Razak's Roughriders, you learn a thing or two about following orders.$B$BThe first thing is that you fight until you die.  The second thing is, see the first thing.
+-- WHERE `entry`=10466;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='需要将你的刀身磨利，还是选一种新武器？有备无患……'	-- Need your blade sharpened, or perhaps a new weapon? Better safe than sorry...
@@ -4710,17 +4710,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你要寻找的是一支铁锤，那你已经来对地方了。'	-- If it's a hammer you're looking for, you've come to the right place.
 WHERE `entry`=10468;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='$G Son : Young lady;, I''m not going to lie to you; things aren''t pretty around here.  We''re under constant assault by the bugs and our very way of life, our freedom, is at stake!$B$BAre you going to be a responsible citizen and help out?'	-- $G Son : Young lady;, I'm not going to lie to you; things aren't pretty around here.  We're under constant assault by the bugs and our very way of life, our freedom, is at stake!$B$BAre you going to be a responsible citizen and help out?
-WHERE `entry`=10469;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='$G Son : Young lady;, I''m not going to lie to you; things aren''t pretty around here.  We''re under constant assault by the bugs and our very way of life, our freedom, is at stake!$B$BAre you going to be a responsible citizen and help out?'	-- $G Son : Young lady;, I'm not going to lie to you; things aren't pretty around here.  We're under constant assault by the bugs and our very way of life, our freedom, is at stake!$B$BAre you going to be a responsible citizen and help out?
+-- WHERE `entry`=10469;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='太灿烂了！太惊人了！真是一个极佳的表演！'	-- Splendid! Marvelous! An excellent performance!
 WHERE `entry`=10471;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='When I was young I trained hard to become an anchorite in the priesthood.  Female exarchs were practically unheard of.$B$BNowadays gender matters little - it is courage and conviction that make all the difference.'	-- When I was young I trained hard to become an anchorite in the priesthood.  Female exarchs were practically unheard of.$B$BNowadays gender matters little - it is courage and conviction that make all the difference.
-WHERE `entry`=10473;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='When I was young I trained hard to become an anchorite in the priesthood.  Female exarchs were practically unheard of.$B$BNowadays gender matters little - it is courage and conviction that make all the difference.'	-- When I was young I trained hard to become an anchorite in the priesthood.  Female exarchs were practically unheard of.$B$BNowadays gender matters little - it is courage and conviction that make all the difference.
+-- WHERE `entry`=10473;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你已准备好，并且希望迅速返回正常的时间流，我能将你传送至时光之穴的安杜姆那里。'	-- If you are ready and wish to quickly return to the normal time stream, I can transport you to Andormu in the Caverns of Time.
@@ -4768,13 +4768,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='哈哈，你回来了？你不是真的期望我改变主意吧，是吗？$B$B滚开。'	-- Haha, you're back?  You don't seriously expect me to change my mind do you?$B$BGet lost.
 WHERE `entry`=10535;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I detect a charge in your paranarbulatric region!  You must have used the Zephyrium Capacitorium lately -- you can''t use it again until the charge wears off...'	-- I detect a charge in your paranarbulatric region!  You must have used the Zephyrium Capacitorium lately -- you can't use it again until the charge wears off...
-WHERE `entry`=10537;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I detect a charge in your paranarbulatric region!  You must have used the Zephyrium Capacitorium lately -- you can''t use it again until the charge wears off...'	-- I detect a charge in your paranarbulatric region!  You must have used the Zephyrium Capacitorium lately -- you can't use it again until the charge wears off...
+-- WHERE `entry`=10537;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I am here at the behest of my master, Baron Sablemane, to help the Cenarion Expedition with its wyrmcult problems.$B$BI''m something of an expert on these things.'	-- I am here at the behest of my master, Baron Sablemane, to help the Cenarion Expedition with its wyrmcult problems.$B$BI'm something of an expert on these things.
-WHERE `entry`=10538;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I am here at the behest of my master, Baron Sablemane, to help the Cenarion Expedition with its wyrmcult problems.$B$BI''m something of an expert on these things.'	-- I am here at the behest of my master, Baron Sablemane, to help the Cenarion Expedition with its wyrmcult problems.$B$BI'm something of an expert on these things.
+-- WHERE `entry`=10538;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='奴阿尔，你感觉好吗？你今天看起来不像你。'	-- Nuaar, are you feeling well?  You don't look like yourself today.
@@ -4800,9 +4800,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这就对了！$B$B我很高兴我们有这个小会议。我现在对攻击更有信心了。有你这样的领导人在前线，我们怎么会失败？$B$B好了，你可以进军了。现在回到鲁安旷野开始攻击吧！'	-- That's the spirit!$B$BI'm glad that we had this little meeting.  I feel much better about the attack now.  With leaders like you on the front, how can we lose?$B$BAlright, you have your marching orders.  Now get back to the Ruuan Weald and make it happen!
 WHERE `entry`=10545;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Karazhan wasn''t always quite as... ominous.  The darkening of Karazhan only came with Medivh''s death.  Or what we believe was Medivh''s death.'	-- Karazhan wasn't always quite as... ominous.  The darkening of Karazhan only came with Medivh's death.  Or what we believe was Medivh's death.
-WHERE `entry`=10546;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Karazhan wasn''t always quite as... ominous.  The darkening of Karazhan only came with Medivh''s death.  Or what we believe was Medivh''s death.'	-- Karazhan wasn't always quite as... ominous.  The darkening of Karazhan only came with Medivh's death.  Or what we believe was Medivh's death.
+-- WHERE `entry`=10546;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你看起来像是需要越过大海，那你就来对地方了，最好的跨海邮轮──“处女之幻想”号将在这里起航，你只需要坐上她，就可以安逸地等着在荆棘谷的沙滩上晒太阳了。'	-- You look like you might be needing passage across the Great Sea. Well you have come to the right place, this here is the berth of the Maiden's Fancy, finest passanger ship to travel these waters. When she arrives just climb aboard and the next thing you know you will find yourself basking on the sandy beaches of Stranglethorn.
@@ -4858,9 +4858,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='$N！过来这里！你一定知道艾泽拉斯的奥特兰克山谷内进行着激烈的战斗。我们需要每一位能召集的健壮战士。与雷矛守卫作战并且击败霜狼！'	-- $N! Come here! Surely you know of the battle that rages within Alterac Valley. We need every able-bodied fighter we can muster. Fight with the Stormpike Guard and defeat the Frostwolves!
 WHERE `entry`=10560;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This flight takes you to the far point of the Singing Ridge.  Very dangerous!$B$BFor this one, I''m going to need a signed waiver...'	-- This flight takes you to the far point of the Singing Ridge.  Very dangerous!$B$BFor this one, I'm going to need a signed waiver...
-WHERE `entry`=10561;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This flight takes you to the far point of the Singing Ridge.  Very dangerous!$B$BFor this one, I''m going to need a signed waiver...'	-- This flight takes you to the far point of the Singing Ridge.  Very dangerous!$B$BFor this one, I'm going to need a signed waiver...
+-- WHERE `entry`=10561;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们总渴望更多的飞行数据！你想去哪里？'	-- We're always eager for more flight data!  Where do you want to go?
@@ -4884,9 +4884,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='有一句谚语说，「与其给他鱼吃，还不如教他钓鱼」。当然，你可能想要煮那条鱼，而那是我进来的地方。'	-- There's an old saying, "Give a man a fish; you have fed him for a day.  Teach a man to fish; and you have fed him for a lifetime."  Of course, you might want to cook that fish and that is where I come in.
 WHERE `entry`=10568;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, $n!  How goes your adventures? My experiments are progressing nicely...$B$BBe sure to check back with me later!   I might have more test flight opportunities for you!'	-- Hello, $n!  How goes your adventures? My experiments are progressing nicely...$B$BBe sure to check back with me later!   I might have more test flight opportunities for you!
-WHERE `entry`=10569;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, $n!  How goes your adventures? My experiments are progressing nicely...$B$BBe sure to check back with me later!   I might have more test flight opportunities for you!'	-- Hello, $n!  How goes your adventures? My experiments are progressing nicely...$B$BBe sure to check back with me later!   I might have more test flight opportunities for you!
+-- WHERE `entry`=10569;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='力量和荣誉，$C。我们在奥特兰克山谷需要像你一样热心的士兵；霜狼的领土必须被保卫！你会返回艾泽拉斯提供你的协助吗？'	-- Strength and honor, $c. We need eager soldiers like you in Alterac Valley; the territory of the Frostwolves must be defended! Will you return to Azeroth and lend your aid?
@@ -4957,9 +4957,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Ranked arena matches start in $4262d. Would-be champions are already busy honing their skills and acquiring the best gear they can. Are you going to be ready?'	-- Ranked arena matches start in $4262d. Would-be champions are already busy honing their skills and acquiring the best gear they can. Are you going to be ready?
 WHERE `entry`=10604;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You must... free... my children...'	-- You must... free... my children...
-WHERE `entry`=10605;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You must... free... my children...'	-- You must... free... my children...
+-- WHERE `entry`=10605;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='他们不能继续这样！他们的翅膀最终将给予……'	-- They can't keep this up! Their wings will eventually give...
@@ -4970,17 +4970,17 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Ah, another $c looking to be a gladiator, eh? Good!$B$BI sell the arena team charters you''ll need to participate in ranking Steamwheedle Fighting Circuit matches.'	-- Ah, another $c looking to be a gladiator, eh? Good!$B$BI sell the arena team charters you'll need to participate in ranking Steamwheedle Fighting Circuit matches.
 WHERE `entry`=10608;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Spinebreaker Post is a great place to be stationed!  The Bleeding Hollow aberrations are so close you can smell their foul blood!  What better place to gather vengeance from a clan that has forsaken its brethren and made a pact with demons?'	-- Spinebreaker Post is a great place to be stationed!  The Bleeding Hollow aberrations are so close you can smell their foul blood!  What better place to gather vengeance from a clan that has forsaken its brethren and made a pact with demons?
-WHERE `entry`=10610;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Spinebreaker Post is a great place to be stationed!  The Bleeding Hollow aberrations are so close you can smell their foul blood!  What better place to gather vengeance from a clan that has forsaken its brethren and made a pact with demons?'	-- Spinebreaker Post is a great place to be stationed!  The Bleeding Hollow aberrations are so close you can smell their foul blood!  What better place to gather vengeance from a clan that has forsaken its brethren and made a pact with demons?
+-- WHERE `entry`=10610;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='费尔威德和我来这里代表希尔瓦纳的利益。$B$B德鲁伊们非常通融，但是允许部落穿越这里让我有种毛骨悚然的感觉。'	-- Fairweather and I are up here representing Sylvanaar's interests.$B$BThe druids have been more than accomodating, but allowing the Horde to travel through here gives me the willies.
 WHERE `entry`=10612;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The fight against Kael''thas and Illidan continues on all fronts.  Defeat is not an option.'	-- The fight against Kael'thas and Illidan continues on all fronts.  Defeat is not an option.
-WHERE `entry`=10625;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The fight against Kael''thas and Illidan continues on all fronts.  Defeat is not an option.'	-- The fight against Kael'thas and Illidan continues on all fronts.  Defeat is not an option.
+-- WHERE `entry`=10625;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我了解你最近才加入我们，因此可能没注意到我们的传统。在月光林地里，一个盛大的庆典正在进行。这是我们荣耀祖先的时刻，而你当然被邀请了！如果你愿意参加，就前往我们的城市之一！'	-- I realize you have only recently joined us, and thus may be unaware of our traditions. In Moonglade, a tremendous celebration is taking place. This is a time of year when we honor our elders, and you are certainly invited! Travel to one of our cities if you wish to join in!
@@ -5078,29 +5078,29 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们知道在另一边的隧道那里有一大群巨龙教徒，我们得在这里作好准备才行。'	-- We know that the wyrmcultists are massing on the other side of the tunnel.  We'll make our stand here.
 WHERE `entry`=10667;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome, $N. My expertise is in the art of working with primal mooncloth. Tailors interested in becoming mooncloth specialists often ask me to teach them our ways.'	-- Welcome, $N. My expertise is in the art of working with primal mooncloth. Tailors interested in becoming mooncloth specialists often ask me to teach them our ways.
-WHERE `entry`=10669;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome, $N. My expertise is in the art of working with primal mooncloth. Tailors interested in becoming mooncloth specialists often ask me to teach them our ways.'	-- Welcome, $N. My expertise is in the art of working with primal mooncloth. Tailors interested in becoming mooncloth specialists often ask me to teach them our ways.
+-- WHERE `entry`=10669;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''m afraid there is little I can teach you, $c. You''re free to browse my wares, of course, but you will not find them of use to you.'	-- I'm afraid there is little I can teach you, $c. You're free to browse my wares, of course, but you will not find them of use to you.
-WHERE `entry`=10670;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''m afraid there is little I can teach you, $c. You''re free to browse my wares, of course, but you will not find them of use to you.'	-- I'm afraid there is little I can teach you, $c. You're free to browse my wares, of course, but you will not find them of use to you.
+-- WHERE `entry`=10670;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Pleased to meet you! I''m Gidge, the resident spellfire tailoring expert here in Shattrath. Not that there''s any competition, but if you''re interested in learning to be a spellfire tailor and haven''t settled on a specialization, I can help.'	-- Pleased to meet you! I'm Gidge, the resident spellfire tailoring expert here in Shattrath. Not that there's any competition, but if you're interested in learning to be a spellfire tailor and haven't settled on a specialization, I can help.
-WHERE `entry`=10671;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Pleased to meet you! I''m Gidge, the resident spellfire tailoring expert here in Shattrath. Not that there''s any competition, but if you''re interested in learning to be a spellfire tailor and haven''t settled on a specialization, I can help.'	-- Pleased to meet you! I'm Gidge, the resident spellfire tailoring expert here in Shattrath. Not that there's any competition, but if you're interested in learning to be a spellfire tailor and haven't settled on a specialization, I can help.
+-- WHERE `entry`=10671;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If you''re not a tailor, I don''t think any of my patterns will interest you, but you''re welcome to browse!'	-- If you're not a tailor, I don't think any of my patterns will interest you, but you're welcome to browse!
-WHERE `entry`=10672;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If you''re not a tailor, I don''t think any of my patterns will interest you, but you''re welcome to browse!'	-- If you're not a tailor, I don't think any of my patterns will interest you, but you're welcome to browse!
+-- WHERE `entry`=10672;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我很抱歉，$C，但是这些是我一针一线所缝制出来最合适的商品。$B$B我可以向你保证，裁缝是比在手帕上绣字还难的技术。'	-- I'm sorry, $c, but my wares are best suited to those who know which end of the needle the thread goes through.$B$BI can assure you, tailoring is about far more than monogramming handkerchiefs.
 WHERE `entry`=10674;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='These Tears of the Goddess have been blessed by Elune, and their power will help you combat Archimonde''s vile magics. Use their power well.'	-- These Tears of the Goddess have been blessed by Elune, and their power will help you combat Archimonde's vile magics. Use their power well.
-WHERE `entry`=10675;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='These Tears of the Goddess have been blessed by Elune, and their power will help you combat Archimonde''s vile magics. Use their power well.'	-- These Tears of the Goddess have been blessed by Elune, and their power will help you combat Archimonde's vile magics. Use their power well.
+-- WHERE `entry`=10675;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='他们害怕我的言语，所以狠狠的教训了我以示众人。这对一位真神，奈普图隆来说真是一个讽刺呀。$B$B<司卡利斯吐口水。>$B$B凡人啊，报应来了。猎潮者的光荣之手将有一天会像是在镰刀收割般地杀死这些不信之徒。'	-- They fear my words. They make an example out of me. A mockery of the one true god, Neptulon.$B$B<Skar'this spits.>$B$BRetribution comesss, mortal. The glorious hand of the Tidehunter will one day sweep through the non-believers like a scythe against a new harvest.
@@ -5119,17 +5119,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我来到这块土地是为了净化冤灵，但是在那场攻击之后我怕我的任务已经失败了。更多的生命丧失在荒野之中，拜托你一定得帮帮他们。'	-- I came to this land to cleanse troubled spirits, but after the attack I fear that my mission has failed.  So many have been taken by the wastes.  Please, you must help them.
 WHERE `entry`=10680;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='When I first set up my rogue academy in Shattrath, it wasn''t nearly this crowded. Then, the refugees started flooding in and the naaru needed every available building to house them.$B$BI''ve closed the doors to my academy for now, but it''s not permanent. I''ll find a new place to set up.$B$BThen, a new generation of rogues will learn such staples as the gouge''n grin, combat looting, and blaming someone else for breaking polymorph. And who can forget the central rule of roguery --- real rogues don''t feint.'	-- When I first set up my rogue academy in Shattrath, it wasn't nearly this crowded. Then, the refugees started flooding in and the naaru needed every available building to house them.$B$BI've closed the doors to my academy for now, but it's not permanent. I'll find a new place to set up.$B$BThen, a new generation of rogues will learn such staples as the gouge'n grin, combat looting, and blaming someone else for breaking polymorph. And who can forget the central rule of roguery --- real rogues don't feint.
-WHERE `entry`=10686;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='When I first set up my rogue academy in Shattrath, it wasn''t nearly this crowded. Then, the refugees started flooding in and the naaru needed every available building to house them.$B$BI''ve closed the doors to my academy for now, but it''s not permanent. I''ll find a new place to set up.$B$BThen, a new generation of rogues will learn such staples as the gouge''n grin, combat looting, and blaming someone else for breaking polymorph. And who can forget the central rule of roguery --- real rogues don''t feint.'	-- When I first set up my rogue academy in Shattrath, it wasn't nearly this crowded. Then, the refugees started flooding in and the naaru needed every available building to house them.$B$BI've closed the doors to my academy for now, but it's not permanent. I'll find a new place to set up.$B$BThen, a new generation of rogues will learn such staples as the gouge'n grin, combat looting, and blaming someone else for breaking polymorph. And who can forget the central rule of roguery --- real rogues don't feint.
+-- WHERE `entry`=10686;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我是联合团的萨尔菲。我身为转化大师的美名早已传遍全世界了。'	-- I am Zarevhi of the Consortium.  My skills as a transmuter are known in a thousand worlds.
 WHERE `entry`=10687;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Oh, no!  My Fei Fei would never take someone else''s things!  He''s a good dog... he just needs attention sometimes.  If you give him a treat, then you see!'	-- Oh, no!  My Fei Fei would never take someone else's things!  He's a good dog... he just needs attention sometimes.  If you give him a treat, then you see!
-WHERE `entry`=10689;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Oh, no!  My Fei Fei would never take someone else''s things!  He''s a good dog... he just needs attention sometimes.  If you give him a treat, then you see!'	-- Oh, no!  My Fei Fei would never take someone else's things!  He's a good dog... he just needs attention sometimes.  If you give him a treat, then you see!
+-- WHERE `entry`=10689;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='过去我让自己接受任何人的挑战，把这当成一种娱乐，但我已经开始厌倦这样轻松的胜利。$B$B现在，我打算花点时间在此地的试剂事业上，并写一本有关我对暮光之锤的经验谈。'	-- I used to amuse myself by accepting challenges from anyone who would offer them, but I've long since grown tired of such easy victories.$B$BFor now, I'm taking some time to get my reagent business off the ground and write a book about my experiences in Twilight's Hammer.
@@ -5190,25 +5190,25 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='The Wayfarer''s Rest tavern is located between the Walk of Elders and the Bazaar. You can reach it from either location.'	-- The Wayfarer's Rest tavern is located between the Walk of Elders and the Bazaar. You can reach it from either location.
 WHERE `entry`=10727;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The conflicts in Outland are deadlier than any I have seen.  And their most tragic victims are the children that are left behind.$B$BNow, with the threat against Shattrath from the arakkoa of Skettis, there will be even more orphans to take care of.  These children often live without the hope of a bright future.$B$BBut you have the power to do something about that.  It''s Children''s Week, $c, and I implore you to volunteer to bring joy and wonder into a child''s life.'	-- The conflicts in Outland are deadlier than any I have seen.  And their most tragic victims are the children that are left behind.$B$BNow, with the threat against Shattrath from the arakkoa of Skettis, there will be even more orphans to take care of.  These children often live without the hope of a bright future.$B$BBut you have the power to do something about that.  It's Children's Week, $c, and I implore you to volunteer to bring joy and wonder into a child's life.
-WHERE `entry`=10729;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The conflicts in Outland are deadlier than any I have seen.  And their most tragic victims are the children that are left behind.$B$BNow, with the threat against Shattrath from the arakkoa of Skettis, there will be even more orphans to take care of.  These children often live without the hope of a bright future.$B$BBut you have the power to do something about that.  It''s Children''s Week, $c, and I implore you to volunteer to bring joy and wonder into a child''s life.'	-- The conflicts in Outland are deadlier than any I have seen.  And their most tragic victims are the children that are left behind.$B$BNow, with the threat against Shattrath from the arakkoa of Skettis, there will be even more orphans to take care of.  These children often live without the hope of a bright future.$B$BBut you have the power to do something about that.  It's Children's Week, $c, and I implore you to volunteer to bring joy and wonder into a child's life.
+-- WHERE `entry`=10729;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我很寂寞。我希望在这里有更多的和我同龄的孩子。有时候，我真的很怀念在沙塔斯城孤儿院的日子。'	-- I'm lonely.  I wish that there were more kids my age around here.  Sometimes I miss being at the orphanage in Shattrath City.
 WHERE `entry`=10730;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Are we there yet?'	-- Are we there yet?
-WHERE `entry`=10732;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Are we there yet?'	-- Are we there yet?
+-- WHERE `entry`=10732;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I am free!  But the secret... is now in peril.  Akama must be warned!'	-- I am free!  But the secret... is now in peril.  Akama must be warned!
-WHERE `entry`=10733;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I am free!  But the secret... is now in peril.  Akama must be warned!'	-- I am free!  But the secret... is now in peril.  Akama must be warned!
+-- WHERE `entry`=10733;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Why isn''t the Outland called Draenor anymore?'	-- Why isn't the Outland called Draenor anymore?
-WHERE `entry`=10734;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Why isn''t the Outland called Draenor anymore?'	-- Why isn't the Outland called Draenor anymore?
+-- WHERE `entry`=10734;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<莫西斯朝天空扫视。>$B$B某一方面，我忌妒鲁克及寇瓦克斯所享有的自由。从世俗的责任中解放的确就是一种最好的祝福。$B$B未来将再次见我展翅高飞，不过首先我得先完成一件任务。'	-- <Morthis glances skyward.>$B$BIn a way, I envy the freedom Rook and Corvax enjoy. To be free of earthbound responsibilities is a great blessing indeed.$B$BThe future will see me on wing once more, but first there's a task I must complete.
@@ -5218,13 +5218,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='埃兰已经战败了吗？太好了……我可以感觉到他的势力已经缩减了 - 即使只有一点点。但是这样就足够我执行身为一个看门人该做的事情了！你想要传送至守护者图书馆吗，$N？'	-- Aran has been defeated? Yes... I can sense his grip has loosened - if only just a little. But just enough to allow me to do my job as the doorman! Would you like me transport you to the Guardian's Library, $N?
 WHERE `entry`=10741;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It is good to see you again, $C $N.  Dornaa has been asking about you.'	-- It is good to see you again, $C $N.  Dornaa has been asking about you.
-WHERE `entry`=10742;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It is good to see you again, $C $N.  Dornaa has been asking about you.'	-- It is good to see you again, $C $N.  Dornaa has been asking about you.
+-- WHERE `entry`=10742;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The conflicts in Outland are deadlier than any I have seen.  And their most tragic victims are the children that are left behind.$B$BNow, with the threat against Shattrath from the arakkoa of Skettis, there will be even more orphans to take care of.  These children often live without the hope of a bright future.'	-- The conflicts in Outland are deadlier than any I have seen.  And their most tragic victims are the children that are left behind.$B$BNow, with the threat against Shattrath from the arakkoa of Skettis, there will be even more orphans to take care of.  These children often live without the hope of a bright future.
-WHERE `entry`=10744;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The conflicts in Outland are deadlier than any I have seen.  And their most tragic victims are the children that are left behind.$B$BNow, with the threat against Shattrath from the arakkoa of Skettis, there will be even more orphans to take care of.  These children often live without the hope of a bright future.'	-- The conflicts in Outland are deadlier than any I have seen.  And their most tragic victims are the children that are left behind.$B$BNow, with the threat against Shattrath from the arakkoa of Skettis, there will be even more orphans to take care of.  These children often live without the hope of a bright future.
+-- WHERE `entry`=10744;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<这个德鲁伊好像深深沉睡了，对周遭全无反应。>'	-- <The druid appears to be deep in sleep, oblivious to his surroundings.>
@@ -5430,13 +5430,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这里的哈纳什知道怎么使用法杖。如果你想找一个更强健的教师，就去雷霆崖，安塞瓦会在中部高地底层教你。'	-- Hanashi here knows staves. If you want a sturdier instructor, go to Thunder Bluff. Ansekhwa will teach you on the lower central rise there.
 WHERE `entry`=10788;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If you haven''t come to train, step back and leave me to my work.'	-- If you haven't come to train, step back and leave me to my work.
-WHERE `entry`=10789;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If you haven''t come to train, step back and leave me to my work.'	-- If you haven't come to train, step back and leave me to my work.
+-- WHERE `entry`=10789;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I can''t see why you want to learn something else... but I suppose I can point you in the right direction. What training are you after, specifically?'	-- I can't see why you want to learn something else... but I suppose I can point you in the right direction. What training are you after, specifically?
-WHERE `entry`=10790;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I can''t see why you want to learn something else... but I suppose I can point you in the right direction. What training are you after, specifically?'	-- I can't see why you want to learn something else... but I suppose I can point you in the right direction. What training are you after, specifically?
+-- WHERE `entry`=10790;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='当心那些包围我们四方的以太皇族。'	-- Be wary of the Ethereum that surround us on all sides.
@@ -5447,17 +5447,17 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Come and I will show you how to ride the finest beasts you have ever seen. You... do have enough gold to cover the cost, I trust?'	-- Come and I will show you how to ride the finest beasts you have ever seen. You... do have enough gold to cover the cost, I trust?
 WHERE `entry`=10792;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to the Evergrove, $c. Timeon and I have been studying the arakkoa of Blade''s Edge for some time now, and we''ve found some alarming differences between them and their cousins in Terokkar.'	-- Welcome to the Evergrove, $c. Timeon and I have been studying the arakkoa of Blade's Edge for some time now, and we've found some alarming differences between them and their cousins in Terokkar.
-WHERE `entry`=10793;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to the Evergrove, $c. Timeon and I have been studying the arakkoa of Blade''s Edge for some time now, and we''ve found some alarming differences between them and their cousins in Terokkar.'	-- Welcome to the Evergrove, $c. Timeon and I have been studying the arakkoa of Blade's Edge for some time now, and we've found some alarming differences between them and their cousins in Terokkar.
+-- WHERE `entry`=10793;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='忠实的信徒们一直活在羞耻中，自从我们位于司凯堤斯那些背叛的族人从我们身边偷走圣典，打碎它的石板，并在他们那个卑鄙的城市将碎片烧毁！$B$B祈祷乌鸦将选中你来取回圣典，我的儿子。要有信心并永远记取预言，「乌鸦重回这个世界将始于敌人之梦。」'	-- The true believers have lived in shame since the day our treacherous cousins in Skettis stole the book from us, shattered its tablet, and buried the fragments in their wretched city!$B$BPray that the raven will choose you to restore it, my son. Be faithful and remember always the prophecy, "From the dreams of his enemies shall the raven spring forth into the world."
 WHERE `entry`=10796;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You go see Mog''dorg?'	-- You go see Mog'dorg?
-WHERE `entry`=10798;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You go see Mog''dorg?'	-- You go see Mog'dorg?
+-- WHERE `entry`=10798;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我正在寻找一名技艺超群的英雄。$G他:她;将召集其他人拯救血槌氏族，并从戈隆的残暴统治下解放生活在刀锋山的所有食人魔氏族。$B$B当你了解到更多的知识之后再来找我吧。但是，$C，在此之前请你保持低调，以免被戈隆察觉到我们的动机。'	-- I seek a $g hero : heroine; of the utmost skill.  $G He : She; will gather others to save the Bloodmaul clan, and all of the ogres of these mountains from the tyranny of our gronn oppressors.$B$BReturn to me when you have learned all that you can.  But, $c, keep quiet about this until that time lest the gronn get wind of our underground movement.
@@ -5475,25 +5475,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我的眼睛会欺骗我吗？那真的是你吗，洛卡拉姆兄弟，在过了这些时日之后？$B$B如果你要找塞可，他就在漩涡尖塔西侧的水晶之间走来走去。他好像专注于那里一个他称之作残酷，原始的鬼魂，虽然好像没有任何不对劲。'	-- Do my eyes deceive me? Is that really you, Brother Rokkaram, after all this time?$B$BIf you are looking for Sai'kkal, he walks among the crystals in the western part of the Vortex Pinnacle. He seems preoccupied with what he calls a brutish, primitive presence there, although nothing seems amiss.
 WHERE `entry`=10807;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Ya may know a thing or two about handlin'' animals, but have ya ever taken ta the skies? We Wildhammers know how ta ride the wind with the best of ''em. Fer a small fee, if ya''ve got the mettle, I''ll train ya good and proper.'	-- Ya may know a thing or two about handlin' animals, but have ya ever taken ta the skies? We Wildhammers know how ta ride the wind with the best of 'em. Fer a small fee, if ya've got the mettle, I'll train ya good and proper.
-WHERE `entry`=10808;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Ya may know a thing or two about handlin'' animals, but have ya ever taken ta the skies? We Wildhammers know how ta ride the wind with the best of ''em. Fer a small fee, if ya''ve got the mettle, I''ll train ya good and proper.'	-- Ya may know a thing or two about handlin' animals, but have ya ever taken ta the skies? We Wildhammers know how ta ride the wind with the best of 'em. Fer a small fee, if ya've got the mettle, I'll train ya good and proper.
+-- WHERE `entry`=10808;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你看起来好像对你周遭的陆行性动物很有一套的样子，不过如果你想要飞起，就需要训练及专心一致。还有金钱。你有金钱，对吧？'	-- You look like you may know your way around a beast that runs on land, but if you want to soar, it'll take training and dedication. And gold. You have gold, right?
 WHERE `entry`=10817;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Fine beasts, aren''t they? The wyverns we raise here are trained to handle the fiercest and strangest weather conditions Draenor has to offer. You''ll find them dependable and hardy.'	-- Fine beasts, aren't they? The wyverns we raise here are trained to handle the fiercest and strangest weather conditions Draenor has to offer. You'll find them dependable and hardy.
-WHERE `entry`=10818;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Fine beasts, aren''t they? The wyverns we raise here are trained to handle the fiercest and strangest weather conditions Draenor has to offer. You''ll find them dependable and hardy.'	-- Fine beasts, aren't they? The wyverns we raise here are trained to handle the fiercest and strangest weather conditions Draenor has to offer. You'll find them dependable and hardy.
+-- WHERE `entry`=10818;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='等我长大我要成为一位制皮匠！'	-- When I grow up I wanna be a tanner!
 WHERE `entry`=10821;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='There have been some complaints filed about this... individual. I''m told he''s something of a shady character. I am here to determine whether or not this business of his is legitimate... and take action if it proves otherwise.'	-- There have been some complaints filed about this... individual. I'm told he's something of a shady character. I am here to determine whether or not this business of his is legitimate... and take action if it proves otherwise.
-WHERE `entry`=10830;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='There have been some complaints filed about this... individual. I''m told he''s something of a shady character. I am here to determine whether or not this business of his is legitimate... and take action if it proves otherwise.'	-- There have been some complaints filed about this... individual. I'm told he's something of a shady character. I am here to determine whether or not this business of his is legitimate... and take action if it proves otherwise.
+-- WHERE `entry`=10830;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你设法集满了全套的风暴套卡你就会得到愤怒之高级暗月卡片。这将会增加你法术或物理攻击的致命一击机率直到击杀为止。'	-- If you manage to complete a deck of Storms cards you will be rewarded with a Greater Darkmoon card of Wrath.   This will increase your chance to get a critical hit with spells or physical attacks until you achieve one.
@@ -5515,13 +5515,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好！$N'	-- Be wary, friends. The Betrayer meditates in the court just beyond.
 WHERE `entry`=10835;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Shh! Keep your voice down. The babes are sleeping.'	-- Shh! Keep your voice down. The babes are sleeping.
-WHERE `entry`=10837;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Shh! Keep your voice down. The babes are sleeping.'	-- Shh! Keep your voice down. The babes are sleeping.
+-- WHERE `entry`=10837;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You better wake up real quick, rookie.  This isn''t our cushy backyard outside of Skettis; this is the Blade''s Edge Mountains!  One false move and it''s crash and burn!'	-- You better wake up real quick, rookie.  This isn't our cushy backyard outside of Skettis; this is the Blade's Edge Mountains!  One false move and it's crash and burn!
-WHERE `entry`=10841;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You better wake up real quick, rookie.  This isn''t our cushy backyard outside of Skettis; this is the Blade''s Edge Mountains!  One false move and it''s crash and burn!'	-- You better wake up real quick, rookie.  This isn't our cushy backyard outside of Skettis; this is the Blade's Edge Mountains!  One false move and it's crash and burn!
+-- WHERE `entry`=10841;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你没将这里当你的家。或许你想吃点什么东西？'	-- You no make dis your home. Maybe you want eat someting?
@@ -5579,9 +5579,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这个颅骨堆发出恶劣的恶臭。你担心阿拉卡最近在这骨堆上施加了其他的东西。'	-- The pile of skulls reeks of foulness.  You fear the arakkoa have made an addition to the pile fairly recently.
 WHERE `entry`=10888;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If you''re looking for gadgets, doodads, thingamajigs, widgets, whatsis, dohickeys, or gizmos, you''ve come to the right place!'	-- If you're looking for gadgets, doodads, thingamajigs, widgets, whatsis, dohickeys, or gizmos, you've come to the right place!
-WHERE `entry`=10889;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If you''re looking for gadgets, doodads, thingamajigs, widgets, whatsis, dohickeys, or gizmos, you''ve come to the right place!'	-- If you're looking for gadgets, doodads, thingamajigs, widgets, whatsis, dohickeys, or gizmos, you've come to the right place!
+-- WHERE `entry`=10889;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你看起来很眼熟……'	-- You look familiar...
@@ -5607,9 +5607,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='喔，你喜欢我的眼罩对吧？好吧，只是确认一下你不需要自己戴一个$G少年:少女;。'	-- Oh, ye like me eyepatch now do ya?  Well, just make sure that ya don't have ta be wearing one yerself now $g boyo : girly;.
 WHERE `entry`=10906;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Huh?  What?  I''m a little busy here, friend!$B$BOf course, if you''re here to help, I''ve got all the time in the world.'	-- Huh?  What?  I'm a little busy here, friend!$B$BOf course, if you're here to help, I've got all the time in the world.
-WHERE `entry`=10907;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Huh?  What?  I''m a little busy here, friend!$B$BOf course, if you''re here to help, I''ve got all the time in the world.'	-- Huh?  What?  I'm a little busy here, friend!$B$BOf course, if you're here to help, I've got all the time in the world.
+-- WHERE `entry`=10907;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='恶魔水晶熔炉可以用来转换你的顶尖裂片为野兽的不稳定精链药剂。这些药水能让饮用者更加敏捷，更加强壮而且精力充沛。$B$B在下面当中选一个吧。'	-- The fel crystalforge can be used to transform your apexis shards into unstable flasks of the beast.  These flasks make the imbiber more agile, stronger and heartier.$B$BMake your choice, below.
@@ -5667,9 +5667,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N破坏了迁跃门，做得好！但是恶魔又修复了被毁坏的迁跃门。$B$B$N，只要你给甘克另一枚黑暗符印，甘克就为你制作晶铸黑暗符印！'	-- $N smash warp-gate good, but da demons make it strong again.$B$B$N bring Gahk another darkrune and Gahk make special crystalforged darkrune for $N!
 WHERE `entry`=10925;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to Ogri''la, $c.$B$BThe ogres here have managed to gain a great mental acuity through the magical emanations of the surrounding crystals.  Though we do not fully understand how they work, we have come to appreciate our new home and only want to live in peace.$B$BUnfortunate then that the demons and ethereals, and especially the Black Dragonflight, will not leave us to that peace.'	-- Welcome to Ogri'la, $c.$B$BThe ogres here have managed to gain a great mental acuity through the magical emanations of the surrounding crystals.  Though we do not fully understand how they work, we have come to appreciate our new home and only want to live in peace.$B$BUnfortunate then that the demons and ethereals, and especially the Black Dragonflight, will not leave us to that peace.
-WHERE `entry`=10926;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to Ogri''la, $c.$B$BThe ogres here have managed to gain a great mental acuity through the magical emanations of the surrounding crystals.  Though we do not fully understand how they work, we have come to appreciate our new home and only want to live in peace.$B$BUnfortunate then that the demons and ethereals, and especially the Black Dragonflight, will not leave us to that peace.'	-- Welcome to Ogri'la, $c.$B$BThe ogres here have managed to gain a great mental acuity through the magical emanations of the surrounding crystals.  Though we do not fully understand how they work, we have come to appreciate our new home and only want to live in peace.$B$BUnfortunate then that the demons and ethereals, and especially the Black Dragonflight, will not leave us to that peace.
+-- WHERE `entry`=10926;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='On behalf of all of Ogri''la, we give you thanks for your efforts, $N.$B$B<Chu''a''lor''s left head nods while his right head smiles at you.>$B$BAnd do not forget that by helping us here you are also helping to protect our brethren down below whom you have become like a $g king : queen; to.'	-- On behalf of all of Ogri'la, we give you thanks for your efforts, $N.$B$B<Chu'a'lor's left head nods while his right head smiles at you.>$B$BAnd do not forget that by helping us here you are also helping to protect our brethren down below whom you have become like a $g king : queen; to.
@@ -5688,9 +5688,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这颗蛋看起来似乎像黑龙军团的蛋一样有弹性。或许如果你放置大量的顶尖裂片在蛋周边的话，裂片本身的震动会使它裂开？$B$B很遗憾的是你好像没有进行这项工作所需要的35片裂片可以这么做。'	-- The egg appears resilient as an egg of the Black Dragonflight rightfully should.  Perhaps if you were to place a great many apexis shards next to it, their vibrations would cause it to crack open?$B$BToo bad that you don't appear to have the thirty-five apexis shards necessary to do the job.
 WHERE `entry`=10932;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='<Angela coos to the felhunter again before turning her attention to you.>$B$BJir''see''s always been smaller than all the other felhunters, but that''s never bothered him. And Outland''s going to change all that, right Jir''see?$B$BMomma''s little angel is going to grow up to be a big, fierce felhunter, yes he is!'	-- <Angela coos to the felhunter again before turning her attention to you.>$B$BJir'see's always been smaller than all the other felhunters, but that's never bothered him. And Outland's going to change all that, right Jir'see?$B$BMomma's little angel is going to grow up to be a big, fierce felhunter, yes he is!
-WHERE `entry`=10934;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='<Angela coos to the felhunter again before turning her attention to you.>$B$BJir''see''s always been smaller than all the other felhunters, but that''s never bothered him. And Outland''s going to change all that, right Jir''see?$B$BMomma''s little angel is going to grow up to be a big, fierce felhunter, yes he is!'	-- <Angela coos to the felhunter again before turning her attention to you.>$B$BJir'see's always been smaller than all the other felhunters, but that's never bothered him. And Outland's going to change all that, right Jir'see?$B$BMomma's little angel is going to grow up to be a big, fierce felhunter, yes he is!
+-- WHERE `entry`=10934;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你在这会找到很多事可以做，$N。'	-- You'll find plenty to do here, $N.
@@ -5700,9 +5700,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='啊，你现在在忙对吧？！我不知道要怎么感激你轰炸那些恶魔还有帮我们补充坐骑才好。$B$B你让我们所有的工作更加便利了。保持良好的工作，$G小伙子:少女;！'	-- Ack, ye've been busy now haven't ye?!  I canna thank ye enough for bombing them demons and resupplying us with mounts.$B$BYer making our job all the more easier.  Keep up the good work, $g laddy : lassie;!
 WHERE `entry`=10938;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We must re-establish our stranglehold on these mines!'	-- We must re-establish our stranglehold on these mines!
-WHERE `entry`=10939;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We must re-establish our stranglehold on these mines!'	-- We must re-establish our stranglehold on these mines!
+-- WHERE `entry`=10939;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我一定要马上离开这个地方！'	-- I must leave this place at once!
@@ -5752,9 +5752,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好$G兄弟:姐妹;。我们可以怎么帮助你呢？'	-- Greetings $G brother:sister;. How can we be of service?
 WHERE `entry`=10966;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='How can we help you?'	-- How can we help you?
-WHERE `entry`=10967;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='How can we help you?'	-- How can we help you?
+-- WHERE `entry`=10967;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们的食物能令最强大的勇士赞不绝口。'	-- Our food should satisfy even the mightiest of hungers.
@@ -5768,9 +5768,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们为你准备了盛宴，朋友。'	-- We have quite the feast for you friend.
 WHERE `entry`=10975;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What tasty treats can we offer you?'	-- What tasty treats can we offer you?
-WHERE `entry`=10976;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What tasty treats can we offer you?'	-- What tasty treats can we offer you?
+-- WHERE `entry`=10976;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好。当你在萨塔御天者的官阶晋升时，我就能够提供你直接飞行到我们位于剑刃山脉上的基地，御天者前哨。'	-- Good day to you.  When you've risen a bit more in the ranks of the Sha'tari Skyguard, I will be able offer you a direct flight to the Skyguard Outpost, our base atop the Blade's Edge Mountains.
@@ -5784,37 +5784,37 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='就是这股精神，$G小伙子:小姑娘;！你让我们大家对你的作为感到骄傲！$B$B你知道的，如果你想要快速的抵达我们在斯其索山脉的另一个基地的话，到下面去跟御天者管理者艾瑞娜谈谈。她会让你好好的起飞。'	-- That's the spirit, $g laddy : lassie;!  Yer making all of us proud with all o' the work ye be doing!$B$BAnd ya know, if ya want a quick trip ta our other base in the Skethyl Mountains, go down an talk ta Skyguard Handler Irena.  She'll set ya up nicely.
 WHERE `entry`=10989;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I see that you''ve been putting in your time around here, $c.$B$BPut in more; the demons aren''t gone yet, rookie.'	-- I see that you've been putting in your time around here, $c.$B$BPut in more; the demons aren't gone yet, rookie.
-WHERE `entry`=10992;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I see that you''ve been putting in your time around here, $c.$B$BPut in more; the demons aren''t gone yet, rookie.'	-- I see that you've been putting in your time around here, $c.$B$BPut in more; the demons aren't gone yet, rookie.
+-- WHERE `entry`=10992;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Your name seems to be on everyone''s lips around the outpost.  Don''t let it get to your head; I know that you can do better!$B$BI''ll be watching you, rookie.'	-- Your name seems to be on everyone's lips around the outpost.  Don't let it get to your head; I know that you can do better!$B$BI'll be watching you, rookie.
-WHERE `entry`=10994;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Your name seems to be on everyone''s lips around the outpost.  Don''t let it get to your head; I know that you can do better!$B$BI''ll be watching you, rookie.'	-- Your name seems to be on everyone's lips around the outpost.  Don't let it get to your head; I know that you can do better!$B$BI'll be watching you, rookie.
+-- WHERE `entry`=10994;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Alright, I admit it, you''ve proven yourself and then some, $N.$B$BIf I was hard on you before it was because I saw the spark of a true Skyguard within you.  I dare say that you''re the finest ace that we have!$B$BAnytime that you want to help out, I''ll be more than proud to hand you another set of bombs.'	-- Alright, I admit it, you've proven yourself and then some, $N.$B$BIf I was hard on you before it was because I saw the spark of a true Skyguard within you.  I dare say that you're the finest ace that we have!$B$BAnytime that you want to help out, I'll be more than proud to hand you another set of bombs.
-WHERE `entry`=10995;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Alright, I admit it, you''ve proven yourself and then some, $N.$B$BIf I was hard on you before it was because I saw the spark of a true Skyguard within you.  I dare say that you''re the finest ace that we have!$B$BAnytime that you want to help out, I''ll be more than proud to hand you another set of bombs.'	-- Alright, I admit it, you've proven yourself and then some, $N.$B$BIf I was hard on you before it was because I saw the spark of a true Skyguard within you.  I dare say that you're the finest ace that we have!$B$BAnytime that you want to help out, I'll be more than proud to hand you another set of bombs.
+-- WHERE `entry`=10995;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hey there, $c!$B$B<Khatie looks at you slyly.>$B$BAnytime you want to wrangle us up some more aether rays, you make sure to come and see me!'	-- Hey there, $c!$B$B<Khatie looks at you slyly.>$B$BAnytime you want to wrangle us up some more aether rays, you make sure to come and see me!
-WHERE `entry`=10997;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hey there, $c!$B$B<Khatie looks at you slyly.>$B$BAnytime you want to wrangle us up some more aether rays, you make sure to come and see me!'	-- Hey there, $c!$B$B<Khatie looks at you slyly.>$B$BAnytime you want to wrangle us up some more aether rays, you make sure to come and see me!
+-- WHERE `entry`=10997;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你在找什么？'	-- What are you looking for?
 WHERE `entry`=11000;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You know, $N, it''s such an honor to work with you!$B$BWhen you''re not busy wrangling, maybe we could $g go out some place for dinner? : get together for a girl''s night?;$B$BOh, did I mention that we can now get you to our base in the Skethyl Mountains real quick?  If you want, speak with Skyguard Handler Irena about that.'	-- You know, $N, it's such an honor to work with you!$B$BWhen you're not busy wrangling, maybe we could $g go out some place for dinner? : get together for a girl's night?;$B$BOh, did I mention that we can now get you to our base in the Skethyl Mountains real quick?  If you want, speak with Skyguard Handler Irena about that.
-WHERE `entry`=11001;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You know, $N, it''s such an honor to work with you!$B$BWhen you''re not busy wrangling, maybe we could $g go out some place for dinner? : get together for a girl''s night?;$B$BOh, did I mention that we can now get you to our base in the Skethyl Mountains real quick?  If you want, speak with Skyguard Handler Irena about that.'	-- You know, $N, it's such an honor to work with you!$B$BWhen you're not busy wrangling, maybe we could $g go out some place for dinner? : get together for a girl's night?;$B$BOh, did I mention that we can now get you to our base in the Skethyl Mountains real quick?  If you want, speak with Skyguard Handler Irena about that.
+-- WHERE `entry`=11001;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='So, you''ve been around a lot, but we seem to keep missing each other for getting together after work.$B$BIs it me?$B$B<Khatie purposely cheers up.>$B$BAnyway, I just wanted to say that I... we really appreciate everything that you''ve been doing for the Skyguard!'	-- So, you've been around a lot, but we seem to keep missing each other for getting together after work.$B$BIs it me?$B$B<Khatie purposely cheers up.>$B$BAnyway, I just wanted to say that I... we really appreciate everything that you've been doing for the Skyguard!
-WHERE `entry`=11002;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='So, you''ve been around a lot, but we seem to keep missing each other for getting together after work.$B$BIs it me?$B$B<Khatie purposely cheers up.>$B$BAnyway, I just wanted to say that I... we really appreciate everything that you''ve been doing for the Skyguard!'	-- So, you've been around a lot, but we seem to keep missing each other for getting together after work.$B$BIs it me?$B$B<Khatie purposely cheers up.>$B$BAnyway, I just wanted to say that I... we really appreciate everything that you've been doing for the Skyguard!
+-- WHERE `entry`=11002;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I hope you don''t think I''m a stalker, or anything like that, $N.$B$BI mean, I know that you''re real famous within the Skyguard now, and well... I''m sure that you wouldn''t want to hang out with a lowly peon like me.$B$BBut, if you ever want to get together to just hang out, or even wrangle some more rays, drop by anytime!  I''ll be here.$B$BI miss you...'	-- I hope you don't think I'm a stalker, or anything like that, $N.$B$BI mean, I know that you're real famous within the Skyguard now, and well... I'm sure that you wouldn't want to hang out with a lowly peon like me.$B$BBut, if you ever want to get together to just hang out, or even wrangle some more rays, drop by anytime!  I'll be here.$B$BI miss you...
-WHERE `entry`=11004;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I hope you don''t think I''m a stalker, or anything like that, $N.$B$BI mean, I know that you''re real famous within the Skyguard now, and well... I''m sure that you wouldn''t want to hang out with a lowly peon like me.$B$BBut, if you ever want to get together to just hang out, or even wrangle some more rays, drop by anytime!  I''ll be here.$B$BI miss you...'	-- I hope you don't think I'm a stalker, or anything like that, $N.$B$BI mean, I know that you're real famous within the Skyguard now, and well... I'm sure that you wouldn't want to hang out with a lowly peon like me.$B$BBut, if you ever want to get together to just hang out, or even wrangle some more rays, drop by anytime!  I'll be here.$B$BI miss you...
+-- WHERE `entry`=11004;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这些圣物真是一个伟大的谜团。或许借由常态性的研究，你将会对他们的效用得到一个更好的评价。'	-- The relics are truly a great mystery.  Perhaps by studying them regularly, you will gain a finer appreciation of their capabilities.
@@ -5852,13 +5852,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='哈罗朋友！我们能为你做点什么吗？'	-- Hello friend! What can we do for you?
 WHERE `entry`=11025;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We are here to help.'	-- We are here to help.
-WHERE `entry`=11026;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We are here to help.'	-- We are here to help.
+-- WHERE `entry`=11026;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You having a good time here with us in Ogri''la?$B$BWe have a lot of stuff that our ogres are making, day and night.  We save the best to sell to our coolest guests like you!$B$BSo, as you''re out there doing your thing, and making the mountains a safer place, stop by from time to time to see what we have.$B$BGood luck out there, $g man : chicky;.'	-- You having a good time here with us in Ogri'la?$B$BWe have a lot of stuff that our ogres are making, day and night.  We save the best to sell to our coolest guests like you!$B$BSo, as you're out there doing your thing, and making the mountains a safer place, stop by from time to time to see what we have.$B$BGood luck out there, $g man : chicky;.
-WHERE `entry`=11029;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You having a good time here with us in Ogri''la?$B$BWe have a lot of stuff that our ogres are making, day and night.  We save the best to sell to our coolest guests like you!$B$BSo, as you''re out there doing your thing, and making the mountains a safer place, stop by from time to time to see what we have.$B$BGood luck out there, $g man : chicky;.'	-- You having a good time here with us in Ogri'la?$B$BWe have a lot of stuff that our ogres are making, day and night.  We save the best to sell to our coolest guests like you!$B$BSo, as you're out there doing your thing, and making the mountains a safer place, stop by from time to time to see what we have.$B$BGood luck out there, $g man : chicky;.
+-- WHERE `entry`=11029;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<霸主莫格行礼。>'	-- <Overlord Mor'ghor salutes.>
@@ -5881,9 +5881,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Leave off. I don''t have anything for the likes of you.'	-- Leave off. I don't have anything for the likes of you.
 WHERE `entry`=11042;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What mysteries of the trade can I help you uncover today?'	-- What mysteries of the trade can I help you uncover today?
-WHERE `entry`=11045;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What mysteries of the trade can I help you uncover today?'	-- What mysteries of the trade can I help you uncover today?
+-- WHERE `entry`=11045;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='过来，过来。要是你已经准备好了上好的皮革，我会让你看看怎么制作有用的物品。'	-- Come, come. If you've properly prepared your leather for once, I'll show you how to fashion serviceable items.
@@ -5907,9 +5907,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='一股恐怖，黑暗的能量从这个颅骨堆中散发出来。'	-- A terrible, dark energy emanates from this pile of skulls.
 WHERE `entry`=11058;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Need supplies for the field?'	-- Need supplies for the field?
-WHERE `entry`=11059;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Need supplies for the field?'	-- Need supplies for the field?
+-- WHERE `entry`=11059;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='需要补充一些用品吗？'	-- Need to requisition some supplies?
@@ -5974,17 +5974,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你在这做什么？你还想要污辱这一家人的骨灰吗？快离开，这里不欢迎你。'	-- I will accept your help in this inspection, $c. Do not assume that I will trust your findings or your motives without my own verification.
 WHERE `entry`=11128;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Headless Horseman''s undead mind is obsessed!  During Hallow''s End, his attacks on this village are frequent, and terrible.'	-- The Headless Horseman's undead mind is obsessed!  During Hallow's End, his attacks on this village are frequent, and terrible.
-WHERE `entry`=11143;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Headless Horseman''s undead mind is obsessed!  During Hallow''s End, his attacks on this village are frequent, and terrible.'	-- The Headless Horseman's undead mind is obsessed!  During Hallow's End, his attacks on this village are frequent, and terrible.
+-- WHERE `entry`=11143;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Headless Horseman attacks the village!  Someone must save the children and stop him!'	-- The Headless Horseman attacks the village!  Someone must save the children and stop him!
-WHERE `entry`=11145;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Headless Horseman attacks the village!  Someone must save the children and stop him!'	-- The Headless Horseman attacks the village!  Someone must save the children and stop him!
+-- WHERE `entry`=11145;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We are free of the Headless Horseman''s terror, for now.  We may breathe easy again, but until he can be defeated while joined with his head, he may return.'	-- We are free of the Headless Horseman's terror, for now.  We may breathe easy again, but until he can be defeated while joined with his head, he may return.
-WHERE `entry`=11147;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We are free of the Headless Horseman''s terror, for now.  We may breathe easy again, but until he can be defeated while joined with his head, he may return.'	-- We are free of the Headless Horseman's terror, for now.  We may breathe easy again, but until he can be defeated while joined with his head, he may return.
+-- WHERE `entry`=11147;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='事实上，我不确定飞艇现在在哪……'	-- I'm not sure where the zeppelin is right now, actually...
@@ -6031,9 +6031,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='The zeppelin should have just departed from Undercity.'	-- The zeppelin should have just departed from Undercity.
 WHERE `entry`=11175;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Headless Horseman attacks!  The fires threaten to consume the whole village!  What will we do?'	-- The Headless Horseman attacks!  The fires threaten to consume the whole village!  What will we do?
-WHERE `entry`=11177;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Headless Horseman attacks!  The fires threaten to consume the whole village!  What will we do?'	-- The Headless Horseman attacks!  The fires threaten to consume the whole village!  What will we do?
+-- WHERE `entry`=11177;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='飞艇应该才刚抵达幽暗城而已。'	-- The zeppelin should just have arrived at Undercity.
@@ -6084,25 +6084,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我只能假定你知道我是谁。而且还一直打扰我？$B$B你究竟想要我注意什么？'	-- I can only assume that you know who I am. And yet you insist on disturbing me?$b$bWhat could you possibly want that requires my attention?
 WHERE `entry`=11217;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I highly recommend that you visit Sayge to get your fortune told. I know, I know... he''s a gnoll.  But he''s a very special gnoll with the power to divine your future!$B$BAnd we are constantly expanding the faire with all manner of new attractions!'	-- I highly recommend that you visit Sayge to get your fortune told. I know, I know... he's a gnoll.  But he's a very special gnoll with the power to divine your future!$B$BAnd we are constantly expanding the faire with all manner of new attractions!
-WHERE `entry`=11220;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I highly recommend that you visit Sayge to get your fortune told. I know, I know... he''s a gnoll.  But he''s a very special gnoll with the power to divine your future!$B$BAnd we are constantly expanding the faire with all manner of new attractions!'	-- I highly recommend that you visit Sayge to get your fortune told. I know, I know... he's a gnoll.  But he's a very special gnoll with the power to divine your future!$B$BAnd we are constantly expanding the faire with all manner of new attractions!
+-- WHERE `entry`=11220;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='好吧，$C，听我说。我的实际年龄比外表所显示出来的更大，我还拥有超越年龄的智慧。你最好别怀疑我所说的。$B当然，若是你不相信我的话呢，就去看看城镇中招贴的公告牌吧。每张上面都写着我的名字！$B$B不过嘛，标有“通缉”字样的公告牌请直接无视吧。我向你保证，那只是误会。'	-- Yes, well, listen here, $c. I'm older than I look and wise beyond my years. You'd do well not to question me so much.Look, you don't need to take my word for it. Read the postings on any local bulletin board for yourself. I'm everywhere!$b$bJust do yourself a favor and ignore the ones with 'WANTED' in the title. Simple misunderstandings, I assure you.
 WHERE `entry`=11221;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What''ll it be, sweety?'	-- What'll it be, sweety?
-WHERE `entry`=11230;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What''ll it be, sweety?'	-- What'll it be, sweety?
+-- WHERE `entry`=11230;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Oh, me a cook?  I suppose that''s true.  A barmaid''s got to work in the kitchens from time to time, and I''ve learned a few recipes over the years.  Nothing too special, but they''re hearty enough to fill Grok''s substantial belly.'	-- Oh, me a cook?  I suppose that's true.  A barmaid's got to work in the kitchens from time to time, and I've learned a few recipes over the years.  Nothing too special, but they're hearty enough to fill Grok's substantial belly.
-WHERE `entry`=11231;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Oh, me a cook?  I suppose that''s true.  A barmaid''s got to work in the kitchens from time to time, and I''ve learned a few recipes over the years.  Nothing too special, but they''re hearty enough to fill Grok''s substantial belly.'	-- Oh, me a cook?  I suppose that's true.  A barmaid's got to work in the kitchens from time to time, and I've learned a few recipes over the years.  Nothing too special, but they're hearty enough to fill Grok's substantial belly.
+-- WHERE `entry`=11231;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''m sorry $N, but you''ve already learned all I know about cooking.  Of course, you never know when our cooks will whip up something new, so don''t be shy and be sure to visit again some time.'	-- I'm sorry $N, but you've already learned all I know about cooking.  Of course, you never know when our cooks will whip up something new, so don't be shy and be sure to visit again some time.
-WHERE `entry`=11233;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''m sorry $N, but you''ve already learned all I know about cooking.  Of course, you never know when our cooks will whip up something new, so don''t be shy and be sure to visit again some time.'	-- I'm sorry $N, but you've already learned all I know about cooking.  Of course, you never know when our cooks will whip up something new, so don't be shy and be sure to visit again some time.
+-- WHERE `entry`=11233;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我的兄弟克里克斯克觉得他在奥格玛的工作不好。没有比这个地方更臭了。至少老板知情理付我安全费用！$B$B什么？你想看看飞艇在哪了？我这有好东西飞艇追踪器！'	-- My brother Krixx thinks he has it bad working in Orgrimmar. Nothing compares to the stench of this place. At least the boss had the decency to give me hazard pay!$B$BWhat? Do you want to see where the zeppelin is? Good thing I've got my zeppelin tracker right here!
@@ -6137,9 +6137,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='听着，朋友！$B$B我会把我知道的一切都告诉你，但你得先把我从这个恐怖的地方救出去！$B$B怎么样？'	-- Listen, mon!$b$bI tell ya all I be knowin', but first ya gotta be savin' me from these savages and their killer bears.$b$bDeal?
 WHERE `entry`=11279;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''ve never experienced cold like this, $r. Even in the absence of ice and snow, the frozen wastes of Northrend are extremely taxing.'	-- I've never experienced cold like this, $r. Even in the absence of ice and snow, the frozen wastes of Northrend are extremely taxing.
-WHERE `entry`=11285;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''ve never experienced cold like this, $r. Even in the absence of ice and snow, the frozen wastes of Northrend are extremely taxing.'	-- I've never experienced cold like this, $r. Even in the absence of ice and snow, the frozen wastes of Northrend are extremely taxing.
+-- WHERE `entry`=11285;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你……好似有点面熟。我以前在哪儿见过你吗？'	-- Say, you look familiar. Have we met?
@@ -6228,13 +6228,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='皇家药剂师协会欢迎你来到诺森德，$C。你愿意为我们伟大的希尔瓦娜斯女王陛下做些什么呢？'	-- The Royal Apothecary Society welcomes you to Northrend, $c.  Now, what is it that you will do to aid us in Sylvanas' service?
 WHERE `entry`=11384;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The situation out here is worse than I thought! The zeppelin is little better than a heap of twisted metal and burning fuel!'	-- The situation out here is worse than I thought! The zeppelin is little better than a heap of twisted metal and burning fuel!
-WHERE `entry`=11403;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The situation out here is worse than I thought! The zeppelin is little better than a heap of twisted metal and burning fuel!'	-- The situation out here is worse than I thought! The zeppelin is little better than a heap of twisted metal and burning fuel!
+-- WHERE `entry`=11403;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to Theramore, $c.'	-- Welcome to Theramore, $c.
-WHERE `entry`=11406;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to Theramore, $c.'	-- Welcome to Theramore, $c.
+-- WHERE `entry`=11406;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='除非紧急，我没那么多时间聊天，老百姓。塞拉摩的门户就是我最大的责任。'	-- I haven't much time to talk unless it's urgent, citizen. The gates of Theramore are my greatest responsibility.
@@ -6248,9 +6248,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎来到塞拉摩。'	-- Welcome to Theramore.
 WHERE `entry`=11457;
 
-UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='What enchantments interest you today, $c?'	-- What enchantments interest you today, $c?
-WHERE `entry`=11458;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_0_loc4`='What enchantments interest you today, $c?'	-- What enchantments interest you today, $c?
+-- WHERE `entry`=11458;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_1_loc4`='UDB missing US text'	-- UDB missing US text
@@ -6260,25 +6260,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='很高兴见到你，$C。'	-- Pleased to meet you, $c.
 WHERE `entry`=11469;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='There are eight types of Darkmoon Cards; Beasts, Blessings, Elementals, Furies, Lunacy, Portals, Storms and Warlords, with eight cards, Ace to Eight in each suit. If you collect all eight of one suit then you can turn them into a deck that you can give to our Professor Thaddeus Paleo in exchange for a powerful trinket.$B'	-- There are eight types of Darkmoon Cards; Beasts, Blessings, Elementals, Furies, Lunacy, Portals, Storms and Warlords, with eight cards, Ace to Eight in each suit. If you collect all eight of one suit then you can turn them into a deck that you can give to our Professor Thaddeus Paleo in exchange for a powerful trinket.$B
-WHERE `entry`=11472;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='There are eight types of Darkmoon Cards; Beasts, Blessings, Elementals, Furies, Lunacy, Portals, Storms and Warlords, with eight cards, Ace to Eight in each suit. If you collect all eight of one suit then you can turn them into a deck that you can give to our Professor Thaddeus Paleo in exchange for a powerful trinket.$B'	-- There are eight types of Darkmoon Cards; Beasts, Blessings, Elementals, Furies, Lunacy, Portals, Storms and Warlords, with eight cards, Ace to Eight in each suit. If you collect all eight of one suit then you can turn them into a deck that you can give to our Professor Thaddeus Paleo in exchange for a powerful trinket.$B
+-- WHERE `entry`=11472;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Headless Horseman''s mind is plagued with dementia!  During Hallow''s End, he might attack this village at any moment.'	-- The Headless Horseman's mind is plagued with dementia!  During Hallow's End, he might attack this village at any moment.
-WHERE `entry`=11473;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Headless Horseman''s mind is plagued with dementia!  During Hallow''s End, he might attack this village at any moment.'	-- The Headless Horseman's mind is plagued with dementia!  During Hallow's End, he might attack this village at any moment.
+-- WHERE `entry`=11473;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Headless Horseman has set fire to the village!  We must protect the children!'	-- The Headless Horseman has set fire to the village!  We must protect the children!
-WHERE `entry`=11474;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Headless Horseman has set fire to the village!  We must protect the children!'	-- The Headless Horseman has set fire to the village!  We must protect the children!
+-- WHERE `entry`=11474;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Headless Horseman is attacking!  Quickly, aid your Horde brethren in the village''s defense!'	-- The Headless Horseman is attacking!  Quickly, aid your Horde brethren in the village's defense!
-WHERE `entry`=11475;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Headless Horseman is attacking!  Quickly, aid your Horde brethren in the village''s defense!'	-- The Headless Horseman is attacking!  Quickly, aid your Horde brethren in the village's defense!
+-- WHERE `entry`=11475;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Headless Horseman had been driven away, for now.  We may breath easy for a time, but must remain ever vigilant.'	-- The Headless Horseman had been driven away, for now.  We may breath easy for a time, but must remain ever vigilant.
-WHERE `entry`=11476;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Headless Horseman had been driven away, for now.  We may breath easy for a time, but must remain ever vigilant.'	-- The Headless Horseman had been driven away, for now.  We may breath easy for a time, but must remain ever vigilant.
+-- WHERE `entry`=11476;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='万鬼节是个恐怖的节日，但是我喜欢！'	-- Hallow's End is a scary holiday, but I like it!
@@ -6293,9 +6293,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我按照上尉的意思，提供了针对部分决策的参考意见，但是我觉得他更想听听你的看法。'	-- I advise the captain on matters that he chooses to share with me, but I have a feeling that he'd rather hear from you.
 WHERE `entry`=11496;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='All of these mouths to feed, and who has to do it? Me!$B$BAll the cooking, and the cleaning, and everything else!'	-- All of these mouths to feed, and who has to do it? Me!$B$BAll the cooking, and the cleaning, and everything else!
-WHERE `entry`=11498;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='All of these mouths to feed, and who has to do it? Me!$B$BAll the cooking, and the cleaning, and everything else!'	-- All of these mouths to feed, and who has to do it? Me!$B$BAll the cooking, and the cleaning, and everything else!
+-- WHERE `entry`=11498;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这些年来，我从来没想过还能看见这样的新疆界。$B$B只是，这里已经被邪恶玷污，亘古流传的知识也被掩埋了。'	-- In all of my days I never thought to see such a magnificent new frontier.$B$BIf only it weren't tainted by evil and knowledge which is best left hidden.
@@ -6321,25 +6321,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='那么，我想我该向你说声谢谢，$R。$B$B事实上，假如你没出现的话我想我可能会把我仅有的最后一个酒杯都给吞下肚了呢。'	-- Well then, I spose I be owin' ya my thanks, $r.$b$bTruth is, I thought I'd swallowed me last tankard 'til ye showed up.
 WHERE `entry`=11578;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Ohh, thank you soo much for getting me out of that cage because I was in there for soo long and it smelled like minced mutton that had been sitting out in the sun for a week and I don''t like mutton to begin with because when I was little, well littler, I was actually turned into a sheep for a minute and so I know what it feels like to be a sheep and I don''t want someone eating me, especially an overgrown troll dressed up like a kitty....$b$b<Ashli takes a deep breath.>$b$bHow''s my hair?$B'	-- Ohh, thank you soo much for getting me out of that cage because I was in there for soo long and it smelled like minced mutton that had been sitting out in the sun for a week and I don't like mutton to begin with because when I was little, well littler, I was actually turned into a sheep for a minute and so I know what it feels like to be a sheep and I don't want someone eating me, especially an overgrown troll dressed up like a kitty....$b$b<Ashli takes a deep breath.>$b$bHow's my hair?$B
-WHERE `entry`=11582;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Ohh, thank you soo much for getting me out of that cage because I was in there for soo long and it smelled like minced mutton that had been sitting out in the sun for a week and I don''t like mutton to begin with because when I was little, well littler, I was actually turned into a sheep for a minute and so I know what it feels like to be a sheep and I don''t want someone eating me, especially an overgrown troll dressed up like a kitty....$b$b<Ashli takes a deep breath.>$b$bHow''s my hair?$B'	-- Ohh, thank you soo much for getting me out of that cage because I was in there for soo long and it smelled like minced mutton that had been sitting out in the sun for a week and I don't like mutton to begin with because when I was little, well littler, I was actually turned into a sheep for a minute and so I know what it feels like to be a sheep and I don't want someone eating me, especially an overgrown troll dressed up like a kitty....$b$b<Ashli takes a deep breath.>$b$bHow's my hair?$B
+-- WHERE `entry`=11582;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_1_loc4`='UDB Missing US text'	-- UDB Missing US text
 -- WHERE `entry`=11584;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The stranded Alliance sailors know they''re going to die, yet they fight us tooth and nail.$B$BImpressive and pathetic at the same time.'	-- The stranded Alliance sailors know they're going to die, yet they fight us tooth and nail.$B$BImpressive and pathetic at the same time.
-WHERE `entry`=11586;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The stranded Alliance sailors know they''re going to die, yet they fight us tooth and nail.$B$BImpressive and pathetic at the same time.'	-- The stranded Alliance sailors know they're going to die, yet they fight us tooth and nail.$B$BImpressive and pathetic at the same time.
+-- WHERE `entry`=11586;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It is those two cannons along the wall that are slowing us down.  Without their protection our forces would be able to rush their fortification without taking any losses.$B$BIt''s either take out those cannons or wait until they run out of ammunition.  Anselm''s choice, I suppose.'	-- It is those two cannons along the wall that are slowing us down.  Without their protection our forces would be able to rush their fortification without taking any losses.$B$BIt's either take out those cannons or wait until they run out of ammunition.  Anselm's choice, I suppose.
-WHERE `entry`=11588;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It is those two cannons along the wall that are slowing us down.  Without their protection our forces would be able to rush their fortification without taking any losses.$B$BIt''s either take out those cannons or wait until they run out of ammunition.  Anselm''s choice, I suppose.'	-- It is those two cannons along the wall that are slowing us down.  Without their protection our forces would be able to rush their fortification without taking any losses.$B$BIt's either take out those cannons or wait until they run out of ammunition.  Anselm's choice, I suppose.
+-- WHERE `entry`=11588;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Headless Horseman, once a knight of the Silver Hand and a hero among his fellow paladins, is cursed.  Driven insane within the Scarlet Monastery, he believes that he is alive and we are dead.$B$BNow, his fervor no longer serves the Light.  With the coming of Hallow''s End, he spreads gloom and fire across the villages of Azeroth.'	-- The Headless Horseman, once a knight of the Silver Hand and a hero among his fellow paladins, is cursed.  Driven insane within the Scarlet Monastery, he believes that he is alive and we are dead.$B$BNow, his fervor no longer serves the Light.  With the coming of Hallow's End, he spreads gloom and fire across the villages of Azeroth.
-WHERE `entry`=11590;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Headless Horseman, once a knight of the Silver Hand and a hero among his fellow paladins, is cursed.  Driven insane within the Scarlet Monastery, he believes that he is alive and we are dead.$B$BNow, his fervor no longer serves the Light.  With the coming of Hallow''s End, he spreads gloom and fire across the villages of Azeroth.'	-- The Headless Horseman, once a knight of the Silver Hand and a hero among his fellow paladins, is cursed.  Driven insane within the Scarlet Monastery, he believes that he is alive and we are dead.$B$BNow, his fervor no longer serves the Light.  With the coming of Hallow's End, he spreads gloom and fire across the villages of Azeroth.
+-- WHERE `entry`=11590;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='UDB Missing US text'	-- UDB Missing US text
@@ -6374,9 +6374,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='南瓜头不祥地闷烧着……'	-- The pumpkin head smolders forebodingly...
 WHERE `entry`=11645;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Make haste, $c!$b$bThis crisis is nowhere near being under control.'	-- Make haste, $c!$b$bThis crisis is nowhere near being under control.
-WHERE `entry`=11655;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Make haste, $c!$b$bThis crisis is nowhere near being under control.'	-- Make haste, $c!$b$bThis crisis is nowhere near being under control.
+-- WHERE `entry`=11655;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你需要长途旅行么，$N？我的蝙蝠会很快把你送到目的地的。'	-- You seek passage somewhere, $N?  My bats will get you there in no time.
@@ -6386,13 +6386,13 @@ WHERE `entry`=11662;
 -- 	`text0_0_loc4`='Tread carefully, $r.$b$bThese corpses here are all that remain of my best men.'	-- Tread carefully, $r.$b$bThese corpses here are all that remain of my best men.
 -- WHERE `entry`=11667;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='These Alliance pondsuckers sure are gutsy!  Boarding fully-manned Forsaken destroyers... now that''s suicidal behavior if I ever heard of it.'	-- These Alliance pondsuckers sure are gutsy!  Boarding fully-manned Forsaken destroyers... now that's suicidal behavior if I ever heard of it.
-WHERE `entry`=11671;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='These Alliance pondsuckers sure are gutsy!  Boarding fully-manned Forsaken destroyers... now that''s suicidal behavior if I ever heard of it.'	-- These Alliance pondsuckers sure are gutsy!  Boarding fully-manned Forsaken destroyers... now that's suicidal behavior if I ever heard of it.
+-- WHERE `entry`=11671;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='My sisters and I welcome you, $r.'	-- My sisters and I welcome you, $r.
-WHERE `entry`=11673;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='My sisters and I welcome you, $r.'	-- My sisters and I welcome you, $r.
+-- WHERE `entry`=11673;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='保持警惕，$N。$B$B我们还没有走出这片森林呢……'	-- Stay sharp, $n.$b$bWe're not out of the woods yet....
@@ -6402,25 +6402,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我是来此协助与保护你的。$B$B接下来我们要如何打击敌军呢？'	-- I am here to assist and defend you.$B$BHow next shall we strike at the enemy?
 WHERE `entry`=11689;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Come closer, young one; my ears aren''t what they once were, and I care not for raising my voice.'	-- Come closer, young one; my ears aren't what they once were, and I care not for raising my voice.
-WHERE `entry`=11691;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Come closer, young one; my ears aren''t what they once were, and I care not for raising my voice.'	-- Come closer, young one; my ears aren't what they once were, and I care not for raising my voice.
+-- WHERE `entry`=11691;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='药剂的用途如此广泛，我们得加紧研究！'	-- So many uses for the plague, so little time!
 WHERE `entry`=11724;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Aren''t you a sight for sore eyes!$B$BThere''s work to be done and not much time.'	-- Aren't you a sight for sore eyes!$B$BThere's work to be done and not much time.
-WHERE `entry`=11738;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Aren''t you a sight for sore eyes!$B$BThere''s work to be done and not much time.'	-- Aren't you a sight for sore eyes!$B$BThere's work to be done and not much time.
+-- WHERE `entry`=11738;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='戈斯从来不怕战死。被遗忘者只要把我重新拼起来就行了。'	-- Gorth not afraid of getting killed.  Them Forsaken just put me back together again.
 WHERE `entry`=11742;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Blastenheimer 5000 Ultra Cannon is a state-of-the-art single person projectile device. Delivering its payload at near the speed of a dragon, the cannon is the pride and joy of the Blastenheimer family, world renown for their aeronautical and combustible feats!$B$BIf you''d like to be launched through the skies to fly free as a bird, seek out Maxima Blastenheimer in the Terrace of Light in Shattrath City. She''ll aim you at a target in a small pond outside the city walls!'	-- The Blastenheimer 5000 Ultra Cannon is a state-of-the-art single person projectile device. Delivering its payload at near the speed of a dragon, the cannon is the pride and joy of the Blastenheimer family, world renown for their aeronautical and combustible feats!$B$BIf you'd like to be launched through the skies to fly free as a bird, seek out Maxima Blastenheimer in the Terrace of Light in Shattrath City. She'll aim you at a target in a small pond outside the city walls!
-WHERE `entry`=11743;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Blastenheimer 5000 Ultra Cannon is a state-of-the-art single person projectile device. Delivering its payload at near the speed of a dragon, the cannon is the pride and joy of the Blastenheimer family, world renown for their aeronautical and combustible feats!$B$BIf you''d like to be launched through the skies to fly free as a bird, seek out Maxima Blastenheimer in the Terrace of Light in Shattrath City. She''ll aim you at a target in a small pond outside the city walls!'	-- The Blastenheimer 5000 Ultra Cannon is a state-of-the-art single person projectile device. Delivering its payload at near the speed of a dragon, the cannon is the pride and joy of the Blastenheimer family, world renown for their aeronautical and combustible feats!$B$BIf you'd like to be launched through the skies to fly free as a bird, seek out Maxima Blastenheimer in the Terrace of Light in Shattrath City. She'll aim you at a target in a small pond outside the city walls!
+-- WHERE `entry`=11743;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='小声点，$C。别被他们发现了。'	-- Keep your voice down, $c. We wouldn't want them to hear us.
@@ -6446,21 +6446,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='感谢你，$C。$B$B如果有任何需要我的地方，尽管跟我说。'	-- Ya be havin' me gratitude, $c.$b$bIf there be anythin' I can be doin' fer yeh, just say so.
 WHERE `entry`=11851;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It was kind of the Explorers'' League to allow me to tag along. However, with the dangers in the Rivenwood and surrounding area, it looks like it may have been foolish of me to come without help.'	-- It was kind of the Explorers' League to allow me to tag along. However, with the dangers in the Rivenwood and surrounding area, it looks like it may have been foolish of me to come without help.
-WHERE `entry`=11858;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It was kind of the Explorers'' League to allow me to tag along. However, with the dangers in the Rivenwood and surrounding area, it looks like it may have been foolish of me to come without help.'	-- It was kind of the Explorers' League to allow me to tag along. However, with the dangers in the Rivenwood and surrounding area, it looks like it may have been foolish of me to come without help.
+-- WHERE `entry`=11858;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''m going to miss Camp Winterhoof, but I understand why Chieftain Ashtotem made his decision. Home is a comfort we cannot always afford.'	-- I'm going to miss Camp Winterhoof, but I understand why Chieftain Ashtotem made his decision. Home is a comfort we cannot always afford.
-WHERE `entry`=11874;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''m going to miss Camp Winterhoof, but I understand why Chieftain Ashtotem made his decision. Home is a comfort we cannot always afford.'	-- I'm going to miss Camp Winterhoof, but I understand why Chieftain Ashtotem made his decision. Home is a comfort we cannot always afford.
+-- WHERE `entry`=11874;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hey, can''t you shee I''m trying to drink here?'	-- Hey, can't you shee I'm trying to drink here?
-WHERE `entry`=11880;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hey, can''t you shee I''m trying to drink here?'	-- Hey, can't you shee I'm trying to drink here?
+-- WHERE `entry`=11880;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Bones... flesh... muscles... tendons... cartilage... it all comes together here under my hacksaw.'	-- Bones... flesh... muscles... tendons... cartilage... it all comes together here under my hacksaw.
-WHERE `entry`=11884;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Bones... flesh... muscles... tendons... cartilage... it all comes together here under my hacksaw.'	-- Bones... flesh... muscles... tendons... cartilage... it all comes together here under my hacksaw.
+-- WHERE `entry`=11884;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='拿去吧。好好利用这些武器！'	-- Here you go, $g lad : lass;. Make 'em count!
@@ -6536,9 +6536,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='We set up this area to practice fire fighting.  You never know when the town will be imperiled!'	-- We set up this area to practice fire fighting.  You never know when the town will be imperiled!
 WHERE `entry`=12049;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I bet ya think you''re tough, eh, kid? I guess I might have something for ya if ya can hold your own in the arena. Good stuff, not like Krixel''s. That''s so last season, ya know?$b$bOh, and have a nice day.'	-- I bet ya think you're tough, eh, kid? I guess I might have something for ya if ya can hold your own in the arena. Good stuff, not like Krixel's. That's so last season, ya know?$b$bOh, and have a nice day.
-WHERE `entry`=12052;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I bet ya think you''re tough, eh, kid? I guess I might have something for ya if ya can hold your own in the arena. Good stuff, not like Krixel''s. That''s so last season, ya know?$b$bOh, and have a nice day.'	-- I bet ya think you're tough, eh, kid? I guess I might have something for ya if ya can hold your own in the arena. Good stuff, not like Krixel's. That's so last season, ya know?$b$bOh, and have a nice day.
+-- WHERE `entry`=12052;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='啤酒节总是需要更多的酒桶！$B$B我会借给你一头私人山羊的缰绳。$B$B每一次你带一个酒桶给我，我就给你一些奖品章。你每带来一个酒桶，我还会加长你使用山羊的时间！$B$B注意！一旦你开始了，你就得再等到明天才能再进行一次。$B$B你确定你已经准备好要这么做了吗？'	-- There's always a need for more kegs at Brewfest!$b$bI'll lend you the reins to one of my personal rams.$b$bEvery time you bring me a keg, I'll give you some tokens.  I'll even let you use the ram for a bit longer for every keg you bring me!  $B$BTake heed! Once you start this, you won't be able to do it again until tomorrow.$B$BAre you sure you're ready to do this?
@@ -6584,9 +6584,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='山羊竞速本身比看起来的简单多了，不过它是需要技巧来统御的。只要使用你的缰绳，还有可以的话让牠吃吃苹果，避免你的山羊精疲力尽。'	-- Ram racing is easier than it seems, but it takes skill to master. Just use the reins, eat apples if you can and avoid exhausting your ram.
 WHERE `entry`=12088;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Yes? What is it?$B$BTime waits for no one!'	-- Yes? What is it?$B$BTime waits for no one!
-WHERE `entry`=12090;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Yes? What is it?$B$BTime waits for no one!'	-- Yes? What is it?$B$BTime waits for no one!
+-- WHERE `entry`=12090;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='「如果你得到了够多的啤酒节奖品券，位于啤酒营地后面的贝尔碧·迅移可以给你一个『名誉酒友』的手盖戳。$B$B那个戳印将可让我卖给你一匹啤酒节骑乘用山羊。不过提醒你，它们可不便宜啊！」'	-- If you earn enough Brewfest prize tickets, the ticket redeemer in the Brewfest camp can give you an "Honorary Brewer" hand stamp.$b$bThat stamp will allow me to sell you a Brewfest riding ram. But they don't come cheap, mind you!
@@ -6610,9 +6610,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='老兄，你想试试诸国最棒的啤酒吗？'	-- Hey mon, you ready to try da best brew in all da realms?
 WHERE `entry`=12105;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Here we practice fire fighting techniques.  Power to the Forsaken!'	-- Here we practice fire fighting techniques.  Power to the Forsaken!
-WHERE `entry`=12108;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Here we practice fire fighting techniques.  Power to the Forsaken!'	-- Here we practice fire fighting techniques.  Power to the Forsaken!
+-- WHERE `entry`=12108;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='发生在这里及剃刀岭之间的爆炸将我们的啤酒配送机制搞得一团乱！黑铁矮人好像大约一个小时会来攻击一次！$B$B所以如果你想帮忙的话，这有解决方法。我会借你一些缰绳以及一头我的山羊。$B$B每次你带给我一桶酒桶，我就会给你一些奖品章。你每带一桶酒桶给我，我还会让你使用这只山羊的时间延长一点！$B$B不过，一旦你开始了，到明天之前你都不能再进行一次。$B$B你确定你准备好要开始了吗？'	-- That crash between here and Razor Hill really messed up the brew flow!  It doesn't help that Dark Iron dwarves seem to be attacking every hour or so!$b$bSo if you want to help, here's the deal.  I'll let you borrow some reins and one of my rams.$b$bEvery time you bring me a keg, I'll give you some tokens.  I'll even let you use the ram for a bit longer for every keg you bring me!$b$bBUT, once you start this, you won't be able to do it again until tomorrow.$b$bAre you sure you're ready to do this?
@@ -6651,13 +6651,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='将南瓜砸碎显示了一样隐藏的宝物！这是你有过最棒的一天了！'	-- Smashing the pumpkin reveals a hidden treasure!  This is the greatest day you've ever known!
 WHERE `entry`=12140;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings, Light of Elune be with you.'	-- Greetings, Light of Elune be with you.
-WHERE `entry`=12162;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings, Light of Elune be with you.'	-- Greetings, Light of Elune be with you.
+-- WHERE `entry`=12162;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I would love to read it to you!$B$BDo not stand at my grave and weep,$BI am not there, I do not sleep.$B$BI am in a thousand winds that blow,$Bacross Northrend''s bright and shining snow.$B$BI am the gentle showers of rain,$Bon Westfall''s fields of golden grain.$B$BI am in the morning hush,$Bof Stranglethorn''s jungle, green and lush.$B$BI am in the drums loud and grand,$Bthe thunderous hooves across Nagrand.$B$BI am the stars warmly gleaming,$Bover Darnassus softly dreaming.$B$BI am in the birds that sing,$BI am in each lovely thing.$B$BDo not stand at my grave and cry,$BI am not there. I do not die.$B '	-- I would love to read it to you!$B$BDo not stand at my grave and weep,$BI am not there, I do not sleep.$B$BI am in a thousand winds that blow,$Bacross Northrend's bright and shining snow.$B$BI am the gentle showers of rain,$Bon Westfall's fields of golden grain.$B$BI am in the morning hush,$Bof Stranglethorn's jungle, green and lush.$B$BI am in the drums loud and grand,$Bthe thunderous hooves across Nagrand.$B$BI am the stars warmly gleaming,$Bover Darnassus softly dreaming.$B$BI am in the birds that sing,$BI am in each lovely thing.$B$BDo not stand at my grave and cry,$BI am not there. I do not die.$B 
-WHERE `entry`=12163;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I would love to read it to you!$B$BDo not stand at my grave and weep,$BI am not there, I do not sleep.$B$BI am in a thousand winds that blow,$Bacross Northrend''s bright and shining snow.$B$BI am the gentle showers of rain,$Bon Westfall''s fields of golden grain.$B$BI am in the morning hush,$Bof Stranglethorn''s jungle, green and lush.$B$BI am in the drums loud and grand,$Bthe thunderous hooves across Nagrand.$B$BI am the stars warmly gleaming,$Bover Darnassus softly dreaming.$B$BI am in the birds that sing,$BI am in each lovely thing.$B$BDo not stand at my grave and cry,$BI am not there. I do not die.$B '	-- I would love to read it to you!$B$BDo not stand at my grave and weep,$BI am not there, I do not sleep.$B$BI am in a thousand winds that blow,$Bacross Northrend's bright and shining snow.$B$BI am the gentle showers of rain,$Bon Westfall's fields of golden grain.$B$BI am in the morning hush,$Bof Stranglethorn's jungle, green and lush.$B$BI am in the drums loud and grand,$Bthe thunderous hooves across Nagrand.$B$BI am the stars warmly gleaming,$Bover Darnassus softly dreaming.$B$BI am in the birds that sing,$BI am in each lovely thing.$B$BDo not stand at my grave and cry,$BI am not there. I do not die.$B 
+-- WHERE `entry`=12163;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='让我告诉你，正确的打猎方法就是先把自己灌醉！'	-- I'll tell ya, the only proper way to hunt is when yer good an' hammered!
@@ -6675,17 +6675,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我负责主持格斗比赛。你想不想赌一把啊？怎么样，有信心吗？但是──谁敢搞贿赂选手的猫腻，我就让他走跳板。$B$B我会亲自维持比赛的公平！'	-- I run the fights around here.  You want to place a bet, gamble with confidence - anyone caught fixin' fights gets to walk the plank.$B$BI'll make sure of that myself!
 WHERE `entry`=12173;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Day in and day out all Mad Jonah Sterling wants me to do is swab the decks.$B$BSwab the decks?!$B$BI''m a mage, I don''t DO swabbin''! At least not the mundane way.'	-- Day in and day out all Mad Jonah Sterling wants me to do is swab the decks.$B$BSwab the decks?!$B$BI'm a mage, I don't DO swabbin'! At least not the mundane way.
-WHERE `entry`=12176;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Day in and day out all Mad Jonah Sterling wants me to do is swab the decks.$B$BSwab the decks?!$B$BI''m a mage, I don''t DO swabbin''! At least not the mundane way.'	-- Day in and day out all Mad Jonah Sterling wants me to do is swab the decks.$B$BSwab the decks?!$B$BI'm a mage, I don't DO swabbin'! At least not the mundane way.
+-- WHERE `entry`=12176;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What''s it going to be, then?  Rum?  Ale?$B$BOr perhaps something else?'	-- What's it going to be, then?  Rum?  Ale?$B$BOr perhaps something else?
-WHERE `entry`=12179;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What''s it going to be, then?  Rum?  Ale?$B$BOr perhaps something else?'	-- What's it going to be, then?  Rum?  Ale?$B$BOr perhaps something else?
+-- WHERE `entry`=12179;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You''re going to pull off a stunt on Jack in front of his boys?$B$BThat takes a good amount of... stupidity.  Well, it''s going to cost you.  I''m not going to risk my life for anything less than a gold.  And you best wait til I''m out of the way before you make a move.'	-- You're going to pull off a stunt on Jack in front of his boys?$B$BThat takes a good amount of... stupidity.  Well, it's going to cost you.  I'm not going to risk my life for anything less than a gold.  And you best wait til I'm out of the way before you make a move.
-WHERE `entry`=12180;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You''re going to pull off a stunt on Jack in front of his boys?$B$BThat takes a good amount of... stupidity.  Well, it''s going to cost you.  I''m not going to risk my life for anything less than a gold.  And you best wait til I''m out of the way before you make a move.'	-- You're going to pull off a stunt on Jack in front of his boys?$B$BThat takes a good amount of... stupidity.  Well, it's going to cost you.  I'm not going to risk my life for anything less than a gold.  And you best wait til I'm out of the way before you make a move.
+-- WHERE `entry`=12180;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='喝酒的借口是什么都没有关系啦！'	-- It never hurts to have a reason to drink!
@@ -6695,9 +6695,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎回来，$N。'	-- Welcome back, $N.
 WHERE `entry`=12185;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='That cursed Jonah Sterling will lead us right into doom.  If he spent more time outside of his cave, he would realize the folly of attacking professional navies in a time of war.'	-- That cursed Jonah Sterling will lead us right into doom.  If he spent more time outside of his cave, he would realize the folly of attacking professional navies in a time of war.
-WHERE `entry`=12186;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='That cursed Jonah Sterling will lead us right into doom.  If he spent more time outside of his cave, he would realize the folly of attacking professional navies in a time of war.'	-- That cursed Jonah Sterling will lead us right into doom.  If he spent more time outside of his cave, he would realize the folly of attacking professional navies in a time of war.
+-- WHERE `entry`=12186;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='瞧，那家伙正在为地毯的事烦恼呢。'	-- The Dude, over yonder, is pretty upset about his rug.
@@ -6724,9 +6724,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我没有什么时间可以聊天，抱歉。'	-- I've little time for talk, sorry.
 WHERE `entry`=12209;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Can''t ya see I''m workin'' here, $glad:lass;? Off with ya, afore Kowalski sees me jawin.'''	-- Can't ya see I'm workin' here, $glad:lass;? Off with ya, afore Kowalski sees me jawin.'
-WHERE `entry`=12210;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Can''t ya see I''m workin'' here, $glad:lass;? Off with ya, afore Kowalski sees me jawin.'''	-- Can't ya see I'm workin' here, $glad:lass;? Off with ya, afore Kowalski sees me jawin.'
+-- WHERE `entry`=12210;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们已经没剩多少人了，$N。我们古老宿敌的回归令人非常担忧。'	-- There aren't many of us left, $N.  The return of our old enemy is a cause for great concern.
@@ -6760,25 +6760,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这座传送门不像其他通往艾泽拉斯的。要维持它，我们需要更多的法力电池。$B$B否则我们就会失去通往奎尔达纳斯之岛与太阳之井的通道。'	-- This portal is not like the others that lead back to Azeroth. To maintain it, we must acquire more mana cells.$B$BIt is either that or risk losing our access to the Isle of Quel'Danas and the Sunwell.
 WHERE `entry`=12227;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings, $r.$b$bMy shop is finally open. I hope you like what you see!'	-- Greetings, $r.$b$bMy shop is finally open. I hope you like what you see!
-WHERE `entry`=12237;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings, $r.$b$bMy shop is finally open. I hope you like what you see!'	-- Greetings, $r.$b$bMy shop is finally open. I hope you like what you see!
+-- WHERE `entry`=12237;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Good day to you, $c.$b$bThere''s much to be done to assist in the effort here. Sadly, there''s very little I can do for you until I get all of my supplies.$b$bI''ve now got $3223w percent of the razorthorn roots I need to get started. Any assistance you provide will be well worth the effort, I assure you.'	-- Good day to you, $c.$b$bThere's much to be done to assist in the effort here. Sadly, there's very little I can do for you until I get all of my supplies.$b$bI've now got $3223w percent of the razorthorn roots I need to get started. Any assistance you provide will be well worth the effort, I assure you.
-WHERE `entry`=12238;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Good day to you, $c.$b$bThere''s much to be done to assist in the effort here. Sadly, there''s very little I can do for you until I get all of my supplies.$b$bI''ve now got $3223w percent of the razorthorn roots I need to get started. Any assistance you provide will be well worth the effort, I assure you.'	-- Good day to you, $c.$b$bThere's much to be done to assist in the effort here. Sadly, there's very little I can do for you until I get all of my supplies.$b$bI've now got $3223w percent of the razorthorn roots I need to get started. Any assistance you provide will be well worth the effort, I assure you.
+-- WHERE `entry`=12238;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This is the gateway that Kael''s armies used to retreat to the Sunwell.  Some of his lapdogs remain here; the Legion has rewarded them in a most... unusual way.'	-- This is the gateway that Kael's armies used to retreat to the Sunwell.  Some of his lapdogs remain here; the Legion has rewarded them in a most... unusual way.
-WHERE `entry`=12239;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This is the gateway that Kael''s armies used to retreat to the Sunwell.  Some of his lapdogs remain here; the Legion has rewarded them in a most... unusual way.'	-- This is the gateway that Kael's armies used to retreat to the Sunwell.  Some of his lapdogs remain here; the Legion has rewarded them in a most... unusual way.
+-- WHERE `entry`=12239;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Have you seen the damaged sentries that wander the island?  A few modifications to the crystals that control their behavior will allow us to gain control of them and use them to secure tactical locations.$B$BThe Sun''s Reach Sanctum will be ours in no time.  We are $3244w percent done with this goal.'	-- Have you seen the damaged sentries that wander the island?  A few modifications to the crystals that control their behavior will allow us to gain control of them and use them to secure tactical locations.$B$BThe Sun's Reach Sanctum will be ours in no time.  We are $3244w percent done with this goal.
-WHERE `entry`=12240;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Have you seen the damaged sentries that wander the island?  A few modifications to the crystals that control their behavior will allow us to gain control of them and use them to secure tactical locations.$B$BThe Sun''s Reach Sanctum will be ours in no time.  We are $3244w percent done with this goal.'	-- Have you seen the damaged sentries that wander the island?  A few modifications to the crystals that control their behavior will allow us to gain control of them and use them to secure tactical locations.$B$BThe Sun's Reach Sanctum will be ours in no time.  We are $3244w percent done with this goal.
+-- WHERE `entry`=12240;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We succeeded in taking the Sanctum.  We can continue to convert sentries and use them as guards at other tactical locations.'	-- We succeeded in taking the Sanctum.  We can continue to convert sentries and use them as guards at other tactical locations.
-WHERE `entry`=12241;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We succeeded in taking the Sanctum.  We can continue to convert sentries and use them as guards at other tactical locations.'	-- We succeeded in taking the Sanctum.  We can continue to convert sentries and use them as guards at other tactical locations.
+-- WHERE `entry`=12241;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们必须确保不会再有谁葬身大海。'	-- We must make sure not to lose any more souls to the seas.
@@ -6818,13 +6818,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们控制了军械库，但是我们在岛上的任务还没结束。'	-- We have gained control of the armory, but our work on the island is not yet finished.
 WHERE `entry`=12256;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='My orders are to create a distraction at the Dead Scar so our forces can take the Sun''s Reach Armory.  It might not be as glamorous as killing demons face to face, but if it wins us this battle then I''m all for it.$B$BWe are $3233w percent done with our goal.'	-- My orders are to create a distraction at the Dead Scar so our forces can take the Sun's Reach Armory.  It might not be as glamorous as killing demons face to face, but if it wins us this battle then I'm all for it.$B$BWe are $3233w percent done with our goal.
-WHERE `entry`=12257;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='My orders are to create a distraction at the Dead Scar so our forces can take the Sun''s Reach Armory.  It might not be as glamorous as killing demons face to face, but if it wins us this battle then I''m all for it.$B$BWe are $3233w percent done with our goal.'	-- My orders are to create a distraction at the Dead Scar so our forces can take the Sun's Reach Armory.  It might not be as glamorous as killing demons face to face, but if it wins us this battle then I'm all for it.$B$BWe are $3233w percent done with our goal.
+-- WHERE `entry`=12257;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We''ve captured the armory, $N.  Let''s not rest on our laurels, however.  The Legion sure will not.'	-- We've captured the armory, $N.  Let's not rest on our laurels, however.  The Legion sure will not.
-WHERE `entry`=12258;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We''ve captured the armory, $N.  Let''s not rest on our laurels, however.  The Legion sure will not.'	-- We've captured the armory, $N.  Let's not rest on our laurels, however.  The Legion sure will not.
+-- WHERE `entry`=12258;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='强化圣所周围的结界可以帮助我们更快地巩固此地。我们可不希望有任何鄙恶者干扰我们对燃烧军团还有凯尔的全面进攻。$B$B我们目前的目标达成率为$3244w％。'	-- Arming the wards at the sanctum will help us secure it faster.  We don't want any Wretched getting in our way when we unleash a full scale attack on the Legion and Kael.$B$BWe are $3244w percent done with our goal.
@@ -6838,13 +6838,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='不好意思，我们还是另找时间谈吧。再见。'	-- Sorry, but we'll have to speak some other time. Farewell.
 WHERE `entry`=12263;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to The Bravery, $gsir:madame;. Now if you''ll excuse me...'	-- Welcome to The Bravery, $gsir:madame;. Now if you'll excuse me...
-WHERE `entry`=12264;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to The Bravery, $gsir:madame;. Now if you''ll excuse me...'	-- Welcome to The Bravery, $gsir:madame;. Now if you'll excuse me...
+-- WHERE `entry`=12264;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Unlucky name fer a sailor, innit?'	-- Unlucky name fer a sailor, innit?
-WHERE `entry`=12267;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Unlucky name fer a sailor, innit?'	-- Unlucky name fer a sailor, innit?
+-- WHERE `entry`=12267;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_1_loc4`='We''ve sworn to do our very best to protect the passengers of The Bravery. The sea lane between Auberdine to Stormwind Harbor must remain safe.'	-- We've sworn to do our very best to protect the passengers of The Bravery. The sea lane between Auberdine to Stormwind Harbor must remain safe.
@@ -6863,9 +6863,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Elune has blessed us many times over with all the discoveries we have made.  But we must remain vigilant, $c.'	-- Elune has blessed us many times over with all the discoveries we have made.  But we must remain vigilant, $c.
 WHERE `entry`=12278;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Forgive me, $r, I must focus on my job.'	-- Forgive me, $r, I must focus on my job.
-WHERE `entry`=12279;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Forgive me, $r, I must focus on my job.'	-- Forgive me, $r, I must focus on my job.
+-- WHERE `entry`=12279;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎登上少女之爱号。它将会一路顺风的抵达港口。'	-- Welcome aboard the Maiden's Fancy. It should be smooth sailing all the way to port.
@@ -6883,25 +6883,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='恶恶恶……要是那边那个肮脏的船舱长要你吃他的特别餐的话，帮你自己个忙，把它丢到海里吧。它可能可以杀死几个你想致之死地的龙虾人。'	-- Urrrk... if that grubbing galley chief over there offers you his special, do yourself a favor and dump it in the ocean. It might kill a few makruras instead of your will to live.
 WHERE `entry`=12284;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, $r.$b$bLet''s get busy! No sense waiting around for supplies that may never arrive.$b$bI need my anvil in order to outfit our troops properly. Right now It''s $3228w percent complete.$b$bAnd when the anvil is completed, there will be many more powerful items that I will be able to smith for you.'	-- Hello, $r.$b$bLet's get busy! No sense waiting around for supplies that may never arrive.$b$bI need my anvil in order to outfit our troops properly. Right now It's $3228w percent complete.$b$bAnd when the anvil is completed, there will be many more powerful items that I will be able to smith for you.
-WHERE `entry`=12285;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, $r.$b$bLet''s get busy! No sense waiting around for supplies that may never arrive.$b$bI need my anvil in order to outfit our troops properly. Right now It''s $3228w percent complete.$b$bAnd when the anvil is completed, there will be many more powerful items that I will be able to smith for you.'	-- Hello, $r.$b$bLet's get busy! No sense waiting around for supplies that may never arrive.$b$bI need my anvil in order to outfit our troops properly. Right now It's $3228w percent complete.$b$bAnd when the anvil is completed, there will be many more powerful items that I will be able to smith for you.
+-- WHERE `entry`=12285;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, $n.$b$bNow that I''ve finished creating my anvil I can begin outfitting our troops. It''s an important step, but there''s still much to be done.$b$bMore importantly for you, there are new things that I can create, which you may be interested in.'	-- Hello, $n.$b$bNow that I've finished creating my anvil I can begin outfitting our troops. It's an important step, but there's still much to be done.$b$bMore importantly for you, there are new things that I can create, which you may be interested in.
-WHERE `entry`=12286;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, $n.$b$bNow that I''ve finished creating my anvil I can begin outfitting our troops. It''s an important step, but there''s still much to be done.$b$bMore importantly for you, there are new things that I can create, which you may be interested in.'	-- Hello, $n.$b$bNow that I've finished creating my anvil I can begin outfitting our troops. It's an important step, but there's still much to be done.$b$bMore importantly for you, there are new things that I can create, which you may be interested in.
+-- WHERE `entry`=12286;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We''ve taken the harbor, and this ship is a nice bonus. Too bad she''s not yet sea-worthy.$B$BIn the meantime, I''ve been instructed to oversee the disruption of the naga on the Greengill Coast.$B$BThink you can help me out?'	-- We've taken the harbor, and this ship is a nice bonus. Too bad she's not yet sea-worthy.$B$BIn the meantime, I've been instructed to oversee the disruption of the naga on the Greengill Coast.$B$BThink you can help me out?
-WHERE `entry`=12287;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We''ve taken the harbor, and this ship is a nice bonus. Too bad she''s not yet sea-worthy.$B$BIn the meantime, I''ve been instructed to oversee the disruption of the naga on the Greengill Coast.$B$BThink you can help me out?'	-- We've taken the harbor, and this ship is a nice bonus. Too bad she's not yet sea-worthy.$B$BIn the meantime, I've been instructed to oversee the disruption of the naga on the Greengill Coast.$B$BThink you can help me out?
+-- WHERE `entry`=12287;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<咕哝着>我猜那些山是凭空出现的……总共5次！'	-- <Grumbles>  I guess those mountains came out of nowhere...  All five times!
 WHERE `entry`=12289;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If you like excitement, our captain''s the best!  I love this job!'	-- If you like excitement, our captain's the best!  I love this job!
-WHERE `entry`=12290;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If you like excitement, our captain''s the best!  I love this job!'	-- If you like excitement, our captain's the best!  I love this job!
+-- WHERE `entry`=12290;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='不要问……'	-- Don't ask...
@@ -6931,9 +6931,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='初始之门，阿格玛司已经被破坏了，而基尔加丹的两大副官，莎珂蕾希女士和大术士艾黎瑟丝，一定得被消灭。$B$B召集你的朋友们，$C，解决它！洛罕铎，次之门是我们下一个目标。'	-- Agamath, the First Gate is breached and two of Kil'jaeden's lieutenants, Lady Sacrolash and Grand Warlock Alythess, must be destroyed.$B$BGather your friends, $c, and see to it! Rohendor, the Second Gate is our next target.
 WHERE `entry`=12305;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='"Iron Eagle." Hmph. It''s a passenger ship, not a warbird! But hey, a job''s a job, and I''ll humor Captain "Bombast" so long as the prince is paying.$b$bIn any case, welcome aboard.'	-- "Iron Eagle." Hmph. It's a passenger ship, not a warbird! But hey, a job's a job, and I'll humor Captain "Bombast" so long as the prince is paying.$b$bIn any case, welcome aboard.
-WHERE `entry`=12314;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='"Iron Eagle." Hmph. It''s a passenger ship, not a warbird! But hey, a job''s a job, and I''ll humor Captain "Bombast" so long as the prince is paying.$b$bIn any case, welcome aboard.'	-- "Iron Eagle." Hmph. It's a passenger ship, not a warbird! But hey, a job's a job, and I'll humor Captain "Bombast" so long as the prince is paying.$b$bIn any case, welcome aboard.
+-- WHERE `entry`=12314;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='有点忙。'	-- Sorta busy.
@@ -6957,17 +6957,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们成功了，$N。现在日境已经在我们的控制之下，没多久我们就可以达到完全的胜利。'	-- We've done it, $N.  With Sun's Reach under our control we are but mere moments away from absolute victory.
 WHERE `entry`=12320;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''m gathering funds to build a monument in honor of those who''ve died in the war.  It is important to not forget the sacrifices we''ve made to achieve victory.$B$BWe are $3275w percent done with this goal.'	-- I'm gathering funds to build a monument in honor of those who've died in the war.  It is important to not forget the sacrifices we've made to achieve victory.$B$BWe are $3275w percent done with this goal.
-WHERE `entry`=12322;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''m gathering funds to build a monument in honor of those who''ve died in the war.  It is important to not forget the sacrifices we''ve made to achieve victory.$B$BWe are $3275w percent done with this goal.'	-- I'm gathering funds to build a monument in honor of those who've died in the war.  It is important to not forget the sacrifices we've made to achieve victory.$B$BWe are $3275w percent done with this goal.
+-- WHERE `entry`=12322;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Isn''t the memorial beautiful?  It is important to remember moments in our history when great sacrifices are made, lest we forget the price of all wars - even ones that are won.'	-- Isn't the memorial beautiful?  It is important to remember moments in our history when great sacrifices are made, lest we forget the price of all wars - even ones that are won.
-WHERE `entry`=12323;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Isn''t the memorial beautiful?  It is important to remember moments in our history when great sacrifices are made, lest we forget the price of all wars - even ones that are won.'	-- Isn't the memorial beautiful?  It is important to remember moments in our history when great sacrifices are made, lest we forget the price of all wars - even ones that are won.
+-- WHERE `entry`=12323;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome aboard $c.  Take a load off and enjoy the trip.  Aboard "The Purple Princess" we want you to relax.  We have vending machines down below if there''s anything you might need while aboard.'	-- Welcome aboard $c.  Take a load off and enjoy the trip.  Aboard "The Purple Princess" we want you to relax.  We have vending machines down below if there's anything you might need while aboard.
-WHERE `entry`=12327;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome aboard $c.  Take a load off and enjoy the trip.  Aboard "The Purple Princess" we want you to relax.  We have vending machines down below if there''s anything you might need while aboard.'	-- Welcome aboard $c.  Take a load off and enjoy the trip.  Aboard "The Purple Princess" we want you to relax.  We have vending machines down below if there's anything you might need while aboard.
+-- WHERE `entry`=12327;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='请容许我休息一下。'	-- Please allow me a few seconds of rest.
@@ -6982,17 +6982,17 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='I''m busy right now.'	-- I'm busy right now.
 WHERE `entry`=12332;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The flight from Grom''gol to Undercity is beautiful, though uneventful.  Though that is no excuse to fall asleep on the job.'	-- The flight from Grom'gol to Undercity is beautiful, though uneventful.  Though that is no excuse to fall asleep on the job.
-WHERE `entry`=12333;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The flight from Grom''gol to Undercity is beautiful, though uneventful.  Though that is no excuse to fall asleep on the job.'	-- The flight from Grom'gol to Undercity is beautiful, though uneventful.  Though that is no excuse to fall asleep on the job.
+-- WHERE `entry`=12333;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='经过了灰烬与污泥。让你自己风干一阵子吧。'	-- Come in out of the ash and muck. Dry yourself a spell.
 WHERE `entry`=12334;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Do not fight the enemy unprepared, $N.  I can provide you with very powerful items... provided you have proven yourself to us.'	-- Do not fight the enemy unprepared, $N.  I can provide you with very powerful items... provided you have proven yourself to us.
-WHERE `entry`=12338;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Do not fight the enemy unprepared, $N.  I can provide you with very powerful items... provided you have proven yourself to us.'	-- Do not fight the enemy unprepared, $N.  I can provide you with very powerful items... provided you have proven yourself to us.
+-- WHERE `entry`=12338;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='凯尔的宠物是该在羞辱中学上一课。我们将会击溃曦刃军团并且从他们手中夺下日境港。$B$B我们目前的目标达成率为$3238w％。'	-- Kael's lackeys are about to be taught a lesson in humility.  We will crush the Dawnblade army and take Sun's Reach Harbor from them.$B$BWe are $3238w percent done with our goal.
@@ -7010,9 +7010,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='最好的防御就是有效的攻击；任何人都会这么告诉你。'	-- The best defense is a good offense; anyone can tell you that.
 WHERE `entry`=12347;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='A strong weapon is no good if you don''t live long enough to wield it, $c.'	-- A strong weapon is no good if you don't live long enough to wield it, $c.
-WHERE `entry`=12348;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='A strong weapon is no good if you don''t live long enough to wield it, $c.'	-- A strong weapon is no good if you don't live long enough to wield it, $c.
+-- WHERE `entry`=12348;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='Gawurgggl！Blrgl-brgl grgl！'	-- Gawurgggl! Blrgl-brgl grgl!
@@ -7055,13 +7055,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们要做好进军索拉查盆地的准备。$B$B别光站在那儿啊，$C。为部落的荣耀而战吧！'	-- We need to get this outpost ready for the push into Sholazar Basin.$B$BDon't just stand there, $c. Go out and represent the Horde with honor and spilled blood!
 WHERE `entry`=12382;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I have to clean up this mess, but I''ll do it without complaint.$B$BYou''ll help if you have any Horde pride at all!'	-- I have to clean up this mess, but I'll do it without complaint.$B$BYou'll help if you have any Horde pride at all!
-WHERE `entry`=12384;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I have to clean up this mess, but I''ll do it without complaint.$B$BYou''ll help if you have any Horde pride at all!'	-- I have to clean up this mess, but I'll do it without complaint.$B$BYou'll help if you have any Horde pride at all!
+-- WHERE `entry`=12384;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The spirits speak all around us. Are you listening, $r?'	-- The spirits speak all around us. Are you listening, $r?
-WHERE `entry`=12387;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The spirits speak all around us. Are you listening, $r?'	-- The spirits speak all around us. Are you listening, $r?
+-- WHERE `entry`=12387;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='暮光教派想要毁坏我们努力保护的一切。我们的职责就是防范这种灾难发生，$R。'	-- The Twilight Cult seeks to undo everything we fight to preserve. It is our sworn duty to prevent this calamity from coming to pass, $r.
@@ -7104,9 +7104,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='自打我来到这里，就目睹了原本只存在于噩梦中的恐怖景象，但是没有什么能比潜伏在迷雾中的可怕生物更让人毛骨悚然了。$B$B<穆图点了点头。>$B$B就在距离我们几码的雾气中，盘踞着一种名叫克瓦迪尔的噬血生物。迷雾席卷码头时，只有少数的幸运儿捡回了性命。从那之后，但凡进入迷雾的人无一生还。地狱咆哮也因此将这里划为禁区。如果你坚持要进去的话，后果自负……'	-- Since landing here I have seen horrors that had previously only haunted my darkest nightmares, but nothing could have prepared me for what lies beyond the mist.$B$B<Mootoo nods.>$B$BThrough that fog, not more than a few yards from us, stand the bloodthirsty creatures known as Kvaldir. None have returned from the fog and few that were originally at the landing when the mist rolled in have escaped. The area has since been condemned by Hellscream. Enter at your own risk...
 WHERE `entry`=12426;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I... Are you...$B$B<Mootoo shivers.>$B$BAre you here to save me?'	-- I... Are you...$B$B<Mootoo shivers.>$B$BAre you here to save me?
-WHERE `entry`=12427;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I... Are you...$B$B<Mootoo shivers.>$B$BAre you here to save me?'	-- I... Are you...$B$B<Mootoo shivers.>$B$BAre you here to save me?
+-- WHERE `entry`=12427;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你总算露面啦！我很虚弱，怎么都扭不断这些生锈的锁链。$B$B别站在那儿呀！帮我弄断它！'	-- You're a sight for sore eyes! I'm too weak to break the links on this rusty ball and chain.$B$BWell, don't just stand there! Get me loose!
@@ -7116,13 +7116,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我现在很忙，$C。$B$B我能为你做什么呢？'	-- I've got my hands full here at the moment, $c.$B$BWhat can I do for you?
 WHERE `entry`=12435;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Speak slowly, child, I am new to your strange tongue.'	-- Speak slowly, child, I am new to your strange tongue.
-WHERE `entry`=12440;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Speak slowly, child, I am new to your strange tongue.'	-- Speak slowly, child, I am new to your strange tongue.
+-- WHERE `entry`=12440;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Please, keep your voice down, $r. Hamat is old and needs her rest.'	-- Please, keep your voice down, $r. Hamat is old and needs her rest.
-WHERE `entry`=12441;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Please, keep your voice down, $r. Hamat is old and needs her rest.'	-- Please, keep your voice down, $r. Hamat is old and needs her rest.
+-- WHERE `entry`=12441;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='Fine then, have a seat. This might take a while.$B$BWhen we first came to this frozen hell, General Arlos, down in Valiance Keep, gave my group of flying daredevils and I a special task: to establish a forward airbase for Alliance operations.$B$BThis airstrip is the result. Let me tell you, it wasn''t easy, what with all the nasty beasts and the ground rock-hard from being frozen! But we managed, and we did it quickly too!'	-- Fine then, have a seat. This might take a while.$B$BWhen we first came to this frozen hell, General Arlos, down in Valiance Keep, gave my group of flying daredevils and I a special task: to establish a forward airbase for Alliance operations.$B$BThis airstrip is the result. Let me tell you, it wasn't easy, what with all the nasty beasts and the ground rock-hard from being frozen! But we managed, and we did it quickly too!
@@ -7164,9 +7164,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='逃兵的行径让我们倍感羞耻。这种耻辱感是如此强烈，你只有在亲身经历后才能有所体会。这也是乌格索来到这里的原因……他必须得到教训。'	-- The actions of these deserters shames us all. A shame so powerful that it must be witnessed to be understood. It is why Ug'thor is here... The boy must learn.
 WHERE `entry`=12472;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Be careful around these parts, $r. The natives are ruthless.'	-- Be careful around these parts, $r. The natives are ruthless.
-WHERE `entry`=12475;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Be careful around these parts, $r. The natives are ruthless.'	-- Be careful around these parts, $r. The natives are ruthless.
+-- WHERE `entry`=12475;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='那么，$N，你想要什么东西？'	-- So, $N, which item are you interested in?
@@ -7176,13 +7176,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='啊──各种珍品都在这里！我们专门为有识别能力的冒险者挑选艾泽拉斯世界的宝贝。$B$B既然你来找我谈话了，我想你肯定已经想好要什么了吧。'	-- Ah - oddities and rarities. We specialize in Azeroth's more unique items for the discerning adventurer.$B$BSince you're speaking with me, you must already have an idea of what you're looking for.
 WHERE `entry`=12495;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Did you know that alchemists can transmute certain gems?  Mar''nah and I have been talking about this.$B$BI''m convinced that given her prowess, once her lab is complete, she and I will be able to create gems that were thought to be lost in time.'	-- Did you know that alchemists can transmute certain gems?  Mar'nah and I have been talking about this.$B$BI'm convinced that given her prowess, once her lab is complete, she and I will be able to create gems that were thought to be lost in time.
-WHERE `entry`=12496;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Did you know that alchemists can transmute certain gems?  Mar''nah and I have been talking about this.$B$BI''m convinced that given her prowess, once her lab is complete, she and I will be able to create gems that were thought to be lost in time.'	-- Did you know that alchemists can transmute certain gems?  Mar'nah and I have been talking about this.$B$BI'm convinced that given her prowess, once her lab is complete, she and I will be able to create gems that were thought to be lost in time.
+-- WHERE `entry`=12496;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We''ve done it, $N.  Mar''nah has learned how to transmute very special gems.  And I''ve learned how to work them.'	-- We've done it, $N.  Mar'nah has learned how to transmute very special gems.  And I've learned how to work them.
-WHERE `entry`=12497;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We''ve done it, $N.  Mar''nah has learned how to transmute very special gems.  And I''ve learned how to work them.'	-- We've done it, $N.  Mar'nah has learned how to transmute very special gems.  And I've learned how to work them.
+-- WHERE `entry`=12497;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎，$C。你有没有向这团火焰表达你的敬意？$B$B记住：我们的节日火焰在联盟的每一片土地上燃烧，如果你有时间的话，去向它们一一表达你的敬意。$B$B当然部落也点燃了他们自己的火焰，如果你有看到的话，记得去踏灭那些毫无价值的东西。'	-- Welcome, $c. Have you come to honor this flame?$b$bRemember: Our festival fires burn in every land with an Alliance settlement. Make time to honor each of them, if you can.$b$bThe Horde, too, burns fires of their own. You would do well to desecrate such unworthy efforts when you see them.
@@ -7198,9 +7198,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='奈辛瓦里不会停止杀害诺森德的野生动物的，他迟早会再下毒手。你必须保持警惕，$N！$B$B无论如何，不要屈服于任何可能出现的诱惑……这家伙一定会企图迷惑你。坚持住！'	-- While Nesingwary's advances upon the wildlife of Northrend has been halted, it is only a matter of time before he attempts another incursion. You must remain vigilant, $N!$B$BAbove all else, do not give in to whatever temptations may be set before you... The demon will attempt to charm you. When it happens, you must resist!
 WHERE `entry`=12511;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''ll be damned if these blasted Scourge are going to drive us away!  Us settlers gave everything up to start new lives in Northrend.$B$BYou''d better believe we''re going to fight tooth and nail.'	-- I'll be damned if these blasted Scourge are going to drive us away!  Us settlers gave everything up to start new lives in Northrend.$B$BYou'd better believe we're going to fight tooth and nail.
-WHERE `entry`=12521;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''ll be damned if these blasted Scourge are going to drive us away!  Us settlers gave everything up to start new lives in Northrend.$B$BYou''d better believe we''re going to fight tooth and nail.'	-- I'll be damned if these blasted Scourge are going to drive us away!  Us settlers gave everything up to start new lives in Northrend.$B$BYou'd better believe we're going to fight tooth and nail.
+-- WHERE `entry`=12521;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='石头散发微微的寒意，使其周遭的空气及放置的平台凝结成冰。在其多面的深处，一只蓝龙蛰伏于其中，等待着。'	-- The stone radiates a bitter cold, chilling the air around it and the platform on which it sits. Deep within its facets, a blue light pulses, waiting.
@@ -7224,9 +7224,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Need gold? Here''s 5,000 coins worth.'	-- Need gold? Here's 5,000 coins worth.
 WHERE `entry`=12532;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Arthas was once a human prince.  The army he led into Northrend suffered a horrible fate.$B$BMy brother, Thassarian, was a part of that army.'	-- Arthas was once a human prince.  The army he led into Northrend suffered a horrible fate.$B$BMy brother, Thassarian, was a part of that army.
-WHERE `entry`=12534;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Arthas was once a human prince.  The army he led into Northrend suffered a horrible fate.$B$BMy brother, Thassarian, was a part of that army.'	-- Arthas was once a human prince.  The army he led into Northrend suffered a horrible fate.$B$BMy brother, Thassarian, was a part of that army.
+-- WHERE `entry`=12534;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='是，我们不过是一群手无寸铁的矿工、农夫和工匠。可是情况危急时，我们也会赤手空拳地抗争到底，像士兵那样守卫我们的家园。'	-- We're miners, farmers and craftsmen - not soldiers.  But we'll defend our land with our bare fists if we must.
@@ -7304,9 +7304,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='为国家牺牲是军人的职责。如果将这场战争称为闹剧就算是叛国的话，那我就是一名十足的叛徒了。'	-- Dying for one's country is a soldier's duty.  But if calling this war folly is treason, then I'm a traitor.
 WHERE `entry`=12555;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''m very busy right now, $r. Please leave me alone.'	-- I'm very busy right now, $r. Please leave me alone.
-WHERE `entry`=12556;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''m very busy right now, $r. Please leave me alone.'	-- I'm very busy right now, $r. Please leave me alone.
+-- WHERE `entry`=12556;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='别走神啊。这场战争非比寻常，前线的气氛尤其紧张。$B$B想帮忙的话就打起精神来，让我看看你有多大的本事。'	-- Focus your mind, mortal. This is the front line of a war unlike any you've witnessed.$b$bYou'll need full command of your faculties if you are to be of any use.
@@ -7317,9 +7317,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='When Ahune surfaces, will we be ready?'	-- When Ahune surfaces, will we be ready?
 WHERE `entry`=12572;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Oh....$b$bWhere am I?'	-- Oh....$b$bWhere am I?
-WHERE `entry`=12577;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Oh....$b$bWhere am I?'	-- Oh....$b$bWhere am I?
+-- WHERE `entry`=12577;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎，$C。你是来荣耀这座火焰的吗？$B$B记住：我们的节庆火焰在每个拥有部落营区的土地上燃烧着。如果可以的话，花点时间前去荣耀每一座火焰吧。$B$B联盟也是一样，燃烧着属于他们的火焰。当你遇到联盟的火焰时，你还是亵渎一下像这样没有意义的努力比较好。'	-- Welcome, $c. Have you come to honor this flame?$b$bRemember: Our festival fires burn in every land with a Horde settlement. Make time to honor each of them, if you can.$b$bThe Alliance, too, burns fires of their own. You would do well to desecrate such unworthy efforts when you see them.
@@ -7347,21 +7347,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='魔法之王玛里苟斯是蓝龙军团的统帅。作为蓝龙守护者，他是艾泽拉斯世界最古老的生物之一。$B$B据说他已经从数千年来的疯狂中觉醒，可是他最近的行为表明他远没有恢复理智。$B$B对于我们的困境，他竟然决定以摧毁艾泽拉斯世界所有施法者的方式来解决。$B$B生命守护者红龙不得不采取行动。$B$B蓝龙军团和红龙军团展开了一场激战，世界的命运，就取决于那脆弱的平衡。'	-- Malygos the Spellweaver, the Lord of Magic, Master of the Blue Dragonflight. He is the blue dragon aspect, one of the most ancient creatures on Azeroth.$b$bHe is said to be recovering from a madness which has lasted for millennia, but his recent actions lead me to believe that he is still far from sane.$b$bHis solution to our dilemma is to search out and destroy every magic-wielding mortal on Azeroth.$b$bAs the guardians of life, this has forced the red dragonflight to take action.$b$bDragon now fights against dragon, and the fate of our frail world lies in the balance.
 WHERE `entry`=12593;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I''m glad you are here, $c. The military situation in the Sunwell Plateau is rather grim.'	-- I'm glad you are here, $c. The military situation in the Sunwell Plateau is rather grim.
-WHERE `entry`=12596;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I''m glad you are here, $c. The military situation in the Sunwell Plateau is rather grim.'	-- I'm glad you are here, $c. The military situation in the Sunwell Plateau is rather grim.
+-- WHERE `entry`=12596;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='赛拉娜上尉吩咐我前来协助你进行在太阳之井高地的工作。'	-- Captain Selana has instructed me to assist you with your efforts here on the Sunwell Plateau.
 WHERE `entry`=12597;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Shattered Sun Offensive has made great progress in the outer areas of the Isle of Quel''Danas. Kil''jaeden''s forces are being pushed back, and in the chaos I was able to lead a small scouting force here inside the Sunwell Plateau. My troops proceeded through Parhelion Plaza, spotted a group of Sunblade blood elves, and we then engaged the enemy. That fight quickly turned into a disaster.'	-- The Shattered Sun Offensive has made great progress in the outer areas of the Isle of Quel'Danas. Kil'jaeden's forces are being pushed back, and in the chaos I was able to lead a small scouting force here inside the Sunwell Plateau. My troops proceeded through Parhelion Plaza, spotted a group of Sunblade blood elves, and we then engaged the enemy. That fight quickly turned into a disaster.
-WHERE `entry`=12598;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Shattered Sun Offensive has made great progress in the outer areas of the Isle of Quel''Danas. Kil''jaeden''s forces are being pushed back, and in the chaos I was able to lead a small scouting force here inside the Sunwell Plateau. My troops proceeded through Parhelion Plaza, spotted a group of Sunblade blood elves, and we then engaged the enemy. That fight quickly turned into a disaster.'	-- The Shattered Sun Offensive has made great progress in the outer areas of the Isle of Quel'Danas. Kil'jaeden's forces are being pushed back, and in the chaos I was able to lead a small scouting force here inside the Sunwell Plateau. My troops proceeded through Parhelion Plaza, spotted a group of Sunblade blood elves, and we then engaged the enemy. That fight quickly turned into a disaster.
+-- WHERE `entry`=12598;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Kil''jaeden''s defenders here on the Sunwell Plateau are much stronger than anything we faced outside on the Island. The Legion have even twisted our Arcane Guardian technology with fel energy to create something much more sinister. Just one of those Sunblade Protectors decimated my troops, and I ordered a swift retreat. I expected my squad to be pushed completely off the plateau, but the enemy surprised me by calling off the pursuit.'	-- Kil'jaeden's defenders here on the Sunwell Plateau are much stronger than anything we faced outside on the Island. The Legion have even twisted our Arcane Guardian technology with fel energy to create something much more sinister. Just one of those Sunblade Protectors decimated my troops, and I ordered a swift retreat. I expected my squad to be pushed completely off the plateau, but the enemy surprised me by calling off the pursuit.
-WHERE `entry`=12599;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Kil''jaeden''s defenders here on the Sunwell Plateau are much stronger than anything we faced outside on the Island. The Legion have even twisted our Arcane Guardian technology with fel energy to create something much more sinister. Just one of those Sunblade Protectors decimated my troops, and I ordered a swift retreat. I expected my squad to be pushed completely off the plateau, but the enemy surprised me by calling off the pursuit.'	-- Kil'jaeden's defenders here on the Sunwell Plateau are much stronger than anything we faced outside on the Island. The Legion have even twisted our Arcane Guardian technology with fel energy to create something much more sinister. Just one of those Sunblade Protectors decimated my troops, and I ordered a swift retreat. I expected my squad to be pushed completely off the plateau, but the enemy surprised me by calling off the pursuit.
+-- WHERE `entry`=12599;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='喜欢这个节庆吗，$C？$B$B虽说火焰持护者偏向当前的火焰，但我也不只是个只熟悉节庆过去的历史学家而已。当然，我也记录今年的节庆活动。目前一切进展的很顺利，你不觉得吗？$B$B你知道的，$N，在节日中持续燃烧的节庆火焰中潜藏着力量。我们看顾着我们的火焰，但我确信在我们敌人的城市深处有着神圣的火焰在燃烧着……'	-- Enjoying the festival, $c?$b$bWhile the Flame Keepers tend to the fires of the present, I am more of a historian, keeping close the festivals past. I'm also, of course, documenting this year's festivities. Things are going well thus far, don't you think?$b$bYou know, $n, there is power inherent in all festival fires burning throughout the holiday. We're taking care of ours, but I'm certain there are sacred flames burning deep within our enemy's cities...
@@ -7401,13 +7401,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='太阳之井的三道门全都被终结了，$N。$B$B你必须得率领你的队伍在一切都太迟以前阻止基尔加丹进入艾泽拉斯！'	-- All three of the gates at the Sunwell Plateau have been brought down, $N.$B$BYou must marshal your forces and stop Kil'jaeden from entering Azeroth before all is lost!
 WHERE `entry`=12623;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Riplash will never return to its former glory, but these boat-riding scum will pay for their deeds - I swear it!'	-- Riplash will never return to its former glory, but these boat-riding scum will pay for their deeds - I swear it!
-WHERE `entry`=12626;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Riplash will never return to its former glory, but these boat-riding scum will pay for their deeds - I swear it!'	-- Riplash will never return to its former glory, but these boat-riding scum will pay for their deeds - I swear it!
+-- WHERE `entry`=12626;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It is our duty to protect these taunka and provide them with what little comfort we can offer.'	-- It is our duty to protect these taunka and provide them with what little comfort we can offer.
-WHERE `entry`=12627;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It is our duty to protect these taunka and provide them with what little comfort we can offer.'	-- It is our duty to protect these taunka and provide them with what little comfort we can offer.
+-- WHERE `entry`=12627;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='真搞不懂为什么有些海盗喜欢把财宝埋起来，你看……我就喜欢将它们放在随手可及的地方。'	-- I never understood why some pirates bury their treasure.  Me... I like to keep it within arm's reach.
@@ -7417,9 +7417,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='莫亚基港口因两只大海龟“踏浪者”和“绿背岛”而闻名。它们往返于乌努比和卡玛古。'	-- Moa'ki Harbor is blessed with two great sea turtles: Walker of Waves and Green Island. They swim between Unu'pe and Kamagua.
 WHERE `entry`=12640;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Eager to get to Northrend, are you? The steam-powered Kraken sails from here to Valiance Keep in Borean Tundra.'	-- Eager to get to Northrend, are you? The steam-powered Kraken sails from here to Valiance Keep in Borean Tundra.
-WHERE `entry`=12641;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Eager to get to Northrend, are you? The steam-powered Kraken sails from here to Valiance Keep in Borean Tundra.'	-- Eager to get to Northrend, are you? The steam-powered Kraken sails from here to Valiance Keep in Borean Tundra.
+-- WHERE `entry`=12641;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嗨！你想念东部王国了吧？如果你想回去的话，“海怪号”正要返回暴风城。那里的气候肯定比这里温暖得多！'	-- Hey there! Miss the Eastern Kingdoms, huh? Well, the Kraken sails back to Stormwind if you're really itching to return. I know I'd enjoy the warmer weather!
@@ -7457,9 +7457,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嗯？干什么？！走开。'	-- Huh?  What?!  Go away.
 WHERE `entry`=12666;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='If I can make a new war machine, I know I can get a pretty penny for it over at the Wrath Gate.  $B$BSome of our previous iterations haven''t been entirely... stable, but my flying machine should do the trick if I can just develop an effective bomb system for it.'	-- If I can make a new war machine, I know I can get a pretty penny for it over at the Wrath Gate.  $B$BSome of our previous iterations haven't been entirely... stable, but my flying machine should do the trick if I can just develop an effective bomb system for it.
-WHERE `entry`=12667;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='If I can make a new war machine, I know I can get a pretty penny for it over at the Wrath Gate.  $B$BSome of our previous iterations haven''t been entirely... stable, but my flying machine should do the trick if I can just develop an effective bomb system for it.'	-- If I can make a new war machine, I know I can get a pretty penny for it over at the Wrath Gate.  $B$BSome of our previous iterations haven't been entirely... stable, but my flying machine should do the trick if I can just develop an effective bomb system for it.
+-- WHERE `entry`=12667;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='当你站在这尊古老的人偶面前，你感觉到好像有什么东西现身了。'	-- You feel a strange presence as you stand before this ancient idol.
@@ -7546,9 +7546,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='除非你亲手杀死一条龙，否则我可不认你这个朋友……'	-- You not a real mon til you killed a dragon... mon.
 WHERE `entry`=12725;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, $r.  I''m sorry that you had to see our sacred land for the first time in such a state.'	-- Hello, $r.  I'm sorry that you had to see our sacred land for the first time in such a state.
-WHERE `entry`=12727;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, $r.  I''m sorry that you had to see our sacred land for the first time in such a state.'	-- Hello, $r.  I'm sorry that you had to see our sacred land for the first time in such a state.
+-- WHERE `entry`=12727;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嘿！需要什么东西，直接告诉我就行啦。'	-- Hey dere. You need anythin', you let me know.
@@ -7597,21 +7597,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='天空并不安全，朋友。要小心！'	-- The sky is not safe, friend. Be alert!
 WHERE `entry`=12756;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Do watch your step in the garden of Ysera, mortal. Things are not always as they seem.'	-- Do watch your step in the garden of Ysera, mortal. Things are not always as they seem.
-WHERE `entry`=12758;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Do watch your step in the garden of Ysera, mortal. Things are not always as they seem.'	-- Do watch your step in the garden of Ysera, mortal. Things are not always as they seem.
+-- WHERE `entry`=12758;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你需要什么？要不要修理一下护甲或是武器？嗯？'	-- You need something? Maybe your armor or weapon repaired? Hmm?
 WHERE `entry`=12759;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Desperate times call for desperate measures, $c.'	-- Desperate times call for desperate measures, $c.
-WHERE `entry`=12770;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Desperate times call for desperate measures, $c.'	-- Desperate times call for desperate measures, $c.
+-- WHERE `entry`=12770;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The natural beauty of these hills belies a great darkness below.  Tread carefully, friend.'	-- The natural beauty of these hills belies a great darkness below.  Tread carefully, friend.
-WHERE `entry`=12773;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The natural beauty of these hills belies a great darkness below.  Tread carefully, friend.'	-- The natural beauty of these hills belies a great darkness below.  Tread carefully, friend.
+-- WHERE `entry`=12773;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='小心，周围可能有那些传播着巫妖王诅咒的爪牙。'	-- Be wary, for the plagued tendrils of the Lich King lurk close.
@@ -7640,17 +7640,17 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Our food and drink are in short supply.  I''m afraid I do not have anything to offer you.'	-- Our food and drink are in short supply.  I'm afraid I do not have anything to offer you.
 WHERE `entry`=12780;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Thank you for your help, $n.  These frostberries are literally the fruits of your labor.'	-- Thank you for your help, $n.  These frostberries are literally the fruits of your labor.
-WHERE `entry`=12781;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Thank you for your help, $n.  These frostberries are literally the fruits of your labor.'	-- Thank you for your help, $n.  These frostberries are literally the fruits of your labor.
+-- WHERE `entry`=12781;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Keep your voice down, $c. I''m in disguise and spying for Venomspite.'	-- Keep your voice down, $c. I'm in disguise and spying for Venomspite.
-WHERE `entry`=12795;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Keep your voice down, $c. I''m in disguise and spying for Venomspite.'	-- Keep your voice down, $c. I'm in disguise and spying for Venomspite.
+-- WHERE `entry`=12795;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Think you could get me out of here, $c?'	-- Think you could get me out of here, $c?
-WHERE `entry`=12804;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Think you could get me out of here, $c?'	-- Think you could get me out of here, $c?
+-- WHERE `entry`=12804;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='啊，你是来救我的吧。快带我离开这个鬼地方！'	-- Oh good, you're here to rescue me. Now let me out of here!
@@ -7679,9 +7679,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='You must defeat our rivals in any of the Battlegrounds. With every victory, there is a chance that a Gold Medallion will be mailed to you.'	-- You must defeat our rivals in any of the Battlegrounds. With every victory, there is a chance that a Gold Medallion will be mailed to you.
 WHERE `entry`=12821;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We are quickly learning the price of death in this frigid wasteland, $N. The Lich King''s power extends across every inch of Northrend, permeating into the earth itself! He turns our own fallen people against us.$B$BFrom the sky, risen gryphon riders rain down their vengeful stormhammers as the walking dead assail us on the ground.$B'	-- We are quickly learning the price of death in this frigid wasteland, $N. The Lich King's power extends across every inch of Northrend, permeating into the earth itself! He turns our own fallen people against us.$B$BFrom the sky, risen gryphon riders rain down their vengeful stormhammers as the walking dead assail us on the ground.$B
-WHERE `entry`=12823;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We are quickly learning the price of death in this frigid wasteland, $N. The Lich King''s power extends across every inch of Northrend, permeating into the earth itself! He turns our own fallen people against us.$B$BFrom the sky, risen gryphon riders rain down their vengeful stormhammers as the walking dead assail us on the ground.$B'	-- We are quickly learning the price of death in this frigid wasteland, $N. The Lich King's power extends across every inch of Northrend, permeating into the earth itself! He turns our own fallen people against us.$B$BFrom the sky, risen gryphon riders rain down their vengeful stormhammers as the walking dead assail us on the ground.$B
+-- WHERE `entry`=12823;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='他似乎被关在伐木场附近的某个牢笼。'	-- I think they put him in a cage over near the lumbermill.
@@ -7743,16 +7743,16 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=12849;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='在摧毁这一文明的战事中，我已经尽到了自己的义务……我不得不屈尊亲自对付诅咒神教，一想到这点就觉得恶心。'	-- I've played my part in destroying entire civilizations... to have to lower myself to dealing with the wretched Cult of the Damned disgusts me.
+	`text0_0_loc4`='在摧毁这一文明的战事中，我已经尽到了自己的义务……我不得不屈尊亲自对付诅咒教派，一想到这点就觉得恶心。'	-- I've played my part in destroying entire civilizations... to have to lower myself to dealing with the wretched Cult of the Damned disgusts me.
 WHERE `entry`=12850;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Fine, but be more careful with it this time!'	-- Fine, but be more careful with it this time!
-WHERE `entry`=12851;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Fine, but be more careful with it this time!'	-- Fine, but be more careful with it this time!
+-- WHERE `entry`=12851;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Keep your voice down. We wouldn''t want to attract any attention from these beasties!'	-- Keep your voice down. We wouldn't want to attract any attention from these beasties!
-WHERE `entry`=12852;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Keep your voice down. We wouldn''t want to attract any attention from these beasties!'	-- Keep your voice down. We wouldn't want to attract any attention from these beasties!
+-- WHERE `entry`=12852;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='别拿琐碎的小事打扰我！'	-- Don't bother me with trifles!
@@ -7818,9 +7818,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='朋友，狮鹫骑士距离我们仅十步之遥。他们会送你前往索尔森的岗哨。准备出发吧！'	-- The gryphon riders are standing 10 paces from us, friend. They'll be giving you a ride to Thorson's Post. Get going!
 WHERE `entry`=12905;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Do not think for a second that your past accomplishments entitle you to anything, $N.  They don''t.$B$BIf you want my respect you''re going to have to earn it.  This means following my orders without question and fulfilling them... without exceptions.'	-- Do not think for a second that your past accomplishments entitle you to anything, $N.  They don't.$B$BIf you want my respect you're going to have to earn it.  This means following my orders without question and fulfilling them... without exceptions.
-WHERE `entry`=12906;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Do not think for a second that your past accomplishments entitle you to anything, $N.  They don''t.$B$BIf you want my respect you''re going to have to earn it.  This means following my orders without question and fulfilling them... without exceptions.'	-- Do not think for a second that your past accomplishments entitle you to anything, $N.  They don't.$B$BIf you want my respect you're going to have to earn it.  This means following my orders without question and fulfilling them... without exceptions.
+-- WHERE `entry`=12906;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎来到欧尼克瓦营地。'	-- Welcome to Camp Oneqwah.
@@ -7846,25 +7846,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='大部分血精灵都对部落的“野蛮习气”嗤之以鼻，我当然也不例外。当我刚刚被派到这又潮湿又……芳香的地方时，我觉得自己实在是太不走运了。$B$B渐渐地，我发现这里的环境还是挺棒的。你觉得呢？$B$B我和你废什么话呢……你又不是法师，对我的研究肯定没兴趣。'	-- Most of my brethren are disdainful of the Horde's "barbaric" ways, and I once counted myself among them. When I was first ordered to this somewhat humid and... fragrant place, I cursed my lot in life.$b$bDuring my studies, however, I grew to appreciate my surroundings. It has a certain charm, don't you think?$b$b...you wouldn't be interested in my studies, of course, not being a mage yourself.
 WHERE `entry`=12927;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Sinu a''manore. If you seek to learn how to conjure a portal to Theramore, I can show you.'	-- Sinu a'manore. If you seek to learn how to conjure a portal to Theramore, I can show you.
-WHERE `entry`=12933;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Sinu a''manore. If you seek to learn how to conjure a portal to Theramore, I can show you.'	-- Sinu a'manore. If you seek to learn how to conjure a portal to Theramore, I can show you.
+-- WHERE `entry`=12933;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Here for a ride, $r?$B$BOr, is something else bothering you?'	-- Here for a ride, $r?$B$BOr, is something else bothering you?
-WHERE `entry`=12937;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Here for a ride, $r?$B$BOr, is something else bothering you?'	-- Here for a ride, $r?$B$BOr, is something else bothering you?
+-- WHERE `entry`=12937;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='听着。想知道不明物的真相，最好是制造一场爆炸──当然是越大越好啦！$B$B不过眼下还有很多问题没有解决，$R。$B$B这些弹头都是由机密材料制成的，而作为推进能量源的115号元素就更加机密啦！$B$B事实上，你最好假装从来没有见过我，继续过你的安稳日子去。'	-- Listen here, now. When you're looking for answers nothing beats a good explosion - the bigger, the better!$b$bBut that's probably enough with the questions for now, $r.$b$bMy warheads are classified material, and the element 115 that I created to power them is even more classified!$b$bIn fact, it's best that you just return to your everyday life and pretend we never met.
 WHERE `entry`=12938;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome, adventurer. You''ve come just in the nick of time.'	-- Welcome, adventurer. You've come just in the nick of time.
-WHERE `entry`=12939;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome, adventurer. You''ve come just in the nick of time.'	-- Welcome, adventurer. You've come just in the nick of time.
+-- WHERE `entry`=12939;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Does being in the presence of a Black Dragon make you nervous?$B$BGood. It should. It makes these dragons nervous too. They cling to their ancient virtues though - they wouldn''t dare attack me here.$B$BFools.'	-- Does being in the presence of a Black Dragon make you nervous?$B$BGood. It should. It makes these dragons nervous too. They cling to their ancient virtues though - they wouldn't dare attack me here.$B$BFools.
-WHERE `entry`=12942;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Does being in the presence of a Black Dragon make you nervous?$B$BGood. It should. It makes these dragons nervous too. They cling to their ancient virtues though - they wouldn''t dare attack me here.$B$BFools.'	-- Does being in the presence of a Black Dragon make you nervous?$B$BGood. It should. It makes these dragons nervous too. They cling to their ancient virtues though - they wouldn't dare attack me here.$B$BFools.
+-- WHERE `entry`=12942;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='听着，$R。$B$B想找一台能驾驶的伐木机，你恐怕得进入北面的山岭。$B$B这台已经坏掉了。'	-- Listen, $r.$b$bIf you're lookin' for a shredder to ride, you'll need to head up into the hills just north there.$b$bThis one's out of commission.
@@ -7882,17 +7882,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='有事吗？'	-- Yes?
 WHERE `entry`=12946;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Infinite Dragonflight is attempting to alter the destiny of Prince Arthas Menethil. You know him now as the Lich King, but here and now he was still a Prince of Lordaeron trying to do what was best for his kingdom. Arthas makes a very fateful choice today, leading to something we Keepers of Time call an inflection point in the timeline.'	-- The Infinite Dragonflight is attempting to alter the destiny of Prince Arthas Menethil. You know him now as the Lich King, but here and now he was still a Prince of Lordaeron trying to do what was best for his kingdom. Arthas makes a very fateful choice today, leading to something we Keepers of Time call an inflection point in the timeline.
-WHERE `entry`=12949;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Infinite Dragonflight is attempting to alter the destiny of Prince Arthas Menethil. You know him now as the Lich King, but here and now he was still a Prince of Lordaeron trying to do what was best for his kingdom. Arthas makes a very fateful choice today, leading to something we Keepers of Time call an inflection point in the timeline.'	-- The Infinite Dragonflight is attempting to alter the destiny of Prince Arthas Menethil. You know him now as the Lich King, but here and now he was still a Prince of Lordaeron trying to do what was best for his kingdom. Arthas makes a very fateful choice today, leading to something we Keepers of Time call an inflection point in the timeline.
+-- WHERE `entry`=12949;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Infinites are attempting something unusually subtle for them. They are trying to hide the evidence that will lead to Arthas deciding to cull Stratholme. Their agents have used illusionary magic on the plagued grain shipments in the nearby countryside to make them appear normal. I need you to find the hidden grain, and use this Arcane Disruptor on the shipments. Arthas'' men are looking for plagued grain, and should find it quickly with the illusion gone.'	-- The Infinites are attempting something unusually subtle for them. They are trying to hide the evidence that will lead to Arthas deciding to cull Stratholme. Their agents have used illusionary magic on the plagued grain shipments in the nearby countryside to make them appear normal. I need you to find the hidden grain, and use this Arcane Disruptor on the shipments. Arthas' men are looking for plagued grain, and should find it quickly with the illusion gone.
-WHERE `entry`=12952;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Infinites are attempting something unusually subtle for them. They are trying to hide the evidence that will lead to Arthas deciding to cull Stratholme. Their agents have used illusionary magic on the plagued grain shipments in the nearby countryside to make them appear normal. I need you to find the hidden grain, and use this Arcane Disruptor on the shipments. Arthas'' men are looking for plagued grain, and should find it quickly with the illusion gone.'	-- The Infinites are attempting something unusually subtle for them. They are trying to hide the evidence that will lead to Arthas deciding to cull Stratholme. Their agents have used illusionary magic on the plagued grain shipments in the nearby countryside to make them appear normal. I need you to find the hidden grain, and use this Arcane Disruptor on the shipments. Arthas' men are looking for plagued grain, and should find it quickly with the illusion gone.
+-- WHERE `entry`=12952;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I don''t think we can afford to pass an opportunity to ingratiate ourselves with the red flight. With the battles ahead, having them as allies would be invaluable.'	-- I don't think we can afford to pass an opportunity to ingratiate ourselves with the red flight. With the battles ahead, having them as allies would be invaluable.
-WHERE `entry`=12953;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I don''t think we can afford to pass an opportunity to ingratiate ourselves with the red flight. With the battles ahead, having them as allies would be invaluable.'	-- I don't think we can afford to pass an opportunity to ingratiate ourselves with the red flight. With the battles ahead, having them as allies would be invaluable.
+-- WHERE `entry`=12953;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<指挥官停止授课，转过身来打量着你。>$B$B要不要听听，$C？接纳新知识对你来说是很有好处的。'	-- <The commander stops his lesson and turns, his eyes appraising you, sizing you up.>$B$BI have use for one such as yourself, $c.
@@ -7906,18 +7906,18 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N，我们又见面啦。$B$B想要复习对付天灾军团的战术吗？'	-- It's good to see you again, $N.$B$BCome for a refresher in Scourge tactics?
 WHERE `entry`=12961;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Darling, those shoes are to die for!  I mean that literally.  Who did you kill for them?'	-- Darling, those shoes are to die for!  I mean that literally.  Who did you kill for them?
-WHERE `entry`=12963;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Darling, those shoes are to die for!  I mean that literally.  Who did you kill for them?'	-- Darling, those shoes are to die for!  I mean that literally.  Who did you kill for them?
+-- WHERE `entry`=12963;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嘿，你手里拿的不是美酒节奖币吗？如果你有兴趣的话，我这里还有一些美酒节物品出售。'	-- Hey, I see ya got some Brewfest tokens.  If ya want, I still got a few Brewfest goods to sell.
 	`text0_1_loc4`='Hey, I see ya got some Brewfest tokens.  If ya want, I still got a few Brewfest goods to sell.'	-- Hey, I see ya got some Brewfest tokens.  If ya want, I still got a few Brewfest goods to sell.
 WHERE `entry`=12968;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='$N, good to see you!$B$BOr is this the first time that we''ve met?$B$BI''m in so many places and times right now, I sometimes have a hard time keeping track of all of it.'	-- $N, good to see you!$B$BOr is this the first time that we've met?$B$BI'm in so many places and times right now, I sometimes have a hard time keeping track of all of it.
-WHERE `entry`=12976;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='$N, good to see you!$B$BOr is this the first time that we''ve met?$B$BI''m in so many places and times right now, I sometimes have a hard time keeping track of all of it.'	-- $N, good to see you!$B$BOr is this the first time that we've met?$B$BI'm in so many places and times right now, I sometimes have a hard time keeping track of all of it.
+-- WHERE `entry`=12976;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='当我得知西部荒野发生骚乱时，便毅然告别战友，返回家乡处理当地的事务。算算也是陈年旧事啦。感谢圣光，迪菲亚兄弟会的威胁得以解除。$B$B如今我们再次出征，来到偏远的极寒之地。如果我们嬴不了这场战争，或许就再也没有机会回家了。'	-- I left a war once to tend to the troubles back home in Westfall. That seems like a lifetime ago. Thank the Light that the Defias are no longer a threat.$B$BWe're a long way from home up here, but if we don't win this battle, there may not be a Westfall to return to.
@@ -7931,21 +7931,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='抱歉，$R。我还有正事要办，不能耽搁。$B$B不好意思。'	-- Pardon me, $r, but I am on official business and cannot be disturbed.$b$bPlease excuse me.
 WHERE `entry`=12991;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Good work! Arthas now knows about the plagued grain in Stratholme, and is about to begin the culling. Something is still not quite right, though. I sense a foreign presence in this timeline besides us, and that must mean the Infinite Dragonflight are here somewhere.'	-- Good work! Arthas now knows about the plagued grain in Stratholme, and is about to begin the culling. Something is still not quite right, though. I sense a foreign presence in this timeline besides us, and that must mean the Infinite Dragonflight are here somewhere.
-WHERE `entry`=12992;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Good work! Arthas now knows about the plagued grain in Stratholme, and is about to begin the culling. Something is still not quite right, though. I sense a foreign presence in this timeline besides us, and that must mean the Infinite Dragonflight are here somewhere.'	-- Good work! Arthas now knows about the plagued grain in Stratholme, and is about to begin the culling. Something is still not quite right, though. I sense a foreign presence in this timeline besides us, and that must mean the Infinite Dragonflight are here somewhere.
+-- WHERE `entry`=12992;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I don''t know, and that worries me. I''ll do everything I can to find the Infinites. What I need you to do now is stay close to Arthas by joining his army.'	-- I don't know, and that worries me. I'll do everything I can to find the Infinites. What I need you to do now is stay close to Arthas by joining his army.
-WHERE `entry`=12993;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I don''t know, and that worries me. I''ll do everything I can to find the Infinites. What I need you to do now is stay close to Arthas by joining his army.'	-- I don't know, and that worries me. I'll do everything I can to find the Infinites. What I need you to do now is stay close to Arthas by joining his army.
+-- WHERE `entry`=12993;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_1_loc4`='Well, you''re not going to sign recruitment papers or anything, but you are going to fight alongside him. You need to make sure Arthas culls Stratholme and defeats Mal''Ganis. Without Uther and Jaina around, he''ll need all the help he can get. If you talk to Arthas, he''ll put you to work destroying the forces of Mal''Ganis. Follow along until I can figure out what''s going on with the Infinites. I''ll contact you again when I know more.'	-- Well, you're not going to sign recruitment papers or anything, but you are going to fight alongside him. You need to make sure Arthas culls Stratholme and defeats Mal'Ganis. Without Uther and Jaina around, he'll need all the help he can get. If you talk to Arthas, he'll put you to work destroying the forces of Mal'Ganis. Follow along until I can figure out what's going on with the Infinites. I'll contact you again when I know more.
 -- WHERE `entry`=12994;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Good luck, and be safe. Here comes Uther and Jaina now.'	-- Good luck, and be safe. Here comes Uther and Jaina now.
-WHERE `entry`=12995;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Good luck, and be safe. Here comes Uther and Jaina now.'	-- Good luck, and be safe. Here comes Uther and Jaina now.
+-- WHERE `entry`=12995;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='看看你那时候的表情，那就是我把你的心脏掏出来的时候啊……'	-- Time was when I'd pull yer heart out ya just ta see da look on yer face....
@@ -7972,13 +7972,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎来到我的营地，$R。$B$B好吧，她或许算不上一座营地，但至少我把她看作自己的家园。'	-- Welcome to me camp, $r.$b$bShe don't look like much, but she's home fer now.
 WHERE `entry`=13019;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Mr. Floppy and I went for a walk, but then we got lost and I was really scared, cause there were these wolves, you know, and they chased us, but then I saw this tower and Mr. Floppy and I hid here and the wolves finally went away after a while and it was terrible and now we don''t know how to get back home.'	-- Mr. Floppy and I went for a walk, but then we got lost and I was really scared, cause there were these wolves, you know, and they chased us, but then I saw this tower and Mr. Floppy and I hid here and the wolves finally went away after a while and it was terrible and now we don't know how to get back home.
-WHERE `entry`=13023;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Mr. Floppy and I went for a walk, but then we got lost and I was really scared, cause there were these wolves, you know, and they chased us, but then I saw this tower and Mr. Floppy and I hid here and the wolves finally went away after a while and it was terrible and now we don''t know how to get back home.'	-- Mr. Floppy and I went for a walk, but then we got lost and I was really scared, cause there were these wolves, you know, and they chased us, but then I saw this tower and Mr. Floppy and I hid here and the wolves finally went away after a while and it was terrible and now we don't know how to get back home.
+-- WHERE `entry`=13023;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I think you should go, $g mister:miss;. You''re scaring Mr. Floppy.'	-- I think you should go, $g mister:miss;. You're scaring Mr. Floppy.
-WHERE `entry`=13024;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I think you should go, $g mister:miss;. You''re scaring Mr. Floppy.'	-- I think you should go, $g mister:miss;. You're scaring Mr. Floppy.
+-- WHERE `entry`=13024;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='天灾军团如潮水般向我们涌来。战斗吧！'	-- The forces of the Scourge bear down upon us.  Take heart, and fight on!
@@ -7994,9 +7994,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$C！$B$B希望你能胜任艰苦的工作。我们的人手紧张，非常需要帮助。'	-- Greetings, $c!$b$bI hope you don't mind a little hard work. We could sure use a hand here.
 WHERE `entry`=13030;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The wind and trees whisper of unseen troubles.  The land appears healthy, but there''s more going on here than meets the eye.'	-- The wind and trees whisper of unseen troubles.  The land appears healthy, but there's more going on here than meets the eye.
-WHERE `entry`=13031;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The wind and trees whisper of unseen troubles.  The land appears healthy, but there''s more going on here than meets the eye.'	-- The wind and trees whisper of unseen troubles.  The land appears healthy, but there's more going on here than meets the eye.
+-- WHERE `entry`=13031;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='给部落最好的皮革，老兄！只有最好的才能提供给我军！'	-- Hides for the Horde, mon!  Only the best for our troops!
@@ -8032,9 +8032,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这些该死的害虫！'	-- Missing US text
 WHERE `entry`=13057;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Missing US text'	-- Missing US text
-WHERE `entry`=13059;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Missing US text'	-- Missing US text
+-- WHERE `entry`=13059;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='噢……我有点头晕……'	-- Oh... I'm feeling groggy...
@@ -8056,13 +8056,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='好酒！可惜不够劲。我觉得可以在里面多加一点大蒜……'	-- This is good stuff!  But it's a little weak.  I think I'll add a little more garlic breath to it...
 WHERE `entry`=13064;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Missing US text'	-- Missing US text
-WHERE `entry`=13065;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Missing US text'	-- Missing US text
+-- WHERE `entry`=13065;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This is a fine mess.'	-- This is a fine mess.
-WHERE `entry`=13070;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This is a fine mess.'	-- This is a fine mess.
+-- WHERE `entry`=13070;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='若是在别的日子，我才不会这么做。不过……我很口渴，而且我讨厌独自饮酒。$B$B干杯！'	-- I wouldn't do this on any other day, but... I'm thirsty and I hate drinking alone.$B$BBottoms up!
@@ -8080,13 +8080,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='别理我，我只是个老头，在等一个老……朋友。'	-- Don't mind me. I'm just an old man, waiting on an old... friend.
 WHERE `entry`=13079;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Ohhh, the pain is... overwhelming....'	-- Ohhh, the pain is... overwhelming....
-WHERE `entry`=13080;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Ohhh, the pain is... overwhelming....'	-- Ohhh, the pain is... overwhelming....
+-- WHERE `entry`=13080;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hurry, $r.$b$bTime is running out for me.'	-- Hurry, $r.$b$bTime is running out for me.
-WHERE `entry`=13081;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hurry, $r.$b$bTime is running out for me.'	-- Hurry, $r.$b$bTime is running out for me.
+-- WHERE `entry`=13081;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='快点。我在流血呢……'	-- Hurry, $g brother : sister;. I'm leaking here....
@@ -8100,9 +8100,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='什么事？没看见我正忙着吗？'	-- What is it? Can't you see that I'm busy?
 WHERE `entry`=13089;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Listen, you tell Schweitzer and Roitau that we''ve got everything under control here. They don''t gotta... what?$B$BThey didn''t send you? Then what are you wasting my time for?$B$BI''ve got work to do!'	-- Listen, you tell Schweitzer and Roitau that we've got everything under control here. They don't gotta... what?$B$BThey didn't send you? Then what are you wasting my time for?$B$BI've got work to do!
-WHERE `entry`=13093;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Listen, you tell Schweitzer and Roitau that we''ve got everything under control here. They don''t gotta... what?$B$BThey didn''t send you? Then what are you wasting my time for?$B$BI''ve got work to do!'	-- Listen, you tell Schweitzer and Roitau that we've got everything under control here. They don't gotta... what?$B$BThey didn't send you? Then what are you wasting my time for?$B$BI've got work to do!
+-- WHERE `entry`=13093;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$R。$B$B非常抱歉，你得体谅我一下，我现在实在是太忙了。'	-- Greetings, $r.$b$bI'm afraid you must excuse me as I'm terribly busy at the moment.
@@ -8112,17 +8112,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N，时间很紧迫。你准备好了吗？'	-- Time is of the essence here, $n. Are you prepared to be tested?
 WHERE `entry`=13098;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Ugh, I should never have volunteered to be a specialist. They always ask us to do the impossible!'	-- Ugh, I should never have volunteered to be a specialist. They always ask us to do the impossible!
-WHERE `entry`=13118;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Ugh, I should never have volunteered to be a specialist. They always ask us to do the impossible!'	-- Ugh, I should never have volunteered to be a specialist. They always ask us to do the impossible!
+-- WHERE `entry`=13118;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<当你靠近时，被俘虏的鳄鱼发出一声低吼。>'	-- <The captive crocolisk lets out a low growl as you approach.>
 WHERE `entry`=13120;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Excellent day for a foray into the field wouldn''t you say, $g sir : ma''am;?'	-- Excellent day for a foray into the field wouldn't you say, $g sir : ma'am;?
-WHERE `entry`=13121;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Excellent day for a foray into the field wouldn''t you say, $g sir : ma''am;?'	-- Excellent day for a foray into the field wouldn't you say, $g sir : ma'am;?
+-- WHERE `entry`=13121;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='Bg''grrml brgl brm！'	-- Bg'grrml brgl brm!
@@ -8148,9 +8148,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='集中精神，我们必须继续前进。'	-- Gather your senses quickly, we must press on.
 WHERE `entry`=13177;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Zim''Torga is able to provide us with a certain level of protection, but she has been greatly weakened by the presence of the Scourge and the actions of the Drakkari.$B$BIt falls to me and Ahunae to see to the rest of our defenses.'	-- Zim'Torga is able to provide us with a certain level of protection, but she has been greatly weakened by the presence of the Scourge and the actions of the Drakkari.$B$BIt falls to me and Ahunae to see to the rest of our defenses.
-WHERE `entry`=13180;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Zim''Torga is able to provide us with a certain level of protection, but she has been greatly weakened by the presence of the Scourge and the actions of the Drakkari.$B$BIt falls to me and Ahunae to see to the rest of our defenses.'	-- Zim'Torga is able to provide us with a certain level of protection, but she has been greatly weakened by the presence of the Scourge and the actions of the Drakkari.$B$BIt falls to me and Ahunae to see to the rest of our defenses.
+-- WHERE `entry`=13180;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='The trickster Mage-Lord Urom protects the third ring.  He will appear alone and defenseless, but do not be fooled by appearances!  Urom is a powerful conjurer who commands a menagerie of Phantasmal creatures.  Seek him out above.$B$BI can grant you the power to call upon a drake from the Red Fight.  Speak to Eternos or Verdisa if you prefer to draw on the power of the Bronze or the Green.'	-- The trickster Mage-Lord Urom protects the third ring.  He will appear alone and defenseless, but do not be fooled by appearances!  Urom is a powerful conjurer who commands a menagerie of Phantasmal creatures.  Seek him out above.$B$BI can grant you the power to call upon a drake from the Red Fight.  Speak to Eternos or Verdisa if you prefer to draw on the power of the Bronze or the Green.
@@ -8168,9 +8168,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='青铜龙军团欠你一个人情。'	-- The Bronze Flight is in your debt.
 WHERE `entry`=13240;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Green Flight is in your debt.'	-- The Green Flight is in your debt.
-WHERE `entry`=13241;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Green Flight is in your debt.'	-- The Green Flight is in your debt.
+-- WHERE `entry`=13241;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='Ruby Drakes excel at mitigating damage and protecting their allies.$B$BUsing Searing Wrath, they can breathe streams of liquid fire that jump from target to target, dealing increasing damage with each jump.$B$BWhenever a Ruby drake is damaged by an enemy attack, it gains an Evasive charge.  These charges can be used to perform a series of evasive maneuvers, allowing the drake to dodge incoming attacks and spells for a time.'	-- Ruby Drakes excel at mitigating damage and protecting their allies.$B$BUsing Searing Wrath, they can breathe streams of liquid fire that jump from target to target, dealing increasing damage with each jump.$B$BWhenever a Ruby drake is damaged by an enemy attack, it gains an Evasive charge.  These charges can be used to perform a series of evasive maneuvers, allowing the drake to dodge incoming attacks and spells for a time.
@@ -8184,9 +8184,9 @@ WHERE `entry`=13255;
 -- 	`text0_1_loc4`='Emerald Drakes excel at healing themselves while poisoning their enemies.$B$BUsing Leeching Poison, they can steal health from their enemies.  Repeated applications of this poison can increase the effect.$B$BWith Touch the Nightmare, Emerald Drakes can reach into the Dream, converting a portion of their life energy into a highly damaging attack that leaves the target weakened, reducing its damage for a short time.'	-- Emerald Drakes excel at healing themselves while poisoning their enemies.$B$BUsing Leeching Poison, they can steal health from their enemies.  Repeated applications of this poison can increase the effect.$B$BWith Touch the Nightmare, Emerald Drakes can reach into the Dream, converting a portion of their life energy into a highly damaging attack that leaves the target weakened, reducing its damage for a short time.
 -- WHERE `entry`=13258;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='An Emerald Drake at full power can perform Dream Funnel, which transfers the drake''s own life energy to a friendly target, healing it.  Leeching Poison can be used to restore health lost when using this ability.'	-- An Emerald Drake at full power can perform Dream Funnel, which transfers the drake's own life energy to a friendly target, healing it.  Leeching Poison can be used to restore health lost when using this ability.
-WHERE `entry`=13259;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='An Emerald Drake at full power can perform Dream Funnel, which transfers the drake''s own life energy to a friendly target, healing it.  Leeching Poison can be used to restore health lost when using this ability.'	-- An Emerald Drake at full power can perform Dream Funnel, which transfers the drake's own life energy to a friendly target, healing it.  Leeching Poison can be used to restore health lost when using this ability.
+-- WHERE `entry`=13259;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='欢迎来到营地，$C。'	-- Welcome to the camp, $c.
@@ -8208,29 +8208,29 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='对老纳斯宽容点。他年纪大了，体力早已不如从前。'	-- Take it easy on old Nass. He's not as young and resilient as he once was.
 WHERE `entry`=13271;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Move along. Nothing to see here.'	-- Move along. Nothing to see here.
-WHERE `entry`=13289;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Move along. Nothing to see here.'	-- Move along. Nothing to see here.
+-- WHERE `entry`=13289;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='<Bloodrose eyes you curiously.>$b$bI cannot help but wonder what makes you worthy of such attention.$b$bNo offense....'	-- <Bloodrose eyes you curiously.>$b$bI cannot help but wonder what makes you worthy of such attention.$b$bNo offense....
-WHERE `entry`=13290;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='<Bloodrose eyes you curiously.>$b$bI cannot help but wonder what makes you worthy of such attention.$b$bNo offense....'	-- <Bloodrose eyes you curiously.>$b$bI cannot help but wonder what makes you worthy of such attention.$b$bNo offense....
+-- WHERE `entry`=13290;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='请你快一点，$N。我承受着莫大的痛苦，时间已经不多了。'	-- Please hurry, $N. I am in a great deal of pain and time is running out.
 WHERE `entry`=13293;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We''re tryin'' ta blow this wall so Wick''s men can work on the new Harbor gatehouse and road beyond, but the clueless sod is cryin'' about me using too much powder!$B$BTch. I''ve been sappin'' since he was in diapers. This goes on much longer, I''ll kick him into the canal and finish the whole blasted job meself!'	-- We're tryin' ta blow this wall so Wick's men can work on the new Harbor gatehouse and road beyond, but the clueless sod is cryin' about me using too much powder!$B$BTch. I've been sappin' since he was in diapers. This goes on much longer, I'll kick him into the canal and finish the whole blasted job meself!
-WHERE `entry`=13301;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We''re tryin'' ta blow this wall so Wick''s men can work on the new Harbor gatehouse and road beyond, but the clueless sod is cryin'' about me using too much powder!$B$BTch. I''ve been sappin'' since he was in diapers. This goes on much longer, I''ll kick him into the canal and finish the whole blasted job meself!'	-- We're tryin' ta blow this wall so Wick's men can work on the new Harbor gatehouse and road beyond, but the clueless sod is cryin' about me using too much powder!$B$BTch. I've been sappin' since he was in diapers. This goes on much longer, I'll kick him into the canal and finish the whole blasted job meself!
+-- WHERE `entry`=13301;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='只要这堵墙拆掉，我们就要舖另外一条通往暴风港的路……但是那个疯矮人用了足以移平整座广场的火药啦！$B$B我不晓得当初艾力克斯顿大人雇用她的时候脑袋在想什么……她是个满口脏话、刻薄成性、刚愎自用的人！'	-- We're building another road down into Stormwind Harbor as soon as this wall has been removed... but this mad dwarf brought enough powder to level the entire quarter!$B$BI don't know what Master Alexston was thinking when he hired her... she's foul-mouthed, mean, and stubborn as an ox!
 WHERE `entry`=13302;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Scourge are a blemish upon these pristine lands.  By the might of my creators, I will crush every last one of their decrepit bones under my heel.'	-- The Scourge are a blemish upon these pristine lands.  By the might of my creators, I will crush every last one of their decrepit bones under my heel.
-WHERE `entry`=13303;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Scourge are a blemish upon these pristine lands.  By the might of my creators, I will crush every last one of their decrepit bones under my heel.'	-- The Scourge are a blemish upon these pristine lands.  By the might of my creators, I will crush every last one of their decrepit bones under my heel.
+-- WHERE `entry`=13303;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='看来你和我的想法一样啊。你想找些水果，对吧？'	-- Looks like you had the same idea I did. Hunting for fruit, are you?
@@ -8263,9 +8263,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Welcome. May I offer you rest or sustenance?'	-- Welcome. May I offer you rest or sustenance?
 WHERE `entry`=13328;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Do you like the new home that I''ve carved out for my so-called worshippers?$B$BIn the throes of my death, I cursed them all and dragged them along with me into this special underworld of my own creation.$B$BI think that I shall delight in their eternal torment, but what I really want is to exact revenge upon my former prophet!'	-- Do you like the new home that I've carved out for my so-called worshippers?$B$BIn the throes of my death, I cursed them all and dragged them along with me into this special underworld of my own creation.$B$BI think that I shall delight in their eternal torment, but what I really want is to exact revenge upon my former prophet!
-WHERE `entry`=13331;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Do you like the new home that I''ve carved out for my so-called worshippers?$B$BIn the throes of my death, I cursed them all and dragged them along with me into this special underworld of my own creation.$B$BI think that I shall delight in their eternal torment, but what I really want is to exact revenge upon my former prophet!'	-- Do you like the new home that I've carved out for my so-called worshippers?$B$BIn the throes of my death, I cursed them all and dragged them along with me into this special underworld of my own creation.$B$BI think that I shall delight in their eternal torment, but what I really want is to exact revenge upon my former prophet!
+-- WHERE `entry`=13331;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你是来找哈古斯买东西的吗？'	-- Come to buy from Hargus, you have?
@@ -8279,9 +8279,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我费了很多功夫，才迫使赫米特遵守协议。只希望大法师能赏识我的才能。'	-- I hope the archmage appreciates what I've gone through to uphold Hemet's end of the bargain.
 WHERE `entry`=13352;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You should be sticking close to Arthas right now!'	-- You should be sticking close to Arthas right now!
-WHERE `entry`=13353;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You should be sticking close to Arthas right now!'	-- You should be sticking close to Arthas right now!
+-- WHERE `entry`=13353;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='卡塔克是来吃大舌头怪的。我们要为他准备一顿大餐。'	-- Kartak comes for big-tongue meat. Frenzyheart make sure plenty is ready.
@@ -8295,9 +8295,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嗨！你还好吧？我们很好……嗯，很好很好。嗨！'	-- Hi! How you? We're good... yup, good good. Hi!
 WHERE `entry`=13367;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I am forever in your debt, $N.'	-- I am forever in your debt, $N.
-WHERE `entry`=13368;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I am forever in your debt, $N.'	-- I am forever in your debt, $N.
+-- WHERE `entry`=13368;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='天气不错啊，很适合飞行，不是吗？'	-- Nice day for flying, isn't it?
@@ -8335,33 +8335,33 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$N！我一直在等你。你怎么去了那么久？$B$B我们可以对荒芜之血进行转换了。$B$B让我们共同见证军队的诞生吧！'	-- $n! I've been awaiting your return. What be takin' ya so long, mon?$b$bIt be time to complete da conversion of da Blightbloods.$b$bJoin me and witness the creation of our army!
 WHERE `entry`=13422;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This isn''t quite what I signed up for, but hey... at least it''s warm here.'	-- This isn't quite what I signed up for, but hey... at least it's warm here.
-WHERE `entry`=13431;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This isn''t quite what I signed up for, but hey... at least it''s warm here.'	-- This isn't quite what I signed up for, but hey... at least it's warm here.
+-- WHERE `entry`=13431;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='总有一天，雷耶克会成为强大的战士。'	-- One day, Rejek be mighty warrior.
 WHERE `entry`=13438;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='These monsters killed my father and kidnapped my sister.  They''re going to pay for this!'	-- These monsters killed my father and kidnapped my sister.  They're going to pay for this!
-WHERE `entry`=13445;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='These monsters killed my father and kidnapped my sister.  They''re going to pay for this!'	-- These monsters killed my father and kidnapped my sister.  They're going to pay for this!
+-- WHERE `entry`=13445;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to my kitchen! We prepare some of the finest food in Dalaran here.'	-- Welcome to my kitchen! We prepare some of the finest food in Dalaran here.
-WHERE `entry`=13449;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to my kitchen! We prepare some of the finest food in Dalaran here.'	-- Welcome to my kitchen! We prepare some of the finest food in Dalaran here.
+-- WHERE `entry`=13449;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='希望你好好地教训一下大舌头怪。他们该滚蛋了！'	-- Hope you take it to big-tongues good. It about time they go away.
 WHERE `entry`=13451;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I do not believe you possess the mental acuity to grasp the nature of portal magic.$B$BHowever, you can use the crystal behind me to teleport to the ruins below Dalaran in Crystalsong Forest.'	-- I do not believe you possess the mental acuity to grasp the nature of portal magic.$B$BHowever, you can use the crystal behind me to teleport to the ruins below Dalaran in Crystalsong Forest.
-WHERE `entry`=13455;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I do not believe you possess the mental acuity to grasp the nature of portal magic.$B$BHowever, you can use the crystal behind me to teleport to the ruins below Dalaran in Crystalsong Forest.'	-- I do not believe you possess the mental acuity to grasp the nature of portal magic.$B$BHowever, you can use the crystal behind me to teleport to the ruins below Dalaran in Crystalsong Forest.
+-- WHERE `entry`=13455;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='As a mage, you are one of a select group that can conjure a portal to transport you back to this very place.  I can teach you if you are ready.$B$BAnd remember that you can always use the crystal behind me to teleport down to the ruins beneath Dalaran in Crystalsong Forest.'	-- As a mage, you are one of a select group that can conjure a portal to transport you back to this very place.  I can teach you if you are ready.$B$BAnd remember that you can always use the crystal behind me to teleport down to the ruins beneath Dalaran in Crystalsong Forest.
-WHERE `entry`=13456;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='As a mage, you are one of a select group that can conjure a portal to transport you back to this very place.  I can teach you if you are ready.$B$BAnd remember that you can always use the crystal behind me to teleport down to the ruins beneath Dalaran in Crystalsong Forest.'	-- As a mage, you are one of a select group that can conjure a portal to transport you back to this very place.  I can teach you if you are ready.$B$BAnd remember that you can always use the crystal behind me to teleport down to the ruins beneath Dalaran in Crystalsong Forest.
+-- WHERE `entry`=13456;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='朋友，欢迎来到我的理发店！你是想理发？还是染发啊？要不试试别的项目？$B$B我们提供各种修面、打洞、獠牙和犄角整形等服务，甚至能为亡灵整容！$B$B请坐吧，我们这就为你服务！只要花上几个子儿，你就能变得魅力四射……'	-- Welcome, friend, to the barbershop! Come for a cut? A coloring? Something else, perhaps?$B$BWe can groom facial hair, perform piercings, reshape tusks and horns, and even modify undead features!$B$BHave a seat and we'll get right to work. You're only a few coins away from a new, more attractive you...
@@ -8377,17 +8377,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='岩石大厅。77级-79级的5人小组副本。组好队伍之后，请传送到地牢。当然，你也可以使用集合石。结束副本后直接退出即可！'	-- The Halls of Stone, a level 77-79 dungeon within Storm Peaks, is now available for testing. Please be in your full group before teleporting to the dungeon. Meeting Stones are not available for this dungeon yet.$B$BTo leave the Halls of Stone, simply exit through the normal exit inside the dungeon and you will be returned here. If you die and release, you should teleport back from this NPC.
 WHERE `entry`=13469;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What are you doing all the way back here? You need to get back to Stratholme immediately! Shall I teleport you to Stratholme?'	-- What are you doing all the way back here? You need to get back to Stratholme immediately! Shall I teleport you to Stratholme?
-WHERE `entry`=13470;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What are you doing all the way back here? You need to get back to Stratholme immediately! Shall I teleport you to Stratholme?'	-- What are you doing all the way back here? You need to get back to Stratholme immediately! Shall I teleport you to Stratholme?
+-- WHERE `entry`=13470;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Go find those hidden plagued grain crates and use your Arcane Disruptor on them! Arthas will then have the evidence he needs to begin the culling of Stratholme.'	-- Go find those hidden plagued grain crates and use your Arcane Disruptor on them! Arthas will then have the evidence he needs to begin the culling of Stratholme.
-WHERE `entry`=13471;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Go find those hidden plagued grain crates and use your Arcane Disruptor on them! Arthas will then have the evidence he needs to begin the culling of Stratholme.'	-- Go find those hidden plagued grain crates and use your Arcane Disruptor on them! Arthas will then have the evidence he needs to begin the culling of Stratholme.
+-- WHERE `entry`=13471;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What are you doing here? Arthas is at the entrance to Stratholme right now and you should be with him! Go!'	-- What are you doing here? Arthas is at the entrance to Stratholme right now and you should be with him! Go!
-WHERE `entry`=13472;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What are you doing here? Arthas is at the entrance to Stratholme right now and you should be with him! Go!'	-- What are you doing here? Arthas is at the entrance to Stratholme right now and you should be with him! Go!
+-- WHERE `entry`=13472;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='Pet families come in one of three types. Ferocious pets, like cats, can dish out damage but can''t take it as well. Tenacious pets, like turtles, are more defensive and can occupy an enemy''s attention while you stay at range. Cunning pets, like spiders, have a mix of offensive and defensive abilities and are particularly useful in Battlegrounds and Arenas.$b$bAs your pet gains more experience, it can learn new talents just like you can, but at a slower rate. If you ever want to change your pet''s talents, just come back to me.'	-- Pet families come in one of three types. Ferocious pets, like cats, can dish out damage but can't take it as well. Tenacious pets, like turtles, are more defensive and can occupy an enemy's attention while you stay at range. Cunning pets, like spiders, have a mix of offensive and defensive abilities and are particularly useful in Battlegrounds and Arenas.$b$bAs your pet gains more experience, it can learn new talents just like you can, but at a slower rate. If you ever want to change your pet's talents, just come back to me.
@@ -8424,9 +8424,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='谢谢你送来了一些补给物资，这样我又能拿起厨具啦。我能为你做什么呢？'	-- Because you've managed to replenish some of our supplies I can get back to cooking.  Now, what can I do for you?
 WHERE `entry`=13503;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Why is everyone looking at me as if I crashed the ship?'	-- Why is everyone looking at me as if I crashed the ship?
-WHERE `entry`=13506;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Why is everyone looking at me as if I crashed the ship?'	-- Why is everyone looking at me as if I crashed the ship?
+-- WHERE `entry`=13506;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嗯……你有点面熟……让我想想……$B$B哈哈！西部荒野！我在西部荒野见过你。你是$N！咱们又见面啦，希望你能再次伸出援手。$B$B这里离西部荒野非常遥远，但是如果我们打不赢这一战，恐怕就要无家可归了。'	-- Hmm... something familiar about your face $r...  Give me a moment...$B$BAh ha! Westfall, that's where I recognize you from.  You are $n!  It's good to see you again.  But, let's hope you can help us finish the job this time.$B$BNow we're a long way from Westfall up here, but if we don't win this battle, there may not be a home to return to.
@@ -8472,13 +8472,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<高级指挥官咧嘴一笑，从头到脚地打量了你一番。>$B$B这正是我想听的。'	-- <The lord-commander flashes a rictus grin, looking you up and down discerningly.>$B$BThat's what I wanted to hear.
 WHERE `entry`=13531;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Consider all of the suffering that the Scarlets have caused over the years. The torture, the zealotry, the murder.$B$BI won''t allow that to continue. Will you?'	-- Consider all of the suffering that the Scarlets have caused over the years. The torture, the zealotry, the murder.$B$BI won't allow that to continue. Will you?
-WHERE `entry`=13534;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Consider all of the suffering that the Scarlets have caused over the years. The torture, the zealotry, the murder.$B$BI won''t allow that to continue. Will you?'	-- Consider all of the suffering that the Scarlets have caused over the years. The torture, the zealotry, the murder.$B$BI won't allow that to continue. Will you?
+-- WHERE `entry`=13534;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Hyldsmeet is sacred.  Whoever earns victory is assured a lifetime next to Thorim.'	-- The Hyldsmeet is sacred.  Whoever earns victory is assured a lifetime next to Thorim.
-WHERE `entry`=13540;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Hyldsmeet is sacred.  Whoever earns victory is assured a lifetime next to Thorim.'	-- The Hyldsmeet is sacred.  Whoever earns victory is assured a lifetime next to Thorim.
+-- WHERE `entry`=13540;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$N。'	-- Greetings, $N. 
@@ -8493,9 +8493,9 @@ WHERE `entry`=13557;
 -- 	`text0_0_loc4`='You stand before a master of the Arcane. One would be unwise to challenge me. Many corpses have been left ablaze in my wake.'	-- You stand before a master of the Arcane. One would be unwise to challenge me. Many corpses have been left ablaze in my wake.
 -- WHERE `entry`=13573;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='My life and spirit has been filled with memories of the insufferable Horde. Times of sorrow, desperation, and sacrifice have come to pass. The rage of battle could never leave my heart!'	-- My life and spirit has been filled with memories of the insufferable Horde. Times of sorrow, desperation, and sacrifice have come to pass. The rage of battle could never leave my heart!
-WHERE `entry`=13574;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='My life and spirit has been filled with memories of the insufferable Horde. Times of sorrow, desperation, and sacrifice have come to pass. The rage of battle could never leave my heart!'	-- My life and spirit has been filled with memories of the insufferable Horde. Times of sorrow, desperation, and sacrifice have come to pass. The rage of battle could never leave my heart!
+-- WHERE `entry`=13574;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='有何贵干呢？$B$B你来这找东西吃的吗，老兄？还是来学顶级的厨艺的，是吗？'	-- What be happening?$B$BYou here to eat, mon? Or maybe to learn cooking from the best, eh?
@@ -8511,9 +8511,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='你好，$C。我可以帮你找回失散的伙伴。'	-- Greetings, $c. I can assist you in recovering lost companions.
 WHERE `entry`=13584;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello there! Care to buy some fishing supplies, or perhaps take a lesson or two?'	-- Hello there! Care to buy some fishing supplies, or perhaps take a lesson or two?
-WHERE `entry`=13591;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello there! Care to buy some fishing supplies, or perhaps take a lesson or two?'	-- Hello there! Care to buy some fishing supplies, or perhaps take a lesson or two?
+-- WHERE `entry`=13591;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='先锋军将彻底消灭巫妖王的部队！'	-- It is good to see you again, $N. How could I ever forget the $g man : woman; who saved my sister's life?
@@ -8539,9 +8539,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='没……没有用……太晚了。$B$B<霜脉斥候往雪地上咳出几口鲜血。>$B$B替我……报仇……$B$B<霜脉斥候咽下最后一口气，摊倒在地。>'	-- It's a little late... for that... $G lad:lass;.$B$B<The Frostborn Scout coughs up some blood on the snow.>$B$BGet... that wench in charge for me...$B$B<The Frostborn Scout slumps over as he breathes his last breath.>
 WHERE `entry`=13614;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Be welcome amongst us, $c.'	-- Be welcome amongst us, $c.
-WHERE `entry`=13637;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Be welcome amongst us, $c.'	-- Be welcome amongst us, $c.
+-- WHERE `entry`=13637;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='开战之前，我会向你介绍敌人的情况。听仔细了，要对付天灾军团，必须做好充分的准备。'	-- Listen to what I have to tell you about our enemy before we start. You don't want to be unprepared while we're out smashing Scourge in the field.
@@ -8564,13 +8564,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们遇到麻烦了，$R！当心身后！'	-- We're in over our heads, $r! Watch your back!
 WHERE `entry`=13658;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Well met, Battle-Sister. I can assist you in recovering lost companions.'	-- Well met, Battle-Sister. I can assist you in recovering lost companions.
-WHERE `entry`=13661;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Well met, Battle-Sister. I can assist you in recovering lost companions.'	-- Well met, Battle-Sister. I can assist you in recovering lost companions.
+-- WHERE `entry`=13661;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Come, Battle-Sister.$B$BFeast, sleep, so that you may fight with all your strength!'	-- Come, Battle-Sister.$B$BFeast, sleep, so that you may fight with all your strength!
-WHERE `entry`=13663;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Come, Battle-Sister.$B$BFeast, sleep, so that you may fight with all your strength!'	-- Come, Battle-Sister.$B$BFeast, sleep, so that you may fight with all your strength!
+-- WHERE `entry`=13663;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我能照顾自己的，$N。'	-- I can take care of myself, $N.
@@ -8588,9 +8588,9 @@ WHERE `entry`=13682;
 -- 	`text0_1_loc4`='Hey, I recognize you! I guess I have you to thanks for me being here. That teleport accident was the best thing that ever happened to me.$B$BIf you find yourself back in Borean Tundra, let my goody two-shoes nerd of a duplicate know that I''ve move up in the world quite a bit!'	-- Hey, I recognize you! I guess I have you to thanks for me being here. That teleport accident was the best thing that ever happened to me.$B$BIf you find yourself back in Borean Tundra, let my goody two-shoes nerd of a duplicate know that I've move up in the world quite a bit!
 -- WHERE `entry`=13695;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I no longer train Death Knights, having grown weary of cretinous Initiates and their constant questions.$B$BNow begone.'	-- I no longer train Death Knights, having grown weary of cretinous Initiates and their constant questions.$B$BNow begone.
-WHERE `entry`=13699;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I no longer train Death Knights, having grown weary of cretinous Initiates and their constant questions.$B$BNow begone.'	-- I no longer train Death Knights, having grown weary of cretinous Initiates and their constant questions.$B$BNow begone.
+-- WHERE `entry`=13699;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我能帮你做什么吗？'	-- How may I help you?
@@ -8639,45 +8639,45 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你不是牦牛人。你为什么闯入我族战士的埋骨圣地？'	-- You are no taunka. Why have you come to the sacred burial grounds of our warriors?
 WHERE `entry`=13776;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Look at them... all they care about is outdoing each other.'	-- Look at them... all they care about is outdoing each other.
-WHERE `entry`=13777;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Look at them... all they care about is outdoing each other.'	-- Look at them... all they care about is outdoing each other.
+-- WHERE `entry`=13777;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You see, Thorim is not like these harpies.  He''s a worthy being of near godlike stature.$B$BHe served the titans as guardian of Ulduar and the Terrace of the Makers.$B$BThat is until his wife, Sif, was cowardly slain by his brother.'	-- You see, Thorim is not like these harpies.  He's a worthy being of near godlike stature.$B$BHe served the titans as guardian of Ulduar and the Terrace of the Makers.$B$BThat is until his wife, Sif, was cowardly slain by his brother.
-WHERE `entry`=13778;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You see, Thorim is not like these harpies.  He''s a worthy being of near godlike stature.$B$BHe served the titans as guardian of Ulduar and the Terrace of the Makers.$B$BThat is until his wife, Sif, was cowardly slain by his brother.'	-- You see, Thorim is not like these harpies.  He's a worthy being of near godlike stature.$B$BHe served the titans as guardian of Ulduar and the Terrace of the Makers.$B$BThat is until his wife, Sif, was cowardly slain by his brother.
+-- WHERE `entry`=13778;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Thorim lost it.  He lashed out against his most beloved allies, the frost giants.$B$BThat''s one reason why to this day, this land is torn apart by the war between the Hyldnir and the Sons of Hodir... and why Thorim has exiled himself to the Temple of Storms.'	-- Thorim lost it.  He lashed out against his most beloved allies, the frost giants.$B$BThat's one reason why to this day, this land is torn apart by the war between the Hyldnir and the Sons of Hodir... and why Thorim has exiled himself to the Temple of Storms.
-WHERE `entry`=13779;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Thorim lost it.  He lashed out against his most beloved allies, the frost giants.$B$BThat''s one reason why to this day, this land is torn apart by the war between the Hyldnir and the Sons of Hodir... and why Thorim has exiled himself to the Temple of Storms.'	-- Thorim lost it.  He lashed out against his most beloved allies, the frost giants.$B$BThat's one reason why to this day, this land is torn apart by the war between the Hyldnir and the Sons of Hodir... and why Thorim has exiled himself to the Temple of Storms.
+-- WHERE `entry`=13779;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What do I care if these she-wolves and the frost giants kill each other every day?$B$BNo, no... I want Thorim to break out of his stupor and rally all his allies to retake Ulduar.$B$BThe world will be torn asunder if he fails to accomplish this!$B$BAnd of course, I''ll reward you appropriately.'	-- What do I care if these she-wolves and the frost giants kill each other every day?$B$BNo, no... I want Thorim to break out of his stupor and rally all his allies to retake Ulduar.$B$BThe world will be torn asunder if he fails to accomplish this!$B$BAnd of course, I'll reward you appropriately.
-WHERE `entry`=13780;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What do I care if these she-wolves and the frost giants kill each other every day?$B$BNo, no... I want Thorim to break out of his stupor and rally all his allies to retake Ulduar.$B$BThe world will be torn asunder if he fails to accomplish this!$B$BAnd of course, I''ll reward you appropriately.'	-- What do I care if these she-wolves and the frost giants kill each other every day?$B$BNo, no... I want Thorim to break out of his stupor and rally all his allies to retake Ulduar.$B$BThe world will be torn asunder if he fails to accomplish this!$B$BAnd of course, I'll reward you appropriately.
+-- WHERE `entry`=13780;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Men -- can''t live with them, can''t live without them.  Well, you can... but it''s just really boring.'	-- Men -- can't live with them, can't live without them.  Well, you can... but it's just really boring.
-WHERE `entry`=13783;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Men -- can''t live with them, can''t live without them.  Well, you can... but it''s just really boring.'	-- Men -- can't live with them, can't live without them.  Well, you can... but it's just really boring.
+-- WHERE `entry`=13783;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='These mines are a dreadful place.  Fortunately, I don''t plan on being here long.'	-- These mines are a dreadful place.  Fortunately, I don't plan on being here long.
-WHERE `entry`=13784;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='These mines are a dreadful place.  Fortunately, I don''t plan on being here long.'	-- These mines are a dreadful place.  Fortunately, I don't plan on being here long.
+-- WHERE `entry`=13784;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Bears are beautiful creatures.  Wild, strong and fierce in battle... much like us, sister.'	-- Bears are beautiful creatures.  Wild, strong and fierce in battle... much like us, sister.
-WHERE `entry`=13785;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Bears are beautiful creatures.  Wild, strong and fierce in battle... much like us, sister.'	-- Bears are beautiful creatures.  Wild, strong and fierce in battle... much like us, sister.
+-- WHERE `entry`=13785;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Someone called for me...?'	-- Someone called for me...?
-WHERE `entry`=13788;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Someone called for me...?'	-- Someone called for me...?
+-- WHERE `entry`=13788;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='喂，喂！'	-- Hello, hello!
 WHERE `entry`=13790;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hello, peach - good to have your company!'	-- Hello, peach - good to have your company!
-WHERE `entry`=13792;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hello, peach - good to have your company!'	-- Hello, peach - good to have your company!
+-- WHERE `entry`=13792;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='We discovered these proto-drakes at the Bronze Dragonshrine in the Dragonblight. We knew at once that they were kin - our blood from ages past.$B$BMy apologies, $c. You are probably confused. I am Penumbrius of the bronze dragonflight. I have taken this form out of convenience. It is much easier to communicate and live amongst mortals while in the mortal guise.$B$BHow can I help you?$B'	-- We discovered these proto-drakes at the Bronze Dragonshrine in the Dragonblight. We knew at once that they were kin - our blood from ages past.$B$BMy apologies, $c. You are probably confused. I am Penumbrius of the bronze dragonflight. I have taken this form out of convenience. It is much easier to communicate and live amongst mortals while in the mortal guise.$B$BHow can I help you?$B
@@ -8723,30 +8723,30 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='We cannot allow the Alliance to turn the hidden secrets of the Strand of the Ancients against us. Will you join our brave warriors there?'	-- We cannot allow the Alliance to turn the hidden secrets of the Strand of the Ancients against us. Will you join our brave warriors there?
 WHERE `entry`=13834;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Fleshwerks is the heart of the Scourge''s ghoul, abomination, and flesh giant production. If we can take it out, the Lich King will be greatly weakened.'	-- The Fleshwerks is the heart of the Scourge's ghoul, abomination, and flesh giant production. If we can take it out, the Lich King will be greatly weakened.
-WHERE `entry`=13838;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Fleshwerks is the heart of the Scourge''s ghoul, abomination, and flesh giant production. If we can take it out, the Lich King will be greatly weakened.'	-- The Fleshwerks is the heart of the Scourge's ghoul, abomination, and flesh giant production. If we can take it out, the Lich King will be greatly weakened.
+-- WHERE `entry`=13838;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你需要什么？'	-- What do you need?
 WHERE `entry`=13841;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We serve Thorim, sister.'	-- We serve Thorim, sister.
-WHERE `entry`=13843;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We serve Thorim, sister.'	-- We serve Thorim, sister.
+-- WHERE `entry`=13843;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It is always a pleasure to meet heroes such as yourself in this forsaken land. Is there some form of assistance that I can offer you?'	-- It is always a pleasure to meet heroes such as yourself in this forsaken land. Is there some form of assistance that I can offer you?
-WHERE `entry`=13844;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It is always a pleasure to meet heroes such as yourself in this forsaken land. Is there some form of assistance that I can offer you?'	-- It is always a pleasure to meet heroes such as yourself in this forsaken land. Is there some form of assistance that I can offer you?
+-- WHERE `entry`=13844;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='很高兴见到你，$C。我能给你的建议如下：当你在世间旅行的时候，小心魔法，因为那会伤了未受训练的人呐。'	-- Well met, $c.  My advice to you is this: as you travel the world, be wary of magic for it will burn the untrained.
 	`text0_1_loc4`='Well met, $c.  My advice to you is this: as you travel the world, be wary of magic for it will burn the untrained.'	-- Well met, $c.  My advice to you is this: as you travel the world, be wary of magic for it will burn the untrained.
 WHERE `entry`=13846;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Of course! Go with Elune''s blessing.'	-- Of course! Go with Elune's blessing.
-WHERE `entry`=13847;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Of course! Go with Elune''s blessing.'	-- Of course! Go with Elune's blessing.
+-- WHERE `entry`=13847;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我们不能放松警惕。在这种时候，一次小小的失利就可能令我们置身于危险中。唉，这种高度紧张的气氛下，士兵们真的需要喘口气了。$B$B享受胜利吧，$N。如果没有你，我们可能已经失去前线基地了。'	-- We mustn't lose our focus. The dangers inherent in getting lost in the moment could put us in peril. Alas, the soldiers need a respite from this madness.$B$BBask in the victory, $N. If not for you we might have lost the Vanguard.
@@ -8764,13 +8764,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你还活着只是因为我比较好奇。'	-- The only reason that you still live is because of my curiosity.
 WHERE `entry`=13905;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Whatever you''re going to ask for, do it quickly.'	-- Whatever you're going to ask for, do it quickly.
-WHERE `entry`=13908;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Whatever you''re going to ask for, do it quickly.'	-- Whatever you're going to ask for, do it quickly.
+-- WHERE `entry`=13908;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We''ll take over from here, you''ve earned quite a respite after that battle.'	-- We'll take over from here, you've earned quite a respite after that battle.
-WHERE `entry`=13910;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We''ll take over from here, you''ve earned quite a respite after that battle.'	-- We'll take over from here, you've earned quite a respite after that battle.
+-- WHERE `entry`=13910;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这是什么？'	-- What is it?
@@ -8781,21 +8781,21 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='The Argent Dawn coordinates the Scourge''s opposition at Light''s Hope Chapel in the Eastern Plaguelands.  Go there for instructions.'	-- The Argent Dawn coordinates the Scourge's opposition at Light's Hope Chapel in the Eastern Plaguelands.  Go there for instructions.
 WHERE `entry`=13915;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Many have fallen within Valhalas and their corpses are a testament to the strength of our ways.$B$BWill your bones litter this place of honor and battle as well, $N?'	-- Many have fallen within Valhalas and their corpses are a testament to the strength of our ways.$B$BWill your bones litter this place of honor and battle as well, $N?
-WHERE `entry`=13918;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Many have fallen within Valhalas and their corpses are a testament to the strength of our ways.$B$BWill your bones litter this place of honor and battle as well, $N?'	-- Many have fallen within Valhalas and their corpses are a testament to the strength of our ways.$B$BWill your bones litter this place of honor and battle as well, $N?
+-- WHERE `entry`=13918;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我很可能会在眨眼之间把你劈成两半，$R！$B$B如果你说完了废话，最好趁早滚开！'	-- I should kill you where you stand, $r!$B$BGet on with your inane prattling and then begone!
 WHERE `entry`=13919;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='You have not yet proven yourself worthy enough to issue a challenge within Valhalas, $N.$B$BReturn when you have earned a name for yourself.'	-- You have not yet proven yourself worthy enough to issue a challenge within Valhalas, $N.$B$BReturn when you have earned a name for yourself.
-WHERE `entry`=13921;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='You have not yet proven yourself worthy enough to issue a challenge within Valhalas, $N.$B$BReturn when you have earned a name for yourself.'	-- You have not yet proven yourself worthy enough to issue a challenge within Valhalas, $N.$B$BReturn when you have earned a name for yourself.
+-- WHERE `entry`=13921;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Many have fallen within Valhalas and their corpses are a testament to the strength of our ways.$B$BWill your bones litter this place of honor and battle as well, $N?'	-- Many have fallen within Valhalas and their corpses are a testament to the strength of our ways.$B$BWill your bones litter this place of honor and battle as well, $N?
-WHERE `entry`=13922;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Many have fallen within Valhalas and their corpses are a testament to the strength of our ways.$B$BWill your bones litter this place of honor and battle as well, $N?'	-- Many have fallen within Valhalas and their corpses are a testament to the strength of our ways.$B$BWill your bones litter this place of honor and battle as well, $N?
+-- WHERE `entry`=13922;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='呃……别……别管我。$B$B我……没救了……'	-- Uhnhh.... Don't... bother with me.$b$bI am... finished...
@@ -8812,18 +8812,18 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='I have given my all... for the Horde...'	-- I have given my all... for the Horde...
 WHERE `entry`=13935;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Champion $N, it is good to see you again.$B$BHave you returned to Valhalas to assist a friend with their challenges?'	-- Champion $N, it is good to see you again.$B$BHave you returned to Valhalas to assist a friend with their challenges?
-WHERE `entry`=13946;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Champion $N, it is good to see you again.$B$BHave you returned to Valhalas to assist a friend with their challenges?'	-- Champion $N, it is good to see you again.$B$BHave you returned to Valhalas to assist a friend with their challenges?
+-- WHERE `entry`=13946;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='等等……$B$B还有一件事……'	-- Wait, $g brother:m'lady;....$b$bOne last thing...
 	`text0_1_loc4`='Wait, $g brother:m''lady;....$b$bOne last thing...'	-- Wait, $g brother:m'lady;....$b$bOne last thing...
 WHERE `entry`=13948;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Great job! Arthas is safely on his way to Northrend!'	-- Great job! Arthas is safely on his way to Northrend!
-WHERE `entry`=13950;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Great job! Arthas is safely on his way to Northrend!'	-- Great job! Arthas is safely on his way to Northrend!
+-- WHERE `entry`=13950;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='缝合场再也不能为巫妖王制造血肉大军了。'	-- The Fleshwerks will never again produce soldiers for the Lich King's armies.
@@ -8838,9 +8838,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='必须不惜一切代价阻止天灾军团。绝不能让他们在这里组建的大军进入战场。'	-- The Scourge must be stopped at any cost. We cannot permit them to field the army they're constructing here.
 WHERE `entry`=14028;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Our way is sacred.  We will choose death before we abandon Thorim and join the likes of the Lich King.'	-- Our way is sacred.  We will choose death before we abandon Thorim and join the likes of the Lich King.
-WHERE `entry`=14033;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Our way is sacred.  We will choose death before we abandon Thorim and join the likes of the Lich King.'	-- Our way is sacred.  We will choose death before we abandon Thorim and join the likes of the Lich King.
+-- WHERE `entry`=14033;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='求求你，$R。$B$B让我解脱吧……'	-- Please, $r.$b$bRelease me...
@@ -8855,21 +8855,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我怎么帮助你？'	-- How can I help?
 WHERE `entry`=14040;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='What can I be helping you with?'	-- What can I be helping you with?
-WHERE `entry`=14041;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='What can I be helping you with?'	-- What can I be helping you with?
+-- WHERE `entry`=14041;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='早上好！'	-- Good Morning!
 WHERE `entry`=14042;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Is there anything you can pay me to do?'	-- Is there anything you can pay me to do?
-WHERE `entry`=14043;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Is there anything you can pay me to do?'	-- Is there anything you can pay me to do?
+-- WHERE `entry`=14043;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The air battle rages close, $n.  Both we and the Horde send bombers into the Bombardment and the Valley of Lost Hope.  Will you enter the fray?'	-- The air battle rages close, $n.  Both we and the Horde send bombers into the Bombardment and the Valley of Lost Hope.  Will you enter the fray?
-WHERE `entry`=14046;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The air battle rages close, $n.  Both we and the Horde send bombers into the Bombardment and the Valley of Lost Hope.  Will you enter the fray?'	-- The air battle rages close, $n.  Both we and the Horde send bombers into the Bombardment and the Valley of Lost Hope.  Will you enter the fray?
+-- WHERE `entry`=14046;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你准备好参与夺回幽暗城一战了吗，$N？'	-- Are you ready to begin the assault and win back the Undercity for the Horde, $N?
@@ -8879,9 +8879,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='元素之灵与我们同在，$N。在它们的帮助下，我们可以竭尽全力阻止瓦里玛萨斯和普特雷斯的阴谋得逞！LOK''TAR OGAR！'	-- The elements are with us in force, $N. With their help, we will do all that is in our power to stop Varimathras and Putress! LOK'TAR OGAR!
 WHERE `entry`=14051;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Oh my gosh! Keep your voice down, $N! What? Are you trying to get us killed?!$B$BOf course I know who you are! Who in the Alliance doesn''t know the name, $N?!$B$BSay, what do you think of my jumpbot? She''s based off of the mechagnome design. Sleek and aerodynamic!'	-- Oh my gosh! Keep your voice down, $N! What? Are you trying to get us killed?!$B$BOf course I know who you are! Who in the Alliance doesn't know the name, $N?!$B$BSay, what do you think of my jumpbot? She's based off of the mechagnome design. Sleek and aerodynamic!
-WHERE `entry`=14052;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Oh my gosh! Keep your voice down, $N! What? Are you trying to get us killed?!$B$BOf course I know who you are! Who in the Alliance doesn''t know the name, $N?!$B$BSay, what do you think of my jumpbot? She''s based off of the mechagnome design. Sleek and aerodynamic!'	-- Oh my gosh! Keep your voice down, $N! What? Are you trying to get us killed?!$B$BOf course I know who you are! Who in the Alliance doesn't know the name, $N?!$B$BSay, what do you think of my jumpbot? She's based off of the mechagnome design. Sleek and aerodynamic!
+-- WHERE `entry`=14052;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='Woah, woah, woah! Keep it down, $N. Keep it down!$B$B<Blast looks around.>$B$BWe don''t want those frosty vrykul noticing us, now do we?$B$BWhat do you think of my jumpbot? I based it off of the mechagnome. Pretty slick, huh?'	-- Woah, woah, woah! Keep it down, $N. Keep it down!$B$B<Blast looks around.>$B$BWe don't want those frosty vrykul noticing us, now do we?$B$BWhat do you think of my jumpbot? I based it off of the mechagnome. Pretty slick, huh?
@@ -8900,13 +8900,13 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Ranked arena matches start again in $6318d.$B$BWould-be champions are already busy honing their skills and acquiring the best gear they can. Are you going to be ready?'	-- Ranked arena matches start again in $6318d.$B$BWould-be champions are already busy honing their skills and acquiring the best gear they can. Are you going to be ready?
 WHERE `entry`=14062;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This portal leads to the Caverns of Time, deep beneath the earth in far-off Tanaris.$B$BUntil you have grown stronger, though, I must ask you not to travel there.'	-- This portal leads to the Caverns of Time, deep beneath the earth in far-off Tanaris.$B$BUntil you have grown stronger, though, I must ask you not to travel there.
-WHERE `entry`=14066;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This portal leads to the Caverns of Time, deep beneath the earth in far-off Tanaris.$B$BUntil you have grown stronger, though, I must ask you not to travel there.'	-- This portal leads to the Caverns of Time, deep beneath the earth in far-off Tanaris.$B$BUntil you have grown stronger, though, I must ask you not to travel there.
+-- WHERE `entry`=14066;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I can smell the gunpowder from all the bombs and rockets!  You want to get out there and join the fun?'	-- I can smell the gunpowder from all the bombs and rockets!  You want to get out there and join the fun?
-WHERE `entry`=14067;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I can smell the gunpowder from all the bombs and rockets!  You want to get out there and join the fun?'	-- I can smell the gunpowder from all the bombs and rockets!  You want to get out there and join the fun?
+-- WHERE `entry`=14067;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='有很多声音在对我讲话。'	-- The voices are talking to me.
@@ -8959,9 +8959,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我已经找到了诺甘农钥石的线索，有了它就能进入奥杜尔的档案室；但是泰坦将钥石分成了两块并分别藏了起来。$B$B钥石的外壳藏在北部海滩的造物者图书馆里，就在奥杜尔以南。首先，你要从图书馆守护者那里获得访问磁盘的碎片。'	-- I've got a lead on Norgannon's keystone, which guards access to Ulduar's archives, but the Titans divided it into two pieces and secreted them away.$B$BOne of the pieces, the keystone's shell, is held within the Inventor's Library on the northern coast, south of Ulduar itself. The first thing you'll need to do is retrieve the fragments of an access disk from the library's guardians.
 WHERE `entry`=14089;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='When it comes to treasure, never be lookin'' sideways at lootin'' someone else''s junk. Stolen goods be much sweeter, ya? But free is free, no matta how it got that way!'	-- When it comes to treasure, never be lookin' sideways at lootin' someone else's junk. Stolen goods be much sweeter, ya? But free is free, no matta how it got that way!
-WHERE `entry`=14090;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='When it comes to treasure, never be lookin'' sideways at lootin'' someone else''s junk. Stolen goods be much sweeter, ya? But free is free, no matta how it got that way!'	-- When it comes to treasure, never be lookin' sideways at lootin' someone else's junk. Stolen goods be much sweeter, ya? But free is free, no matta how it got that way!
+-- WHERE `entry`=14090;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你是来帮忙的吗？'	-- Come to make yourself useful?
@@ -8993,9 +8993,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='有什么要修理的吗，$R？'	-- Got somethin' that needs tightening, $r?
 WHERE `entry`=14134;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We''ve lost a few good people up here already. I''m beginning to doubt that this place is worth our attention.'	-- We've lost a few good people up here already. I'm beginning to doubt that this place is worth our attention.
-WHERE `entry`=14137;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We''ve lost a few good people up here already. I''m beginning to doubt that this place is worth our attention.'	-- We've lost a few good people up here already. I'm beginning to doubt that this place is worth our attention.
+-- WHERE `entry`=14137;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='最后的决战即将开始，$N。保持警惕！'	-- The final battle will begin soon, $N. Stand at attention!
@@ -9009,9 +9009,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='啊，是你，$N！欢迎来到我们的圣殿。在这里好好休息一下，这是你应得的权利。'	-- Ah, it's you, $N! Welcome into our sanctuary. Rest and refresh yourself; you have more than earned it.
 WHERE `entry`=14150;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It''s been a busy day in the air, eh $N?  Maybe you should take a moment to catch your breath before going back out.'	-- It's been a busy day in the air, eh $N?  Maybe you should take a moment to catch your breath before going back out.
-WHERE `entry`=14155;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It''s been a busy day in the air, eh $N?  Maybe you should take a moment to catch your breath before going back out.'	-- It's been a busy day in the air, eh $N?  Maybe you should take a moment to catch your breath before going back out.
+-- WHERE `entry`=14155;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='当心，$N。你的教徒长袍呢？'	-- Careful, $N.  Where are your cultist robes?
@@ -9021,9 +9021,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='给。准备好了吗？一旦我们开始行动，就不能回头了。'	-- There you are.  Are you ready then?  Once we start, there is no turning back.
 WHERE `entry`=14160;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Do you possess the courage to face Malygos'' elite drakes in their own realm, $r?'	-- Do you possess the courage to face Malygos' elite drakes in their own realm, $r?
-WHERE `entry`=14169;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Do you possess the courage to face Malygos'' elite drakes in their own realm, $r?'	-- Do you possess the courage to face Malygos' elite drakes in their own realm, $r?
+-- WHERE `entry`=14169;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_1_loc4`='UDB missing US text'	-- UDB missing US text
@@ -9042,9 +9042,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，小$R。'	-- Hello, little $r.
 WHERE `entry`=14179;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Just because something isn''t broke doesn''t mean you can''t fix it.  You lookin'' for something, sweety?'	-- Just because something isn't broke doesn't mean you can't fix it.  You lookin' for something, sweety?
-WHERE `entry`=14180;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Just because something isn''t broke doesn''t mean you can''t fix it.  You lookin'' for something, sweety?'	-- Just because something isn't broke doesn't mean you can't fix it.  You lookin' for something, sweety?
+-- WHERE `entry`=14180;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='D16限时炸弹分配器发出轰鸣声。'	-- The U.D.E.D. dispenser rumbles at you expectantly.
@@ -9067,9 +9067,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Big, sparkly, magic book help make Glyphs for spells and abilities. Always find near inscription trainer, in The Apothecarium.'	-- Big, sparkly, magic book help make Glyphs for spells and abilities. Always find near inscription trainer, in The Apothecarium.
 WHERE `entry`=14213;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Make it quick, $r. I am weary and have no time for pleasantries..'	-- Make it quick, $r. I am weary and have no time for pleasantries..
-WHERE `entry`=14215;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Make it quick, $r. I am weary and have no time for pleasantries..'	-- Make it quick, $r. I am weary and have no time for pleasantries..
+-- WHERE `entry`=14215;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你来了！'	-- There you are!
@@ -9119,9 +9119,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='在我们的新盟友牦牛人的帮助下，部落一定会取得诺森德的统治权。'	-- With the help of our new taunka allies, the Northrend will belong to the Horde.
 WHERE `entry`=14245;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Greetings $c!  Welcome aboard the Cloudkisser.  Northrend can be a very harsh place.  I hope you have prepared yourself.'	-- Greetings $c!  Welcome aboard the Cloudkisser.  Northrend can be a very harsh place.  I hope you have prepared yourself.
-WHERE `entry`=14248;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Greetings $c!  Welcome aboard the Cloudkisser.  Northrend can be a very harsh place.  I hope you have prepared yourself.'	-- Greetings $c!  Welcome aboard the Cloudkisser.  Northrend can be a very harsh place.  I hope you have prepared yourself.
+-- WHERE `entry`=14248;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='哦，那么你应该去找本尼克·螺剪。他就在矮人区中心的铁匠铺。'	-- You'll be after Benik Boltshear, then. He's located in the heart of the Dwarven District by the blacksmiths.
@@ -9133,9 +9133,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Vesprystus'' hippogryphs will bear you swiftly to your destination.'	-- Vesprystus' hippogryphs will bear you swiftly to your destination.
 WHERE `entry`=14254;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='After the Plaguelands and the Battle for Light''s Hope Chapel, I didn''t think that we would witness anything more horrible.$B$BI was wrong.'	-- After the Plaguelands and the Battle for Light's Hope Chapel, I didn't think that we would witness anything more horrible.$B$BI was wrong.
-WHERE `entry`=14286;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='After the Plaguelands and the Battle for Light''s Hope Chapel, I didn''t think that we would witness anything more horrible.$B$BI was wrong.'	-- After the Plaguelands and the Battle for Light's Hope Chapel, I didn't think that we would witness anything more horrible.$B$BI was wrong.
+-- WHERE `entry`=14286;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='掘地鼠炖肉美味极了。'	-- Dig rats make some surprisingly tasty stew.
@@ -9149,13 +9149,13 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='你好，$C。我们在这里的位置已经暴露了，部落的军队正在南方集结。$B$B我们将非常感激你为我们提供的一切帮助。'	-- Greetings, $c. Our position here is a bit exposed given the build up of the Horde's forces to the south.$B$BAnything that you can do to help will be greatly appreciated.
 WHERE `entry`=14316;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I thought I''d never be free from that terrible curse. You have my gratitude, stranger.'	-- I thought I'd never be free from that terrible curse. You have my gratitude, stranger.
-WHERE `entry`=14319;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I thought I''d never be free from that terrible curse. You have my gratitude, stranger.'	-- I thought I'd never be free from that terrible curse. You have my gratitude, stranger.
+-- WHERE `entry`=14319;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Take it with my gratitude, $c.'	-- Take it with my gratitude, $c.
-WHERE `entry`=14320;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Take it with my gratitude, $c.'	-- Take it with my gratitude, $c.
+-- WHERE `entry`=14320;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$G先生:女士;，我能为您做什么？'	-- What may I do for you, $GSir:Dame;?
@@ -9165,13 +9165,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你们确定要借助我的力量去跟尤格-萨隆作战吗？'	-- Are you certain you want my help in the battle against Yogg-Saron?
 WHERE `entry`=14325;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Missing US text'	-- Missing US text
-WHERE `entry`=14330;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Missing US text'	-- Missing US text
+-- WHERE `entry`=14330;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Missing US text'	-- Missing US text
-WHERE `entry`=14332;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Missing US text'	-- Missing US text
+-- WHERE `entry`=14332;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='凡人们，感谢你们让我摆脱了弥漫在这片土地上的堕落力量。尽管我尚未完全恢复，但我能帮助你们与尤格-萨隆作战。$B我将发明之速赐予你和你的朋友们，以此提高你们造成的伤害以及移动速度。此外，我还可以扰动那些用萨隆邪铁铸造的生命体的矩阵，降低它们的攻击和施法速度。'	-- Mortals, I am indebted to you for freeing me from the terrible corruption that besets this place. Though I have not yet recovered fully, I can help you battle Yogg-Saron.$B$BI can grant you and your friends the Speed of Invention, increasing your damage and movement speed. In addition, I can destabilize the matrices of certain Saronite based life-forms, reducing their attack and casting speeds.
@@ -9215,13 +9215,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='控制台显得非常陈旧，却没有一丝破损或是荒废的迹象。上面刻有一道插槽，似乎可以放入大型的圆盘。'	-- The console appears ancient though there is no sign of dilapidation or decay.  A single slot appears to fit large circular discs.
 WHERE `entry`=14383;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Glory will be ours when we win this tournament in the name of Silvermoon.'	-- Glory will be ours when we win this tournament in the name of Silvermoon.
-WHERE `entry`=14392;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Glory will be ours when we win this tournament in the name of Silvermoon.'	-- Glory will be ours when we win this tournament in the name of Silvermoon.
+-- WHERE `entry`=14392;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='King Magni expects us to win the tournament and make him proud. We will not fail.'	-- King Magni expects us to win the tournament and make him proud. We will not fail.
-WHERE `entry`=14396;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='King Magni expects us to win the tournament and make him proud. We will not fail.'	-- King Magni expects us to win the tournament and make him proud. We will not fail.
+-- WHERE `entry`=14396;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='锦标赛开始后，所有人都将见证被遗忘者的胜利。'	-- When the tournament starts, all will see the Forsaken emerge triumphant.
@@ -9296,33 +9296,33 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='很抱歉，$R。只有雷霆崖的勇士才有资格从我这里购买物品。'	-- Apologies, $r, but only champions of Thunder Bluff may purchase what I have to offer.
 WHERE `entry`=14458;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Away with you, $c!$B$BOnly champions of Undercity may purchase what I have to offer.'	-- Away with you, $c!$B$BOnly champions of Undercity may purchase what I have to offer.
-WHERE `entry`=14459;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Away with you, $c!$B$BOnly champions of Undercity may purchase what I have to offer.'	-- Away with you, $c!$B$BOnly champions of Undercity may purchase what I have to offer.
+-- WHERE `entry`=14459;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Only champions of Orgrimmar may purchase what I have to offer.'	-- Only champions of Orgrimmar may purchase what I have to offer.
-WHERE `entry`=14460;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Only champions of Orgrimmar may purchase what I have to offer.'	-- Only champions of Orgrimmar may purchase what I have to offer.
+-- WHERE `entry`=14460;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Only champions of the Exodar may purchase what I have to offer.'	-- Only champions of the Exodar may purchase what I have to offer.
-WHERE `entry`=14461;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Only champions of the Exodar may purchase what I have to offer.'	-- Only champions of the Exodar may purchase what I have to offer.
+-- WHERE `entry`=14461;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hi there!$B$BSorry, friend, but only champions of Gnomeregan can buy what I''ve got.'	-- Hi there!$B$BSorry, friend, but only champions of Gnomeregan can buy what I've got.
-WHERE `entry`=14462;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hi there!$B$BSorry, friend, but only champions of Gnomeregan can buy what I''ve got.'	-- Hi there!$B$BSorry, friend, but only champions of Gnomeregan can buy what I've got.
+-- WHERE `entry`=14462;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Samamba tinkin'' joo be at da wrong quartermaster!$B$BWhat she got only for de Sen''jin champions...'	-- Samamba tinkin' joo be at da wrong quartermaster!$B$BWhat she got only for de Sen'jin champions...
-WHERE `entry`=14464;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Samamba tinkin'' joo be at da wrong quartermaster!$B$BWhat she got only for de Sen''jin champions...'	-- Samamba tinkin' joo be at da wrong quartermaster!$B$BWhat she got only for de Sen'jin champions...
+-- WHERE `entry`=14464;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='哎呀，只有银月城的勇士才有资格从我这里购买物品。'	-- Alas, only the esteemed champions of Silvermoon City may purchase what I have to offer.
 WHERE `entry`=14465;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It''s good to see you here, $N.'	-- It's good to see you here, $N.
-WHERE `entry`=14473;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It''s good to see you here, $N.'	-- It's good to see you here, $N.
+-- WHERE `entry`=14473;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='训练并骑乘毒皮暴掠龙需要耗费大量精力。'	-- It takes a lot of dedication to train and ride a Venomhide.
@@ -9350,17 +9350,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='<这只幼崽死盯着你，仿佛想分辨出你是不是它的妈妈。>'	-- <The hatchling looks at you as if trying to determine whether or not you're its mother.>
 WHERE `entry`=14527;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Lich King''s cruel reign has inflicted great suffering on all of Northrend''s inhabitants, particularly the children. If you are a friend to the Oracles or Frenzyheart Tribe of Sholazar, perhaps you might consider caring for an orphan for a week.'	-- The Lich King's cruel reign has inflicted great suffering on all of Northrend's inhabitants, particularly the children. If you are a friend to the Oracles or Frenzyheart Tribe of Sholazar, perhaps you might consider caring for an orphan for a week.
-WHERE `entry`=14534;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Lich King''s cruel reign has inflicted great suffering on all of Northrend''s inhabitants, particularly the children. If you are a friend to the Oracles or Frenzyheart Tribe of Sholazar, perhaps you might consider caring for an orphan for a week.'	-- The Lich King's cruel reign has inflicted great suffering on all of Northrend's inhabitants, particularly the children. If you are a friend to the Oracles or Frenzyheart Tribe of Sholazar, perhaps you might consider caring for an orphan for a week.
+-- WHERE `entry`=14534;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The orphans we have taken in come from war torn Sholazar Basin. You can choose to care for either an orphaned Oracle hatchling or a Frenzyheart pup. Either will be happy to make a new friend, but you will only be able to care for one of them.'	-- The orphans we have taken in come from war torn Sholazar Basin. You can choose to care for either an orphaned Oracle hatchling or a Frenzyheart pup. Either will be happy to make a new friend, but you will only be able to care for one of them.
-WHERE `entry`=14537;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The orphans we have taken in come from war torn Sholazar Basin. You can choose to care for either an orphaned Oracle hatchling or a Frenzyheart pup. Either will be happy to make a new friend, but you will only be able to care for one of them.'	-- The orphans we have taken in come from war torn Sholazar Basin. You can choose to care for either an orphaned Oracle hatchling or a Frenzyheart pup. Either will be happy to make a new friend, but you will only be able to care for one of them.
+-- WHERE `entry`=14537;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Can you feel it?$B$BThe spirit world draws close during the Day of the Dead. This is why we decorate the graves of our dearly departed with flowers and candles and offerings: To welcome them back, even if only for a time.$B$BSo come! Dance with me! Let us cherish and honor those we have lost in their ghostly presence, so that they might eat and drink and smile and know that they are loved.'	-- Can you feel it?$B$BThe spirit world draws close during the Day of the Dead. This is why we decorate the graves of our dearly departed with flowers and candles and offerings: To welcome them back, even if only for a time.$B$BSo come! Dance with me! Let us cherish and honor those we have lost in their ghostly presence, so that they might eat and drink and smile and know that they are loved.
-WHERE `entry`=14543;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Can you feel it?$B$BThe spirit world draws close during the Day of the Dead. This is why we decorate the graves of our dearly departed with flowers and candles and offerings: To welcome them back, even if only for a time.$B$BSo come! Dance with me! Let us cherish and honor those we have lost in their ghostly presence, so that they might eat and drink and smile and know that they are loved.'	-- Can you feel it?$B$BThe spirit world draws close during the Day of the Dead. This is why we decorate the graves of our dearly departed with flowers and candles and offerings: To welcome them back, even if only for a time.$B$BSo come! Dance with me! Let us cherish and honor those we have lost in their ghostly presence, so that they might eat and drink and smile and know that they are loved.
+-- WHERE `entry`=14543;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='在悼念日，人们会聚集在墓地，追忆、告慰那些逝者的亡魂。$B$B届时任何主城的墓地都会举行这个仪式，在那里有悼念日食品、舞蹈、化装聚会和其他活动。'	-- During the Day of the Dead, people gather in graveyards to celebrate with and cherish the spirits of those they have lost.$B$BYou can find the festivities in the cemeteries of any major city, where you'll be able to cook, dance, don costumes, and more.
@@ -9376,25 +9376,25 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$C，在你的一生中，你肯定有过一段做学生的时光。从导师那里学习知识，并想要为导师争光，对不对？我不是指具体的某个人，但导师肯定是比你知道更多，而且愿意教导你的人。不过，要不是这样呢？想象一下……$B$B如果你发现，你的导师所知道的也许并不如你想象的那样多，你也许能找到更好的办法提升自己，你又会怎样做？'	-- Surely you've been a student once in your life, $c. You learned from an instructor, and you gained respect for them in some way, yes? Maybe not as a person, but at the least, as one who knew more than you and was willing to teach you. If not, use your imagination...$b$bWhat would you do if you came to realize your instructor may not know as much as you thought, and that you may have found a better path?
 WHERE `entry`=14560;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This is awful! I shouldn''t be sitting here, useless, when there''s so much to be done! If only my arm hadn''t gotten injured up in Northrend... No use dwelling on it, though! Tahu will have me patched up and cured eventually, and we''ll still help around here in the meantime.$B$BJust because we''re not at the front doesn''t mean we can''t help out somehow.'	-- This is awful! I shouldn't be sitting here, useless, when there's so much to be done! If only my arm hadn't gotten injured up in Northrend... No use dwelling on it, though! Tahu will have me patched up and cured eventually, and we'll still help around here in the meantime.$B$BJust because we're not at the front doesn't mean we can't help out somehow.
-WHERE `entry`=14561;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This is awful! I shouldn''t be sitting here, useless, when there''s so much to be done! If only my arm hadn''t gotten injured up in Northrend... No use dwelling on it, though! Tahu will have me patched up and cured eventually, and we''ll still help around here in the meantime.$B$BJust because we''re not at the front doesn''t mean we can''t help out somehow.'	-- This is awful! I shouldn't be sitting here, useless, when there's so much to be done! If only my arm hadn't gotten injured up in Northrend... No use dwelling on it, though! Tahu will have me patched up and cured eventually, and we'll still help around here in the meantime.$B$BJust because we're not at the front doesn't mean we can't help out somehow.
+-- WHERE `entry`=14561;
 
 UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='又是一张新面孔？很高兴见到你，我是德林拉尔。'	-- Another new face? It's so good to meet you. I'm Dellylah.
 WHERE `entry`=14562;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Zippik would drive us straight into the Bluff if I wasn''t here. Moron.'	-- Zippik would drive us straight into the Bluff if I wasn't here. Moron.
-WHERE `entry`=14614;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Zippik would drive us straight into the Bluff if I wasn''t here. Moron.'	-- Zippik would drive us straight into the Bluff if I wasn't here. Moron.
+-- WHERE `entry`=14614;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='嘿，我正在休息。'	-- Hey. I'm on break.
 WHERE `entry`=14617;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hey, sweetheart. The zeppelin that parks here''ll take ya straight to Thunder Bluff, free of charge. Who needs wyverns when you got us goblins here, am I right?'	-- Hey, sweetheart. The zeppelin that parks here'll take ya straight to Thunder Bluff, free of charge. Who needs wyverns when you got us goblins here, am I right?
-WHERE `entry`=14621;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hey, sweetheart. The zeppelin that parks here''ll take ya straight to Thunder Bluff, free of charge. Who needs wyverns when you got us goblins here, am I right?'	-- Hey, sweetheart. The zeppelin that parks here'll take ya straight to Thunder Bluff, free of charge. Who needs wyverns when you got us goblins here, am I right?
+-- WHERE `entry`=14621;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你在看什么，$R？想要折磨囚犯吗？'	-- What're ye starin' at, $r? Come ta torment the condemned?
@@ -9421,13 +9421,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你来到这里是为了和我们一起庆祝感恩节吗？'	-- Are you here to celebrate Pilgrim's Bounty with us?
 WHERE `entry`=14630;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome! Have you come to join us for a Pilgrim''s Bounty feast? Please, have a seat at a Bountiful Table.$B$BTry everything! I''m certain you''ll find something to your liking.'	-- Welcome! Have you come to join us for a Pilgrim's Bounty feast? Please, have a seat at a Bountiful Table.$B$BTry everything! I'm certain you'll find something to your liking.
-WHERE `entry`=14633;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome! Have you come to join us for a Pilgrim''s Bounty feast? Please, have a seat at a Bountiful Table.$B$BTry everything! I''m certain you''ll find something to your liking.'	-- Welcome! Have you come to join us for a Pilgrim's Bounty feast? Please, have a seat at a Bountiful Table.$B$BTry everything! I'm certain you'll find something to your liking.
+-- WHERE `entry`=14633;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome! Have you come to join us for a Pilgrim''s Bounty feast? Please, have a seat at a Bountiful Table.$B$BTry everything! I''m certain you''ll find something to your liking.'	-- Welcome! Have you come to join us for a Pilgrim's Bounty feast? Please, have a seat at a Bountiful Table.$B$BTry everything! I'm certain you'll find something to your liking.
-WHERE `entry`=14634;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome! Have you come to join us for a Pilgrim''s Bounty feast? Please, have a seat at a Bountiful Table.$B$BTry everything! I''m certain you''ll find something to your liking.'	-- Welcome! Have you come to join us for a Pilgrim's Bounty feast? Please, have a seat at a Bountiful Table.$B$BTry everything! I'm certain you'll find something to your liking.
+-- WHERE `entry`=14634;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='感恩节。嗯，我明白这些牛头人都渴望着向部落酋长表达他们的感激和情谊。但亡灵呢？$B$B我还以为他们早就丢弃了这种多愁善感的传统。'	-- "Pilgrim's Bounty." Hrm. I can understand the tauren's eagerness to express their sense of gratitude and comraderie to the Horde's warchief, but the Forsaken?$B$BI imagined they would have dropped such sentimental traditions long ago.
@@ -9444,13 +9444,13 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='Such a stark contrast, this holiday, to typical human behavior. Who''d have thought such a relentlessly voracious people would make a celebration of giving and sharing?$B$BIt''s pleasant to see. Darnassus should do its utmost to support and encourage it.'	-- Such a stark contrast, this holiday, to typical human behavior. Who'd have thought such a relentlessly voracious people would make a celebration of giving and sharing?$B$BIt's pleasant to see. Darnassus should do its utmost to support and encourage it.
 WHERE `entry`=14641;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='A Bountiful Table is laid out with five Pilgrim''s Bounty foods, one in front of each chair.$B$BWhile in a chair, you may eat as much of that food as you like, as well as pass servings of that food to the other chairs. Feast and share with friends!$B$BIf you eat enough of any one food, you''ll gain benefits unique to that food.$B$BIn addition, if you eat enough of every food, you''ll gain the Spirit of Sharing!'	-- A Bountiful Table is laid out with five Pilgrim's Bounty foods, one in front of each chair.$B$BWhile in a chair, you may eat as much of that food as you like, as well as pass servings of that food to the other chairs. Feast and share with friends!$B$BIf you eat enough of any one food, you'll gain benefits unique to that food.$B$BIn addition, if you eat enough of every food, you'll gain the Spirit of Sharing!
-WHERE `entry`=14647;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='A Bountiful Table is laid out with five Pilgrim''s Bounty foods, one in front of each chair.$B$BWhile in a chair, you may eat as much of that food as you like, as well as pass servings of that food to the other chairs. Feast and share with friends!$B$BIf you eat enough of any one food, you''ll gain benefits unique to that food.$B$BIn addition, if you eat enough of every food, you''ll gain the Spirit of Sharing!'	-- A Bountiful Table is laid out with five Pilgrim's Bounty foods, one in front of each chair.$B$BWhile in a chair, you may eat as much of that food as you like, as well as pass servings of that food to the other chairs. Feast and share with friends!$B$BIf you eat enough of any one food, you'll gain benefits unique to that food.$B$BIn addition, if you eat enough of every food, you'll gain the Spirit of Sharing!
+-- WHERE `entry`=14647;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='A Bountiful Table is laid out with five Pilgrim''s Bounty foods, one in front of each chair.$B$BWhile in a chair, you may eat as much of that food as you like, as well as pass servings of that food to the other chairs. Feast and share with friends!$B$BIf you eat enough of any one food, you''ll gain benefits unique to that food.$B$BIn addition, if you eat enough of every food, you''ll gain the Spirit of Sharing!'	-- A Bountiful Table is laid out with five Pilgrim's Bounty foods, one in front of each chair.$B$BWhile in a chair, you may eat as much of that food as you like, as well as pass servings of that food to the other chairs. Feast and share with friends!$B$BIf you eat enough of any one food, you'll gain benefits unique to that food.$B$BIn addition, if you eat enough of every food, you'll gain the Spirit of Sharing!
-WHERE `entry`=14648;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='A Bountiful Table is laid out with five Pilgrim''s Bounty foods, one in front of each chair.$B$BWhile in a chair, you may eat as much of that food as you like, as well as pass servings of that food to the other chairs. Feast and share with friends!$B$BIf you eat enough of any one food, you''ll gain benefits unique to that food.$B$BIn addition, if you eat enough of every food, you''ll gain the Spirit of Sharing!'	-- A Bountiful Table is laid out with five Pilgrim's Bounty foods, one in front of each chair.$B$BWhile in a chair, you may eat as much of that food as you like, as well as pass servings of that food to the other chairs. Feast and share with friends!$B$BIf you eat enough of any one food, you'll gain benefits unique to that food.$B$BIn addition, if you eat enough of every food, you'll gain the Spirit of Sharing!
+-- WHERE `entry`=14648;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='那些猛兽实在是令人惊愕。被他们打败绝不是什么羞耻的事情。'	-- Those beasts are amazing specimens. You should feel no shame at being bested by them.
@@ -9501,13 +9501,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这太好了，一定及时给我信号，让我知道该在什么时候放下那些法术。'	-- That's great, just give me the signal for when to drop the binding spells.
 WHERE `entry`=14682;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Welcome to our shop.  We have everything you need... if you need alchemy supplies.'	-- Welcome to our shop.  We have everything you need... if you need alchemy supplies.
-WHERE `entry`=14712;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Welcome to our shop.  We have everything you need... if you need alchemy supplies.'	-- Welcome to our shop.  We have everything you need... if you need alchemy supplies.
+-- WHERE `entry`=14712;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='No, I''m the intellectual one, and I am not to be taken lightly.  I could brew a healing potion from dishwater and dandelions, although that''s not something I''ll show you!$b$bAnyhow, if you''d like to make a purchase, please speak with Patricia.'	-- No, I'm the intellectual one, and I am not to be taken lightly.  I could brew a healing potion from dishwater and dandelions, although that's not something I'll show you!$b$bAnyhow, if you'd like to make a purchase, please speak with Patricia.
-WHERE `entry`=14713;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='No, I''m the intellectual one, and I am not to be taken lightly.  I could brew a healing potion from dishwater and dandelions, although that''s not something I''ll show you!$b$bAnyhow, if you''d like to make a purchase, please speak with Patricia.'	-- No, I'm the intellectual one, and I am not to be taken lightly.  I could brew a healing potion from dishwater and dandelions, although that's not something I'll show you!$b$bAnyhow, if you'd like to make a purchase, please speak with Patricia.
+-- WHERE `entry`=14713;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='That was an impressive display.  But are you ready for your next challege?'	-- That was an impressive display.  But are you ready for your next challege?
@@ -9607,9 +9607,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='大十字军的试炼比十字军的试炼更加困难。这里的每一个敌人都会变得更强大。而且你无法为自己挑选敌人，除非你们曾经战胜过他们。如果在这周之内，你们进行了50次不成功的尝试，就只能等到下周再继续大十字军的试炼了。在成功地完成大十字军的试炼之后，你们将获得另一个宝物匣。现在，是否已经为这一试炼做好了准备？'	-- The Trial of the Grand Crusader is a more difficult version of the Trial of the Crusader. Each encounter is more difficult, and you will not be able to freely attempt the encounters until you win. After 50 unsuccessful attempts, the Trial of the Grand Crusader will end for the week. After successfully completing the Trial of the Grand Crusader, you will receive an additional tribute chest of rewards as compensation. Are you prepared for this trial?
 WHERE `entry`=14853;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Nice to see you again, $N.'	-- Nice to see you again, $N.
-WHERE `entry`=14882;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Nice to see you again, $N.'	-- Nice to see you again, $N.
+-- WHERE `entry`=14882;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='在这看到兽人感到意外吧？用不着这样。$B$B需要有人看着那些被遗忘者。如果从一开始我们就好好盯着，或许天谴之门的事根本就不会发生。'	-- Surprised to see an orc here? Don't be.$b$bThe forsaken need watching. If we'd been paying closer attention from the start, maybe the Wrath Gate wouldn't have happened.
@@ -9641,9 +9641,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='找到你了！我几乎以为你已经被逐日者劫走了。你准备好把宝典递送给冰冠冰川的使者了吗？'	-- There you are! I was beginning to think that the Sunreavers had intercepted you. Are you ready to deliver the tome to our representatives in Icecrown?
 WHERE `entry`=15077;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I cannot hold him for long, we must leave at once!'	-- I cannot hold him for long, we must leave at once!
-WHERE `entry`=15081;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I cannot hold him for long, we must leave at once!'	-- I cannot hold him for long, we must leave at once!
+-- WHERE `entry`=15081;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='只有当你潜入雪层时，你的冰虫才能够移动，但潜入后你的冰虫无法攻击。浮出雪层的冰虫可以使用它强大的酸性攻击穿透钢铁巨像的护甲。要做好随时下潜的准备以躲避钢铁巨像最具毁灭性的攻击。'	-- Your jormungar can only move if you've submerged beneath the snow, but it cannot attack while submerged. Once your jormungar emerges, it can use its powerful acid attack to wear through the armor of the Iron Colossus. Be ready to submerge to escape from the Iron Colossus's most devastating attacks.
@@ -9665,17 +9665,17 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好吗，$C？'	-- How do you do, $c?
 WHERE `entry`=15145;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I will delay here until more reinforcements arrive, but you have to keep moving. We won''t have much time until Arthas realizes we''re here.'	-- I will delay here until more reinforcements arrive, but you have to keep moving. We won't have much time until Arthas realizes we're here.
-WHERE `entry`=15152;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I will delay here until more reinforcements arrive, but you have to keep moving. We won''t have much time until Arthas realizes we''re here.'	-- I will delay here until more reinforcements arrive, but you have to keep moving. We won't have much time until Arthas realizes we're here.
+-- WHERE `entry`=15152;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这看上去像是萨洛瑞安·寻晨者的遗体，奎尔德拉最后的使用者。'	-- These appear to be the remains of Thalorien Dawnseeker, the last wielder of Quel'Delar.
 WHERE `entry`=15155;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I cannot hold him for long, we must leave at once!'	-- I cannot hold him for long, we must leave at once!
-WHERE `entry`=15157;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I cannot hold him for long, we must leave at once!'	-- I cannot hold him for long, we must leave at once!
+-- WHERE `entry`=15157;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$C，和炼金师菲肯斯坦谈谈。他会为你指明道路。$B$B表明你的忠诚，你就会知道他们的办法。'	-- Speak with Alchemist Finklestein, $c. He can set you on the path.$b$bDemonstrate your loyalty and their methods shall be made known to you.
@@ -9689,29 +9689,29 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='我会集结其它的奴隶，被让他们做好战斗的准备。在你同天灾领主泰兰努斯开始交战前我们会赶上你的。'	-- I'll gather up the rest of slaves and get them ready to fight. We'll catch up with you before you engage Scourgelord Tyrannus.
 WHERE `entry`=15172;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Forgive me, heroes. I should have listened to Uther. I... I just had to see for myself. To look into his eyes one last time. I am sorry.'	-- Forgive me, heroes. I should have listened to Uther. I... I just had to see for myself. To look into his eyes one last time. I am sorry.
-WHERE `entry`=15189;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Forgive me, heroes. I should have listened to Uther. I... I just had to see for myself. To look into his eyes one last time. I am sorry.'	-- Forgive me, heroes. I should have listened to Uther. I... I just had to see for myself. To look into his eyes one last time. I am sorry.
+-- WHERE `entry`=15189;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We are safe... for now. His strength has increased tenfold since our last battle. It will take a mighty army to destroy the Lich King. An army greater than even the Horde can rouse.'	-- We are safe... for now. His strength has increased tenfold since our last battle. It will take a mighty army to destroy the Lich King. An army greater than even the Horde can rouse.
-WHERE `entry`=15190;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We are safe... for now. His strength has increased tenfold since our last battle. It will take a mighty army to destroy the Lich King. An army greater than even the Horde can rouse.'	-- We are safe... for now. His strength has increased tenfold since our last battle. It will take a mighty army to destroy the Lich King. An army greater than even the Horde can rouse.
+-- WHERE `entry`=15190;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I will delay here until more reinforcements arrive, but you must keep moving. Arthas will soon realize that we''re here.'	-- I will delay here until more reinforcements arrive, but you must keep moving. Arthas will soon realize that we're here.
-WHERE `entry`=15191;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I will delay here until more reinforcements arrive, but you must keep moving. Arthas will soon realize that we''re here.'	-- I will delay here until more reinforcements arrive, but you must keep moving. Arthas will soon realize that we're here.
+-- WHERE `entry`=15191;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你能肯定吗，$G 伙计:小姑娘;？再给你一两分钟？'	-- Are ye sure, $g lad:lass;? Ye don't need another minute or two?
 WHERE `entry`=15195;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We have no time to waste, $c. Why do you delay here?'	-- We have no time to waste, $c. Why do you delay here?
-WHERE `entry`=15206;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We have no time to waste, $c. Why do you delay here?'	-- We have no time to waste, $c. Why do you delay here?
+-- WHERE `entry`=15206;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='We do not have much time, hero. What do you need?'	-- We do not have much time, hero. What do you need?
-WHERE `entry`=15207;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='We do not have much time, hero. What do you need?'	-- We do not have much time, hero. What do you need?
+-- WHERE `entry`=15207;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你要我想起所有那些让我精神失常的事？听着。他们并没有付钱让我跟进这件事，我们之间的协议也不允许我透露这些。我可以把我的账本扔在地上，你自己捡起来然后别来烦我了。$B$B听明白了？'	-- You expect me to remember all that off the top of my head? Look. They didn't pay me enough to put up with this, and the contract only asked for my silence. So I'm just gonna drop my ledger on the floor here, and you're going to take it and leave me alone.$b$bGot it?
@@ -9721,9 +9721,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='无论你要什么，布雷泽·盖茨！明白吗？$B$B而且我指的不光是那些“合法”的东西。我是说──无论──你要什么，朋友！任何东西……'	-- Whatever you need, Brazie Getz! Get it?$B$BAnd I'm not just talkin' about the "legal" stuff, either. WHATEVER YOU NEED, PAL! Anything...
 WHERE `entry`=15214;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Standing this close to the blade that ended my life... The pain... It is renewed.'	-- Standing this close to the blade that ended my life... The pain... It is renewed.
-WHERE `entry`=15215;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Standing this close to the blade that ended my life... The pain... It is renewed.'	-- Standing this close to the blade that ended my life... The pain... It is renewed.
+-- WHERE `entry`=15215;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='部落勇敢的战士，我向你致敬！如果没有你和你盟友的帮助，我们一定会死在联盟炮艇的火力下。$B$B请稍事休息，随后我们会展开针对敌人堡垒上游的袭击。'	-- Brave soldier of the Horde, I salute you! We would have surely been destroyed by the Alliance gunship had it not been for you and your allies.$B$BTake a moment to rest before we begin our assault upon the upper reaches of the citadel.
@@ -9777,21 +9777,21 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='$C，东方吹来了一阵污秽的风。'	-- A foul wind blows from the East, $c.
 WHERE `entry`=15302;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Frostmourne: the blade that destroyed our kingdom...'	-- Frostmourne: the blade that destroyed our kingdom...
-WHERE `entry`=15339;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Frostmourne: the blade that destroyed our kingdom...'	-- Frostmourne: the blade that destroyed our kingdom...
+-- WHERE `entry`=15339;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='After countless failures of our agents to secure workable samples of Scourge blight for analysis, I''ve come up to the front lines myself to oversee the efforts. Like they say, if you want a job done right....'	-- After countless failures of our agents to secure workable samples of Scourge blight for analysis, I've come up to the front lines myself to oversee the efforts. Like they say, if you want a job done right....
-WHERE `entry`=15340;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='After countless failures of our agents to secure workable samples of Scourge blight for analysis, I''ve come up to the front lines myself to oversee the efforts. Like they say, if you want a job done right....'	-- After countless failures of our agents to secure workable samples of Scourge blight for analysis, I've come up to the front lines myself to oversee the efforts. Like they say, if you want a job done right....
+-- WHERE `entry`=15340;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='This is incredible! You''re covered in potent, virulent, fantastic blight! Please, allow me to harvest these pristine samples. I will remove any lingering infection from your allies as well, and reward you all for your bravery and self-sacrifice in the name of medicine! Let me know if you are ready to proceed.$B$B[Before proceeding, make sure that ALL raid members are nearby in order for them to receive credit for your accomplishment.]'	-- This is incredible! You're covered in potent, virulent, fantastic blight! Please, allow me to harvest these pristine samples. I will remove any lingering infection from your allies as well, and reward you all for your bravery and self-sacrifice in the name of medicine! Let me know if you are ready to proceed.$B$B[Before proceeding, make sure that ALL raid members are nearby in order for them to receive credit for your accomplishment.]
-WHERE `entry`=15343;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='This is incredible! You''re covered in potent, virulent, fantastic blight! Please, allow me to harvest these pristine samples. I will remove any lingering infection from your allies as well, and reward you all for your bravery and self-sacrifice in the name of medicine! Let me know if you are ready to proceed.$B$B[Before proceeding, make sure that ALL raid members are nearby in order for them to receive credit for your accomplishment.]'	-- This is incredible! You're covered in potent, virulent, fantastic blight! Please, allow me to harvest these pristine samples. I will remove any lingering infection from your allies as well, and reward you all for your bravery and self-sacrifice in the name of medicine! Let me know if you are ready to proceed.$B$B[Before proceeding, make sure that ALL raid members are nearby in order for them to receive credit for your accomplishment.]
+-- WHERE `entry`=15343;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Mortals, you have saved me from a fate worse than death. Left to their devices, the sorcerers of the Lich King would have broken my will eventually, and condemned me to a tortured eternity of unlife. Ahead of you lies one who was not so fortunate: the once-proud consort of Malygos, Sindragosa.$B$BMortally wounded after Neltharion''s betrayal and left to die alone in the snows of Icecrown, she exists now as a being of pure hatred. And yet, beneath those layers of malevolence still remains the noble spirit of a dragon queen. I believe there is yet hope that Sindragosa''s soul may find peaceful respite.'	-- Mortals, you have saved me from a fate worse than death. Left to their devices, the sorcerers of the Lich King would have broken my will eventually, and condemned me to a tortured eternity of unlife. Ahead of you lies one who was not so fortunate: the once-proud consort of Malygos, Sindragosa.$B$BMortally wounded after Neltharion's betrayal and left to die alone in the snows of Icecrown, she exists now as a being of pure hatred. And yet, beneath those layers of malevolence still remains the noble spirit of a dragon queen. I believe there is yet hope that Sindragosa's soul may find peaceful respite.
-WHERE `entry`=15379;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Mortals, you have saved me from a fate worse than death. Left to their devices, the sorcerers of the Lich King would have broken my will eventually, and condemned me to a tortured eternity of unlife. Ahead of you lies one who was not so fortunate: the once-proud consort of Malygos, Sindragosa.$B$BMortally wounded after Neltharion''s betrayal and left to die alone in the snows of Icecrown, she exists now as a being of pure hatred. And yet, beneath those layers of malevolence still remains the noble spirit of a dragon queen. I believe there is yet hope that Sindragosa''s soul may find peaceful respite.'	-- Mortals, you have saved me from a fate worse than death. Left to their devices, the sorcerers of the Lich King would have broken my will eventually, and condemned me to a tortured eternity of unlife. Ahead of you lies one who was not so fortunate: the once-proud consort of Malygos, Sindragosa.$B$BMortally wounded after Neltharion's betrayal and left to die alone in the snows of Icecrown, she exists now as a being of pure hatred. And yet, beneath those layers of malevolence still remains the noble spirit of a dragon queen. I believe there is yet hope that Sindragosa's soul may find peaceful respite.
+-- WHERE `entry`=15379;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你的提问相当机敏，年轻的$C。铭文师能够制作蕴藏强大力量的塔罗牌，当然即使是铭文师自己也无法完全驾驭他们所创造出来的东西。决定一切的还是命运。$B$B如果你有办法集齐完整的套牌，请把它带给我，你会得到不错的回报。'	-- You are astute to ask, young $c.  Scribes are capable of inscribing tarot cards of great power, although even they do not have full control of what they make.  The fates decide for them.$b$bIf you manage to obtain a completed deck, please bring it to me for a magnificent reward.
@@ -9873,9 +9873,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='别被鹰身人那长满羽毛的翘臀迷惑……她们的杀伤力可是致命的！'	-- Try to ignore the firm, feathery behinds of the harpies... the creatures are really quite deadly!
 WHERE `entry`=15664;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='That''s right, I''ve seen you here before! How could I forget? I can teleport you to Stratholme now, if you wish.'	-- That's right, I've seen you here before! How could I forget? I can teleport you to Stratholme now, if you wish.
-WHERE `entry`=15704;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='That''s right, I''ve seen you here before! How could I forget? I can teleport you to Stratholme now, if you wish.'	-- That's right, I've seen you here before! How could I forget? I can teleport you to Stratholme now, if you wish.
+-- WHERE `entry`=15704;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='这些该死的害虫！'	-- Missing US text
@@ -9887,9 +9887,9 @@ UPDATE `locales_npc_text` SET
 	`text0_1_loc4`='I''m only here in case someone faints. The new recruits get a little excited and occasionally overexert themselves.$B$B...well, that, and sometimes one of the new mechano-tank prototypes explode. Whoops!'	-- I'm only here in case someone faints. The new recruits get a little excited and occasionally overexert themselves.$B$B...well, that, and sometimes one of the new mechano-tank prototypes explode. Whoops!
 WHERE `entry`=15779;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='I be one of da first to answer Vol''jin''s call to arms. Will you be joinin'' us?'	-- I be one of da first to answer Vol'jin's call to arms. Will you be joinin' us?
-WHERE `entry`=15796;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='I be one of da first to answer Vol''jin''s call to arms. Will you be joinin'' us?'	-- I be one of da first to answer Vol'jin's call to arms. Will you be joinin' us?
+-- WHERE `entry`=15796;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='如果你想要蝙蝠，那么你可是来对地方了。我掌管着全部哨兵的蝙蝠。'	-- If ya need a bat, ya come to da right place. I be handlin' all de bats for de scouts.
@@ -9903,9 +9903,9 @@ WHERE `entry`=15846;
 -- 	`text0_0_loc4`='I''m tellin'' you, that Corin Direbrew''s a madman.$B$BIt''s not MY fault he didn''t get invited to compete at Brewfest! But that didn''t stop him and all his Dark Iron cronies from roughin'' up my employees and drinking all my brew.$B$BSomeone''s got to put an end to this!'	-- I'm tellin' you, that Corin Direbrew's a madman.$B$BIt's not MY fault he didn't get invited to compete at Brewfest! But that didn't stop him and all his Dark Iron cronies from roughin' up my employees and drinking all my brew.$B$BSomeone's got to put an end to this!
 -- WHERE `entry`=15853;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='The Frost Lord, Ahune, must be stopped.$B$BEven now he is taking form, summoned from his elemental prison by the mad cultists of the Twilight''s Hammer.$B$BIf he''s allowed to enter our world completely, he''ll bury us beneath an eternal winter.'	-- The Frost Lord, Ahune, must be stopped.$B$BEven now he is taking form, summoned from his elemental prison by the mad cultists of the Twilight's Hammer.$B$BIf he's allowed to enter our world completely, he'll bury us beneath an eternal winter.
-WHERE `entry`=15855;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='The Frost Lord, Ahune, must be stopped.$B$BEven now he is taking form, summoned from his elemental prison by the mad cultists of the Twilight''s Hammer.$B$BIf he''s allowed to enter our world completely, he''ll bury us beneath an eternal winter.'	-- The Frost Lord, Ahune, must be stopped.$B$BEven now he is taking form, summoned from his elemental prison by the mad cultists of the Twilight's Hammer.$B$BIf he's allowed to enter our world completely, he'll bury us beneath an eternal winter.
+-- WHERE `entry`=15855;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='什么？！你说什么？！你怎么敢这样！我的啤酒比他们在美酒节喝的那些烂东西要好得多！$B$B你要为你所做的付出代价，$C！'	-- What?!  What did ye say?!  How dare ye!  Me beer can stand up to any of that rot they serve at Brewfest!$B$BYou'll pay for this insult, $c!
@@ -9927,13 +9927,13 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='暗矛部族回到了家园！$N，如果没有你的帮助，我们无法实现这个梦想。现在，让我们庆祝吧！'	-- De Darkspears have a home again! An' we couldn't have done it wit'out ya helpin', $N. Now, we celebrate!
 WHERE `entry`=15866;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='It''s my job to ensure that this whole assault runs like clockwork.$B$BHigh Tinker Mekkatorque is out in the field now, but he''s scheduled to come back to get some more troops any time now.  $B$BHe''s never late, so just stick around and he''ll be here.'	-- It's my job to ensure that this whole assault runs like clockwork.$B$BHigh Tinker Mekkatorque is out in the field now, but he's scheduled to come back to get some more troops any time now.  $B$BHe's never late, so just stick around and he'll be here.
-WHERE `entry`=15868;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='It''s my job to ensure that this whole assault runs like clockwork.$B$BHigh Tinker Mekkatorque is out in the field now, but he''s scheduled to come back to get some more troops any time now.  $B$BHe''s never late, so just stick around and he''ll be here.'	-- It's my job to ensure that this whole assault runs like clockwork.$B$BHigh Tinker Mekkatorque is out in the field now, but he's scheduled to come back to get some more troops any time now.  $B$BHe's never late, so just stick around and he'll be here.
+-- WHERE `entry`=15868;
 
-UPDATE `locales_npc_text` SET
-	`text0_1_loc4`='Hurry! You should talk to Mekkatorque! If we don''t start the assault soon, we''re going to be late.$B$BAnd my boss HATES it when we''re late!'	-- Hurry! You should talk to Mekkatorque! If we don't start the assault soon, we're going to be late.$B$BAnd my boss HATES it when we're late!
-WHERE `entry`=15870;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_1_loc4`='Hurry! You should talk to Mekkatorque! If we don''t start the assault soon, we''re going to be late.$B$BAnd my boss HATES it when we''re late!'	-- Hurry! You should talk to Mekkatorque! If we don't start the assault soon, we're going to be late.$B$BAnd my boss HATES it when we're late!
+-- WHERE `entry`=15870;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='沃金要我在他回来之前一直敲这面鼓。如果你在等他，那么我可以告诉你，他很快就会回来夺回这些岛屿了。$B$B暂时先在这里等一等他，欣赏一下这音乐吧！'	-- Vol'jin told me ta keep hittin' da drum till he gets back.  If ya be waitin' for him, he'd be back soon to take back da Isles.$B$BJust wait here and enjoy da music!
@@ -10001,9 +10001,9 @@ WHERE `entry`=16491;
 -- 	`text0_1_loc4`='Welcome to Dolanaar, $c. Let me know if you need any recipes or basic cooking ingredients.'	-- Welcome to Dolanaar, $c. Let me know if you need any recipes or basic cooking ingredients.
 -- WHERE `entry`=16510;
 
-UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='This is MY WAGON!$B$BMINE!'	-- This is MY WAGON!$B$BMINE!
-WHERE `entry`=16528;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_0_loc4`='This is MY WAGON!$B$BMINE!'	-- This is MY WAGON!$B$BMINE!
+-- WHERE `entry`=16528;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='睁大眼睛，$C。即使是杜隆塔尔也难免会潜藏着敌人。'	-- Keep your eyes open, $c. Even Durotar is not safe from our enemies.

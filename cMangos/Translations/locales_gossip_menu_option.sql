@@ -690,21 +690,21 @@ WHERE `menu_id`=6924 AND `id`=1;
 -- 	`option_text_loc4`='GOSSIP_OPTION_QUESTGIVER'	-- GOSSIP_OPTION_QUESTGIVER
 -- WHERE `menu_id`=6944 AND `id`=1;
 
-UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='zzOLDSnake Trap (NEW)'	-- Lexicon of Power
-WHERE `menu_id`=6957 AND `id`=13;
+-- UPDATE `locales_gossip_menu_option` SET
+-- 	`option_text_loc4`='zzOLDSnake Trap (NEW)'	-- Lexicon of Power
+-- WHERE `menu_id`=6957 AND `id`=13;
 
-UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='zzOLDSnake Trap (NEW)'	-- Lexicon of Power
-WHERE `menu_id`=6958 AND `id`=13;
+-- UPDATE `locales_gossip_menu_option` SET
+-- 	`option_text_loc4`='zzOLDSnake Trap (NEW)'	-- Lexicon of Power
+-- WHERE `menu_id`=6958 AND `id`=13;
 
-UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='zzOLDSnake Trap (NEW)'	-- Lexicon of Power
-WHERE `menu_id`=6999 AND `id`=12;
+-- UPDATE `locales_gossip_menu_option` SET
+-- 	`option_text_loc4`='zzOLDSnake Trap (NEW)'	-- Lexicon of Power
+-- WHERE `menu_id`=6999 AND `id`=12;
 
-UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='zzOLDSnake Trap (NEW)'	-- Lexicon of Power
-WHERE `menu_id`=7035 AND `id`=14;
+-- UPDATE `locales_gossip_menu_option` SET
+-- 	`option_text_loc4`='zzOLDSnake Trap (NEW)'	-- Lexicon of Power
+-- WHERE `menu_id`=7035 AND `id`=14;
 
 UPDATE `locales_gossip_menu_option` SET
 	`option_text_loc4`='我们有很多共同点，暗夜精灵。我不禁感到我们的相遇是命运的安排。让我来帮助你，我的家人。让我的人民帮助你。我发誓，我们将会拨乱反正。'	-- We have much in common, night elf. I can't help but feel that perhaps it was fate that brought us together. Let me help you, Cowlen. Let my people help. We will right the wrongs. This I vow.

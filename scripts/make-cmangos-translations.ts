@@ -1,7 +1,7 @@
 import * as mysql from 'mysql2/promise'
 import * as path from 'path'
 import * as fs from 'fs-extra'
-import {encodeText, getLowerNameSQLTrans, getTableData, makeGroup, makeIndex} from './utils'
+import {encodeText, getLowerNameSQLTrans, getTableData, makeGroup, makeIndex, makeTableIndex} from './utils'
 import {getEditSimilarity} from './edit-distance'
 
 
@@ -10,6 +10,7 @@ class Maker {
 	ready: Promise<void>
 	private cMangosConnection!: mysql.Connection
 	private mangosConnection!: mysql.Connection
+	private siteConnection!: mysql.Connection
 	private fromDir = path.resolve(__dirname, '../Translations/Chinese')
 	private toDir = path.resolve(__dirname, '../cMangos/Translations')
 
@@ -35,6 +36,14 @@ class Maker {
 			database: 'mangos0',
 		})
 
+		// 数据库连接.
+		this.siteConnection = await mysql.createConnection({
+			host:'localhost',
+			user: 'root',
+			password: '123456',
+			database: 'test',
+		})	
+
 		await fs.ensureDir(this.toDir)
 	}
 
@@ -47,6 +56,7 @@ class Maker {
 		columnNames: string[],
 		nameMap: Record<string, string> = {},
 		where: string | null = null,
+		compareWithSite: boolean = false
 	) {
 		let destPath = this.toDir + '/' + localesTableName + '.sql'
 		let destTrans = await fs.pathExists(destPath) ? await getLowerNameSQLTrans(destPath) : {}
@@ -59,22 +69,40 @@ class Maker {
 		let localSQLKeys = localNames.map(name => `\`${name}\``).join(', ')
 		let enKeys = idNames.map(name => `\`${name}\``).join(', ')
 		sql += `INSERT IGNORE INTO \`${localesTableName}\` (${localSQLKeys}) SELECT ${enKeys} FROM \`${enTableName}\`;\n\n`
-		
+
+		let siteTrans = compareWithSite ? makeTableIndex(await getTableData(this.siteConnection, localesTableName, idNames, columnNames), idNames) : {}
+
+		// 比对两个翻译是否完全相同.
+		let compareTrans = (trans1: any, trans2: any) => {
+			return columnNames.every(name => {
+				let mappedName = nameMap[name] || name
+				return trans1[mappedName] === trans2[mappedName]
+			})
+		}
+
 		for (let item of dbTrans) {
 			let ids = idNames.map(name => item[name])
 			let id = ids.join('-')
-			let translated = !!(destTrans[id] || sqlTrans[id])
+			let translated = !!(destTrans[id] || siteTrans[id] && !compareTrans(item, siteTrans[id]) || sqlTrans[id])
 			let comment = translated ? '' : '-- '
 
 			let sets = columnNames.map(name => {
 				let enValue = item[name] as unknown as string
-				let value = enValue
-				if (!value) {
+				if (!enValue) {
 					return null
 				}
 
-				name = nameMap[name] || name
-				value = destTrans[id]?.[name.toLowerCase()] || sqlTrans[id]?.[name.toLowerCase()] || value
+				let mappedName = nameMap[name] || name
+
+				let trans1 = destTrans[id]?.[mappedName]
+				let trans2 = siteTrans[id]?.[mappedName] as any
+				let trans3 = sqlTrans[id]?.[mappedName]
+
+				if (!/[\u4e00-\u9fa5]/.test(trans2) && /[\u4e00-\u9fa5]/.test(trans3)) {
+					trans2 = undefined
+				}
+
+				let value = trans1 || trans2 || trans3 || enValue
 				value = encodeText(value)
 
 				return comment + `\t\`${name + '_loc4'}\`='${value}'` + '\t-- ' + enValue
@@ -82,9 +110,9 @@ class Maker {
 
 			let wheres = idNames.map(name => {
 				let value = item[name]
-				name = nameMap[name] || name
+				let mappedName = nameMap[name] || name
 
-				return `\`${name}\`=${value}`
+				return `\`${mappedName}\`=${value}`
 			}).join(' AND ')
 
 			if (sets) {
@@ -150,9 +178,11 @@ class Maker {
 			'Chinese_Creature.sql',
 			'creature_template',
 			'locales_creature',
-			['Entry'],
-			['Name', 'SubName'],
-			{Name: 'name', SubName: 'subname'}
+			['entry'],
+			['name', 'subname'],
+			{},
+			null,
+			true
 		)
 
 		// 道具名称.
@@ -162,19 +192,11 @@ class Maker {
 			'locales_gameobject',
 			['entry'],
 			['name'],
+			{},
+			null,
+			true
 		)
 		
-		// NPC 谈话菜单.
-		await this.makeOneTransSQL(
-			'Chinese_gossip_menu_option.sql',
-			'gossip_menu_option',
-			'locales_gossip_menu_option',
-			['menu_id', 'id'],
-			['option_text'],
-			{},
-			'where option_broadcast_text=0'
-		)
-
 		// 物品名称.
 		await this.makeOneTransSQL(
 			'Chinese_Items.sql',
@@ -182,95 +204,109 @@ class Maker {
 			'locales_item',
 			['entry'],
 			['name', 'description'],
+			{},
+			null,
+			true
 		)
 		
-		// 系统名称.
-		await this.makeOneTransSQL(
-			'Chinese_Mangos_String.sql',
-			'mangos_string',
-			'mangos_string',
-			['entry'],
-			['content_default'],
-			{content_default: 'content'}
-		)
+		// // NPC 谈话菜单.
+		// await this.makeOneTransSQL(
+		// 	'Chinese_gossip_menu_option.sql',
+		// 	'gossip_menu_option',
+		// 	'locales_gossip_menu_option',
+		// 	['menu_id', 'id'],
+		// 	['option_text'],
+		// 	{},
+		// 	'where option_broadcast_text=0'
+		// )
 
-		// NPC 文本.
-		await this.makeOneTransSQL(
-			'Chinese_NpcText.sql',
-			'npc_text',
-			'locales_npc_text',
-			['ID'],
-			['text0_0', 'text0_1'],
-			{ID: 'entry'}
-		)
+		// // 系统名称.
+		// await this.makeOneTransSQL(
+		// 	'Chinese_Mangos_String.sql',
+		// 	'mangos_string',
+		// 	'mangos_string',
+		// 	['entry'],
+		// 	['content_default'],
+		// 	{content_default: 'content'}
+		// )
 
-		// 书籍文本.
-		await this.makeOneTransSQL(
-			'Chinese_PageText.sql',
-			'page_text',
-			'locales_page_text',
-			['entry'],
-			['text'],
-		)
+		// // NPC 文本.
+		// await this.makeOneTransSQL(
+		// 	'Chinese_NpcText.sql',
+		// 	'npc_text',
+		// 	'locales_npc_text',
+		// 	['ID'],
+		// 	['text0_0', 'text0_1'],
+		// 	{ID: 'entry'}
+		// )
 
-		// 一些地点
-		await this.makeOneTransSQL(
-			'Chinese_points_of_interest.sql',
-			'points_of_interest',
-			'locales_points_of_interest',
-			['entry'],
-			['icon_name'],
-		)
+		// // 书籍文本.
+		// await this.makeOneTransSQL(
+		// 	'Chinese_PageText.sql',
+		// 	'page_text',
+		// 	'locales_page_text',
+		// 	['entry'],
+		// 	['text'],
+		// )
 
-		// 任务
-		await this.makeOneTransSQL(
-			'Chinese_Quest.sql',
-			'quest_template',
-			'locales_quest',
-			['entry'],
-			[
-				'Title', 'Details', 'Objectives', 'OfferRewardText', 'RequestItemsText', 'EndText',
-				'ObjectiveText1', 'ObjectiveText2', 'ObjectiveText3', 'ObjectiveText4',
-			],
-		)
+		// // 一些地点
+		// await this.makeOneTransSQL(
+		// 	'Chinese_points_of_interest.sql',
+		// 	'points_of_interest',
+		// 	'locales_points_of_interest',
+		// 	['entry'],
+		// 	['icon_name'],
+		// )
 
-		// 脚本字符.
-		await this.makeOneTransSQL(
-			null,
-			'areatrigger_teleport',
-			'locales_areatrigger_teleport',
-			['id'],
-			['name'],
-			{name: 'Text'}
-		)
+		// // 任务
+		// await this.makeOneTransSQL(
+		// 	'Chinese_Quest.sql',
+		// 	'quest_template',
+		// 	'locales_quest',
+		// 	['entry'],
+		// 	[
+		// 		'Title', 'Details', 'Objectives', 'OfferRewardText', 'RequestItemsText', 'EndText',
+		// 		'ObjectiveText1', 'ObjectiveText2', 'ObjectiveText3', 'ObjectiveText4',
+		// 	],
+		// )
 
-		// 脚本字符.
-		await this.makeOneTransSQL(
-			null,
-			'areatrigger_teleport',
-			'locales_areatrigger_teleport',
-			['id'],
-			['name'],
-			{id: 'Entry', name: 'Text'}
-		)
+		// // 脚本字符.
+		// await this.makeOneTransSQL(
+		// 	null,
+		// 	'areatrigger_teleport',
+		// 	'locales_areatrigger_teleport',
+		// 	['id'],
+		// 	['name'],
+		// 	{name: 'Text'}
+		// )
 
-		// 任务给予字符.
-		await this.makeOneTransSQL(
-			null,
-			'questgiver_greeting',
-			'locales_questgiver_greeting',
-			['Entry'],
-			['Text'],
-		)
+		// // 脚本字符.
+		// await this.makeOneTransSQL(
+		// 	null,
+		// 	'areatrigger_teleport',
+		// 	'locales_areatrigger_teleport',
+		// 	['id'],
+		// 	['name'],
+		// 	{id: 'Entry', name: 'Text'}
+		// )
 
-		// 训练师字符.
-		await this.makeOneTransSQL(
-			null,
-			'trainer_greeting',
-			'locales_trainer_greeting',
-			['Entry'],
-			['Text'],
-		)
+		// // 任务给予字符.
+		// await this.makeOneTransSQL(
+		// 	null,
+		// 	'questgiver_greeting',
+		// 	'locales_questgiver_greeting',
+		// 	['Entry'],
+		// 	['Text'],
+		// )
+
+		// // 训练师字符.
+		// await this.makeOneTransSQL(
+		// 	null,
+		// 	'trainer_greeting',
+		// 	'locales_trainer_greeting',
+		// 	['Entry'],
+		// 	['Text'],
+		// )
 	}
 
 	/** 生成 Broadcast 的翻译. */

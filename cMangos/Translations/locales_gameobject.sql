@@ -435,11 +435,11 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=331;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='上古圣物'	-- Ancient Relic
+	`name_loc4`='古代遗物'	-- Ancient Relic
 WHERE `entry`=333;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='上古圣物'	-- Ancient Relic
+	`name_loc4`='古代遗物'	-- Ancient Relic
 WHERE `entry`=334;
 
 UPDATE `locales_gameobject` SET
@@ -551,7 +551,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=1561;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='哈迦德的箱子'	-- Marshal Haggard's Chest
+	`name_loc4`='哈加德的箱子'	-- Marshal Haggard's Chest
 WHERE `entry`=1562;
 
 UPDATE `locales_gameobject` SET
@@ -671,7 +671,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=1620;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='布瑞尔索恩'	-- Briarthorn
+	`name_loc4`='石南草'	-- Briarthorn
 WHERE `entry`=1621;
 
 UPDATE `locales_gameobject` SET
@@ -851,7 +851,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=1677;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='安伯米尔'	-- Ambermill
+	`name_loc4`='达拉然'	-- Ambermill
 WHERE `entry`=1678;
 
 UPDATE `locales_gameobject` SET
@@ -887,7 +887,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=1688;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='安伯米尔'	-- Ambermill
+	`name_loc4`='达拉然'	-- Ambermill
 WHERE `entry`=1689;
 
 UPDATE `locales_gameobject` SET
@@ -903,7 +903,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=1692;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='安伯米尔'	-- Ambermill
+	`name_loc4`='达拉然'	-- Ambermill
 WHERE `entry`=1693;
 
 UPDATE `locales_gameobject` SET
@@ -963,7 +963,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=1707;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='安伯米尔'	-- Ambermill
+	`name_loc4`='达拉然'	-- Ambermill
 WHERE `entry`=1708;
 
 UPDATE `locales_gameobject` SET
@@ -979,7 +979,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=1711;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='安伯米尔'	-- Ambermill
+	`name_loc4`='达拉然'	-- Ambermill
 WHERE `entry`=1712;
 
 UPDATE `locales_gameobject` SET
@@ -2115,7 +2115,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=2043;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='寒冬之咬'	-- Wintersbite
+	`name_loc4`='冬刺草'	-- Wintersbite
 WHERE `entry`=2044;
 
 UPDATE `locales_gameobject` SET
@@ -2147,7 +2147,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=2051;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='安伯米尔'	-- Ambermill
+	`name_loc4`='达拉然'	-- Ambermill
 WHERE `entry`=2052;
 
 UPDATE `locales_gameobject` SET
@@ -2887,7 +2887,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=2843;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='破损的箱子'	-- Battered Chest
+	`name_loc4`='破碎的箱子'	-- Battered Chest
 WHERE `entry`=2844;
 
 UPDATE `locales_gameobject` SET
@@ -3259,7 +3259,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=3238;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='鞭尾龙的蛋'	-- Benedict's Chest
+	`name_loc4`='本尼迪克的箱子'	-- Benedict's Chest
 WHERE `entry`=3239;
 
 UPDATE `locales_gameobject` SET
@@ -3507,7 +3507,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=3714;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='破碎的箱子'	-- Alliance Chest
+	`name_loc4`='联盟宝箱'	-- Alliance Chest
 WHERE `entry`=3715;
 
 UPDATE `locales_gameobject` SET
@@ -3551,7 +3551,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=3727;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='布瑞尔索恩'	-- Briarthorn
+	`name_loc4`='石南草'	-- Briarthorn
 WHERE `entry`=3729;
 
 UPDATE `locales_gameobject` SET
@@ -4247,7 +4247,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=4095;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='破碎的箱子'	-- Alliance Chest
+	`name_loc4`='联盟宝箱'	-- Alliance Chest
 WHERE `entry`=4096;
 
 UPDATE `locales_gameobject` SET
@@ -6470,21 +6470,21 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='兽人间谍报告'	-- Orc Spy Report
 WHERE `entry`=21128;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Feast Boar'	-- Feast Boar
--- WHERE `entry`=21145;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='宴会猪肉'	-- Feast Boar
+WHERE `entry`=21145;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Feast Fish'	-- Feast Fish
--- WHERE `entry`=21146;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='宴会鱼肉'	-- Feast Fish
+WHERE `entry`=21146;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Feast Fruit'	-- Feast Fruit
--- WHERE `entry`=21147;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='宴会水果'	-- Feast Fruit
+WHERE `entry`=21147;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Feast Goblet'	-- Feast Goblet
--- WHERE `entry`=21148;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='宴会酒杯'	-- Feast Goblet
+WHERE `entry`=21148;
 
 -- UPDATE `locales_gameobject` SET
 -- 	`name_loc4`='Anvil'	-- Anvil
@@ -10471,7 +10471,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=35251;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='上古圣物'	-- Ancient Relic
+	`name_loc4`='古代遗物'	-- Ancient Relic
 WHERE `entry`=35252;
 
 UPDATE `locales_gameobject` SET
@@ -14443,7 +14443,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=103813;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='安伯米尔保险箱'	-- Ambermill Strongbox
+	`name_loc4`='达拉然保险箱'	-- Ambermill Strongbox
 WHERE `entry`=103815;
 
 -- UPDATE `locales_gameobject` SET
@@ -14523,7 +14523,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=105173;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='一盒封灵箱'	-- Chest of Containment Coffers
+	`name_loc4`='封灵箱'	-- Chest of Containment Coffers
 WHERE `entry`=105174;
 
 UPDATE `locales_gameobject` SET
@@ -14555,15 +14555,15 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=105576;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='破碎的箱子'	-- Horde Chest
+	`name_loc4`='部落储物箱'	-- Horde Chest
 WHERE `entry`=105578;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='破碎的箱子'	-- Alliance Chest
+	`name_loc4`='联盟宝箱'	-- Alliance Chest
 WHERE `entry`=105579;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='破碎的箱子'	-- Alliance Chest
+	`name_loc4`='联盟宝箱'	-- Alliance Chest
 WHERE `entry`=105581;
 
 UPDATE `locales_gameobject` SET
@@ -14683,7 +14683,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=111094;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='破碎的箱子'	-- Alliance Chest
+	`name_loc4`='联盟宝箱'	-- Alliance Chest
 WHERE `entry`=111095;
 
 UPDATE `locales_gameobject` SET
@@ -15363,19 +15363,19 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=113757;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='鲜艳的彩蛋'	-- Brightly Colored Egg
+	`name_loc4`='复活节彩蛋'	-- Brightly Colored Egg
 WHERE `entry`=113768;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='鲜艳的彩蛋'	-- Brightly Colored Egg
+	`name_loc4`='复活节彩蛋'	-- Brightly Colored Egg
 WHERE `entry`=113769;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='鲜艳的彩蛋'	-- Brightly Colored Egg
+	`name_loc4`='复活节彩蛋'	-- Brightly Colored Egg
 WHERE `entry`=113770;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='鲜艳的彩蛋'	-- Brightly Colored Egg
+	`name_loc4`='复活节彩蛋'	-- Brightly Colored Egg
 WHERE `entry`=113771;
 
 UPDATE `locales_gameobject` SET
@@ -16407,7 +16407,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=142121;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='通缉告示'	-- Wanted Poster
+	`name_loc4`='通缉：卡利夫·斯科比斯汀'	-- Wanted Poster
 WHERE `entry`=142122;
 
 UPDATE `locales_gameobject` SET
@@ -16487,7 +16487,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=142181;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='巨龙的遗产'	-- Captain's Chest
+	`name_loc4`='船长的箱子'	-- Captain's Chest
 WHERE `entry`=142184;
 
 UPDATE `locales_gameobject` SET
@@ -17223,7 +17223,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=144071;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='高原精灵笔记'	-- Highvale Notes
+	`name_loc4`='高原精灵信件'	-- Highvale Notes
 WHERE `entry`=144072;
 
 UPDATE `locales_gameobject` SET
@@ -18823,7 +18823,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=149483;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='黑龙军团宝箱'	-- Hoard of the Black Dragonflight
+	`name_loc4`='黑龙的财宝'	-- Hoard of the Black Dragonflight
 WHERE `entry`=149502;
 
 UPDATE `locales_gameobject` SET
@@ -22498,9 +22498,9 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的轻歌花'	-- Corrupted Songflower
 WHERE `entry`=171939;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Songflower'	-- Cleansed Songflower
--- WHERE `entry`=171940;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的轻歌花'	-- Cleansed Songflower
+WHERE `entry`=171940;
 
 UPDATE `locales_gameobject` SET
 	`name_loc4`='酒桶陷阱'	-- Keg Trap
@@ -22510,9 +22510,9 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的轻歌花'	-- Corrupted Songflower
 WHERE `entry`=171942;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Songflower'	-- Cleansed Songflower
--- WHERE `entry`=171943;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的轻歌花'	-- Cleansed Songflower
+WHERE `entry`=171943;
 
 -- UPDATE `locales_gameobject` SET
 -- 	`name_loc4`='Un''Goro Flat Rock'	-- Un'Goro Flat Rock
@@ -23710,13 +23710,13 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的夜龙草'	-- Corrupted Night Dragon
 WHERE `entry`=173324;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Night Dragon'	-- Cleansed Night Dragon
--- WHERE `entry`=173325;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的夜龙草'	-- Cleansed Night Dragon
+WHERE `entry`=173325;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Windblossom'	-- Cleansed Windblossom
--- WHERE `entry`=173326;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的迎风花'	-- Cleansed Windblossom
+WHERE `entry`=173326;
 
 UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的迎风花'	-- Corrupted Windblossom
@@ -24378,9 +24378,9 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的轻歌花'	-- Corrupted Songflower
 WHERE `entry`=174596;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Corrupted Songflower'	-- Corrupted Songflower
--- WHERE `entry`=174597;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='被腐化的轻歌花'	-- Corrupted Songflower
+WHERE `entry`=174597;
 
 UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的轻歌花'	-- Corrupted Songflower
@@ -24426,69 +24426,69 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的夜龙草'	-- Corrupted Night Dragon
 WHERE `entry`=174608;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Night Dragon'	-- Cleansed Night Dragon
--- WHERE `entry`=174609;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的夜龙草'	-- Cleansed Night Dragon
+WHERE `entry`=174609;
+
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的轻歌花'	-- Cleansed Songflower
+WHERE `entry`=174610;
+
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的轻歌花'	-- Cleansed Songflower
+WHERE `entry`=174612;
+
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的轻歌花'	-- Cleansed Songflower
+WHERE `entry`=174613;
+
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的轻歌花'	-- Cleansed Songflower
+WHERE `entry`=174614;
+
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的轻歌花'	-- Cleansed Songflower
+WHERE `entry`=174615;
 
 -- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Songflower'	-- Cleansed Songflower
--- WHERE `entry`=174610;
-
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Songflower'	-- Cleansed Songflower
--- WHERE `entry`=174612;
-
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Songflower'	-- Cleansed Songflower
--- WHERE `entry`=174613;
-
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Songflower'	-- Cleansed Songflower
--- WHERE `entry`=174614;
-
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Songflower'	-- Cleansed Songflower
--- WHERE `entry`=174615;
-
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Windblossom'	-- Cleansed Windblossom
+-- 	`name_loc4`='[Cleansed Windblossom]'	-- Cleansed Windblossom
 -- WHERE `entry`=174616;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Windblossom'	-- Cleansed Windblossom
--- WHERE `entry`=174617;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的迎风花'	-- Cleansed Windblossom
+WHERE `entry`=174617;
+
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的迎风花'	-- Cleansed Windblossom
+WHERE `entry`=174618;
 
 -- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Windblossom'	-- Cleansed Windblossom
--- WHERE `entry`=174618;
-
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Windblossom'	-- Cleansed Windblossom
+-- 	`name_loc4`='[Cleansed Windblossom]'	-- Cleansed Windblossom
 -- WHERE `entry`=174619;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Windblossom'	-- Cleansed Windblossom
--- WHERE `entry`=174620;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的迎风花'	-- Cleansed Windblossom
+WHERE `entry`=174620;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Windblossom'	-- Cleansed Windblossom
--- WHERE `entry`=174621;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的迎风花'	-- Cleansed Windblossom
+WHERE `entry`=174621;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Whipper Root'	-- Cleansed Whipper Root
--- WHERE `entry`=174622;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的鞭根草'	-- Cleansed Whipper Root
+WHERE `entry`=174622;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Whipper Root'	-- Cleansed Whipper Root
--- WHERE `entry`=174623;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的鞭根草'	-- Cleansed Whipper Root
+WHERE `entry`=174623;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Whipper Root'	-- Cleansed Whipper Root
--- WHERE `entry`=174624;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的鞭根草'	-- Cleansed Whipper Root
+WHERE `entry`=174624;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Whipper Root'	-- Cleansed Whipper Root
--- WHERE `entry`=174625;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的鞭根草'	-- Cleansed Whipper Root
+WHERE `entry`=174625;
 
 UPDATE `locales_gameobject` SET
 	`name_loc4`='通灵学院大门'	-- Scholomance Door
@@ -24506,17 +24506,17 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的夜龙草'	-- Corrupted Night Dragon
 WHERE `entry`=174684;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Night Dragon'	-- Cleansed Night Dragon
--- WHERE `entry`=174685;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的夜龙草'	-- Cleansed Night Dragon
+WHERE `entry`=174685;
 
 UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的鞭根草'	-- Corrupted Whipper Root
 WHERE `entry`=174686;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Whipper Root'	-- Cleansed Whipper Root
--- WHERE `entry`=174687;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的鞭根草'	-- Cleansed Whipper Root
+WHERE `entry`=174687;
 
 UPDATE `locales_gameobject` SET
 	`name_loc4`='椅子'	-- Chair
@@ -24546,13 +24546,13 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的迎风花'	-- Corrupted Windblossom
 WHERE `entry`=174709;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Windblossom'	-- Cleansed Windblossom
--- WHERE `entry`=174710;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的迎风花'	-- Cleansed Windblossom
+WHERE `entry`=174710;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Windblossom'	-- Cleansed Windblossom
--- WHERE `entry`=174711;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的迎风花'	-- Cleansed Windblossom
+WHERE `entry`=174711;
 
 UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的轻歌花'	-- Corrupted Songflower
@@ -24562,13 +24562,13 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='被腐化的轻歌花'	-- Corrupted Songflower
 WHERE `entry`=174713;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Songflower'	-- Cleansed Songflower
--- WHERE `entry`=174714;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的轻歌花'	-- Cleansed Songflower
+WHERE `entry`=174714;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Cleansed Songflower'	-- Cleansed Songflower
--- WHERE `entry`=174715;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='净化过的轻歌花'	-- Cleansed Songflower
+WHERE `entry`=174715;
 
 UPDATE `locales_gameobject` SET
 	`name_loc4`='破损的箱子'	-- Damaged Crate
@@ -25410,9 +25410,9 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='营火'	-- Campfire
 WHERE `entry`=175286;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Doodad_SmallBrazierPurple03'	-- Doodad_SmallBrazierPurple03
--- WHERE `entry`=175287;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='火盆'	-- Doodad_SmallBrazierPurple03
+WHERE `entry`=175287;
 
 -- UPDATE `locales_gameobject` SET
 -- 	`name_loc4`='Doodad_SmallBrazierPurple05'	-- Doodad_SmallBrazierPurple05
@@ -25454,9 +25454,9 @@ WHERE `entry`=175286;
 -- 	`name_loc4`='Brazier'	-- Brazier
 -- WHERE `entry`=175297;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Doodad_SmallBrazierPurple04'	-- Doodad_SmallBrazierPurple04
--- WHERE `entry`=175298;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='火盆'	-- Doodad_SmallBrazierPurple04
+WHERE `entry`=175298;
 
 -- UPDATE `locales_gameobject` SET
 -- 	`name_loc4`='Brazier'	-- Brazier
@@ -25543,7 +25543,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=175321;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='铸造好的晋升印章'	-- Forged Seal of Ascension
+	`name_loc4`='晋升徽记'	-- Forged Seal of Ascension
 WHERE `entry`=175322;
 
 UPDATE `locales_gameobject` SET
@@ -25979,7 +25979,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=175564;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='异型卵'	-- Alien Egg
+	`name_loc4`='异型蛋'	-- Alien Egg
 WHERE `entry`=175565;
 
 UPDATE `locales_gameobject` SET
@@ -26391,7 +26391,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=175731;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='哨兵和长期卫戍'	-- The Sentinels and the Long Vigil
+	`name_loc4`='哨兵和长期流放'	-- The Sentinels and the Long Vigil
 WHERE `entry`=175732;
 
 UPDATE `locales_gameobject` SET
@@ -26495,7 +26495,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=175758;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='背叛者的历程'	-- The Betrayer Ascendant
+	`name_loc4`='背叛者的胜利'	-- The Betrayer Ascendant
 WHERE `entry`=175759;
 
 UPDATE `locales_gameobject` SET
@@ -26551,7 +26551,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=175775;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='哈沙尔·图塞特'	-- Harthal Truesight
+	`name_loc4`='真实视界'	-- Harthal Truesight
 WHERE `entry`=175776;
 
 UPDATE `locales_gameobject` SET
@@ -26783,7 +26783,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=175927;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='火岩龙舌兰'	-- Incendia Agave
+	`name_loc4`='火焰龙舌兰'	-- Incendia Agave
 WHERE `entry`=175928;
 
 UPDATE `locales_gameobject` SET
@@ -26839,7 +26839,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=175965;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='魔化红线'	-- Enchanted Scarlet Thread
+	`name_loc4`='魔化血色丝线'	-- Enchanted Scarlet Thread
 WHERE `entry`=175966;
 
 UPDATE `locales_gameobject` SET
@@ -30707,7 +30707,7 @@ WHERE `entry`=177787;
 -- WHERE `entry`=177788;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='奥古斯图斯的收据册'	-- Augustus' Receipt Book
+	`name_loc4`='奥古斯图斯的单据'	-- Augustus' Receipt Book
 WHERE `entry`=177789;
 
 UPDATE `locales_gameobject` SET
@@ -30747,7 +30747,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=177807;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='统御宝珠'	-- Orb of Domination
+	`name_loc4`='龙翼祭坛'	-- Orb of Domination
 WHERE `entry`=177808;
 
 UPDATE `locales_gameobject` SET
@@ -32503,7 +32503,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=179552;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='熔火碎片'	-- Core Fragment
+	`name_loc4`='熔核碎片'	-- Core Fragment
 WHERE `entry`=179553;
 
 UPDATE `locales_gameobject` SET
@@ -32527,7 +32527,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=179558;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='魔藤碎片'	-- Felvine Shard
+	`name_loc4`='水晶碎片'	-- Felvine Shard
 WHERE `entry`=179559;
 
 UPDATE `locales_gameobject` SET
@@ -32963,7 +32963,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=179831;
 
 -- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Pillaclencher''s Ornate Pillow'	-- Pillaclencher's Ornate Pillow
+-- 	`name_loc4`='[Pillaclencher''s Ornate Pillow]'	-- Pillaclencher's Ornate Pillow
 -- WHERE `entry`=179832;
 
 UPDATE `locales_gameobject` SET
@@ -33079,7 +33079,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=179913;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='一堆白骨'	-- Pile of Bones
+	`name_loc4`='白骨堆'	-- Pile of Bones
 WHERE `entry`=179914;
 
 UPDATE `locales_gameobject` SET
@@ -33303,7 +33303,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=180053;
 
 -- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Mysterious Wailing Caverns Chest'	-- Mysterious Wailing Caverns Chest
+-- 	`name_loc4`='[Mysterious Wailing Caverns Chest]'	-- Mysterious Wailing Caverns Chest
 -- WHERE `entry`=180055;
 
 UPDATE `locales_gameobject` SET
@@ -33987,7 +33987,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=180417;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='雪落军旗'	-- Snowfall Banner
+	`name_loc4`='落雪军旗'	-- Snowfall Banner
 WHERE `entry`=180418;
 
 UPDATE `locales_gameobject` SET
@@ -34287,7 +34287,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=180573;
 
 -- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Wickerman Guardian Ember'	-- Wickerman Guardian Ember
+-- 	`name_loc4`='[Wickerman Guardian Ember]'	-- Wickerman Guardian Ember
 -- WHERE `entry`=180574;
 
 UPDATE `locales_gameobject` SET
@@ -34295,7 +34295,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=180575;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='小型黑口鱼群'	-- Oily Blackmouth School
+	`name_loc4`='黑口鱼群'	-- Oily Blackmouth School
 WHERE `entry`=180582;
 
 UPDATE `locales_gameobject` SET
@@ -34395,11 +34395,11 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=180655;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='小型鼠尾鱼群'	-- Sagefish School
+	`name_loc4`='鼠尾鱼群'	-- Sagefish School
 WHERE `entry`=180656;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='稀疏的火鳞鳝鱼群'	-- Firefin Snapper School
+	`name_loc4`='火鳞鳝鱼群'	-- Firefin Snapper School
 WHERE `entry`=180657;
 
 UPDATE `locales_gameobject` SET
@@ -34419,15 +34419,15 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=180661;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='帆船残骸'	-- Floating Wreckage
+	`name_loc4`='漂浮的残骸'	-- Floating Wreckage
 WHERE `entry`=180662;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='小型鼠尾鱼群'	-- Sagefish School
+	`name_loc4`='鼠尾鱼群'	-- Sagefish School
 WHERE `entry`=180663;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='小型黑口鱼群'	-- Oily Blackmouth School
+	`name_loc4`='黑口鱼群'	-- Oily Blackmouth School
 WHERE `entry`=180664;
 
 UPDATE `locales_gameobject` SET
@@ -34446,9 +34446,9 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='湍急的漩涡'	-- Swirling Maelstrom
 WHERE `entry`=180669;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Xandivious'' Demon Bag'	-- Xandivious' Demon Bag
--- WHERE `entry`=180671;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='沙迪维尔斯的恶魔包'	-- Xandivious' Demon Bag
+WHERE `entry`=180671;
 
 -- UPDATE `locales_gameobject` SET
 -- 	`name_loc4`='High Chief Winterfall Cave Mouth Spell Focus'	-- High Chief Winterfall Cave Mouth Spell Focus
@@ -34487,11 +34487,11 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=180681;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='小型黑口鱼群'	-- Oily Blackmouth School
+	`name_loc4`='黑口鱼群'	-- Oily Blackmouth School
 WHERE `entry`=180682;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='稀疏的火鳞鳝鱼群'	-- Firefin Snapper School
+	`name_loc4`='火鳞鳝鱼群'	-- Firefin Snapper School
 WHERE `entry`=180683;
 
 UPDATE `locales_gameobject` SET
@@ -34499,7 +34499,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=180684;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='帆船残骸'	-- Floating Wreckage
+	`name_loc4`='漂浮的残骸'	-- Floating Wreckage
 WHERE `entry`=180685;
 
 UPDATE `locales_gameobject` SET
@@ -34699,15 +34699,15 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=180749;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='小型黑口鱼群'	-- Oily Blackmouth School
+	`name_loc4`='黑口鱼群'	-- Oily Blackmouth School
 WHERE `entry`=180750;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='帆船残骸'	-- Floating Wreckage
+	`name_loc4`='漂浮的残骸'	-- Floating Wreckage
 WHERE `entry`=180751;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='稀疏的火鳞鳝鱼群'	-- Firefin Snapper School
+	`name_loc4`='火鳞鳝鱼群'	-- Firefin Snapper School
 WHERE `entry`=180752;
 
 UPDATE `locales_gameobject` SET
@@ -35195,15 +35195,15 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=180899;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='小型黑口鱼群'	-- Oily Blackmouth School
+	`name_loc4`='黑口鱼群'	-- Oily Blackmouth School
 WHERE `entry`=180900;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='帆船残骸'	-- Floating Wreckage
+	`name_loc4`='漂浮的残骸'	-- Floating Wreckage
 WHERE `entry`=180901;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='稀疏的火鳞鳝鱼群'	-- Firefin Snapper School
+	`name_loc4`='火鳞鳝鱼群'	-- Firefin Snapper School
 WHERE `entry`=180902;
 
 UPDATE `locales_gameobject` SET
@@ -35470,9 +35470,9 @@ UPDATE `locales_gameobject` SET
 	`name_loc4`='薰炉'	-- Fragrant Cauldron
 WHERE `entry`=181073;
 
--- UPDATE `locales_gameobject` SET
--- 	`name_loc4`='Arena Spoils'	-- Arena Spoils
--- WHERE `entry`=181074;
+UPDATE `locales_gameobject` SET
+	`name_loc4`='竞技场的泥土'	-- Arena Spoils
+WHERE `entry`=181074;
 
 UPDATE `locales_gameobject` SET
 	`name_loc4`='桌子'	-- Table
@@ -35583,11 +35583,11 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=181106;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='真银矿石'	-- Truesilver Deposit
+	`name_loc4`='真银矿脉'	-- Truesilver Deposit
 WHERE `entry`=181108;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='金矿石'	-- Gold Vein
+	`name_loc4`='金矿'	-- Gold Vein
 WHERE `entry`=181109;
 
 UPDATE `locales_gameobject` SET
@@ -36907,7 +36907,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=181681;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='洛丹伦神龛'	-- Lordaeron Shrine
+	`name_loc4`='亡者神龛'	-- Lordaeron Shrine
 WHERE `entry`=181682;
 
 UPDATE `locales_gameobject` SET
@@ -37163,7 +37163,7 @@ UPDATE `locales_gameobject` SET
 WHERE `entry`=181954;
 
 UPDATE `locales_gameobject` SET
-	`name_loc4`='洛丹伦神龛'	-- Lordaeron Shrine
+	`name_loc4`='亡魂神龛'	-- Lordaeron Shrine
 WHERE `entry`=181955;
 
 -- UPDATE `locales_gameobject` SET
