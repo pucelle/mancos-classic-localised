@@ -36,6 +36,11 @@ class Comparer {
 		idNames: string[],
 		columnNames: string[]
 	) {
+
+		// 全部使用小写的字段名称.
+		idNames = idNames.map(name => name.toLowerCase())
+		columnNames = columnNames.map(name => name.toLowerCase())
+
 		let sqlTrans = transFileName ? await getLowerNameSQLTrans(this.transDir + '/' + transFileName) : {}
 		let dbTrans = makeTableIndex(await getTableData(this.connection, localesTableName, idNames, columnNames), idNames)
 		let totalCount = 0

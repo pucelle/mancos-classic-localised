@@ -443,15 +443,15 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=3032;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=3033;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=3034;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=3036;
 
 UPDATE `locales_trainer_greeting` SET
@@ -507,7 +507,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=3059;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=3060;
 
 UPDATE `locales_trainer_greeting` SET
@@ -523,7 +523,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=3063;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=3064;
 
 UPDATE `locales_trainer_greeting` SET
@@ -763,7 +763,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=3596;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=3597;
 
 UPDATE `locales_trainer_greeting` SET
@@ -783,7 +783,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=3601;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=3602;
 
 UPDATE `locales_trainer_greeting` SET
@@ -927,15 +927,15 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=4215;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=4217;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=4218;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=4219;
 
 UPDATE `locales_trainer_greeting` SET
@@ -1283,15 +1283,15 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=5502;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=5504;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=5505;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=5506;
 
 UPDATE `locales_trainer_greeting` SET
@@ -1567,7 +1567,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=8141;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=8142;
 
 UPDATE `locales_trainer_greeting` SET
@@ -1599,7 +1599,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=8738;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=9465;
 
 UPDATE `locales_trainer_greeting` SET
@@ -1707,7 +1707,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=12032;
 
 UPDATE `locales_trainer_greeting` SET
-`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
+	`Text_loc4`='你好，德鲁伊，准备好接受训练了吗？'	-- Hello, druid!  Ready for some training?
 WHERE `Entry`=12042;
 
 UPDATE `locales_trainer_greeting` SET
