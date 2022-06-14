@@ -38,6 +38,7 @@ INSERT IGNORE INTO `broadcast_text_locale` (`Id`, `Locale`, `VerifiedBuild`) SEL
 	SELECT DISTINCT `action3_param2` as Id FROM creature_ai_scripts WHERE `action3_type`=1 AND `action3_param2`>0
 	UNION
 	SELECT DISTINCT `action3_param3` as Id FROM creature_ai_scripts WHERE `action3_type`=1 AND `action3_param3`>0
+) as a;
 
 -- UPDATE `broadcast_text_locale` SET
 -- 	`Text_lang`='The entrance is hidden here in Moonbrook.  Keep your eyes peeled for thieves.  They want me dead.'	-- The entrance is hidden here in Moonbrook.  Keep your eyes peeled for thieves.  They want me dead.

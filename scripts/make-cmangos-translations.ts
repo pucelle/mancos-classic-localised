@@ -375,6 +375,7 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 	SELECT DISTINCT \`action3_param2\` as Id FROM creature_ai_scripts WHERE \`action3_type\`=1 AND \`action3_param2\`>0
 	UNION
 	SELECT DISTINCT \`action3_param3\` as Id FROM creature_ai_scripts WHERE \`action3_type\`=1 AND \`action3_param3\`>0
+) as a;
 
 `
 
