@@ -334,6 +334,7 @@ class Maker {
 		await this.makeScriptBroadcast(broadcasts)
 		await this.makeNPCBroadcast(broadcasts)
 		await this.makeCreatureAIBroadcasts(broadcasts, broadcastTransMap)
+		await this.makeDBScriptsBroadcasts(broadcasts)
 
 		let sql = `SET NAMES 'utf8';
 
@@ -657,6 +658,74 @@ INSERT IGNORE INTO \`broadcast_text_locale\` (\`Id\`, \`Locale\`, \`VerifiedBuil
 						id: broadcastId,
 						text: cnText,
 						npcIds: [creatureId],
+					})
+				}
+			}
+		}
+	}
+
+	/** 创建从 NPC 移动时的 broadcast. */
+	private async makeDBScriptsBroadcasts( broadcasts: Map<number, {id: number, text?: string, text1?: string, npcIds?: number[]}>) {
+
+		let tableNames = [
+			'dbscripts_on_creature_death',
+			'dbscripts_on_creature_movement',
+			'dbscripts_on_event',
+			'dbscripts_on_go_template_use',
+			'dbscripts_on_go_use',
+			'dbscripts_on_gossip',
+			'dbscripts_on_quest_end',
+			'dbscripts_on_quest_start',
+			'dbscripts_on_relay',
+			'dbscripts_on_spell',
+		]
+
+		let dbScripts: {
+			id: number
+			buddy_entry: number | null
+			ids: number[]
+		}[] = []
+		
+		for (let tableName of tableNames) {
+			let items = (await getTableData(this.cMangosConnection, tableName, ['id'], [
+				'buddy_entry',
+				'dataint',
+				'dataint2',
+				'dataint3',
+				'dataint4',
+			]))
+			.map(item => {
+				let ids: number[] = [
+					item.dataint as number,
+					item.dataint2 as number,
+					item.dataint3 as number,
+					item.dataint4 as number,
+				].filter(v => v)
+	
+				return {
+					id: item.id,
+					buddy_entry: item.buddy_entry,
+					ids,
+				}
+			})
+			.filter(item => item.ids.length > 0)
+
+			dbScripts.push(...items as any)
+
+		}
+
+		
+
+		for (let item of dbScripts) {
+			let buddyId = item.buddy_entry as number
+			let broadcastIds = item.ids
+
+			for (let broadcastId of broadcastIds) {
+				if (!broadcasts.has(broadcastId)) {
+					broadcasts.set(broadcastId, {
+						id: broadcastId,
+						text: undefined,
+						npcIds: buddyId ? [buddyId] : undefined,
 					})
 				}
 			}

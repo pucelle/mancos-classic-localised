@@ -75,7 +75,7 @@ export function decodeText(value: string) {
 
 /** 原始文本 -> SQL 文本. */
 export function encodeText(value: string) {
-	return value.replace(/[\\']/g, '$&$&')
+	return value.replace(/[\\']/g, '$&$&').replace(/\n/, '\\n')
 }
 
 /** 获得表中的数据. */

@@ -18233,7 +18233,7 @@ WHERE `Id`=11372 AND `Locale`='zhCN';
 -- WHERE `Id`=11373 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我们已有$2018w个铜锭超过所需的$1998w个。已收集了$2005w个锡锭及$$2008w个秘银锭，总需求量分别是$2006w个锡锭和$2009w个秘银锭。'	-- Of the $1998w copper bars that we'll need, we have $2018w. The number for tin bar collections sits at $2005w out of $2006w needed. And, there have been $2008w of $2009w mithril bars smelted for the cause.
+	`Text_lang`='我们已有$2018w个铜锭超过所需的$1998w个。已收集了$2005w个锡锭及$2008w个秘银锭，总需求量分别是$2006w个锡锭和$2009w个秘银锭。'	-- Of the $1998w copper bars that we'll need, we have $2018w. The number for tin bar collections sits at $2005w out of $2006w needed. And, there have been $2008w of $2009w mithril bars smelted for the cause.
 WHERE `Id`=11374 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
