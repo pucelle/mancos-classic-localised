@@ -2170,13 +2170,13 @@ UPDATE `locales_page_text` SET
 	`text_loc4`='克格尔：$B$B我一直都在急切盼望着得到你的最新发明，我已经等不及要用它来记录我的研究成果了！$B$B请将你的发明交给我的信差。$B$B此致$B$B达蕾恩·轻风'	-- Curgle, I have been eagerly awaiting your newest invention. I can't wait to begin using it to document my studies. Please entrust it to my messenger. With kindest regards, Daryn Lightwind 
 WHERE `entry`=1170;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\9330_Gammerita_sepia_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\9330_Gammerita_sepia_256"/></BODY></HTML>
--- WHERE `entry`=1171;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\9330_Gammerita_sepia_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\9330_Gammerita_sepia_256"/></BODY></HTML>
+WHERE `entry`=1171;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\9330_Gammerita_sepia_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\9330_Gammerita_sepia_256"/></BODY></HTML>
--- WHERE `entry`=1190;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\9330_Gammerita_sepia_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\9330_Gammerita_sepia_256"/></BODY></HTML>
+WHERE `entry`=1190;
 
 UPDATE `locales_page_text` SET
 	`text_loc4`='重要资料！安全等级5122!$B$B01001001 01100110 00100000 01111001 01101111 01110101 00100000 01100011 01100001 01101110 00100000 01110010 01100101 01100001 01100100 00100000 01110100 01101000 01101001 01110011 00101100 00100000 01111001 01101111 01110101 00100111 01110010 01100101 00100000 01110011 01110100 01100001 01101110 01100100 01101001 01101110 01100111 00100000 01110100 01101111 01101111 00100000 01100011 01101100 01101111 01110011 01100101'	-- ULTRA VITAL DATA!  SECURITY RATING 5122!01001001 01100110 00100000 01111001 01101111 01110101 00100000 01100011 01100001 01101110 00100000 01110010 01100101 01100001 01100100 00100000 01110100 01101000 01101001 01110011 00101100 00100000 01111001 01101111 01110101 00100111 01110010 01100101 00100000 01110011 01110100 01100001 01101110 01100100 01101001 01101110 01100111 00100000 01110100 01101111 01101111 00100000 01100011 01101100 01101111 01110011 01100101
@@ -2290,21 +2290,21 @@ UPDATE `locales_page_text` SET
 	`text_loc4`='任何一个有智慧的生物找到这张便笺的时候，他们都一定会自问道：“为什么他们会去招惹具有暴力倾向的30尺高的巨人呢？”$B$B-- 穆克'	-- Should any manner of intelligent life find this note, they must ask themselves something: "Why in the hell are they romping around with violent thirty foot tall giants?" - Mook 
 WHERE `entry`=1330;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='01001101 01100101 01110011 01110011 01100001 01100111 01100101 00100000 01110100 01101111 00100000 01000011 01100001 01110011 01110100 01110000 01101001 01110000 01100101 00111010 00100000 01111001 01101111 01110101 01110010 00100000 01101100 01100001 01110101 01101110 01100100 01110010 01111001 00100111 01110011 00100000 01110010 01100101 01100001 01100100 01111001 00100000 01100110 01101111 01110010 00100000 01110000 01101001 01100011 01101011 01110101 01110000 00101110'	-- 01001101 01100101 01110011 01110011 01100001 01100111 01100101 00100000 01110100 01101111 00100000 01000011 01100001 01110011 01110100 01110000 01101001 01110000 01100101 00111010 00100000 01111001 01101111 01110101 01110010 00100000 01101100 01100001 01110101 01101110 01100100 01110010 01111001 00100111 01110011 00100000 01110010 01100101 01100001 01100100 01111001 00100000 01100110 01101111 01110010 00100000 01110000 01101001 01100011 01101011 01110101 01110000 00101110
--- WHERE `entry`=1331;
+UPDATE `locales_page_text` SET
+	`text_loc4`='01001101 01100101 01110011 01110011 01100001 01100111 01100101 00100000 01110100 01101111 00100000 01000011 01100001 01110011 01110100 01110000 01101001 01110000 01100101 00111010 00100000 01111001 01101111 01110101 01110010 00100000 01101100 01100001 01110101 01101110 01100100 01110010 01111001 00100111 01110011 00100000 01110010 01100101 01100001 01100100 01111001 00100000 01100110 01101111 01110010 00100000 01110000 01101001 01100011 01101011 01110101 01110000 00101110'	-- 01001101 01100101 01110011 01110011 01100001 01100111 01100101 00100000 01110100 01101111 00100000 01000011 01100001 01110011 01110100 01110000 01101001 01110000 01100101 00111010 00100000 01111001 01101111 01110101 01110010 00100000 01101100 01100001 01110101 01101110 01100100 01110010 01111001 00100111 01110011 00100000 01110010 01100101 01100001 01100100 01111001 00100000 01100110 01101111 01110010 00100000 01110000 01101001 01100011 01101011 01110101 01110000 00101110
+WHERE `entry`=1331;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='01001101 01100101 01110011 01110011 01100001 01100111 01100101 00100000 01110100 01101111 00100000 01000011 01100001 01110011 01110100 01110000 01101001 01110000 01100101 00111010 00100000 01111001 01101111 01110101 01110010 00100000 01101100 01100001 01110101 01101110 01100100 01110010 01111001 00100111 01110011 00100000 01110010 01100101 01100001 01100100 01111001 00100000 01100110 01101111 01110010 00100000 01110000 01101001 01100011 01101011 01110101 01110000 00101110 '	-- 01001101 01100101 01110011 01110011 01100001 01100111 01100101 00100000 01110100 01101111 00100000 01000011 01100001 01110011 01110100 01110000 01101001 01110000 01100101 00111010 00100000 01111001 01101111 01110101 01110010 00100000 01101100 01100001 01110101 01101110 01100100 01110010 01111001 00100111 01110011 00100000 01110010 01100101 01100001 01100100 01111001 00100000 01100110 01101111 01110010 00100000 01110000 01101001 01100011 01101011 01110101 01110000 00101110 
--- WHERE `entry`=1370;
+UPDATE `locales_page_text` SET
+	`text_loc4`='01001101 01100101 01110011 01110011 01100001 01100111 01100101 00100000 01110100 01101111 00100000 01000011 01100001 01110011 01110100 01110000 01101001 01110000 01100101 00111010 00100000 01111001 01101111 01110101 01110010 00100000 01101100 01100001 01110101 01101110 01100100 01110010 01111001 00100111 01110011 00100000 01110010 01100101 01100001 01100100 01111001 00100000 01100110 01101111 01110010 00100000 01110000 01101001 01100011 01101011 01110101 01110000 00101110 '	-- 01001101 01100101 01110011 01110011 01100001 01100111 01100101 00100000 01110100 01101111 00100000 01000011 01100001 01110011 01110100 01110000 01101001 01110000 01100101 00111010 00100000 01111001 01101111 01110101 01110010 00100000 01101100 01100001 01110101 01101110 01100100 01110010 01111001 00100111 01110011 00100000 01110010 01100101 01100001 01100100 01111001 00100000 01100110 01101111 01110010 00100000 01110000 01101001 01100011 01101011 01110101 01110000 00101110 
+WHERE `entry`=1370;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\Linken_sepia_256px"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\Linken_sepia_256px"/></BODY></HTML>
--- WHERE `entry`=1371;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\Linken_sepia_256px"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\Linken_sepia_256px"/></BODY></HTML>
+WHERE `entry`=1371;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\Linken_sepia_256px"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\Linken_sepia_256px"/></BODY></HTML>
--- WHERE `entry`=1391;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\Linken_sepia_256px"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\Linken_sepia_256px"/></BODY></HTML>
+WHERE `entry`=1391;
 
 UPDATE `locales_page_text` SET
 	`text_loc4`='尼尔斯修士：$B$B我的葡萄得救了！$N，也就是这封信的携带者，勇敢地闯入我那满是盗贼的园子，然后带着我的葡萄杀了出来。虽然迪菲亚兄弟会的人依然在河岸上巡逻，但是我所有的收成几乎全都保住了。$B$B你可以在你的商店中再次供应葡萄了。$B$B愿圣光保佑我们，$B- 米莉·奥斯沃斯'	-- Brother Neals,My grapes are saved!  $N, the bearer of this manifest, braved my thug-infested vineyard and gathered the grapes that I could not.  Although the Defias still roam across the river, nearly my entire crop has been salvaged.You may add a full load of grape bushels to your stores.May the Light protect us,-Milly Osworth
@@ -2462,81 +2462,81 @@ UPDATE `locales_page_text` SET
 	`text_loc4`='<这个页面上写满了古代精灵文字。>$B$B这些书页中记述了在制作次级秘纹的过程中所发生的事件。$B$B愿我的敌人永远无法得到这些资料。$B$B愿我有生之年能够重见洁白的月光照耀奎尔萨拉斯。$B$B愿我能以凯尔萨斯之名奋战。$B$B愿我能为伊利丹的荣耀而战死。$B$B- 卡里尔·温萨鲁斯'	-- <The pages are covered in ancient elven runes.> The pages herein contain memories of events that transpired in the collection and creation of the reagents required to craft lesser arcanum. May our enemies never gain access to these libram. May I live to see the pallid light of the moon shine upon Quel'Thalas once again. May I die but for the grace of Kael'thas. May I kill for the glory of Illidan. -Master Kariel Winthalus 
 WHERE `entry`=1634;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blackrock_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blackrock_256"/></BODY></HTML>
--- WHERE `entry`=1635;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blackrock_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blackrock_256"/></BODY></HTML>
+WHERE `entry`=1635;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blasted_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blasted_256"/></BODY></HTML>
--- WHERE `entry`=1636;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blasted_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blasted_256"/></BODY></HTML>
+WHERE `entry`=1636;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML>
--- WHERE `entry`=1637;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML>
+WHERE `entry`=1637;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_nightdragon_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_nightdragon_256"/></BODY></HTML>
--- WHERE `entry`=1638;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_nightdragon_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_nightdragon_256"/></BODY></HTML>
+WHERE `entry`=1638;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blackrock_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blackrock_256"/></BODY></HTML>
--- WHERE `entry`=1639;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blackrock_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blackrock_256"/></BODY></HTML>
+WHERE `entry`=1639;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_bldbank_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_bldbank_256"/></BODY></HTML>
--- WHERE `entry`=1640;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_bldbank_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_bldbank_256"/></BODY></HTML>
+WHERE `entry`=1640;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML>
--- WHERE `entry`=1641;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML>
+WHERE `entry`=1641;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blackrock_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blackrock_256"/></BODY></HTML>
--- WHERE `entry`=1642;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blackrock_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blackrock_256"/></BODY></HTML>
+WHERE `entry`=1642;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blasted_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blasted_256"/></BODY></HTML>
--- WHERE `entry`=1643;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blasted_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blasted_256"/></BODY></HTML>
+WHERE `entry`=1643;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML>
--- WHERE `entry`=1644;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML>
+WHERE `entry`=1644;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blackrock_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blackrock_256"/></BODY></HTML>
--- WHERE `entry`=1645;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blackrock_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blackrock_256"/></BODY></HTML>
+WHERE `entry`=1645;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_bldbank_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_bldbank_256"/></BODY></HTML>
--- WHERE `entry`=1646;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_bldbank_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_bldbank_256"/></BODY></HTML>
+WHERE `entry`=1646;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blasted_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blasted_256"/></BODY></HTML>
--- WHERE `entry`=1647;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blasted_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blasted_256"/></BODY></HTML>
+WHERE `entry`=1647;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML>
--- WHERE `entry`=1648;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML>
+WHERE `entry`=1648;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blackrock_256"/></BODY></HTML> '	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blackrock_256"/></BODY></HTML> 
--- WHERE `entry`=1649;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_blackrock_256"/></BODY></HTML> '	-- <HTML><BODY><IMG src="Interface\Pictures\11733_blackrock_256"/></BODY></HTML> 
+WHERE `entry`=1649;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_bldbank_256"/></BODY></HTML> '	-- <HTML><BODY><IMG src="Interface\Pictures\11733_bldbank_256"/></BODY></HTML> 
--- WHERE `entry`=1650;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_bldbank_256"/></BODY></HTML> '	-- <HTML><BODY><IMG src="Interface\Pictures\11733_bldbank_256"/></BODY></HTML> 
+WHERE `entry`=1650;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_whipper_256"/></BODY></HTML> '	-- <HTML><BODY><IMG src="Interface\Pictures\11733_whipper_256"/></BODY></HTML> 
--- WHERE `entry`=1651;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_whipper_256"/></BODY></HTML> '	-- <HTML><BODY><IMG src="Interface\Pictures\11733_whipper_256"/></BODY></HTML> 
+WHERE `entry`=1651;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML>
--- WHERE `entry`=1652;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML>
+WHERE `entry`=1652;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML> '	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML> 
--- WHERE `entry`=1690;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\11733_ungoro_256"/></BODY></HTML> '	-- <HTML><BODY><IMG src="Interface\Pictures\11733_ungoro_256"/></BODY></HTML> 
+WHERE `entry`=1690;
 
 UPDATE `locales_page_text` SET
 	`text_loc4`='你好，菲诺克！$B$B我在燃烧平原的研究进行得非常顺利。而且我欠了$N很多因为$G他的:她的;大力帮忙！以下是我继续研究所需要的物资：$B$B钢螺钉若干$B17号扳手一个$B12磅重的鸭毛$B一罐你制造的胶水$B$B非常感谢你，菲诺克，下次我们碰面的时候记得提醒我，不要把煤放在你的鞋子里！$B$B- 丁奇'	-- Hi Felnok!My studies in the Burning Steppes are proceeding splendidly.  And I owe $N a lot for all $ghis:her; help!  Here's what I need to continue:A steelcoil bumber-bitzelA 17-gauge ice-spanner12 pounds of duck feathersA jar of that glue you makeThanks a lot Felnok, and when we see each other again remind me not to put coal in your boots!-Tinkee
@@ -4206,13 +4206,13 @@ UPDATE `locales_page_text` SET
 	`text_loc4`='这块完整的翼手龙骨骼是从遥远的安戈洛环形山运回来的。根据骨架的结构判断，其特殊的基因还从未改变过。这块骨架在该地区的特殊土壤中可以保存近乎无限长的时间。'	-- This intact pteradon skeleton was recovered from the remote Un'Goro Crater. Based on the skeletal structure, it is clear that this specific genus has not yet been encountered. This skeleton could have been preserved for any number of centuries beneath the region's rich soil. 
 WHERE `entry`=2350;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\14679_Tirion_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\14679_Tirion_256"/></BODY></HTML>
--- WHERE `entry`=2351;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\14679_Tirion_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\14679_Tirion_256"/></BODY></HTML>
+WHERE `entry`=2351;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\14679_Tirion_256"/></BODY></HTML> '	-- <HTML><BODY><IMG src="Interface\Pictures\14679_Tirion_256"/></BODY></HTML> 
--- WHERE `entry`=2370;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\14679_Tirion_256"/></BODY></HTML> '	-- <HTML><BODY><IMG src="Interface\Pictures\14679_Tirion_256"/></BODY></HTML> 
+WHERE `entry`=2370;
 
 UPDATE `locales_page_text` SET
 	`text_loc4`='达隆郡年记$B$B达隆郡是个座落于洛丹伦南部山麓中的村庄，村名是以西面的达隆米尔湖来命名的。镇中的居民朴实而又勤劳，达隆郡在洛丹伦历史上一直都是默默无闻的，直到第二次恶魔战争的开始。$B$B在战斗期间，无数英雄从这里诞生并陨落。'	-- The Annals of Darrowshire$b$bDarrowshire, named from the Darrowmere Lake to its west, is a village tucked into the southern foothills of Lordaeron. Known for humble yet hardworking residents, Darrowshire stayed in the background of Lordaeron history until the Second War.$b$bHeroes were made during that war. And heroes were lost.
@@ -4290,13 +4290,13 @@ UPDATE `locales_page_text` SET
 	`text_loc4`='卡林·雷德帕斯的命运$B$B约瑟夫·雷德帕斯队长的兄弟，卡林·雷德帕斯在达隆郡的战斗中倒下了，他身负重伤，但是最终侥幸活了下来。$B$B在大战过后的几天，银色黎明组织发现了奄奄一息的卡林·雷德帕斯，他又渴又累，而且还发着烧，倒在了考林的十字路口附近。他们治疗了他的伤势，并把他带到了圣光之愿礼拜堂。$B$B由于对银色黎明的感激之情，卡林·雷德帕斯加入了银色黎明，并为了复仇而与天灾军团展开战斗。'	-- The Fate of Carlin Redpath Brother to Captain Joseph Redpath, Carlin fell during the battle of Darrowshire.  But although terribly wounded, he was not slain. Days after the battle, agents of the Argent Dawn found Carlin wandering, weak from thirst and fever, near Corin's Crossing.  They tended to his wounds and brought him to the Light's Hope Chapel. Grateful for their charity, Carlin joined the ranks of the Argent Dawn and now fights a battle of revenge against the Scourge. 
 WHERE `entry`=2410;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='OoOoOoO OOoOOoo OOOoOoo OOoOooO OOoOOoO OOooooO Oooooo OooOOOO OOoOOOo OOoOOoo OOoOooO OOoOOOo OOooOoO Oooooo OooOOOo OOooooO OOOoooo OOooooO Oooooo OoOoOOo OOooooO OOoOOoo OOoOOoo OOooOoO OOOOooO Oooooo OooOoOO OOoOOOo OOoOooO OOooOOO OOoOooo OOOoOoo OOOooOO Oooooo OOoOOOO OOooOOo Oooooo OooooOO OOoOooo OOooooO OOoOOOO OOOooOO'	-- OoOoOoO OOoOOoo OOOoOoo OOoOooO OOoOOoO OOooooO Oooooo OooOOOO OOoOOOo OOoOOoo OOoOooO OOoOOOo OOooOoO Oooooo OooOOOo OOooooO OOOoooo OOooooO Oooooo OoOoOOo OOooooO OOoOOoo OOoOOoo OOooOoO OOOOooO Oooooo OooOoOO OOoOOOo OOoOooO OOooOOO OOoOooo OOOoOoo OOOooOO Oooooo OOoOOOO OOooOOo Oooooo OooooOO OOoOooo OOooooO OOoOOOO OOOooOO
--- WHERE `entry`=2411;
+UPDATE `locales_page_text` SET
+	`text_loc4`='OoOoOoO OOoOOoo OOOoOoo OOoOooO OOoOOoO OOooooO Oooooo OooOOOO OOoOOOo OOoOOoo OOoOooO OOoOOOo OOooOoO Oooooo OooOOOo OOooooO OOOoooo OOooooO Oooooo OoOoOOo OOooooO OOoOOoo OOoOOoo OOooOoO OOOOooO Oooooo OooOoOO OOoOOOo OOoOooO OOooOOO OOoOooo OOOoOoo OOOooOO Oooooo OOoOOOO OOooOOo Oooooo OooooOO OOoOooo OOooooO OOoOOOO OOOooOO'	-- OoOoOoO OOoOOoo OOOoOoo OOoOooO OOoOOoO OOooooO Oooooo OooOOOO OOoOOOo OOoOOoo OOoOooO OOoOOOo OOooOoO Oooooo OooOOOo OOooooO OOOoooo OOooooO Oooooo OoOoOOo OOooooO OOoOOoo OOoOOoo OOooOoO OOOOooO Oooooo OooOoOO OOoOOOo OOoOooO OOooOOO OOoOooo OOOoOoo OOOooOO Oooooo OOoOOOO OOooOOo Oooooo OooooOO OOoOooo OOooooO OOoOOOO OOOooOO
+WHERE `entry`=2411;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='OoOoOoO OOoOOoo OOOoOoo OOoOooO OOoOOoO OOooooO Oooooo OooOOOO OOoOOOo OOoOOoo OOoOooO OOoOOOo OOooOoO Oooooo OooOOOo OOooooO OOOoooo OOooooO Oooooo OoOoOOo OOooooO OOoOOoo OOoOOoo OOooOoO OOOOooO Oooooo OooOoOO OOoOOOo OOoOooO OOooOOO OOoOooo OOOoOoo OOOooOO Oooooo OOoOOOO OOooOOo Oooooo OooooOO OOoOooo OOooooO OOoOOOO OOOooOO '	-- OoOoOoO OOoOOoo OOOoOoo OOoOooO OOoOOoO OOooooO Oooooo OooOOOO OOoOOOo OOoOOoo OOoOooO OOoOOOo OOooOoO Oooooo OooOOOo OOooooO OOOoooo OOooooO Oooooo OoOoOOo OOooooO OOoOOoo OOoOOoo OOooOoO OOOOooO Oooooo OooOoOO OOoOOOo OOoOooO OOooOOO OOoOooo OOOoOoo OOOooOO Oooooo OOoOOOO OOooOOo Oooooo OooooOO OOoOooo OOooooO OOoOOOO OOOooOO 
--- WHERE `entry`=2412;
+UPDATE `locales_page_text` SET
+	`text_loc4`='OoOoOoO OOoOOoo OOOoOoo OOoOooO OOoOOoO OOooooO Oooooo OooOOOO OOoOOOo OOoOOoo OOoOooO OOoOOOo OOooOoO Oooooo OooOOOo OOooooO OOOoooo OOooooO Oooooo OoOoOOo OOooooO OOoOOoo OOoOOoo OOooOoO OOOOooO Oooooo OooOoOO OOoOOOo OOoOooO OOooOOO OOoOooo OOOoOoo OOOooOO Oooooo OOoOOOO OOooOOo Oooooo OooooOO OOoOooo OOooooO OOoOOOO OOOooOO '	-- OoOoOoO OOoOOoo OOOoOoo OOoOooO OOoOOoO OOooooO Oooooo OooOOOO OOoOOOo OOoOOoo OOoOooO OOoOOOo OOooOoO Oooooo OooOOOo OOooooO OOOoooo OOooooO Oooooo OoOoOOo OOooooO OOoOOoo OOoOOoo OOooOoO OOOOooO Oooooo OooOoOO OOoOOOo OOoOooO OOooOOO OOoOooo OOOoOoo OOOooOO Oooooo OOoOOOO OOooOOo Oooooo OooooOO OOoOooo OOooooO OOoOOOO OOOooOO 
+WHERE `entry`=2412;
 
 UPDATE `locales_page_text` SET
 	`text_loc4`='雪，刺眼……$B$B必须保护部族。让他们变得强壮。强壮。$B$B不知道……'	-- Snow, blinding...$B$BMust protect tribe. Make them strong. Be strong.$B$BDo not know... 
@@ -4978,9 +4978,9 @@ UPDATE `locales_page_text` SET
 	`text_loc4`='信仰。信仰是所有给予我们臣服的快感的源泉。信仰可以让我们在希利苏斯最寒冷的夜晚感到温暖。信仰让我们在末日将临的时候感受我们主的仁慈。$B$B信仰将会拯救我们。'	-- Faith. Faith is the wellspring from which the joy of servitude showers us. Faith will keep us warm on the coldest Silithus nights. Faith will keep us in our Lords' good graces when the Ending Days arrive.$B$BFaith will save us.
 WHERE `entry`=2821;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\21037_crudemap_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\21037_crudemap_256"/></BODY></HTML>
--- WHERE `entry`=2828;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\21037_crudemap_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\21037_crudemap_256"/></BODY></HTML>
+WHERE `entry`=2828;
 
 UPDATE `locales_page_text` SET
 	`text_loc4`='亲爱的日记，$B$B今天，我的头号敌人 - 纳里安·柔想，企图派他的密友在他处以死刑的场地欺骗我。他的死刑。你相信吗？$B$B我历经千辛万苦才想出这个恶魔般的计划，要把他从那个该死的茅屋里引诱出来而他却这样做？算了……我太生气，不想写了。下次再说。'	-- Dear Diary,$B$BToday, my arch-enemy, Narain Soothfancy, attempted to deceive me by sending cronies to fill his spot at the execution. HIS execution. Can you believe it?$B$BI had gone through all the trouble of devising this diabolical plan to lure him out of that damnable hut and he pulls this? Whatever... Too angry to keep writing. I'll be back later.
@@ -5314,9 +5314,9 @@ UPDATE `locales_page_text` SET
 	`text_loc4`='太阳之王的宣言 - 我亲爱、忠诚的孩子们 - 你们的君王命令你们。你们来到艾泽拉斯对我和主人都具有很重要的意义。$B$B很快的，太阳之门就会准备好将风暴要塞的援军直接传送至血谜岛。$B$B我们会夺回艾克索达。我们会杀死蓝皮肤的杂种狗。费伦会为他的罪行付出代价。$B$B-凯尔萨斯·逐日者之王'	-- Declaration from the Sun KingSunhawks - my precious, loyal children - your king commends you. Your presence on Azeroth is of the utmost importance to both myself and the Master.Soon, the sun portal will be ready to transport reinforcements from Tempest Keep directly to Bloodmyst Isle. We will reclaim the Exodar. We will slay the blue skinned mongrels where they stand. Velen will pay for his crimes.-King Kael'thas Sunstrider
 WHERE `entry`=2943;
 
--- UPDATE `locales_page_text` SET
--- 	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\24475_gordawg_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\24475_gordawg_256"/></BODY></HTML>
--- WHERE `entry`=2944;
+UPDATE `locales_page_text` SET
+	`text_loc4`='<HTML><BODY><IMG src="Interface\\Pictures\\24475_gordawg_256"/></BODY></HTML>'	-- <HTML><BODY><IMG src="Interface\Pictures\24475_gordawg_256"/></BODY></HTML>
+WHERE `entry`=2944;
 
 UPDATE `locales_page_text` SET
 	`text_loc4`='<HTML><BODY><H1 align="center">荆棘谷的青山'	-- <HTML><BODY><BR/><BR/><H1 align="center">THE GREEN HILLS OF STRANGLETHORN</H1><BR/><H3 align="center">by Hemet Nesingwary</H3></BODY></HTML>
