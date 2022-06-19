@@ -176,7 +176,7 @@ class Comparer {
 		return text.trim().replace(/\$\w/g, '')
 			.replace(/<.*?>/g, '')
 			.replace(/\s/g, '')
-			.replace(/[,.:;'"\(\)\-!?\[\]，。：（）‘“；…—！？【】「」]/g, '')
+			.replace(/[,.:;'"\(\)\-!?\[\]，。：（）‘“；…—─！？【】「」]/g, '')
 			.replace(/潜行者/g, '盗贼')
 	}
 
@@ -187,39 +187,39 @@ class Comparer {
 	async makeTransCompare() {
 		await this.ready
 
-		// NPC 名称.
-		await this.compareAndMakeOneTrans(
-			'locales_creature.sql',
-			'locales_creature',
-			['entry'],
-			['name', 'subname']
-		)
+		// // NPC 名称.
+		// await this.compareAndMakeOneTrans(
+		// 	'locales_creature.sql',
+		// 	'locales_creature',
+		// 	['entry'],
+		// 	['name', 'subname']
+		// )
 
-		// 道具名称.
-		await this.compareAndMakeOneTrans(
-			'locales_gameobject.sql',
-			'locales_gameobject',
-			['entry'],
-			['name'],
-		)
+		// // 道具名称.
+		// await this.compareAndMakeOneTrans(
+		// 	'locales_gameobject.sql',
+		// 	'locales_gameobject',
+		// 	['entry'],
+		// 	['name'],
+		// )
 		
-		// 物品名称.
-		await this.compareAndMakeOneTrans(
-			'locales_item.sql',
-			'locales_item',
-			['entry'],
-			['name'],
-		)
+		// // 物品名称.
+		// await this.compareAndMakeOneTrans(
+		// 	'locales_item.sql',
+		// 	'locales_item',
+		// 	['entry'],
+		// 	['name'],
+		// )
 
-		// 任务
-		await this.compareAndMakeOneTrans(
-			'locales_quest.sql',
-			'locales_quest',
-			['entry'],
-			[
-				'title', 'details', 'objectives',
-			],
-		)
+		// // 任务
+		// await this.compareAndMakeOneTrans(
+		// 	'locales_quest.sql',
+		// 	'locales_quest',
+		// 	['entry'],
+		// 	[
+		// 		'title', 'details', 'objectives',
+		// 	],
+		// )
 
 		// 书籍内容.
 		await this.compareAndMakeLostIdMapTrans(

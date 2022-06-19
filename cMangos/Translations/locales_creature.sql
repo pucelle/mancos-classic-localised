@@ -37866,7 +37866,7 @@ WHERE `entry`=14485;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='天灾步兵',	-- Scourge Footsoldier
-	`subname_loc4`='科尔苏加德的爪牙'	-- Kel'Thuzad's Minion
+	`subname_loc4`='克尔苏加德的爪牙'	-- Kel'Thuzad's Minion
 WHERE `entry`=14486;
 
 UPDATE `locales_creature` SET
@@ -43155,19 +43155,19 @@ UPDATE `locales_creature` SET
 WHERE `entry`=16299;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天谴军团爪牙，重生者，鬼魂/食尸鬼'	-- Scourge Invasion Minion, spawner, Ghost/Ghoul
+	`name_loc4`='天灾军团爪牙，重生者，鬼魂/食尸鬼'	-- Scourge Invasion Minion, spawner, Ghost/Ghoul
 WHERE `entry`=16306;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天谴军团爪牙，重生者，鬼魂/食尸鬼'	-- Scourge Invasion Minion, spawner, Ghost/Skeleton
+	`name_loc4`='天灾军团爪牙，重生者，鬼魂/食尸鬼'	-- Scourge Invasion Minion, spawner, Ghost/Skeleton
 WHERE `entry`=16336;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天谴军团爪牙，重生者，鬼魂/食尸鬼'	-- Scourge Invasion Minion, spawner, Ghoul/Skeleton
+	`name_loc4`='天灾军团爪牙，重生者，鬼魂/食尸鬼'	-- Scourge Invasion Minion, spawner, Ghoul/Skeleton
 WHERE `entry`=16338;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='天谴军团爪牙，重生者，鬼魂/食尸鬼'	-- Scourge Invasion Minion, finder
+	`name_loc4`='天灾军团爪牙，重生者，鬼魂/食尸鬼'	-- Scourge Invasion Minion, finder
 WHERE `entry`=16356;
 
 UPDATE `locales_creature` SET

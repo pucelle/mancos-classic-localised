@@ -35,7 +35,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=22;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='...我从未想像我竟然会气成这样！她怎么敢这样对我！我教基尔斯数学的时候，蒂罗拉来了，还带着她的一个求婚者，他们竟公然手拉着手！真是个没教养的年轻人。蒂罗亚也没怎么介绍我，只是轻描淡写地说了句，「哦，这是我的家庭教师，斯塔文叔叔。他是个不错的老人家。」老人家！一听到这个词，我的脸就涨得通红。我不过比她大了几岁而已，而她竟背叛了……'	-- . . .anger and fury the likes of which I never knew existed! How dare she. As I was instructing Giles in the meaning of numbers, Tilloa appears before me with a suitor, holding hands in public nonetheless! What an uncouth young man. Rather than introduce me properly, Tilloa simply said, "Oh that's just my tutor, Uncle Stalvan. He's a nice old man." Old! At that word my cheeks flushed with heat. I am but a few years older and yet she betrays. . .
+	`text_loc4`='...我从未想像我竟然会气成这样！她怎么敢这样对我！我教基尔斯数学的时候，蒂罗拉来了，还带着她的一个求婚者，他们竟公然手拉着手！真是个没教养的年轻人。蒂罗亚也没怎么介绍我，只是轻描淡写地说了句，“哦，这是我的家庭教师，斯塔文叔叔。他是个不错的老人家。”老人家！一听到这个词，我的脸就涨得通红。我不过比她大了几岁而已，而她竟背叛了……'	-- . . .anger and fury the likes of which I never knew existed! How dare she. As I was instructing Giles in the meaning of numbers, Tilloa appears before me with a suitor, holding hands in public nonetheless! What an uncouth young man. Rather than introduce me properly, Tilloa simply said, "Oh that's just my tutor, Uncle Stalvan. He's a nice old man." Old! At that word my cheeks flushed with heat. I am but a few years older and yet she betrays. . .
 WHERE `entry`=23;
 
 UPDATE `locales_page_text` SET
@@ -59,7 +59,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=28;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='木箱上附着一张纸条。上面写着：$B$B「弗纳──听说赤脊山遇到这样的麻烦，我感到甚是遗憾。这里是你所需要的马蹄铁。如果方便的话，请你尽快付给我100银币。」$B$B「如果你愿意的话，也可以用黑色幼龙的腹鳞来支付报酬（我听说黑色幼龙在赤脊山十分常见）。既然我们是朋友……4块鳞片就够了。谢谢你。──阿格斯」'	-- A note is attached to the crate.  It reads:"Verner - sorry to hear Redridge is having such trouble.  Here are the shoes you need.  Please pay me 100 silver at your earliest convenience.""Or if you like, you can pay me in underbelly scales from black dragon whelps (I hear Dragon Whelps are common in the Redridge Mountains).  Because we're friends... 4 scales will be enough.  Thanks --Argus"
+	`text_loc4`='木箱上附着一张纸条。上面写着：$B$B“弗纳──听说赤脊山遇到这样的麻烦，我感到甚是遗憾。这里是你所需要的马蹄铁。如果方便的话，请你尽快付给我100银币。”$B$B“如果你愿意的话，也可以用黑色幼龙的腹鳞来支付报酬（我听说黑色幼龙在赤脊山十分常见）。既然我们是朋友……4块鳞片就够了。谢谢你。──阿格斯”'	-- A note is attached to the crate.  It reads:"Verner - sorry to hear Redridge is having such trouble.  Here are the shoes you need.  Please pay me 100 silver at your earliest convenience.""Or if you like, you can pay me in underbelly scales from black dragon whelps (I hear Dragon Whelps are common in the Redridge Mountains).  Because we're friends... 4 scales will be enough.  Thanks --Argus"
 WHERE `entry`=29;
 
 UPDATE `locales_page_text` SET
@@ -135,7 +135,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=47;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='黑爪：$B$B海洋在等待着我们，而我们需要你从北方运来的补给。尽力收集所有物资，一根铁轨一只水桶都不要放过，我们需要足够的金属。藏宝海湾那边本应有货物运来，但迟迟未到。黑爪，帮帮我，这次把你的补给直接运到「谷仓」去。我们不能再浪费时间了。$B$B- 范克里夫'	-- Blacknails-- The Sea awaits us.  We need your supplies from the North.  Strip everything: every railroad pike, every waterbucket.  We need metal.  A shipment is due from BB but long overdue.  Come through for me, Blacknails.  Send your supplies directly to the "barn" this time.  No time to squander. --VanCleef 
+	`text_loc4`='黑爪：$B$B海洋在等待着我们，而我们需要你从北方运来的补给。尽力收集所有物资，一根铁轨一只水桶都不要放过，我们需要足够的金属。藏宝海湾那边本应有货物运来，但迟迟未到。黑爪，帮帮我，这次把你的补给直接运到“谷仓”去。我们不能再浪费时间了。$B$B- 范克里夫'	-- Blacknails-- The Sea awaits us.  We need your supplies from the North.  Strip everything: every railroad pike, every waterbucket.  We need metal.  A shipment is due from BB but long overdue.  Come through for me, Blacknails.  Send your supplies directly to the "barn" this time.  No time to squander. --VanCleef 
 WHERE `entry`=48;
 
 UPDATE `locales_page_text` SET
@@ -195,7 +195,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=63;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='摩根·拉迪莫尔曾经是个伟大而高尚的骑士，他为了无辜、贫穷和饱受痛苦的人而战斗。多年来，他几乎跑遍艾泽拉斯所有的偏远地区，为受苦的人民带来安慰，惩戒那些作恶多端的人。$B$B在他十八岁那年的夏天，摩根与一位名叫莉丝的年轻女孩结婚了。他们彼此相爱，生了一个儿子和两个女儿。$B$B在摩根三十二岁那年，罗德隆的战争爆发了。'	-- Morgan Ladimore was a great and noble knight who fought in defense of the innocent, the poor, and the afflicted. For many years, he worked diligently throughout the outlying areas of Azeroth, bringing relief to the suffering and swift justice to evildoers.He was married to a young girl named Lys in the summer of his eighteenth year. They were much in love with each other and would eventually produce three children, a son and two daughters.Morgan was thirty-two when war broke out in
+	`text_loc4`='摩根·拉迪莫尔曾经是个伟大而高尚的骑士，他为了无辜、贫穷和饱受痛苦的人而战斗。多年来，他几乎跑遍艾泽拉斯所有的偏远地区，为受苦的人民带来安慰，惩戒那些作恶多端的人。$B$B在他十八岁那年的夏天，摩根与一位名叫莉丝的年轻女孩结婚了。他们彼此相爱，生了一个儿子和两个女儿。$B$B在摩根三十二岁那年，洛丹伦的战争爆发了。'	-- Morgan Ladimore was a great and noble knight who fought in defense of the innocent, the poor, and the afflicted. For many years, he worked diligently throughout the outlying areas of Azeroth, bringing relief to the suffering and swift justice to evildoers.He was married to a young girl named Lys in the summer of his eighteenth year. They were much in love with each other and would eventually produce three children, a son and two daughters.Morgan was thirty-two when war broke out in
 WHERE `entry`=64;
 
 UPDATE `locales_page_text` SET
@@ -247,7 +247,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=78;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='以下是在艾尔文森林的矿坑中开采金矿的日程表。$B$B征收日程：$B$B周程：中午12:30$B周程：中午12:30$B$B在指定的日子里，从艾尔文森林的矿坑中开采出来的金矿将被集中在布莱克威尔南瓜田中。负责收取这些货物的「收货人」会佩戴一枚我交给他的特殊戒指。'	-- Below is the process and schedule of Defias gold collection from the mines of Elwynn to our headquarters in Westfall.$B$BCollection Schedule:$B$BSunday: 12:30pm$BWednesday: 12:30pm$B$BBy each specified day, gold gained from the Elwynn mines will be gathered at the Brackwell pumpkin patch.  The agent in charge of these gatherings, "The Collector", will be known by the engraved ring he possesses.  A ring I gave him.
+	`text_loc4`='以下是在艾尔文森林的矿坑中开采金矿的日程表。$B$B征收日程：$B$B周程：中午12:30$B周程：中午12:30$B$B在指定的日子里，从艾尔文森林的矿坑中开采出来的金矿将被集中在布莱克威尔南瓜田中。负责收取这些货物的“收货人”会佩戴一枚我交给他的特殊戒指。'	-- Below is the process and schedule of Defias gold collection from the mines of Elwynn to our headquarters in Westfall.$B$BCollection Schedule:$B$BSunday: 12:30pm$BWednesday: 12:30pm$B$BBy each specified day, gold gained from the Elwynn mines will be gathered at the Brackwell pumpkin patch.  The agent in charge of these gatherings, "The Collector", will be known by the engraved ring he possesses.  A ring I gave him.
 WHERE `entry`=79;
 
 UPDATE `locales_page_text` SET
@@ -311,11 +311,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=94;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='荆棘谷的青山$B$B 第一天和我们预想中的完全一样。我们大部分时间都忙于为创建营地做一些必要的准备。我在一条淡水河的入口处找到了理想的驻扎点。根据旁边被废弃的古老码头判断，这个地方曾经有人住过，不过只有时间才能说明这里究竟住过些什么人。'	-- The Green Hills of StranglethornOur first day went as well as one can expect first days to go.  Most of our time was preoccupied with making the necessary arrangements to establish a base camp.  I located an ideal setting by a freshwater river inlet.  Judging by the old, abandoned docks nearby, this site was inhabited sometime ago.  As for the original inhabitants, only time can tell that tale.
+	`text_loc4`='荆棘谷的青山$B$B 第一天和我们预想中的完全一样。我们大部分时间都忙于为建立营地做一些必要的准备。我在一条淡水河的入口处找到了理想的驻扎点。根据旁边被废弃的古老码头判断，这个地方曾经有人住过，不过只有时间才能说明这里究竟住过些什么人。'	-- The Green Hills of StranglethornOur first day went as well as one can expect first days to go.  Most of our time was preoccupied with making the necessary arrangements to establish a base camp.  I located an ideal setting by a freshwater river inlet.  Judging by the old, abandoned docks nearby, this site was inhabited sometime ago.  As for the original inhabitants, only time can tell that tale.
 WHERE `entry`=95;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='荆棘谷的青山$B$B 第一天和我们预想中的完全一样。我们大部分时间都忙于为创建营地做一些必要的准备。我在一条淡水河的入口处找到了理想的驻扎点。根据旁边被废弃的古老码头判断，这个地方曾经有人住过，不过只有时间才能说明这里究竟住过些什么人。'	-- The Green Hills of Stranglethorn Our first day went as well as one can expect first days to go.  Most of our time was preoccupied with making the necessary arrangements to establish a base camp.  I located an ideal setting by a freshwater river inlet.  Judging by the old, abandoned docks nearby, this site was inhabited sometime ago.  As for the original inhabitants, only time can tell that tale. 
+	`text_loc4`='荆棘谷的青山$B$B 第一天和我们预想中的完全一样。我们大部分时间都忙于为建立营地做一些必要的准备。我在一条淡水河的入口处找到了理想的驻扎点。根据旁边被废弃的古老码头判断，这个地方曾经有人住过，不过只有时间才能说明这里究竟住过些什么人。'	-- The Green Hills of Stranglethorn Our first day went as well as one can expect first days to go.  Most of our time was preoccupied with making the necessary arrangements to establish a base camp.  I located an ideal setting by a freshwater river inlet.  Judging by the old, abandoned docks nearby, this site was inhabited sometime ago.  As for the original inhabitants, only time can tell that tale. 
 WHERE `entry`=97;
 
 UPDATE `locales_page_text` SET
@@ -499,7 +499,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=174;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='但是我还没有时间体会这次猎杀的愉悦，就赫然发现山顶上出现了几个影子──就在可怜的巴尼尔的正上方。$B$B「快跑，巴尼尔！」我大叫道。艾耶克、艾尔加丁和我立刻向追逐巴尼尔的迅猛龙射击，一时间子弹和箭矢乱飞，混乱之中，我们当中的某人还射杀了一只迅猛龙。'	-- But I could not bask in the glory of the kill for long.  For when I turned my eyes toward the horizon, several silhouettes appeared cresting the hill, just above poor Barnil. *Flee, Barnil!* I shouted.  Ajeck, Sir Erlgadin and myself loosed a volley of bullets, arrows and bolts over Barnil and toward the pursuing raptors.  One of us landed a kill amidst the confusion. 
+	`text_loc4`='但是我还没有时间体会这次猎杀的愉悦，就赫然发现山顶上出现了几个影子──就在可怜的巴尼尔的正上方。$B$B“快跑，巴尼尔！”我大叫道。艾耶克、艾尔加丁和我立刻向追逐巴尼尔的迅猛龙射击，一时间子弹和箭矢乱飞，混乱之中，我们当中的某人还射杀了一只迅猛龙。'	-- But I could not bask in the glory of the kill for long.  For when I turned my eyes toward the horizon, several silhouettes appeared cresting the hill, just above poor Barnil. *Flee, Barnil!* I shouted.  Ajeck, Sir Erlgadin and myself loosed a volley of bullets, arrows and bolts over Barnil and toward the pursuing raptors.  One of us landed a kill amidst the confusion. 
 WHERE `entry`=175;
 
 UPDATE `locales_page_text` SET
@@ -559,7 +559,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=189;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='我不知道那个晚上为什么独有我能生还。我一直都很小心，灵敏地避开狼人的袭击，每一次闪躲都准确无误。我的绰号「胆小鬼」就来自于我的这个特点。也许正是我的谨慎小心救了我……$B$B也许是我从碎石堆里挖出来的镰刀救了我。不过，这不可能是镰刀本身的作用，因为我在逃跑途中把它给弄丢了。但如果是我把狼人引到暮色森林的话，那么也许它们是因为这一点而放了我一条生路。这些该死的狼人！'	-- I can only guess why I survived that night.  I have always been cautious, always quick to flinch from jabs and leap free of pitfalls.  My nickname, Jitters, comes from this trait.  So perhaps it was just that knack for caution that saved me...Or maybe it was the Scythe I pulled from the rubble.  It cannot be the Scythe itself, for I lost it during my frantic flight.  But if it was I who brought the Worgen to Duskwood, then perhaps the Worgen afforded me a rare courtesy.  Curse them.
+	`text_loc4`='我不知道那个晚上为什么独有我能生还。我一直都很小心，灵敏地避开狼人的袭击，每一次闪躲都准确无误。我的绰号“胆小鬼”就来自于我的这个特点。也许正是我的谨慎小心救了我……$B$B也许是我从碎石堆里挖出来的镰刀救了我。不过，这不可能是镰刀本身的作用，因为我在逃跑途中把它给弄丢了。但如果是我把狼人引到暮色森林的话，那么也许它们是因为这一点而放了我一条生路。这些该死的狼人！'	-- I can only guess why I survived that night.  I have always been cautious, always quick to flinch from jabs and leap free of pitfalls.  My nickname, Jitters, comes from this trait.  So perhaps it was just that knack for caution that saved me...Or maybe it was the Scythe I pulled from the rubble.  It cannot be the Scythe itself, for I lost it during my frantic flight.  But if it was I who brought the Worgen to Duskwood, then perhaps the Worgen afforded me a rare courtesy.  Curse them.
 WHERE `entry`=190;
 
 UPDATE `locales_page_text` SET
@@ -583,19 +583,19 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=195;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='「月神的镰刀。」一个骑士用凄厉刺耳的声音叫道，就像在石头上磨斧头的那种声音。当喊出「镰刀」这个词的时候，这个声音变得嘶哑起来，好像窒息了一样。$B$B我一听到那个声音，立刻就被恐惧笼罩了，一方面是因为那个声音非常可怕，另一方面……我知道那个骑士所说的镰刀是什么。那一定就是几天前我在罗兰之墓的碎石中拔出的那件该死的东西，那就是黑骑士们所要寻找的东西！$B$B它就是给斯温一家人带来灭顶之灾的罪魁祸首。'	-- "The Scythe of Elune." one of the Riders shrieked in a voice both harsh and shrill, like the grinding of an axe on stone.  And the last word - Elune - it croaked, as if choking on the sound.Dread gripped me when I heard that voice, both from the horrid sound of it, and because...I knew the Scythe of which the Rider spoke.  It must be the same cursed thing I drew from the rocks of Roland's Doom days before.  It was what the Black Riders sought!And it was what would kill Sven's family.
+	`text_loc4`='“月神的镰刀。”一个骑士用凄厉刺耳的声音叫道，就像在石头上磨斧头的那种声音。当喊出“镰刀”这个词的时候，这个声音变得嘶哑起来，好像窒息了一样。$B$B我一听到那个声音，立刻就被恐惧笼罩了，一方面是因为那个声音非常可怕，另一方面……我知道那个骑士所说的镰刀是什么。那一定就是几天前我在罗兰之墓的碎石中拔出的那件该死的东西，那就是黑骑士们所要寻找的东西！$B$B它就是给斯温一家人带来灭顶之灾的罪魁祸首。'	-- "The Scythe of Elune." one of the Riders shrieked in a voice both harsh and shrill, like the grinding of an axe on stone.  And the last word - Elune - it croaked, as if choking on the sound.Dread gripped me when I heard that voice, both from the horrid sound of it, and because...I knew the Scythe of which the Rider spoke.  It must be the same cursed thing I drew from the rocks of Roland's Doom days before.  It was what the Black Riders sought!And it was what would kill Sven's family.
 WHERE `entry`=196;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='我一直以来都不知道她的名字，因为她的丈夫和孩子总是叫她「亲爱的」，「宝贝」和「妈妈」。但是我很希望知道她的名字，我是唯一一个见证她当时的英勇行为的人。虽然她只是一个农夫的妻子，但是我从来没看到过有人能像她这么勇敢。$B$B她当然不知道那把镰刀是什么东西，但是当她知道黑骑士在寻找镰刀时，就突然想到了一个计划。$B$B那是个大胆而聪明的计划，如果她能成功的话，那该有多好！'	-- I never learned the name of Sven's wife, as she was only ever called "dearest," and "my love," and "mommy" by her husband and children.  But I wish I knew it.  I am the only living memory of her deed that day, and although she was just a farmer's wife, never have I seen a man or woman act with such bravery.Of course she did not know of the Scythe, but when she learned the Riders sought it, in an instant a plan formed in her head.And it was bold and clever.  If only it had worked.
+	`text_loc4`='我一直以来都不知道她的名字，因为她的丈夫和孩子总是叫她“亲爱的”，“宝贝”和“妈妈”。但是我很希望知道她的名字，我是唯一一个见证她当时的英勇行为的人。虽然她只是一个农夫的妻子，但是我从来没看到过有人能像她这么勇敢。$B$B她当然不知道那把镰刀是什么东西，但是当她知道黑骑士在寻找镰刀时，就突然想到了一个计划。$B$B那是个大胆而聪明的计划，如果她能成功的话，那该有多好！'	-- I never learned the name of Sven's wife, as she was only ever called "dearest," and "my love," and "mommy" by her husband and children.  But I wish I knew it.  I am the only living memory of her deed that day, and although she was just a farmer's wife, never have I seen a man or woman act with such bravery.Of course she did not know of the Scythe, but when she learned the Riders sought it, in an instant a plan formed in her head.And it was bold and clever.  If only it had worked.
 WHERE `entry`=197;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='「镰刀？」她平静地问道。「我当然知道。这儿谁不知道？」她的双眼坚定地望着骑士，如果不是因为我知道实情的话，我一定也会相信她所说的话──虽然她根本不知道关于镰刀的事情。$B$B她的这一招奏效了。那个提出问题的骑士轻微地低下头凑向她，然后尖声说道：「在哪里？」$B$B「我可以带你去，带你们一起去。」她回答道。我看到她的眼中闪过一丝希望。'	-- "The Scythe?" she said in a calm voice.  "Of course I do.  Who here wouldn't?"  She looked at the Riders with steady eyes, and I would have sworn she spoke the truth if I had not known better. There was no way she could know about the Scythe.Her gambit paid off.  The same Rider who uttered the question before bent his head slightly toward her, and shrieked, "Where?""I'll take you.  All of you," she said, and I could see a small hope flicker behind her eyes.
+	`text_loc4`='“镰刀？”她平静地问道。“我当然知道。这儿谁不知道？”她的双眼坚定地望着骑士，如果不是因为我知道实情的话，我一定也会相信她所说的话──虽然她根本不知道关于镰刀的事情。$B$B她的这一招奏效了。那个提出问题的骑士轻微地低下头凑向她，然后尖声说道：“在哪里？”$B$B“我可以带你去，带你们一起去。”她回答道。我看到她的眼中闪过一丝希望。'	-- "The Scythe?" she said in a calm voice.  "Of course I do.  Who here wouldn't?"  She looked at the Riders with steady eyes, and I would have sworn she spoke the truth if I had not known better. There was no way she could know about the Scythe.Her gambit paid off.  The same Rider who uttered the question before bent his head slightly toward her, and shrieked, "Where?""I'll take you.  All of you," she said, and I could see a small hope flicker behind her eyes.
 WHERE `entry`=198;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='「不过路很远，带着孩子会拖累我们，必须得把他们留下。」$B$B她的计划很简单，不过简单的计划成功的可能性最大。如果她成功了，就能让那些强盗远离农场。她可能会因此而死，可是孩子们就安全了。如果强盗相信了她那崇高的谎言，这个计划就能成功。$B$B虽然我从未信仰过圣光之道，但是当斯温的妻子勇敢地站在那帮可怕的强盗面前时，我仍然虔诚地为她祈祷。$B$B「让他们相信吧。」我祈祷着。'	-- "But the way is far, and my children would slow us.  We must leave them."Her trick was simple, but simple tricks have the best hope of success.  If it worked, it would lead the Riders away from the farm.  She would be lost, but her children would be safe.  And it would work, if only the Riders believed her noble lies.Although I have never been a student of the Light, I prayed fiercely for Sven's wife as she stood against those terrible Riders."Please," I prayed.  "Let them believe."
+	`text_loc4`='“不过路很远，带着孩子会拖累我们，必须得把他们留下。”$B$B她的计划很简单，不过简单的计划成功的可能性最大。如果她成功了，就能让那些强盗远离农场。她可能会因此而死，可是孩子们就安全了。如果强盗相信了她那崇高的谎言，这个计划就能成功。$B$B虽然我从未信仰过圣光之道，但是当斯温的妻子勇敢地站在那帮可怕的强盗面前时，我仍然虔诚地为她祈祷。$B$B“让他们相信吧。”我祈祷着。'	-- "But the way is far, and my children would slow us.  We must leave them."Her trick was simple, but simple tricks have the best hope of success.  If it worked, it would lead the Riders away from the farm.  She would be lost, but her children would be safe.  And it would work, if only the Riders believed her noble lies.Although I have never been a student of the Light, I prayed fiercely for Sven's wife as she stood against those terrible Riders."Please," I prayed.  "Let them believe."
 WHERE `entry`=199;
 
 UPDATE `locales_page_text` SET
@@ -603,11 +603,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=200;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='斯温的妻子像一尊雕像一样直直地站在那里，眼睛睁得大大的。虽然她的嘴唇张开着，似乎是在尖叫，但是她却始终无法发出声音。过了一会儿，那只折磨着她的手终于松了下来，把她丢在地上。拿着宝石的那个骑士巍然正坐在马鞍上，一个声音从他口中传出。$B$B「这个女人在撒谎，」那个可怕的声音时常在我梦里出现，「她没有见过镰刀。」'	-- Sven's wife stood rigid as a board, and her eyes grew wide.  And although her lips pulled back to mouth a scream, no sound escaped.  After a few moments of this torture the hand released her, dropping her to her knees.  The Rider who held the bauble then sat erect in his saddle, and a loud voice erupted from it."This woman lies," it said in a voice that has scarred my dreams.  "She has not seen the Scythe."
+	`text_loc4`='斯温的妻子像一尊雕像一样直直地站在那里，眼睛睁得大大的。虽然她的嘴唇张开着，似乎是在尖叫，但是她却始终无法发出声音。过了一会儿，那只折磨着她的手终于松了下来，把她丢在地上。拿着宝石的那个骑士巍然正坐在马鞍上，一个声音从他口中传出。$B$B“这个女人在撒谎，”那个可怕的声音时常在我梦里出现，“她没有见过镰刀。”'	-- Sven's wife stood rigid as a board, and her eyes grew wide.  And although her lips pulled back to mouth a scream, no sound escaped.  After a few moments of this torture the hand released her, dropping her to her knees.  The Rider who held the bauble then sat erect in his saddle, and a loud voice erupted from it."This woman lies," it said in a voice that has scarred my dreams.  "She has not seen the Scythe."
 WHERE `entry`=201;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='然后，骑士的肩膀瘫软了下去，好像躯壳中的灵魂突然离它而去。随后，那个苍老而尖厉的嗓音又响了起来，他说的最后一句话是：$B$B「大人下令了，杀掉他们。」'	-- After this, the Rider's shoulders stooped slightly, as if a spirit within him had fled.  And then in the old, shrieking voice it used earlier, these final words were uttered:"The Lord has spoken.  Kill them."
+	`text_loc4`='然后，骑士的肩膀瘫软了下去，好像躯壳中的灵魂突然离它而去。随后，那个苍老而尖厉的嗓音又响了起来，他说的最后一句话是：$B$B“大人下令了，杀掉他们。”'	-- After this, the Rider's shoulders stooped slightly, as if a spirit within him had fled.  And then in the old, shrieking voice it used earlier, these final words were uttered:"The Lord has spoken.  Kill them."
 WHERE `entry`=202;
 
 UPDATE `locales_page_text` SET
@@ -623,7 +623,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=205;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='我不知道那个晚上为什么独有我能生还。我一直都很小心，灵敏地避开狼人的袭击，每一次闪躲都准确无误。我的绰号「胆小鬼」就来自于我的这个特点。也许正是我的谨慎小心救了我……$B$B也许是我从碎石堆里挖出来的镰刀救了我。不过，这不可能是镰刀本身的作用，因为我在逃跑途中把它给弄丢了。但如果是我把狼人引到暮色森林的话，那么也许它们是因为这一点而放了我一条生路。这些该死的狼人！'	-- I can only guess why I survived that night.  I have always been cautious, always quick to flinch from jabs and leap free of pitfalls.  My nickname comes from this trait.  So perhaps it was just that knack for caution that saved me...Or maybe it was the Scythe I pulled from the rubble.  It cannot be the Scythe itself, for I lost it during my frantic flight.  But if it was I who brought the Worgen to Duskwood, then perhaps the Worgen afforded me a rare courtesy.  Curse them.
+	`text_loc4`='我不知道那个晚上为什么独有我能生还。我一直都很小心，灵敏地避开狼人的袭击，每一次闪躲都准确无误。我的绰号“胆小鬼”就来自于我的这个特点。也许正是我的谨慎小心救了我……$B$B也许是我从碎石堆里挖出来的镰刀救了我。不过，这不可能是镰刀本身的作用，因为我在逃跑途中把它给弄丢了。但如果是我把狼人引到暮色森林的话，那么也许它们是因为这一点而放了我一条生路。这些该死的狼人！'	-- I can only guess why I survived that night.  I have always been cautious, always quick to flinch from jabs and leap free of pitfalls.  My nickname comes from this trait.  So perhaps it was just that knack for caution that saved me...Or maybe it was the Scythe I pulled from the rubble.  It cannot be the Scythe itself, for I lost it during my frantic flight.  But if it was I who brought the Worgen to Duskwood, then perhaps the Worgen afforded me a rare courtesy.  Curse them.
 WHERE `entry`=206;
 
 UPDATE `locales_page_text` SET
@@ -739,7 +739,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=243;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='比索·埃斯沙德大人：$B$B遵照您的指令，我派遣这个$C来为您效力。$B$B$G他:她;非常可靠，而且听从指挥，在对付天谴军团的过程中证明了自己的实力，所以我选择$G他:她;来协助您完成任务。$B$B祝您安好，$B- 执政官塞弗伦'	-- Lord Bethor Iceshard,As per your instructions, I send to you the agent you requested.  It is the bearer of this note.This person has shown to be dependable and able to follow orders, is proven against the forces of the Scourge, and is my choice for your mission.May She reign supreme,-Magistrate Sevren
+	`text_loc4`='比索·埃斯沙德大人：$B$B遵照您的指令，我派遣这个$C来为您效力。$B$B$G他:她;非常可靠，而且听从指挥，在对付天灾军团的过程中证明了自己的实力，所以我选择$G他:她;来协助您完成任务。$B$B祝您安好，$B- 执政官塞弗伦'	-- Lord Bethor Iceshard,As per your instructions, I send to you the agent you requested.  It is the bearer of this note.This person has shown to be dependable and able to follow orders, is proven against the forces of the Scourge, and is my choice for your mission.May She reign supreme,-Magistrate Sevren
 WHERE `entry`=244;
 
 UPDATE `locales_page_text` SET
@@ -823,11 +823,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=265;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='一支不死族小队毫不顾忌人类和不死族之间的对立关系，到我们这里来寻找他们的「同胞」。克甘达玛是这支小队的队长，他的皮肤已经腐烂，他的血液早已停止了流淌，但他却显得彬彬有礼，他对同伴安全的关心甚至胜于关心他自己。$B$B实际上，我甚至觉得他拥有我周围的人已经丧失许久的人性。'	-- Kegan Darkmar, leader of the small group of undead who came to us in search of asylum from their "brethren", defies our common attitudes toward his kind.  His skin may be rotting and blood may have long stopped flowing through his veins, but he acts very nobly and seems to care more for his compatriots' safety than his own.$B$BIndeed, there is a humanity within him that, I confess, I sometimes see lacking in the humans around me.
+	`text_loc4`='一支不死族小队毫不顾忌人类和不死族之间的对立关系，到我们这里来寻找他们的“同胞”。克甘达玛是这支小队的队长，他的皮肤已经腐烂，他的血液早已停止了流淌，但他却显得彬彬有礼，他对同伴安全的关心甚至胜于关心他自己。$B$B实际上，我甚至觉得他拥有我周围的人已经丧失许久的人性。'	-- Kegan Darkmar, leader of the small group of undead who came to us in search of asylum from their "brethren", defies our common attitudes toward his kind.  His skin may be rotting and blood may have long stopped flowing through his veins, but he acts very nobly and seems to care more for his compatriots' safety than his own.$B$BIndeed, there is a humanity within him that, I confess, I sometimes see lacking in the humans around me.
 WHERE `entry`=266;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='但是我为什么要提到这个？我之所以这样做是为了表明我将要写下的东西是可信的，因为这些话来自克甘之口，我希望我的同胞看到这本日记，知道我为什么要相信他的话：$B$B「还有一些上古诸神在世界的深渊中游荡，新的势力在寻找支配这些古老力量的方法，谁成功了，谁就将得到一件可怕的武器去对付他的敌人。」'	-- But why do I mention this?  I do so to give credence to what I am about to write, for these words came from Kegan's lips and it is my hope that my colleagues will, upon reading this journal, know why I believe what he said:"Remnants of the Old Gods still linger in the deep hollows of the world.  New forces seek to harness that ancient power, and those who succeed will have a terrible weapon against their enemies."
+	`text_loc4`='但是我为什么要提到这个？我之所以这样做是为了表明我将要写下的东西是可信的，因为这些话来自克甘之口，我希望我的同胞看到这本日记，知道我为什么要相信他的话：$B$B“还有一些上古诸神在世界的深渊中游荡，新的势力在寻找支配这些古老力量的方法，谁成功了，谁就将得到一件可怕的武器去对付他的敌人。”'	-- But why do I mention this?  I do so to give credence to what I am about to write, for these words came from Kegan's lips and it is my hope that my colleagues will, upon reading this journal, know why I believe what he said:"Remnants of the Old Gods still linger in the deep hollows of the world.  New forces seek to harness that ancient power, and those who succeed will have a terrible weapon against their enemies."
 WHERE `entry`=267;
 
 UPDATE `locales_page_text` SET
@@ -883,11 +883,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=280;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在等待那里的实验结果的日子里，我又去找克甘谈了谈。尽管我不断逼问他关于血石的事，他却没有再多说一句。他也很少提及在他所属的不死生物群体──他称之为「被遗忘者」──那边度过的日子。'	-- As I waited for the results of these tests, I spent my time speaking to Kegan.  Although I constantly pressed him for what he knew about bloodstones, he never told me more than what he said the day he gave me his pendant.  And he did not often speak of his time within the fold of what he called "the Forsaken", which is the name he calls his clan of undead. 
+	`text_loc4`='在等待那里的实验结果的日子里，我又去找克甘谈了谈。尽管我不断逼问他关于血石的事，他却没有再多说一句。他也很少提及在他所属的不死生物群体──他称之为“被遗忘者”──那边度过的日子。'	-- As I waited for the results of these tests, I spent my time speaking to Kegan.  Although I constantly pressed him for what he knew about bloodstones, he never told me more than what he said the day he gave me his pendant.  And he did not often speak of his time within the fold of what he called "the Forsaken", which is the name he calls his clan of undead. 
 WHERE `entry`=281;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='但是克甘看起来更喜欢谈点别的东西，特别是在罗德隆沦陷之前他在那里成长的时光。$B$B他依然深深地爱着那个现在已经变成一片废墟的王国。$B$B克甘越来越吸引我，这使我不再那么焦急地等待实验结果了。'	-- But Kegan was very eager to speak on other subjects, particularly his time growing up in Lordaeron before its fall.  He still holds much love for that lost kingdom, even though it is now ruined, and dead.My growing fondness for Kegan gave me patience as I waited for my test results.
+	`text_loc4`='但是克甘看起来更喜欢谈点别的东西，特别是在洛丹伦沦陷之前他在那里成长的时光。$B$B他依然深深地爱着那个现在已经变成一片废墟的王国。$B$B克甘越来越吸引我，这使我不再那么焦急地等待实验结果了。'	-- But Kegan was very eager to speak on other subjects, particularly his time growing up in Lordaeron before its fall.  He still holds much love for that lost kingdom, even though it is now ruined, and dead.My growing fondness for Kegan gave me patience as I waited for my test results.
 WHERE `entry`=282;
 
 UPDATE `locales_page_text` SET
@@ -907,7 +907,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=286;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='库德兰·蛮锤$B$B着名的巨龙战士，鹰巢山的狮鹫大师，进攻德拉诺兽人世界的联盟远征军狮鹫兽分队的指挥官。可能已阵亡。$B$B「我们将听到风中传来狮鹫兽的召唤，我们将听到战锤敲击的声音回响在山间。勇敢地面对困境吧，我的兄弟。祖先的圣堂在召唤着你。」$B$B- 大族长弗斯塔德·蛮锤'	-- Kurdran WildhammerRenowned Dragon Fighter. Gryphon Master of the Aerie Peak. Commander of the Gryphon Rider Division attached to the Alliance Expedition that marched into the orc homeworld of Draenor. Presumed deceased.We will hear Sky-Ree's calls upon the winds. We will hear your hammer thunder across the mountaintops. Ride hard into the hereafter, brother. The halls of our ancestors await you.- High Thane Falstad Wildhammer
+	`text_loc4`='库德兰·蛮锤$B$B着名的巨龙战士，鹰巢山的狮鹫大师，进攻德拉诺兽人世界的联盟远征军狮鹫兽分队的指挥官。可能已阵亡。$B$B“我们将听到风中传来狮鹫兽的召唤，我们将听到战锤敲击的声音回响在山间。勇敢地面对困境吧，我的兄弟。祖先的圣堂在召唤着你。”$B$B- 大族长弗斯塔德·蛮锤'	-- Kurdran WildhammerRenowned Dragon Fighter. Gryphon Master of the Aerie Peak. Commander of the Gryphon Rider Division attached to the Alliance Expedition that marched into the orc homeworld of Draenor. Presumed deceased.We will hear Sky-Ree's calls upon the winds. We will hear your hammer thunder across the mountaintops. Ride hard into the hereafter, brother. The halls of our ancestors await you.- High Thane Falstad Wildhammer
 WHERE `entry`=287;
 
 UPDATE `locales_page_text` SET
@@ -919,15 +919,15 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=289;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='图拉扬将军$B$B安杜因·洛萨爵士的副官，白银之手骑士团的圣骑士，进攻德拉诺兽人世界的联盟远征军的大将军。可能已阵亡。$B$B「（古代语） - 我们以鲜血与荣誉来奉献。$B我的朋友，你是公正与美德的化身。你的名字将是我们永远的荣耀。」$B$B- 光明使者乌瑟 - 白银之手骑士团'	-- General Turalyon $B$BFormer Lieutenant to Lord Anduin Lothar. Knight of the Silver Hand. High General of the Alliance Expedition that marched into the orc homeworld of Draenor. Presumed deceased. $B$BEsarus thar no'Darador' - By Blood and Honor We Serve.$BYou were the right hand of justice and virtue, old friend. Your name will be honored in our halls always. $B$B- Lord Uther the Lightbringer - Knight of the Silver Hand $B
+	`text_loc4`='图拉扬将军$B$B安杜因·洛萨爵士的副官，白银之手骑士团的圣骑士，进攻德拉诺兽人世界的联盟远征军的大将军。可能已阵亡。$B$B“（古代语） - 我们以鲜血与荣誉来奉献。$B我的朋友，你是公正与美德的化身。你的名字将是我们永远的荣耀。”$B$B- 光明使者乌瑟 - 白银之手骑士团'	-- General Turalyon $B$BFormer Lieutenant to Lord Anduin Lothar. Knight of the Silver Hand. High General of the Alliance Expedition that marched into the orc homeworld of Draenor. Presumed deceased. $B$BEsarus thar no'Darador' - By Blood and Honor We Serve.$BYou were the right hand of justice and virtue, old friend. Your name will be honored in our halls always. $B$B- Lord Uther the Lightbringer - Knight of the Silver Hand $B
 WHERE `entry`=290;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='达纳斯·托尔贝恩$B$B激流堡的民兵指挥官，进攻德拉诺兽人世界的联盟远征军总指挥官图拉扬将军的战略顾问。可能已阵亡。$B$B「孩子，你的经历和牺牲将永远被我们铭记。自我们的光辉帝国建立之日起，英雄的鲜血便浸透了整个帝国的历史。」$B- 索拉斯·托尔贝恩，激流堡之主'	-- Danath TrollbaneMilitia Commander of Stromgarde.Tactical Advisor to General Turalyon, Force Commander of the Alliance Expedition that marched into the orc homeworld of Draenor. Presumed deceased.We honor your memory, nephew, and your sacrifice. Since the founding of our glorious empire, the path to valor has always been drenched with the blood of heroes.- Thoras Trollbane, Lord of Stromgarde
+	`text_loc4`='达纳斯·托尔贝恩$B$B激流堡的民兵指挥官，进攻德拉诺兽人世界的联盟远征军总指挥官图拉扬将军的战略顾问。可能已阵亡。$B$B“孩子，你的经历和牺牲将永远被我们铭记。自我们的光辉帝国建立之日起，英雄的鲜血便浸透了整个帝国的历史。”$B- 索拉斯·托尔贝恩，激流堡之主'	-- Danath TrollbaneMilitia Commander of Stromgarde.Tactical Advisor to General Turalyon, Force Commander of the Alliance Expedition that marched into the orc homeworld of Draenor. Presumed deceased.We honor your memory, nephew, and your sacrifice. Since the founding of our glorious empire, the path to valor has always been drenched with the blood of heroes.- Thoras Trollbane, Lord of Stromgarde
 WHERE `entry`=291;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='“光明使者乌瑟在此安息$B第一圣骑士 - 白银之手骑士团的奠基人$B$B乌瑟誓死保卫罗德隆王国，尽管他最心爱的学生背叛了他，但我们相信他的灵魂永生。即使厄运降临于我们的故土，他依然在关注着我们。他的光芒将照亮所有人类前行的路途 - 只要我们依然以他为榜样，它就永远不会消失。$B- 无名氏”'	-- Here lies Uther the LightbringerFirst Paladin - Founder of the Order of the Silver HandUther lived and died to defend the kingdom of Lordaeron. Though he was betrayed by his most beloved student, we believe that his spirit lives on. He continues to watch over us, even as the shadows close in around our ruined land. His light is the light of all humanity - and so long as we honor his example, it shall never fade.                   - Anonymous
+	`text_loc4`='“光明使者乌瑟在此安息$B第一圣骑士 - 白银之手骑士团的奠基人$B$B乌瑟誓死保卫洛丹伦王国，尽管他最心爱的学生背叛了他，但我们相信他的灵魂永生。即使厄运降临于我们的故土，他依然在关注着我们。他的光芒将照亮所有人类前行的路途 - 只要我们依然以他为榜样，它就永远不会消失。$B- 无名氏”'	-- Here lies Uther the LightbringerFirst Paladin - Founder of the Order of the Silver HandUther lived and died to defend the kingdom of Lordaeron. Though he was betrayed by his most beloved student, we believe that his spirit lives on. He continues to watch over us, even as the shadows close in around our ruined land. His light is the light of all humanity - and so long as we honor his example, it shall never fade.                   - Anonymous
 WHERE `entry`=292;
 
 UPDATE `locales_page_text` SET
@@ -935,11 +935,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=293;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='值得注意的是，最近的发现表明，巨魔对跨越无尽之海的兴趣似乎非常小。虽然在整个艾泽拉斯、罗德隆和卡兹莫丹地区都有巨魔出没，但是在新大陆卡林多及南海的岛屿上却没有巨魔文明的迹象。'	-- doubt a disconcerting neighbor for the powerful trolls. It should be noted here that recent discoveries seem to suggest that the trolls had little interest in exploring the lands beyond the Great Sea. While troll species have been encountered along the length and breadth of Azeroth, Khaz Modan and Lordaeron, little evidence of their civilization has been found in the newly discovered lands of Kalimdor or upon the islands in the South Seas. Whether this demonstrates an unwillingness of 
+	`text_loc4`='值得注意的是，最近的发现表明，巨魔对跨越无尽之海的兴趣似乎非常小。虽然在整个艾泽拉斯、洛丹伦和卡兹莫丹地区都有巨魔出没，但是在新大陆卡利姆多及南海的岛屿上却没有巨魔文明的迹象。'	-- doubt a disconcerting neighbor for the powerful trolls. It should be noted here that recent discoveries seem to suggest that the trolls had little interest in exploring the lands beyond the Great Sea. While troll species have been encountered along the length and breadth of Azeroth, Khaz Modan and Lordaeron, little evidence of their civilization has been found in the newly discovered lands of Kalimdor or upon the islands in the South Seas. Whether this demonstrates an unwillingness of 
 WHERE `entry`=294;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='这是否证明巨魔不愿冒险离开他们的领土，或是他们缺乏长途旅行所必需的相应技术？这一点还有待进一步研究分析，但它已经不是本文要探讨的了。$B$B不过有一样东西会引起所有人的注意，最近在荆棘谷的大片巨魔废墟中找到的线索显示了巨魔和大海相关的一面，这一面以前从未为人所知，也没有相关的史料记载。$B$B海潮之石$B$B最近在荆棘谷巨魔废墟中的发现涉及到了一件叫做「海潮之石」的东西。'	-- the trolls to venture away from their terrestrial holdings or a failure on their part to develop the technologies needed to make such a journey will take further research and analysis that is out of the scope of my writings here. But one can hardly ignore so large a presence, and new findings in the extensive troll ruins of Stranglethorn Vale show an aspect of their relationship with the sea previously unknown and undocumented. THE STONE OF THE TIDES Recent discoveries during surveys 
+	`text_loc4`='这是否证明巨魔不愿冒险离开他们的领土，或是他们缺乏长途旅行所必需的相应技术？这一点还有待进一步研究分析，但它已经不是本文要探讨的了。$B$B不过有一样东西会引起所有人的注意，最近在荆棘谷的大片巨魔废墟中找到的线索显示了巨魔和大海相关的一面，这一面以前从未为人所知，也没有相关的史料记载。$B$B海潮之石$B$B最近在荆棘谷巨魔废墟中的发现涉及到了一件叫做“海潮之石”的东西。'	-- the trolls to venture away from their terrestrial holdings or a failure on their part to develop the technologies needed to make such a journey will take further research and analysis that is out of the scope of my writings here. But one can hardly ignore so large a presence, and new findings in the extensive troll ruins of Stranglethorn Vale show an aspect of their relationship with the sea previously unknown and undocumented. THE STONE OF THE TIDES Recent discoveries during surveys 
 WHERE `entry`=295;
 
 UPDATE `locales_page_text` SET
@@ -955,7 +955,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=298;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他可以借此召唤完全由水组成的生物：水元素──原本只有肯瑞托的大法师才具有这种能力。$B$B这个战士来到了帝国的核心地带祖尔格拉布，向国王展示他的能力。显然，他迅速成为了全帝国关注的焦点。古拉巴什的国王也被他的能力折服，立刻给他封了一个荣誉职物：「控潮者」，而他原来的名字则逐渐被遗忘了。'	-- water elementals, creatures formed completely of water--duplicating a feat that only powerful mages of the Kirin Tor are able to perform. The warrior traveled to Zul'Gurub, to the heart of the empire, to show his newfound abilities to the Emperor. He easily gained a court audience after demonstrating his powers in the center of the Imperial capital. His powers easily amazed the Gurubashi Emperor, who immediately gave him a place of honor at court, naming the warrior "Tidebearer", leaving his 
+	`text_loc4`='他可以借此召唤完全由水组成的生物：水元素──原本只有肯瑞托的大法师才具有这种能力。$B$B这个战士来到了帝国的核心地带祖尔格拉布，向国王展示他的能力。显然，他迅速成为了全帝国关注的焦点。古拉巴什的国王也被他的能力折服，立刻给他封了一个荣誉职位：“控潮者”，而他原来的名字则逐渐被遗忘了。'	-- water elementals, creatures formed completely of water--duplicating a feat that only powerful mages of the Kirin Tor are able to perform. The warrior traveled to Zul'Gurub, to the heart of the empire, to show his newfound abilities to the Emperor. He easily gained a court audience after demonstrating his powers in the center of the Imperial capital. His powers easily amazed the Gurubashi Emperor, who immediately gave him a place of honor at court, naming the warrior "Tidebearer", leaving his 
 WHERE `entry`=299;
 
 UPDATE `locales_page_text` SET
@@ -1055,7 +1055,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=324;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='巨神海怪咆哮着，发出了雷霆般的响声：$B$B「我们来了。」$B$B米洛斯毫不动摇地矗立着，施展他的魔法力量。袭向伊拉莱的海浪旋即一分为二，淹没了四周的丛林。米洛斯命令他的手下开始施展束缚法术，在无数巨魔的齐声吟唱中突然爆出一声巨响。$B$B此时一声怒吼压倒了众人的声音。'	-- Rising from the ocean, a tower of water, Neptulon sent the great Krakken to doomed I'lalai. So huge were their forms that jungles of kelp swayed through their limbs, and leviathans swam through bodies.$B$BThe largest Krakken then raised his arms high and crashed them into the sea, sending waves about him. And they raged toward I'lalai.
+	`text_loc4`='巨神海怪咆哮着，发出了雷霆般的响声：$B$B“我们来了。”$B$B米洛斯毫不动摇地矗立着，施展他的魔法力量。袭向伊拉莱的海浪旋即一分为二，淹没了四周的丛林。米洛斯命令他的手下开始施展束缚法术，在无数巨魔的齐声吟唱中突然爆出一声巨响。$B$B此时一声怒吼压倒了众人的声音。'	-- Rising from the ocean, a tower of water, Neptulon sent the great Krakken to doomed I'lalai. So huge were their forms that jungles of kelp swayed through their limbs, and leviathans swam through bodies.$B$BThe largest Krakken then raised his arms high and crashed them into the sea, sending waves about him. And they raged toward I'lalai.
 WHERE `entry`=325;
 
 UPDATE `locales_page_text` SET
@@ -1103,15 +1103,15 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=336;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='给库尔提拉斯舰队的正式命令$B$B我，普罗德摩尔上将，将率领第一批部队登陆卡林多海岸。$B$B我离开时，本尼迪克上尉负责全权指挥，并负责库尔提拉斯军队的所有内部事务。如果12个月内我还没有从提拉加德城堡传回消息，本尼迪克上尉将发动第二轮攻击。'	-- Official Orders For The Kul Tiras FleetI, Admiral Proudmoore, shall lead the first landing upon the shores of Kalimdor.Lieutenant Benedict will be second in command in my absence. All domestic Kul Tiras military matters will be handled by him. If I do not send word from Tiragarde Keep within 12 months time, Lieutenant Benedict will lead the second wave to hold the location.
+	`text_loc4`='给库尔提拉斯舰队的正式命令$B$B我，普罗德摩尔上将，将率领第一批部队登陆卡利姆多海岸。$B$B我离开时，本尼迪克上尉负责全权指挥，并负责库尔提拉斯军队的所有内部事务。如果12个月内我还没有从提拉加德城堡传回消息，本尼迪克上尉将发动第二轮攻击。'	-- Official Orders For The Kul Tiras FleetI, Admiral Proudmoore, shall lead the first landing upon the shores of Kalimdor.Lieutenant Benedict will be second in command in my absence. All domestic Kul Tiras military matters will be handled by him. If I do not send word from Tiragarde Keep within 12 months time, Lieutenant Benedict will lead the second wave to hold the location.
 WHERE `entry`=337;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='同时，我还派出了阿维罗德上尉，在卡林多大陆执行侦察任务。他的部队完成任务之后，会与我们在提拉加德城堡的部队会合。$B$B阿维罗德上尉的任务可能需要很长时间，因为这片新大陆幅员辽阔、充满危机。如果我或者本尼迪克遭遇不幸的话，阿维罗德将接手城堡的指挥权。$B$B我们会发动一轮接一轮的攻击，直到占领这座要塞！$B$B- 普罗德摩尔上将'	-- Meanwhile, I am sending Lieutenant Alverold on an exploratory mission around the continent of Kalimdor. His forces are to complete their mission and then join our forces at Tiragarde Keep.It is anticipated that Lieutenant Alverold's mission will last quite some time. The new land seems vast and dangerous. But should any misfortune befall myself or Benedict, Alverold's troops will retake the Keep.We will send wave after wave until that stronghold is ours!--Admiral Proudmoore
+	`text_loc4`='同时，我还派出了阿维罗德上尉，在卡利姆多大陆执行侦察任务。他的部队完成任务之后，会与我们在提拉加德城堡的部队会合。$B$B阿维罗德上尉的任务可能需要很长时间，因为这片新大陆幅员辽阔、充满危机。如果我或者本尼迪克遭遇不幸的话，阿维罗德将接手城堡的指挥权。$B$B我们会发动一轮接一轮的攻击，直到占领这座要塞！$B$B- 普罗德摩尔上将'	-- Meanwhile, I am sending Lieutenant Alverold on an exploratory mission around the continent of Kalimdor. His forces are to complete their mission and then join our forces at Tiragarde Keep.It is anticipated that Lieutenant Alverold's mission will last quite some time. The new land seems vast and dangerous. But should any misfortune befall myself or Benedict, Alverold's troops will retake the Keep.We will send wave after wave until that stronghold is ours!--Admiral Proudmoore
 WHERE `entry`=338;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='同时，我还派出了阿维罗德上尉，在卡林多大陆执行侦察任务。他的部队完成任务之后，会与我们在提拉加德城堡的部队会合。$B$B阿维罗德上尉的任务可能需要很长时间，因为这片新大陆幅员辽阔、充满危机。如果我或者本尼迪克遭遇不幸的话，阿维罗德将接手城堡的指挥权。$B$B我们会发动一轮接一轮的攻击，直到占领这座要塞！$B$B- 普罗德摩尔上将'	-- Meanwhile, I am sending Lieutenant Alverold on an exploratory mission around the continent of Kalimdor. His forces are to complete their mission and then join our forces at Tiragarde Keep. It is anticipated that Lieutenant Alverold's mission will last quite some time. The new land seems vast and dangerous. But should any misfortune befall myself or Benedict, Alverold's troops will retake the Keep. We will send wave after wave until that stronghold is ours! --Admiral Proudmoore 
+	`text_loc4`='同时，我还派出了阿维罗德上尉，在卡利姆多大陆执行侦察任务。他的部队完成任务之后，会与我们在提拉加德城堡的部队会合。$B$B阿维罗德上尉的任务可能需要很长时间，因为这片新大陆幅员辽阔、充满危机。如果我或者本尼迪克遭遇不幸的话，阿维罗德将接手城堡的指挥权。$B$B我们会发动一轮接一轮的攻击，直到占领这座要塞！$B$B- 普罗德摩尔上将'	-- Meanwhile, I am sending Lieutenant Alverold on an exploratory mission around the continent of Kalimdor. His forces are to complete their mission and then join our forces at Tiragarde Keep. It is anticipated that Lieutenant Alverold's mission will last quite some time. The new land seems vast and dangerous. But should any misfortune befall myself or Benedict, Alverold's troops will retake the Keep. We will send wave after wave until that stronghold is ours! --Admiral Proudmoore 
 WHERE `entry`=339;
 
 -- UPDATE `locales_page_text` SET
@@ -1139,7 +1139,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=349;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='主动式负载平衡器控制台可以自动调节燃料、燃气、液体的流动及相关的机器设备。在完成了初始化设置之后，只需简单维护即可进行日常的运行。$B$B控制台的主要部件（从左到右）依次是：$B$B主动力杆$B$B处于连接位置时，启动主动式负载平衡器。将动力杆调至「关闭」位置时，机械装置也不会自动松开，它只会'	-- The samophlange control console can be used to automatically regulate the flow of fuels, gasses, liquids, and related machinery. Once initial configuration has been completed, it should run worry free with minor maintenance.Brief listing of control console components (from left to right)I. Main Power LeverThe engaged position enables the samophlange. The control mechanism will not automatically disengage when the lever is put in the off position. This will merely
+	`text_loc4`='主动式负载平衡器控制台可以自动调节燃料、燃气、液体的流动及相关的机器设备。在完成了初始化设置之后，只需简单维护即可进行日常的运行。$B$B控制台的主要部件（从左到右）依次是：$B$B主动力杆$B$B处于连接位置时，启动主动式负载平衡器。将动力杆调至“关闭”位置时，机械装置也不会自动松开，它只会'	-- The samophlange control console can be used to automatically regulate the flow of fuels, gasses, liquids, and related machinery. Once initial configuration has been completed, it should run worry free with minor maintenance.Brief listing of control console components (from left to right)I. Main Power LeverThe engaged position enables the samophlange. The control mechanism will not automatically disengage when the lever is put in the off position. This will merely
 WHERE `entry`=350;
 
 UPDATE `locales_page_text` SET
@@ -1147,7 +1147,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=351;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='菲兹普罗克主管，你提交的设备申请表已经瑞兹当克总裁批准。$B$B他让我提醒你注意风险投资公司在整个卡林多大陆的既得利益。我们在贫瘠之地的钻井和采矿业是有利可图的，而且效益卓着，但是我们还在等待你所管辖的莫高雷地区为我们提供足够的生产量。$B$B顾问团了解在如此靠近牛头人领地'	-- Supervisor Fizsprocket, please find enclosed a list of the equipment you have requisitioned, approved by President Razdunk. He has asked me to remind and to emphasize to you of the Venture Company's vested interest in setting up operations throughout Kalimdor. Our drilling and mining outposts in the Barrens have proven profitable and efficient, but we still await sufficient production numbers from Mulgore, your jurisdiction. The advisory board understands the difficulties in establishing 
+	`text_loc4`='菲兹普罗克主管，你提交的设备申请表已经瑞兹当克总裁批准。$B$B他让我提醒你注意风险投资公司在整个卡利姆多大陆的既得利益。我们在贫瘠之地的钻井和采矿业是有利可图的，而且效益卓着，但是我们还在等待你所管辖的莫高雷地区为我们提供足够的生产量。$B$B顾问团了解在如此靠近牛头人领地'	-- Supervisor Fizsprocket, please find enclosed a list of the equipment you have requisitioned, approved by President Razdunk. He has asked me to remind and to emphasize to you of the Venture Company's vested interest in setting up operations throughout Kalimdor. Our drilling and mining outposts in the Barrens have proven profitable and efficient, but we still await sufficient production numbers from Mulgore, your jurisdiction. The advisory board understands the difficulties in establishing 
 WHERE `entry`=352;
 
 UPDATE `locales_page_text` SET
@@ -1171,7 +1171,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=357;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='星辰的孩子已经在永恒之井闪光的湖水边定居了很久。众所周知，象征永恒曙光的伊露恩在就在这水中休憩。岸边住着星辰的孩子们，伊露恩眷顾着他们，给他们安家，而他们也总在夜晚虔诚地凝望月空。'	-- Long had the children of the stars dwelled upon the banks of the shimmering waters of the Eternal Well. To all was known that Elune, light of the eternal twilight, aspect and goddess of the moon, dwelt within its waters at such time that she rested from her works. Upon the shores of the Well did the children of the stars, favored of Elune, build their homes, even as their gaze was trained ever skyward, into the moonlit night. Though there were many towns and places of habitation constructed 
+	`text_loc4`='星辰的孩子已经在永恒之井闪光的湖水边定居了很久。众所周知，象征永恒曙光的艾露恩在就在这水中休憩。岸边住着星辰的孩子们，艾露恩眷顾着他们，给他们安家，而他们也总在夜晚虔诚地凝望月空。'	-- Long had the children of the stars dwelled upon the banks of the shimmering waters of the Eternal Well. To all was known that Elune, light of the eternal twilight, aspect and goddess of the moon, dwelt within its waters at such time that she rested from her works. Upon the shores of the Well did the children of the stars, favored of Elune, build their homes, even as their gaze was trained ever skyward, into the moonlit night. Though there were many towns and places of habitation constructed 
 WHERE `entry`=358;
 
 UPDATE `locales_page_text` SET
@@ -1243,7 +1243,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=379;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='亡灵哨兵任务报告$B$B侦察员：兰妮·尤瑞克，奎恩·尤瑞克，埃兰德·玛科雷$B$B主要任员：完成对银松森林北部的侦察工作，并且判断天谴军团和野生动物的威胁程度。'	-- Deathstalker Mission Report$B$BAgents: Rane Yorick, Quinn Yorick, Erland McKree$B$BPrimary mission: perform reconnaissance through northern silverpine, and determine threat levels of wildlife and Scourge. 
+	`text_loc4`='亡灵哨兵任务报告$B$B侦察员：兰妮·尤瑞克，奎恩·尤瑞克，埃兰德·玛科雷$B$B主要任员：完成对银松森林北部的侦察工作，并且判断天灾军团和野生动物的威胁程度。'	-- Deathstalker Mission Report$B$BAgents: Rane Yorick, Quinn Yorick, Erland McKree$B$BPrimary mission: perform reconnaissance through northern silverpine, and determine threat levels of wildlife and Scourge. 
 WHERE `entry`=380;
 
 UPDATE `locales_page_text` SET
@@ -1251,7 +1251,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=381;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='我们的侦察员继续搜索时，在伊瓦的农场遭遇了伏击。伊瓦和他的家人，还有他的工人们，都成了天谴军团的爪牙。$B$B我们的侦察员遭到他们的袭击，虽然最后成功地击退了伏兵，但是均身负重伤，尤其是奎恩。'	-- Continuing the sweep, our agents were detained at Ivar's farm.  Ivar, most of his family and his workers had succumbed to the Scourge and become its minions.$B$BOur agents were attacked and although successful in defeating their ambushers, they sustained serious injuries, particularly agent Quinn. 
+	`text_loc4`='我们的侦察员继续搜索时，在伊瓦的农场遭遇了伏击。伊瓦和他的家人，还有他的工人们，都成了天灾军团的爪牙。$B$B我们的侦察员遭到他们的袭击，虽然最后成功地击退了伏兵，但是均身负重伤，尤其是奎恩。'	-- Continuing the sweep, our agents were detained at Ivar's farm.  Ivar, most of his family and his workers had succumbed to the Scourge and become its minions.$B$BOur agents were attacked and although successful in defeating their ambushers, they sustained serious injuries, particularly agent Quinn. 
 WHERE `entry`=382;
 
 UPDATE `locales_page_text` SET
@@ -1275,7 +1275,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=394;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='迈萨迪斯神殿$B$B「愿伊露恩之光如远古时那样永远照耀着山谷，照亮森林中的道路。」'	-- The Shrine of Mel'Thandris "May the light of Elune shine upon this vale eternal and illuminate the ways of the forest as it has for time immemorial." 
+	`text_loc4`='迈萨迪斯神殿$B$B“愿艾露恩之光如远古时那样永远照耀着山谷，照亮森林中的道路。”'	-- The Shrine of Mel'Thandris "May the light of Elune shine upon this vale eternal and illuminate the ways of the forest as it has for time immemorial." 
 WHERE `entry`=395;
 
 UPDATE `locales_page_text` SET
@@ -1287,15 +1287,15 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=397;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='我将能量引入镰刀，时空的障碍愈发减弱，于是我就可以将狼人召唤到我们的世界来。第一次我召唤了三十个狼人，并带领他们上了战场。我支配着他们无穷的蛮力，向费伍德森林中的恶魔发起猛烈的攻击。$B$B伊露恩满足了我的愿望，森林将被彻底净化。$B$B愿伊露恩的赐福护佑我完成任务。'	-- and understood me. By further channeling energy into the Scythe, the barriers weakened more, and I was able to draw worgen into our world. A score and half I was able to summon in my first attempt. They followed me into battle, and with their brutish strength at my command, we tore into the demons of Felwood. Elune has granted my wishes. The forest will be cleansed. May Elune's blessings be upon me until my work is done. 
+	`text_loc4`='我将能量引入镰刀，时空的障碍愈发减弱，于是我就可以将狼人召唤到我们的世界来。第一次我召唤了三十个狼人，并带领他们上了战场。我支配着他们无穷的蛮力，向费伍德森林中的恶魔发起猛烈的攻击。$B$B艾露恩满足了我的愿望，森林将被彻底净化。$B$B愿艾露恩的赐福护佑我完成任务。'	-- and understood me. By further channeling energy into the Scythe, the barriers weakened more, and I was able to draw worgen into our world. A score and half I was able to summon in my first attempt. They followed me into battle, and with their brutish strength at my command, we tore into the demons of Felwood. Elune has granted my wishes. The forest will be cleansed. May Elune's blessings be upon me until my work is done. 
 WHERE `entry`=398;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='一切都进行得很顺利。我召唤了大群狼人和我一起战斗。虽然他们思维简单，但是作为一个整体，狼人显示出了强大的攻击能力。$B$B我任命了一些首领，让他们各自领导一小队狼人行动。我们同时在森林的许多地方展开了战斗，在与恶魔的对抗中获得了丰厚的战果。$B$B愿伊露恩的赐福护佑我完成任务。'	-- All goes well. I have summoned larger numbers of worgen to fight at my side. Though they are of simple mind, they have shown impressive ability to coordinate their attacks and function as a group. I have identified leaders in their packs. To them I have given command of small groups of warriors. We strike from many places in the forest at once, and my campaign against the demons is a fruitful one. May Elune's blessings be upon me until my work is done. 
+	`text_loc4`='一切都进行得很顺利。我召唤了大群狼人和我一起战斗。虽然他们思维简单，但是作为一个整体，狼人显示出了强大的攻击能力。$B$B我任命了一些首领，让他们各自领导一小队狼人行动。我们同时在森林的许多地方展开了战斗，在与恶魔的对抗中获得了丰厚的战果。$B$B愿艾露恩的赐福护佑我完成任务。'	-- All goes well. I have summoned larger numbers of worgen to fight at my side. Though they are of simple mind, they have shown impressive ability to coordinate their attacks and function as a group. I have identified leaders in their packs. To them I have given command of small groups of warriors. We strike from many places in the forest at once, and my campaign against the demons is a fruitful one. May Elune's blessings be upon me until my work is done. 
 WHERE `entry`=399;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='有一队狼人失踪了，我派他们在整个森林里巡查以找出恶魔的巢穴，可是他们没有回来。我开始担心那些首领，我把控制权交给他们，然而他们的头脑非常简单，也许会滥用我给他们的那点权力。我是不是已经失去了对他们的控制？也许我应该暂停召唤其他的狼人。$B$B愿伊露恩的赐福护佑我完成任务。'	-- A pack is lost. I sent the worgen to range through the forest and identify areas of demonic infestation, but they did not return. I begin to worry about the leaders that I have entrusted control to. They are of simple mind, and this small bit of authority I have given them, they stretch to the utmost. Am I losing control? Perhaps I shall cease summoning additional worgen for the time being. May Elune's blessings be upon me until my work is done. 
+	`text_loc4`='有一队狼人失踪了，我派他们在整个森林里巡查以找出恶魔的巢穴，可是他们没有回来。我开始担心那些首领，我把控制权交给他们，然而他们的头脑非常简单，也许会滥用我给他们的那点权力。我是不是已经失去了对他们的控制？也许我应该暂停召唤其他的狼人。$B$B愿艾露恩的赐福护佑我完成任务。'	-- A pack is lost. I sent the worgen to range through the forest and identify areas of demonic infestation, but they did not return. I begin to worry about the leaders that I have entrusted control to. They are of simple mind, and this small bit of authority I have given them, they stretch to the utmost. Am I losing control? Perhaps I shall cease summoning additional worgen for the time being. May Elune's blessings be upon me until my work is done. 
 WHERE `entry`=400;
 
 UPDATE `locales_page_text` SET
@@ -1303,7 +1303,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=401;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='我听说过一个名叫阿鲁高的肯瑞托巫师，似乎这个巫师也召唤过狼人。虽然去找他是件令我不快的事，但我还是想问问他对狼人有什么了解。$B$B狼人很危险，我一定要抑制它们数量激增的趋势。次日，我就去了贫瘠之地的港口，预定了前往新世界的船票。$B$B愿伊露恩的赐福护佑我完成任务。'	-- whispers, of a wizard of the Kirin Tor named Arugal. From what I have heard, it is possible that he has also summoned worgen. I would consult with this wizard--distasteful as it may be--and see what he knows. The worgen are dangerous, and I wish to stem the tide. On the morrow, I will travel to the port in the Barrens and book passage to the New World. May Elune's blessings be upon me until my work is done. 
+	`text_loc4`='我听说过一个名叫阿鲁高的肯瑞托巫师，似乎这个巫师也召唤过狼人。虽然去找他是件令我不快的事，但我还是想问问他对狼人有什么了解。$B$B狼人很危险，我一定要抑制它们数量激增的趋势。次日，我就去了贫瘠之地的港口，预定了前往新世界的船票。$B$B愿艾露恩的赐福护佑我完成任务。'	-- whispers, of a wizard of the Kirin Tor named Arugal. From what I have heard, it is possible that he has also summoned worgen. I would consult with this wizard--distasteful as it may be--and see what he knows. The worgen are dangerous, and I wish to stem the tide. On the morrow, I will travel to the port in the Barrens and book passage to the New World. May Elune's blessings be upon me until my work is done. 
 WHERE `entry`=402;
 
 UPDATE `locales_page_text` SET
@@ -1347,7 +1347,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=412;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他告诉我说，他已经走遍了整个朵丹尼尔，但从未看到过箱子或任何可能用来放置圆头的容器。$B$B他还告诉我那个地区已经有了腐烂的泥浆怪，它们会吞食任何比它们小的东西。这个矮人亲眼看到它们「吃掉」桌子、雕塑、熊，甚至还有几个侏儒！$B$B那些泥浆怪似乎拥有很强的魔法力量。如果装圆头的箱子被施了魔法，那么它有可能已经被泥浆怪吃掉了。'	-- He tells me he's been throughout all of Dor'danil, and he's never seen a chest or any container that may hold the pommel. He also tells me that rotting slimes have inhabited the area, and they devour almost anything smaller than them. He's seen them "eat" tables, sculptures, bears, and even gnomes!The slimes seem to gain a great deal of sustenance from things magical. If the chest holding the pommel was enchanted at all, the slimes might have eaten it.
+	`text_loc4`='他告诉我说，他已经走遍了整个朵丹尼尔，但从未看到过箱子或任何可能用来放置圆头的容器。$B$B他还告诉我那个地区已经有了腐烂的泥浆怪，它们会吞食任何比它们小的东西。这个矮人亲眼看到它们“吃掉”桌子、雕塑、熊，甚至还有几个侏儒！$B$B那些泥浆怪似乎拥有很强的魔法力量。如果装圆头的箱子被施了魔法，那么它有可能已经被泥浆怪吃掉了。'	-- He tells me he's been throughout all of Dor'danil, and he's never seen a chest or any container that may hold the pommel. He also tells me that rotting slimes have inhabited the area, and they devour almost anything smaller than them. He's seen them "eat" tables, sculptures, bears, and even gnomes!The slimes seem to gain a great deal of sustenance from things magical. If the chest holding the pommel was enchanted at all, the slimes might have eaten it.
 WHERE `entry`=413;
 
 UPDATE `locales_page_text` SET
@@ -1391,7 +1391,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=423;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='-- 第一天 --$B$B我从铁炉堡出发，经过漫长的旅途之后，终于到达了卡林多！$B$B巴尔莫丹的勘察员卡兹戈姆那边的进展相当不错。他今天又挖出了一块化石，挖掘站里的学者们认为这是某位古代神灵的骨骼碎片，卡兹戈姆则认为这块化石是某种神秘生物的一部分。身为这座挖掘站的管理者，他决定派我去寻找更多的碎片以揭开这个秘密。$B$B我的任务就是：到南方去寻找更多的线索。'	-- --Day One--My journey from Ironforge finally brings me to Kalimdor!Prospector Khazgorm of Bael Modan is making great headway. He uncovered a fossil today which the site scholars believe to be a bone fragment of an ancient god. Khazgorm is certain the fossil is part of a greater mystery. While he oversees the excavation site, he has made it my quest to discover more fossils to piece together the story. My assignment: head to the south in search of more clues.
+	`text_loc4`='-- 第一天 --$B$B我从铁炉堡出发，经过漫长的旅途之后，终于到达了卡利姆多！$B$B巴尔莫丹的勘察员卡兹戈姆那边的进展相当不错。他今天又挖出了一块化石，挖掘站里的学者们认为这是某位古代神灵的骨骼碎片，卡兹戈姆则认为这块化石是某种神秘生物的一部分。身为这座挖掘站的管理者，他决定派我去寻找更多的碎片以揭开这个秘密。$B$B我的任务就是：到南方去寻找更多的线索。'	-- --Day One--My journey from Ironforge finally brings me to Kalimdor!Prospector Khazgorm of Bael Modan is making great headway. He uncovered a fossil today which the site scholars believe to be a bone fragment of an ancient god. Khazgorm is certain the fossil is part of a greater mystery. While he oversees the excavation site, he has made it my quest to discover more fossils to piece together the story. My assignment: head to the south in search of more clues.
 WHERE `entry`=424;
 
 UPDATE `locales_page_text` SET
@@ -1439,7 +1439,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=435;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='「订单号：45TK-3$B买家：克拉维尔·浓须$B$B发货号：$B$B水棘轮（3）$B转发栓（50）$B30"20-线规铜管（12）$B深怒牌鼻烟粉（1）$B高级棱镜（3）」'	-- ORDER NUMBER: 45TK-3BUYER: Kravel KoalbeardINVOICE:Hydro Ratchet (3)Repeater Bolts (50)30" 20-gauge copper tubing (12)Snuff, Deepfury brand (1)High-grade prism (3)
+	`text_loc4`='“订单号：45TK-3$B买家：克拉维尔·浓须$B$B发货号：$B$B水棘轮（3）$B转发栓（50）$B30"20-线规铜管（12）$B深怒牌鼻烟粉（1）$B高级棱镜（3）”'	-- ORDER NUMBER: 45TK-3BUYER: Kravel KoalbeardINVOICE:Hydro Ratchet (3)Repeater Bolts (50)30" 20-gauge copper tubing (12)Snuff, Deepfury brand (1)High-grade prism (3)
 WHERE `entry`=436;
 
 UPDATE `locales_page_text` SET
@@ -1487,7 +1487,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=447;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='药剂师林度恩：$B$B我希望这封信能安然地送达你那里，遥远的卡林多大陆需要你的帮助。$B$B现在在离我们牛头人盟友的老家莫高雷地区很近的石爪山一带出现了重大的危机，地精风险投资公司在山里肆意砍伐树木，开采矿物，这已经激怒了那里的山灵。'	-- Apothecary Lydon, I hope this letter reaches you swiftly and its bearer in good condition.  A need has arisen in distant Kalimdor that I believe will require your skills. I will be brief. A crisis develops in the Stonetalon Mountains, not far from our Tauren allies' homeland of Mulgore.  The goblin-run Venture company is mining and lumbering fiercely in those moutains, enraging the mountain spirits. 
+	`text_loc4`='药剂师林度恩：$B$B我希望这封信能安然地送达你那里，遥远的卡利姆多大陆需要你的帮助。$B$B现在在离我们牛头人盟友的老家莫高雷地区很近的石爪山一带出现了重大的危机，地精风险投资公司在山里肆意砍伐树木，开采矿物，这已经激怒了那里的山灵。'	-- Apothecary Lydon, I hope this letter reaches you swiftly and its bearer in good condition.  A need has arisen in distant Kalimdor that I believe will require your skills. I will be brief. A crisis develops in the Stonetalon Mountains, not far from our Tauren allies' homeland of Mulgore.  The goblin-run Venture company is mining and lumbering fiercely in those moutains, enraging the mountain spirits. 
 WHERE `entry`=448;
 
 UPDATE `locales_page_text` SET
@@ -1503,7 +1503,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=451;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='阿莱克丝塔萨：$B阿莱克丝塔萨，强大的上古红龙女王，被泰坦赐予生命守缚者的称号。她是第一头被泰坦巨人创造出来的守护巨龙。据说她见证了艾泽拉斯世界中的所有现代种族的诞生。她那优雅而高傲的红龙军团曾经统治着所有的龙类。'	-- Alexstrasza: Alexstrasza, the ancient and powerful Queen of the Dragons, was named the Life-Binder by the titans. She was first to be created by the titans to protect the world after they left. It is said that she witnessed the birth of all modern races upon the face of Azeroth. Her red dragonflight, known for their proud demeanor, once ruled over all other dragonkind. 
+	`text_loc4`='阿莱克丝塔萨：$B阿莱克丝塔萨，强大的上古红龙女王，被泰坦赐予生命缚誓者的称号。她是第一头被泰坦巨人创造出来的守护巨龙。据说她见证了艾泽拉斯世界中的所有现代种族的诞生。她那优雅而高傲的红龙军团曾经统治着所有的龙类。'	-- Alexstrasza: Alexstrasza, the ancient and powerful Queen of the Dragons, was named the Life-Binder by the titans. She was first to be created by the titans to protect the world after they left. It is said that she witnessed the birth of all modern races upon the face of Azeroth. Her red dragonflight, known for their proud demeanor, once ruled over all other dragonkind. 
 WHERE `entry`=452;
 
 UPDATE `locales_page_text` SET
@@ -1571,7 +1571,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=571;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='随着科尔苏加德在罗德隆方面的势如破竹，巫妖王也已经完成了毁灭人类文明的最后准备工作。耐祖奥已经将他的致疫能量体分装入了数个名为瘟疫大锅的可携式容器之中，并命令科尔苏加德将这些瘟疫大锅运至罗德隆大陆，他们应该会把它们藏在被教会控制的村民那里。'	-- With Kel'Thuzad's success in Lordaeron, the Lich King made the final preparations for his assault against human civilization. Placing his plague energies into a number of portable artifacts called plague cauldrons, Ner'zhul ordered Kel'Thuzad to transport the cauldrons to Lordaeron where they would be hidden within various cult-controlled villages. 
+	`text_loc4`='随着克尔苏加德在洛丹伦方面的势如破竹，巫妖王也已经完成了毁灭人类文明的最后准备工作。耐祖奥已经将他的致疫能量体分装入了数个名为瘟疫大锅的可携式容器之中，并命令克尔苏加德将这些瘟疫大锅运至洛丹伦大陆，他们应该会把它们藏在被教会控制的村民那里。'	-- With Kel'Thuzad's success in Lordaeron, the Lich King made the final preparations for his assault against human civilization. Placing his plague energies into a number of portable artifacts called plague cauldrons, Ner'zhul ordered Kel'Thuzad to transport the cauldrons to Lordaeron where they would be hidden within various cult-controlled villages. 
 WHERE `entry`=572;
 
 UPDATE `locales_page_text` SET
@@ -1579,7 +1579,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=573;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='科尔苏加德麾下的教徒们，正渴望着死亡，并被转化为亡灵，继续为他们的黑暗领主服务。他们为由转化为亡灵所获得的永恒生命而狂喜。随着瘟疫的持续传播，更多的凶悍僵尸出现在诺森德大陆。科尔苏加德将这些僵尸编成一支只效忠于巫妖王的军队，这支军队正逐渐壮大，并有了名字──天谴军团。很快，他们将远征罗德隆大陆……并将给全世界的人类带来真正意义上的天灾。'	-- The cultists under Kel'Thuzad were eager to die and be raised again in their dark lord's service. They exulted in the prospect of immortality through undeath. As the plague spread, more and more feral zombies arose in the northlands. Kel'Thuzad looked upon the Lich King's growing army and named it the Scourge - for soon, it would march upon the gates of Lordaeron...and scour humanity from the face of the world. 
+	`text_loc4`='克尔苏加德麾下的教徒们，正渴望着死亡，并被转化为亡灵，继续为他们的黑暗领主服务。他们为由转化为亡灵所获得的永恒生命而狂喜。随着瘟疫的持续传播，更多的凶悍僵尸出现在诺森德大陆。克尔苏加德将这些僵尸编成一支只效忠于巫妖王的军队，这支军队正逐渐壮大，并有了名字──天灾军团。很快，他们将远征洛丹伦大陆……并将给全世界的人类带来真正意义上的天灾。'	-- The cultists under Kel'Thuzad were eager to die and be raised again in their dark lord's service. They exulted in the prospect of immortality through undeath. As the plague spread, more and more feral zombies arose in the northlands. Kel'Thuzad looked upon the Lich King's growing army and named it the Scourge - for soon, it would march upon the gates of Lordaeron...and scour humanity from the face of the world. 
 WHERE `entry`=574;
 
 UPDATE `locales_page_text` SET
@@ -1611,11 +1611,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=581;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='「最好在离其目的地不远处下手，据说我们的「盟友」也埋伏在那一带。我真是不明白，我们为什么要和那种生物结成同盟，但我也没有什么办法，我们是迫不得已。不过算了，这也没什么。只要我们能牢牢揪着目标，就一定可以从暴风城那里，拿回当初他们从我们手中偷走的东西！」'	-- Expect the attack to happen a few miles from their destination. That's where our??? allies??? will be laid in waiting. I'm not sure why we've been forced to form an alliance with the creatures, but I can't help but feel we're being coerced ourselves. Ultimately, it won't matter. With the target in our custody, we'll be well on our way to taking back Stormwind from those that stole it from us!
+	`text_loc4`='“最好在离其目的地不远处下手，据说我们的“盟友”也埋伏在那一带。我真是不明白，我们为什么要和那种生物结成同盟，但我也没有什么办法，我们是迫不得已。不过算了，这也没什么。只要我们能牢牢揪着目标，就一定可以从暴风城那里，拿回当初他们从我们手中偷走的东西！”'	-- Expect the attack to happen a few miles from their destination. That's where our??? allies??? will be laid in waiting. I'm not sure why we've been forced to form an alliance with the creatures, but I can't help but feel we're being coerced ourselves. Ultimately, it won't matter. With the target in our custody, we'll be well on our way to taking back Stormwind from those that stole it from us!
 WHERE `entry`=582;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='「最好在离其目的地不远处下手，据说我们的「盟友」也埋伏在那一带。我真是不明白，我们为什么要和那种生物结成同盟，但我也没有什么办法，我们是迫不得已。不过算了，这也没什么。只要我们能牢牢揪着目标，就一定可以从暴风城那里，拿回当初他们从我们手中偷走的东西！」'	-- Expect the attack to happen a few miles from their destination. That's where our??? allies??? will be laid in waiting. I'm not sure why we've been forced to form an alliance with the creatures, but I can't help but feel we're being coerced ourselves. Ultimately, it won't matter. With the target in our custody, we'll be well on our way to taking back Stormwind from those that stole it from us! 
+	`text_loc4`='“最好在离其目的地不远处下手，据说我们的“盟友”也埋伏在那一带。我真是不明白，我们为什么要和那种生物结成同盟，但我也没有什么办法，我们是迫不得已。不过算了，这也没什么。只要我们能牢牢揪着目标，就一定可以从暴风城那里，拿回当初他们从我们手中偷走的东西！”'	-- Expect the attack to happen a few miles from their destination. That's where our??? allies??? will be laid in waiting. I'm not sure why we've been forced to form an alliance with the creatures, but I can't help but feel we're being coerced ourselves. Ultimately, it won't matter. With the target in our custody, we'll be well on our way to taking back Stormwind from those that stole it from us! 
 WHERE `entry`=606;
 
 UPDATE `locales_page_text` SET
@@ -1627,11 +1627,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=626;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='罗德隆联盟与兽人部落间的第二次大战极其惨烈，给联盟带来激烈的动荡与巨大的混乱。那些嗜血的兽人，在强大的大酋长奥格林·末日锤率领下，不仅攻陷了矮人的卡兹莫丹，也在罗德隆王国中部的几个省间烧杀掳掠。那些冷酷的兽人，甚至在其侵略的锋芒受挫前，成功地劫掠了，远在大陆一隅的精灵王国奎尔萨拉斯。'	-- The devastating Second War against the orcish horde left the Alliance of Lordaeron in a state of shock and disarray. The bloodthirsty orcs, led by the mighty warchief, Orgrim Doomhammer, not only smashed their way through the dwarf-held lands of Khaz Modan, but had razed many of Lordaeron's central provinces as well. The unrelenting orcs even succeeded in ravaging the$B$Belves' remote kingdom of Quel'Thalas before their rampage was finally stopped.
+	`text_loc4`='洛丹伦联盟与兽人部落间的第二次大战极其惨烈，给联盟带来激烈的动荡与巨大的混乱。那些嗜血的兽人，在强大的大酋长奥格林·末日锤率领下，不仅攻陷了矮人的卡兹莫丹，也在洛丹伦王国中部的几个省间烧杀掳掠。那些冷酷的兽人，甚至在其侵略的锋芒受挫前，成功地劫掠了，远在大陆一隅的精灵王国奎尔萨拉斯。'	-- The devastating Second War against the orcish horde left the Alliance of Lordaeron in a state of shock and disarray. The bloodthirsty orcs, led by the mighty warchief, Orgrim Doomhammer, not only smashed their way through the dwarf-held lands of Khaz Modan, but had razed many of Lordaeron's central provinces as well. The unrelenting orcs even succeeded in ravaging the$B$Belves' remote kingdom of Quel'Thalas before their rampage was finally stopped.
 WHERE `entry`=627;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='联盟军队在三位最高指挥官安杜因·洛萨爵士、光之使徒乌瑟、以及迪林·普罗德摩尔上将领导下，将那些兽人逐往艾泽拉斯南方焦土──灭于兽人之手的第一王国遗址。$B$B最终，在洛萨爵士率领下，联盟军将末日锤麾下诸氏族逐出罗德隆，赶回兽人在艾泽拉斯大陆上，原先控制的区域。而洛萨的军队则一直追击兽人，直到他们退回兽人的主城黑石塔，在那里，双方进行了最后一次攻防战。'	-- The Alliance armies led by Sir Anduin Lothar, Uther the Lightbringer, and Admiral Daelin Proudmoore pushed the orcs south into the shattered land of Azeroth - the first kingdom to fall before the orcs' ruthless onslaught.$B$B$B$BThe Alliance forces under Sir Lothar managed to push Doomhammer's clans out of Lordaeron and back into the orc-controlled lands of Azeroth. Lothar's forces surrounded the orcs' volcanic citadel of Blackrock Spire and laid siege to their defenses.
+	`text_loc4`='联盟军队在三位最高指挥官安杜因·洛萨爵士、光之使徒乌瑟、以及迪林·普罗德摩尔上将领导下，将那些兽人逐往艾泽拉斯南方焦土──灭于兽人之手的第一王国遗址。$B$B最终，在洛萨爵士率领下，联盟军将末日锤麾下诸氏族逐出洛丹伦，赶回兽人在艾泽拉斯大陆上，原先控制的区域。而洛萨的军队则一直追击兽人，直到他们退回兽人的主城黑石塔，在那里，双方进行了最后一次攻防战。'	-- The Alliance armies led by Sir Anduin Lothar, Uther the Lightbringer, and Admiral Daelin Proudmoore pushed the orcs south into the shattered land of Azeroth - the first kingdom to fall before the orcs' ruthless onslaught.$B$B$B$BThe Alliance forces under Sir Lothar managed to push Doomhammer's clans out of Lordaeron and back into the orc-controlled lands of Azeroth. Lothar's forces surrounded the orcs' volcanic citadel of Blackrock Spire and laid siege to their defenses.
 WHERE `entry`=628;
 
 UPDATE `locales_page_text` SET
@@ -1639,7 +1639,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=629;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='图拉扬，洛萨最信任的副官，拾起洛萨沾满鲜血的盾牌，重新召集了悲痛欲绝的同袍，展开背水一战。坟墓遍布艾泽拉斯与罗德隆全境，图拉扬的军队最终在一次正面战斗中，击溃了末日锤最后的残余部队，带着光荣与鲜血，取得了最后的胜利。'	-- Turalyon, Lothar's most trusted lieutenant, took up Lothar's bloodstained shield and rallied his grief-stricken brethren for a vicious counterattack. Under the ragged standards of both Lordaeron and Azeroth, Turalyon's troops slaughtered the bulk of Doomhammer's remaining forces in a glorious, but terrible rout.
+	`text_loc4`='图拉扬，洛萨最信任的副官，拾起洛萨沾满鲜血的盾牌，重新召集了悲痛欲绝的同袍，展开背水一战。坟墓遍布艾泽拉斯与洛丹伦全境，图拉扬的军队最终在一次正面战斗中，击溃了末日锤最后的残余部队，带着光荣与鲜血，取得了最后的胜利。'	-- Turalyon, Lothar's most trusted lieutenant, took up Lothar's bloodstained shield and rallied his grief-stricken brethren for a vicious counterattack. Under the ragged standards of both Lordaeron and Azeroth, Turalyon's troops slaughtered the bulk of Doomhammer's remaining forces in a glorious, but terrible rout.
 WHERE `entry`=630;
 
 UPDATE `locales_page_text` SET
@@ -1647,7 +1647,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=631;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='兽人的数量远少于联盟，而且他们的脑海，已彻底被伴随复仇而生的嗜血之诅咒所占据，于是，兽人无可避免地，倒在愤怒的联盟军脚下。末日锤被俘虏了，并被押往罗德隆，但他手下的各氏族，此时却又重新在北方聚集起来，他们回到了罗德隆大陆。'	-- Outnumbered and driven mad by the curse of their bloodlust, the orcs inevitably fell before the wrath of the Alliance. Doomhammer was taken prisoner and escorted to Lordaeron while his broken clans were rounded up and hauled north - back to Lordaeron.
+	`text_loc4`='兽人的数量远少于联盟，而且他们的脑海，已彻底被伴随复仇而生的嗜血之诅咒所占据，于是，兽人无可避免地，倒在愤怒的联盟军脚下。末日锤被俘虏了，并被押往洛丹伦，但他手下的各氏族，此时却又重新在北方聚集起来，他们回到了洛丹伦大陆。'	-- Outnumbered and driven mad by the curse of their bloodlust, the orcs inevitably fell before the wrath of the Alliance. Doomhammer was taken prisoner and escorted to Lordaeron while his broken clans were rounded up and hauled north - back to Lordaeron.
 WHERE `entry`=632;
 
 UPDATE `locales_page_text` SET
@@ -1655,7 +1655,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=633;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='得知耐祖奥再次计划侵略联盟，罗德隆国王特雷纳斯派出大军远征德拉诺，以一劳永逸地彻底铲除兽人势力，根绝其对艾泽拉斯的任何威胁。在大法师卡德加与大将军图拉扬的领导下，联盟军在燃烧之地彻底地击败了兽人。然而，尽管有精灵游侠艾兰里亚与矮人库尔丹麾下的精锐部队加盟联盟军，卡德加仍未能阻止耐祖奥打开传送门，并逃到其他大陆去。'	-- Convinced that Ner'zhul was planning a new offensive against the Alliance, King Terenas of Lordaeron sent his armies into Draenor to end the orcish threat once and for all. Led by Khadgar and General Turalyon, the Alliance forces clashed with the orcs across the burning landscape. Even with the aid of the elven Ranger Alleria, the dwarf Kurdran and the veteran soldier Danath, Khadgar was unable to prevent Ner'zhul from opening his portals to other worlds.
+	`text_loc4`='得知耐祖奥再次计划侵略联盟，洛丹伦国王特雷纳斯派出大军远征德拉诺，以一劳永逸地彻底铲除兽人势力，根绝其对艾泽拉斯的任何威胁。在大法师卡德加与大将军图拉扬的领导下，联盟军在燃烧之地彻底地击败了兽人。然而，尽管有精灵游侠艾兰里亚与矮人库尔丹麾下的精锐部队加盟联盟军，卡德加仍未能阻止耐祖奥打开传送门，并逃到其他大陆去。'	-- Convinced that Ner'zhul was planning a new offensive against the Alliance, King Terenas of Lordaeron sent his armies into Draenor to end the orcish threat once and for all. Led by Khadgar and General Turalyon, the Alliance forces clashed with the orcs across the burning landscape. Even with the aid of the elven Ranger Alleria, the dwarf Kurdran and the veteran soldier Danath, Khadgar was unable to prevent Ner'zhul from opening his portals to other worlds.
 WHERE `entry`=634;
 
 UPDATE `locales_page_text` SET
@@ -1667,7 +1667,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=636;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在第一次兽人战争的一万年以前，艾泽拉斯世界上的所有文明，都孕育于一片为怒涛包围的广袤大陆。而当时的卡林多大陆上，有些奇异的种族和生物，为了生存，它们与这片初醒之地的蛮荒条件搏斗着。在这片黑暗大陆的中心，有个汹涌着炽热能量的神秘湖泊。'	-- Ten thousand years before the orcs and humans clashed in their First War, the world of Azeroth cradled only one massive continent surrounded by the infinite, raging seas. That land mass, known as Kalimdor, was home to a number of disparate races and creatures, all vying for survival amongst the savage elements of the waking world. At the dark continent's center was a mysterious lake of incandescent energies. 
+	`text_loc4`='在第一次兽人战争的一万年以前，艾泽拉斯世界上的所有文明，都孕育于一片为怒涛包围的广袤大陆。而当时的卡利姆多大陆上，有些奇异的种族和生物，为了生存，它们与这片初醒之地的蛮荒条件搏斗着。在这片黑暗大陆的中心，有个汹涌着炽热能量的神秘湖泊。'	-- Ten thousand years before the orcs and humans clashed in their First War, the world of Azeroth cradled only one massive continent surrounded by the infinite, raging seas. That land mass, known as Kalimdor, was home to a number of disparate races and creatures, all vying for survival amongst the savage elements of the waking world. At the dark continent's center was a mysterious lake of incandescent energies. 
 WHERE `entry`=637;
 
 UPDATE `locales_page_text` SET
@@ -1675,11 +1675,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=638;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='这个当时尚未开化、过着游牧生活的类人生物族群，被井中的奇异能量所吸引而来，在宁静的岸上建立永久性的居所。日复一日，受到井中大宇宙力量的潜移默化，他们更加强壮、睿智并获得不朽的生命。这个部族自称为卡多雷，在他们的语言中意为「星辰之子」。为了庆贺文明的诞生，他们沿着湖泊建起雄伟的居所与庙宇。'	-- The feral, nomadic humanoids, drawn by the Well's strange energies, built crude homes upon its tranquil shores. Over time, the Well's cosmic power affected the strange tribe, making them strong, wise and virtually immortal. The tribe adopted the name Kaldorei, which meant -children of the stars- in their native tongue. To celebrate their budding society, they constructed great structures and temples around the lake's periphery. 
+	`text_loc4`='这个当时尚未开化、过着游牧生活的类人生物族群，被井中的奇异能量所吸引而来，在宁静的岸上建立永久性的居所。日复一日，受到井中大宇宙力量的潜移默化，他们更加强壮、睿智并获得不朽的生命。这个部族自称为卡多雷，在他们的语言中意为“星辰之子”。为了庆贺文明的诞生，他们沿着湖泊建起雄伟的居所与庙宇。'	-- The feral, nomadic humanoids, drawn by the Well's strange energies, built crude homes upon its tranquil shores. Over time, the Well's cosmic power affected the strange tribe, making them strong, wise and virtually immortal. The tribe adopted the name Kaldorei, which meant -children of the stars- in their native tongue. To celebrate their budding society, they constructed great structures and temples around the lake's periphery. 
 WHERE `entry`=639;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='卡多雷，或称呼他们为暗夜精灵，崇拜月神伊露恩。他们相信她白天就睡在井中心闪耀之处。受井中所蕴涵的秘密与魔力吸引，早期的暗夜精灵祭司和先知总是对井充满好奇，并孜孜不倦地研究它。随着社会的发展，暗夜精灵逐渐认识辽阔卡林多大陆的其余地区，也发现了于其上生育繁衍的无数居民。'	-- The Kaldorei, or night elves as they would later be known, worshipped the moon goddess, Elune, and believed that she slept within the Well's shimmering depths during the daylight hours. The early night elf priests and seers studied the Well with an insatiable curiosity, driven to plumb its untold secrets and power. As their society grew, the night elves explored the breadth of Kalimdor and encountered its myriad denizens. 
+	`text_loc4`='卡多雷，或称呼他们为暗夜精灵，崇拜月神艾露恩。他们相信她白天就睡在井中心闪耀之处。受井中所蕴涵的秘密与魔力吸引，早期的暗夜精灵祭司和先知总是对井充满好奇，并孜孜不倦地研究它。随着社会的发展，暗夜精灵逐渐认识辽阔卡利姆多大陆的其余地区，也发现了于其上生育繁衍的无数居民。'	-- The Kaldorei, or night elves as they would later be known, worshipped the moon goddess, Elune, and believed that she slept within the Well's shimmering depths during the daylight hours. The early night elf priests and seers studied the Well with an insatiable curiosity, driven to plumb its untold secrets and power. As their society grew, the night elves explored the breadth of Kalimdor and encountered its myriad denizens. 
 WHERE `entry`=640;
 
 UPDATE `locales_page_text` SET
@@ -1687,7 +1687,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=641;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='无疑，正是暗夜精灵的好奇心，使他们和具有强大能力的神祗们相遇，并且成为了好朋友。例如塞纳留斯，一位在原始森林中颇有势力的半神。塞纳留斯很喜欢这些好奇的暗夜精灵，并花了许多时间教他们认识这个美丽而富饶的大自然。天性喜好宁静的卡多雷也对卡林多的森林产生了共鸣一般的感觉，并为大自然的和谐感到欣喜。'	-- In time, the night elves' curiosity led them to meet and befriend a number of powerful entities, not the least of which was Cenarius, a mighty demi-god of the primordial forestlands. The great-hearted Cenarius grew fond of the inquisitive night elves and spent a great deal of time teaching them about the natural world. The tranquil Kaldorei developed a strong empathy for the living forests of Kalimdor and reveled in the harmonious balance of nature. 
+	`text_loc4`='无疑，正是暗夜精灵的好奇心，使他们和具有强大能力的神祗们相遇，并且成为了好朋友。例如塞纳留斯，一位在原始森林中颇有势力的半神。塞纳留斯很喜欢这些好奇的暗夜精灵，并花了许多时间教他们认识这个美丽而富饶的大自然。天性喜好宁静的卡多雷也对卡利姆多的森林产生了共鸣一般的感觉，并为大自然的和谐感到欣喜。'	-- In time, the night elves' curiosity led them to meet and befriend a number of powerful entities, not the least of which was Cenarius, a mighty demi-god of the primordial forestlands. The great-hearted Cenarius grew fond of the inquisitive night elves and spent a great deal of time teaching them about the natural world. The tranquil Kaldorei developed a strong empathy for the living forests of Kalimdor and reveled in the harmonious balance of nature. 
 WHERE `entry`=642;
 
 UPDATE `locales_page_text` SET
@@ -1695,7 +1695,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=643;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='她最宠信的那些仆人被唤作「奎尔多雷」，或唤作贵族，他们只对她一人效忠，未曾违背她的任何旨意，并相信他们比其他低阶暗夜精灵同胞要重要。尽管阿斯萨拉女王受所有暗夜精灵爱戴，但贵族们却被某些抱着妒意的族人所嫉恨着。$B$B贵族与祭司们都对永恒之井充满了好奇，阿斯萨拉女王也乐得命令这些贵族，与祭司一同研究井中奥秘，揭露它与世界的真正联系。'	-- Her servitors, whom she called the Quel'dorei or -high-borne,- doted on her every command and believed themselves to be greater than the rest of their lower-caste brethren. Though Queen Azshara was loved equally by all of her people, the high-borne were secretly hated by the jealous masses. Sharing the priests' curiosity towards the Well of Eternity, Azshara ordered the educated high-borne to plumb its secrets and reveal its true purpose in the world. 
+	`text_loc4`='她最宠信的那些仆人被唤作“奎尔多雷”，或唤作贵族，他们只对她一人效忠，未曾违背她的任何旨意，并相信他们比其他低阶暗夜精灵同胞要重要。尽管阿斯萨拉女王受所有暗夜精灵爱戴，但贵族们却被某些抱着妒意的族人所嫉恨着。$B$B贵族与祭司们都对永恒之井充满了好奇，阿斯萨拉女王也乐得命令这些贵族，与祭司一同研究井中奥秘，揭露它与世界的真正联系。'	-- Her servitors, whom she called the Quel'dorei or -high-borne,- doted on her every command and believed themselves to be greater than the rest of their lower-caste brethren. Though Queen Azshara was loved equally by all of her people, the high-borne were secretly hated by the jealous masses. Sharing the priests' curiosity towards the Well of Eternity, Azshara ordered the educated high-borne to plumb its secrets and reveal its true purpose in the world. 
 WHERE `entry`=644;
 
 UPDATE `locales_page_text` SET
@@ -1723,7 +1723,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=650;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='艾泽拉斯大陆上的不死生物，并非阿尔萨斯王子堕落的衍生物，他们的诞生还可以追溯到更早。罗德隆大陆的沦陷，在很早以前就埋下了祸根；它在兽人诸氏族及燃烧军团来到大陆时就开始了。'	-- The undead's beginnings upon Azeroth did not truly begin with the corruption of Prince Arthas-it began long before that event. The events that brought downfall of Lordaeron were long set in motion before that point; it began with the coming of the orcish clans and the Burning Legion.
+	`text_loc4`='艾泽拉斯大陆上的不死生物，并非阿尔萨斯王子堕落的衍生物，他们的诞生还可以追溯到更早。洛丹伦大陆的沦陷，在很早以前就埋下了祸根；它在兽人诸氏族及燃烧军团来到大陆时就开始了。'	-- The undead's beginnings upon Azeroth did not truly begin with the corruption of Prince Arthas-it began long before that event. The events that brought downfall of Lordaeron were long set in motion before that point; it began with the coming of the orcish clans and the Burning Legion.
 WHERE `entry`=669;
 
 UPDATE `locales_page_text` SET
@@ -1759,23 +1759,23 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=677;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='一段时间过去了。在这段时间中，巫妖王利用他强大的法力，控制了诺森德大陆上所有生物的心智，强迫它们在他的冰封王座周围，建立一座规模庞大的根据地。如今，诺森德大陆已完全纳入巫妖王麾下，耐祖奥也已决定，他的下个目标，是罗德隆大陆。由于被封在冰中而不能自由行动，这位前兽人萨满，开始寻找更多可供他操纵与摆布的思想。他的诱惑与召唤已跨越大海，遍及各个大陆。'	-- Over a decade passed. During this time, the Lich King used his vast powers to gain control over the minds of the creatures of Northrend, whom he commanded to erect a great citadel over his frozen throne. Now that all of Northrend was under his domination, the Lich King knew he needed to begin his infiltration of Lordaeron. Trapped within the ice, the former orc shaman began seeking more minds to manipulate and control. His call reached out across the continents.
+	`text_loc4`='一段时间过去了。在这段时间中，巫妖王利用他强大的法力，控制了诺森德大陆上所有生物的心智，强迫它们在他的冰封王座周围，建立一座规模庞大的根据地。如今，诺森德大陆已完全纳入巫妖王麾下，耐祖奥也已决定，他的下个目标，是洛丹伦大陆。由于被封在冰中而不能自由行动，这位前兽人萨满，开始寻找更多可供他操纵与摆布的思想。他的诱惑与召唤已跨越大海，遍及各个大陆。'	-- Over a decade passed. During this time, the Lich King used his vast powers to gain control over the minds of the creatures of Northrend, whom he commanded to erect a great citadel over his frozen throne. Now that all of Northrend was under his domination, the Lich King knew he needed to begin his infiltration of Lordaeron. Trapped within the ice, the former orc shaman began seeking more minds to manipulate and control. His call reached out across the continents.
 WHERE `entry`=678;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='无人能忽视巫妖王的召唤，这一点在一小撮拥有着强大力量的人群中尤其明显。在这其中，有一人特别值得一提，达拉然法师执政团－肯瑞托中的重要一员，大法师科尔苏加德。他热衷于追寻，包括黑魔法在内的各种魔法，甚至不惜为此违反肯瑞托的政策。科尔苏加德为了从巫妖王那里，得到强大的力量，而不顾肯瑞托的禁止，切断与故乡所有人的联系，来到巫妖王的身边。'	-- The Lich King's summons did not go unnoticed, especially by a small handful of powerful individuals. Among them was the Archmage Kel'Thuzad, who was a powerful member of the ruling body of Dalaran, the Kirin Tor. His pursuit of all types of magic violated the Kirin Tor's policies against learning dark magics. Kel'Thuzad abandoned the Kirin Tor and all his ties to conventional thought and vowed to learn as much as he could from the Lich King.
+	`text_loc4`='无人能忽视巫妖王的召唤，这一点在一小撮拥有着强大力量的人群中尤其明显。在这其中，有一人特别值得一提，达拉然法师执政团－肯瑞托中的重要一员，大法师克尔苏加德。他热衷于追寻，包括黑魔法在内的各种魔法，甚至不惜为此违反肯瑞托的政策。克尔苏加德为了从巫妖王那里，得到强大的力量，而不顾肯瑞托的禁止，切断与故乡所有人的联系，来到巫妖王的身边。'	-- The Lich King's summons did not go unnoticed, especially by a small handful of powerful individuals. Among them was the Archmage Kel'Thuzad, who was a powerful member of the ruling body of Dalaran, the Kirin Tor. His pursuit of all types of magic violated the Kirin Tor's policies against learning dark magics. Kel'Thuzad abandoned the Kirin Tor and all his ties to conventional thought and vowed to learn as much as he could from the Lich King.
 WHERE `entry`=679;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='于是，两人之间签下一份合约。科尔苏加德以对巫妖王的效忠，换取不朽的生命与无穷的力量。而科尔苏加德第一个任务，即利用他在财产与影响力，在罗德隆大陆上，建立一个宗教──诅咒教派。这个邪教向其信徒承诺，只要宣誓永远追随与崇拜诅咒教派的神──耐祖奥，他们将得到平等的对待与永恒的生命。'	-- A pact was struck between the two. Kel'Thuzad would receive immortality and immense power in return for servitude to the Lich King. Kel'Thuzad's first task was to use his wealth and influence in Lordaeron to found the Cult of the Damned. The Cult promised equality and eternal life to all its members as long as they swore an oath to Ner'zhul, the god of the Cult of the Damned.
+	`text_loc4`='于是，两人之间签下一份合约。克尔苏加德以对巫妖王的效忠，换取不朽的生命与无穷的力量。而克尔苏加德第一个任务，即利用他在财产与影响力，在洛丹伦大陆上，建立一个宗教──诅咒教派。这个邪教向其信徒承诺，只要宣誓永远追随与崇拜诅咒教派的神──耐祖奥，他们将得到平等的对待与永恒的生命。'	-- A pact was struck between the two. Kel'Thuzad would receive immortality and immense power in return for servitude to the Lich King. Kel'Thuzad's first task was to use his wealth and influence in Lordaeron to found the Cult of the Damned. The Cult promised equality and eternal life to all its members as long as they swore an oath to Ner'zhul, the god of the Cult of the Damned.
 WHERE `entry`=680;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='耐祖奥随后造出了一种器物，用以向罗德隆大陆上的人类散布瘟疫，并将这些器物交给科尔苏加德。他命令巫师将瘟疫传遍大陆。而他的信徒们，则必须不计代价地保护这些器物，以便传播行动的进行。'	-- Ner'zhul then created artifacts that were designed to spread the plague among the human civilizations of Lordaeron. He gave them to Kel'Thuzad, and ordered the wizard to spread them across the land. His Cult followers were to protect the artifacts at all costs.
+	`text_loc4`='耐祖奥随后造出了一种器物，用以向洛丹伦大陆上的人类散布瘟疫，并将这些器物交给克尔苏加德。他命令巫师将瘟疫传遍大陆。而他的信徒们，则必须不计代价地保护这些器物，以便传播行动的进行。'	-- Ner'zhul then created artifacts that were designed to spread the plague among the human civilizations of Lordaeron. He gave them to Kel'Thuzad, and ordered the wizard to spread them across the land. His Cult followers were to protect the artifacts at all costs.
 WHERE `entry`=681;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='一旦进入适当的地区，瘟疫病毒便会渗入地表，然后在无辜的市民间传播开来。在科尔苏加德的执行下，巫妖王的军队迅速壮大，并控制了罗德隆的大部分土地。这支军队就是天谴军团，它的唯一目标，就是令艾泽拉斯大陆上的人类彻底灭绝。'	-- Once in place, the plague began to seep into the land and affect its ignorant citizens. As Kel'Thuzad watched, the Lich King's army grew quickly and he soon gained control over large portions of the land. This army became known as the Scourge, for its sole purpose was to scour humanity from all of Azeroth.
+	`text_loc4`='一旦进入适当的地区，瘟疫病毒便会渗入地表，然后在无辜的市民间传播开来。在克尔苏加德的执行下，巫妖王的军队迅速壮大，并控制了洛丹伦的大部分土地。这支军队就是天灾军团，它的唯一目标，就是令艾泽拉斯大陆上的人类彻底灭绝。'	-- Once in place, the plague began to seep into the land and affect its ignorant citizens. As Kel'Thuzad watched, the Lich King's army grew quickly and he soon gained control over large portions of the land. This army became known as the Scourge, for its sole purpose was to scour humanity from all of Azeroth.
 WHERE `entry`=682;
 
 UPDATE `locales_page_text` SET
@@ -1783,11 +1783,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=689;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='墓碑上被潦草地刻上了「叛徒」这两个字，除此之外，碑文还清晰可见：$B$B尤瑞夫安眠于此。$B挚爱的父亲，丈夫，圣骑士。$B以生命及躯体奉献予圣光之士。$B亦未曾强人以其不欲之事。'	-- The word BETRAYER is crudely scratched over the finely etched epitaph that reads:Yuriv lies here.Father, Husband, Paladin.Let his children bear witness to the fact that his dedication to the Light was unquestionable.He would never ask anything of them that he himself would not do.
+	`text_loc4`='墓碑上被潦草地刻上了“叛徒”这两个字，除此之外，碑文还清晰可见：$B$B尤瑞夫安眠于此。$B挚爱的父亲，丈夫，圣骑士。$B以生命及躯体奉献予圣光之士。$B亦未曾强人以其不欲之事。'	-- The word BETRAYER is crudely scratched over the finely etched epitaph that reads:Yuriv lies here.Father, Husband, Paladin.Let his children bear witness to the fact that his dedication to the Light was unquestionable.He would never ask anything of them that he himself would not do.
 WHERE `entry`=690;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='墓碑上被潦草地刻上了「叛徒」这两个字，除此之外，碑文还清晰可见：$B$B尤瑞夫安眠于此。$B挚爱的父亲，丈夫，圣骑士。$B以生命及躯体奉献予圣光之士。$B亦未曾强人以其不欲之事。'	-- The word BETRAYER is crudely scratched over the finely etched epitaph that reads: Yuriv lies here. Father, Husband, Paladin. Let his children bear witness to the fact that his dedication to the Light was unquestionable. He would never ask anything of them that he himself would not do. 
+	`text_loc4`='墓碑上被潦草地刻上了“叛徒”这两个字，除此之外，碑文还清晰可见：$B$B尤瑞夫安眠于此。$B挚爱的父亲，丈夫，圣骑士。$B以生命及躯体奉献予圣光之士。$B亦未曾强人以其不欲之事。'	-- The word BETRAYER is crudely scratched over the finely etched epitaph that reads: Yuriv lies here. Father, Husband, Paladin. Let his children bear witness to the fact that his dedication to the Light was unquestionable. He would never ask anything of them that he himself would not do. 
 WHERE `entry`=695;
 
 UPDATE `locales_page_text` SET
@@ -1935,7 +1935,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=832;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='烧焦的奇美拉角：$B$B与烧焦的蜘蛛牙类似，卡林多石爪山地区的焦炭谷中有许多奇美拉，它们身上的烧焦的奇美拉角也有着惊人的高品质。$B$B只要把它敲平并进行妥善的处理，它就将是最具延展性的上好材料。'	-- Charred Horns:$B$BMuch like the scorched spider fangs, the charred horns of the chimaera that reside in the Charred Vale, in the Stonetalon Mountains on Kalimdor, possess a much-prized quality. $B$BPounded flat and properly treated, they become extremely resilient to physical stress.
+	`text_loc4`='烧焦的奇美拉角：$B$B与烧焦的蜘蛛牙类似，卡利姆多石爪山地区的焦炭谷中有许多奇美拉，它们身上的烧焦的奇美拉角也有着惊人的高品质。$B$B只要把它敲平并进行妥善的处理，它就将是最具延展性的上好材料。'	-- Charred Horns:$B$BMuch like the scorched spider fangs, the charred horns of the chimaera that reside in the Charred Vale, in the Stonetalon Mountains on Kalimdor, possess a much-prized quality. $B$BPounded flat and properly treated, they become extremely resilient to physical stress.
 WHERE `entry`=833;
 
 UPDATE `locales_page_text` SET
@@ -1955,7 +1955,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=851;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='烧焦的奇美拉角：$B$B与烧焦的蜘蛛牙类似，卡林多石爪山地区的焦炭谷中有许多奇美拉，它们身上的烧焦的奇美拉角也有着惊人的高品质。$B$B只要把它敲平并进行妥善的处理，它就将是最具延展性的上好材料。'	-- Charred Horns:Much like the scorched spider fangs, the charred horns of the chimaera that reside in the Charred Vale, in the Stonetalon Mountains on Kalimdor, possess a much-prized quality.  Pounded flat and properly treated, they become extremely resilient to physical stress.
+	`text_loc4`='烧焦的奇美拉角：$B$B与烧焦的蜘蛛牙类似，卡利姆多石爪山地区的焦炭谷中有许多奇美拉，它们身上的烧焦的奇美拉角也有着惊人的高品质。$B$B只要把它敲平并进行妥善的处理，它就将是最具延展性的上好材料。'	-- Charred Horns:Much like the scorched spider fangs, the charred horns of the chimaera that reside in the Charred Vale, in the Stonetalon Mountains on Kalimdor, possess a much-prized quality.  Pounded flat and properly treated, they become extremely resilient to physical stress.
 WHERE `entry`=852;
 
 UPDATE `locales_page_text` SET
@@ -2047,7 +2047,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=951;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='星辰的孩子已经在永恒之井闪光的湖水边定居了很久。众所周知，象征永恒曙光的伊露恩在就在这水中休憩。岸边住着星辰的孩子们，伊露恩眷顾着他们，给他们安家，而他们也总在夜晚虔诚地凝望月空。'	-- The Lay of Ameth'AranLong had the children of the stars dwelled upon the banks of the shimmering waters of the eternal well. To all was known that Elune, Light of the Eternal Twilight, Aspect and Goddess of the Moon, dwelt within its waters at such time that she rested from her works. Upon the shores of the well did the children of the stars, favored of elune, build their homes. Even as their gaze was trained ever skyward, into the moonlit night.
+	`text_loc4`='星辰的孩子已经在永恒之井闪光的湖水边定居了很久。众所周知，象征永恒曙光的艾露恩在就在这水中休憩。岸边住着星辰的孩子们，艾露恩眷顾着他们，给他们安家，而他们也总在夜晚虔诚地凝望月空。'	-- The Lay of Ameth'AranLong had the children of the stars dwelled upon the banks of the shimmering waters of the eternal well. To all was known that Elune, Light of the Eternal Twilight, Aspect and Goddess of the Moon, dwelt within its waters at such time that she rested from her works. Upon the shores of the well did the children of the stars, favored of elune, build their homes. Even as their gaze was trained ever skyward, into the moonlit night.
 WHERE `entry`=953;
 
 UPDATE `locales_page_text` SET
@@ -2207,7 +2207,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1212;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='我们所有的地鼠都经过严格训练，您只需简单地挥动指挥棒，就可以让身旁的地鼠进入「搜索状态」。它会用嗅觉搜寻蓝叶薯，并会自己去把它挖出来。$B$B如果您在地鼠搜索蓝叶薯的时候再次挥舞指挥棒，那么它就会停止搜索，回到您的身边。$B$B我们相信您一定会发现我们的地鼠都是经过严格训练的搜寻专家，实乃居家旅行、发财致富的必备伴侣！'	-- All of our gophers are highly trained, and merely waving your command stick will send a nearby gopher into "search mode."  The gopher will then sniff for a tuber and if he smells one, he'll move toward it and dig it up.If you wave the command stick again while the gopher is searching for a tuber, then it will stop its search and happily return to your side.We are confident that you'll find our gophers well trained, useful and squeezably soft additions to your party!
+	`text_loc4`='我们所有的地鼠都经过严格训练，您只需简单地挥动指挥棒，就可以让身旁的地鼠进入“搜索状态”。它会用嗅觉搜寻蓝叶薯，并会自己去把它挖出来。$B$B如果您在地鼠搜索蓝叶薯的时候再次挥舞指挥棒，那么它就会停止搜索，回到您的身边。$B$B我们相信您一定会发现我们的地鼠都是经过严格训练的搜寻专家，实乃居家旅行、发财致富的必备伴侣！'	-- All of our gophers are highly trained, and merely waving your command stick will send a nearby gopher into "search mode."  The gopher will then sniff for a tuber and if he smells one, he'll move toward it and dig it up.If you wave the command stick again while the gopher is searching for a tuber, then it will stop its search and happily return to your side.We are confident that you'll find our gophers well trained, useful and squeezably soft additions to your party!
 WHERE `entry`=1213;
 
 UPDATE `locales_page_text` SET
@@ -2227,7 +2227,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1270;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='工程学分支$B$B也许「哪个种族首先在艾泽拉斯大陆，开创了工程学这门学科？」的问题在学术界依然没有定论，但是对于支撑工程学的两大重要支柱，想必大家都有共识──那就是侏儒和地精。他们所创造的工程学发明不仅给这个魔法时代添加了许多色彩，而且还使两个种族之间的争端进一步加剧。他们两个种族的分歧在这一点上显得尤其突出。'	-- The Engineering Disciplines$B$BWhile it is arguable which race first devised the science of engineering on Azeroth, there is little argument as to which races are the main proponents of it in modern times: the gnomes and the goblins.  Their dedication to engineering as a collective whole has not only fueled fantastic inventions in what is arguably a magical Age of Invention, but it also fueled their intense racial rivalry.  Nowhere is this more evident than in their divergent disciplines. 
+	`text_loc4`='工程学分支$B$B也许“哪个种族首先在艾泽拉斯大陆，开创了工程学这门学科？”的问题在学术界依然没有定论，但是对于支撑工程学的两大重要支柱，想必大家都有共识──那就是侏儒和地精。他们所创造的工程学发明不仅给这个魔法时代添加了许多色彩，而且还使两个种族之间的争端进一步加剧。他们两个种族的分歧在这一点上显得尤其突出。'	-- The Engineering Disciplines$B$BWhile it is arguable which race first devised the science of engineering on Azeroth, there is little argument as to which races are the main proponents of it in modern times: the gnomes and the goblins.  Their dedication to engineering as a collective whole has not only fueled fantastic inventions in what is arguably a magical Age of Invention, but it also fueled their intense racial rivalry.  Nowhere is this more evident than in their divergent disciplines. 
 WHERE `entry`=1271;
 
 UPDATE `locales_page_text` SET
@@ -2247,11 +2247,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1275;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='引用$B$B「你想要了解更多关于地精工程学的东西？那就问问我们最优秀、最聪明的工程师吧──我想他的名字应该是努比·斯塔普芬格斯。想要知道他为什么叫这个名字吗？这就是地精工程学！」-- 林格·特拉格迪克，地精工程师$B$B「如果你想要知道什么就直说，但是我会告诉你：我们有爆裂物！」$B-- 雅兹·尼托斯伯克，地精投弹手'	-- Quotes$B$B"You want to know about goblin engineering?  Try asking one of their best and brightest engineers about it - I think his name is 'Nubby Stumpfingers'.  Want to know why he's named that?  THAT'S goblin engineering."$B-- Ringo Tragediction, gnome engineer$B$B"Say what you want about us goblins, but I will tell you this: WE HAVE EXPLOSIVES!"$B-- Yazz Nitrospork, goblin bombardier 
+	`text_loc4`='引用$B$B“你想要了解更多关于地精工程学的东西？那就问问我们最优秀、最聪明的工程师吧──我想他的名字应该是努比·斯塔普芬格斯。想要知道他为什么叫这个名字吗？这就是地精工程学！”-- 林格·特拉格迪克，地精工程师$B$B“如果你想要知道什么就直说，但是我会告诉你：我们有爆裂物！”$B-- 雅兹·尼托斯伯克，地精投弹手'	-- Quotes$B$B"You want to know about goblin engineering?  Try asking one of their best and brightest engineers about it - I think his name is 'Nubby Stumpfingers'.  Want to know why he's named that?  THAT'S goblin engineering."$B-- Ringo Tragediction, gnome engineer$B$B"Say what you want about us goblins, but I will tell you this: WE HAVE EXPLOSIVES!"$B-- Yazz Nitrospork, goblin bombardier 
 WHERE `entry`=1276;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='更多引用！$B$B「完成某件超强的发明并亲身感受它的力量，你知道这样的感觉是多么美妙吗？侏儒可不知道。」$B-- 尼克斯·斯普克斯宾，加基森高级工程师$B$B「工程学就是让幻想变得更加奇妙的东西！」$B-- 洛维斯，侏儒发明家'	-- More Quotes!$B$B"Know that feeling you get when you finish making something and turn it on for the first time to experience the power and joy of invention as your device springs to life?  Gnomes don't."$B-- Nixx Sprocketspring, Master Goblin Engineer of Gadgetzan$B$B"Engineering is about taking fantasy and making it fantastic!"$B-- Rovis McCrankenspank, gnome inventor
+	`text_loc4`='更多引用！$B$B“完成某件超强的发明并亲身感受它的力量，你知道这样的感觉是多么美妙吗？侏儒可不知道。”$B-- 尼克斯·斯普克斯宾，加基森高级工程师$B$B“工程学就是让幻想变得更加奇妙的东西！”$B-- 洛维斯，侏儒发明家'	-- More Quotes!$B$B"Know that feeling you get when you finish making something and turn it on for the first time to experience the power and joy of invention as your device springs to life?  Gnomes don't."$B-- Nixx Sprocketspring, Master Goblin Engineer of Gadgetzan$B$B"Engineering is about taking fantasy and making it fantastic!"$B-- Rovis McCrankenspank, gnome inventor
 WHERE `entry`=1277;
 
 UPDATE `locales_page_text` SET
@@ -2267,7 +2267,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1293;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='更多引用！$B$B「完成某件超强的发明并亲身感受它的力量，你知道这样的感觉是多么美妙吗？侏儒可不知道。」$B-- 尼克斯·斯普克斯宾，加基森高级工程师$B$B「工程学就是让幻想变得更加奇妙的东西！」$B-- 洛维斯，侏儒发明家'	-- More Quotes!$B$B"Know that feeling you get when you finish making something and turn it on for the first time to experience the power and joy of invention as your device springs to life?  Gnomes don't."$B-- Nixx Sprocketspring, Master Goblin Engineer of Gadgetzan$B$B"Engineering is about taking fantasy and making it fantastic!"$B-- Rovis McCrankenspank, gnome inventor 
+	`text_loc4`='更多引用！$B$B“完成某件超强的发明并亲身感受它的力量，你知道这样的感觉是多么美妙吗？侏儒可不知道。”$B-- 尼克斯·斯普克斯宾，加基森高级工程师$B$B“工程学就是让幻想变得更加奇妙的东西！”$B-- 洛维斯，侏儒发明家'	-- More Quotes!$B$B"Know that feeling you get when you finish making something and turn it on for the first time to experience the power and joy of invention as your device springs to life?  Gnomes don't."$B-- Nixx Sprocketspring, Master Goblin Engineer of Gadgetzan$B$B"Engineering is about taking fantasy and making it fantastic!"$B-- Rovis McCrankenspank, gnome inventor 
 WHERE `entry`=1310;
 
 UPDATE `locales_page_text` SET
@@ -2283,11 +2283,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1313;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='任何一个有智慧的生物找到这张便笺的时候，他们都一定会自问道：「为什么他们会去招惹具有暴力倾向的30尺高的巨人呢？」$B$B-- 穆克'	-- Should any manner of intelligent life find this note, they must ask themselves something: "Why in the hell are they romping around with violent thirty foot tall giants?"- Mook
+	`text_loc4`='任何一个有智慧的生物找到这张便笺的时候，他们都一定会自问道：“为什么他们会去招惹具有暴力倾向的30尺高的巨人呢？”$B$B-- 穆克'	-- Should any manner of intelligent life find this note, they must ask themselves something: "Why in the hell are they romping around with violent thirty foot tall giants?"- Mook
 WHERE `entry`=1314;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='任何一个有智慧的生物找到这张便笺的时候，他们都一定会自问道：「为什么他们会去招惹具有暴力倾向的30尺高的巨人呢？」$B$B-- 穆克'	-- Should any manner of intelligent life find this note, they must ask themselves something: "Why in the hell are they romping around with violent thirty foot tall giants?" - Mook 
+	`text_loc4`='任何一个有智慧的生物找到这张便笺的时候，他们都一定会自问道：“为什么他们会去招惹具有暴力倾向的30尺高的巨人呢？”$B$B-- 穆克'	-- Should any manner of intelligent life find this note, they must ask themselves something: "Why in the hell are they romping around with violent thirty foot tall giants?" - Mook 
 WHERE `entry`=1330;
 
 -- UPDATE `locales_page_text` SET
@@ -2555,11 +2555,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1730;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='罗德隆的最后一位国王，泰瑞纳斯·米奈希尔二世在此长眠。$B$B他的一生做出了无数伟大的功绩，他的陨落令人扼腕叹息。$B$B         「愿这位父王宽恕其子嗣所做的一切。$B          愿血染的王冠永远被遗失和忘却。」'	-- Here lies King Terenas Menethil II -- Last True King of Lordaeron.Great were his deeds -- long was his reign -- unthinkable was his death.          "May the Father lie blameless for the deeds of the son.           May the bloodied crown stay lost and forgotten."
+	`text_loc4`='洛丹伦的最后一位国王，泰瑞纳斯·米奈希尔二世在此长眠。$B$B他的一生做出了无数伟大的功绩，他的陨落令人扼腕叹息。$B$B         “愿这位父王宽恕其子嗣所做的一切。$B          愿血染的王冠永远被遗失和忘却。”'	-- Here lies King Terenas Menethil II -- Last True King of Lordaeron.Great were his deeds -- long was his reign -- unthinkable was his death.          "May the Father lie blameless for the deeds of the son.           May the bloodied crown stay lost and forgotten."
 WHERE `entry`=1731;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='罗德隆的最后一位国王，泰瑞纳斯·米奈希尔二世在此长眠。$B$B他的一生做出了无数伟大的功绩，他的陨落令人扼腕叹息。$B$B         「愿这位父王宽恕其子嗣所做的一切。$B          愿血染的王冠永远被遗失和忘却。」'	-- Here lies King Terenas Menethil II -- Last True King of Lordaeron. Great were his deeds -- long was his reign -- unthinkable was his death.          "May the Father lie blameless for the deeds of the son.           May the bloodied crown stay lost and forgotten." 
+	`text_loc4`='洛丹伦的最后一位国王，泰瑞纳斯·米奈希尔二世在此长眠。$B$B他的一生做出了无数伟大的功绩，他的陨落令人扼腕叹息。$B$B         “愿这位父王宽恕其子嗣所做的一切。$B          愿血染的王冠永远被遗失和忘却。”'	-- Here lies King Terenas Menethil II -- Last True King of Lordaeron. Great were his deeds -- long was his reign -- unthinkable was his death.          "May the Father lie blameless for the deeds of the son.           May the bloodied crown stay lost and forgotten." 
 WHERE `entry`=1750;
 
 UPDATE `locales_page_text` SET
@@ -2647,7 +2647,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1779;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当萨格拉斯的疯狂吞噬了他最后的一点高贵的灵魂之后，他开始认为泰坦才是导致造物失败的罪魁祸首。他最终决定组织一支不可阻挡的大军，以地狱的烈焰毁灭所有世界，以此来纠正泰坦们犯下的「错误」。'	-- By the time Sargeras' madness had consumed the last vestiges of his valiant spirit, he believed that the Titans themselves were responsible for creation's failure. Deciding, at last, to undo their works throughout the universe, he resolved to form an unstoppable army that would set the physical universe aflame.
+	`text_loc4`='当萨格拉斯的疯狂吞噬了他最后的一点高贵的灵魂之后，他开始认为泰坦才是导致造物失败的罪魁祸首。他最终决定组织一支不可阻挡的大军，以地狱的烈焰毁灭所有世界，以此来纠正泰坦们犯下的“错误”。'	-- By the time Sargeras' madness had consumed the last vestiges of his valiant spirit, he believed that the Titans themselves were responsible for creation's failure. Deciding, at last, to undo their works throughout the universe, he resolved to form an unstoppable army that would set the physical universe aflame.
 WHERE `entry`=1780;
 
 UPDATE `locales_page_text` SET
@@ -2703,11 +2703,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1793;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当夜色降临时，泰坦为这片大陆起了一个名字：卡林多──「永烁星光之地」。'	-- As twilight fell on the final day of their labors, the Titans named the continent Kalimdor: "land of eternal starlight". 
+	`text_loc4`='当夜色降临时，泰坦为这片大陆起了一个名字：卡利姆多──“永烁星光之地”。'	-- As twilight fell on the final day of their labors, the Titans named the continent Kalimdor: "land of eternal starlight". 
 WHERE `entry`=1794;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='泰坦对他们在这片大陆上建立的秩序感到满意，于是决定启程离开艾泽拉斯。在他们动身之前，泰坦们决定赋予这片大陆上最强大的物种以守护卡林多、保卫这里的平衡和谐不被破坏的职责。在那个时代有许多龙族军团。'	-- Satisfied that the small world had been ordered and that their work was done, the Titans prepared to leave Azeroth. However, before they departed, they charged the greatest species of the world with the task of watching over Kalimdor, lest any force should threaten its perfect tranquility. In that age, there were many dragonflights. 
+	`text_loc4`='泰坦对他们在这片大陆上建立的秩序感到满意，于是决定启程离开艾泽拉斯。在他们动身之前，泰坦们决定赋予这片大陆上最强大的物种以守护卡利姆多、保卫这里的平衡和谐不被破坏的职责。在那个时代有许多龙族军团。'	-- Satisfied that the small world had been ordered and that their work was done, the Titans prepared to leave Azeroth. However, before they departed, they charged the greatest species of the world with the task of watching over Kalimdor, lest any force should threaten its perfect tranquility. In that age, there were many dragonflights. 
 WHERE `entry`=1795;
 
 UPDATE `locales_page_text` SET
@@ -2719,7 +2719,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1797;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='生命的赋予者伊欧娜将她的一部分力量赋予红龙阿莱克丝塔萨。此后阿莱克丝塔萨成为生命守缚者，守护世界上所有的生物。由于她无穷的智慧和对所有生物的无限怜悯，阿莱克丝塔萨成为了统治所有红龙的女王。'	-- Eonar, the Titan patron of all life, gave a portion of her power to the red leviathan, Alexstrasza. Ever after, Alexstrasza would be known as the Life-Binder, and she would work to safeguard all living creatures within the world. Due to her supreme wisdom and limitless compassion for all living things, Alexstrasza was crowned the Dragonqueen and given dominion over her kind.
+	`text_loc4`='生命的赋予者伊欧娜将她的一部分力量赋予红龙阿莱克丝塔萨。此后阿莱克丝塔萨成为生命缚誓者，守护世界上所有的生物。由于她无穷的智慧和对所有生物的无限怜悯，阿莱克丝塔萨成为了统治所有红龙的女王。'	-- Eonar, the Titan patron of all life, gave a portion of her power to the red leviathan, Alexstrasza. Ever after, Alexstrasza would be known as the Life-Binder, and she would work to safeguard all living creatures within the world. Due to her supreme wisdom and limitless compassion for all living things, Alexstrasza was crowned the Dragonqueen and given dominion over her kind.
 WHERE `entry`=1798;
 
 UPDATE `locales_page_text` SET
@@ -2755,11 +2755,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1806;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在所有事情都准备妥当之后，萨格拉斯开始了他对艾泽拉斯毁灭性的入侵。燃烧军团的恶魔们从永恒之井中涌出来，对暗夜精灵的城市发动了突袭。在阿克蒙德和玛诺洛斯的率领下，燃烧军团横扫卡林多大陆，所到之处片瓦无存。'	-- Once all his preparations had been made, Sargeras began his catastrophic invasion of Azeroth. The warrior-demons of the Burning Legion stormed into the world through the Well of Eternity and laid siege to the night elves' sleeping cities. Led by Archimonde and Mannoroth, the Legion swarmed over the lands of Kalimdor, leaving only ash and sorrow in its wake. 
+	`text_loc4`='在所有事情都准备妥当之后，萨格拉斯开始了他对艾泽拉斯毁灭性的入侵。燃烧军团的恶魔们从永恒之井中涌出来，对暗夜精灵的城市发动了突袭。在阿克蒙德和玛诺洛斯的率领下，燃烧军团横扫卡利姆多大陆，所到之处片瓦无存。'	-- Once all his preparations had been made, Sargeras began his catastrophic invasion of Azeroth. The warrior-demons of the Burning Legion stormed into the world through the Well of Eternity and laid siege to the night elves' sleeping cities. Led by Archimonde and Mannoroth, the Legion swarmed over the lands of Kalimdor, leaving only ash and sorrow in its wake. 
 WHERE `entry`=1807;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='恶魔术士从天空中召唤灼热的炼狱火，它们像陨石一样撞击着暗夜精灵优雅的神殿。末日守卫穿过卡林多的原野，屠杀它们看到的一切生物。狂暴的恶魔犬在乡村中狂奔，没有遇到任何抵抗。虽然勇敢的卡多雷战士迅速组织起来为保卫他们古老的家园而战，但是在势不可挡的燃烧军团面前，他们只能节节败退。'	-- The demon warlocks called down searing infernals that crashed like hellish meteors into the graceful spires of Kalimdor's temples. A band of burning, bloodletting killers known as the Doomguard marched across Kalimdor's fields, slaughtering everyone in their path. Packs of wild, demonic felhounds ravaged the countryside unopposed. Though the brave Kaldorei warriors rushed to defend their ancient homeland, they were forced to give ground, inch by inch, before the fury of the Legion's onslaught.
+	`text_loc4`='恶魔术士从天空中召唤灼热的炼狱火，它们像陨石一样撞击着暗夜精灵优雅的神殿。末日守卫穿过卡利姆多的原野，屠杀它们看到的一切生物。狂暴的恶魔犬在乡村中狂奔，没有遇到任何抵抗。虽然勇敢的卡多雷战士迅速组织起来为保卫他们古老的家园而战，但是在势不可挡的燃烧军团面前，他们只能节节败退。'	-- The demon warlocks called down searing infernals that crashed like hellish meteors into the graceful spires of Kalimdor's temples. A band of burning, bloodletting killers known as the Doomguard marched across Kalimdor's fields, slaughtering everyone in their path. Packs of wild, demonic felhounds ravaged the countryside unopposed. Though the brave Kaldorei warriors rushed to defend their ancient homeland, they were forced to give ground, inch by inch, before the fury of the Legion's onslaught.
 WHERE `entry`=1808;
 
 UPDATE `locales_page_text` SET
@@ -2767,7 +2767,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1809;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='年轻美丽的女祭司泰兰德同意在月亮女神伊露恩的名义下与这两个兄弟同行。虽然玛法里恩和伊利丹都爱着这位美丽的女祭司，但泰兰德的芳心只属于玛法里恩。伊利丹很嫉妒他的兄弟与泰兰德的爱情，但他知道这点伤心与他嗜之如命的魔法给他带来的痛苦相比，是微不足道的事情……'	-- The beautiful young priestess, Tyrande, agreed to accompany the brothers in the name of Elune. Though Malfurion and Illidan shared a love for the idealistic priestess, Tyrande's heart belonged to Malfurion alone. Illidan resented his brother's budding romance with Tyrande, but knew that his heartache was nothing compared to the pain of his magical addiction. 
+	`text_loc4`='年轻美丽的女祭司泰兰德同意在月亮女神艾露恩的名义下与这两个兄弟同行。虽然玛法里恩和伊利丹都爱着这位美丽的女祭司，但泰兰德的芳心只属于玛法里恩。伊利丹很嫉妒他的兄弟与泰兰德的爱情，但他知道这点伤心与他嗜之如命的魔法给他带来的痛苦相比，是微不足道的事情……'	-- The beautiful young priestess, Tyrande, agreed to accompany the brothers in the name of Elune. Though Malfurion and Illidan shared a love for the idealistic priestess, Tyrande's heart belonged to Malfurion alone. Illidan resented his brother's budding romance with Tyrande, but knew that his heartache was nothing compared to the pain of his magical addiction. 
 WHERE `entry`=1810;
 
 UPDATE `locales_page_text` SET
@@ -2787,7 +2787,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1814;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在战斗席卷卡林多燃烧的大地时，出现了可怕的转折。具体情形已经无从考据，据说大地的巨龙守护者耐萨里奥在对抗燃烧军团的一场激战中发疯了。他的身体裂开，火焰和热量从他黑色的皮肤下喷涌而出。这条燃烧的巨龙将自己改名为死亡之翼，转身对付自己的同胞，将其他的龙族军团赶离战场。'	-- As the battle raged across the burning fields of Kalimdor, a terrible turn of events unfolded. The details of the event have been lost to time, but it is known that Neltharion, the Dragon Aspect of the Earth, went mad during a critical engagement against the Burning Legion. He began to split apart as flame and rage erupted from his dark hide. Renaming himself Deathwing, the burning dragon turned on his brethren and drove the five dragonflights from the field of battle. 
+	`text_loc4`='在战斗席卷卡利姆多燃烧的大地时，出现了可怕的转折。具体情形已经无从考据，据说大地的巨龙守护者耐萨里奥在对抗燃烧军团的一场激战中发疯了。他的身体裂开，火焰和热量从他黑色的皮肤下喷涌而出。这条燃烧的巨龙将自己改名为死亡之翼，转身对付自己的同胞，将其他的龙族军团赶离战场。'	-- As the battle raged across the burning fields of Kalimdor, a terrible turn of events unfolded. The details of the event have been lost to time, but it is known that Neltharion, the Dragon Aspect of the Earth, went mad during a critical engagement against the Burning Legion. He began to split apart as flame and rage erupted from his dark hide. Renaming himself Deathwing, the burning dragon turned on his brethren and drove the five dragonflights from the field of battle. 
 WHERE `entry`=1815;
 
 UPDATE `locales_page_text` SET
@@ -2803,7 +2803,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1827;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='从大爆炸中幸存的暗夜精灵爬上做工粗糙的木筏，缓慢地向视野中唯一可见的陆地划去。值得庆幸的是，在月亮女神伊露恩的护佑下，玛法里恩、泰兰德和塞纳留斯在大崩裂中幸存了下来。疲惫的英雄们同意领导他们幸存的人民建立一个新的家园。'	-- The few night elves that survived the horrific explosion rallied together on crudely made rafts and slowly made their way to the only landmass in sight. Somehow, by the grace of Elune, Malfurion, Tyrande, and Cenarius had survived the Great Sundering. The weary heroes agreed to lead their fellow survivors and establish a new home for their people. 
+	`text_loc4`='从大爆炸中幸存的暗夜精灵爬上做工粗糙的木筏，缓慢地向视野中唯一可见的陆地划去。值得庆幸的是，在月亮女神艾露恩的护佑下，玛法里恩、泰兰德和塞纳留斯在大崩裂中幸存了下来。疲惫的英雄们同意领导他们幸存的人民建立一个新的家园。'	-- The few night elves that survived the horrific explosion rallied together on crudely made rafts and slowly made their way to the only landmass in sight. Somehow, by the grace of Elune, Malfurion, Tyrande, and Cenarius had survived the Great Sundering. The weary heroes agreed to lead their fellow survivors and establish a new home for their people. 
 WHERE `entry`=1828;
 
 UPDATE `locales_page_text` SET
@@ -2847,11 +2847,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1838;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='生命守缚者，红龙阿莱克丝塔萨，在永恒之井的中心投下了一颗附有魔法的橡子，这颗橡子一遇到充满魔法力量的湖水就开始生根发芽，长成了一棵巨大的橡树。大树的根须深入湖底，而巨大的树冠几乎要笼罩整个天空。'	-- Alexstrasza, the Lifebinder, placed a single, enchanted acorn within the heart of the Well of Eternity. The acorn, activated by the potent, magical waters, sprung to life as a colossal tree. The mighty tree's roots grew from the Well's waters, and its verdant canopy seemed to scrape the roof of the sky. 
+	`text_loc4`='生命缚誓者，红龙阿莱克丝塔萨，在永恒之井的中心投下了一颗附有魔法的橡子，这颗橡子一遇到充满魔法力量的湖水就开始生根发芽，长成了一棵巨大的橡树。大树的根须深入湖底，而巨大的树冠几乎要笼罩整个天空。'	-- Alexstrasza, the Lifebinder, placed a single, enchanted acorn within the heart of the Well of Eternity. The acorn, activated by the potent, magical waters, sprung to life as a colossal tree. The mighty tree's roots grew from the Well's waters, and its verdant canopy seemed to scrape the roof of the sky. 
 WHERE `entry`=1839;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='这棵巨大的橡树是暗夜精灵与自然和谐关系的永恒象征，它所散发的生命能量可以慢慢地扩散并治愈整个世界的创伤。暗夜精灵将他们的世界之树命名为「诺达希尔」，这在暗夜精灵语中的意思是「苍穹之冠」。'	-- The immense tree would be an everlasting symbol of the night elves' bond with nature, and its life-giving energies would extend out to heal the rest of the world over time. The night elves' gave their World Tree the new name Nordrassil, which meant "crown of the heavens" in their native tongue. 
+	`text_loc4`='这棵巨大的橡树是暗夜精灵与自然和谐关系的永恒象征，它所散发的生命能量可以慢慢地扩散并治愈整个世界的创伤。暗夜精灵将他们的世界之树命名为“诺达希尔”，这在暗夜精灵语中的意思是“苍穹之冠”。'	-- The immense tree would be an everlasting symbol of the night elves' bond with nature, and its life-giving energies would extend out to heal the rest of the world over time. The night elves' gave their World Tree the new name Nordrassil, which meant "crown of the heavens" in their native tongue. 
 WHERE `entry`=1840;
 
 UPDATE `locales_page_text` SET
@@ -2883,7 +2883,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1847;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='精灵贵族──或者说是数百年前艾萨拉女王所说的「奎尔多雷」──最终登上了东方大陆的海岸，这块大陆后来被称为罗德隆大陆。他们计划在这里建立他们自己的魔法王国──奎尔萨拉斯，并废除暗夜精灵对月亮女神的信仰和夜间活动的习惯。从此之后，他们的身份就变成了「精灵贵族」。'	-- The Highborne, or Quel'dorei, as Azshara had named them in ages past, would eventually set shore upon the eastern land men would call Lordaeron. They planned to build their own magical kingdom, Quel'Thalas, and reject the night elves' precepts of moon worship and nocturnal activity. Forever after, they would embrace the sun and be known only as the high elves. 
+	`text_loc4`='精灵贵族──或者说是数百年前艾萨拉女王所说的“奎尔多雷”──最终登上了东方大陆的海岸，这块大陆后来被称为洛丹伦大陆。他们计划在这里建立他们自己的魔法王国──奎尔萨拉斯，并废除暗夜精灵对月亮女神的信仰和夜间活动的习惯。从此之后，他们的身份就变成了“精灵贵族”。'	-- The Highborne, or Quel'dorei, as Azshara had named them in ages past, would eventually set shore upon the eastern land men would call Lordaeron. They planned to build their own magical kingdom, Quel'Thalas, and reject the night elves' precepts of moon worship and nocturnal activity. Forever after, they would embrace the sun and be known only as the high elves. 
 WHERE `entry`=1848;
 
 UPDATE `locales_page_text` SET
@@ -2891,11 +2891,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1849;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='月亮女神伊露恩的首席女祭司泰兰德央求他的爱人玛法里恩不要为了伊瑟拉的翡翠梦境而离开她，但充满荣誉感的玛法里恩仍然坚持向女祭司告别，并且发誓在有生之年永远不会与她分离。'	-- Tyrande, who had become the High Priestess of Elune, asked her love, Malfurion, not to leave her for Ysera's Emerald Dream. But Malfurion, honor bound to enter the changing Dreamways, bid the priestess farewell and swore that they would never be apart so long as they held true to their love. 
+	`text_loc4`='月亮女神艾露恩的首席女祭司泰兰德央求他的爱人玛法里恩不要为了伊瑟拉的翡翠梦境而离开她，但充满荣誉感的玛法里恩仍然坚持向女祭司告别，并且发誓在有生之年永远不会与她分离。'	-- Tyrande, who had become the High Priestess of Elune, asked her love, Malfurion, not to leave her for Ysera's Emerald Dream. But Malfurion, honor bound to enter the changing Dreamways, bid the priestess farewell and swore that they would never be apart so long as they held true to their love. 
 WHERE `entry`=1850;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='泰兰德独自承担起保护卡林多大陆的重任。她挑选了她的暗夜精灵姐妹中的精英力量组成了一支强大的部队，这些受过严格训练的无畏女战士宣誓成为卡林多的保卫者，也就是哨兵部队。虽然她们喜欢在灰谷周围的茂密森林中独自巡逻，但哨兵们也有许多在紧急关头可以提供帮助的同盟。'	-- Left alone to protect Kalimdor from the dangers of the new world, Tyrande assembled a powerful fighting force from amongst her night elf sisters. The fearless, highly trained warrior women who pledged themselves to Kalimdor's defense became known as the Sentinels. Though they preferred to patrol the shadowy forests of Ashenvale on their own, they had many allies upon which they could call in times of urgency. 
+	`text_loc4`='泰兰德独自承担起保护卡利姆多大陆的重任。她挑选了她的暗夜精灵姐妹中的精英力量组成了一支强大的部队，这些受过严格训练的无畏女战士宣誓成为卡利姆多的保卫者，也就是哨兵部队。虽然她们喜欢在灰谷周围的茂密森林中独自巡逻，但哨兵们也有许多在紧急关头可以提供帮助的同盟。'	-- Left alone to protect Kalimdor from the dangers of the new world, Tyrande assembled a powerful fighting force from amongst her night elf sisters. The fearless, highly trained warrior women who pledged themselves to Kalimdor's defense became known as the Sentinels. Though they preferred to patrol the shadowy forests of Ashenvale on their own, they had many allies upon which they could call in times of urgency. 
 WHERE `entry`=1851;
 
 UPDATE `locales_page_text` SET
@@ -2907,27 +2907,27 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1853;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='达斯雷玛领导的高等精灵离开了卡林多并成功穿越了波涛汹涌的大漩涡。他们的船队在这破碎的世界中徘徊了许多年，在旅行中发现了无数神奇的奥秘与失落的国度。达斯雷玛为自己取了个「逐日者」的称号，不懈地寻找着一个蕴藏着大量魔法能量的地方来为他的子民建造一个新的家园。'	-- The high elves, led by Dath'Remar, left Kalimdor behind them and challenged the storms of the Maelstrom. Their fleets wandered the wreckage of the world for many long years, and they discovered mysteries and lost kingdoms along their sojourn. Dath'Remar, who had taken the name Sunstrider (or "he who walks the day"), sought out places of considerable ley power upon which to build a new homeland for his people.
+	`text_loc4`='达斯雷玛领导的高等精灵离开了卡利姆多并成功穿越了波涛汹涌的大漩涡。他们的船队在这破碎的世界中徘徊了许多年，在旅行中发现了无数神奇的奥秘与失落的国度。达斯雷玛为自己取了个“逐日者”的称号，不懈地寻找着一个蕴藏着大量魔法能量的地方来为他的子民建造一个新的家园。'	-- The high elves, led by Dath'Remar, left Kalimdor behind them and challenged the storms of the Maelstrom. Their fleets wandered the wreckage of the world for many long years, and they discovered mysteries and lost kingdoms along their sojourn. Dath'Remar, who had taken the name Sunstrider (or "he who walks the day"), sought out places of considerable ley power upon which to build a new homeland for his people.
 WHERE `entry`=1854;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他的船队最终在某块大陆的海岸边上靠了岸──那块大陆后来被称为罗德隆。在向内陆推进的过程中，高等精灵们在安静的提瑞斯法林地里建立了他们的安身之所。几年后，他们中的许多人开始发狂。据说那是因为有些恶灵正沉睡在提瑞斯法林地的下面，不过这个传说从来也没有被证实过。高等精灵不得不卷起铺盖，向北移居到了另一片充满能量的土地上。'	-- His fleet finally landed on the beaches of the kingdom men would later call Lordaeron. Forging inland, the high elves founded a settlement within the tranquil Tirisfal Glades. After a few years, many of them began to go mad. It was theorized that something evil slept beneath that particular part of the world, but the rumors were never proven to be true. The high elves packed up their encampment and moved northward towards another land rich with ley energies.
+	`text_loc4`='他的船队最终在某块大陆的海岸边上靠了岸──那块大陆后来被称为洛丹伦。在向内陆推进的过程中，高等精灵们在安静的提瑞斯法林地里建立了他们的安身之所。几年后，他们中的许多人开始发狂。据说那是因为有些恶灵正沉睡在提瑞斯法林地的下面，不过这个传说从来也没有被证实过。高等精灵不得不卷起铺盖，向北移居到了另一片充满能量的土地上。'	-- His fleet finally landed on the beaches of the kingdom men would later call Lordaeron. Forging inland, the high elves founded a settlement within the tranquil Tirisfal Glades. After a few years, many of them began to go mad. It was theorized that something evil slept beneath that particular part of the world, but the rumors were never proven to be true. The high elves packed up their encampment and moved northward towards another land rich with ley energies.
 WHERE `entry`=1855;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当高等精灵穿越了此起彼伏、群山连绵的罗德隆后，他们的旅行变得更危险了。由于精灵们与给予他们活力的永恒之井之间的联系已经完全被切断，他们中的许多人不是在天寒地冻中病倒，就是死于极度的饥饿。然而最让人不安的变化却是他们已经不再拥有永恒的生命以及对元素魔法的免疫能力。'	-- As the high elves crossed the rugged, mountainous lands of Lordaeron, their journey became more perilous. Since they were effectively cut off from the life-giving energies of the Well of Eternity, many of them fell ill from the frigid climate or died from starvation. The most disconcerting change, however, was the fact that they were no longer immortal or immune to the elements. 
+	`text_loc4`='当高等精灵穿越了此起彼伏、群山连绵的洛丹伦后，他们的旅行变得更危险了。由于精灵们与给予他们活力的永恒之井之间的联系已经完全被切断，他们中的许多人不是在天寒地冻中病倒，就是死于极度的饥饿。然而最让人不安的变化却是他们已经不再拥有永恒的生命以及对元素魔法的免疫能力。'	-- As the high elves crossed the rugged, mountainous lands of Lordaeron, their journey became more perilous. Since they were effectively cut off from the life-giving energies of the Well of Eternity, many of them fell ill from the frigid climate or died from starvation. The most disconcerting change, however, was the fact that they were no longer immortal or immune to the elements. 
 WHERE `entry`=1856;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他们的身材变矮了，肌肤也失去了独特的紫色。尽管面对如此严峻的形势，高等精灵们还是见识到了许多在卡林多从没见过的奇怪物种，他们也发现了一些原始的、以在原始森林中打猎为生的人类部族，然而他们遭遇到的最可怕的威胁还是祖阿曼的那些贪婪而狡猾的森林巨魔。'	-- They also shrank somewhat in height, and their skin lost its characteristic violet hue. Despite their hardships, they encountered many wondrous creatures that had never been seen in Kalimdor. They also found tribes of primitive humans who hunted throughout the ancient forestlands. However, the direst threat they encountered were the voracious and cunning forest trolls of Zul'Aman.
+	`text_loc4`='他们的身材变矮了，肌肤也失去了独特的紫色。尽管面对如此严峻的形势，高等精灵们还是见识到了许多在卡利姆多从没见过的奇怪物种，他们也发现了一些原始的、以在原始森林中打猎为生的人类部族，然而他们遭遇到的最可怕的威胁还是祖阿曼的那些贪婪而狡猾的森林巨魔。'	-- They also shrank somewhat in height, and their skin lost its characteristic violet hue. Despite their hardships, they encountered many wondrous creatures that had never been seen in Kalimdor. They also found tribes of primitive humans who hunted throughout the ancient forestlands. However, the direst threat they encountered were the voracious and cunning forest trolls of Zul'Aman.
 WHERE `entry`=1857;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='这些皮肤上长满苔藓的巨魔不仅可以断肢再生，而且他们的身体即使受到了严重的创伤，也能很快自行愈合，不过他们的行为表明这些巨魔还只是一个野蛮邪恶的种族。阿曼尼帝国的疆土覆盖了北罗德隆的大部分土地，巨魔们对贸然闯入的那些不速之客施以迎头痛击，把他们驱离祖-阿曼的边境。精灵们对这些恶毒的巨魔逐渐感到深恶痛绝，无论在哪里看到他们都会将其格杀勿论。'	-- These moss-skinned trolls could regenerate lost limbs and heal grievous physical injuries, but they proved to be a barbaric, evil race. The Amani empire stretched across most of northern Lordaeron, and the trolls fought hard to keep unwanted strangers from their borders. The elves developed a deep loathing for the vicious trolls and killed them on sight whenever they were encountered.
+	`text_loc4`='这些皮肤上长满苔藓的巨魔不仅可以断肢再生，而且他们的身体即使受到了严重的创伤，也能很快自行愈合，不过他们的行为表明这些巨魔还只是一个野蛮邪恶的种族。阿曼尼帝国的疆土覆盖了北洛丹伦的大部分土地，巨魔们对贸然闯入的那些不速之客施以迎头痛击，把他们驱离祖-阿曼的边境。精灵们对这些恶毒的巨魔逐渐感到深恶痛绝，无论在哪里看到他们都会将其格杀勿论。'	-- These moss-skinned trolls could regenerate lost limbs and heal grievous physical injuries, but they proved to be a barbaric, evil race. The Amani empire stretched across most of northern Lordaeron, and the trolls fought hard to keep unwanted strangers from their borders. The elves developed a deep loathing for the vicious trolls and killed them on sight whenever they were encountered.
 WHERE `entry`=1858;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='许多年后，高等精灵终于找到了一片可以追忆卡林多的土地。他们在大陆以北的森林深处建立了奎尔萨拉斯王国，并誓言要建立一个远比他们的卡多雷同胞更强大的帝国。不幸的是，不久以后他们就发现奎尔萨拉斯其实是建在了一座受到巨魔顶礼膜拜的巨魔古城上。巨魔们几乎在第一时间就向精灵的定居点发起了大规模的进攻。'	-- After many long years, the high elves finally found a land which was reminiscent of Kalimdor. Deep within the northern forests of the continent, they founded the kingdom of Quel'Thalas and vowed to create a mighty empire which would dwarf that of their Kaldorei cousins. Unfortunately they soon learned that Quel'Thalas was founded upon an ancient troll city that the trolls still held to be sacred. Almost immediately, the trolls began to attack the elven settlements en masse. 
+	`text_loc4`='许多年后，高等精灵终于找到了一片可以追忆卡利姆多的土地。他们在大陆以北的森林深处建立了奎尔萨拉斯王国，并誓言要建立一个远比他们的卡多雷同胞更强大的帝国。不幸的是，不久以后他们就发现奎尔萨拉斯其实是建在了一座受到巨魔顶礼膜拜的巨魔古城上。巨魔们几乎在第一时间就向精灵的定居点发起了大规模的进攻。'	-- After many long years, the high elves finally found a land which was reminiscent of Kalimdor. Deep within the northern forests of the continent, they founded the kingdom of Quel'Thalas and vowed to create a mighty empire which would dwarf that of their Kaldorei cousins. Unfortunately they soon learned that Quel'Thalas was founded upon an ancient troll city that the trolls still held to be sacred. Almost immediately, the trolls began to attack the elven settlements en masse. 
 WHERE `entry`=1859;
 
 UPDATE `locales_page_text` SET
@@ -2939,7 +2939,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1861;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='随着时间的流逝，奎尔萨拉斯逐渐成为了高等精灵不懈努力与魔法威力的象征，它美丽的宫殿保持着与卡林多古代城市一样的建造风格，与大自然的地形地貌完美地融合在了一起。奎尔萨拉斯成为了一颗精灵们渴望已久的耀眼珠宝。'	-- As time wore on, Quel'Thalas became a shining monument to the high elves' efforts and magical prowess. Its beauteous palaces were crafted in the same architectural style as the ancient halls of Kalimdor, yet they were interwoven with the natural topography of the land. Quel'Thalas had become the shining jewel that the elves had longed to create. 
+	`text_loc4`='随着时间的流逝，奎尔萨拉斯逐渐成为了高等精灵不懈努力与魔法威力的象征，它美丽的宫殿保持着与卡利姆多古代城市一样的建造风格，与大自然的地形地貌完美地融合在了一起。奎尔萨拉斯成为了一颗精灵们渴望已久的耀眼珠宝。'	-- As time wore on, Quel'Thalas became a shining monument to the high elves' efforts and magical prowess. Its beauteous palaces were crafted in the same architectural style as the ancient halls of Kalimdor, yet they were interwoven with the natural topography of the land. Quel'Thalas had become the shining jewel that the elves had longed to create. 
 WHERE `entry`=1862;
 
 UPDATE `locales_page_text` SET
@@ -2951,7 +2951,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1864;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当高等精灵正在为生存而抵抗着巨魔大军猛烈的冲击时，罗德隆大陆上的人类游牧民们则正在为巩固他们自己的部族领地而战，这些原始人的部族在袭击其他族群的定居点时丝毫不在乎什么荣誉和种族团结。'	-- As the high elves fought for their lives against the trolls' fierce onslaught, the scattered, nomadic humans of Lordaeron fought to consolidate their own tribal lands. The tribes of early humanity raided each other's settlements with little heed for racial unification or honor. 
+	`text_loc4`='当高等精灵正在为生存而抵抗着巨魔大军猛烈的冲击时，洛丹伦大陆上的人类游牧民们则正在为巩固他们自己的部族领地而战，这些原始人的部族在袭击其他族群的定居点时丝毫不在乎什么荣誉和种族团结。'	-- As the high elves fought for their lives against the trolls' fierce onslaught, the scattered, nomadic humans of Lordaeron fought to consolidate their own tribal lands. The tribes of early humanity raided each other's settlements with little heed for racial unification or honor. 
 WHERE `entry`=1865;
 
 UPDATE `locales_page_text` SET
@@ -2963,11 +2963,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1867;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他们自信可以凭一己之力来击败巨魔军队，甚至若有必要还可以击败那些与世隔绝的精灵，阿拉希的督军们决定在罗德隆南部建造一座强大的要塞城市。这个被叫做激流城的城邦成为了阿拉希人的国家──阿拉索的首都。随着阿拉索的繁荣昌盛，大陆各处的人类都不远万里来到了安全可靠的激流城定居。'	-- Confident that they could hold their own against the troll warbands or even the reclusive elves if need be, the Arathi warlords decided to construct a mighty fortress city in the southern regions of Lordaeron. The city-state, named Strom, became the capital of the Arathi nation, Arathor. As Arathor prospered, humans from all over the vast continent traveled south to the protection and safety of Strom.
+	`text_loc4`='他们自信可以凭一己之力来击败巨魔军队，甚至若有必要还可以击败那些与世隔绝的精灵，阿拉希的督军们决定在洛丹伦南部建造一座强大的要塞城市。这个被叫做激流城的城邦成为了阿拉希人的国家──阿拉索的首都。随着阿拉索的繁荣昌盛，大陆各处的人类都不远万里来到了安全可靠的激流城定居。'	-- Confident that they could hold their own against the troll warbands or even the reclusive elves if need be, the Arathi warlords decided to construct a mighty fortress city in the southern regions of Lordaeron. The city-state, named Strom, became the capital of the Arathi nation, Arathor. As Arathor prospered, humans from all over the vast continent traveled south to the protection and safety of Strom.
 WHERE `entry`=1868;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='人类团结在同一个信念下，众多部族逐渐发展出了一个强大的文明。阿拉索国王索拉丁知道，北方的精灵正遭到巨魔持续地围攻，但是他却拒绝以他人民的生命作赌注，冒险帮助陌生的精灵。许多月过去了，关于精灵们正在节节败退的传言逐渐传遍了罗德隆大陆。当疲惫的奎尔萨拉斯大使来到激流城的时候，索拉丁才意识到巨魔的威胁竟然是如此巨大。'	-- United under one banner, the human tribes developed a strong, optimistic culture. Thoradin, the king of Arathor, knew that the mysterious elves in the northlands were under constant siege by the trolls, but refused to risk the safety of his people in defense of reclusive strangers. Many months passed as rumors of the elves' supposed defeat trickled down from the north. It was only when weary ambassadors from Quel'Thalas reached Strom that Thoradin realized how great the troll threat truly was.
+	`text_loc4`='人类团结在同一个信念下，众多部族逐渐发展出了一个强大的文明。阿拉索国王索拉丁知道，北方的精灵正遭到巨魔持续地围攻，但是他却拒绝以他人民的生命作赌注，冒险帮助陌生的精灵。许多月过去了，关于精灵们正在节节败退的传言逐渐传遍了洛丹伦大陆。当疲惫的奎尔萨拉斯大使来到激流城的时候，索拉丁才意识到巨魔的威胁竟然是如此巨大。'	-- United under one banner, the human tribes developed a strong, optimistic culture. Thoradin, the king of Arathor, knew that the mysterious elves in the northlands were under constant siege by the trolls, but refused to risk the safety of his people in defense of reclusive strangers. Many months passed as rumors of the elves' supposed defeat trickled down from the north. It was only when weary ambassadors from Quel'Thalas reached Strom that Thoradin realized how great the troll threat truly was.
 WHERE `entry`=1869;
 
 UPDATE `locales_page_text` SET
@@ -3039,7 +3039,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1886;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='统治奎尔萨拉斯精灵的银月议会与达拉然玛苟克拉斯议会的领主们达成了一个秘密契约。精灵们告诉了玛苟克拉斯议会一些关于古卡林多和燃烧军团的历史，那些至今仍然威胁着这个世界的往事。他们告诉人类，只要他们还使用魔法，就得想办法保护他们的子民免受燃烧军团的威胁'	-- The Council of Silvermoon, which ruled over the elves of Quel'Thalas, entered into a secret pact with the Magocrat lords of Dalaran. The elves told the Magocrats about the history of ancient Kalimdor and of the Burning Legion, a history which still threatened the world. They informed the humans that so long as they used magic, they would need to protect their citizenry from the malicious agents of the Legion. 
+	`text_loc4`='统治奎尔萨拉斯精灵的银月议会与达拉然玛苟克拉斯议会的领主们达成了一个秘密契约。精灵们告诉了玛苟克拉斯议会一些关于古卡利姆多和燃烧军团的历史，那些至今仍然威胁着这个世界的往事。他们告诉人类，只要他们还使用魔法，就得想办法保护他们的子民免受燃烧军团的威胁'	-- The Council of Silvermoon, which ruled over the elves of Quel'Thalas, entered into a secret pact with the Magocrat lords of Dalaran. The elves told the Magocrats about the history of ancient Kalimdor and of the Burning Legion, a history which still threatened the world. They informed the humans that so long as they used magic, they would need to protect their citizenry from the malicious agents of the Legion. 
 WHERE `entry`=1887;
 
 UPDATE `locales_page_text` SET
@@ -3047,7 +3047,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1888;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='这个社团在阴影笼罩的提瑞斯法林地举行秘密会议，那块地方就是精灵们最初在罗德隆定居的地方。因此，他们把这个秘密组织命名为提瑞斯法守护者。最强的凡人们被选为守护者，被给予包含着精灵和人类魔法的惊人力量。虽然守护者一直是独来独往，但是由于拥有如此强大的力量，所以无论在什么地方，他们都可以凭一己之力来抵抗燃烧军团。'	-- The society held its secret meetings in the shadowed Tirisfal Glades, where the high elves had first settled in Lordaeron. Thus, they named the secret sect the Guardians of Tirisfal. The mortal champions who were chosen to be Guardians were imbued with incredible powers of both elven and human magic. Though there would only ever be one Guardian at a time, they held such vast power that they could single-handedly fight back the Legion's agents wherever they were found in the world. 
+	`text_loc4`='这个社团在阴影笼罩的提瑞斯法林地举行秘密会议，那块地方就是精灵们最初在洛丹伦定居的地方。因此，他们把这个秘密组织命名为提瑞斯法守护者。最强的凡人们被选为守护者，被给予包含着精灵和人类魔法的惊人力量。虽然守护者一直是独来独往，但是由于拥有如此强大的力量，所以无论在什么地方，他们都可以凭一己之力来抵抗燃烧军团。'	-- The society held its secret meetings in the shadowed Tirisfal Glades, where the high elves had first settled in Lordaeron. Thus, they named the secret sect the Guardians of Tirisfal. The mortal champions who were chosen to be Guardians were imbued with incredible powers of both elven and human magic. Though there would only ever be one Guardian at a time, they held such vast power that they could single-handedly fight back the Legion's agents wherever they were found in the world. 
 WHERE `entry`=1889;
 
 UPDATE `locales_page_text` SET
@@ -3071,11 +3071,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1894;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他们把自己称作「矮人」，这些硕果仅存的土灵们离开了奥达曼城，在逐渐苏醒的艾泽拉斯世界里到处探险。由于他们仍然被地底深处的奥秘和安全感所吸引着，因此矮人们在陆地上最高的山峰中建造了一个巨大的王国。'	-- Calling themselves dwarves, the last of the earthen left the halls of Uldaman and ventured out into the waking world. Still lulled by the safety and wonders of the deep places, they founded a vast kingdom under the highest mountain in the land. 
+	`text_loc4`='他们把自己称作“矮人”，这些硕果仅存的土灵们离开了奥达曼城，在逐渐苏醒的艾泽拉斯世界里到处探险。由于他们仍然被地底深处的奥秘和安全感所吸引着，因此矮人们在陆地上最高的山峰中建造了一个巨大的王国。'	-- Calling themselves dwarves, the last of the earthen left the halls of Uldaman and ventured out into the waking world. Still lulled by the safety and wonders of the deep places, they founded a vast kingdom under the highest mountain in the land. 
 WHERE `entry`=1895;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他们以泰坦的建造之神卡兹格罗斯的名字为自己的王国命名，称之为「卡兹莫丹」或「卡兹之峰」。矮人们为自己的泰坦父亲建造了祭坛，并在山峰的中央建造了一座巨大的熔炉。 从此，一座被称为铁炉堡的城市就在这座熔炉旁兴起了。'	-- They named their land Khaz Modan, or "Mountain of Khaz", in honor of the Titan shaper, Khaz'goroth. Constructing an altar for their Titan father, the dwarves crafted a mighty forge within the heart of the mountain. Thus, the city that grew around the forge would be called Ironforge ever after.
+	`text_loc4`='他们以泰坦的建造之神卡兹格罗斯的名字为自己的王国命名，称之为“卡兹莫丹”或“卡兹之峰”。矮人们为自己的泰坦父亲建造了祭坛，并在山峰的中央建造了一座巨大的熔炉。 从此，一座被称为铁炉堡的城市就在这座熔炉旁兴起了。'	-- They named their land Khaz Modan, or "Mountain of Khaz", in honor of the Titan shaper, Khaz'goroth. Constructing an altar for their Titan father, the dwarves crafted a mighty forge within the heart of the mountain. Thus, the city that grew around the forge would be called Ironforge ever after.
 WHERE `entry`=1896;
 
 UPDATE `locales_page_text` SET
@@ -3083,7 +3083,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1897;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='激流城继续扮演着阿拉索中心的角色，不过就和达拉然一样，许多新城邦在罗德隆大陆逐渐建立了起来。吉尔尼斯、奥特兰克，以及库尔提拉斯都是第一批建立起来的城邦，虽然这些城邦每个都有着他们自己的习俗和贸易活动，但他们都一致听命于激流城。'	-- Strom continued to act as the central hub of Arathor, but as with Dalaran, many new city-states arose across the continent of Lordaeron. Gilneas, Alterac, and Kul Tiras were the first city-states to arise, and although they each had their own customs and commercial workings, they all held to the unifying authority of Strom. 
+	`text_loc4`='激流城继续扮演着阿拉索中心的角色，不过就和达拉然一样，许多新城邦在洛丹伦大陆逐渐建立了起来。吉尔尼斯、奥特兰克，以及库尔提拉斯都是第一批建立起来的城邦，虽然这些城邦每个都有着他们自己的习俗和贸易活动，但他们都一致听命于激流城。'	-- Strom continued to act as the central hub of Arathor, but as with Dalaran, many new city-states arose across the continent of Lordaeron. Gilneas, Alterac, and Kul Tiras were the first city-states to arise, and although they each had their own customs and commercial workings, they all held to the unifying authority of Strom. 
 WHERE `entry`=1898;
 
 UPDATE `locales_page_text` SET
@@ -3095,15 +3095,15 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1900;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='库尔提拉斯城邦建立在罗德隆以南一个巨大的岛屿上，他们发展出了建立在渔业和远洋航运基础上的繁荣贸易。随着时间的流逝，库尔提拉斯建立起了一支强大的商船队，他们穿越了所有已知地区，在世界各地搜寻供交易与贩卖的奇珍异宝。但是，虽然阿拉索王国越来越繁荣昌盛，但它最强大的核心却开始分崩离析。'	-- The city-state of Kul Tiras, founded upon a large island south of Lordaeron, developed a prosperous economy based on fishing and shipping. Over time, Kul Tiras built up a mighty fleet of merchant vessels that sailed throughout the known lands in search of exotic goods to trade and sell. Yet even as the economy of Arathor flourished, its strongest elements began to disintegrate.
+	`text_loc4`='库尔提拉斯城邦建立在洛丹伦以南一个巨大的岛屿上，他们发展出了建立在渔业和远洋航运基础上的繁荣贸易。随着时间的流逝，库尔提拉斯建立起了一支强大的商船队，他们穿越了所有已知地区，在世界各地搜寻供交易与贩卖的奇珍异宝。但是，虽然阿拉索王国越来越繁荣昌盛，但它最强大的核心却开始分崩离析。'	-- The city-state of Kul Tiras, founded upon a large island south of Lordaeron, developed a prosperous economy based on fishing and shipping. Over time, Kul Tiras built up a mighty fleet of merchant vessels that sailed throughout the known lands in search of exotic goods to trade and sell. Yet even as the economy of Arathor flourished, its strongest elements began to disintegrate.
 WHERE `entry`=1901;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='此时，激流城的领主们开始逐渐把他们的财产转移到繁华的罗德隆北部地方，将贫瘠的南方遗弃不顾。索拉丁国王的继承人──阿拉希血脉中最后一个子嗣──争论道他们不该放弃激流城，因此招来了那些同样迫切想要离开的高阶市民的不满。'	-- In time, the lords of Strom sought to move their estates to the lush northlands of Lordaeron and leave the arid lands of the south. The heirs of King Thoradin, the last descendants of the Arathi bloodline, argued that Strom should not be abandoned and thus incurred the displeasure of the greater citizenry, who were likewise eager to leave. 
+	`text_loc4`='此时，激流城的领主们开始逐渐把他们的财产转移到繁华的洛丹伦北部地方，将贫瘠的南方遗弃不顾。索拉丁国王的继承人──阿拉希血脉中最后一个子嗣──争论道他们不该放弃激流城，因此招来了那些同样迫切想要离开的高阶市民的不满。'	-- In time, the lords of Strom sought to move their estates to the lush northlands of Lordaeron and leave the arid lands of the south. The heirs of King Thoradin, the last descendants of the Arathi bloodline, argued that Strom should not be abandoned and thus incurred the displeasure of the greater citizenry, who were likewise eager to leave. 
 WHERE `entry`=1902;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='激流城的领主们决定丢下他们的古城，指望到未开化的北方去寻求纯洁与教化。在达拉然以北很远的地方，激流城的领主们建立了一个的新城邦，它被称作罗德隆，这整片大陆的名字便是源自这个城邦。罗德隆成为了一个朝圣者和所有寻求内心的和平安宁者所渴望的胜地。'	-- The lords of Strom, seeking to find purity and enlightenment in the untamed north, decided to leave their ancient city behind. Far to the north of Dalaran, the lords of Strom built a new city-state which they named Lordaeron. The entire continent would take its name from this city-state. Lordaeron became a mecca for religious travelers and all those who sought inner peace and security. 
+	`text_loc4`='激流城的领主们决定丢下他们的古城，指望到未开化的北方去寻求纯洁与教化。在达拉然以北很远的地方，激流城的领主们建立了一个的新城邦，它被称作洛丹伦，这整片大陆的名字便是源自这个城邦。洛丹伦成为了一个朝圣者和所有寻求内心的和平安宁者所渴望的胜地。'	-- The lords of Strom, seeking to find purity and enlightenment in the untamed north, decided to leave their ancient city behind. Far to the north of Dalaran, the lords of Strom built a new city-state which they named Lordaeron. The entire continent would take its name from this city-state. Lordaeron became a mecca for religious travelers and all those who sought inner peace and security. 
 WHERE `entry`=1903;
 
 UPDATE `locales_page_text` SET
@@ -3203,11 +3203,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1927;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他们对于失去自己深爱的家园感到无比悲痛。铜须部族的国王给蛮锤部族在铁炉堡的疆界内提供了一个栖身之所，然而蛮锤部族却顽固地拒绝了他。卡德罗斯带着他的子民北上来到了罗德隆的土地，在富饶的辛特兰森林里居住了下来，蛮锤部族在那里的鹰巢山上建造了自己的城市，并逐渐亲近了大自然，而且甚至与当地的狮鹫兽成为了朋友。'	--  They were bitter in their hearts over the loss of their beloved home. King Bronzebeard offered the Wildhammers a place to live within the borders of Ironforge, but the Wildhammers steadfastly refused. Khardros took his people north towards the lands of Lordaeron. Settling within the lush forests of the Hinterlands, the Wildhammers crafted the city of Aerie Peak, where the Wildhammers grew closer to nature and even bonded with the mighty gryphons of the area.
+	`text_loc4`='他们对于失去自己深爱的家园感到无比悲痛。铜须部族的国王给蛮锤部族在铁炉堡的疆界内提供了一个栖身之所，然而蛮锤部族却顽固地拒绝了他。卡德罗斯带着他的子民北上来到了洛丹伦的土地，在富饶的辛特兰森林里居住了下来，蛮锤部族在那里的鹰巢山上建造了自己的城市，并逐渐亲近了大自然，而且甚至与当地的狮鹫兽成为了朋友。'	--  They were bitter in their hearts over the loss of their beloved home. King Bronzebeard offered the Wildhammers a place to live within the borders of Ironforge, but the Wildhammers steadfastly refused. Khardros took his people north towards the lands of Lordaeron. Settling within the lush forests of the Hinterlands, the Wildhammers crafted the city of Aerie Peak, where the Wildhammers grew closer to nature and even bonded with the mighty gryphons of the area.
 WHERE `entry`=1928;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='铁炉堡的矮人们希望与同胞保持联系与贸易，于是他们建造了两座连接着卡兹莫丹与罗德隆之间山口的巨大拱桥──萨多尔大桥。两个国家靠着互相通商而繁荣了起来，玛多兰和卡德罗斯死后，他们的儿子为缅怀父亲而共同发起雕刻了两尊巨大的雕像。'	-- Seeking to retain relations and trade with their cousins, the dwarves of Ironforge constructed two massive arches, the Thandol Span, to bridge the gap between Khaz Modan and Lordaeron. Bolstered by mutual trade, the two kingdoms prospered. After the deaths of Madoran and Khardros, their sons jointly commissioned two great statues in honor of their fathers. 
+	`text_loc4`='铁炉堡的矮人们希望与同胞保持联系与贸易，于是他们建造了两座连接着卡兹莫丹与洛丹伦之间山口的巨大拱桥──萨多尔大桥。两个国家靠着互相通商而繁荣了起来，玛多兰和卡德罗斯死后，他们的儿子为缅怀父亲而共同发起雕刻了两尊巨大的雕像。'	-- Seeking to retain relations and trade with their cousins, the dwarves of Ironforge constructed two massive arches, the Thandol Span, to bridge the gap between Khaz Modan and Lordaeron. Bolstered by mutual trade, the two kingdoms prospered. After the deaths of Madoran and Khardros, their sons jointly commissioned two great statues in honor of their fathers. 
 WHERE `entry`=1929;
 
 UPDATE `locales_page_text` SET
@@ -3235,7 +3235,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1935;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='时光飞逝，艾格文在一处与世隔绝的森林里生下了她的儿子。他被取名为麦迪文，在高等精灵的语言中，这个词的意思是「保守秘密的人」。 艾格文相信她的儿子将成长为下一个守卫者。然而不幸的是，萨格拉斯恶毒的灵魂隐藏在她的体内，并且早在她怀孕的时候就占据了她的孩子的躯体。艾格文根本没有想到，刚刚来到这个世界的新的守卫者已经被他最大的敌人占据了。'	-- Time passed, and Aegwynn gave birth to her son in a secluded grove. Naming the boy Medivh, which means "keeper of secrets" in the high elven tongue, Aegwynn believed that the boy would mature to become the next Guardian. Unfortunately the malignant spirit of Sargeras, which had been hiding inside her, had possessed the defenseless child while it was still in her womb. Aegwynn had no idea that the world's newest Guardian was already possessed by its greatest nemesis. 
+	`text_loc4`='时光飞逝，艾格文在一处与世隔绝的森林里生下了她的儿子。他被取名为麦迪文，在高等精灵的语言中，这个词的意思是“保守秘密的人”。 艾格文相信她的儿子将成长为下一个守卫者。然而不幸的是，萨格拉斯恶毒的灵魂隐藏在她的体内，并且早在她怀孕的时候就占据了她的孩子的躯体。艾格文根本没有想到，刚刚来到这个世界的新的守卫者已经被他最大的敌人占据了。'	-- Time passed, and Aegwynn gave birth to her son in a secluded grove. Naming the boy Medivh, which means "keeper of secrets" in the high elven tongue, Aegwynn believed that the boy would mature to become the next Guardian. Unfortunately the malignant spirit of Sargeras, which had been hiding inside her, had possessed the defenseless child while it was still in her womb. Aegwynn had no idea that the world's newest Guardian was already possessed by its greatest nemesis. 
 WHERE `entry`=1936;
 
 UPDATE `locales_page_text` SET
@@ -3251,7 +3251,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1939;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当他从昏迷中醒来的时候，他发现自己已经长大成人，而他的朋友莱恩和安杜因也已经成为了艾泽拉斯的摄政王。虽然他希望运用身体里那不可思议的力量来保护这片被自己称做「家园」的土地，但萨格拉斯的灵魂将他的意志和情感扭向了阴暗的一面。'	-- When he awakened from his coma, he found that he had grown to adulthood, and his friends Llane and Anduin had become the regents of Azeroth. Though he wished to use his incredible newfound powers to protect the land he called home, the dark spirit of Sargeras twisted his thoughts and emotions towards an insidious end. 
+	`text_loc4`='当他从昏迷中醒来的时候，他发现自己已经长大成人，而他的朋友莱恩和安杜因也已经成为了艾泽拉斯的摄政王。虽然他希望运用身体里那不可思议的力量来保护这片被自己称做“家园”的土地，但萨格拉斯的灵魂将他的意志和情感扭向了阴暗的一面。'	-- When he awakened from his coma, he found that he had grown to adulthood, and his friends Llane and Anduin had become the regents of Azeroth. Though he wished to use his incredible newfound powers to protect the land he called home, the dark spirit of Sargeras twisted his thoughts and emotions towards an insidious end. 
 WHERE `entry`=1940;
 
 UPDATE `locales_page_text` SET
@@ -3395,7 +3395,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1975;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在暴风要塞被攻陷后，洛萨爵士重新集结了艾泽拉斯的残余部队，并带领着难民远渡重洋向北方的罗德隆大批迁徙。人类七国领袖达成了共识：如果不阻止兽人部落，他们终将征服全人类，于是这七个国家团结起来组成了罗德隆联盟。'	-- Lord Lothar rallied the remnants of Azeroth's armies after their defeat at Stormwind Keep, and then launched a massive exodus across the sea to the northern kingdom of Lordaeron. Convinced that the Horde would overcome all of humanity if left unchecked, the leaders of the seven human nations met and agreed to unite in what would become known as the Alliance of Lordaeron. 
+	`text_loc4`='在暴风要塞被攻陷后，洛萨爵士重新集结了艾泽拉斯的残余部队，并带领着难民远渡重洋向北方的洛丹伦大批迁徙。人类七国领袖达成了共识：如果不阻止兽人部落，他们终将征服全人类，于是这七个国家团结起来组成了洛丹伦联盟。'	-- Lord Lothar rallied the remnants of Azeroth's armies after their defeat at Stormwind Keep, and then launched a massive exodus across the sea to the northern kingdom of Lordaeron. Convinced that the Horde would overcome all of humanity if left unchecked, the leaders of the seven human nations met and agreed to unite in what would become known as the Alliance of Lordaeron. 
 WHERE `entry`=1976;
 
 UPDATE `locales_page_text` SET
@@ -3403,7 +3403,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1977;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在副官光明使者乌瑟、海军上将戴林·普罗德摩尔与图拉扬的帮助下，洛萨成功地使罗德隆的各个非人类种族也意识到了迅速迫近的威胁。人类联盟成功地从铁炉堡里的顽固矮人和一小部分奎尔萨拉斯的高等精灵那里获得了支持。'	-- Aided by his lieutenants, Uther the Lightbringer, Admiral Daelin Proudmoore, and Turalyon, Lothar was able to convince Lordaeron's demi-human races of the impending threat as well. The Alliance succeeded in gaining the support of the stoic dwarves of Ironforge and a small number of high elves of Quel'Thalas. 
+	`text_loc4`='在副官光明使者乌瑟、海军上将戴林·普罗德摩尔与图拉扬的帮助下，洛萨成功地使洛丹伦的各个非人类种族也意识到了迅速迫近的威胁。人类联盟成功地从铁炉堡里的顽固矮人和一小部分奎尔萨拉斯的高等精灵那里获得了支持。'	-- Aided by his lieutenants, Uther the Lightbringer, Admiral Daelin Proudmoore, and Turalyon, Lothar was able to convince Lordaeron's demi-human races of the impending threat as well. The Alliance succeeded in gaining the support of the stoic dwarves of Ironforge and a small number of high elves of Quel'Thalas. 
 WHERE `entry`=1978;
 
 UPDATE `locales_page_text` SET
@@ -3411,7 +3411,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1979;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='由大酋长末日锤领导的部落从家乡德拉诺带来了巨魔，并招募了那些被夺走了家园的阿曼尼森林巨魔进入自己的部队。他们发动了规模空前的战役，席卷了由矮人统治的卡兹莫丹大陆和罗德隆南方的区域，并毫不费力镇压了所有的反对力量。'	-- The Horde, now led by Warchief Doomhammer, brought in ogres from its homeworld of Draenor and conscripted the disenfranchised Amani forest trolls into its fold. Setting out on a massive campaign to overrun the dwarf kingdom of Khaz Modan and the southern reaches of Lordaeron, the Horde effortlessly decimated all opposition. 
+	`text_loc4`='由大酋长末日锤领导的部落从家乡德拉诺带来了巨魔，并招募了那些被夺走了家园的阿曼尼森林巨魔进入自己的部队。他们发动了规模空前的战役，席卷了由矮人统治的卡兹莫丹大陆和洛丹伦南方的区域，并毫不费力镇压了所有的反对力量。'	-- The Horde, now led by Warchief Doomhammer, brought in ogres from its homeworld of Draenor and conscripted the disenfranchised Amani forest trolls into its fold. Setting out on a massive campaign to overrun the dwarf kingdom of Khaz Modan and the southern reaches of Lordaeron, the Horde effortlessly decimated all opposition. 
 WHERE `entry`=1980;
 
 UPDATE `locales_page_text` SET
@@ -3419,11 +3419,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1981;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='战争遍及整个卡兹莫丹、罗德隆和艾泽拉斯。在北线的战役中，兽人部落将遥远的精灵王国奎尔萨拉斯的周边地区烧成了灰烬，这使得精灵们开始全力协助人类联盟作战。罗德隆较大的市镇都被战事夷为平地，尽管缺乏援军并面临着兽人压倒性的优势，但是洛萨与他的同盟者还是成功遏制住了敌人前进的步伐。'	-- The war raged across the continents of Khaz Modan, Lordaeron, and Azeroth itself. As part of its northern campaign, the Horde succeeded in burning down the borderlands of Quel'Thalas, thereby ensuring the elves' final commitment to the Alliance's cause. The greater cities and townships of Lordaeron were razed and devastated by the conflict. Despite the absence of reinforcements and overwhelming odds, Lothar and his allies succeeded in holding their enemies at bay. 
+	`text_loc4`='战争遍及整个卡兹莫丹、洛丹伦和艾泽拉斯。在北线的战役中，兽人部落将遥远的精灵王国奎尔萨拉斯的周边地区烧成了灰烬，这使得精灵们开始全力协助人类联盟作战。洛丹伦较大的市镇都被战事夷为平地，尽管缺乏援军并面临着兽人压倒性的优势，但是洛萨与他的同盟者还是成功遏制住了敌人前进的步伐。'	-- The war raged across the continents of Khaz Modan, Lordaeron, and Azeroth itself. As part of its northern campaign, the Horde succeeded in burning down the borderlands of Quel'Thalas, thereby ensuring the elves' final commitment to the Alliance's cause. The greater cities and townships of Lordaeron were razed and devastated by the conflict. Despite the absence of reinforcements and overwhelming odds, Lothar and his allies succeeded in holding their enemies at bay. 
 WHERE `entry`=1982;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='然而，在第二次兽人战争的最后几天，当兽人部落对人类联盟的胜利近在咫尺的时候，艾泽拉斯的两个最强大的兽人之间爆发了一次可怕的分裂。当奥格瑞姆·末日锤为进攻罗德隆的首都──这将是一次可能粉碎掉人类联盟最后的残余力量的进攻──作最后的准备时，古尔丹和他的追随者擅离职守出海而去。'	-- However, during the final days of the Second War, as the Horde's victory over the Alliance seemed almost assured, a terrible feud erupted between the two most powerful orcs on Azeroth. As Doomhammer prepared his final assault against the Capital City of Lordaeron - an assault that would have crushed the last remnants of the Alliance - Gul'dan and his followers abandoned their posts and set out to sea. 
+	`text_loc4`='然而，在第二次兽人战争的最后几天，当兽人部落对人类联盟的胜利近在咫尺的时候，艾泽拉斯的两个最强大的兽人之间爆发了一次可怕的分裂。当奥格瑞姆·末日锤为进攻洛丹伦的首都──这将是一次可能粉碎掉人类联盟最后的残余力量的进攻──作最后的准备时，古尔丹和他的追随者擅离职守出海而去。'	-- However, during the final days of the Second War, as the Horde's victory over the Alliance seemed almost assured, a terrible feud erupted between the two most powerful orcs on Azeroth. As Doomhammer prepared his final assault against the Capital City of Lordaeron - an assault that would have crushed the last remnants of the Alliance - Gul'dan and his followers abandoned their posts and set out to sea. 
 WHERE `entry`=1983;
 
 UPDATE `locales_page_text` SET
@@ -3459,7 +3459,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1991;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当第二次兽人战争的硝烟散尽之后，联盟以积极的态度和举措来解决兽人问题，在罗德隆南部建立了一系列俘虏收容所，用以关押被俘的兽人。在圣骑士和经验丰富的老兵的看守下，收容所取得了巨大的成功。虽然那些被俘的兽人烦躁不安地想要进行战斗，但在古老的监狱城堡德恩霍尔德要塞的控制之下，一切都显得和平而井井有条。'	-- As the fires of the Second War died down, the Alliance took aggressive steps to contain the orcish threat. A number of large internment camps, meant to house the captive orcs, were constructed in southern Lordaeron. Guarded by both the paladins and the veteran soldiers of the Alliance, the camps proved to be a great success.
+	`text_loc4`='当第二次兽人战争的硝烟散尽之后，联盟以积极的态度和举措来解决兽人问题，在洛丹伦南部建立了一系列俘虏收容所，用以关押被俘的兽人。在圣骑士和经验丰富的老兵的看守下，收容所取得了巨大的成功。虽然那些被俘的兽人烦躁不安地想要进行战斗，但在古老的监狱城堡德恩霍尔德要塞的控制之下，一切都显得和平而井井有条。'	-- As the fires of the Second War died down, the Alliance took aggressive steps to contain the orcish threat. A number of large internment camps, meant to house the captive orcs, were constructed in southern Lordaeron. Guarded by both the paladins and the veteran soldiers of the Alliance, the camps proved to be a great success.
 WHERE `entry`=1992;
 
 UPDATE `locales_page_text` SET
@@ -3475,7 +3475,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=1995;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='罗德隆王国的泰瑞纳斯国王深信兽人已经准备好了对艾泽拉斯发动新一轮的入侵，于是召集了他最信赖的副官。泰瑞纳斯国王命令图拉扬将军和大法师卡德加率领一支远征队穿过黑暗之门去解决兽人的威胁。图拉扬和卡德加率领部队开进了德拉诺，并在荒芜的地狱火半岛上与耐祖奥的氏族激烈交战。'	-- The new Horde, led by veteran chieftains such as Grom Hellscream and Kilrogg Deadeye (of the Bleeding Hollow clan), surprised the Alliance defense forces and rampaged through the countryside. Under Ner'zhul's surgical command, the orcs quickly rounded up the artifacts that they needed and fled back to the safety of Draenor.
+	`text_loc4`='洛丹伦王国的泰瑞纳斯国王深信兽人已经准备好了对艾泽拉斯发动新一轮的入侵，于是召集了他最信赖的副官。泰瑞纳斯国王命令图拉扬将军和大法师卡德加率领一支远征队穿过黑暗之门去解决兽人的威胁。图拉扬和卡德加率领部队开进了德拉诺，并在荒芜的地狱火半岛上与耐祖奥的氏族激烈交战。'	-- The new Horde, led by veteran chieftains such as Grom Hellscream and Kilrogg Deadeye (of the Bleeding Hollow clan), surprised the Alliance defense forces and rampaged through the countryside. Under Ner'zhul's surgical command, the orcs quickly rounded up the artifacts that they needed and fled back to the safety of Draenor.
 WHERE `entry`=1996;
 
 UPDATE `locales_page_text` SET
@@ -3563,11 +3563,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2017;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='同时，在受战争蹂躏的南方土地上，部落散乱的遗迹为他们的生存奋斗。虽然葛罗·地狱吼和他的战歌氏族躲开了被捕的命运，亡眼和他的血之谷氏族仍被围捕并被安置在罗德隆的拘留营地。尽管经历这些代价高的暴动，营地的典狱长很快就重建了对他们野蛮攻击的控制。'	-- Meanwhile, in the war-torn lands of the south, the scattered remnants of the Horde fought for their very survival. Though Grom Hellscream and his Warsong clan managed to evade capture, Deadeye and his Bleeding Hollow clan were rounded up and placed in the internment camps in Lordaeron. Notwithstanding these costly uprisings, the camps' wardens soon re-established control over their brutish charges. 
+	`text_loc4`='同时，在受战争蹂躏的南方土地上，部落散乱的遗迹为他们的生存奋斗。虽然葛罗·地狱吼和他的战歌氏族躲开了被捕的命运，亡眼和他的血之谷氏族仍被围捕并被安置在洛丹伦的拘留营地。尽管经历这些代价高的暴动，营地的典狱长很快就重建了对他们野蛮攻击的控制。'	-- Meanwhile, in the war-torn lands of the south, the scattered remnants of the Horde fought for their very survival. Though Grom Hellscream and his Warsong clan managed to evade capture, Deadeye and his Bleeding Hollow clan were rounded up and placed in the internment camps in Lordaeron. Notwithstanding these costly uprisings, the camps' wardens soon re-established control over their brutish charges. 
 WHERE `entry`=2018;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='尽管如此，在联盟的侦察员毫无察觉的情况下，一股强大的兽人势力仍然控制着卡兹莫丹北部的荒野。龙喉氏族的酋长──臭名昭着的术士耐克鲁斯利用一个被称为「恶魔之魂」的远古神器控制着红龙女王阿莱克丝塔萨和她的红龙军团。由于控制着红龙女王，耐克鲁斯在被遗弃的蛮锤要塞格瑞姆巴托中建立起一支秘密的部队。'	-- However, unknown to the Alliance, a large force of orcs still roamed free in the northern wastes of Khaz Modan. The Dragonmaw clan, led by the infamous warlock Nekros, was using an ancient artifact known as the Demon Soul to control the Dragonqueen, Alexstrasza, and her dragonflight. With the Dragonqueen as his hostage, Nekros built up a secret army within the abandoned - some say cursed - Wildhammer stronghold of Grim Batol. 
+	`text_loc4`='尽管如此，在联盟的侦察员毫无察觉的情况下，一股强大的兽人势力仍然控制着卡兹莫丹北部的荒野。龙喉氏族的酋长──臭名昭着的术士耐克鲁斯利用一个被称为“恶魔之魂”的远古神器控制着红龙女王阿莱克丝塔萨和她的红龙军团。由于控制着红龙女王，耐克鲁斯在被遗弃的蛮锤要塞格瑞姆巴托中建立起一支秘密的部队。'	-- However, unknown to the Alliance, a large force of orcs still roamed free in the northern wastes of Khaz Modan. The Dragonmaw clan, led by the infamous warlock Nekros, was using an ancient artifact known as the Demon Soul to control the Dragonqueen, Alexstrasza, and her dragonflight. With the Dragonqueen as his hostage, Nekros built up a secret army within the abandoned - some say cursed - Wildhammer stronghold of Grim Batol. 
 WHERE `entry`=2019;
 
 UPDATE `locales_page_text` SET
@@ -3579,7 +3579,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2021;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='数月之后，更多的兽人囚犯被投入了收容所。随着各地的收容所爆满，联盟不得不在奥特兰克山脉南部的平原上修建新的收容所。为了更好地维持和供给数目不断增长的收容所，罗德隆王国的泰瑞纳斯国王向所有联盟成员国征收新的税款。'	-- Months passed, and more orc prisoners were rounded up and placed within the internment camps. As the camps began to overflow, the Alliance was forced to construct new camps in the plains south of the Alterac Mountains. To properly maintain and supply the growing number of camps, King Terenas levied a new tax on the Alliance nations. 
+	`text_loc4`='数月之后，更多的兽人囚犯被投入了收容所。随着各地的收容所爆满，联盟不得不在奥特兰克山脉南部的平原上修建新的收容所。为了更好地维持和供给数目不断增长的收容所，洛丹伦王国的泰瑞纳斯国王向所有联盟成员国征收新的税款。'	-- Months passed, and more orc prisoners were rounded up and placed within the internment camps. As the camps began to overflow, the Alliance was forced to construct new camps in the plains south of the Alterac Mountains. To properly maintain and supply the growing number of camps, King Terenas levied a new tax on the Alliance nations. 
 WHERE `entry`=2022;
 
 UPDATE `locales_page_text` SET
@@ -3615,7 +3615,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2030;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='尽管典狱官的养育极其苛刻，年青的索尔仍然成长为一名健壮而聪明的兽人，但他心里明白自己的一生决不应该作为奴隶度过。当索尔成年以后，他了解到了自己的种族，还有那些他从来都没有见过的、在战争中被击败的同类们，他们中的大多数都被关入俘虏收容所中。有传闻说兽人领袖奥格瑞姆·末日锤已经从罗德隆逃走并隐居了起来，只有一个流亡的氏族仍然试图避开联盟警惕的目光，秘密地进行着军事活动。'	-- Despite his harsh upbringing, young Thrall grew into a strong, quick-witted orc, and he knew in his heart that a slave's life was not for him. As he grew to maturity, he learned about his people, the orcs, whom he had never met: after their defeat, most of them had been placed in internment camps. Rumor had it that Doomhammer, the orc leader, had escaped from Lordaeron and gone into hiding. Only one rogue clan still operated in secret, trying to evade the watchful eyes of the Alliance. 
+	`text_loc4`='尽管典狱官的养育极其苛刻，年青的索尔仍然成长为一名健壮而聪明的兽人，但他心里明白自己的一生决不应该作为奴隶度过。当索尔成年以后，他了解到了自己的种族，还有那些他从来都没有见过的、在战争中被击败的同类们，他们中的大多数都被关入俘虏收容所中。有传闻说兽人领袖奥格瑞姆·末日锤已经从洛丹伦逃走并隐居了起来，只有一个流亡的氏族仍然试图避开联盟警惕的目光，秘密地进行着军事活动。'	-- Despite his harsh upbringing, young Thrall grew into a strong, quick-witted orc, and he knew in his heart that a slave's life was not for him. As he grew to maturity, he learned about his people, the orcs, whom he had never met: after their defeat, most of them had been placed in internment camps. Rumor had it that Doomhammer, the orc leader, had escaped from Lordaeron and gone into hiding. Only one rogue clan still operated in secret, trying to evade the watchful eyes of the Alliance. 
 WHERE `entry`=2031;
 
 UPDATE `locales_page_text` SET
@@ -3647,7 +3647,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2038;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当索尔在罗德隆释放其同胞弟兄的时候，耐祖奥继续在诺森德大陆巩固他的基地，他在寒冰皇冠上空建立起了一座巨大的城堡以控制庞大的亡灵军团。'	-- While Thrall was liberating his brethren in Lordaeron, Ner'zhul continued to build up his power base in Northrend. A great citadel was erected above the Icecrown Glacier and manned by the growing legions of the dead. Yet as the Lich King extended his influence over the land, one shadowy empire stood against his power. 
+	`text_loc4`='当索尔在洛丹伦释放其同胞弟兄的时候，耐祖奥继续在诺森德大陆巩固他的基地，他在寒冰皇冠上空建立起了一座巨大的城堡以控制庞大的亡灵军团。'	-- While Thrall was liberating his brethren in Lordaeron, Ner'zhul continued to build up his power base in Northrend. A great citadel was erected above the Icecrown Glacier and manned by the growing legions of the dead. Yet as the Lich King extended his influence over the land, one shadowy empire stood against his power. 
 WHERE `entry`=2039;
 
 UPDATE `locales_page_text` SET
@@ -3667,7 +3667,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2043;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在世界各地都有一些强大的人类愿意听从巫妖王从诺森德发出的精神召唤，其中最着名的就是达拉然的大法师科尔苏加德，他曾是统治达拉然的法师议会肯瑞托的一员。多年以来，科尔苏加德一直被认为是一个异类，因为他坚持研究被禁止的通灵术。'	-- There were a handful of powerful individuals scattered throughout the world who heard the Lich King's mental summons from Northrend. Most notable of them was the archmage of Dalaran, Kel'Thuzad, who was one of senior members of the Kirin Tor, Dalaran's ruling council. He had been considered a maverick for years due to his insistence on studying the forbidden arts of necromancy. 
+	`text_loc4`='在世界各地都有一些强大的人类愿意听从巫妖王从诺森德发出的精神召唤，其中最着名的就是达拉然的大法师克尔苏加德，他曾是统治达拉然的法师议会肯瑞托的一员。多年以来，克尔苏加德一直被认为是一个异类，因为他坚持研究被禁止的通灵术。'	-- There were a handful of powerful individuals scattered throughout the world who heard the Lich King's mental summons from Northrend. Most notable of them was the archmage of Dalaran, Kel'Thuzad, who was one of senior members of the Kirin Tor, Dalaran's ruling council. He had been considered a maverick for years due to his insistence on studying the forbidden arts of necromancy. 
 WHERE `entry`=2044;
 
 UPDATE `locales_page_text` SET
@@ -3675,7 +3675,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2045;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='科尔苏加德放弃了他的所有财产和地位，永远离开了肯瑞托和达拉然。在巫妖王的指示下，他变卖了所有财产，将得到的金钱都藏在一个秘密的地方。在经历了艰难的长途跋涉之后，科尔苏加德终于抵达了诺森德的冰冻海岸。'	-- Leaving behind his fortune and prestigious political standing, Kel'Thuzad abandoned the ways of the Kirin Tor and left Dalaran forever. Prodded by the Lich King's persistent voice in his mind, he sold his vast holdings and stored away his fortunes. Traveling alone over many leagues of both land and sea, he finally reached the frozen shores of Northrend.
+	`text_loc4`='克尔苏加德放弃了他的所有财产和地位，永远离开了肯瑞托和达拉然。在巫妖王的指示下，他变卖了所有财产，将得到的金钱都藏在一个秘密的地方。在经历了艰难的长途跋涉之后，克尔苏加德终于抵达了诺森德的冰冻海岸。'	-- Leaving behind his fortune and prestigious political standing, Kel'Thuzad abandoned the ways of the Kirin Tor and left Dalaran forever. Prodded by the Lich King's persistent voice in his mind, he sold his vast holdings and stored away his fortunes. Traveling alone over many leagues of both land and sea, he finally reached the frozen shores of Northrend.
 WHERE `entry`=2046;
 
 UPDATE `locales_page_text` SET
@@ -3683,7 +3683,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2047;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在冰冷的荒野上旅行了数月之后，科尔苏加德终于到达了寒冰皇冠。他来到了耐祖奥的黑暗城堡，当沉默的不死生物守卫让他通过时，大法师感到了强烈的震撼。'	-- After long months of trekking through the harsh arctic wastelands, Kel'Thuzad finally reached the dark glacier of Icecrown. He boldly approached Ner'zhul's dark citadel and was shocked when the undead guardsmen silently let him pass as though he was expected. 
+	`text_loc4`='在冰冷的荒野上旅行了数月之后，克尔苏加德终于到达了寒冰皇冠。他来到了耐祖奥的黑暗城堡，当沉默的不死生物守卫让他通过时，大法师感到了强烈的震撼。'	-- After long months of trekking through the harsh arctic wastelands, Kel'Thuzad finally reached the dark glacier of Icecrown. He boldly approached Ner'zhul's dark citadel and was shocked when the undead guardsmen silently let him pass as though he was expected. 
 WHERE `entry`=2048;
 
 UPDATE `locales_page_text` SET
@@ -3691,47 +3691,47 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2049;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='巫妖王对新的追随者感到十分满意。他向科尔苏加德许诺要给他不死之身和强大的力量，以换取他的忠诚和服从。渴望黑暗知识和力量的科尔苏加德马上接受了他的第一个任务--深入人类世界并建立一个将耐祖奥作为神来膜拜的新教派。'	-- The Lich King was pleased with his latest conscript. He promised Kel'Thuzad immortality and great power in exchange for his loyalty and obedience. Eager for dark knowledge and power, Kel'Thuzad accepted his first great mission: to go into the world of men and found a new religion that would worship the Lich King as a god.
+	`text_loc4`='巫妖王对新的追随者感到十分满意。他向克尔苏加德许诺要给他不死之身和强大的力量，以换取他的忠诚和服从。渴望黑暗知识和力量的克尔苏加德马上接受了他的第一个任务--深入人类世界并建立一个将耐祖奥作为神来膜拜的新教派。'	-- The Lich King was pleased with his latest conscript. He promised Kel'Thuzad immortality and great power in exchange for his loyalty and obedience. Eager for dark knowledge and power, Kel'Thuzad accepted his first great mission: to go into the world of men and found a new religion that would worship the Lich King as a god.
 WHERE `entry`=2050;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='为了帮助大法师完成他的任务，耐祖奥让他继续保留人类的躯体。年长但依旧不失魅力的巫师运用幻影和宗教的力量吸引了大批被流放的罗德隆人，并向他们描述了一个美丽的新社会--还给他们每人都送了一个可以随时联系巫妖王的人偶……'	-- To help the archmage accomplish his mission, Ner'zhul left Kel'Thuzad's humanity intact. The aged yet still charismatic wizard was charged with using his powers of illusion and persuasion to lull the downtrodden, disenfranchised masses of Lordaeron into a state of trust and belief. Then, once he had their attention, he would offer them a new vision of what society could be - and a new figurehead to call their king.
+	`text_loc4`='为了帮助大法师完成他的任务，耐祖奥让他继续保留人类的躯体。年长但依旧不失魅力的巫师运用幻影和宗教的力量吸引了大批被流放的洛丹伦人，并向他们描述了一个美丽的新社会--还给他们每人都送了一个可以随时联系巫妖王的人偶……'	-- To help the archmage accomplish his mission, Ner'zhul left Kel'Thuzad's humanity intact. The aged yet still charismatic wizard was charged with using his powers of illusion and persuasion to lull the downtrodden, disenfranchised masses of Lordaeron into a state of trust and belief. Then, once he had their attention, he would offer them a new vision of what society could be - and a new figurehead to call their king.
 WHERE `entry`=2051;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='科尔苏加德秘密回到了罗德隆，并且在那里活动了三年。他运用他的财富和智商聚集了一些愿意跟随他的人类并组建了一个名为「诅咒教派」的教派。他向信徒们许诺要赐予他们平等的社会地位和永恒的生命以换取他们对耐祖奥的服从。'	-- Kel'Thuzad returned to Lordaeron in disguise, and over the span of three years, he used his fortune and intellect to gather a clandestine brotherhood of like-minded men and women. The brotherhood, which he called the Cult of the Damned, promised its acolytes social equality and eternal life on Azeroth in exchange for their service and obedience to Ner'zhul. 
+	`text_loc4`='克尔苏加德秘密回到了洛丹伦，并且在那里活动了三年。他运用他的财富和智商聚集了一些愿意跟随他的人类并组建了一个名为“诅咒教派”的教派。他向信徒们许诺要赐予他们平等的社会地位和永恒的生命以换取他们对耐祖奥的服从。'	-- Kel'Thuzad returned to Lordaeron in disguise, and over the span of three years, he used his fortune and intellect to gather a clandestine brotherhood of like-minded men and women. The brotherhood, which he called the Cult of the Damned, promised its acolytes social equality and eternal life on Azeroth in exchange for their service and obedience to Ner'zhul. 
 WHERE `entry`=2052;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='数月之后，大量对生活心灰意冷的人加入了他的教派。科尔苏加德的目标--令人们放弃对光明的信仰，转而膜拜耐祖奥的黑暗力量--很容易地就达到了。在诅咒教派不断发展壮大的同时，科尔苏加德也要确保罗德隆的统治者们不会发现他们的秘密活动。'	-- As the months passed, Kel'Thuzad found many eager volunteers for his new cult amongst the tired, overburdened laborers of Lordaeron. It was surprisingly easy for Kel'Thuzad to achieve his goal: namely, to transfer the citizens' faith in the Holy Light into belief in Ner'zhul's dark shadow. As the Cult of the Damned grew in size and influence, Kel'Thuzad made sure to hide its workings from the authorities of Lordaeron.
+	`text_loc4`='数月之后，大量对生活心灰意冷的人加入了他的教派。克尔苏加德的目标--令人们放弃对光明的信仰，转而膜拜耐祖奥的黑暗力量--很容易地就达到了。在诅咒教派不断发展壮大的同时，克尔苏加德也要确保洛丹伦的统治者们不会发现他们的秘密活动。'	-- As the months passed, Kel'Thuzad found many eager volunteers for his new cult amongst the tired, overburdened laborers of Lordaeron. It was surprisingly easy for Kel'Thuzad to achieve his goal: namely, to transfer the citizens' faith in the Holy Light into belief in Ner'zhul's dark shadow. As the Cult of the Damned grew in size and influence, Kel'Thuzad made sure to hide its workings from the authorities of Lordaeron.
 WHERE `entry`=2053;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当科尔苏加德在罗德隆大获成功的时候，巫妖王也在为进攻人类世界做最后的准备。耐祖奥将他的瘟疫能量灌入许多被称为「瘟疫之源」的神器中，并命令科尔苏加德将这些神器带往罗德隆，隐藏在那些被教派控制的村庄中。'	-- With Kel'Thuzad's success in Lordaeron, the Lich King made the final preparations for his assault against human civilization. Placing his plague-energies into a number of portable artifacts called plague-cauldrons, Ner'zhul ordered Kel'Thuzad to transport the cauldrons to Lordaeron, where they would be hidden within various cult-controlled villages. 
+	`text_loc4`='当克尔苏加德在洛丹伦大获成功的时候，巫妖王也在为进攻人类世界做最后的准备。耐祖奥将他的瘟疫能量灌入许多被称为“瘟疫之源”的神器中，并命令克尔苏加德将这些神器带往洛丹伦，隐藏在那些被教派控制的村庄中。'	-- With Kel'Thuzad's success in Lordaeron, the Lich King made the final preparations for his assault against human civilization. Placing his plague-energies into a number of portable artifacts called plague-cauldrons, Ner'zhul ordered Kel'Thuzad to transport the cauldrons to Lordaeron, where they would be hidden within various cult-controlled villages. 
 WHERE `entry`=2054;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='这些被忠诚的教徒保护着的瘟疫之源将作为产生瘟疫的源泉，源源不断地放出瘟疫，横扫罗德隆北部的城市和村庄。'	-- The cauldrons, protected by the loyal cultists, would then act as plague-generators, sending the plague seeping out across the unsuspecting farmlands and cities of northern Lordaeron.
+	`text_loc4`='这些被忠诚的教徒保护着的瘟疫之源将作为产生瘟疫的源泉，源源不断地放出瘟疫，横扫洛丹伦北部的城市和村庄。'	-- The cauldrons, protected by the loyal cultists, would then act as plague-generators, sending the plague seeping out across the unsuspecting farmlands and cities of northern Lordaeron.
 WHERE `entry`=2055;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='巫妖王的计划运作得十分成功。许多罗德隆北部的村民几乎是瞬间就被感染了。与在诺森德一样，被瘟疫接触的人类死去，然后变成对巫妖王唯命是从的奴隶。'	-- The Lich King's plan worked perfectly. Many of Lordaeron's northern villages were contaminated almost immediately. Just as in Northrend, the citizens who contracted the plague died and arose as the Lich King's willing slaves. 
+	`text_loc4`='巫妖王的计划运作得十分成功。许多洛丹伦北部的村民几乎是瞬间就被感染了。与在诺森德一样，被瘟疫接触的人类死去，然后变成对巫妖王唯命是从的奴隶。'	-- The Lich King's plan worked perfectly. Many of Lordaeron's northern villages were contaminated almost immediately. Just as in Northrend, the citizens who contracted the plague died and arose as the Lich King's willing slaves. 
 WHERE `entry`=2056;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='科尔苏加德领导的教徒急切地希望死去并为他们的主人服务，他们希望通过这种方式变成不死之身。随着瘟疫逐渐扩散，罗德隆北部出现了越来越多的僵尸，科尔苏加德管理着这支日益庞大的部队，并称他们为「天谴军团」──不久之后，它就会踏进罗德隆的大门，并把人类从这个世界上永远抹掉。'	-- The cultists under Kel'Thuzad were eager to die and be raised again in their dark lord's service. They exulted in the prospect of immortality through undeath. As the plague spread, more and more feral zombies arose in the northlands. Kel'Thuzad looked upon the Lich King's growing army and named it the Scourge, for soon it would march upon the gates of Lordaeron and scour humanity from the face of the world. 
+	`text_loc4`='克尔苏加德领导的教徒急切地希望死去并为他们的主人服务，他们希望通过这种方式变成不死之身。随着瘟疫逐渐扩散，洛丹伦北部出现了越来越多的僵尸，克尔苏加德管理着这支日益庞大的部队，并称他们为“天灾军团”──不久之后，它就会踏进洛丹伦的大门，并把人类从这个世界上永远抹掉。'	-- The cultists under Kel'Thuzad were eager to die and be raised again in their dark lord's service. They exulted in the prospect of immortality through undeath. As the plague spread, more and more feral zombies arose in the northlands. Kel'Thuzad looked upon the Lich King's growing army and named it the Scourge, for soon it would march upon the gates of Lordaeron and scour humanity from the face of the world. 
 WHERE `entry`=2057;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='科尔苏加德领导的教徒急切地希望死去并为他们的主人服务，他们希望通过这种方式变成不死之身。随着瘟疫逐渐扩散，罗德隆北部出现了越来越多的僵尸，科尔苏加德管理着这支日益庞大的部队，并称他们为「天谴军团」──不久之后，它就会踏进罗德隆的大门，并把人类从这个世界上永远抹掉。'	-- The cultists under Kel'Thuzad were eager to die and be raised again in their dark lord's service. They exulted in the prospect of immortality through undeath. As the plague spread, more and more feral zombies arose in the northlands. Kel'Thuzad looked upon the Lich King's growing army and named it the Scourge, for soon it would march upon the gates of Lordaeron and scour humanity from the face of the world. 
+	`text_loc4`='克尔苏加德领导的教徒急切地希望死去并为他们的主人服务，他们希望通过这种方式变成不死之身。随着瘟疫逐渐扩散，洛丹伦北部出现了越来越多的僵尸，克尔苏加德管理着这支日益庞大的部队，并称他们为“天灾军团”──不久之后，它就会踏进洛丹伦的大门，并把人类从这个世界上永远抹掉。'	-- The cultists under Kel'Thuzad were eager to die and be raised again in their dark lord's service. They exulted in the prospect of immortality through undeath. As the plague spread, more and more feral zombies arose in the northlands. Kel'Thuzad looked upon the Lich King's growing army and named it the Scourge, for soon it would march upon the gates of Lordaeron and scour humanity from the face of the world. 
 WHERE `entry`=2063;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='经过数月的漫长准备，科尔苏加德率领他的诅咒教派向罗德隆发起了第一轮攻击，释放了亡灵瘟疫。乌瑟和他的圣骑士们调查了受瘟疫感染的地区，希望能找到一种解救的办法。他们不断地努力，但是瘟疫仍然在扩散，甚至威胁到了联盟的统一。'	-- After preparing for many long months, Kel'Thuzad and his Cult of the Damned finally struck the first blow by releasing the plague of undeath upon Lordaeron. Uther and his fellow paladins investigated the infected regions in the hope of finding a way to stop the plague. Despite their efforts, the plague continued to spread and threatened to tear the Alliance apart.
+	`text_loc4`='经过数月的漫长准备，克尔苏加德率领他的诅咒教派向洛丹伦发起了第一轮攻击，释放了亡灵瘟疫。乌瑟和他的圣骑士们调查了受瘟疫感染的地区，希望能找到一种解救的办法。他们不断地努力，但是瘟疫仍然在扩散，甚至威胁到了联盟的统一。'	-- After preparing for many long months, Kel'Thuzad and his Cult of the Damned finally struck the first blow by releasing the plague of undeath upon Lordaeron. Uther and his fellow paladins investigated the infected regions in the hope of finding a way to stop the plague. Despite their efforts, the plague continued to spread and threatened to tear the Alliance apart.
 WHERE `entry`=2064;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='不死生物的威胁横扫罗德隆，国王泰瑞纳斯的独子──阿尔萨斯王子担当起了对抗天谴军团的重任。阿尔萨斯成功地消灭了科尔苏加德，但是不死生物的军队并没有因此而减少，反而有更多阵亡的人类士兵成为了新的不死生物。面对势不可挡的强大力量和失败的挫折感，阿尔萨斯采取了更极端的抵抗措施。最后，阿尔萨斯的战友告诫他，不要因此丧失了高贵的人格。'	-- As the ranks of the undead swept across Lordaeron, Terenas' only son, Prince Arthas, took up the fight against the Scourge. Arthas succeeded in killing Kel'Thuzad, but even so, the undead ranks swelled with every soldier that fell defending the land. Frustrated and stymied by the seemingly unstoppable enemy, Arthas took increasingly extreme steps to conquer them. Finally Arthas' comrades warned him that he was losing his hold on his humanity.
+	`text_loc4`='不死生物的威胁横扫洛丹伦，国王泰瑞纳斯的独子──阿尔萨斯王子担当起了对抗天灾军团的重任。阿尔萨斯成功地消灭了克尔苏加德，但是不死生物的军队并没有因此而减少，反而有更多阵亡的人类士兵成为了新的不死生物。面对势不可挡的强大力量和失败的挫折感，阿尔萨斯采取了更极端的抵抗措施。最后，阿尔萨斯的战友告诫他，不要因此丧失了高贵的人格。'	-- As the ranks of the undead swept across Lordaeron, Terenas' only son, Prince Arthas, took up the fight against the Scourge. Arthas succeeded in killing Kel'Thuzad, but even so, the undead ranks swelled with every soldier that fell defending the land. Frustrated and stymied by the seemingly unstoppable enemy, Arthas took increasingly extreme steps to conquer them. Finally Arthas' comrades warned him that he was losing his hold on his humanity.
 WHERE `entry`=2065;
 
 UPDATE `locales_page_text` SET
@@ -3739,19 +3739,19 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2066;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='虽然这把剑的确给他带来了深不可测的力量，但它同时也夺取了王子的灵魂，使他变成巫妖王手下最强大的死亡骑士。彻底丧失心智的阿尔萨斯带领天谴军团回到了自己的王国。最终，阿尔萨斯刺杀了他的父亲──泰瑞纳斯国王，随后又率领巫妖王的大军踏平了整个罗德隆。'	-- Though the sword did grant him unfathomable power, it also stole his soul and transformed him into the greatest of the Lich King's death knights. With his soul cast aside and his sanity shattered, Arthas led the Scourge against his own kingdom. Ultimately, Arthas murdered his own father, King Terenas, and crushed Lordaeron under the Lich King's iron heel.
+	`text_loc4`='虽然这把剑的确给他带来了深不可测的力量，但它同时也夺取了王子的灵魂，使他变成巫妖王手下最强大的死亡骑士。彻底丧失心智的阿尔萨斯带领天灾军团回到了自己的王国。最终，阿尔萨斯刺杀了他的父亲──泰瑞纳斯国王，随后又率领巫妖王的大军踏平了整个洛丹伦。'	-- Though the sword did grant him unfathomable power, it also stole his soul and transformed him into the greatest of the Lich King's death knights. With his soul cast aside and his sanity shattered, Arthas led the Scourge against his own kingdom. Ultimately, Arthas murdered his own father, King Terenas, and crushed Lordaeron under the Lich King's iron heel.
 WHERE `entry`=2067;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='虽然阿尔萨斯打败了他目前的所有敌人，但他却摆脱不了科尔苏加德的鬼魂。鬼魂告诉阿尔萨斯，为了巫妖王的下一步计划，他必须复活，方法就是把他的尸骨带到高等精灵王国奎尔萨拉斯的太阳之井去。'	-- Though he had defeated all of the people he now saw as his enemies, Arthas was still haunted by the ghost of Kel'Thuzad. The ghost told Arthas that he needed to be revived for the next phase of the Lich King's plan. To revive him, Arthas needed to bring Kel'Thuzad's remains to the mystical Sunwell, hidden within the high elves' eternal kingdom of Quel'Thalas. 
+	`text_loc4`='虽然阿尔萨斯打败了他目前的所有敌人，但他却摆脱不了克尔苏加德的鬼魂。鬼魂告诉阿尔萨斯，为了巫妖王的下一步计划，他必须复活，方法就是把他的尸骨带到高等精灵王国奎尔萨拉斯的太阳之井去。'	-- Though he had defeated all of the people he now saw as his enemies, Arthas was still haunted by the ghost of Kel'Thuzad. The ghost told Arthas that he needed to be revived for the next phase of the Lich King's plan. To revive him, Arthas needed to bring Kel'Thuzad's remains to the mystical Sunwell, hidden within the high elves' eternal kingdom of Quel'Thalas. 
 WHERE `entry`=2068;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='阿尔萨斯和天谴军团侵入奎尔萨拉斯，将精灵围困在脆弱的防线后。银月城的游侠将军希瓦娜斯·风行者奋勇战斗，但仍不敌阿尔萨斯。阿尔萨斯摧枯拉朽般地击溃了精灵的部队，顺利进入了太阳之井。作为展示他的力量的手段，他把希瓦娜斯的遗体变成女妖，使她永远不死，永远向阿尔萨斯这个奎尔萨拉斯的征服者效忠。'	-- Arthas and his Scourge invaded Quel'Thalas and laid siege to the elves' crumbling defenses. Sylvanas Windrunner, the Ranger-General of Silvermoon, put up a valiant fight, but Arthas eventually eradicated the high elf army and battled through to the Sunwell. In a cruel gesture of his dominance, he even raised Sylvanas' defeated body as a banshee, cursed to endless undeath in the service of Quel'Thalas' conqueror. 
+	`text_loc4`='阿尔萨斯和天灾军团侵入奎尔萨拉斯，将精灵围困在脆弱的防线后。银月城的游侠将军希瓦娜斯·风行者奋勇战斗，但仍不敌阿尔萨斯。阿尔萨斯摧枯拉朽般地击溃了精灵的部队，顺利进入了太阳之井。作为展示他的力量的手段，他把希瓦娜斯的遗体变成女妖，使她永远不死，永远向阿尔萨斯这个奎尔萨拉斯的征服者效忠。'	-- Arthas and his Scourge invaded Quel'Thalas and laid siege to the elves' crumbling defenses. Sylvanas Windrunner, the Ranger-General of Silvermoon, put up a valiant fight, but Arthas eventually eradicated the high elf army and battled through to the Sunwell. In a cruel gesture of his dominance, he even raised Sylvanas' defeated body as a banshee, cursed to endless undeath in the service of Quel'Thalas' conqueror. 
 WHERE `entry`=2069;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='最后，阿尔萨斯把科尔苏加德的尸骨浸没在太阳之井的圣水中。尽管永恒的圣水因此受到了污染，科尔苏加德却复活成为了一个法力强大的巫妖，重获新生之后的科尔苏加德向阿尔萨斯解释了巫妖王的下一步计划'	-- Ultimately, Arthas submerged Kel'Thuzad's remains within the holy waters of the Sunwell. Although the potent waters of Eternity were fouled by this act, Kel'Thuzad was reborn as a sorcerous lich. Resurrected as a far more powerful being, Kel'Thuzad explained the next phase of the Lich King's plan. 
+	`text_loc4`='最后，阿尔萨斯把克尔苏加德的尸骨浸没在太阳之井的圣水中。尽管永恒的圣水因此受到了污染，克尔苏加德却复活成为了一个法力强大的巫妖，重获新生之后的克尔苏加德向阿尔萨斯解释了巫妖王的下一步计划'	-- Ultimately, Arthas submerged Kel'Thuzad's remains within the holy waters of the Sunwell. Although the potent waters of Eternity were fouled by this act, Kel'Thuzad was reborn as a sorcerous lich. Resurrected as a far more powerful being, Kel'Thuzad explained the next phase of the Lich King's plan. 
 WHERE `entry`=2070;
 
 UPDATE `locales_page_text` SET
@@ -3759,11 +3759,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2071;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='科尔苏加德复活之后，阿尔萨斯就率领天谴军团杀向了达拉然。他们要在那里得到麦迪文之书，然后用它来召唤阿克蒙德，然后阿克蒙德将亲自率领燃烧军团发起最后的进攻。就连肯瑞托的巫师也无法阻止阿尔萨斯的军队抢夺麦迪文之书。'	-- Once Kel'Thuzad was whole again, Arthas led the Scourge south to Dalaran. There the lich would obtain the powerful spellbook of Medivh, and use it to summon Archimonde back into the world. From that point on, Archimonde himself would begin the Legion's final invasion. Not even the wizards of the Kirin Tor could stop Arthas' forces from stealing Medivh's book, and soon Kel'Thuzad had all he needed to perform his spell. 
+	`text_loc4`='克尔苏加德复活之后，阿尔萨斯就率领天灾军团杀向了达拉然。他们要在那里得到麦迪文之书，然后用它来召唤阿克蒙德，然后阿克蒙德将亲自率领燃烧军团发起最后的进攻。就连肯瑞托的巫师也无法阻止阿尔萨斯的军队抢夺麦迪文之书。'	-- Once Kel'Thuzad was whole again, Arthas led the Scourge south to Dalaran. There the lich would obtain the powerful spellbook of Medivh, and use it to summon Archimonde back into the world. From that point on, Archimonde himself would begin the Legion's final invasion. Not even the wizards of the Kirin Tor could stop Arthas' forces from stealing Medivh's book, and soon Kel'Thuzad had all he needed to perform his spell. 
 WHERE `entry`=2072;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='很快，克尔苏加德就凑齐了施展魔法所需的物品。在距第一次入侵艾泽拉斯世界失败的一万年后，强大的恶魔阿克蒙德和他的部队再次浮现在艾泽拉斯世界的上空。然而，达拉然并不是他们的最终目标。在基尔加丹的命令下，阿克蒙德和他的恶魔跟随天谴军团到达了卡林多，他们计划要摧毁世界之树──诺达希尔。'	-- After ten thousand years, the mighty demon Archimonde and his host emerged once again upon the world of Azeroth. Yet Dalaran was not their final destination. Under orders from Kil'jaeden himself, Archimonde and his demons followed the undead Scourge to Kalimdor, bent on destroying Nordrassil, the World Tree. 
+	`text_loc4`='很快，克尔苏加德就凑齐了施展魔法所需的物品。在距第一次入侵艾泽拉斯世界失败的一万年后，强大的恶魔阿克蒙德和他的部队再次浮现在艾泽拉斯世界的上空。然而，达拉然并不是他们的最终目标。在基尔加丹的命令下，阿克蒙德和他的恶魔跟随天灾军团到达了卡利姆多，他们计划要摧毁世界之树──诺达希尔。'	-- After ten thousand years, the mighty demon Archimonde and his host emerged once again upon the world of Azeroth. Yet Dalaran was not their final destination. Under orders from Kil'jaeden himself, Archimonde and his demons followed the undead Scourge to Kalimdor, bent on destroying Nordrassil, the World Tree. 
 WHERE `entry`=2073;
 
 UPDATE `locales_page_text` SET
@@ -3771,11 +3771,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2074;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='但是由于世代交恶，他们是不可能合作的。麦迪文不得不分别警告兽人和人类，即便是使用预言术或者欺骗的手段，也要引导他们渡过大海，前往传说中的大陆──卡林多。兽人和人类很快就遇到了隐居很久的卡多雷文明。'	-- Jaded by generations of hate, the orcs and humans would have none of it. Medivh was forced to deal with each race separately, using prophecy and trickery to guide them across the sea to the legendary land of Kalimdor. The orcs and humans soon encountered the long-hidden civilization of the Kaldorei. 
+	`text_loc4`='但是由于世代交恶，他们是不可能合作的。麦迪文不得不分别警告兽人和人类，即便是使用预言术或者欺骗的手段，也要引导他们渡过大海，前往传说中的大陆──卡利姆多。兽人和人类很快就遇到了隐居很久的卡多雷文明。'	-- Jaded by generations of hate, the orcs and humans would have none of it. Medivh was forced to deal with each race separately, using prophecy and trickery to guide them across the sea to the legendary land of Kalimdor. The orcs and humans soon encountered the long-hidden civilization of the Kaldorei. 
 WHERE `entry`=2075;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='索尔领导兽人经历了千辛万苦，在卡林多的荒地上展开了探索。尽管友善的牛头人凯恩·血蹄和强壮的牛头人战士慷慨相助，很多兽人还是开始屈服于折磨他们多年的杀戮欲。索尔的副官──葛罗·地狱吼──甚至背叛了兽人部落，屈服于这种由恶魔带来的欲望。'	-- The orcs, led by Thrall, suffered a series of setbacks on their journey across Kalimdor's Barrens. Though they befriended Cairne Bloodhoof and his mighty tauren warriors, many orcs began to succumb to the demonic bloodlust that had plagued them for years. Thrall's greatest lieutenant, Grom Hellscream, even betrayed the Horde by giving himself over to his baser instincts. 
+	`text_loc4`='索尔领导兽人经历了千辛万苦，在卡利姆多的荒地上展开了探索。尽管友善的牛头人凯恩·血蹄和强壮的牛头人战士慷慨相助，很多兽人还是开始屈服于折磨他们多年的杀戮欲。索尔的副官──葛罗·地狱吼──甚至背叛了兽人部落，屈服于这种由恶魔带来的欲望。'	-- The orcs, led by Thrall, suffered a series of setbacks on their journey across Kalimdor's Barrens. Though they befriended Cairne Bloodhoof and his mighty tauren warriors, many orcs began to succumb to the demonic bloodlust that had plagued them for years. Thrall's greatest lieutenant, Grom Hellscream, even betrayed the Horde by giving himself over to his baser instincts. 
 WHERE `entry`=2076;
 
 UPDATE `locales_page_text` SET
@@ -3791,7 +3791,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2079;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='有了爱人玛法里恩·怒风的帮助，泰兰德成功地加强了防御，击退了燃烧军团。大自然在德鲁伊的帮助下击溃了燃烧军团和天谴军团。'	-- Calling upon her ancient love, Malfurion Stormrage, Tyrande succeeded in galvanizing her defenses and driving the Legion back. With Malfurion's help, nature herself rose up to vanquish the Legion and its Scourge allies. 
+	`text_loc4`='有了爱人玛法里恩·怒风的帮助，泰兰德成功地加强了防御，击退了燃烧军团。大自然在德鲁伊的帮助下击溃了燃烧军团和天灾军团。'	-- Calling upon her ancient love, Malfurion Stormrage, Tyrande succeeded in galvanizing her defenses and driving the Legion back. With Malfurion's help, nature herself rose up to vanquish the Legion and its Scourge allies. 
 WHERE `entry`=2080;
 
 UPDATE `locales_page_text` SET
@@ -3803,7 +3803,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2082;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在燃烧军团对灰谷展开入侵期间，伊利丹结束了他在地牢中近万年的囚犯生涯。他曾尽力让他的伙伴对他安心，但很快他就原形毕露，吸收了一个被称为「古尔丹之颅」的强大术士神器的能量。'	-- During the Legion's invasion of Ashenvale, Illidan was released from his barrow prison after ten thousand years of captivity. Though he sought to appease his comrades, he soon reverted to true form and consumed the energies of a powerful warlock artifact known as the Skull of Gul'dan. 
+	`text_loc4`='在燃烧军团对灰谷展开入侵期间，伊利丹结束了他在地牢中近万年的囚犯生涯。他曾尽力让他的伙伴对他安心，但很快他就原形毕露，吸收了一个被称为“古尔丹之颅”的强大术士神器的能量。'	-- During the Legion's invasion of Ashenvale, Illidan was released from his barrow prison after ten thousand years of captivity. Though he sought to appease his comrades, he soon reverted to true form and consumed the energies of a powerful warlock artifact known as the Skull of Gul'dan. 
 WHERE `entry`=2083;
 
 UPDATE `locales_page_text` SET
@@ -3815,7 +3815,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2085;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在觉察到自己的杰作巫妖王变得过于强大而难以控制之后，基尔加丹命令伊利丹去终结耐祖奥，并永远消灭天谴军团的力量。作为交易的条件，伊利丹将会得到巨大的力量并在燃烧军团的领导者中占有一席之地。'	-- Sensing that his creation, the Lich King, was growing too powerful to control, Kil'jaeden ordered Illidan to destroy Ner'zhul and put an end to the undead Scourge once and for all. In exchange, Illidan would receive untold power and a true place amongst the remaining lords of the Burning Legion. 
+	`text_loc4`='在觉察到自己的杰作巫妖王变得过于强大而难以控制之后，基尔加丹命令伊利丹去终结耐祖奥，并永远消灭天灾军团的力量。作为交易的条件，伊利丹将会得到巨大的力量并在燃烧军团的领导者中占有一席之地。'	-- Sensing that his creation, the Lich King, was growing too powerful to control, Kil'jaeden ordered Illidan to destroy Ner'zhul and put an end to the undead Scourge once and for all. In exchange, Illidan would receive untold power and a true place amongst the remaining lords of the Burning Legion. 
 WHERE `entry`=2086;
 
 UPDATE `locales_page_text` SET
@@ -3843,11 +3843,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2092;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='此时，天谴军团已将罗德隆和奎尔萨拉斯彻底变成了充满剧毒的瘟疫之地。那里只有一些小规模的联盟抵抗力量仍在苟延残喘。其中的一个组织主要由高等精灵组成，他们的领导者是逐日者王朝的最后一个成员，凯尔萨斯王子。'	-- At this time, the undead Scourge had essentially transformed Lordaeron and Quel'Thalas into the toxic Plaguelands. There were only a few pockets of Alliance resistance forces left. One such group, consisting primarily of high elves, was led by the last of the Sunstrider dynasty: Prince Kael'thas. 
+	`text_loc4`='此时，天灾军团已将洛丹伦和奎尔萨拉斯彻底变成了充满剧毒的瘟疫之地。那里只有一些小规模的联盟抵抗力量仍在苟延残喘。其中的一个组织主要由高等精灵组成，他们的领导者是逐日者王朝的最后一个成员，凯尔萨斯王子。'	-- At this time, the undead Scourge had essentially transformed Lordaeron and Quel'Thalas into the toxic Plaguelands. There were only a few pockets of Alliance resistance forces left. One such group, consisting primarily of high elves, was led by the last of the Sunstrider dynasty: Prince Kael'thas. 
 WHERE `entry`=2093;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='作为一名出色的巫师，凯尔小心翼翼地在几近覆灭的联盟中成长。高等精灵对家园的沦陷非常悲痛，为了向死去的同胞表示敬意，他们改称自己为血精灵。当血精灵奋力遏制天谴军团的攻势时，他们因为离开了太阳之井这个力量的源泉而备受煎熬。'	-- Kael, an accomplished wizard himself, grew wary of the failing Alliance. The high elves grieved for the loss of their homeland and decided to call themselves blood elves in honor of their fallen people. Yet as they worked to keep the Scourge at bay, they suffered greatly at being cut off from the Sunwell that had empowered them. 
+	`text_loc4`='作为一名出色的巫师，凯尔小心翼翼地在几近覆灭的联盟中成长。高等精灵对家园的沦陷非常悲痛，为了向死去的同胞表示敬意，他们改称自己为血精灵。当血精灵奋力遏制天灾军团的攻势时，他们因为离开了太阳之井这个力量的源泉而备受煎熬。'	-- Kael, an accomplished wizard himself, grew wary of the failing Alliance. The high elves grieved for the loss of their homeland and decided to call themselves blood elves in honor of their fallen people. Yet as they worked to keep the Scourge at bay, they suffered greatly at being cut off from the Sunwell that had empowered them. 
 WHERE `entry`=2094;
 
 UPDATE `locales_page_text` SET
@@ -3863,11 +3863,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2097;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='阿尔萨斯的力量随着巫妖王的虚弱而渐渐流失，他陷入了罗德隆的一场内战中。女妖希瓦娜斯·风行者领导着半数的不死生物军团发动了一场试图颠覆阿尔萨斯统治的政变。正当战斗扩散到整个瘟疫之地时，阿尔萨斯被巫妖王所召唤，领导权被移交给了他的副官科尔苏加德。'	-- Though his powers were drained by the Lich King's weakness, Arthas had been involved in a civil war in Lordaeron. Half of the standing undead forces, led by the banshee Sylvanas Windrunner, staged a coup for control over the undead empire. Arthas, called by the Lich King, was forced to leave the Scourge in the hands of his lieutenant, Kel'Thuzad, as the war escalated throughout the Plaguelands.
+	`text_loc4`='阿尔萨斯的力量随着巫妖王的虚弱而渐渐流失，他陷入了洛丹伦的一场内战中。女妖希瓦娜斯·风行者领导着半数的不死生物军团发动了一场试图颠覆阿尔萨斯统治的政变。正当战斗扩散到整个瘟疫之地时，阿尔萨斯被巫妖王所召唤，领导权被移交给了他的副官克尔苏加德。'	-- Though his powers were drained by the Lich King's weakness, Arthas had been involved in a civil war in Lordaeron. Half of the standing undead forces, led by the banshee Sylvanas Windrunner, staged a coup for control over the undead empire. Arthas, called by the Lich King, was forced to leave the Scourge in the hands of his lieutenant, Kel'Thuzad, as the war escalated throughout the Plaguelands.
 WHERE `entry`=2098;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='最终，希瓦娜斯和她的不死生物反抗军（他们被称作被遗忘者）将罗德隆都城的废墟占为己有。被遗忘者在都城的残骸下建立起了自己的基地，他们发誓要击败天谴军团并将科尔苏加德和他的仆从赶出大陆。'	-- Ultimately, Sylvanas and her rebel undead (known as the Forsaken) claimed the ruined capital city of Lordaeron as their own. Constructing their own bastion beneath the wrecked city, the Forsaken vowed to defeat the Scourge and drive Kel'Thuzad and his minions from the land.
+	`text_loc4`='最终，希瓦娜斯和她的不死生物反抗军（他们被称作被遗忘者）将洛丹伦都城的废墟占为己有。被遗忘者在都城的残骸下建立起了自己的基地，他们发誓要击败天灾军团并将克尔苏加德和他的仆从赶出大陆。'	-- Ultimately, Sylvanas and her rebel undead (known as the Forsaken) claimed the ruined capital city of Lordaeron as their own. Constructing their own bastion beneath the wrecked city, the Forsaken vowed to defeat the Scourge and drive Kel'Thuzad and his minions from the land.
 WHERE `entry`=2099;
 
 UPDATE `locales_page_text` SET
@@ -3883,15 +3883,15 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2102;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='现在的阿尔萨斯作为新的不朽的巫妖王占据着诺森德，据说他正在那里重建寒冰皇冠城堡，而他所信任的副官科尔苏加德则统领着瘟疫之地的天谴军团。希瓦娜斯和她的反叛亡灵势力仅仅控制着提瑞斯法林地，那只是被饱经战乱的罗德隆王国的一小部分。'	-- Currently Arthas, the new and immortal Lich King, resides in Northrend; he is rumored to be rebuilding the citadel of Icecrown. His trusted lieutenant, Kel'Thuzad, commands the Scourge in the Plaguelands. Sylvanas and her rebel Forsaken hold only the Tirisfal Glades, a small portion of the war-torn kingdom.
+	`text_loc4`='现在的阿尔萨斯作为新的不朽的巫妖王占据着诺森德，据说他正在那里重建寒冰皇冠城堡，而他所信任的副官克尔苏加德则统领着瘟疫之地的天灾军团。希瓦娜斯和她的反叛亡灵势力仅仅控制着提瑞斯法林地，那只是被饱经战乱的洛丹伦王国的一小部分。'	-- Currently Arthas, the new and immortal Lich King, resides in Northrend; he is rumored to be rebuilding the citadel of Icecrown. His trusted lieutenant, Kel'Thuzad, commands the Scourge in the Plaguelands. Sylvanas and her rebel Forsaken hold only the Tirisfal Glades, a small portion of the war-torn kingdom.
 WHERE `entry`=2103;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='尽管获得了战争的胜利，但艾泽拉斯的各个种族却发现他们的世界早已被战争所摧毁。天谴军团和燃烧军团毁灭了罗德隆的文明，卡林多也几乎遭受同样的命运。这里有饱经创伤的森林需要治愈，有无边的仇恨需要忘却，人民需要新的家园来定居。战争重创了每一个种族，但他们无私地合作，想要创造一个新的开端。这一切都从联盟和部落之间极为来之不易的停战开始。'	-- Though victory was theirs, the mortal races found themselves in a world shattered by war. The Scourge and the Burning Legion had all but destroyed the civilizations of Lordaeron, and had almost finished the job in Kalimdor. There were forests to heal, grudges to bury, and homelands to settle. The war had wounded each race deeply, but they had selflessly banded together to attempt a new beginning, starting with the uneasy truce between the Alliance and Horde.
+	`text_loc4`='尽管获得了战争的胜利，但艾泽拉斯的各个种族却发现他们的世界早已被战争所摧毁。天灾军团和燃烧军团毁灭了洛丹伦的文明，卡利姆多也几乎遭受同样的命运。这里有饱经创伤的森林需要治愈，有无边的仇恨需要忘却，人民需要新的家园来定居。战争重创了每一个种族，但他们无私地合作，想要创造一个新的开端。这一切都从联盟和部落之间极为来之不易的停战开始。'	-- Though victory was theirs, the mortal races found themselves in a world shattered by war. The Scourge and the Burning Legion had all but destroyed the civilizations of Lordaeron, and had almost finished the job in Kalimdor. There were forests to heal, grudges to bury, and homelands to settle. The war had wounded each race deeply, but they had selflessly banded together to attempt a new beginning, starting with the uneasy truce between the Alliance and Horde.
 WHERE `entry`=2104;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='索尔领导着兽人来到卡林多大陆，他们在牛头人同胞的帮助下建立了一个新的家园。兽人们以索尔被暗杀的父亲的名字将这新的国家命名为杜洛塔，他们定居下来，并试图重建他们那一度辉煌的文明。'	-- Thrall led the orcs to the continent of Kalimdor, where they founded a new homeland with the help of their tauren brethren. Naming their new land Durotar after Thrall's murdered father, the orcs settled down to rebuild their once-glorious society.
+	`text_loc4`='索尔领导着兽人来到卡利姆多大陆，他们在牛头人同胞的帮助下建立了一个新的家园。兽人们以索尔被暗杀的父亲的名字将这新的国家命名为杜洛塔，他们定居下来，并试图重建他们那一度辉煌的文明。'	-- Thrall led the orcs to the continent of Kalimdor, where they founded a new homeland with the help of their tauren brethren. Naming their new land Durotar after Thrall's murdered father, the orcs settled down to rebuild their once-glorious society.
 WHERE `entry`=2105;
 
 UPDATE `locales_page_text` SET
@@ -3899,11 +3899,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2106;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='吉安娜·普罗德摩尔手下残存的联盟力量定居在南卡林多。他们在东海岸的尘泥沼泽附近建立了简陋的港口城市塞拉摩。人类和矮人同盟合力在这片充满危险的土地上生存，尽管杜洛塔和塞拉摩的防御力量彼此暂时停战，但这个脆弱的殖民地的平静并不意味着最终的和平。'	-- The remaining Alliance forces under Jaina Proudmoore settled in southern Kalimdor. Off the eastern coast of Dustwallow Marsh, they built the rugged port city of Theramore. There, the humans and their dwarven allies worked to survive in a land that would always be hostile to them. Though the defenders of Durotar and Theramore kept the tentative truce with one another, the fragile colonial serenity was not meant to last.
+	`text_loc4`='吉安娜·普罗德摩尔手下残存的联盟力量定居在南卡利姆多。他们在东海岸的尘泥沼泽附近建立了简陋的港口城市塞拉摩。人类和矮人同盟合力在这片充满危险的土地上生存，尽管杜洛塔和塞拉摩的防御力量彼此暂时停战，但这个脆弱的殖民地的平静并不意味着最终的和平。'	-- The remaining Alliance forces under Jaina Proudmoore settled in southern Kalimdor. Off the eastern coast of Dustwallow Marsh, they built the rugged port city of Theramore. There, the humans and their dwarven allies worked to survive in a land that would always be hostile to them. Though the defenders of Durotar and Theramore kept the tentative truce with one another, the fragile colonial serenity was not meant to last.
 WHERE `entry`=2107;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='人类和兽人间的和平被一支抵达卡林多的庞大联盟舰队所破坏。戴林·普罗德摩尔上将（吉安娜的父亲）率领这支舰队在阿尔萨斯毁灭罗德隆之前离开了那里。海上数月的航行令人筋疲力尽，但是普罗德摩尔仍然寻找着一切他可以找到的联盟幸存者。'	-- The peace between the orcs and humans was shattered by the arrival of a massive Alliance fleet in Kalimdor. The mighty fleet, under the command of Grand Admiral Daelin Proudmoore (Jaina's father), had left Lordaeron before Arthas had destroyed the kingdom. Having sailed for many grueling months, Admiral Proudmoore was searching for any Alliance survivors he could find.
+	`text_loc4`='人类和兽人间的和平被一支抵达卡利姆多的庞大联盟舰队所破坏。戴林·普罗德摩尔上将（吉安娜的父亲）率领这支舰队在阿尔萨斯毁灭洛丹伦之前离开了那里。海上数月的航行令人筋疲力尽，但是普罗德摩尔仍然寻找着一切他可以找到的联盟幸存者。'	-- The peace between the orcs and humans was shattered by the arrival of a massive Alliance fleet in Kalimdor. The mighty fleet, under the command of Grand Admiral Daelin Proudmoore (Jaina's father), had left Lordaeron before Arthas had destroyed the kingdom. Having sailed for many grueling months, Admiral Proudmoore was searching for any Alliance survivors he could find.
 WHERE `entry`=2108;
 
 UPDATE `locales_page_text` SET
@@ -3983,7 +3983,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2190;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='大约16,000年以前（远早于暗夜精灵愚蠢地召来燃烧军团的年代），巨魔主宰了卡林多大陆（那个时候只有一块大陆）的大部分区域。那个时候有两个巨魔帝国并存，即东南部森林中的古拉巴什帝国，以及中部的阿曼尼帝国。'	-- About 16,000 years ago (long before the night elves foolishly called down the wrath of the Burning Legion), trolls lorded over much of Kalimdor (then a single continent). There were twin troll empires -- the Gurubashi Empire of the southeastern jungles -- and the Amani Empire of the middle forestlands. 
+	`text_loc4`='大约16,000年以前（远早于暗夜精灵愚蠢地召来燃烧军团的年代），巨魔主宰了卡利姆多大陆（那个时候只有一块大陆）的大部分区域。那个时候有两个巨魔帝国并存，即东南部森林中的古拉巴什帝国，以及中部的阿曼尼帝国。'	-- About 16,000 years ago (long before the night elves foolishly called down the wrath of the Burning Legion), trolls lorded over much of Kalimdor (then a single continent). There were twin troll empires -- the Gurubashi Empire of the southeastern jungles -- and the Amani Empire of the middle forestlands. 
 WHERE `entry`=2191;
 
 UPDATE `locales_page_text` SET
@@ -3991,7 +3991,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2192;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='古拉巴什帝国和阿曼尼帝国之间并不十分友好，但是也不经常交战。那个时候，他们共同的敌人是一个异族的帝国──阿兹亚基文明。亚基是一种有智慧的昆虫生物，它们主要统治着西部地区。这些聪明的虫族生物具有强烈的扩张欲望，并且非常邪恶。亚基虫类的目标就是消灭卡林多大陆上所有的非昆虫生物。'	-- The Gurubashi and Amani empires had little love for one another, but rarely warred against each other. At the time, their greatest common enemy was a third empire -- the civilization of Azj'Aqir. The aqir were intelligent insectoids who ruled the lands of the far west. These clever insectoids were greatly expansionistic and incredibly evil. The aqir were obsessed with eradicating all non-insect life from the fields of Kalimdor. 
+	`text_loc4`='古拉巴什帝国和阿曼尼帝国之间并不十分友好，但是也不经常交战。那个时候，他们共同的敌人是一个异族的帝国──阿兹亚基文明。亚基是一种有智慧的昆虫生物，它们主要统治着西部地区。这些聪明的虫族生物具有强烈的扩张欲望，并且非常邪恶。亚基虫类的目标就是消灭卡利姆多大陆上所有的非昆虫生物。'	-- The Gurubashi and Amani empires had little love for one another, but rarely warred against each other. At the time, their greatest common enemy was a third empire -- the civilization of Azj'Aqir. The aqir were intelligent insectoids who ruled the lands of the far west. These clever insectoids were greatly expansionistic and incredibly evil. The aqir were obsessed with eradicating all non-insect life from the fields of Kalimdor. 
 WHERE `entry`=2193;
 
 UPDATE `locales_page_text` SET
@@ -3999,7 +3999,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2194;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='两个大的亚基虫类城市出现了。它们在北部的荒原中建立了阿兹欧-奈幽，在南部沙漠中建立了安其拉。虽然巨魔们认为在卡林多大陆的地下还有其他亚基虫类的聚居地存在，但是这个观点没有被验证过。'	-- Two aqiri city-states emerged -- Azjol-Nerub in the northern wastes, and Ahn'Qiraj in the southern desert. Though the trolls suspected that there were other aqiri colonies beneath Kalimdor, their existence was never verified. 
+	`text_loc4`='两个大的亚基虫类城市出现了。它们在北部的荒原中建立了阿兹欧-奈幽，在南部沙漠中建立了安其拉。虽然巨魔们认为在卡利姆多大陆的地下还有其他亚基虫类的聚居地存在，但是这个观点没有被验证过。'	-- Two aqiri city-states emerged -- Azjol-Nerub in the northern wastes, and Ahn'Qiraj in the southern desert. Though the trolls suspected that there were other aqiri colonies beneath Kalimdor, their existence was never verified. 
 WHERE `entry`=2195;
 
 UPDATE `locales_page_text` SET
@@ -4011,7 +4011,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2197;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='即便不考虑暗夜精灵真正的起源，但他们确实在发现了永恒之井后力量大增。巨魔并没有去努力地扩张他们的领地，而暗夜精灵却创建了一个强大的帝国，并且迅速在卡林多大陆上扩张。他们使用的魔法是那些迷信的巨魔从来都没有想像过的，因此，暗夜精灵轻松地完成了邪恶的亚基虫类无法做到的事情──将两个最伟大的帝国从世界上彻底抹掉了。'	-- Aside from their shadowy origins, it is clear that the night elves came to power soon after their discovery of the Well of Eternity. Despite the trolls' attempts to keep them from expanding their territories, the night elves built up a mighty empire that expanded rapidly across primordial Kalimdor. Wielding fierce magics never before imagined by the superstitious trolls, the night elves had little trouble doing what the evil aqir could never do: topple the two greatest empires in the world. 
+	`text_loc4`='即便不考虑暗夜精灵真正的起源，但他们确实在发现了永恒之井后力量大增。巨魔并没有去努力地扩张他们的领地，而暗夜精灵却创建了一个强大的帝国，并且迅速在卡利姆多大陆上扩张。他们使用的魔法是那些迷信的巨魔从来都没有想像过的，因此，暗夜精灵轻松地完成了邪恶的亚基虫类无法做到的事情──将两个最伟大的帝国从世界上彻底抹掉了。'	-- Aside from their shadowy origins, it is clear that the night elves came to power soon after their discovery of the Well of Eternity. Despite the trolls' attempts to keep them from expanding their territories, the night elves built up a mighty empire that expanded rapidly across primordial Kalimdor. Wielding fierce magics never before imagined by the superstitious trolls, the night elves had little trouble doing what the evil aqir could never do: topple the two greatest empires in the world. 
 WHERE `entry`=2198;
 
 UPDATE `locales_page_text` SET
@@ -4023,7 +4023,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2200;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='在这场恐怖的战争--先祖之战--的最后，永恒之井爆炸了。爆炸产生的震荡波撕裂了卡林多大陆。大陆的中心沉入海底，只留下一些破碎零落的陆地。'	-- At the end of this terrible conflict -- known as the War of the Ancients -- the Well of Eternity imploded. The resulting shockwave shattered the greater landmass of Kalimdor. The center of the continent was blasted beneath the sea, leaving only a small group of broken, single continents. 
+	`text_loc4`='在这场恐怖的战争--先祖之战--的最后，永恒之井爆炸了。爆炸产生的震荡波撕裂了卡利姆多大陆。大陆的中心沉入海底，只留下一些破碎零落的陆地。'	-- At the end of this terrible conflict -- known as the War of the Ancients -- the Well of Eternity imploded. The resulting shockwave shattered the greater landmass of Kalimdor. The center of the continent was blasted beneath the sea, leaving only a small group of broken, single continents. 
 WHERE `entry`=2201;
 
 UPDATE `locales_page_text` SET
@@ -4059,7 +4059,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2210;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='这里长眠着葛罗玛许·地狱吼，战歌氏族的酋长$B$B我们人民被诅咒的开始和结束都与葛罗息息相关。$B他的名字在我们的古语中意味着「巨人之心」，他名副其实$B他如铁塔一般矗立在恶魔玛诺洛斯面前$B──以他的鲜血为我们赢得了自由。$B$B向你致意，我的兄长。愿战歌永不消逝。$B$B──索尔，部落大酋长'	-- Here lies Grommash Hellscream, Chieftain of the Warsong Clan$B$BIn many ways, the curse of our people began and ended with Grom.$BHis name meant 'giants heart' in our ancient tongue. He earned that name a hundred-fold as he stood alone before the demon Mannoroth$B- and won our freedom with his blood.$B$BLok'Tar ogar, big brother. May the Warsong never fade.$B$B-Thrall, Warchief of the Horde
+	`text_loc4`='这里长眠着葛罗玛许·地狱吼，战歌氏族的酋长$B$B我们人民被诅咒的开始和结束都与葛罗息息相关。$B他的名字在我们的古语中意味着“巨人之心”，他名副其实$B他如铁塔一般矗立在恶魔玛诺洛斯面前$B──以他的鲜血为我们赢得了自由。$B$B向你致意，我的兄长。愿战歌永不消逝。$B$B──索尔，部落大酋长'	-- Here lies Grommash Hellscream, Chieftain of the Warsong Clan$B$BIn many ways, the curse of our people began and ended with Grom.$BHis name meant 'giants heart' in our ancient tongue. He earned that name a hundred-fold as he stood alone before the demon Mannoroth$B- and won our freedom with his blood.$B$BLok'Tar ogar, big brother. May the Warsong never fade.$B$B-Thrall, Warchief of the Horde
 WHERE `entry`=2211;
 
 UPDATE `locales_page_text` SET
@@ -4095,11 +4095,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2233;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='A:$B$B我们从罗德隆派来的使者不久之后就会与你会面。一旦我们找到了进行会谈的合适地点，就会及时通知你。$B$B- G'	-- Agasham,$b$bOur agents from Lordaeron will meet with your delegates, soon. We will notify you once we've found an appropriate location for our summit.$b$bSigned,$b$bHarbinger Grakus
+	`text_loc4`='A:$B$B我们从洛丹伦派来的使者不久之后就会与你会面。一旦我们找到了进行会谈的合适地点，就会及时通知你。$B$B- G'	-- Agasham,$b$bOur agents from Lordaeron will meet with your delegates, soon. We will notify you once we've found an appropriate location for our summit.$b$bSigned,$b$bHarbinger Grakus
 WHERE `entry`=2234;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='A:$B$B我们从罗德隆派来的使者不久之后就会与你会面。一旦我们找到了进行会谈的合适地点，就会及时通知你。$B$B- G'	-- Agasham,$b$bOur agents from Lordaeron will meet with your delegates, soon. We will notify you once we've found an appropriate location for our summit.$b$bSigned,$b$bHarbinger Grakus 
+	`text_loc4`='A:$B$B我们从洛丹伦派来的使者不久之后就会与你会面。一旦我们找到了进行会谈的合适地点，就会及时通知你。$B$B- G'	-- Agasham,$b$bOur agents from Lordaeron will meet with your delegates, soon. We will notify you once we've found an appropriate location for our summit.$b$bSigned,$b$bHarbinger Grakus 
 WHERE `entry`=2250;
 
 UPDATE `locales_page_text` SET
@@ -4131,7 +4131,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2293;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='玛拉·弗塔根女士$B$B暴风城的高阶牧师$B$B在第一次兽人战争后资助逃往罗德隆的难民。$B$B她是为我们打开未来之门的母亲，愿她在圣光中安息。'	-- Lady Mara FordragonHigh Clerist of StormwindPatron of the Refugees who fled to Lordaeron after the First War.She was the bright mother of our future. May she rest in the Light.
+	`text_loc4`='玛拉·弗塔根女士$B$B暴风城的高阶牧师$B$B在第一次兽人战争后资助逃往洛丹伦的难民。$B$B她是为我们打开未来之门的母亲，愿她在圣光中安息。'	-- Lady Mara FordragonHigh Clerist of StormwindPatron of the Refugees who fled to Lordaeron after the First War.She was the bright mother of our future. May she rest in the Light.
 WHERE `entry`=2294;
 
 UPDATE `locales_page_text` SET
@@ -4215,15 +4215,15 @@ WHERE `entry`=2350;
 -- WHERE `entry`=2370;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='达隆郡年记$B$B达隆郡是个座落于罗德隆南部山麓中的村庄，村名是以西面的达隆米尔湖来命名的。镇中的居民朴实而又勤劳，达隆郡在罗德隆历史上一直都是默默无闻的，直到第二次恶魔战争的开始。$B$B在战斗期间，无数英雄从这里诞生并陨落。'	-- The Annals of Darrowshire$b$bDarrowshire, named from the Darrowmere Lake to its west, is a village tucked into the southern foothills of Lordaeron. Known for humble yet hardworking residents, Darrowshire stayed in the background of Lordaeron history until the Second War.$b$bHeroes were made during that war. And heroes were lost.
+	`text_loc4`='达隆郡年记$B$B达隆郡是个座落于洛丹伦南部山麓中的村庄，村名是以西面的达隆米尔湖来命名的。镇中的居民朴实而又勤劳，达隆郡在洛丹伦历史上一直都是默默无闻的，直到第二次恶魔战争的开始。$B$B在战斗期间，无数英雄从这里诞生并陨落。'	-- The Annals of Darrowshire$b$bDarrowshire, named from the Darrowmere Lake to its west, is a village tucked into the southern foothills of Lordaeron. Known for humble yet hardworking residents, Darrowshire stayed in the background of Lordaeron history until the Second War.$b$bHeroes were made during that war. And heroes were lost.
 WHERE `entry`=2371;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='达隆郡的战斗$B$B达隆郡的战斗发生在第二次恶魔战争的中期。那时，天谴军团的力量在罗德隆的土地上横行肆虐，达隆郡与联盟主力部队的联系被切断，但是镇中有一支驻军，包括一队白银之手的圣骑士，以及由约瑟夫·雷德帕斯所领导的当地民兵。'	-- The Battle of Darrowshire$b$bThe Battle of Darrowshire took place in the middle of the Second War, when scourge forces rampaged across Lordaeron. Darrowshire was cut off from the bulk of Alliance forces, but the town was bolstered by a company of troops, a contingent of paladins of the Silver Hand, and a staunch group of local militia led by Captain Joseph Redpath.
+	`text_loc4`='达隆郡的战斗$B$B达隆郡的战斗发生在第二次恶魔战争的中期。那时，天灾军团的力量在洛丹伦的土地上横行肆虐，达隆郡与联盟主力部队的联系被切断，但是镇中有一支驻军，包括一队白银之手的圣骑士，以及由约瑟夫·雷德帕斯所领导的当地民兵。'	-- The Battle of Darrowshire$b$bThe Battle of Darrowshire took place in the middle of the Second War, when scourge forces rampaged across Lordaeron. Darrowshire was cut off from the bulk of Alliance forces, but the town was bolstered by a company of troops, a contingent of paladins of the Silver Hand, and a staunch group of local militia led by Captain Joseph Redpath.
 WHERE `entry`=2372;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='天谴军团的第一次攻击仅仅是试探性的。小队的骷髅和僵尸在小镇周边徘徊，并被很轻易地击败了。 $B$B但是防御部队的坚毅并没有让亡灵退却，它们继续疯狂地进行攻击，一波接一波的亡灵部队接踵而来，与达隆郡的防卫者激烈交战。'	-- The Scourge's first assaults on Darrowshire were sparce. Small groups of marauding skeletons and corpses wandered the outskirts of the village and were repelled.$b$bBut the Scourge were not balked by the defender's tenacity, and responded in kind; soon after the first wave of attacks a second wave emerged. Champion ghouls, servants of the ghoul lord Horgus, screamed down from the hills and clashed with beleaguered Darrowshire defenders.
+	`text_loc4`='天灾军团的第一次攻击仅仅是试探性的。小队的骷髅和僵尸在小镇周边徘徊，并被很轻易地击败了。 $B$B但是防御部队的坚毅并没有让亡灵退却，它们继续疯狂地进行攻击，一波接一波的亡灵部队接踵而来，与达隆郡的防卫者激烈交战。'	-- The Scourge's first assaults on Darrowshire were sparce. Small groups of marauding skeletons and corpses wandered the outskirts of the village and were repelled.$b$bBut the Scourge were not balked by the defender's tenacity, and responded in kind; soon after the first wave of attacks a second wave emerged. Champion ghouls, servants of the ghoul lord Horgus, screamed down from the hills and clashed with beleaguered Darrowshire defenders.
 WHERE `entry`=2373;
 
 UPDATE `locales_page_text` SET
@@ -4235,19 +4235,19 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2375;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='堕落的雷德帕斯队长将他的邪恶力量传播给达隆郡的守军，那些被感染的士兵立刻背叛了他们的同胞，并开始屠杀他们。最后他们转向达隆郡里，屠杀了那些躲在家中的民众。$B$B剩余的亡灵部队和堕落的雷德帕斯队长离开了已成废墟的达隆郡，投入了罗德隆的战场。'	-- The corrupted Captain Redpath then spread his evil taint among the defenders of Darrowshire, who betrayed their allies and slaughtered them. They then turned on the town of Darrowshire and killed all who hid in their homes.$b$bThe remaining scourge army, along with the corrupted spirit of Captain Redpath, then left the ravaged village of Darrowshire and tore into Lordaeron, adding to the pain and death of the Second War.
+	`text_loc4`='堕落的雷德帕斯队长将他的邪恶力量传播给达隆郡的守军，那些被感染的士兵立刻背叛了他们的同胞，并开始屠杀他们。最后他们转向达隆郡里，屠杀了那些躲在家中的民众。$B$B剩余的亡灵部队和堕落的雷德帕斯队长离开了已成废墟的达隆郡，投入了洛丹伦的战场。'	-- The corrupted Captain Redpath then spread his evil taint among the defenders of Darrowshire, who betrayed their allies and slaughtered them. They then turned on the town of Darrowshire and killed all who hid in their homes.$b$bThe remaining scourge army, along with the corrupted spirit of Captain Redpath, then left the ravaged village of Darrowshire and tore into Lordaeron, adding to the pain and death of the Second War.
 WHERE `entry`=2376;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='达隆郡年记$B$B达隆郡是个座落于罗德隆南部山麓中的村庄，村名是以西面的达隆米尔湖来命名的。镇中的居民朴实而又勤劳，达隆郡在罗德隆历史上一直都是默默无闻的，直到第二次恶魔战争的开始。$B$B在战斗期间，无数英雄从这里诞生并陨落。'	-- The Annals of DarrowshireDarrowshire, named from the Darrowmere Lake to its west, is a village tucked into the southern foothills of Lordaeron.  Known for humble yet hardworking residents, Darrowshire stayed in the background of Lordaeron history until the Second War.Heroes were made during that war.  And heroes were lost.
+	`text_loc4`='达隆郡年记$B$B达隆郡是个座落于洛丹伦南部山麓中的村庄，村名是以西面的达隆米尔湖来命名的。镇中的居民朴实而又勤劳，达隆郡在洛丹伦历史上一直都是默默无闻的，直到第二次恶魔战争的开始。$B$B在战斗期间，无数英雄从这里诞生并陨落。'	-- The Annals of DarrowshireDarrowshire, named from the Darrowmere Lake to its west, is a village tucked into the southern foothills of Lordaeron.  Known for humble yet hardworking residents, Darrowshire stayed in the background of Lordaeron history until the Second War.Heroes were made during that war.  And heroes were lost.
 WHERE `entry`=2377;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='达隆郡的战斗$B$B达隆郡的战斗发生在第二次恶魔战争的中期。那时，天谴军团的力量在罗德隆的土地上横行肆虐，达隆郡与联盟主力部队的联系被切断，但是镇中有一支驻军，包括一队白银之手的圣骑士，以及由约瑟夫·雷德帕斯所领导的当地民兵。'	-- The Battle of DarrowshireThe Battle of Darrowshire took place in the middle of the Second War, when scourge forces rampaged across Lordaeron.  Darrowshire was cut off from the bulk of Alliance forces, but the town was bolstered by a company of troops, a contingent of paladins of the Silver Hand, and a staunch group of local militia led by Captain Joseph Redpath.
+	`text_loc4`='达隆郡的战斗$B$B达隆郡的战斗发生在第二次恶魔战争的中期。那时，天灾军团的力量在洛丹伦的土地上横行肆虐，达隆郡与联盟主力部队的联系被切断，但是镇中有一支驻军，包括一队白银之手的圣骑士，以及由约瑟夫·雷德帕斯所领导的当地民兵。'	-- The Battle of DarrowshireThe Battle of Darrowshire took place in the middle of the Second War, when scourge forces rampaged across Lordaeron.  Darrowshire was cut off from the bulk of Alliance forces, but the town was bolstered by a company of troops, a contingent of paladins of the Silver Hand, and a staunch group of local militia led by Captain Joseph Redpath.
 WHERE `entry`=2378;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='天谴军团的第一次攻击仅仅是试探性的。小队的骷髅和僵尸在小镇周边徘徊，并被很轻易地击败了。 $B$B但是防御部队的坚毅并没有让亡灵退却，它们继续疯狂地进行攻击，一波接一波的亡灵部队接踵而来，与达隆郡的防卫者激烈交战。'	-- The Scourge's first assaults on Darrowshire were sparse.  Small groups of marauding skeletons and corpses wandered the outskirts of the village and were easily defeated.  But the Scourge sensed the defenders' tenacity, and responded in kind; soon after the first wave of attacks a second wave emerged.  Champion ghouls, servants of the ghoul lord Horgus, screamed down from the hills and clashed with beleaguered Darrowshire defenders.
+	`text_loc4`='天灾军团的第一次攻击仅仅是试探性的。小队的骷髅和僵尸在小镇周边徘徊，并被很轻易地击败了。 $B$B但是防御部队的坚毅并没有让亡灵退却，它们继续疯狂地进行攻击，一波接一波的亡灵部队接踵而来，与达隆郡的防卫者激烈交战。'	-- The Scourge's first assaults on Darrowshire were sparse.  Small groups of marauding skeletons and corpses wandered the outskirts of the village and were easily defeated.  But the Scourge sensed the defenders' tenacity, and responded in kind; soon after the first wave of attacks a second wave emerged.  Champion ghouls, servants of the ghoul lord Horgus, screamed down from the hills and clashed with beleaguered Darrowshire defenders.
 WHERE `entry`=2379;
 
 UPDATE `locales_page_text` SET
@@ -4259,11 +4259,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2381;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='堕落的雷德帕斯队长将他的邪恶力量传播给达隆郡的守军，那些被感染的士兵立刻背叛了他们的同胞，并开始屠杀他们。最后他们转向达隆郡里，屠杀了那些躲在家中的民众。$B$B剩余的亡灵部队和堕落的雷德帕斯队长离开了已成废墟的达隆郡，投入了罗德隆的战场。'	-- The corrupted Captain Redpath then spread his evil taint among the defenders of Darrowshire, who betrayed their allies and slaughtered them.  They then turned on the town of Darrowshire and killed all who hid in their homes.The remaining scourge army, along with the corrupted spirit of Captain Redpath, then left the ravaged village of Darrowshire and tore into Lordaeron, adding to the pain and death of the Second War.
+	`text_loc4`='堕落的雷德帕斯队长将他的邪恶力量传播给达隆郡的守军，那些被感染的士兵立刻背叛了他们的同胞，并开始屠杀他们。最后他们转向达隆郡里，屠杀了那些躲在家中的民众。$B$B剩余的亡灵部队和堕落的雷德帕斯队长离开了已成废墟的达隆郡，投入了洛丹伦的战场。'	-- The corrupted Captain Redpath then spread his evil taint among the defenders of Darrowshire, who betrayed their allies and slaughtered them.  They then turned on the town of Darrowshire and killed all who hid in their homes.The remaining scourge army, along with the corrupted spirit of Captain Redpath, then left the ravaged village of Darrowshire and tore into Lordaeron, adding to the pain and death of the Second War.
 WHERE `entry`=2382;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='『劫毁者』霍古斯的命运$B$B『劫毁者』霍古斯在达隆郡之战中阵亡。但是他身上的邪恶气息仍然存在。获胜的天谴军团将他的头颅从达隆郡的废墟中带走，用其在仍然活着的生灵中散播恐惧的气氛。$B$B几天之后，这群拿着头颅的天谴军团士兵被白银之手骑士团击溃，霍古斯的头颅也被扔入了黑木湖中。'	-- The Fate of Horgus the RavagerHorgus the Ravager fell at the Battle of Darrowshire.  But the evil within him was not fully spent.  The victorious Scourge forces removed his skull from the battlefield of Darrowshire, carrying it with them to sow dread among the living they faced.Days later, the company of Scourge who possessed the head were defeated by Silver Hand Paladins.  Horgus' head was cast into Blackwood Lake.
+	`text_loc4`='『劫毁者』霍古斯的命运$B$B『劫毁者』霍古斯在达隆郡之战中阵亡。但是他身上的邪恶气息仍然存在。获胜的天灾军团将他的头颅从达隆郡的废墟中带走，用其在仍然活着的生灵中散播恐惧的气氛。$B$B几天之后，这群拿着头颅的天灾军团士兵被白银之手骑士团击溃，霍古斯的头颅也被扔入了黑木湖中。'	-- The Fate of Horgus the RavagerHorgus the Ravager fell at the Battle of Darrowshire.  But the evil within him was not fully spent.  The victorious Scourge forces removed his skull from the battlefield of Darrowshire, carrying it with them to sow dread among the living they faced.Days later, the company of Scourge who possessed the head were defeated by Silver Hand Paladins.  Horgus' head was cast into Blackwood Lake.
 WHERE `entry`=2383;
 
 UPDATE `locales_page_text` SET
@@ -4275,19 +4275,19 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2385;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='约瑟夫·雷德帕斯的命运$B$B约瑟夫·雷德帕斯在达隆郡一战中阵亡。他的灵魂已经堕落，被扭曲成了另一个模样，这个新的亡灵在罗德隆散播着更多的邪恶。$B$B在安多哈尔东部的盖罗恩农庄，堕落的雷德帕斯最终被联盟部队击败。他的盾牌依然留在那座被瘟疫感染的农庄谷仓旁边，天谴军团也不断向那个邪恶的地方聚集。'	-- The Fate of Joseph RedpathJoseph Redpath was killed during the Battle of Darrowshire.  His spirit was corrupted and took new shape, and this creature spread great evil in Lordaeron.At Gahrron's Withering, east of Andorhal, the corrupted Redpath was finally defeated by Alliance forces.  His shield still rests near the barn of the plagued farmstead, and Scourge minions are still drawn to the memory of his evil.
+	`text_loc4`='约瑟夫·雷德帕斯的命运$B$B约瑟夫·雷德帕斯在达隆郡一战中阵亡。他的灵魂已经堕落，被扭曲成了另一个模样，这个新的亡灵在洛丹伦散播着更多的邪恶。$B$B在安多哈尔东部的盖罗恩农庄，堕落的雷德帕斯最终被联盟部队击败。他的盾牌依然留在那座被瘟疫感染的农庄谷仓旁边，天灾军团也不断向那个邪恶的地方聚集。'	-- The Fate of Joseph RedpathJoseph Redpath was killed during the Battle of Darrowshire.  His spirit was corrupted and took new shape, and this creature spread great evil in Lordaeron.At Gahrron's Withering, east of Andorhal, the corrupted Redpath was finally defeated by Alliance forces.  His shield still rests near the barn of the plagued farmstead, and Scourge minions are still drawn to the memory of his evil.
 WHERE `entry`=2386;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='约瑟夫·雷德帕斯的命运$B$B约瑟夫·雷德帕斯在达隆郡一战中阵亡。他的灵魂已经堕落，被扭曲成了另一个模样，这个新的亡灵在罗德隆散播着更多的邪恶。$B$B在安多哈尔东部的盖罗恩农庄，堕落的雷德帕斯最终被联盟部队击败。他的盾牌依然留在那座被瘟疫感染的农庄谷仓旁边，天谴军团也不断向那个邪恶的地方聚集。'	-- The Fate of Joseph Redpath Joseph Redpath was killed during the Battle of Darrowshire.  His spirit was corrupted and took new shape, and this creature spread great evil in Lordaeron. At Gahrron's Withering, east of Andorhal, the corrupted Redpath was finally defeated by Alliance forces.  His shield still rests near the barn of the plagued farmstead, and Scourge minions are still drawn to the memory of his evil. 
+	`text_loc4`='约瑟夫·雷德帕斯的命运$B$B约瑟夫·雷德帕斯在达隆郡一战中阵亡。他的灵魂已经堕落，被扭曲成了另一个模样，这个新的亡灵在洛丹伦散播着更多的邪恶。$B$B在安多哈尔东部的盖罗恩农庄，堕落的雷德帕斯最终被联盟部队击败。他的盾牌依然留在那座被瘟疫感染的农庄谷仓旁边，天灾军团也不断向那个邪恶的地方聚集。'	-- The Fate of Joseph Redpath Joseph Redpath was killed during the Battle of Darrowshire.  His spirit was corrupted and took new shape, and this creature spread great evil in Lordaeron. At Gahrron's Withering, east of Andorhal, the corrupted Redpath was finally defeated by Alliance forces.  His shield still rests near the barn of the plagued farmstead, and Scourge minions are still drawn to the memory of his evil. 
 WHERE `entry`=2390;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='卡林·雷德帕斯的命运$B$B约瑟夫·雷德帕斯队长的兄弟，卡林·雷德帕斯在达隆郡的战斗中倒下了，他身负重伤，但是最终侥幸活了下来。$B$B在大战过后的几天，银色黎明组织发现了奄奄一息的卡林·雷德帕斯，他又渴又累，而且还发着烧，倒在了考林的十字路口附近。他们治疗了他的伤势，并把他带到了圣光之愿礼拜堂。$B$B由于对银色黎明的感激之情，卡林·雷德帕斯加入了银色黎明，并为了复仇而与天谴军团展开战斗。'	-- The Fate of Carlin RedpathBrother to Captain Joseph Redpath, Carlin fell during the battle of Darrowshire.  But although terribly wounded, he was not slain.Days after the battle, agents of the Argent Dawn found Carlin wandering, weak from thirst and fever, near Corin's Crossing.  They tended to his wounds and brought him to the Light's Hope Chapel.Grateful for their charity, Carlin joined the ranks of the Argent Dawn and now fights a battle of revenge against the Scourge.
+	`text_loc4`='卡林·雷德帕斯的命运$B$B约瑟夫·雷德帕斯队长的兄弟，卡林·雷德帕斯在达隆郡的战斗中倒下了，他身负重伤，但是最终侥幸活了下来。$B$B在大战过后的几天，银色黎明组织发现了奄奄一息的卡林·雷德帕斯，他又渴又累，而且还发着烧，倒在了考林的十字路口附近。他们治疗了他的伤势，并把他带到了圣光之愿礼拜堂。$B$B由于对银色黎明的感激之情，卡林·雷德帕斯加入了银色黎明，并为了复仇而与天灾军团展开战斗。'	-- The Fate of Carlin RedpathBrother to Captain Joseph Redpath, Carlin fell during the battle of Darrowshire.  But although terribly wounded, he was not slain.Days after the battle, agents of the Argent Dawn found Carlin wandering, weak from thirst and fever, near Corin's Crossing.  They tended to his wounds and brought him to the Light's Hope Chapel.Grateful for their charity, Carlin joined the ranks of the Argent Dawn and now fights a battle of revenge against the Scourge.
 WHERE `entry`=2391;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='卡林·雷德帕斯的命运$B$B约瑟夫·雷德帕斯队长的兄弟，卡林·雷德帕斯在达隆郡的战斗中倒下了，他身负重伤，但是最终侥幸活了下来。$B$B在大战过后的几天，银色黎明组织发现了奄奄一息的卡林·雷德帕斯，他又渴又累，而且还发着烧，倒在了考林的十字路口附近。他们治疗了他的伤势，并把他带到了圣光之愿礼拜堂。$B$B由于对银色黎明的感激之情，卡林·雷德帕斯加入了银色黎明，并为了复仇而与天谴军团展开战斗。'	-- The Fate of Carlin Redpath Brother to Captain Joseph Redpath, Carlin fell during the battle of Darrowshire.  But although terribly wounded, he was not slain. Days after the battle, agents of the Argent Dawn found Carlin wandering, weak from thirst and fever, near Corin's Crossing.  They tended to his wounds and brought him to the Light's Hope Chapel. Grateful for their charity, Carlin joined the ranks of the Argent Dawn and now fights a battle of revenge against the Scourge. 
+	`text_loc4`='卡林·雷德帕斯的命运$B$B约瑟夫·雷德帕斯队长的兄弟，卡林·雷德帕斯在达隆郡的战斗中倒下了，他身负重伤，但是最终侥幸活了下来。$B$B在大战过后的几天，银色黎明组织发现了奄奄一息的卡林·雷德帕斯，他又渴又累，而且还发着烧，倒在了考林的十字路口附近。他们治疗了他的伤势，并把他带到了圣光之愿礼拜堂。$B$B由于对银色黎明的感激之情，卡林·雷德帕斯加入了银色黎明，并为了复仇而与天灾军团展开战斗。'	-- The Fate of Carlin Redpath Brother to Captain Joseph Redpath, Carlin fell during the battle of Darrowshire.  But although terribly wounded, he was not slain. Days after the battle, agents of the Argent Dawn found Carlin wandering, weak from thirst and fever, near Corin's Crossing.  They tended to his wounds and brought him to the Light's Hope Chapel. Grateful for their charity, Carlin joined the ranks of the Argent Dawn and now fights a battle of revenge against the Scourge. 
 WHERE `entry`=2410;
 
 -- UPDATE `locales_page_text` SET
@@ -4311,7 +4311,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2415;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='记录日期：未知$B$B姓期：纳萨诺斯·玛瑞斯，人类游侠，罗德隆的贵族。$B$B记期：$B$B凯尔萨斯·逐日者不同意纳萨诺斯·玛瑞斯进入组织。另外，纳萨诺斯是我遇到过的最具天赋的游侠，虽然他是个人类，但是我非常乐意训练他。$B$B（未完）'	-- Entry Date: Unknown$B$BName: Nathanos Marris, Human Ranger Lord of Lordaeron.$B$BEntry:$B$BKael'thas Sunstrider's dissention in regards to my decision to allow Nathanos Marris into the order is noted. It should also be noted that Nathanos - although a human - is one of the most gifted rangers I have ever had the pleasure of training.$B$B(continued)
+	`text_loc4`='记录日期：未知$B$B姓期：纳萨诺斯·玛瑞斯，人类游侠，洛丹伦的贵族。$B$B记期：$B$B凯尔萨斯·逐日者不同意纳萨诺斯·玛瑞斯进入组织。另外，纳萨诺斯是我遇到过的最具天赋的游侠，虽然他是个人类，但是我非常乐意训练他。$B$B（未完）'	-- Entry Date: Unknown$B$BName: Nathanos Marris, Human Ranger Lord of Lordaeron.$B$BEntry:$B$BKael'thas Sunstrider's dissention in regards to my decision to allow Nathanos Marris into the order is noted. It should also be noted that Nathanos - although a human - is one of the most gifted rangers I have ever had the pleasure of training.$B$B(continued)
 WHERE `entry`=2431;
 
 UPDATE `locales_page_text` SET
@@ -4411,7 +4411,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2455;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='愿伊露恩与你同在，$N。我很高兴能直接参与培养下一代猎人的工作。$B$B根据我所了解到的情况，你就在奥达希尔附近。如果你有时间的话，我会在奥达希尔树上等你的。$B$B我们的长者要求我好好训练新的猎人，使他们有能力通过即将到来的试炼。你是我的新学生之一，希望你能够来找我。祝你一路顺风。$B$B- 阿亚娜·远途，猎人训练师'	-- Elune is with you, $N. The wind whispers it to me, and I'm glad I can directly take part in the shaping of our next generation of hunters.$B$BFrom what I have been told, you are close to Aldrassil. I would meet with you inside the great tree when you have time.$B$BOur elders have charged me with ensuring that new hunters are properly trained for the trials ahead. You being one of the newest students, it would behoove you to visit me. Until then, be well.$B$B-Ayanna Everstride, Hunter Trainer 
+	`text_loc4`='愿艾露恩与你同在，$N。我很高兴能直接参与培养下一代猎人的工作。$B$B根据我所了解到的情况，你就在奥达希尔附近。如果你有时间的话，我会在奥达希尔树上等你的。$B$B我们的长者要求我好好训练新的猎人，使他们有能力通过即将到来的试炼。你是我的新学生之一，希望你能够来找我。祝你一路顺风。$B$B- 阿亚娜·远途，猎人训练师'	-- Elune is with you, $N. The wind whispers it to me, and I'm glad I can directly take part in the shaping of our next generation of hunters.$B$BFrom what I have been told, you are close to Aldrassil. I would meet with you inside the great tree when you have time.$B$BOur elders have charged me with ensuring that new hunters are properly trained for the trials ahead. You being one of the newest students, it would behoove you to visit me. Until then, be well.$B$B-Ayanna Everstride, Hunter Trainer 
 WHERE `entry`=2456;
 
 UPDATE `locales_page_text` SET
@@ -4455,7 +4455,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2466;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='为你的灵魂未被放逐到扭曲虚空中而感到庆幸吧，$N。为你能值得我花时间亲自书写这个卷轴感到由衷的庆幸吧。$B$B你所认识的人，以及你曾经关心过的人，都已经不再存在了！你必须学会如何以你现在的状态「活」下去，我建议你首先学会这件事情。$B$B如果你准备迎接试炼的话，那就到丧钟镇的教堂里来找我。$B$B- 黑暗教士杜斯滕，教士训练师'	-- Feel blessed that you're spirit was not released to the Nether, $N. Feel even more blessed that I decided you were worth the effort to write this scroll for.$B$BThe people you once knew, perhaps even cared for, are no longer! You must learn to "live" with that for the rest of your now unnatural life. I suggest you learn to deal with that first.$B$BIf you think you're ready for the trials ahead, then seek me out in the church in Deathknell.$B$B- Dark Cleric Duesten, Priest Trainer 
+	`text_loc4`='为你的灵魂未被放逐到扭曲虚空中而感到庆幸吧，$N。为你能值得我花时间亲自书写这个卷轴感到由衷的庆幸吧。$B$B你所认识的人，以及你曾经关心过的人，都已经不再存在了！你必须学会如何以你现在的状态“活”下去，我建议你首先学会这件事情。$B$B如果你准备迎接试炼的话，那就到丧钟镇的教堂里来找我。$B$B- 黑暗教士杜斯滕，教士训练师'	-- Feel blessed that you're spirit was not released to the Nether, $N. Feel even more blessed that I decided you were worth the effort to write this scroll for.$B$BThe people you once knew, perhaps even cared for, are no longer! You must learn to "live" with that for the rest of your now unnatural life. I suggest you learn to deal with that first.$B$BIf you think you're ready for the trials ahead, then seek me out in the church in Deathknell.$B$B- Dark Cleric Duesten, Priest Trainer 
 WHERE `entry`=2467;
 
 UPDATE `locales_page_text` SET
@@ -4531,7 +4531,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2571;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='冬天爷爷的传奇$B$B「冬幕节」这个词在许多文化中都来源于一个超自然的事物：冬天爷爷。他会在岁末出现在世界各地，随之而来的是凛冽的寒风。他的苏醒意味着大地将笼罩在白雪之中，所以也有人说是冬天爷爷用冬幕笼罩了大地。虽然艾泽拉斯大陆覆盖在白雪之中，但是其孕育的是重生和新生命的开始。'	-- The Legend of Greatfather Winter$B$BThe term "Winter Veil" is said to stem from a supernatural being referred in many cultures to as Greatfather Winter.  As he would walk the land late in the seasons, winter itself would be his billowing cloak.  In his wake was the blanketing of the land in snow, and thus it is said that Greatfather Winter would cast his wintry veil over the land.  Though parts of Azeroth may lie in snow, it gives the land time for rebirth and renewal.
+	`text_loc4`='冬天爷爷的传奇$B$B“冬幕节”这个词在许多文化中都来源于一个超自然的事物：冬天爷爷。他会在岁末出现在世界各地，随之而来的是凛冽的寒风。他的苏醒意味着大地将笼罩在白雪之中，所以也有人说是冬天爷爷用冬幕笼罩了大地。虽然艾泽拉斯大陆覆盖在白雪之中，但是其孕育的是重生和新生命的开始。'	-- The Legend of Greatfather Winter$B$BThe term "Winter Veil" is said to stem from a supernatural being referred in many cultures to as Greatfather Winter.  As he would walk the land late in the seasons, winter itself would be his billowing cloak.  In his wake was the blanketing of the land in snow, and thus it is said that Greatfather Winter would cast his wintry veil over the land.  Though parts of Azeroth may lie in snow, it gives the land time for rebirth and renewal.
 WHERE `entry`=2572;
 
 UPDATE `locales_page_text` SET
@@ -4679,7 +4679,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2658;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当你凝视着眼珠时，脑海中便浮现出战争的场景。$B$B似乎这场可怕的冲突发生在罗德隆的某处。$B$B在尸横遍野的战场上，隐约可见一名女性，独自与浩如烟海的天谴军团作战。她显得那么绝望无助。$B$B从她手中施放的光芒瞬间便砍杀数百名不死生物。'	-- When you peer into the Eye, images of a great battle fill your mind..$b$bThis terrifying conflict appears to be taking place somewhere in Lordaeron..$b$bYou can barely make out a lone female figure, standing amidst a thousand corpses, fending off a sea of Scourge..$b$b She is hopelessly outnumbered..$b$bTendrils of light escape her hands, cutting through undead by the hundreds.
+	`text_loc4`='当你凝视着眼珠时，脑海中便浮现出战争的场景。$B$B似乎这场可怕的冲突发生在洛丹伦的某处。$B$B在尸横遍野的战场上，隐约可见一名女性，独自与浩如烟海的天灾军团作战。她显得那么绝望无助。$B$B从她手中施放的光芒瞬间便砍杀数百名不死生物。'	-- When you peer into the Eye, images of a great battle fill your mind..$b$bThis terrifying conflict appears to be taking place somewhere in Lordaeron..$b$bYou can barely make out a lone female figure, standing amidst a thousand corpses, fending off a sea of Scourge..$b$b She is hopelessly outnumbered..$b$bTendrils of light escape her hands, cutting through undead by the hundreds.
 WHERE `entry`=2659;
 
 UPDATE `locales_page_text` SET
@@ -4815,7 +4815,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2780;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='第二章：冰血和哨塔高地$B$B一旦首层防御被摧毁，「洋蓟」的第二层防御便暴露无遗。破坏前线附近的霜狼哨塔将削弱企图增援的军团和巡逻兵。$B$B哨塔部有重兵把守，塔内驻扎着德雷克塔尔的精英指挥官。必须杀死这些指挥官。这将加速瓦解霜狼防御力量的进程。'	-- Chapter 2 - Iceblood and Tower PointOnce the first layer is down, the second layer of the 'artichoke' will be exposed. Destroying the Frostwolf towers that sit near the front lines will cripple the Legionnaire and patrols that swarm the rear flank.The towers are heavily fortified, each housing one of Drek'Thar's elite Commanders. They must be killed. This will expedite the dismantling of the Frostwolf defenses.
+	`text_loc4`='第二章：冰血和哨塔高地$B$B一旦首层防御被摧毁，“洋蓟”的第二层防御便暴露无遗。破坏前线附近的霜狼哨塔将削弱企图增援的军团和巡逻兵。$B$B哨塔部有重兵把守，塔内驻扎着德雷克塔尔的精英指挥官。必须杀死这些指挥官。这将加速瓦解霜狼防御力量的进程。'	-- Chapter 2 - Iceblood and Tower PointOnce the first layer is down, the second layer of the 'artichoke' will be exposed. Destroying the Frostwolf towers that sit near the front lines will cripple the Legionnaire and patrols that swarm the rear flank.The towers are heavily fortified, each housing one of Drek'Thar's elite Commanders. They must be killed. This will expedite the dismantling of the Frostwolf defenses.
 WHERE `entry`=2781;
 
 UPDATE `locales_page_text` SET
@@ -4827,7 +4827,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2783;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='尾声$B$B「将蒜汁黄油和蛋黄酱抹在洋蓟嫩心上，喝上一瓶陈年烈麦芽酒，这真是顿美餐啊。」$B$B德雷克塔尔身边只剩下两个愚蠢的随从啦。占领霜狼急救站，杀死德雷克塔尔。那时，这片土地就完全属于强大的雷矛啦。'	-- Epilogue"Smother the heart of the artichoke with garlic butter and mayonnaise. Compliment the meal with an aged, heady ale."Drek'Thar now stands alone, his two mutts at his side. Capture the Frostwolf Relief Hut to aid in your battle and destroy Drek'Thar. When the General falls, this land will finally turn over to its rightful owner: The Stormpike.
+	`text_loc4`='尾声$B$B“将蒜汁黄油和蛋黄酱抹在洋蓟嫩心上，喝上一瓶陈年烈麦芽酒，这真是顿美餐啊。”$B$B德雷克塔尔身边只剩下两个愚蠢的随从啦。占领霜狼急救站，杀死德雷克塔尔。那时，这片土地就完全属于强大的雷矛啦。'	-- Epilogue"Smother the heart of the artichoke with garlic butter and mayonnaise. Compliment the meal with an aged, heady ale."Drek'Thar now stands alone, his two mutts at his side. Capture the Frostwolf Relief Hut to aid in your battle and destroy Drek'Thar. When the General falls, this land will finally turn over to its rightful owner: The Stormpike.
 WHERE `entry`=2784;
 
 UPDATE `locales_page_text` SET
@@ -4843,7 +4843,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2787;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他既不醉心于名望，$B$B亦不想以此获得统治权。$B$B相反，他选择为罗德隆而战$B$B只是希望他的同胞不再卷入战事。'	-- His fame was not that which he sought to grow,$B$Bnor was the lordship over his own kind.$B$BInstead he chose to fight for Lordaeron$B$Bto hope his kin would have to fight no more.
+	`text_loc4`='他既不醉心于名望，$B$B亦不想以此获得统治权。$B$B相反，他选择为洛丹伦而战$B$B只是希望他的同胞不再卷入战事。'	-- His fame was not that which he sought to grow,$B$Bnor was the lordship over his own kind.$B$BInstead he chose to fight for Lordaeron$B$Bto hope his kin would have to fight no more.
 WHERE `entry`=2788;
 
 UPDATE `locales_page_text` SET
@@ -4867,7 +4867,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2793;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='一支古老，敏锐的种族－－其拉，想要争夺卡林多大陆的统治权。而自负、专制的鹿盔和他的暗夜精灵军队正式与他们展开了激战。'	-- An ancient sentient insectoid race known as the Qiraji vied for dominance over much of Kalimdor at one point in time. It was the pompous, imperialistic Staghelm and his army of night elves who met the Qiraji head on in battle.
+	`text_loc4`='一支古老，敏锐的种族－－其拉，想要争夺卡利姆多大陆的统治权。而自负、专制的鹿盔和他的暗夜精灵军队正式与他们展开了激战。'	-- An ancient sentient insectoid race known as the Qiraji vied for dominance over much of Kalimdor at one point in time. It was the pompous, imperialistic Staghelm and his army of night elves who met the Qiraji head on in battle.
 WHERE `entry`=2794;
 
 UPDATE `locales_page_text` SET
@@ -4919,7 +4919,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2806;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='第1天$B我们的旅行结束。我们终于到达希利苏斯，也就是我们要建立联系的地方。我们来自许多地方，要一起为不朽的事业通力合作。$B$B空气中弥漫着一股兴奋。明天我们就要将所有的精力拿来建造与「他们」进行沟通的东西。$B$B我们将在明天建造一座风石！'	-- Day 1$BOur pilgrimage is over. We've finally reached Silithus, where we're to establish contact. We have come from many places to collaborate in what is to be a monumental undertaking.$B$BThere is a tremendous sense of excitement in the air. Tomorrow we shall devote all our energy to building that which will allow communication with THEM.$B$BTomorrow we shall construct a wind stone!
+	`text_loc4`='第1天$B我们的旅行结束。我们终于到达希利苏斯，也就是我们要建立联系的地方。我们来自许多地方，要一起为不朽的事业通力合作。$B$B空气中弥漫着一股兴奋。明天我们就要将所有的精力拿来建造与“他们”进行沟通的东西。$B$B我们将在明天建造一座风石！'	-- Day 1$BOur pilgrimage is over. We've finally reached Silithus, where we're to establish contact. We have come from many places to collaborate in what is to be a monumental undertaking.$B$BThere is a tremendous sense of excitement in the air. Tomorrow we shall devote all our energy to building that which will allow communication with THEM.$B$BTomorrow we shall construct a wind stone!
 WHERE `entry`=2807;
 
 UPDATE `locales_page_text` SET
@@ -5003,7 +5003,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2833;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='亲爱的日记，$B$B抱歉，我睡着了。然后我就一边愤怒的开着飞行器，一边把那愚蠢的书一章章丢出去。我看到我下方的暗语峡谷里有个恶魔，便决定要将第一章变成魔法的纸龙卷风，把它的身体碎成好几百万片！这是解放。魔法 + 纸张 =乐趣。$B$B这让我非常开心所以我决定飞到东部王国。我的第一站是熔火之心。纳里安总是一直讲那边的事！「……熔火之心怎样怎样，拉格纳罗斯如何如何……」'	-- Dear Diary,$B$BSorry, I fell asleep. So I was flying angry and throwing out chapters of that stupid book. I saw a demon below me in Darkwhisper and decided to make the first chapter form a magical tornado of paper and shred its body into a million pieces! It was liberating. Magic + paper = fun.$B$BThat made me pretty happy so I decided to fly to the Eastern Kingdoms. My first stop was the Molten Core. Narain always talked about that place! "Molten Core this and Ragnaros that..."
+	`text_loc4`='亲爱的日记，$B$B抱歉，我睡着了。然后我就一边愤怒的开着飞行器，一边把那愚蠢的书一章章丢出去。我看到我下方的暗语峡谷里有个恶魔，便决定要将第一章变成魔法的纸龙卷风，把它的身体碎成好几百万片！这是解放。魔法 + 纸张 =乐趣。$B$B这让我非常开心所以我决定飞到东部王国。我的第一站是熔火之心。纳里安总是一直讲那边的事！“……熔火之心怎样怎样，拉格纳罗斯如何如何……”'	-- Dear Diary,$B$BSorry, I fell asleep. So I was flying angry and throwing out chapters of that stupid book. I saw a demon below me in Darkwhisper and decided to make the first chapter form a magical tornado of paper and shred its body into a million pieces! It was liberating. Magic + paper = fun.$B$BThat made me pretty happy so I decided to fly to the Eastern Kingdoms. My first stop was the Molten Core. Narain always talked about that place! "Molten Core this and Ragnaros that..."
 WHERE `entry`=2834;
 
 UPDATE `locales_page_text` SET
@@ -5035,7 +5035,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2841;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='如果你们想要麋鹿活着回来，你们就得赶快准备好赎金。南海海贼不会好心到让你们延迟付款，我们也知道对「你们」的象征意义有多么珍贵。$B$B带1000金到塔纳利斯的落帆海湾。任何企图拯救这只麋鹿的行为，都会让梅特森变成桌上的菜肴。$B$B哈哈……$B$B南海海贼。'	-- If you want the reindeer back alive, then you'll be quick with the ransom.  The Southsea Pirates don't take kindly to delays in payment, and we know how valuable the beast is to YOUR form of piracy.$B$BBring the sum of 1000 gold in to the mouth of Lost Rigger Cove in Tanaris.  Any attempt to rescue the reindeer will result in Metzen taking a very long walk off of a very short plank.$B$BYeargh...$B$BThe Southsea Pirates
+	`text_loc4`='如果你们想要麋鹿活着回来，你们就得赶快准备好赎金。南海海贼不会好心到让你们延迟付款，我们也知道对“你们”的象征意义有多么珍贵。$B$B带1000金到塔纳利斯的落帆海湾。任何企图拯救这只麋鹿的行为，都会让梅特森变成桌上的菜肴。$B$B哈哈……$B$B南海海贼。'	-- If you want the reindeer back alive, then you'll be quick with the ransom.  The Southsea Pirates don't take kindly to delays in payment, and we know how valuable the beast is to YOUR form of piracy.$B$BBring the sum of 1000 gold in to the mouth of Lost Rigger Cove in Tanaris.  Any attempt to rescue the reindeer will result in Metzen taking a very long walk off of a very short plank.$B$BYeargh...$B$BThe Southsea Pirates
 WHERE `entry`=2842;
 
 UPDATE `locales_page_text` SET
@@ -5043,7 +5043,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2843;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他那些猎犬来的比老鹰还要快，$B$B然后他吹了声口哨，大吼，依序喊着他们的名字；「$B$B现在，毛瑟！现在，奇尔顿！现在，乔登跟卡普兰！$B$B上，纳格！上，帕度！上，古德曼跟梅特森！$B$B到门廊的顶端！到墙顶！$B$B现在冲过去！冲过去！冲过去啊」'	-- More rapid than eagles his coursers they came,$B$BAnd he whistled, and shouted, and called them by name;$B$B"Now, Mercer! now, Chilton! now, Jordan and Kaplan!$B$BOn, Nagle! on Pardo! on, Goodman and Metzen!$B$BTo the top of the porch! to the top of the wall!$B$BNow dash away! dash away! dash away all!"$B$B
+	`text_loc4`='他那些猎犬来的比老鹰还要快，$B$B然后他吹了声口哨，大吼，依序喊着他们的名字；“$B$B现在，毛瑟！现在，奇尔顿！现在，乔登跟卡普兰！$B$B上，纳格！上，帕度！上，古德曼跟梅特森！$B$B到门廊的顶端！到墙顶！$B$B现在冲过去！冲过去！冲过去啊”'	-- More rapid than eagles his coursers they came,$B$BAnd he whistled, and shouted, and called them by name;$B$B"Now, Mercer! now, Chilton! now, Jordan and Kaplan!$B$BOn, Nagle! on Pardo! on, Goodman and Metzen!$B$BTo the top of the porch! to the top of the wall!$B$BNow dash away! dash away! dash away all!"$B$B
 WHERE `entry`=2844;
 
 UPDATE `locales_page_text` SET
@@ -5059,7 +5059,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2848;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='没事。我不会放弃任何一丝希望。我们包围了南方，而此刻辛多雷无法在这个魔法保护区放肆乱来。$B$B假如我设计的全新方法成功的话，我就能顺利滤除邪恶、腐败法术中的「杂质」，我已经把法术力的资料藏起来。 我得持续谨慎小心。'	-- Nothing. I will not give up hope, though. The Sin'dorei cannot afford to be in a position of magical dependency at this moment when we are besieged to the south.I've devised an entirely new approach, and if successful, it will allow me to filter out the 'impurities' in some corrupted, fel magic power sources that I have stashed away. I must proceed with caution.
+	`text_loc4`='没事。我不会放弃任何一丝希望。我们包围了南方，而此刻辛多雷无法在这个魔法保护区放肆乱来。$B$B假如我设计的全新方法成功的话，我就能顺利滤除邪恶、腐败法术中的“杂质”，我已经把法术力的资料藏起来。 我得持续谨慎小心。'	-- Nothing. I will not give up hope, though. The Sin'dorei cannot afford to be in a position of magical dependency at this moment when we are besieged to the south.I've devised an entirely new approach, and if successful, it will allow me to filter out the 'impurities' in some corrupted, fel magic power sources that I have stashed away. I must proceed with caution.
 WHERE `entry`=2849;
 
 UPDATE `locales_page_text` SET
@@ -5151,11 +5151,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2871;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='致所有强壮的男人和女人们：$B$B天谴军团已经回来了而我们务必要将一切琐碎的争吵放在一边，并面对这个威胁。银色黎明会赞赏任何卷起袖子，加入对抗天谴军团威胁的人。$B$B所有要保卫我们家园的人都会聚集在东瘟疫之地的圣光之愿礼拜堂。团结一致，我们就能获得胜利。$B$B名册保管者$B银色黎明'	-- To all able-bodied men and women:The Scourge have returned and we must set aside our squabbles to face this threat. The Argent Dawn will turn away none who wish to take arms against the Scourge menace.Those who would defend our lands are mustering at Light's Hope Chapel in the Eastern Plaguelands. Together, we shall prevail.Keeper of the RollsThe Argent Dawn
+	`text_loc4`='致所有强壮的男人和女人们：$B$B天灾军团已经回来了而我们务必要将一切琐碎的争吵放在一边，并面对这个威胁。银色黎明会赞赏任何卷起袖子，加入对抗天灾军团威胁的人。$B$B所有要保卫我们家园的人都会聚集在东瘟疫之地的圣光之愿礼拜堂。团结一致，我们就能获得胜利。$B$B名册保管者$B银色黎明'	-- To all able-bodied men and women:The Scourge have returned and we must set aside our squabbles to face this threat. The Argent Dawn will turn away none who wish to take arms against the Scourge menace.Those who would defend our lands are mustering at Light's Hope Chapel in the Eastern Plaguelands. Together, we shall prevail.Keeper of the RollsThe Argent Dawn
 WHERE `entry`=2872;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='我的艾米莉，$B$B几天前，我们闯入了这个被圣光遗忘的地方，听从国王的命令返家。虽然这周围很荒凉但我的心很轻松，因为在前往海岸严寒的长途跋涉和遥远辛劳的航海后我就知道，我会在你的怀中找到安慰。$B$B我们今天到海岸线找我们的船，我们回家的工具，已经是烧黑的外壳；我们无法离开，别无选择，只好往这深不可测的荒地中心走。$B$B我为了保护你已走到了世界的最尽头，艾米莉……而现在……我衷心希望我还和你留在罗德隆。$B$B每当我睁开眼想的都是你。你是我在这冰冷土地上的温暖，亲爱的，而且没有人可以改变这个事实。$B$B麦克斯韦尔'	-- My Emily,$B$BA few short days ago, we broke camp in this Light-forsaken place, operating under the King's orders to return home. My heart was light despite my bleak surroundings, for I knew that after the frigid trek to the shore and long, grueling voyage, I would find solace in your arms.$B$BWe reached the shoreline today to find our ships, our means of return, nothing more than charred husks; we cannot leave, and have no choice but to press on into the heart of this abysmal wasteland.$B$BI have gone to the very end of the world to keep you safe, Emily... and now... I wish with all my being that I had remained in Lordaeron with you.$B$BThoughts of you fill my every waking moment. You are my warmth in this frozen land, beloved, and no one can take that from me.$B$BMaxwell
+	`text_loc4`='我的艾米莉，$B$B几天前，我们闯入了这个被圣光遗忘的地方，听从国王的命令返家。虽然这周围很荒凉但我的心很轻松，因为在前往海岸严寒的长途跋涉和遥远辛劳的航海后我就知道，我会在你的怀中找到安慰。$B$B我们今天到海岸线找我们的船，我们回家的工具，已经是烧黑的外壳；我们无法离开，别无选择，只好往这深不可测的荒地中心走。$B$B我为了保护你已走到了世界的最尽头，艾米莉……而现在……我衷心希望我还和你留在洛丹伦。$B$B每当我睁开眼想的都是你。你是我在这冰冷土地上的温暖，亲爱的，而且没有人可以改变这个事实。$B$B麦克斯韦尔'	-- My Emily,$B$BA few short days ago, we broke camp in this Light-forsaken place, operating under the King's orders to return home. My heart was light despite my bleak surroundings, for I knew that after the frigid trek to the shore and long, grueling voyage, I would find solace in your arms.$B$BWe reached the shoreline today to find our ships, our means of return, nothing more than charred husks; we cannot leave, and have no choice but to press on into the heart of this abysmal wasteland.$B$BI have gone to the very end of the world to keep you safe, Emily... and now... I wish with all my being that I had remained in Lordaeron with you.$B$BThoughts of you fill my every waking moment. You are my warmth in this frozen land, beloved, and no one can take that from me.$B$BMaxwell
 WHERE `entry`=2878;
 
 UPDATE `locales_page_text` SET
@@ -5191,11 +5191,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2887;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='保管者将你发现的信给大家传阅了，$N，我想你可能想要了解最新的情况。$B$B最后一位仅存的「瓦古斯」家族成员住在塞纳里奥城堡，希利苏斯的沙漠里。他以卡隆·海金斯的名字自居。$B$B你应该在下次旅行至荒原时和他谈谈。他或许会对我们发现的事情有兴趣。$B$B'	-- The Keeper passed on the letter you discovered, $N, and I thought you might appreciate an update.$B$BThe last surviving family member of the "Vargus" mentioned has been tracked to the desert of Silithus, dwelling in Cenarion Hold. He goes by the name of Garon Hutchins.$B$BYou should speak with him during your next excursion to the wastes. He may be interested to hear what we've learned.
+	`text_loc4`='保管者将你发现的信给大家传阅了，$N，我想你可能想要了解最新的情况。$B$B最后一位仅存的“瓦古斯”家族成员住在塞纳里奥城堡，希利苏斯的沙漠里。他以卡隆·海金斯的名字自居。$B$B你应该在下次旅行至荒原时和他谈谈。他或许会对我们发现的事情有兴趣。$B$B'	-- The Keeper passed on the letter you discovered, $N, and I thought you might appreciate an update.$B$BThe last surviving family member of the "Vargus" mentioned has been tracked to the desert of Silithus, dwelling in Cenarion Hold. He goes by the name of Garon Hutchins.$B$BYou should speak with him during your next excursion to the wastes. He may be interested to hear what we've learned.
 WHERE `entry`=2888;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='你好。我终于找到时间仔细研究你在天谴军团发现的公文。虽然花了点时间，但我相信我找到了一名死者的亲戚。$B$B麦克斯韦尔的姐姐，一个叫萨瑞娜·克罗姆温德的女人，在藏宝海湾经营一家小型武器店。我不确定她和她弟弟的关系亲不亲密，但如果你想了解，你就该安排一次会面。这类事情的终止在现今是珍贵且稀有的。$B$B'	-- Salutations. I've at last found the time to look into that missive you found on the Scourge. Though it took some doing, I believe I have discovered a living relative of the deceased.$B$BMaxwell's sister, one Zarena Cromwind by name, runs a small weaponsmith shop out of Booty Bay. I'm unsure how close she was to her brother, but if you find yourself passing through, you should arrange a meeting. Closure on these matters is precious and rare in this day and age.
+	`text_loc4`='你好。我终于找到时间仔细研究你在天灾军团发现的公文。虽然花了点时间，但我相信我找到了一名死者的亲戚。$B$B麦克斯韦尔的姐姐，一个叫萨瑞娜·克罗姆温德的女人，在藏宝海湾经营一家小型武器店。我不确定她和她弟弟的关系亲不亲密，但如果你想了解，你就该安排一次会面。这类事情的终止在现今是珍贵且稀有的。$B$B'	-- Salutations. I've at last found the time to look into that missive you found on the Scourge. Though it took some doing, I believe I have discovered a living relative of the deceased.$B$BMaxwell's sister, one Zarena Cromwind by name, runs a small weaponsmith shop out of Booty Bay. I'm unsure how close she was to her brother, but if you find yourself passing through, you should arrange a meeting. Closure on these matters is precious and rare in this day and age.
 WHERE `entry`=2889;
 
 UPDATE `locales_page_text` SET
@@ -5219,7 +5219,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2906;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='草图显示沙德拉洛和它的三座神庙，有一些「x」记号的，都与被偷窃的蛋下落有关。记号出现在东边神庙的南方尽头，和东边神庙的东北边一间小茅屋很近，靠近中央湖东边的一个祭坛，在靠近「放逐」字样的南方神庙斜坡上。$B$B羽须的便笺暗示他正在计划传送消息给弗斯塔德·蛮锤，希望他能派遣一批战士去拯救那些蛋。'	-- The sketch shows Shadra'Alor and its three temples, with a number of 'x' marks, corresponding to the locations of the stolen eggs. The marks appear at the southern end of the eastern temple, close to a hut to the northeast of the eastern temple, near an altar to the east of the central lake, and on the slope of the southern temple near the word 'exile.'Featherbeard's notes indicate that he was planning on delivering this information to Falstad Wildhammer, whom he hoped would dispatch a band of warriors to rescue the eggs.
+	`text_loc4`='草图显示沙德拉洛和它的三座神庙，有一些“x”记号的，都与被偷窃的蛋下落有关。记号出现在东边神庙的南方尽头，和东边神庙的东北边一间小茅屋很近，靠近中央湖东边的一个祭坛，在靠近“放逐”字样的南方神庙斜坡上。$B$B羽须的便笺暗示他正在计划传送消息给弗斯塔德·蛮锤，希望他能派遣一批战士去拯救那些蛋。'	-- The sketch shows Shadra'Alor and its three temples, with a number of 'x' marks, corresponding to the locations of the stolen eggs. The marks appear at the southern end of the eastern temple, close to a hut to the northeast of the eastern temple, near an altar to the east of the central lake, and on the slope of the southern temple near the word 'exile.'Featherbeard's notes indicate that he was planning on delivering this information to Falstad Wildhammer, whom he hoped would dispatch a band of warriors to rescue the eggs.
 WHERE `entry`=2907;
 
 UPDATE `locales_page_text` SET
@@ -5227,7 +5227,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2909;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='$B有关暗夜精灵协助德莱尼的报告是真的。他们想在北边萨提纳尔附近的林歌神殿建立一个新的运作基地。我们应该协商一下，在这可悲的世界下一次月圆前联合我们的军队做一次攻击。如果我们现在制服他们，他们才会记得「部落」这个词真正的意义为何！$B$B戈甘诺恩$B$B致意$B$B备注 - 不要再用血墨水写情书给我的鞭笞者！暗夜精灵处女最近很短缺。'	-- The reports of the night elves assisting the draenei are true.  They're attempting to setup a new base of operations at Forest Song to the north near Satyrnaar.  We should confer on combining our forces for an attack before the next full moon of this pathetic world.  If we crush them now they will never gain a toehold on our doorstep!Regards,Gorgannonp.s. - Stop using up all of the blood ink on love letters to my lashers!  Night elf virgins are in short supply these days.
+	`text_loc4`='$B有关暗夜精灵协助德莱尼的报告是真的。他们想在北边萨提纳尔附近的林歌神殿建立一个新的运作基地。我们应该协商一下，在这可悲的世界下一次月圆前联合我们的军队做一次攻击。如果我们现在制服他们，他们才会记得“部落”这个词真正的意义为何！$B$B戈甘诺恩$B$B致意$B$B备注 - 不要再用血墨水写情书给我的鞭笞者！暗夜精灵处女最近很短缺。'	-- The reports of the night elves assisting the draenei are true.  They're attempting to setup a new base of operations at Forest Song to the north near Satyrnaar.  We should confer on combining our forces for an attack before the next full moon of this pathetic world.  If we crush them now they will never gain a toehold on our doorstep!Regards,Gorgannonp.s. - Stop using up all of the blood ink on love letters to my lashers!  Night elf virgins are in short supply these days.
 WHERE `entry`=2910;
 
 UPDATE `locales_page_text` SET
@@ -5235,7 +5235,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2911;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='$B是时候夺回一些次要种族了，我想。西北边的碎木岗哨是个很诱人的目标。我们应该协商一下，在这可悲的世界下一次月圆前联合我们的军队做一次攻击。如果我们现在制服他们，他们才会记得「部落」这个词真正的意义为何！$B$B戈甘诺恩$B$B致意$B$B备注 - 不要再用血墨水写情书给我的鞭笞者！暗夜精灵处女最近很短缺。'	-- The time has come to retake a few of the lesser races, I think.  Splintertree Post to the northwest makes a tempting target.  We should confer on combining our forces for an attack before the next full moon of this pathetic world.  If we subjugate them now they will come to remember what the word 'Horde' truly used to mean!Regards,Gorgannonp.s. - Stop using up all of the blood ink on love letters to my lashers!  Night elf virgins are in short supply these days.
+	`text_loc4`='$B是时候夺回一些次要种族了，我想。西北边的碎木岗哨是个很诱人的目标。我们应该协商一下，在这可悲的世界下一次月圆前联合我们的军队做一次攻击。如果我们现在制服他们，他们才会记得“部落”这个词真正的意义为何！$B$B戈甘诺恩$B$B致意$B$B备注 - 不要再用血墨水写情书给我的鞭笞者！暗夜精灵处女最近很短缺。'	-- The time has come to retake a few of the lesser races, I think.  Splintertree Post to the northwest makes a tempting target.  We should confer on combining our forces for an attack before the next full moon of this pathetic world.  If we subjugate them now they will come to remember what the word 'Horde' truly used to mean!Regards,Gorgannonp.s. - Stop using up all of the blood ink on love letters to my lashers!  Night elf virgins are in short supply these days.
 WHERE `entry`=2912;
 
 UPDATE `locales_page_text` SET
@@ -5243,7 +5243,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2913;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='……但她已经知道了。在她将自己的灵魂一点一滴的交换出去后，她已经认命的过着贱民的生活了。复仇已经值得了，或是她这样想。$B$B但现在有个机会让她重拾人性，所有的陌生人要交换的就是她的信任。$B$B「让我来」，卡崔恩说。「我没什么好怕的。」'	-- ...but she knew that, already.  She had resigned herself to living as a pariah after bartering her soul away in bits and pieces.  Vengeance had been worth it, or so she thought.$B$BYet here was a chance to regain her humanity and all the stranger asked for in exchange was her trust.$B$B"I'll do it," said Katreyn.  "I have nothing to lose."
+	`text_loc4`='……但她已经知道了。在她将自己的灵魂一点一滴的交换出去后，她已经认命的过着贱民的生活了。复仇已经值得了，或是她这样想。$B$B但现在有个机会让她重拾人性，所有的陌生人要交换的就是她的信任。$B$B“让我来”，卡崔恩说。“我没什么好怕的。”'	-- ...but she knew that, already.  She had resigned herself to living as a pariah after bartering her soul away in bits and pieces.  Vengeance had been worth it, or so she thought.$B$BYet here was a chance to regain her humanity and all the stranger asked for in exchange was her trust.$B$B"I'll do it," said Katreyn.  "I have nothing to lose."
 WHERE `entry`=2914;
 
 UPDATE `locales_page_text` SET
@@ -5267,23 +5267,23 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2920;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='部落受人尊敬的领导者，$B$B我 - 洛索玛·塞隆，奎尔萨拉斯地区统治者 - 非常荣幸的宣布我们所知道的达克汗·崔希尔，天谴军团的指挥官阵亡了。$B$B达克汗在我们土地上的立足点是由辛多雷种族的评论家在先前无数次的协商中所建立的。我们希望这个事件能平抚所有你心里可能有的异议。$B$B<署名>洛索玛·塞隆'	-- Esteemed leaders of the Horde,It is with great pleasure that I - Lor'themar Theron, Regent Lord of Quel'Thalas - announce the fall of the Scourge commander known to us as Dar'Khan Drathir.Dar'Khan's foothold in our lands was brought up by critics of the sin'dorei race at numerous previous negotiations.  We hope this event addresses any and all previous objections your graces might have harbored.<Signed>Lor'themar Theron
+	`text_loc4`='部落受人尊敬的领导者，$B$B我 - 洛索玛·塞隆，奎尔萨拉斯地区统治者 - 非常荣幸的宣布我们所知道的达克汗·崔希尔，天灾军团的指挥官阵亡了。$B$B达克汗在我们土地上的立足点是由辛多雷种族的评论家在先前无数次的协商中所建立的。我们希望这个事件能平抚所有你心里可能有的异议。$B$B<署名>洛索玛·塞隆'	-- Esteemed leaders of the Horde,It is with great pleasure that I - Lor'themar Theron, Regent Lord of Quel'Thalas - announce the fall of the Scourge commander known to us as Dar'Khan Drathir.Dar'Khan's foothold in our lands was brought up by critics of the sin'dorei race at numerous previous negotiations.  We hope this event addresses any and all previous objections your graces might have harbored.<Signed>Lor'themar Theron
 WHERE `entry`=2923;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='部落受人尊敬的领导者，$B$B我 - 洛索玛·塞隆，奎尔萨拉斯地区统治者 - 非常荣幸的宣布我们所知道的达克汗·崔希尔，天谴军团的指挥官阵亡了。$B$B达克汗在我们土地上的立足点是由辛多雷种族的评论家在先前无数次的协商中所建立的。我们希望这个事件能平抚所有你心里可能有的异议。$B$B<署名>洛索玛·塞隆'	-- Esteemed leaders of the Horde,It is with great pleasure that I - Lor'themar Theron, Regent Lord of Quel'Thalas - announce the fall of the Scourge commander known to us as Dar'Khan Drathir.Dar'Khan's foothold in our lands was brought up by critics of the sin'dorei race at numerous previous negotiations.  We hope this event addresses any and all previous objections your graces might have harbored.<Signed>Lor'themar Theron
+	`text_loc4`='部落受人尊敬的领导者，$B$B我 - 洛索玛·塞隆，奎尔萨拉斯地区统治者 - 非常荣幸的宣布我们所知道的达克汗·崔希尔，天灾军团的指挥官阵亡了。$B$B达克汗在我们土地上的立足点是由辛多雷种族的评论家在先前无数次的协商中所建立的。我们希望这个事件能平抚所有你心里可能有的异议。$B$B<署名>洛索玛·塞隆'	-- Esteemed leaders of the Horde,It is with great pleasure that I - Lor'themar Theron, Regent Lord of Quel'Thalas - announce the fall of the Scourge commander known to us as Dar'Khan Drathir.Dar'Khan's foothold in our lands was brought up by critics of the sin'dorei race at numerous previous negotiations.  We hope this event addresses any and all previous objections your graces might have harbored.<Signed>Lor'themar Theron
 WHERE `entry`=2924;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='$B$B备注 - 我们的大师常收到外域捎来消息回复索尔的问题。答案是，当然，是的。$B$B<这本书的薄薄书页是由一种微微发亮的材质做的，充满了高科技图表说明如何维护和修理超空间船舰。这份副本打开到一篇标题为「旋绕导航器损坏及如何避免」的章节。>'	-- PS - Our grand magister has received word back from Outland regarding Thrall's question.  The answer is, with great certainty, yes.
+	`text_loc4`='$B$B备注 - 我们的大师常收到外域捎来消息回复索尔的问题。答案是，当然，是的。$B$B<这本书的薄薄书页是由一种微微发亮的材质做的，充满了高科技图表说明如何维护和修理超空间船舰。这份副本打开到一篇标题为“旋绕导航器损坏及如何避免”的章节。>'	-- PS - Our grand magister has received word back from Outland regarding Thrall's question.  The answer is, with great certainty, yes.
 WHERE `entry`=2925;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='$B$B备注 - 我们的大师常收到外域捎来消息回复索尔的问题。答案是，当然，是的。$B$B<这本书的薄薄书页是由一种微微发亮的材质做的，充满了高科技图表说明如何维护和修理超空间船舰。这份副本打开到一篇标题为「旋绕导航器损坏及如何避免」的章节。>'	-- PS - Our grand magister has received word back from Outland regarding Thrall's question.  The answer is, with great certainty, yes.<This letter bears the additional seal of Lady Sylvanas Windrunner>
+	`text_loc4`='$B$B备注 - 我们的大师常收到外域捎来消息回复索尔的问题。答案是，当然，是的。$B$B<这本书的薄薄书页是由一种微微发亮的材质做的，充满了高科技图表说明如何维护和修理超空间船舰。这份副本打开到一篇标题为“旋绕导航器损坏及如何避免”的章节。>'	-- PS - Our grand magister has received word back from Outland regarding Thrall's question.  The answer is, with great certainty, yes.<This letter bears the additional seal of Lady Sylvanas Windrunner>
 WHERE `entry`=2926;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='你发现了神殿的位置！进一步的检查之后，你感觉到一股更强大的陌生力量控制了岛屿。你觉得站在神殿旁有点不舒服……甚至有点心乱。$B$B神殿旁的青铜色公告牌上写着：$B$B「这是达斯雷玛神殿，对最高尚的精灵们致上最高的敬意。让所有景仰过这个纪念碑的人都会记得他对抗天谴军团的牺牲及对我们继续生存的事业贡献。所有让奎尔萨拉斯繁荣的人们也都感谢他。」'	-- You have discovered the location of the shrine!  Upon further examination, you sense a stronger pulse of the strange power that has gripped the Isle.  You feel a bit uncomfortable standing by the shrine... and perhaps a little disturbed.The bronze placard along the side of the shrine reads:"Here stands the Shrine of Dath'Remar, a fitting tribute to a noble elf.  Let all who gaze on this monument remember his sacrifice against the Scourge and his dedication to the cause of our continued survival.  All who prosper in Quel'Thalas do so thanks to him."
+	`text_loc4`='你发现了神殿的位置！进一步的检查之后，你感觉到一股更强大的陌生力量控制了岛屿。你觉得站在神殿旁有点不舒服……甚至有点心乱。$B$B神殿旁的青铜色公告牌上写着：$B$B“这是达斯雷玛神殿，对最高尚的精灵们致上最高的敬意。让所有景仰过这个纪念碑的人都会记得他对抗天灾军团的牺牲及对我们继续生存的事业贡献。所有让奎尔萨拉斯繁荣的人们也都感谢他。”'	-- You have discovered the location of the shrine!  Upon further examination, you sense a stronger pulse of the strange power that has gripped the Isle.  You feel a bit uncomfortable standing by the shrine... and perhaps a little disturbed.The bronze placard along the side of the shrine reads:"Here stands the Shrine of Dath'Remar, a fitting tribute to a noble elf.  Let all who gaze on this monument remember his sacrifice against the Scourge and his dedication to the cause of our continued survival.  All who prosper in Quel'Thalas do so thanks to him."
 WHERE `entry`=2936;
 
 UPDATE `locales_page_text` SET
@@ -5411,7 +5411,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2967;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='但是我还没有时间体会这次猎杀的愉悦，就赫然发现山顶上出现了几个影子──就在可怜的巴尼尔的正上方。$B$B「快跑，巴尼尔！」我大叫道。艾耶克、艾尔加丁和我立刻向追逐巴尼尔的迅猛龙射击，一时间子弹和箭矢乱飞，混乱之中，我们当中的某人还射杀了一只迅猛龙。'	-- But I could not bask in the glory of the kill for long. For when I turned my eyes toward the horizon, several silhouettes appeared cresting the hill, just above poor Barnil.*Flee, Barnil!* I shouted. Ajeck, Sir Erlgadin and myself loosed a volley of bullets, arrows and bolts over Barnil and toward the pursuing raptors. One of us landed a kill amidst the confusion.
+	`text_loc4`='但是我还没有时间体会这次猎杀的愉悦，就赫然发现山顶上出现了几个影子──就在可怜的巴尼尔的正上方。$B$B“快跑，巴尼尔！”我大叫道。艾耶克、艾尔加丁和我立刻向追逐巴尼尔的迅猛龙射击，一时间子弹和箭矢乱飞，混乱之中，我们当中的某人还射杀了一只迅猛龙。'	-- But I could not bask in the glory of the kill for long. For when I turned my eyes toward the horizon, several silhouettes appeared cresting the hill, just above poor Barnil.*Flee, Barnil!* I shouted. Ajeck, Sir Erlgadin and myself loosed a volley of bullets, arrows and bolts over Barnil and toward the pursuing raptors. One of us landed a kill amidst the confusion.
 WHERE `entry`=2968;
 
 UPDATE `locales_page_text` SET
@@ -5447,7 +5447,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2976;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='(2)库库许：这个从赞格沼泽来的讨厌小孢子人在赞格沼泽和泰洛卡的边界有一个蘑菇园。在「那是什么味道」的游戏中输了很多金子给沙萨拉毕恩。想用叫做空茎的白闪菇付给沙萨拉毕恩。说这跟黄金一样好！哈！$B$B[下一页]'	-- (2) Coosh'coosh: This little annoying spore-man from Zangarmarsh has mushroom garden on border of Zangarmarsh and Terokkar. Lost many golds to Sal'salabim in game of "What's That Smell." Tried to pay Sal'salabim with stupid mushroom called glowcap. Say it as good as golds! Hah![Next Page]
+	`text_loc4`='(2)库库许：这个从赞格沼泽来的讨厌小孢子人在赞格沼泽和泰洛卡的边界有一个蘑菇园。在“那是什么味道”的游戏中输了很多金子给沙萨拉毕恩。想用叫做空茎的白闪菇付给沙萨拉毕恩。说这跟黄金一样好！哈！$B$B[下一页]'	-- (2) Coosh'coosh: This little annoying spore-man from Zangarmarsh has mushroom garden on border of Zangarmarsh and Terokkar. Lost many golds to Sal'salabim in game of "What's That Smell." Tried to pay Sal'salabim with stupid mushroom called glowcap. Say it as good as golds! Hah![Next Page]
 WHERE `entry`=2977;
 
 UPDATE `locales_page_text` SET
@@ -5479,11 +5479,11 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2985;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='当纳尼滑上来时，这位沧桑的战士给了她一个严厉的眼神。「我想你待在这里是为了搜集杀死鱼人的奖励吧？」$B$B她的眼神移到了他身边闪亮的宽剑。「马库斯，这要看奖励是什么。」她玩弄着她的头发，假装没有注意到他对她的存在感到不自在。「我可能并不想要这个奖励。」'	-- As Nahni glided up, the grizzled warrior gave her a hard stare.  "I suppose you're here to collect the reward for killing those murlocs?"Her eyes wandered down to the glowing broadsword at his side.  "That depends on what the reward is, Marcus."  She twirled her hair playfully, pretending not to notice how he shifted uncomfortably in her presence.  "I may not want it."
+	`text_loc4`='当纳尼滑上来时，这位沧桑的战士给了她一个严厉的眼神。“我想你待在这里是为了搜集杀死鱼人的奖励吧？”$B$B她的眼神移到了他身边闪亮的宽剑。“马库斯，这要看奖励是什么。”她玩弄着她的头发，假装没有注意到他对她的存在感到不自在。“我可能并不想要这个奖励。”'	-- As Nahni glided up, the grizzled warrior gave her a hard stare.  "I suppose you're here to collect the reward for killing those murlocs?"Her eyes wandered down to the glowing broadsword at his side.  "That depends on what the reward is, Marcus."  She twirled her hair playfully, pretending not to notice how he shifted uncomfortably in her presence.  "I may not want it."
 WHERE `entry`=2986;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='马库斯走向她，恐惧与愤怒的情绪交织地站着。「这个奖励是没得商量的！」他稍微停顿，整理一下紧张的心情，然后逼近她娇小的身躯。他们的双唇火热地交缠着，激情的气息满溢，融化了她的冰霜护甲法术。$B$B「所以，这个任务有下一个步骤吗？」她的双眼闪着兴奋的光芒，挑逗着他。$B$B<这样的情节持续了数百页，完全没有任何进一步的剧情。>'	-- Marcus stepped toward her, bristling with a mixture of fear and anger. "The reward is not negotiable!"  He paused for a moment while gathering his nerve, and pressed himself against her diminutive form.  Their lips met hotly, melting her frost armor spell in a torrent of sweltering vapor."So, is there another step to this quest?" she teased, her eyes glittering with excitement.<This goes on for several hundred more pages, without advancing the plot.>
+	`text_loc4`='马库斯走向她，恐惧与愤怒的情绪交织地站着。“这个奖励是没得商量的！”他稍微停顿，整理一下紧张的心情，然后逼近她娇小的身躯。他们的双唇火热地交缠着，激情的气息满溢，融化了她的冰霜护甲法术。$B$B“所以，这个任务有下一个步骤吗？”她的双眼闪着兴奋的光芒，挑逗着他。$B$B<这样的情节持续了数百页，完全没有任何进一步的剧情。>'	-- Marcus stepped toward her, bristling with a mixture of fear and anger. "The reward is not negotiable!"  He paused for a moment while gathering his nerve, and pressed himself against her diminutive form.  Their lips met hotly, melting her frost armor spell in a torrent of sweltering vapor."So, is there another step to this quest?" she teased, her eyes glittering with excitement.<This goes on for several hundred more pages, without advancing the plot.>
 WHERE `entry`=2987;
 
 UPDATE `locales_page_text` SET
@@ -5519,7 +5519,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2995;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='责任免除切结书。$B$B测试飞行员已充分的了解并同意此测试行为有可能在使用ZC号（以下称为「此装置」）时因为机体粉碎、电击、钝器撞击要害、动植物引起疾病、时间/空间错乱而造成受伤、肢解或者死亡。测试飞行员于此切结自愿进入此装置并且承担所有以上的风险。$B$B测试飞行员同意放弃、转让并且免除对塔利·萨普纳伯和其家人所有的索赔权利，并且一旦发生死亡意外时，$G他:她;同意将遗体捐赠给萨普纳伯机构做进一步的研究。$B$B署名，$BX:___$N'	-- RELEASE DISCHARGE OF LIABILITY.THE TEST PILOT IS FULLY AWARE AND ACKNOWLEDGES THERE IS A RISK OF INJURY, DISMEMBERMENT, OR DEATH IN THE FORM OF: PULVERIZATION, ELECTROCUTION, BLUNT FORCE TRAUMA TO VITAL ORGANS, CONSUMPTION BY INDIGENOUS FAUNA, OR TIME/SPACE PARADOXYSM DURING USE OF THE ZEPHYRIUM CAPACITORIUM (THE "DEVICE").  TEST PILOT HEREBY ELECTS TO VOLUNTARILY ENTER INTO THE DEVICE AND ASSUME ALL THE ABOVE RISKS.TEST PILOT AGREES TO WAIVE, RELEASE AND DISCHARGE ANY AND ALL CLAIMS FOR INJURY OR DAMAGE AGAINST TALLY ZAPNABBER AND HIS FAMILY, AND IN THE EVENT OF $GHIS:HER; DEATH, AGREES TO DONATE $GHIS:HER; REMAINS TO THE ZAPNABBER ESTATE FOR STUDY.signed,X:___$n
+	`text_loc4`='责任免除切结书。$B$B测试飞行员已充分的了解并同意此测试行为有可能在使用ZC号（以下称为“此装置”）时因为机体粉碎、电击、钝器撞击要害、动植物引起疾病、时间/空间错乱而造成受伤、肢解或者死亡。测试飞行员于此切结自愿进入此装置并且承担所有以上的风险。$B$B测试飞行员同意放弃、转让并且免除对塔利·萨普纳伯和其家人所有的索赔权利，并且一旦发生死亡意外时，$G他:她;同意将遗体捐赠给萨普纳伯机构做进一步的研究。$B$B署名，$BX:___$N'	-- RELEASE DISCHARGE OF LIABILITY.THE TEST PILOT IS FULLY AWARE AND ACKNOWLEDGES THERE IS A RISK OF INJURY, DISMEMBERMENT, OR DEATH IN THE FORM OF: PULVERIZATION, ELECTROCUTION, BLUNT FORCE TRAUMA TO VITAL ORGANS, CONSUMPTION BY INDIGENOUS FAUNA, OR TIME/SPACE PARADOXYSM DURING USE OF THE ZEPHYRIUM CAPACITORIUM (THE "DEVICE").  TEST PILOT HEREBY ELECTS TO VOLUNTARILY ENTER INTO THE DEVICE AND ASSUME ALL THE ABOVE RISKS.TEST PILOT AGREES TO WAIVE, RELEASE AND DISCHARGE ANY AND ALL CLAIMS FOR INJURY OR DAMAGE AGAINST TALLY ZAPNABBER AND HIS FAMILY, AND IN THE EVENT OF $GHIS:HER; DEATH, AGREES TO DONATE $GHIS:HER; REMAINS TO THE ZAPNABBER ESTATE FOR STUDY.signed,X:___$n
 WHERE `entry`=2996;
 
 UPDATE `locales_page_text` SET
@@ -5659,7 +5659,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=3031;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='加尔恩，$B$B我应该不需要提醒你，你的任务有多重要 -- 不计代价保护你珍贵的货物。如我所承诺过，成功与谨慎将会获得财富的回报。$B$B别对你的「伙伴」饶舌，看紧那些船员，那一切都会很顺利。我等着你成功的消息。'	-- Garn,$B$BI needn't remind you of the importance of your mission -- protect your precious cargo at any cost. As I have promised, success and discretion will be richly rewarded.$B$BKeep the tongue-wagging of your "associates" to a minimum, heed the crew and all will be well. I shall await word of your success.
+	`text_loc4`='加尔恩，$B$B我应该不需要提醒你，你的任务有多重要 -- 不计代价保护你珍贵的货物。如我所承诺过，成功与谨慎将会获得财富的回报。$B$B别对你的“伙伴”饶舌，看紧那些船员，那一切都会很顺利。我等着你成功的消息。'	-- Garn,$B$BI needn't remind you of the importance of your mission -- protect your precious cargo at any cost. As I have promised, success and discretion will be richly rewarded.$B$BKeep the tongue-wagging of your "associates" to a minimum, heed the crew and all will be well. I shall await word of your success.
 WHERE `entry`=3032;
 
 UPDATE `locales_page_text` SET
@@ -5691,7 +5691,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=3065;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='奈普图隆的部下中，有个名叫艾胡恩的强大冰霜领主。至今他仍在聚集力量要对拉格纳罗斯掀起战争。他只需要一个通道来进入我们的世界；一个由我们提供的通道。我们有盟友，有地点。我们也有力量与意志。$B$B和我们忠诚的新盟友与客人之间的最后协商，将会在一个安全遥远的地方，在我们灰谷原始据点的西北边。$B$B在这个无知的「节庆」结束前，艾胡恩将会在黑石山的深处面对拉格纳罗斯。这个世界将会因为他们释放出来的力量而倾覆。$B$B我们一切的努力都是为了这一刻。我们的主人将会再次兴起，彼此征战，并且将艾泽拉斯撕裂成碎片。$B$B我们将会活在时间的终结，我的兄弟。肩负起你的任务。努力下去。我们终将获胜！'	-- In Neptulon's service is a great frost lord by the name of Ahune. Even now he is marshalling his power to wage war against Ragnaros. All he requires is a gateway into our world; a gateway we will provide. We have the allies. We have the location. We have the strength and the will.Final negotiations with our new faithful allies and guests will be conducted in a safe, out of the way location northwest of our primary location in Ashenvale.Before this "festival" of the ignorant masses comes to a close, Ahune shall face Ragnaros in the shadow of Blackrock. The world will quake with the forces unleashed.
+	`text_loc4`='奈普图隆的部下中，有个名叫艾胡恩的强大冰霜领主。至今他仍在聚集力量要对拉格纳罗斯掀起战争。他只需要一个通道来进入我们的世界；一个由我们提供的通道。我们有盟友，有地点。我们也有力量与意志。$B$B和我们忠诚的新盟友与客人之间的最后协商，将会在一个安全遥远的地方，在我们灰谷原始据点的西北边。$B$B在这个无知的“节庆”结束前，艾胡恩将会在黑石山的深处面对拉格纳罗斯。这个世界将会因为他们释放出来的力量而倾覆。$B$B我们一切的努力都是为了这一刻。我们的主人将会再次兴起，彼此征战，并且将艾泽拉斯撕裂成碎片。$B$B我们将会活在时间的终结，我的兄弟。肩负起你的任务。努力下去。我们终将获胜！'	-- In Neptulon's service is a great frost lord by the name of Ahune. Even now he is marshalling his power to wage war against Ragnaros. All he requires is a gateway into our world; a gateway we will provide. We have the allies. We have the location. We have the strength and the will.Final negotiations with our new faithful allies and guests will be conducted in a safe, out of the way location northwest of our primary location in Ashenvale.Before this "festival" of the ignorant masses comes to a close, Ahune shall face Ragnaros in the shadow of Blackrock. The world will quake with the forces unleashed.
 WHERE `entry`=3066;
 
 UPDATE `locales_page_text` SET

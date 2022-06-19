@@ -49499,7 +49499,7 @@ UPDATE `locales_item` SET
 WHERE `entry`=19378;
 
 UPDATE `locales_item` SET
-	`name_loc4`='奈萨里奥之泪',	-- Neltharion's Tear
+	`name_loc4`='耐萨里奥之泪',	-- Neltharion's Tear
 	`description_loc4`='银色的液体在乌黑的外壳中涌动，这件物品非常纯净，它散发着强大的能量。'	-- A silver liquid flows within the impenetrable ebony shell. The item feels pure. It radiates an essence of extreme power.
 WHERE `entry`=19379;
 

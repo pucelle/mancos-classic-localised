@@ -3633,7 +3633,7 @@ WHERE `Id`=2661 AND `Locale`='zhCN';
 -- WHERE `Id`=2682 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='机器调整了一下，面对着你。$B$B它的背后是空的，但是有一个奇怪的凹槽，上面写着：「基尔卡克·旋杆的财产」'	-- 6669, The machine adjusts to face you.$B$BOn the back of the machine is an empty, oddly misshapen slot with an engraving that reads: "Propirtee o' Cap'n Gelkak Gyromast"
+	`Text_lang`='机器调整了一下，面对着你。$B$B它的背后是空的，但是有一个奇怪的凹槽，上面写着：“基尔卡克·旋杆的财产”'	-- 6669, The machine adjusts to face you.$B$BOn the back of the machine is an empty, oddly misshapen slot with an engraving that reads: "Propirtee o' Cap'n Gelkak Gyromast"
 WHERE `Id`=2702 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -3769,7 +3769,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=2826 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='你看起来很疲惫。在我们的屋里休息一会儿吧，让伊露恩引领你进入甜美的梦乡。'	-- Your body looks worn and your spirit weary. Rest yourself beneath our roof and allow Elune to guide your dreams.
+	`Text_lang`='你看起来很疲惫。在我们的屋里休息一会儿吧，让艾露恩引领你进入甜美的梦乡。'	-- Your body looks worn and your spirit weary. Rest yourself beneath our roof and allow Elune to guide your dreams.
 WHERE `Id`=2827 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -3949,7 +3949,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=2926 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='什么？我不认为暴风城里有术士训练师。$B$B不过……在法师区的那家名叫「已宰的羔羊」的旅店中有一些与恶魔有关的活动，我想你应该去那里看看。'	-- What? I don't know of any warlock trainers in Stormwind. Although... There have been some sightings of demonic activity over by The Slaughtered Lamb in the Mage Quarter. I suppose you could check there.
+	`Text_lang`='什么？我不认为暴风城里有术士训练师。$B$B不过……在法师区的那家名叫“已宰的羔羊”的旅店中有一些与恶魔有关的活动，我想你应该去那里看看。'	-- What? I don't know of any warlock trainers in Stormwind. Although... There have been some sightings of demonic activity over by The Slaughtered Lamb in the Mage Quarter. I suppose you could check there.
 WHERE `Id`=2927 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -4033,7 +4033,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=2958 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='你想要学习制皮？西蒙·坦纳尔可以教你。你可以在旧城区的「护体皮甲」店里找到他。'	-- Want to learn leatherworking, eh? Simon Tanner would be able to teach you. He can be found in Old Town at the Protective Hide.
+	`Text_lang`='你想要学习制皮？西蒙·坦纳尔可以教你。你可以在旧城区的“护体皮甲”店里找到他。'	-- Want to learn leatherworking, eh? Simon Tanner would be able to teach you. He can be found in Old Town at the Protective Hide.
 WHERE `Id`=2959 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -4041,7 +4041,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=2961 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='如果你要去学剥皮术，可以到旧城区的「护体皮甲」店里看看。'	-- You are gonna want to head over to Old Town and drop by the Protective Hide if you are lookin' to learn skinning.
+	`Text_lang`='如果你要去学剥皮术，可以到旧城区的“护体皮甲”店里看看。'	-- You are gonna want to head over to Old Town and drop by the Protective Hide if you are lookin' to learn skinning.
 WHERE `Id`=2962 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -4297,7 +4297,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=3177 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='以上这些内容是用来帮助你理解造物者的动机。他们创造出土灵这样一个物种是为了在他们离开之后，土灵可以成为这个世界中的一个重要部分，并保障造物者在艾泽拉斯世界的宏大计划得以继续执行。$B$B造物者对于「土灵」这个名字十分满意，因为它很好地体现了这个种族的基本特性。'	-- It is integral to the assimilation of this data that it is understood that the Creators wanted to synthesize a race that would long be an integral part of this world's development cycle after they had departed.  This race would be instrumental in fulfilling the Creators' long-term development objectives for Azeroth.  $B$BAs an ancillary note, the nomenclature "Earthen" was deemed apropos for the new race by the Creators, based on the Earthen's composition.
+	`Text_lang`='以上这些内容是用来帮助你理解造物者的动机。他们创造出土灵这样一个物种是为了在他们离开之后，土灵可以成为这个世界中的一个重要部分，并保障造物者在艾泽拉斯世界的宏大计划得以继续执行。$B$B造物者对于“土灵”这个名字十分满意，因为它很好地体现了这个种族的基本特性。'	-- It is integral to the assimilation of this data that it is understood that the Creators wanted to synthesize a race that would long be an integral part of this world's development cycle after they had departed.  This race would be instrumental in fulfilling the Creators' long-term development objectives for Azeroth.  $B$BAs an ancillary note, the nomenclature "Earthen" was deemed apropos for the new race by the Creators, based on the Earthen's composition.
 WHERE `Id`=3178 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -4309,7 +4309,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=3180 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='当土灵的合成母体不稳定的时候，产生了两个变种。一号教程图像正在初始化。$B$B第一类变种被称为「穴居怪」。这个变种保留了土灵的力量和耐力，但是它的感知力量完全丧失。欲望和狡诈成为了穴居怪的本能。'	-- There are two potential results when the Earthen's synthesis matrix destabilizes.  Initiating visual aid representation number one.$B$BThe first variant matrix is a degenerative product of synthesis, hereby designated with the common nomenclature of "Trogg".  This variant maintains strength and stamina comparable to the Earthen, but its cognitive processing power has been almost completely compromised.  Force of will and a strong sense of cunning are the only driving factors in the psyche of the trogg.
+	`Text_lang`='当土灵的合成母体不稳定的时候，产生了两个变种。一号教程图像正在初始化。$B$B第一类变种被称为“穴居怪”。这个变种保留了土灵的力量和耐力，但是它的感知力量完全丧失。欲望和狡诈成为了穴居怪的本能。'	-- There are two potential results when the Earthen's synthesis matrix destabilizes.  Initiating visual aid representation number one.$B$BThe first variant matrix is a degenerative product of synthesis, hereby designated with the common nomenclature of "Trogg".  This variant maintains strength and stamina comparable to the Earthen, but its cognitive processing power has been almost completely compromised.  Force of will and a strong sense of cunning are the only driving factors in the psyche of the trogg.
 WHERE `Id`=3181 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -4317,7 +4317,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=3182 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='二号教程图像正在初始化。$B$B土灵母体的第二个变种和标准的地下生物母体相比较而言，保留了很多必要的元素。这个种族被称作「矮人」。$B$B这个变种同样保留了土灵的力量和耐力。在某些方面，矮人甚至超过了土灵母体所具有的感知能力。但是，矮人这个变种的身体结构中已经完全没有了石质成分的踪迹。'	-- Initiating visual aid representation number two.$B$BThe second resultant variance of the Earthen matrix retains many desired elements when compared to the standard subterranean matrix.  The common nomenclature for this variant is "Dwarf".$B$BThis variant retains strength and stamina inherent to the Earthen.  In some cases, the dwarf even exceeds the cognitive powers of the Earthen's matrix.  The dwarf, however, retains none of the physical composition of Azeroth's various stone core compounds.
+	`Text_lang`='二号教程图像正在初始化。$B$B土灵母体的第二个变种和标准的地下生物母体相比较而言，保留了很多必要的元素。这个种族被称作“矮人”。$B$B这个变种同样保留了土灵的力量和耐力。在某些方面，矮人甚至超过了土灵母体所具有的感知能力。但是，矮人这个变种的身体结构中已经完全没有了石质成分的踪迹。'	-- Initiating visual aid representation number two.$B$BThe second resultant variance of the Earthen matrix retains many desired elements when compared to the standard subterranean matrix.  The common nomenclature for this variant is "Dwarf".$B$BThis variant retains strength and stamina inherent to the Earthen.  In some cases, the dwarf even exceeds the cognitive powers of the Earthen's matrix.  The dwarf, however, retains none of the physical composition of Azeroth's various stone core compounds.
 WHERE `Id`=3183 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -4845,7 +4845,7 @@ WHERE `Id`=3474 AND `Locale`='zhCN';
 -- WHERE `Id`=3477 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='到中部高地的「贝娜的炼金店」去找贝娜，她可以指导你学习配制药剂的方法。'	-- Then head over to Bena's Alchemy on the middle rise and talk to Bena herself.  She will be able to help you master the art of potion brewing.
+	`Text_lang`='到中部高地的“贝娜的炼金店”去找贝娜，她可以指导你学习配制药剂的方法。'	-- Then head over to Bena's Alchemy on the middle rise and talk to Bena herself.  She will be able to help you master the art of potion brewing.
 WHERE `Id`=3481 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -4861,7 +4861,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=3484 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='急救是一项很有用的技能。在战斗中，它常常能救人一命。如果你想要学习这项技能的话，就去灵魂高地的「精神治疗」小店里面找找潘德·缚石，他可是这方面最好的训练师。'	-- First Aid is always a nice skill to have.  Many a time during battle has it saved my hide.  Visit Spiritual Healing on the Spirit Rise.  Pand Stonebinder can teach you all you need to know to save your hide as well.
+	`Text_lang`='急救是一项很有用的技能。在战斗中，它常常能救人一命。如果你想要学习这项技能的话，就去灵魂高地的“精神治疗”小店里面找找潘德·缚石，他可是这方面最好的训练师。'	-- First Aid is always a nice skill to have.  Many a time during battle has it saved my hide.  Visit Spiritual Healing on the Spirit Rise.  Pand Stonebinder can teach you all you need to know to save your hide as well.
 WHERE `Id`=3485 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -5593,7 +5593,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4178 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='和我们战斗的那些生物的灵魂，或者说「灵魂精华」中存在着不可思议的力量。$B$B这个地区的许多生物都是暗夜精灵的盟友，暗夜精灵可以随时利用它们的力量。部落也应该享受到同样的权利，我相信一定有办法可以掌握这些力量，使其为我们所用。$B$B我说的都是事实，$N。帮助我，你会发现自己获得了不可思议的力量。'	-- Incredible power can be found in the spirits or "muisek" of the creatures that we battle against.$B$BLook inside yourself; learn to harness the power of your own spirit, and you will be more powerful than you ever imagined.
+	`Text_lang`='和我们战斗的那些生物的灵魂，或者说“灵魂精华”中存在着不可思议的力量。$B$B这个地区的许多生物都是暗夜精灵的盟友，暗夜精灵可以随时利用它们的力量。部落也应该享受到同样的权利，我相信一定有办法可以掌握这些力量，使其为我们所用。$B$B我说的都是事实，$N。帮助我，你会发现自己获得了不可思议的力量。'	-- Incredible power can be found in the spirits or "muisek" of the creatures that we battle against.$B$BLook inside yourself; learn to harness the power of your own spirit, and you will be more powerful than you ever imagined.
 WHERE `Id`=4179 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -5681,7 +5681,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4262 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我不想听，$N。不行，不管怎样我就是不能放你进灼热峡谷。不可能。绝对不可能。我要跟你讲多少次──我不能放你进去！你是听不懂通用语吗？还是你是伪装的兽人？不──行。不行！$B$B要是我放你过去，那我就得放大家都过去。没多久你的好朋友也会想要进去，然后是他们的远房亲戚，然后他们的朋友，然后朋友的朋友的朋友。上一次……算了，不讲上一次的事情了。$B$B我「不会」打开那个门！'	-- I don't care to hear it, $N. Nope, no way are you going to be let into the Searing Gorge. Impossible. Not going to happen. How many times do I have to tell you - I can't let you in! Do you not speak common? Are you an orc in disguise? N-O. NO!$B$BIf I let you in, then I have to let everybody in. Pretty soon your close friends will want in, then their distant relatives, then their friends, and so on and so forth. The last time that happened... well, we won't talk about the last time it happened.
+	`Text_lang`='我不想听，$N。不行，不管怎样我就是不能放你进灼热峡谷。不可能。绝对不可能。我要跟你讲多少次──我不能放你进去！你是听不懂通用语吗？还是你是伪装的兽人？不──行。不行！$B$B要是我放你过去，那我就得放大家都过去。没多久你的好朋友也会想要进去，然后是他们的远房亲戚，然后他们的朋友，然后朋友的朋友的朋友。上一次……算了，不讲上一次的事情了。$B$B我“不会”打开那个门！'	-- I don't care to hear it, $N. Nope, no way are you going to be let into the Searing Gorge. Impossible. Not going to happen. How many times do I have to tell you - I can't let you in! Do you not speak common? Are you an orc in disguise? N-O. NO!$B$BIf I let you in, then I have to let everybody in. Pretty soon your close friends will want in, then their distant relatives, then their friends, and so on and so forth. The last time that happened... well, we won't talk about the last time it happened.
 WHERE `Id`=4265 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -5737,7 +5737,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4308 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='当你待在旅店里的时候，你就可以好好地休息。因此，你可以比留在野外更快地恢复到「充分休息」的状态，这样就可以获得更多的经验值。$B$B另外你还可以通过和旅店老板交谈来获得一块炉石，以后就可以使用这块炉石快速回到你绑定的旅店里了。'	-- What can you do at an inn?$B$BWell when you stay at an inn, you rest very comfortably.  Because of this, you will become "well rested" much more quickly than you would in the wilderness.  When you are well rested, you learn more from experience.$B$BYou may also speak with any innkeeper to get a hearthstone, and can later use the hearthstone in order to quickly return to that inn.
+	`Text_lang`='当你待在旅店里的时候，你就可以好好地休息。因此，你可以比留在野外更快地恢复到“充分休息”的状态，这样就可以获得更多的经验值。$B$B另外你还可以通过和旅店老板交谈来获得一块炉石，以后就可以使用这块炉石快速回到你绑定的旅店里了。'	-- What can you do at an inn?$B$BWell when you stay at an inn, you rest very comfortably.  Because of this, you will become "well rested" much more quickly than you would in the wilderness.  When you are well rested, you learn more from experience.$B$BYou may also speak with any innkeeper to get a hearthstone, and can later use the hearthstone in order to quickly return to that inn.
 WHERE `Id`=4309 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -5837,7 +5837,7 @@ WHERE `Id`=4401 AND `Locale`='zhCN';
 -- WHERE `Id`=4406 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='赞美伊露恩！好些年都没有人来拜访我了。'	-- Praise Elune! It has been many years since I have had visitors.
+	`Text_lang`='赞美艾露恩！好些年都没有人来拜访我了。'	-- Praise Elune! It has been many years since I have had visitors.
 WHERE `Id`=4407 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -5845,7 +5845,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4408 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='作为黑海岸的一名年轻的暗夜精灵，我遇到了一队暮光之锤的成员。他们待我如同亲人，因此我背叛了对伊露恩的信仰，听信了暮光之锤的蛊惑之言。$B$B直到伊露恩的预兆显露在我眼前，我才幡然省悟，惊觉自己已经堕落成上古诸神的追随者。$B$B我满怀悔恨，开始向伊露恩祈祷。'	-- As a young night elf in Darkshore, I crossed paths with a group of unsavory individuals known as the Twilight's Hammer. A group of them befriended me and shamefully, I ended up eschewing my faith in Elune and embracing the vitriol of the Twilight's Hammer.$B$BIt was not until a vision came to me from Elune, that I woke up from the malaise that I had fallen into as a follower of the old gods.$B$BIn repentance, I began work on my prayer to Elune.
+	`Text_lang`='作为黑海岸的一名年轻的暗夜精灵，我遇到了一队暮光之锤的成员。他们待我如同亲人，因此我背叛了对艾露恩的信仰，听信了暮光之锤的蛊惑之言。$B$B直到艾露恩的预兆显露在我眼前，我才幡然省悟，惊觉自己已经堕落成上古诸神的追随者。$B$B我满怀悔恨，开始向艾露恩祈祷。'	-- As a young night elf in Darkshore, I crossed paths with a group of unsavory individuals known as the Twilight's Hammer. A group of them befriended me and shamefully, I ended up eschewing my faith in Elune and embracing the vitriol of the Twilight's Hammer.$B$BIt was not until a vision came to me from Elune, that I woke up from the malaise that I had fallen into as a follower of the old gods.$B$BIn repentance, I began work on my prayer to Elune.
 WHERE `Id`=4409 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -5889,7 +5889,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4424 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='收拾你的行装，$N！我从灼热峡谷那边的尼莉丝·洛克拉夫收到消息说，有个被称作「暗黑拍卖会」的组织正在大熔炉一带运作。到灼热峡谷去找到尼莉丝·洛克拉夫，然后把那个暗黑拍卖会一网打尽。'	-- Grab your things, $N! I've just gotten word from Nilith Lokrav in the Searing Gorge that the Undermarket has set up operations in the heart of the Cauldron. Find Nilith Lokrav in the Searing Gorge and get the low down!
+	`Text_lang`='收拾你的行装，$N！我从灼热峡谷那边的尼莉丝·洛克拉夫收到消息说，有个被称作“暗黑拍卖会”的组织正在大熔炉一带运作。到灼热峡谷去找到尼莉丝·洛克拉夫，然后把那个暗黑拍卖会一网打尽。'	-- Grab your things, $N! I've just gotten word from Nilith Lokrav in the Searing Gorge that the Undermarket has set up operations in the heart of the Cauldron. Find Nilith Lokrav in the Searing Gorge and get the low down!
 WHERE `Id`=4425 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -6257,7 +6257,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4556 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='宝贝，让我来教你一个简单的加法守则：「地精」+「工程学」=「万事通」。告诉你其他演算法的家伙肯定数学不及格。'	-- Let me break down a little math for you: "goblin" plus "engineering" equals KNOW HOW, baby.  Anyone who tells you otherwise simply doesn't know how to add.
+	`Text_lang`='宝贝，让我来教你一个简单的加法守则：“地精”+“工程学”=“万事通”。告诉你其他演算法的家伙肯定数学不及格。'	-- Let me break down a little math for you: "goblin" plus "engineering" equals KNOW HOW, baby.  Anyone who tells you otherwise simply doesn't know how to add.
 WHERE `Id`=4557 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -6465,7 +6465,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4644 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='什么？我在干什么？你眼睛不好是吗？我是一个梦想家，亲爱的$G先生:女士;，我梦想我们的将来会更加美好。很明显，我是个梦想家。$B$B然而，有些人却在想尽办法把我们困在平庸的泥沼里。我告诉过他，我是一个梦想家，而大德鲁伊鹿盔却回答说，「哦，我们似乎还缺一些挖水沟的。」$B$B我会帮助塞纳里奥议会弄走周围的泥堆，直到平庸的枷锁从我们身上卸下的那一天。'	-- What am I doing?  Do you lack vision?  I am a dreamer, good $g sir : lady;, and I dream of a better future for us all.  Clearly, I am a visionary.$B$BThere are those, however, who seek to keep us mired in banality.  I told him that I was a dreamer, and Arch Druid Staghelm replied, "Well, the world needs ditch diggers too."$B$BUntil such time as the shackles of banality are ripped from us, I will help the Cenarion Circle by shuffling these piles of dirt around.
+	`Text_lang`='什么？我在干什么？你眼睛不好是吗？我是一个梦想家，亲爱的$G先生:女士;，我梦想我们的将来会更加美好。很明显，我是个梦想家。$B$B然而，有些人却在想尽办法把我们困在平庸的泥沼里。我告诉过他，我是一个梦想家，而大德鲁伊鹿盔却回答说，“哦，我们似乎还缺一些挖水沟的。”$B$B我会帮助塞纳里奥议会弄走周围的泥堆，直到平庸的枷锁从我们身上卸下的那一天。'	-- What am I doing?  Do you lack vision?  I am a dreamer, good $g sir : lady;, and I dream of a better future for us all.  Clearly, I am a visionary.$B$BThere are those, however, who seek to keep us mired in banality.  I told him that I was a dreamer, and Arch Druid Staghelm replied, "Well, the world needs ditch diggers too."$B$BUntil such time as the shackles of banality are ripped from us, I will help the Cenarion Circle by shuffling these piles of dirt around.
 WHERE `Id`=4645 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -7161,7 +7161,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4940 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='很久之前，在我的旅途之中，我遇到了一个人，他告诉我：「掌握它的使用方法，你就可以拥有它。」$B你觉得那是什么意思？那时我还不知道，而且现在我还是不知道，真的……'	-- A long time ago, during my travels, I met a man that told me, "Master using it and you can have this."$B$BWhat do you suppose that means? I didn't know then, and I still don't now, really...
+	`Text_lang`='很久之前，在我的旅途之中，我遇到了一个人，他告诉我：“掌握它的使用方法，你就可以拥有它。”$B你觉得那是什么意思？那时我还不知道，而且现在我还是不知道，真的……'	-- A long time ago, during my travels, I met a man that told me, "Master using it and you can have this."$B$BWhat do you suppose that means? I didn't know then, and I still don't now, really...
 WHERE `Id`=4941 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -7309,7 +7309,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=4994 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='当然不是，亲爱的$G小伙子:姑娘;。你这种「冒险者」类型的$C经常成为政治的牺牲品，被政治家玩弄于股掌之间而毫无察觉。$B$B我给你的建议，就是去做一些更加具体的事情：找份新工作。$B$B这个世界已经有太多的英雄了。'	-- Of course not, dear $g boy:girl;. You 'adventurer' types are often victims of circumstance; subject to the political drama which tends to unfold between citizenry and royalty.$B$BMy advice to you, then, is to seek out something else, more specifically: A new career.$B$BThis world has enough heroes.
+	`Text_lang`='当然不是，亲爱的$G小伙子:姑娘;。你这种“冒险者”类型的$C经常成为政治的牺牲品，被政治家玩弄于股掌之间而毫无察觉。$B$B我给你的建议，就是去做一些更加具体的事情：找份新工作。$B$B这个世界已经有太多的英雄了。'	-- Of course not, dear $g boy:girl;. You 'adventurer' types are often victims of circumstance; subject to the political drama which tends to unfold between citizenry and royalty.$B$BMy advice to you, then, is to seek out something else, more specifically: A new career.$B$BThis world has enough heroes.
 WHERE `Id`=4996 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -7353,7 +7353,7 @@ WHERE `Id`=5006 AND `Locale`='zhCN';
 -- WHERE `Id`=5008 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='温德索尔那天特别爱跟人争吵──相信我，对温德索尔来说，那是一个有纪念意义的伟大成就。他一直在跟我说「感觉有些怪异」。他不是在开玩笑！$B$B当那些肮脏的野兽出击时，我们还在黑石山脉的中央。当然，我指的是兽人。你别分神，好吗？一时之间，叫喊声和铁器的敲击声四起。'	-- Windsor was particularly ornery that day - and believe me, for Windsor, that's a monumental accomplishment. He kept telling me that 'something feels off.' Well he wasn't kidding!$B$BWe were in the middle of Blackrock Mountain when the filthy animals attacked. I'm talking about the orcs, of course. Pay attention, will ya? All you could hear were grunts and the clanging of steel as they rushed us.
+	`Text_lang`='温德索尔那天特别爱跟人争吵──相信我，对温德索尔来说，那是一个有纪念意义的伟大成就。他一直在跟我说“感觉有些怪异”。他不是在开玩笑！$B$B当那些肮脏的野兽出击时，我们还在黑石山脉的中央。当然，我指的是兽人。你别分神，好吗？一时之间，叫喊声和铁器的敲击声四起。'	-- Windsor was particularly ornery that day - and believe me, for Windsor, that's a monumental accomplishment. He kept telling me that 'something feels off.' Well he wasn't kidding!$B$BWe were in the middle of Blackrock Mountain when the filthy animals attacked. I'm talking about the orcs, of course. Pay attention, will ya? All you could hear were grunts and the clanging of steel as they rushed us.
 WHERE `Id`=5009 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -7361,7 +7361,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=5010 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我单挑50个兽人？我可不是傻子，$N。我爸爸常说「卑鄙是卑鄙者的通行证」这类的话，我突然之间就明白了那是什么意思。'	-- Me versus fifty orcs? I'm no fool, $N. My pappy always told me, 'Discreditin is the better part of a cracker,' or something, and I knew what that meant.
+	`Text_lang`='我单挑50个兽人？我可不是傻子，$N。我爸爸常说“卑鄙是卑鄙者的通行证”这类的话，我突然之间就明白了那是什么意思。'	-- Me versus fifty orcs? I'm no fool, $N. My pappy always told me, 'Discreditin is the better part of a cracker,' or something, and I knew what that meant.
 WHERE `Id`=5012 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -7793,7 +7793,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=5188 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='安戈洛这里的暴掠龙看起来与贫瘠之地的迅猛龙有关，非常聪明，十分灵活，还有相似的行为准则。其中我所遇到的最伟大的是拉克维。他是我所见过的最危险的动物之一。在牛头人语，拉克维的意思是「锋利的爪子」，但那对他并不公平。$B$B如果你计划猎杀拉克维的话，千万不要低估他，但如果你决定要这样做，无论如何我都会帮你的。'	-- The ravasaur here in Un'Goro seem to be related to the raptors of the barrens--highly intelligent, volatile, and with a sense or code of conduct. The greatest of these that I have encountered is  Lar'korwi. He is one of the most dangerous beasts I've ever seen. In taurahe, Lar'korwi means "sharp claw," but that does not do him justice.$B$BDo not underestimate Lar'korwi if you ever plan on hunting him, but I will help you in any way I can if you do.
+	`Text_lang`='安戈洛这里的暴掠龙看起来与贫瘠之地的迅猛龙有关，非常聪明，十分灵活，还有相似的行为准则。其中我所遇到的最伟大的是拉克维。他是我所见过的最危险的动物之一。在牛头人语，拉克维的意思是“锋利的爪子”，但那对他并不公平。$B$B如果你计划猎杀拉克维的话，千万不要低估他，但如果你决定要这样做，无论如何我都会帮你的。'	-- The ravasaur here in Un'Goro seem to be related to the raptors of the barrens--highly intelligent, volatile, and with a sense or code of conduct. The greatest of these that I have encountered is  Lar'korwi. He is one of the most dangerous beasts I've ever seen. In taurahe, Lar'korwi means "sharp claw," but that does not do him justice.$B$BDo not underestimate Lar'korwi if you ever plan on hunting him, but I will help you in any way I can if you do.
 WHERE `Id`=5189 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -7837,7 +7837,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=5205 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='「牛头人语？」$B$B牛头人德鲁伊满怀期望地看着你，但是你显然无法跟她沟通。她微笑着指向自己，然后指着你。最后她向南面的道路指了几下。$B$B或许她是在表示南面道路的前方有可以跟你进行交谈的德鲁伊？'	-- "Taurahe?"$B$BThe tauren druid looks at you expectantly, but it is clear you cannot verbally communicate with her.  Undaunted, she points to herself and smiles.  She points at you and smiles once more.  She finally motions several times down the path to the south.$B$BPerhaps she is indicating that there is a druid you can speak to further down the road?
+	`Text_lang`='“牛头人语？”$B$B牛头人德鲁伊满怀期望地看着你，但是你显然无法跟她沟通。她微笑着指向自己，然后指着你。最后她向南面的道路指了几下。$B$B或许她是在表示南面道路的前方有可以跟你进行交谈的德鲁伊？'	-- "Taurahe?"$B$BThe tauren druid looks at you expectantly, but it is clear you cannot verbally communicate with her.  Undaunted, she points to herself and smiles.  She points at you and smiles once more.  She finally motions several times down the path to the south.$B$BPerhaps she is indicating that there is a druid you can speak to further down the road?
 WHERE `Id`=5206 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -8029,7 +8029,7 @@ WHERE `Id`=5284 AND `Locale`='zhCN';
 -- WHERE `Id`=5289 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='它们都失踪了，$R。在天谴军团入侵奎尔萨拉斯的时候，精灵族的圣契散落到世界各地。$B$B现在我们得搜寻这些圣契。寻找其中的秘密──并恢复其中蕴含的力量。$B$B我在寻找由卡里尔·温萨鲁斯书写的圣契。如果你找到了圣契，请允许我吸收它的魔法力量，而为你我可以制作一种力量的融合物……当然，所有的事情都是有代价的。这项任务的风险极大，但是我给予的回报也是相当丰厚的。'	-- 9836, They are lost, $r. Librams written by the elven masters. Scattered across the world when the Scourge was unleashed upon Quel'Thalas.$B$BNow we search for these librams. Search to find the secrets they hold - to restore power once had.$B$BI search for the ten written by Master Kariel Winthalus. Should you find a libram, allow me to absorb its magical properties and for you I shall craft an amalgamation of power... of course, all things come at some cost. You will find my cost to be high; but pay you shall.
+	`Text_lang`='它们都失踪了，$R。在天灾军团入侵奎尔萨拉斯的时候，精灵族的圣契散落到世界各地。$B$B现在我们得搜寻这些圣契。寻找其中的秘密──并恢复其中蕴含的力量。$B$B我在寻找由卡里尔·温萨鲁斯书写的圣契。如果你找到了圣契，请允许我吸收它的魔法力量，而为你我可以制作一种力量的融合物……当然，所有的事情都是有代价的。这项任务的风险极大，但是我给予的回报也是相当丰厚的。'	-- 9836, They are lost, $r. Librams written by the elven masters. Scattered across the world when the Scourge was unleashed upon Quel'Thalas.$B$BNow we search for these librams. Search to find the secrets they hold - to restore power once had.$B$BI search for the ten written by Master Kariel Winthalus. Should you find a libram, allow me to absorb its magical properties and for you I shall craft an amalgamation of power... of course, all things come at some cost. You will find my cost to be high; but pay you shall.
 WHERE `Id`=5290 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -8145,11 +8145,11 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=5343 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='月神殿是伊露恩的祭司们的家园。你会在那儿找到贾德莉亚和拉瑞亚，她们会对你的牧师生涯做出进一步的指导。'	-- The Temple of the Moon is home to the priests of Elune.  There you will find Jandria and Lariia, who will provide you with further guidance in the path of priesthood.
+	`Text_lang`='月神殿是艾露恩的祭司们的家园。你会在那儿找到贾德莉亚和拉瑞亚，她们会对你的牧师生涯做出进一步的指导。'	-- The Temple of the Moon is home to the priests of Elune.  There you will find Jandria and Lariia, who will provide you with further guidance in the path of priesthood.
 WHERE `Id`=5345 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='月神殿是伊露恩的祭司们的家园。你会在那儿找到贾德莉亚和拉瑞亚，她们会对你的牧师生涯做出进一步的指导。'	-- The power of Elune compels you!  The power of Elune compels you!  Go now!  Seek out Jandria in the central hall of the Temple of the Moon in the southern section of Darnassus!
+	`Text_lang`='月神殿是艾露恩的祭司们的家园。你会在那儿找到贾德莉亚和拉瑞亚，她们会对你的牧师生涯做出进一步的指导。'	-- The power of Elune compels you!  The power of Elune compels you!  Go now!  Seek out Jandria in the central hall of the Temple of the Moon in the southern section of Darnassus!
 WHERE `Id`=5346 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -8421,7 +8421,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=5472 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='到中部高地的「贝娜的炼金店」去找贝娜，她可以指导你学习配制药剂的方法。'	-- The herbs found in nature can be a powerful ally when combined with respect.  You will want to seek out Bena at her alchemy shop on the middle rise to further your training.
+	`Text_lang`='到中部高地的“贝娜的炼金店”去找贝娜，她可以指导你学习配制药剂的方法。'	-- The herbs found in nature can be a powerful ally when combined with respect.  You will want to seek out Bena at her alchemy shop on the middle rise to further your training.
 WHERE `Id`=5476 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -8445,7 +8445,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=5481 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='急救是一项很有用的技能。在战斗中，它常常能救人一命。如果你想要学习这项技能的话，就去灵魂高地的「精神治疗」小店里面找找潘德·缚石，他可是这方面最好的训练师。'	-- Life is a struggle, and the saying that which does not kill you makes you stronger is not always true.  Sometimes wounds act slowly, which is why we have bandages.  Pand Stonebinder of the Spirit Rise can teach you the art of First Aid.
+	`Text_lang`='急救是一项很有用的技能。在战斗中，它常常能救人一命。如果你想要学习这项技能的话，就去灵魂高地的“精神治疗”小店里面找找潘德·缚石，他可是这方面最好的训练师。'	-- Life is a struggle, and the saying that which does not kill you makes you stronger is not always true.  Sometimes wounds act slowly, which is why we have bandages.  Pand Stonebinder of the Spirit Rise can teach you the art of First Aid.
 WHERE `Id`=5482 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -8697,7 +8697,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=5576 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='在被放逐之前，死亡之翼曾试图产下混血的后代。混血的龙不仅无法获得守护巨龙天生的力量，也无法被死亡之翼控制。$B$B似乎奈法利安在他父亲失败了的事情上取得了成功──至少是一些进展。$B$B梦境之龙伊瑟拉预见到了这种混血龙类的存在，我们必须杀死那些「炫彩」之龙。'	-- Before his banishment, Deathwing was attempting to create impure offspring. Half breeds that would not only be immune to the innate natural powers and abilities of their Aspects but also under the complete control of Deathwing.$B$BIt seems that where his father failed, Nefarian may have succeeded - at least partially.$B$BIt was Ysera, Aspect of Dreams, who saw the abominations and forced us to act. If these 'Chromatic' dragonkin exist, they must be destroyed.
+	`Text_lang`='在被放逐之前，死亡之翼曾试图产下混血的后代。混血的龙不仅无法获得守护巨龙天生的力量，也无法被死亡之翼控制。$B$B似乎奈法利安在他父亲失败了的事情上取得了成功──至少是一些进展。$B$B梦境之龙伊瑟拉预见到了这种混血龙类的存在，我们必须杀死那些“炫彩”之龙。'	-- Before his banishment, Deathwing was attempting to create impure offspring. Half breeds that would not only be immune to the innate natural powers and abilities of their Aspects but also under the complete control of Deathwing.$B$BIt seems that where his father failed, Nefarian may have succeeded - at least partially.$B$BIt was Ysera, Aspect of Dreams, who saw the abominations and forced us to act. If these 'Chromatic' dragonkin exist, they must be destroyed.
 WHERE `Id`=5578 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -9573,7 +9573,7 @@ WHERE `Id`=5995 AND `Locale`='zhCN';
 -- WHERE `Id`=5996 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='<伊崔格笑了。>$B$B年轻人，世界并非总是这么混乱不堪。那只是天谴军团笼罩大地前的一段时间。在洛丹伦的那些地方在成为瘟疫之地之前。$B$B就是在那里萨尔从死亡之中拯救了我，也是在那里我加入了新的部落……但是我离题了。这是另外一个时期的事。是的，另外一个时期……或许……'	-- <Eitrigg laughs.>$B$BYoung one, the world has not always been in such disarray. It was a time before the Scourge had sacked the land. Before those parts of Lordaeron were known as the Plaguelands.$B$BIt was there that Thrall rescued me from death and it was then that I joined the new Horde... but I digress. This is a story for another time. Yes, another time... Perhaps...
+	`Text_lang`='<伊崔格笑了。>$B$B年轻人，世界并非总是这么混乱不堪。那只是天灾军团笼罩大地前的一段时间。在洛丹伦的那些地方在成为瘟疫之地之前。$B$B就是在那里萨尔从死亡之中拯救了我，也是在那里我加入了新的部落……但是我离题了。这是另外一个时期的事。是的，另外一个时期……或许……'	-- <Eitrigg laughs.>$B$BYoung one, the world has not always been in such disarray. It was a time before the Scourge had sacked the land. Before those parts of Lordaeron were known as the Plaguelands.$B$BIt was there that Thrall rescued me from death and it was then that I joined the new Horde... but I digress. This is a story for another time. Yes, another time... Perhaps...
 WHERE `Id`=5997 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -9673,7 +9673,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6045 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='「……」$B$B牛头人德鲁伊的尸体静静地躺着，看起来他好像终于离开了这个世界。'	-- "..."$B$BThe body of the tauren druid lies still and unmoving.  It would seem as though he has finally passed from this world to his promised great beyond.
+	`Text_lang`='“……”$B$B牛头人德鲁伊的尸体静静地躺着，看起来他好像终于离开了这个世界。'	-- "..."$B$BThe body of the tauren druid lies still and unmoving.  It would seem as though he has finally passed from this world to his promised great beyond.
 WHERE `Id`=6046 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -9709,7 +9709,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6068 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我是这座城市的官员，从事幽暗城的人口普查工作。自从我们从天谴军团中解脱出来以后，我们就尽力对我们的城市人口做出精确的记录。通过一些秘法方式和聪明的方法，我才得以弄到这些记录。如果你需要有事找我的话，请继续。你应该知道你是否有事需要我的帮助。'	-- I am an officer of the city, working in the capacity of the Undercity's census.  Since our liberation from the Scourge, we have tried to keep an accurate track of our city's populace.  Through arcane methods and sharpened mental discipline, I am able to access these records.  If you have business with me accordingly, please proceed.  You should know if you do, at any rate.
+	`Text_lang`='我是这座城市的官员，从事幽暗城的人口普查工作。自从我们从天灾军团中解脱出来以后，我们就尽力对我们的城市人口做出精确的记录。通过一些秘法方式和聪明的方法，我才得以弄到这些记录。如果你需要有事找我的话，请继续。你应该知道你是否有事需要我的帮助。'	-- I am an officer of the city, working in the capacity of the Undercity's census.  Since our liberation from the Scourge, we have tried to keep an accurate track of our city's populace.  Through arcane methods and sharpened mental discipline, I am able to access these records.  If you have business with me accordingly, please proceed.  You should know if you do, at any rate.
 WHERE `Id`=6069 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -9857,7 +9857,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6113 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='精灵用一种从前没有过的审视感觉看着你。$B$B「我感到一个大负担从我的灵魂中消除。很快我就可以永远平静的休息了。我现在知道这一点，而且我耐心的等待着这一时刻。$B$B谢谢你，陌生人。」'	-- The spirit looks upon you with a sense of completeness and cognizance that had not been present before.$B$B"I feel as though a great burden has been lifted from my soul.  Soon I will rest forever in peace.  I now know this, and I await this time patiently.$B$BThank you, stranger."
+	`Text_lang`='精灵用一种从前没有过的审视感觉看着你。$B$B“我感到一个大负担从我的灵魂中消除。很快我就可以永远平静的休息了。我现在知道这一点，而且我耐心的等待着这一时刻。$B$B谢谢你，陌生人。”'	-- The spirit looks upon you with a sense of completeness and cognizance that had not been present before.$B$B"I feel as though a great burden has been lifted from my soul.  Soon I will rest forever in peace.  I now know this, and I await this time patiently.$B$BThank you, stranger."
 WHERE `Id`=6114 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -9969,7 +9969,7 @@ WHERE `Id`=6150 AND `Locale`='zhCN';
 -- WHERE `Id`=6158 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='一本打开的日记放在你的面前，发黄的书页上写着如下的文字：$B$B「哈洛德变成了这个样子，我不知道接下来会发生什么事。把他拖进我能找到的唯一可以关住他的地方之后，我已经心力憔悴了。我把钥匙藏在身上，祈祷能渡过这个难关……$B$B我希望能离开这里，但我需要钱。我想我们的东西都在那个柜橱里……现在我想起来了，哈乐德是不是把柜橱的钥匙藏在自己身上了？$B$B我要先休息一下，现在我实在是太疲倦了。」$B$B'	-- A diary with yellowing pages lies open to the last entry:$B$B"I don't know what's going to happen now that Harold's turned.  It took everything out of me to drag him into the only place I could find that'd lock him up tight and hold him.  I hid the key on me, and I pray it works...$B$BI hope I can get out of here, but I need money to do that.  Our stuff's all in the cabinet I think... and now that I think about it, doesn't Harold keep the key on him?$B$BI'll rest on it, I'm dead tired now."
+	`Text_lang`='一本打开的日记放在你的面前，发黄的书页上写着如下的文字：$B$B“哈洛德变成了这个样子，我不知道接下来会发生什么事。把他拖进我能找到的唯一可以关住他的地方之后，我已经心力憔悴了。我把钥匙藏在身上，祈祷能渡过这个难关……$B$B我希望能离开这里，但我需要钱。我想我们的东西都在那个柜橱里……现在我想起来了，哈乐德是不是把柜橱的钥匙藏在自己身上了？$B$B我要先休息一下，现在我实在是太疲倦了。”$B$B'	-- A diary with yellowing pages lies open to the last entry:$B$B"I don't know what's going to happen now that Harold's turned.  It took everything out of me to drag him into the only place I could find that'd lock him up tight and hold him.  I hid the key on me, and I pray it works...$B$BI hope I can get out of here, but I need money to do that.  Our stuff's all in the cabinet I think... and now that I think about it, doesn't Harold keep the key on him?$B$BI'll rest on it, I'm dead tired now."
 WHERE `Id`=6160 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -10153,7 +10153,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6229 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='欢迎来到前线，$C。暴风城及其盟国派我到这儿来对抗天谴军团。在冰风营地，我们日复一日在抗战中求生。$B$B如果你想证明自己是个英雄的话，机会是很多的……特别是在我们向安多哈尔和控制天谴军团的邪恶势力进军时，你可以好好把握。'	-- Welcome to the front lines, $c.  The Kingdom of Stormwind, with the aid of its allies, has sent me here to counter the growing threat of the Scourge.  Here at Chillwind Point, we fight for our continued survival on a daily basis.$B$BIf you've come here looking for a chance to prove yourself as a hero, then you'll find plenty of opportunities to do so... especially as we push towards Andorhal and whatever malign force that controls the Scourge there.
+	`Text_lang`='欢迎来到前线，$C。暴风城及其盟国派我到这儿来对抗天灾军团。在冰风营地，我们日复一日在抗战中求生。$B$B如果你想证明自己是个英雄的话，机会是很多的……特别是在我们向安多哈尔和控制天灾军团的邪恶势力进军时，你可以好好把握。'	-- Welcome to the front lines, $c.  The Kingdom of Stormwind, with the aid of its allies, has sent me here to counter the growing threat of the Scourge.  Here at Chillwind Point, we fight for our continued survival on a daily basis.$B$BIf you've come here looking for a chance to prove yourself as a hero, then you'll find plenty of opportunities to do so... especially as we push towards Andorhal and whatever malign force that controls the Scourge there.
 WHERE `Id`=6230 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -10161,7 +10161,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6234 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='很高兴看到又有人在斯坦索姆城中和天谴军团抗战，在这里他们的力量是最强大的。$B$B你好。我是奥里克斯。我曾经是白银之手的一名圣骑士，但是跟其他信念发生动摇的人一样……我堕落了。天谴军团诱惑了我，差点使我成为一名死亡骑士！$B$B最终，我感觉到自己的危险处境，我逃到了这个教堂。这是个神圣的地方，第一个圣骑士光明使者乌瑟就是在这里成为白银之手骑士团的首领的。'	-- 10414, It is good to see others who fight the Scourge in Stratholme, for it is here they are strongest.$B$BGreetings.  I am Aurius.  I was once a paladin of the Silver Hand, but like others whose faith wavered... I fell from grace.  The Scourge seduced me and nearly transformed me into a death knight!$B$BFinally sensing my peril, I fled to this chapel.  It is a sacred place, where the first paladin, Uther the Lightbringer, was ordained into the order of the Silver Hand.
+	`Text_lang`='很高兴看到又有人在斯坦索姆城中和天灾军团抗战，在这里他们的力量是最强大的。$B$B你好。我是奥里克斯。我曾经是白银之手的一名圣骑士，但是跟其他信念发生动摇的人一样……我堕落了。天灾军团诱惑了我，差点使我成为一名死亡骑士！$B$B最终，我感觉到自己的危险处境，我逃到了这个教堂。这是个神圣的地方，第一个圣骑士光明使者乌瑟就是在这里成为白银之手骑士团的首领的。'	-- 10414, It is good to see others who fight the Scourge in Stratholme, for it is here they are strongest.$B$BGreetings.  I am Aurius.  I was once a paladin of the Silver Hand, but like others whose faith wavered... I fell from grace.  The Scourge seduced me and nearly transformed me into a death knight!$B$BFinally sensing my peril, I fled to this chapel.  It is a sacred place, where the first paladin, Uther the Lightbringer, was ordained into the order of the Silver Hand.
 WHERE `Id`=6235 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -10273,7 +10273,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6277 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='奈法利安已经下令立即摧毁那些不合适的实验品，但是这些恶心的野兽在没有对我们折磨「够」之前是不会这样做的。$B$B当我们完全「坏」了之后，他们会将我们的残骸丢给那些暴徒。我们的身体将成为他们变态游戏的道具：被投掷到熔岩中，或是更不幸的，沦落到嗜血如命的军团士兵手里。'	-- Nefarian had ordered that unsuitable subjects be destroyed immediately, but these retched beasts would not do so without first inflicting an 'ample' amount of torture.$B$BWhen we were thoroughly 'broken,' they would round up what remained and throw us to these thugs. Our bodies used as instruments in their sick game: thrown into the lava or worse; to the open and waiting arms of the bloodthirsty legion below.
+	`Text_lang`='奈法利安已经下令立即摧毁那些不合适的实验品，但是这些恶心的野兽在没有对我们折磨“够”之前是不会这样做的。$B$B当我们完全“坏”了之后，他们会将我们的残骸丢给那些暴徒。我们的身体将成为他们变态游戏的道具：被投掷到熔岩中，或是更不幸的，沦落到嗜血如命的军团士兵手里。'	-- Nefarian had ordered that unsuitable subjects be destroyed immediately, but these retched beasts would not do so without first inflicting an 'ample' amount of torture.$B$BWhen we were thoroughly 'broken,' they would round up what remained and throw us to these thugs. Our bodies used as instruments in their sick game: thrown into the lava or worse; to the open and waiting arms of the bloodthirsty legion below.
 WHERE `Id`=6278 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -10385,7 +10385,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6319 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='你想要学习制皮？西蒙·坦纳尔可以教你。你可以在旧城区的「护体皮甲」店里找到他。'	-- You're into leather, eh?  Sounds like you should talk to Simon Tanner over in Old Town.  He runs a shop there called the Protective Hide.
+	`Text_lang`='你想要学习制皮？西蒙·坦纳尔可以教你。你可以在旧城区的“护体皮甲”店里找到他。'	-- You're into leather, eh?  Sounds like you should talk to Simon Tanner over in Old Town.  He runs a shop there called the Protective Hide.
 WHERE `Id`=6321 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -10393,7 +10393,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6323 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='如果你要去学剥皮术，可以到旧城区的「护体皮甲」店里看看。'	-- You know, I could run an orc through or slice up a troll.  I could even carve my initials in an ogre's flank, but I just can't stand to skin an animal.  Go figure, eh.  Well, if you have the stomach for it, then go see Maris Granger at the Protective Hide in Old Town.
+	`Text_lang`='如果你要去学剥皮术，可以到旧城区的“护体皮甲”店里看看。'	-- You know, I could run an orc through or slice up a troll.  I could even carve my initials in an ogre's flank, but I just can't stand to skin an animal.  Go figure, eh.  Well, if you have the stomach for it, then go see Maris Granger at the Protective Hide in Old Town.
 WHERE `Id`=6324 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -10401,7 +10401,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6325 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='什么？我不认为暴风城里有术士训练师。$B$B不过……在法师区的那家名叫「已宰的羔羊」的旅店中有一些与恶魔有关的活动，我想你应该去那里看看。'	-- Warlocks, eh.  Well, you didn't hear it from me, but I've heard rumors that those types gather at a bar called the Slaughtered Lamb in the Mage Quarter.
+	`Text_lang`='什么？我不认为暴风城里有术士训练师。$B$B不过……在法师区的那家名叫“已宰的羔羊”的旅店中有一些与恶魔有关的活动，我想你应该去那里看看。'	-- Warlocks, eh.  Well, you didn't hear it from me, but I've heard rumors that those types gather at a bar called the Slaughtered Lamb in the Mage Quarter.
 WHERE `Id`=6326 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -10789,11 +10789,11 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6477 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='时机成熟了，我的$G兄弟:姐妹;们，武装起来，从天谴军团手中夺回属于我们的夜晚！'	-- The time has come, my $g brother : sister; in arms, to take back the night from the Scourge!
+	`Text_lang`='时机成熟了，我的$G兄弟:姐妹;们，武装起来，从天灾军团手中夺回属于我们的夜晚！'	-- The time has come, my $g brother : sister; in arms, to take back the night from the Scourge!
 WHERE `Id`=6479 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='时机成熟了，我的$G兄弟:姐妹;们，武装起来，从天谴军团手中夺回属于我们的夜晚！'	-- The time has come, my $g brother : sister; in arms, to take back the night from the Scourge!
+	`Text_lang`='时机成熟了，我的$G兄弟:姐妹;们，武装起来，从天灾军团手中夺回属于我们的夜晚！'	-- The time has come, my $g brother : sister; in arms, to take back the night from the Scourge!
 WHERE `Id`=6480 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -10877,7 +10877,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6514 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='好吧，$N，让我们来看看怎么对付这些瘟疫之锅！如果你要收集所需的成分，就带上一个玻璃聚焦装置吧。在鉴别从天谴军团的爪牙身上获取的资源时，你会用得着它的。$B$B你还需要找一份秘法速化剂。这东西可不便宜，而且也非常不稳定。一旦你得到药剂，就必须在15分钟内使用它，否则药剂就失效了。所以你可得留神别乱买。'	-- Well now $N, let's get to work on those cauldrons!  If you're going to collect the components we need, then get a vitreous focuser from me.  You'll need to have it on you to identify the necessary resources found on the Scourge that will turn those cauldrons.$B$BYou'll also need a dose of arcane quickener for the cauldrons.  It's not cheap, nor is it stable.  Once you have it, you'll only have thirty minutes to use it before it expires on you; be smart about buying it.
+	`Text_lang`='好吧，$N，让我们来看看怎么对付这些瘟疫之锅！如果你要收集所需的成分，就带上一个玻璃聚焦装置吧。在鉴别从天灾军团的爪牙身上获取的资源时，你会用得着它的。$B$B你还需要找一份秘法速化剂。这东西可不便宜，而且也非常不稳定。一旦你得到药剂，就必须在15分钟内使用它，否则药剂就失效了。所以你可得留神别乱买。'	-- Well now $N, let's get to work on those cauldrons!  If you're going to collect the components we need, then get a vitreous focuser from me.  You'll need to have it on you to identify the necessary resources found on the Scourge that will turn those cauldrons.$B$BYou'll also need a dose of arcane quickener for the cauldrons.  It's not cheap, nor is it stable.  Once you have it, you'll only have thirty minutes to use it before it expires on you; be smart about buying it.
 WHERE `Id`=6515 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -10917,7 +10917,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6524 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='好吧，$N，让我们来看看怎么对付这些瘟疫之锅！如果你要收集所需的成分，就带上一个玻璃聚焦装置吧。在鉴别从天谴军团的爪牙身上获取的资源时，你会用得着它的。$B$B你还需要找一份秘法速化剂。这东西可不便宜，而且也非常不稳定。一旦你得到药剂，就必须在15分钟内使用它，否则药剂就失效了。所以你可得留神别乱买。'	-- Well now $N, let's get to work on those cauldrons!  If you're going to collect the components we need, then get a vitreous focuser from me.  You'll need to have it on you to identify the necessary resources found on the Scourge that will turn those cauldrons.$B$BYou'll also need a dose of arcane quickener for the cauldrons.  It's not cheap, nor is it stable.  Once you have it, you'll only have thirty minutes to use it before it expires on you; be smart about buying it.
+	`Text_lang`='好吧，$N，让我们来看看怎么对付这些瘟疫之锅！如果你要收集所需的成分，就带上一个玻璃聚焦装置吧。在鉴别从天灾军团的爪牙身上获取的资源时，你会用得着它的。$B$B你还需要找一份秘法速化剂。这东西可不便宜，而且也非常不稳定。一旦你得到药剂，就必须在15分钟内使用它，否则药剂就失效了。所以你可得留神别乱买。'	-- Well now $N, let's get to work on those cauldrons!  If you're going to collect the components we need, then get a vitreous focuser from me.  You'll need to have it on you to identify the necessary resources found on the Scourge that will turn those cauldrons.$B$BYou'll also need a dose of arcane quickener for the cauldrons.  It's not cheap, nor is it stable.  Once you have it, you'll only have thirty minutes to use it before it expires on you; be smart about buying it.
 WHERE `Id`=6525 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -10989,19 +10989,19 @@ WHERE `Id`=6545 AND `Locale`='zhCN';
 -- WHERE `Id`=6546 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='天谴军团带来的灾难还在这片区域蔓延，在扭转局面，摧毁天谴军团之前，我们要走的路还很长。收集必要的资源，尽力帮助我们吧！'	-- The Scourge's plague still dominates the zone, and we have a long way to go before the plague will be altered enough to affect them.  Collect the necessary resources and help out the war effort!
+	`Text_lang`='天灾军团带来的灾难还在这片区域蔓延，在扭转局面，摧毁天灾军团之前，我们要走的路还很长。收集必要的资源，尽力帮助我们吧！'	-- The Scourge's plague still dominates the zone, and we have a long way to go before the plague will be altered enough to affect them.  Collect the necessary resources and help out the war effort!
 WHERE `Id`=6547 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='天谴军团带来的灾难就快结束；一场难以控制的颠覆行动会将我们推向顶峰！你务必要帮助我们！'	-- The Scourge's plague is almost to the turning point; a handful more cauldron subversions will push us over the top!  Be sure to do your part to help out!
+	`Text_lang`='天灾军团带来的灾难就快结束；一场难以控制的颠覆行动会将我们推向顶峰！你务必要帮助我们！'	-- The Scourge's plague is almost to the turning point; a handful more cauldron subversions will push us over the top!  Be sure to do your part to help out!
 WHERE `Id`=6549 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我们已经用天谴军团的瘟疫反攻他们了，但是我们撑不了多久了！去摧毁他们的锅炉吧！'	-- We have begun to turn the Scourge's plague against them, but our hold is tenuous at best!  Be sure to aid the cause by subverting their cauldrons!
+	`Text_lang`='我们已经用天灾军团的瘟疫反攻他们了，但是我们撑不了多久了！去摧毁他们的锅炉吧！'	-- We have begun to turn the Scourge's plague against them, but our hold is tenuous at best!  Be sure to aid the cause by subverting their cauldrons!
 WHERE `Id`=6550 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我们正控制着天谴军团──瘟疫至少还会侵扰它们一整天时间！但是我们得对此有足够的把握，因此你要尽可能地破坏锅炉。'	-- We are dominating the Scourge - the effects of the altered plague will affect them for at least another full day!  We need to stay on top of it though, so be sure to sabotage a cauldron when you can.
+	`Text_lang`='我们正控制着天灾军团──瘟疫至少还会侵扰它们一整天时间！但是我们得对此有足够的把握，因此你要尽可能地破坏锅炉。'	-- We are dominating the Scourge - the effects of the altered plague will affect them for at least another full day!  We need to stay on top of it though, so be sure to sabotage a cauldron when you can.
 WHERE `Id`=6551 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -11221,11 +11221,11 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6630 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='因为大熔炉被打开了缺口，我们现在能够把反作用剂释放到外界。这应该能让天谴军团尝尝他们自己药物的滋味，可以这么说！$B$B向炼金师阿尔比顿询问一下有关在大熔炉中所需要使用的试剂这方面的资讯。我会处理所有的资讯报告，以便于我们决定怎样把瘟疫用来对付天谴军团！'	-- With the cauldrons breeched, we are now able to introduce the counter agent into the environment.  This should give the scourge a taste of their own medicine, as it were!$B$BCheck with Alchemist Arbington on information regarding the reagents needed to use in the cauldrons.  I will be handling all information reports on how we are doing overall in turning the plague against the Scourge!
+	`Text_lang`='因为大熔炉被打开了缺口，我们现在能够把反作用剂释放到外界。这应该能让天灾军团尝尝他们自己药物的滋味，可以这么说！$B$B向炼金师阿尔比顿询问一下有关在大熔炉中所需要使用的试剂这方面的资讯。我会处理所有的资讯报告，以便于我们决定怎样把瘟疫用来对付天灾军团！'	-- With the cauldrons breeched, we are now able to introduce the counter agent into the environment.  This should give the scourge a taste of their own medicine, as it were!$B$BCheck with Alchemist Arbington on information regarding the reagents needed to use in the cauldrons.  I will be handling all information reports on how we are doing overall in turning the plague against the Scourge!
 WHERE `Id`=6641 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='因为大熔炉被打开了缺口，我们现在能够把反作用剂释放到外界。这应该能让天谴军团尝尝他们自己药物的滋味，可以这么说！$B$B向炼金师迪瑟斯询问一下有关在大熔炉中所需要使用的试剂这方面的资讯。我会处理所有的资讯报告，以便于我们决定怎样把瘟疫用来对付天谴军团！'	-- With the cauldrons breeched, we are now able to introduce the counter agent into the environment.  This should give the scourge a taste of their own medicine, as it were!$B$BCheck with Apothecary Dithers on information regarding the reagents needed to use in the cauldrons.  I will be handling all information reports on how we are doing overall in turning the plague against the Scourge!
+	`Text_lang`='因为大熔炉被打开了缺口，我们现在能够把反作用剂释放到外界。这应该能让天灾军团尝尝他们自己药物的滋味，可以这么说！$B$B向炼金师迪瑟斯询问一下有关在大熔炉中所需要使用的试剂这方面的资讯。我会处理所有的资讯报告，以便于我们决定怎样把瘟疫用来对付天灾军团！'	-- With the cauldrons breeched, we are now able to introduce the counter agent into the environment.  This should give the scourge a taste of their own medicine, as it were!$B$BCheck with Apothecary Dithers on information regarding the reagents needed to use in the cauldrons.  I will be handling all information reports on how we are doing overall in turning the plague against the Scourge!
 WHERE `Id`=6642 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -11253,7 +11253,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6648 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我们猜想，巴罗夫家族为了保护自己的财产以及生前死后对土地的所有权，他们与一个名叫科尔苏加德的人类法师达成协定。$B$B<艾瓦战栗起来。>$B$B协议中提及了巫术学校：这个成为诅咒教派的地方，变成他们的首府。$B$B随着时间的推移，巴罗夫的房子变得越来越破旧……$B$B黑暗开始笼罩整个房子的各个部份。重新维护是不可能……而且恶心的事。'	-- We suspect that in order to preserve their fortune and hold of the land - well past their lifespan - the Barovs made a deal with a powerful human mage named Kel'Thuzad.$B$B<Eva shudders.>$B$BFrom this deal sprang the school of necromancy: A place which bore the Cult of the Damned and would become their capital.$B$BAs each week passed, the house Barov became more and more decrepit...$B$BDark beings began to take residence in the various wings of the house. Upkeep became impossible... and disgusting.
+	`Text_lang`='我们猜想，巴罗夫家族为了保护自己的财产以及生前死后对土地的所有权，他们与一个名叫克尔苏加德的人类法师达成协定。$B$B<艾瓦战栗起来。>$B$B协议中提及了巫术学校：这个成为诅咒教派的地方，变成他们的首府。$B$B随着时间的推移，巴罗夫的房子变得越来越破旧……$B$B黑暗开始笼罩整个房子的各个部份。重新维护是不可能……而且恶心的事。'	-- We suspect that in order to preserve their fortune and hold of the land - well past their lifespan - the Barovs made a deal with a powerful human mage named Kel'Thuzad.$B$B<Eva shudders.>$B$BFrom this deal sprang the school of necromancy: A place which bore the Cult of the Damned and would become their capital.$B$BAs each week passed, the house Barov became more and more decrepit...$B$BDark beings began to take residence in the various wings of the house. Upkeep became impossible... and disgusting.
 WHERE `Id`=6650 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -11273,7 +11273,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6655 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='限制？这世上有些东西比栅栏和镣铐更加能够限制住人，年轻的$G主人:女主人;。亡灵包围着我们，不断用恐怖的动作折磨我们。$B$B最终，他来了。他自我介绍叫瑟尔林·卡斯迪诺夫教授。我们都把他叫做「屠夫。」'	-- Restraints? There are things in this world far more restraining than bars and shackles, young $g master:mistress;. The undead surrounded us, constantly tormenting us with horrifying acts of depravity.$B$BFinally, he came. He introduced himself as Doctor Theolen Krastinov. We came to know him as 'The Butcher.'
+	`Text_lang`='限制？这世上有些东西比栅栏和镣铐更加能够限制住人，年轻的$G主人:女主人;。亡灵包围着我们，不断用恐怖的动作折磨我们。$B$B最终，他来了。他自我介绍叫瑟尔林·卡斯迪诺夫教授。我们都把他叫做“屠夫。”'	-- Restraints? There are things in this world far more restraining than bars and shackles, young $g master:mistress;. The undead surrounded us, constantly tormenting us with horrifying acts of depravity.$B$BFinally, he came. He introduced himself as Doctor Theolen Krastinov. We came to know him as 'The Butcher.'
 WHERE `Id`=6656 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -11285,7 +11285,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6659 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='屠夫说起「无辜者的鲜血」和他的黑暗主人，「基尔图诺斯」。以及他会如何满足主人的欲望。$B$B最后，这个怪兽完成了他的实验。我们被耗干了生命。我们的灵魂被打碎了。死亡的甜美的拥抱靠近了，我们张开双臂欢迎它。但是在他极端的残酷中，屠夫把我们从死亡之门中复活。$B$B我们要被活着扔进他贪婪的食尸鬼之中。他笑着看我们被魔鬼吞噬。'	-- The Butcher would speak of 'the blood of innocents,' and his dark master, 'Kirtonos.' Of how he must appease his master.$B$BFinally, the beast was done with his experiments. We had been drained of all life. Our spirits shattered. The sweet embrace of death was upon us and we welcomed it with open arms. But in his infinite cruelty, the Butcher revived us from death's door.$B$BWe were to be kept alive and thrown to his ravenous ghouls. He laughed as he watched the fiends devour our flesh.
+	`Text_lang`='屠夫说起“无辜者的鲜血”和他的黑暗主人，“基尔图诺斯”。以及他会如何满足主人的欲望。$B$B最后，这个怪兽完成了他的实验。我们被耗干了生命。我们的灵魂被打碎了。死亡的甜美的拥抱靠近了，我们张开双臂欢迎它。但是在他极端的残酷中，屠夫把我们从死亡之门中复活。$B$B我们要被活着扔进他贪婪的食尸鬼之中。他笑着看我们被魔鬼吞噬。'	-- The Butcher would speak of 'the blood of innocents,' and his dark master, 'Kirtonos.' Of how he must appease his master.$B$BFinally, the beast was done with his experiments. We had been drained of all life. Our spirits shattered. The sweet embrace of death was upon us and we welcomed it with open arms. But in his infinite cruelty, the Butcher revived us from death's door.$B$BWe were to be kept alive and thrown to his ravenous ghouls. He laughed as he watched the fiends devour our flesh.
 WHERE `Id`=6660 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -11709,7 +11709,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6844 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='是吗？这是他们一贯的操作手法。对科尔苏加德和快速增长的天谴军团军队来说，什么东西拥有更大的价值？一个能成功潜入某个组织，然后释放瘟疫使数千人丧命的狂热追随者，还是一个普通到掉渣的亡灵士兵？很明显你不是那么愚蠢。$B$B没错，$R，他们就在你周围，生活着，工作着，密谋着。'	-- Is it? This has always been their method of operation. What is of greater value to Kel'Thuzad and the ever growing Scourge army? A zealous, living, follower that can work their way into a society and then unleash a plague, destroying thousands; or a single undead trooper? Certainly you cannot be that dense$B$BYes, $r, they live, work, and plot among you.
+	`Text_lang`='是吗？这是他们一贯的操作手法。对克尔苏加德和快速增长的天灾军团军队来说，什么东西拥有更大的价值？一个能成功潜入某个组织，然后释放瘟疫使数千人丧命的狂热追随者，还是一个普通到掉渣的亡灵士兵？很明显你不是那么愚蠢。$B$B没错，$R，他们就在你周围，生活着，工作着，密谋着。'	-- Is it? This has always been their method of operation. What is of greater value to Kel'Thuzad and the ever growing Scourge army? A zealous, living, follower that can work their way into a society and then unleash a plague, destroying thousands; or a single undead trooper? Certainly you cannot be that dense$B$BYes, $r, they live, work, and plot among you.
 WHERE `Id`=6845 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -11741,7 +11741,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6852 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='啊，我想我说得太快了。莱斯·霜语是通灵学院的监督者，他负责训练所有的黑暗大师，他是科尔苏加德最欣赏的学生和副官。他曾经是激流堡的法师，一个从来没有接受过达拉然正规训练的流浪巫师。$B$B当科尔苏加德开设诅咒教派的时候，莱斯就是首批加入其中的人，因为他知道透过黑暗魔法可以获得不朽。'	-- Ah, I suppose that I am getting ahead of myself. Ras Frostwhisper is the overseer of this school. The being responsible for training all of its Dark Masters. A lieutenant and favored pupil of Kel'Thuzad. He was once a hedge mage of Stromgarde: A rogue wizard that never received his formal training from Dalaran.$B$BWhen Kel'Thuzad opened the Cult, Ras was among the first to join his ranks. Ras knew that through dark magic, he would find immortality.
+	`Text_lang`='啊，我想我说得太快了。莱斯·霜语是通灵学院的监督者，他负责训练所有的黑暗大师，他是克尔苏加德最欣赏的学生和副官。他曾经是激流堡的法师，一个从来没有接受过达拉然正规训练的流浪巫师。$B$B当克尔苏加德开设诅咒教派的时候，莱斯就是首批加入其中的人，因为他知道透过黑暗魔法可以获得不朽。'	-- Ah, I suppose that I am getting ahead of myself. Ras Frostwhisper is the overseer of this school. The being responsible for training all of its Dark Masters. A lieutenant and favored pupil of Kel'Thuzad. He was once a hedge mage of Stromgarde: A rogue wizard that never received his formal training from Dalaran.$B$BWhen Kel'Thuzad opened the Cult, Ras was among the first to join his ranks. Ras knew that through dark magic, he would find immortality.
 WHERE `Id`=6853 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -11837,7 +11837,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6888 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='种族并不代表荣誉，$R。只要你待在我的农场，就请你记住并尊重这个信条。$B$B我知道有些兽人，他们像最高贵的骑士那样可敬；我还知道有些人类，他们像最残忍的天谴军团那样邪恶。$B$B但是我不会拿我少年时的故事来烦你的！要做的事情还很多──如果那是你所期望的。'	-- Race does not dictate honor, $r. While you remain on my farmstead, I ask that you remember and respect this credo.$B$BI have known orcs who have been as honorable as the most noble of knights and humans who have been as vile as the most ruthless of Scourge.$B$BBut I shall not bore you with tales of my youth! There is much work to be done - if that is what you desire.
+	`Text_lang`='种族并不代表荣誉，$R。只要你待在我的农场，就请你记住并尊重这个信条。$B$B我知道有些兽人，他们像最高贵的骑士那样可敬；我还知道有些人类，他们像最残忍的天灾军团那样邪恶。$B$B但是我不会拿我少年时的故事来烦你的！要做的事情还很多──如果那是你所期望的。'	-- Race does not dictate honor, $r. While you remain on my farmstead, I ask that you remember and respect this credo.$B$BI have known orcs who have been as honorable as the most noble of knights and humans who have been as vile as the most ruthless of Scourge.$B$BBut I shall not bore you with tales of my youth! There is much work to be done - if that is what you desire.
 WHERE `Id`=6889 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -12553,7 +12553,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=7175 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='你忘记自己的学生服了吗？你认为时尚比天谴军团的统治更重要吗？'	-- 5119 2832 7390 2544 2544 2544 4624 724 724 721 724 707 708 708 724 708 708 2848 2846 2544 4624 4624 4624 4624 4624 1064 16096 678 595, Did you forget your student's attire?  Do you think fashion is more vital than the Scourge's domination?
+	`Text_lang`='你忘记自己的学生服了吗？你认为时尚比天灾军团的统治更重要吗？'	-- 5119 2832 7390 2544 2544 2544 4624 724 724 721 724 707 708 708 724 708 708 2848 2846 2544 4624 4624 4624 4624 4624 1064 16096 678 595, Did you forget your student's attire?  Do you think fashion is more vital than the Scourge's domination?
 WHERE `Id`=7176 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -12609,7 +12609,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=7196 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='瘟疫之地是对付天谴军团绝佳的地方！'	-- The plaguelands are an excellent place to strike against the Scourge!
+	`Text_lang`='瘟疫之地是对付天灾军团绝佳的地方！'	-- The plaguelands are an excellent place to strike against the Scourge!
 WHERE `Id`=7197 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -12653,7 +12653,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=7217 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='在我眼中，部落的所有成员都是平等的，$N。我们的血液被恶魔玛诺洛斯污染了，人民承受着重负，如果不是为了学识和荣耀的话，我们几乎就快沦为天谴军团了。$B$B协助部落，让我们获得新生，这是你的职责。但是你也得明白什么时候应该对朋友同情，对敌人怜悯。$B$B好好理解。这是新生的部落，而不是缺乏自由意愿的恶魔军队。'	-- All members of the Horde are equal in my eyes, $N. We have all suffered many burdens, and if it were not for wisdom and honor, then we would be no better than the Scourge or my people while our blood was tainted by the demon Mannoroth.$B$BIt is your duty to aid the Horde and to defend our way of life. But it is also your duty to know when quarter and compassion should be given to friend and foe alike.$B$BUnderstand this well. This is the new Horde, not some demon-spawned army who lack freewill.
+	`Text_lang`='在我眼中，部落的所有成员都是平等的，$N。我们的血液被恶魔玛诺洛斯污染了，人民承受着重负，如果不是为了学识和荣耀的话，我们几乎就快沦为天灾军团了。$B$B协助部落，让我们获得新生，这是你的职责。但是你也得明白什么时候应该对朋友同情，对敌人怜悯。$B$B好好理解。这是新生的部落，而不是缺乏自由意愿的恶魔军队。'	-- All members of the Horde are equal in my eyes, $N. We have all suffered many burdens, and if it were not for wisdom and honor, then we would be no better than the Scourge or my people while our blood was tainted by the demon Mannoroth.$B$BIt is your duty to aid the Horde and to defend our way of life. But it is also your duty to know when quarter and compassion should be given to friend and foe alike.$B$BUnderstand this well. This is the new Horde, not some demon-spawned army who lack freewill.
 WHERE `Id`=7218 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -13129,7 +13129,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=7437 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='熊的灵魂平和的凝视着你。你听到了一个声音在对你讲话，好像是从熊那里传来，但是没有迹象表明这个动物在说话。$B$B「你好，我年轻的朋友。如果你是来找我寻求指引的，那么或许我能帮你找到你想要的东西。」'	-- The bear spirit looks upon you with a calm and peaceful gaze.  You hear a voice speak to you as though it was coming from the bear, but the creature makes no indication that it is speaking.$B$B"Greetings, my young friend.  If you have come to me seeking guidance, then perhaps I can help you find what you seek."
+	`Text_lang`='熊的灵魂平和的凝视着你。你听到了一个声音在对你讲话，好像是从熊那里传来，但是没有迹象表明这个动物在说话。$B$B“你好，我年轻的朋友。如果你是来找我寻求指引的，那么或许我能帮你找到你想要的东西。”'	-- The bear spirit looks upon you with a calm and peaceful gaze.  You hear a voice speak to you as though it was coming from the bear, but the creature makes no indication that it is speaking.$B$B"Greetings, my young friend.  If you have come to me seeking guidance, then perhaps I can help you find what you seek."
 WHERE `Id`=7438 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -13633,7 +13633,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=7619 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='在天谴军团来临之前，我是一名大商贩。我出售所有商品。所有！$B$B价钱都极其便宜！$B$B你随便问问那些没死的人，看看我说的是不是真的。'	-- Before the Scourge came, I had a great business.  I bought and sold everything.  Everything!$B$BAnd my prices were INSANE!$B$BJust ask anyone.  Anyone who's not dead.
+	`Text_lang`='在天灾军团来临之前，我是一名大商贩。我出售所有商品。所有！$B$B价钱都极其便宜！$B$B你随便问问那些没死的人，看看我说的是不是真的。'	-- Before the Scourge came, I had a great business.  I bought and sold everything.  Everything!$B$BAnd my prices were INSANE!$B$BJust ask anyone.  Anyone who's not dead.
 WHERE `Id`=7620 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -13853,7 +13853,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=7688 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='(达纳苏斯语)愿伊露恩与你同在，我的$G兄弟:姐妹;。我们这里欢迎你。'	-- Elune-adore, my $gbrother:sister;. You are welcome here. Speak, and I will do what I can to aid you.
+	`Text_lang`='(达纳苏斯语)愿艾露恩与你同在，我的$G兄弟:姐妹;。我们这里欢迎你。'	-- Elune-adore, my $gbrother:sister;. You are welcome here. Speak, and I will do what I can to aid you.
 WHERE `Id`=7689 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -14001,7 +14001,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=7742 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='第一次看见亡灵时，我哭了，我无法想像他们的恐惧和孤寂。大地之母在我耳边吟唱，她告诉我：「拯救他们吧。」'	-- When I first saw the undead, I wept, for I could not imagine their horror and loneliness. The Earth Mother spoke to me then; she sang in my blood. And she told me, "Save them."
+	`Text_lang`='第一次看见亡灵时，我哭了，我无法想像他们的恐惧和孤寂。大地之母在我耳边吟唱，她告诉我：“拯救他们吧。”'	-- When I first saw the undead, I wept, for I could not imagine their horror and loneliness. The Earth Mother spoke to me then; she sang in my blood. And she told me, "Save them."
 WHERE `Id`=7743 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -16081,7 +16081,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=8765 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='当我的狮鹫兽坠落时，我听到了他们嘲弄的笑声，$C。$B$B「斯里多尔，你太差劲了！」他们大声嚷道。$B$B没有人敢对斯里多尔那样说话！帮我离开这里，我会让他们知道我的厉害！'	-- I heard their mocking laughter as my gryphon crashed and burned, $c.$B$B"Slidore, you stink!" They shouted.$B$BNobody talks to Slidore that way! Help me get out of here so that I can show them who the real stinker is!
+	`Text_lang`='当我的狮鹫兽坠落时，我听到了他们嘲弄的笑声，$C。$B$B“斯里多尔，你太差劲了！”他们大声嚷道。$B$B没有人敢对斯里多尔那样说话！帮我离开这里，我会让他们知道我的厉害！'	-- I heard their mocking laughter as my gryphon crashed and burned, $c.$B$B"Slidore, you stink!" They shouted.$B$BNobody talks to Slidore that way! Help me get out of here so that I can show them who the real stinker is!
 WHERE `Id`=8767 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -17281,7 +17281,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=9509 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='基尔达斯总是过分夸大。比如，「迦罗娜：潜行与诡计研究」已经被偷过400多次啦。$B$B图书馆的标志保护着这本卷轴，防止任何人偷看。'	-- Kildrath tends to overdramatize the situation. For example, "Garona: A Study on Stealth and Treachery," has been stolen over 400 times.$B$BThe mark of the Athenaeum protects the tomes, preventing any unauthorized viewings.
+	`Text_lang`='基尔达斯总是过分夸大。比如，“迦罗娜：潜行与诡计研究”已经被偷过400多次啦。$B$B图书馆的标志保护着这本卷轴，防止任何人偷看。'	-- Kildrath tends to overdramatize the situation. For example, "Garona: A Study on Stealth and Treachery," has been stolen over 400 times.$B$BThe mark of the Athenaeum protects the tomes, preventing any unauthorized viewings.
 WHERE `Id`=9510 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -17445,7 +17445,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=9604 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='「啧啧」是什么意思？'	-- What does "zug zug" mean?
+	`Text_lang`='“啧啧”是什么意思？'	-- What does "zug zug" mean?
 WHERE `Id`=9605 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -17617,7 +17617,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=9683 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='去银风避难所找珊蒂瑞亚吧。她可以卖给你「高级烹饪书」。'	-- Seek out Shandrina in Silverwind Refuge.  She can sell you the "Expert Cookbook".
+	`Text_lang`='去银风避难所找珊蒂瑞亚吧。她可以卖给你“高级烹饪书”。'	-- Seek out Shandrina in Silverwind Refuge.  She can sell you the "Expert Cookbook".
 WHERE `Id`=9684 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -17793,11 +17793,11 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=9756 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='突然之间，你成为了「联盟的防卫者」，是吗？！嗯，我猜你一定是想去勇士大厅。它就在旧城区。'	-- All of a sudden you're a 'Defender of the Alliance' are you?! Well, I suppose you'll be wanting to head to the Champions' Hall now. It's over in Old Town, but they won't let you in unless you're an officer, so you might just have to settle for talking to Officer Areyn outside. Move along now.
+	`Text_lang`='突然之间，你成为了“联盟的防卫者”，是吗？！嗯，我猜你一定是想去勇士大厅。它就在旧城区。'	-- All of a sudden you're a 'Defender of the Alliance' are you?! Well, I suppose you'll be wanting to head to the Champions' Hall now. It's over in Old Town, but they won't let you in unless you're an officer, so you might just have to settle for talking to Officer Areyn outside. Move along now.
 WHERE `Id`=9757 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='突然之间，你成为了「联盟的防卫者」，是吗？！嗯，我猜你一定是想去勇士大厅。它就在旧城区。'	-- Well, well, moving up in the world are we? You're looking for the Champions' Hall, and you'll find it on the southeast end of Old Town. If you're an officer you can enter the hall, otherwise you can still speak to Officer Areyn standing outside. Good luck!
+	`Text_lang`='突然之间，你成为了“联盟的防卫者”，是吗？！嗯，我猜你一定是想去勇士大厅。它就在旧城区。'	-- Well, well, moving up in the world are we? You're looking for the Champions' Hall, and you'll find it on the southeast end of Old Town. If you're an officer you can enter the hall, otherwise you can still speak to Officer Areyn standing outside. Good luck!
 WHERE `Id`=9758 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -19373,7 +19373,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=10463 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='是吗？这么说你已经知道高等精灵所掌握的巨魔魔法有多么浅显了？$B$B高等精灵怎么都想不明白，作为一个与魔法密切相关的种族，他们为何无法驾驭巨魔巫毒的力量。对这些白皮肤的生灵而言，这简直难以置信。他们只好使用一种不纯的巨魔法术来增强他们的魔法力量。我想他们称其为「秘纹」。'	-- Have you? Then you know how weak and pathetic the high elf version of troll magic was?$B$BThe high elves could not understand why a people with their magical affinity could not contend with the powers of troll voodoo. This was an inconceivable notion for the pale skins to understand. They were resigned to using the bastardized version of troll enchantments. I believe they called them 'Arcanum.'
+	`Text_lang`='是吗？这么说你已经知道高等精灵所掌握的巨魔魔法有多么浅显了？$B$B高等精灵怎么都想不明白，作为一个与魔法密切相关的种族，他们为何无法驾驭巨魔巫毒的力量。对这些白皮肤的生灵而言，这简直难以置信。他们只好使用一种不纯的巨魔法术来增强他们的魔法力量。我想他们称其为“秘纹”。'	-- Have you? Then you know how weak and pathetic the high elf version of troll magic was?$B$BThe high elves could not understand why a people with their magical affinity could not contend with the powers of troll voodoo. This was an inconceivable notion for the pale skins to understand. They were resigned to using the bastardized version of troll enchantments. I believe they called them 'Arcanum.'
 WHERE `Id`=10466 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -19809,7 +19809,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=10670 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='欢迎来到稻草人庆典，$C！$B$B为了庆祝万鬼节，被遗忘者焚烧稻草人来彰显其荣耀，最为尊崇的场合。就是这一天，女妖之王带着我们逃出了巫妖王与天谴军团的魔爪，从此以后我们得到了自由。我们对那些造成我们堕落之人的仇恨将会全额奉还！$B$B稻草人将会在下午8:00开始焚烧！'	-- Welcome to the Wickerman Festival, $c!$B$BOn the observance of Hallow's End, the Forsaken burn a wickerman in honor of this, the most revered of occasions.  It was on this day that the Banshee Queen herself delivered us from the clutches of the Lich King and the Scourge.  We have remained free ever since.  Those who would have seen us fall are repayed in full... with vengeance!$B$BThe burning of the Wickerman begins at 8:00 PM!
+	`Text_lang`='欢迎来到稻草人庆典，$C！$B$B为了庆祝万鬼节，被遗忘者焚烧稻草人来彰显其荣耀，最为尊崇的场合。就是这一天，女妖之王带着我们逃出了巫妖王与天灾军团的魔爪，从此以后我们得到了自由。我们对那些造成我们堕落之人的仇恨将会全额奉还！$B$B稻草人将会在下午8:00开始焚烧！'	-- Welcome to the Wickerman Festival, $c!$B$BOn the observance of Hallow's End, the Forsaken burn a wickerman in honor of this, the most revered of occasions.  It was on this day that the Banshee Queen herself delivered us from the clutches of the Lich King and the Scourge.  We have remained free ever since.  Those who would have seen us fall are repayed in full... with vengeance!$B$BThe burning of the Wickerman begins at 8:00 PM!
 WHERE `Id`=10671 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -19997,7 +19997,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=10731 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='那还用说！布莱恩、鲁特加尔、猴子和我都对此感到陌生，我们懂38种语言，还略懂一点泰坦语──连华纳神族和阿萨神族都不例外。$B$B总之，无论她嘴里叽里咕噜在说些什么，肯定都不是在跟「现场」的任何人对话。她点点头，就开始攻击我们！马上攻击我们！'	-- You're telling me! It's even stranger considering between Brann, Rutgar, me and the monkey, we know 38 different languages including a touch of Titan - both Vanir and Aesir.$B$BSo anyway, whatever she was click clacking about, it definitely wasn't with anyone "present." She then nodded and went on the offensive! Attacked us outright!
+	`Text_lang`='那还用说！布莱恩、鲁特加尔、猴子和我都对此感到陌生，我们懂38种语言，还略懂一点泰坦语──连华纳神族和阿萨神族都不例外。$B$B总之，无论她嘴里叽里咕噜在说些什么，肯定都不是在跟“现场”的任何人对话。她点点头，就开始攻击我们！马上攻击我们！'	-- You're telling me! It's even stranger considering between Brann, Rutgar, me and the monkey, we know 38 different languages including a touch of Titan - both Vanir and Aesir.$B$BSo anyway, whatever she was click clacking about, it definitely wasn't with anyone "present." She then nodded and went on the offensive! Attacked us outright!
 WHERE `Id`=10732 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -20093,7 +20093,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=10769 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='嗯，很简单的！这东西的使用方法和你以前用过的那些东西没什么两样。别担心，我会负责点火。当你升空之后，你会发现自己正「飘浮」在空中，但是这种情况不会持续很久。你将被发射到湖边的一个目标那里去。只要记得在适当的时候将你的「翅膀」分离，就可以安全地掉入湖中了！不然的话，嗯，我不负责出售人身保险。'	-- Oh that's simple! You use it like anything else you might activate. Don't worry, I'll take care of lighting the fuse. Once you're up in the air you'll notice that you'll seem to "float," but that won't last forever. What you're aiming for is a target on the lake way over yonder. Make sure that you begin your descent by detaching your "wings" at the right time to land in the water, or, well, I don't sell life insurance.
+	`Text_lang`='嗯，很简单的！这东西的使用方法和你以前用过的那些东西没什么两样。别担心，我会负责点火。当你升空之后，你会发现自己正“飘浮”在空中，但是这种情况不会持续很久。你将被发射到湖边的一个目标那里去。只要记得在适当的时候将你的“翅膀”分离，就可以安全地掉入湖中了！不然的话，嗯，我不负责出售人身保险。'	-- Oh that's simple! You use it like anything else you might activate. Don't worry, I'll take care of lighting the fuse. Once you're up in the air you'll notice that you'll seem to "float," but that won't last forever. What you're aiming for is a target on the lake way over yonder. Make sure that you begin your descent by detaching your "wings" at the right time to land in the water, or, well, I don't sell life insurance.
 WHERE `Id`=10770 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -20197,15 +20197,15 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=10809 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我很伤心！万鬼节快结束了，但是我生病了。我将会因为无法外出而错过「不给糖就捣蛋」的活动的！'	-- I'm sad!  It's Hallow's End, and I'm sick.  I'm going to miss out on trick-or-treating because I can't go out!
+	`Text_lang`='我很伤心！万鬼节快结束了，但是我生病了。我将会因为无法外出而错过“不给糖就捣蛋”的活动的！'	-- I'm sad!  It's Hallow's End, and I'm sick.  I'm going to miss out on trick-or-treating because I can't go out!
 WHERE `Id`=10811 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我很伤心！万鬼节快结束了，但是我生病了。我将会因为无法外出而错过「不给糖就捣蛋」的活动的！'	-- I'm sad!  It's Hallow's End, and I'm sick.  I'm going to miss out on trick-or-treating because I can't go out!
+	`Text_lang`='我很伤心！万鬼节快结束了，但是我生病了。我将会因为无法外出而错过“不给糖就捣蛋”的活动的！'	-- I'm sad!  It's Hallow's End, and I'm sick.  I'm going to miss out on trick-or-treating because I can't go out!
 WHERE `Id`=10812 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='你是最棒的，$N - 谢谢你帮我去参加「不给糖就捣蛋」的活动！'	-- You're the best, $N - thanks for going trick-or-treating for me!
+	`Text_lang`='你是最棒的，$N - 谢谢你帮我去参加“不给糖就捣蛋”的活动！'	-- You're the best, $N - thanks for going trick-or-treating for me!
 WHERE `Id`=10813 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -20801,15 +20801,15 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=11063 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='<纳里安将一封未打开的信贴到他的前额。>$B$B这是什么……嗯……天鹅绒！$B$B是吗？$B$B如果你想重新学习交易技能，就翻翻那本书吧……$B$B<纳里安指着「新手的预言入门」。>'	-- <Narain holds an unopened envelope to his forehead.>$B$BWhat is... Mmmm... Velvet!$B$BAm I right?
+	`Text_lang`='<纳里安将一封未打开的信贴到他的前额。>$B$B这是什么……嗯……天鹅绒！$B$B是吗？$B$B如果你想重新学习交易技能，就翻翻那本书吧……$B$B<纳里安指着“新手的预言入门”。>'	-- <Narain holds an unopened envelope to his forehead.>$B$BWhat is... Mmmm... Velvet!$B$BAm I right?
 WHERE `Id`=11064 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='<纳里安将一封未打开的信贴到他的前额。>$B$B这是什么……嗯……天鹅绒！$B$B是吗？$B$B如果你想重新学习交易技能，就翻翻那本书吧……$B$B<纳里安指着「新手的预言入门」。>'	-- Don't tell me! Shhh! You are here about the Ashbringer?!? Yes... Yes... No! My bad.$B$BWhat can I help you with, $r?
+	`Text_lang`='<纳里安将一封未打开的信贴到他的前额。>$B$B这是什么……嗯……天鹅绒！$B$B是吗？$B$B如果你想重新学习交易技能，就翻翻那本书吧……$B$B<纳里安指着“新手的预言入门”。>'	-- Don't tell me! Shhh! You are here about the Ashbringer?!? Yes... Yes... No! My bad.$B$BWhat can I help you with, $r?
 WHERE `Id`=11065 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='<纳里安将一封未打开的信贴到他的前额。>$B$B这是什么……嗯……天鹅绒！$B$B是吗？$B$B如果你想重新学习交易技能，就翻翻那本书吧……$B$B<纳里安指着「新手的预言入门」。>'	-- Narain Soothfancy, at your service! Retired engineer and master soothsayer! I can tell your future before it even happens!
+	`Text_lang`='<纳里安将一封未打开的信贴到他的前额。>$B$B这是什么……嗯……天鹅绒！$B$B是吗？$B$B如果你想重新学习交易技能，就翻翻那本书吧……$B$B<纳里安指着“新手的预言入门”。>'	-- Narain Soothfancy, at your service! Retired engineer and master soothsayer! I can tell your future before it even happens!
 WHERE `Id`=11066 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -21701,7 +21701,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=11342 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='这只麋鹿的脖子上有着一块上面有着熏木牧场的标志的标签，上面写着「梅特森」。$B$B梅特森用一种伤心、绝望的眼神看着你。看起来这头麋鹿似乎被某种看不见的力量给限制了行动。'	-- Around this reindeer's neck is a tag with the Smokywood Pastures logo on it and a name - "Metzen".$B$BMetzen looks at you with sad, forlorn eyes.  It is almost as if the reindeer has been immobilized by some unseen force.
+	`Text_lang`='这只麋鹿的脖子上有着一块上面有着熏木牧场的标志的标签，上面写着“梅特森”。$B$B梅特森用一种伤心、绝望的眼神看着你。看起来这头麋鹿似乎被某种看不见的力量给限制了行动。'	-- Around this reindeer's neck is a tag with the Smokywood Pastures logo on it and a name - "Metzen".$B$BMetzen looks at you with sad, forlorn eyes.  It is almost as if the reindeer has been immobilized by some unseen force.
 WHERE `Id`=11349 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -21845,7 +21845,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=11386 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='这件礼物的卡片上写着：「40岁以上适用。」'	-- The tag on this present reads: "For ages 40 and up."
+	`Text_lang`='这件礼物的卡片上写着：“40岁以上适用。”'	-- The tag on this present reads: "For ages 40 and up."
 WHERE `Id`=11387 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -21869,11 +21869,11 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=11393 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='这件礼物的卡片上写着：「20岁以上适用。」'	-- The tag on this present reads: "For ages 20 and up."
+	`Text_lang`='这件礼物的卡片上写着：“20岁以上适用。”'	-- The tag on this present reads: "For ages 20 and up."
 WHERE `Id`=11395 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='这件礼物的卡片上写着：「10岁以上适用。」'	-- The tag on this present reads: "For ages 10 and up."
+	`Text_lang`='这件礼物的卡片上写着：“10岁以上适用。”'	-- The tag on this present reads: "For ages 10 and up."
 WHERE `Id`=11396 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -22217,7 +22217,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=11517 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='伊露恩与你同在，$C。'	-- The High Priestess could not leave Darnassus. Fandral is in a very foul mood.
+	`Text_lang`='艾露恩与你同在，$C。'	-- The High Priestess could not leave Darnassus. Fandral is in a very foul mood.
 WHERE `Id`=11518 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -22549,7 +22549,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=11657 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='「你的战争物资收集工作做的很好」他们说，「你一定会得到晋升的！」。他们真正的意思是，「你会和一群小不点的矮人一起被部署在希利苏斯的某个虫巢外面，卡恩斯！」$B$B谢谢你的提拔，上尉！'	-- "Great job collecting resources for the war," they said, "Have a promotion," they said.  What they really meant is "You're stationed outside a bughive in Silithus with a bunch of sweaty dwarves, Carnes!"$B$BThanks for the promotion, Captain!
+	`Text_lang`='“你的战争物资收集工作做的很好”他们说，“你一定会得到晋升的！”。他们真正的意思是，“你会和一群小不点的矮人一起被部署在希利苏斯的某个虫巢外面，卡恩斯！”$B$B谢谢你的提拔，上尉！'	-- "Great job collecting resources for the war," they said, "Have a promotion," they said.  What they really meant is "You're stationed outside a bughive in Silithus with a bunch of sweaty dwarves, Carnes!"$B$BThanks for the promotion, Captain!
 WHERE `Id`=11658 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -23133,7 +23133,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=11938 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='听说科尔苏加德在寻找充满传奇的阿泰丝，伟大的守护者。$B$B对，就是麦迪文曾经持有的那把神杖。'	-- It is said that Kel'Thuzad seeks the legendary Atiesh, greatstaff of the Guardian.$B$BYes, the very staff once held by Medivh.
+	`Text_lang`='听说克尔苏加德在寻找充满传奇的阿泰丝，伟大的守护者。$B$B对，就是麦迪文曾经持有的那把神杖。'	-- It is said that Kel'Thuzad seeks the legendary Atiesh, greatstaff of the Guardian.$B$BYes, the very staff once held by Medivh.
 WHERE `Id`=11940 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -23149,7 +23149,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=11943 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='银色黎明也许是个无力的理想主义者，他们有妄想倾向的领导者知道自己有优势。我是血色十字军派来的密使，也就是外交大使，如果你将……能不能削弱科尔苏加德的军队都还是个问号－统一或独立－我们如果能拦截他们的话就是奇迹发生了。$B$B至于我呢？我将死在战场上……$B$B<马翰耸肩。>'	-- The Argent Dawn might be impotent idealists but their delusional leader knows that they are outmatched. I have been sent here as an emissary of the Scarlet Crusade. An ambassador, if you will... It is doubtful that we could even dent the armies of Kel'Thuzad - united or not - but we might be able to contain them long enough for some sort of miracle to happen.$B$BAs for me? I'll die in battle...$B$B<Marjhan shrugs.>
+	`Text_lang`='银色黎明也许是个无力的理想主义者，他们有妄想倾向的领导者知道自己有优势。我是血色十字军派来的密使，也就是外交大使，如果你将……能不能削弱克尔苏加德的军队都还是个问号－统一或独立－我们如果能拦截他们的话就是奇迹发生了。$B$B至于我呢？我将死在战场上……$B$B<马翰耸肩。>'	-- The Argent Dawn might be impotent idealists but their delusional leader knows that they are outmatched. I have been sent here as an emissary of the Scarlet Crusade. An ambassador, if you will... It is doubtful that we could even dent the armies of Kel'Thuzad - united or not - but we might be able to contain them long enough for some sort of miracle to happen.$B$BAs for me? I'll die in battle...$B$B<Marjhan shrugs.>
 WHERE `Id`=11944 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -23197,7 +23197,7 @@ WHERE `Id`=11961 AND `Locale`='zhCN';
 -- WHERE `Id`=11962 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='在饱受争议的死亡事件之后，洛丹伦的骑士与战士为了向他们倒下的英雄表示敬意，纷纷都穿起类似的战袍。而莫格莱尼的死对科尔苏加德是伟大的胜利，最后殉难的结果要一直到战争结束才知分晓。$B$B一王倒下，他强必崛起……'	-- It was not until after his controversial death that the knights and warriors of Lordaeron would wear similarly fashioned suits in honor of their fallen hero. While the death of Mograine was a great victory for Kel'Thuzad, the resulting martyrdom would be felt until the end of the war.$B$BWhere one did fall, many would rise...
+	`Text_lang`='在饱受争议的死亡事件之后，洛丹伦的骑士与战士为了向他们倒下的英雄表示敬意，纷纷都穿起类似的战袍。而莫格莱尼的死对克尔苏加德是伟大的胜利，最后殉难的结果要一直到战争结束才知分晓。$B$B一王倒下，他强必崛起……'	-- It was not until after his controversial death that the knights and warriors of Lordaeron would wear similarly fashioned suits in honor of their fallen hero. While the death of Mograine was a great victory for Kel'Thuzad, the resulting martyrdom would be felt until the end of the war.$B$BWhere one did fall, many would rise...
 WHERE `Id`=11963 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -23341,7 +23341,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=12021 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我跟科尔苏加德一样都曾经是肯瑞托的法师，我们也都在遍寻传说中的守护者之杖，阿泰丝。我们的命运是如此纠缠着，$C。'	-- Like Kel'Thuzad, I too was once a mage of the Kirin Tor. And like Kel'Thuzad, I seek the legendary Atiesh, greatstaff of the Guardian. Our fates are intertwined as such, $c.
+	`Text_lang`='我跟克尔苏加德一样都曾经是肯瑞托的法师，我们也都在遍寻传说中的守护者之杖，阿泰丝。我们的命运是如此纠缠着，$C。'	-- Like Kel'Thuzad, I too was once a mage of the Kirin Tor. And like Kel'Thuzad, I seek the legendary Atiesh, greatstaff of the Guardian. Our fates are intertwined as such, $c.
 WHERE `Id`=12022 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -23365,7 +23365,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=12028 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='在卡拉赞倒下后，肯瑞托派了一群法师到哨塔搜索，并扣押所有进口的物品……就为了「研究」的目的。就是那时候才发现了寓言中的法杖，并将它带回达拉然。'	-- After the fall of Karazhan, the Kirin Tor dispatched an assembly of mages to search the tower and seize all items of import... for the purposes of "research." It was then that the fabled staff was discovered and brought back to Dalaran.
+	`Text_lang`='在卡拉赞倒下后，肯瑞托派了一群法师到哨塔搜索，并扣押所有进口的物品……就为了“研究”的目的。就是那时候才发现了寓言中的法杖，并将它带回达拉然。'	-- After the fall of Karazhan, the Kirin Tor dispatched an assembly of mages to search the tower and seize all items of import... for the purposes of "research." It was then that the fabled staff was discovered and brought back to Dalaran.
 WHERE `Id`=12030 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -23405,7 +23405,7 @@ WHERE `Id`=12038 AND `Locale`='zhCN';
 -- WHERE `Id`=12039 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我横跨世界追踪了各式各样的法杖碎片，还因此发现科尔苏加德改良法杖的计划。他目前收集一些法杖碎片，并且由他最信赖的副官保管着。$B$B努力让守护者的大法杖远离科尔苏加德的控制，这重要性可是非比寻常。坦白说，除了史诗部分的大灾难外，我不知道结果将如何。'	-- I have tracked the various fragments of the staff across this world and in doing so, discovered Kel'Thuzad's plans to reform the staff. He has already collected several of the staff's fragments - which are being held by his most trusted lieutenants.$B$BI cannot emphasize enough the importance of keeping the greatstaff of the Guardian out of Kel'Thuzad's grasp. Frankly, I do not know what the result would be, other than a catastrophe of epic proportion.
+	`Text_lang`='我横跨世界追踪了各式各样的法杖碎片，还因此发现克尔苏加德改良法杖的计划。他目前收集一些法杖碎片，并且由他最信赖的副官保管着。$B$B努力让守护者的大法杖远离克尔苏加德的控制，这重要性可是非比寻常。坦白说，除了史诗部分的大灾难外，我不知道结果将如何。'	-- I have tracked the various fragments of the staff across this world and in doing so, discovered Kel'Thuzad's plans to reform the staff. He has already collected several of the staff's fragments - which are being held by his most trusted lieutenants.$B$BI cannot emphasize enough the importance of keeping the greatstaff of the Guardian out of Kel'Thuzad's grasp. Frankly, I do not know what the result would be, other than a catastrophe of epic proportion.
 WHERE `Id`=12040 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -23497,7 +23497,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=12075 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='那些污秽的野兽充斥此地。$B$B如果你喜欢在户外狩猎的话，你可以在病木林跟恐惧谷寻获他们大部分的踪迹，也请特别留意恶蛛隧道。他们也可能出没在东瘟疫之地的天谴军团扎营处。$B$B假如你热衷于地城，你在斯坦索姆会发现更多他们的踪影，另外，在通灵学院可以找到一些通灵魔。'	-- Those filthy beasts are all over the place.$B$BIf you prefer hunting outdoors, you'll find most of them around Plaguewood and Terrordale, with a good concentration of them in the Terrorweb tunnel. They are also likely to appear at almost any Scourge encampment in the Eastern Plaguelands.$B$BIf you're a hearty dungeon crawler, you'll find a good lot of them in Stratholme and a few of the necrofiend variety in Scholomance.
+	`Text_lang`='那些污秽的野兽充斥此地。$B$B如果你喜欢在户外狩猎的话，你可以在病木林跟恐惧谷寻获他们大部分的踪迹，也请特别留意恶蛛隧道。他们也可能出没在东瘟疫之地的天灾军团扎营处。$B$B假如你热衷于地城，你在斯坦索姆会发现更多他们的踪影，另外，在通灵学院可以找到一些通灵魔。'	-- Those filthy beasts are all over the place.$B$BIf you prefer hunting outdoors, you'll find most of them around Plaguewood and Terrordale, with a good concentration of them in the Terrorweb tunnel. They are also likely to appear at almost any Scourge encampment in the Eastern Plaguelands.$B$BIf you're a hearty dungeon crawler, you'll find a good lot of them in Stratholme and a few of the necrofiend variety in Scholomance.
 WHERE `Id`=12076 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -23593,7 +23593,7 @@ WHERE `Id`=12136 AND `Locale`='zhCN';
 -- WHERE `Id`=12145 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我们的商队大约一天出队2次，万一天谴军团又去阻止迪笛儿，还有要送往前线的那些骡，那到时我就会被指责。这还是我前所未见最疯狂的事情。但愿我们有英勇的冒险精神能保护这运送过程……'	-- Our caravans go out 'bout twice a day, but I'll be damned if the Scourge haven't gone out of their way to stop Didier and his mules from getting shipments to the front lines. Craziest thing I've ever seen. If only we had the heroic adventurin' types to help protect the shipments...
+	`Text_lang`='我们的商队大约一天出队2次，万一天灾军团又去阻止迪笛儿，还有要送往前线的那些骡，那到时我就会被指责。这还是我前所未见最疯狂的事情。但愿我们有英勇的冒险精神能保护这运送过程……'	-- Our caravans go out 'bout twice a day, but I'll be damned if the Scourge haven't gone out of their way to stop Didier and his mules from getting shipments to the front lines. Craziest thing I've ever seen. If only we had the heroic adventurin' types to help protect the shipments...
 WHERE `Id`=12148 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -23625,11 +23625,11 @@ WHERE `Id`=12180 AND `Locale`='zhCN';
 -- WHERE `Id`=12198 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='的确，冬泉谷山丘一带正尝试要抵挡重生的天谴军团攻击。你的帮忙对他们来说很重要。$B$B剩余的亡域：$2284W'	-- Indeed, the hills of Winterspring are currently attempting to withstand a renewed Scourge assault. Your assistance would help them greatly.$B$BNumber of Necropolises remaining: $2284W
+	`Text_lang`='的确，冬泉谷山丘一带正尝试要抵挡重生的天灾军团攻击。你的帮忙对他们来说很重要。$B$B剩余的亡域：$2284W'	-- Indeed, the hills of Winterspring are currently attempting to withstand a renewed Scourge assault. Your assistance would help them greatly.$B$BNumber of Necropolises remaining: $2284W
 WHERE `Id`=12199 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='这地方目前暂时脱离天谴军团的威胁了。我担心他们很快又要回来了。'	-- For the time being, that area is free of Scourge influence. I fear it will only be a matter of time before they return.
+	`Text_lang`='这地方目前暂时脱离天灾军团的威胁了。我担心他们很快又要回来了。'	-- For the time being, that area is free of Scourge influence. I fear it will only be a matter of time before they return.
 WHERE `Id`=12200 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -23653,7 +23653,7 @@ WHERE `Id`=12200 AND `Locale`='zhCN';
 -- WHERE `Id`=12205 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='如果援军不能及时赶到燃烧平原，我怕天谴军团会在那里建立指挥基地。如果你可以，就应该赶快到那边协助防卫部队。$B$B剩余的亡域：$2281W'	-- If additional support is not soon sent to the Burning Steppes, I fear the Scourge will establish a base of operations there. If you can, you should go there to aid the defenders.$B$BNumber of Necropolises remaining: $2281W
+	`Text_lang`='如果援军不能及时赶到燃烧平原，我怕天灾军团会在那里建立指挥基地。如果你可以，就应该赶快到那边协助防卫部队。$B$B剩余的亡域：$2281W'	-- If additional support is not soon sent to the Burning Steppes, I fear the Scourge will establish a base of operations there. If you can, you should go there to aid the defenders.$B$BNumber of Necropolises remaining: $2281W
 WHERE `Id`=12206 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -23661,7 +23661,7 @@ WHERE `Id`=12206 AND `Locale`='zhCN';
 -- WHERE `Id`=12207 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='天谴军团正在攻击地区设置火力点，接收横跨天际的亡域的通讯协助，和其他方面的军援，我们知道，将他们根除的方法就是杀掉所有地面基地的军力。'	-- The Scourge are establishing small staging points in the places under attack, receiving communications and other assistance from the necropolises that fly overhead. From what we can tell, the only way to root them out is by killing the ground forces that surround the points.
+	`Text_lang`='天灾军团正在攻击地区设置火力点，接收横跨天际的亡域的通讯协助，和其他方面的军援，我们知道，将他们根除的方法就是杀掉所有地面基地的军力。'	-- The Scourge are establishing small staging points in the places under attack, receiving communications and other assistance from the necropolises that fly overhead. From what we can tell, the only way to root them out is by killing the ground forces that surround the points.
 WHERE `Id`=12209 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -23809,7 +23809,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=12281 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='<塔希斯呻吟。>$B$B或许还有时间……仔细听好，凡人。$B$B我在时间与空间里搜索。和一个极度邪恶的恶魔主人打过交道……$B$B<塔希斯在手中咳出血来。>$B$B你会……你会相信就连伊露恩也不理我了吗，$R？死在这里，现在这样的情势之下……'	-- <Tarsis groans.>$B$BThere may still be time... Listen closely, mortal.$B$BThrough time and across the Nether I have searched. Deals made with a host of evil and villainy so wretched...$B$B<Tarsis coughs blood into his hands.>$B$BWould you... would you believe that even Elune has turned her back on me, $r? To die here, in this manner now...
+	`Text_lang`='<塔希斯呻吟。>$B$B或许还有时间……仔细听好，凡人。$B$B我在时间与空间里搜索。和一个极度邪恶的恶魔主人打过交道……$B$B<塔希斯在手中咳出血来。>$B$B你会……你会相信就连艾露恩也不理我了吗，$R？死在这里，现在这样的情势之下……'	-- <Tarsis groans.>$B$BThere may still be time... Listen closely, mortal.$B$BThrough time and across the Nether I have searched. Deals made with a host of evil and villainy so wretched...$B$B<Tarsis coughs blood into his hands.>$B$BWould you... would you believe that even Elune has turned her back on me, $r? To die here, in this manner now...
 WHERE `Id`=12282 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -23881,7 +23881,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=12300 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我们对抗天谴军团的第一步进行的很好。我们有了一些成就，希望我们的协助能帮你们获得未来的胜利。'	-- The first steps of our fight against the Scourge go well. We have had some successes, and hopefully my assistance can aid you in bringing future success to the battle.
+	`Text_lang`='我们对抗天灾军团的第一步进行的很好。我们有了一些成就，希望我们的协助能帮你们获得未来的胜利。'	-- The first steps of our fight against the Scourge go well. We have had some successes, and hopefully my assistance can aid you in bringing future success to the battle.
 WHERE `Id`=12301 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -23897,7 +23897,7 @@ WHERE `Id`=12305 AND `Locale`='zhCN';
 -- WHERE `Id`=12306 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='科尔苏加德付出了相当大的努力在尝试重组法杖。这些碎片又再次散落在世界各地，从卡利姆多到南海都有。我曾经一次拥有二十个碎片 - 直到科尔苏加德的爪牙从我手中将它们偷走。这就是为什么我会在这里的原因。'	-- Kel'Thuzad has put forth considerable effort in attempting to reform the staff. The pieces were once scattered across this world, from Kalimdor to the South Seas. I myself held twenty of the pieces at one point in time - until they were stolen from me by Kel'Thuzad's minions. It is why I am here.
+	`Text_lang`='克尔苏加德付出了相当大的努力在尝试重组法杖。这些碎片又再次散落在世界各地，从卡利姆多到南海都有。我曾经一次拥有二十个碎片 - 直到克尔苏加德的爪牙从我手中将它们偷走。这就是为什么我会在这里的原因。'	-- Kel'Thuzad has put forth considerable effort in attempting to reform the staff. The pieces were once scattered across this world, from Kalimdor to the South Seas. I myself held twenty of the pieces at one point in time - until they were stolen from me by Kel'Thuzad's minions. It is why I am here.
 WHERE `Id`=12307 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -23905,7 +23905,7 @@ WHERE `Id`=12307 AND `Locale`='zhCN';
 -- WHERE `Id`=12308 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='你没在听吗？不，我很怀疑如果科尔苏加德组合了法杖我们还能有这段谈话。科尔苏加德握有那个杖头。他的手下拥有四十个阿泰丝之杖的碎片。最后一块 - 杖柄 - 被布莱恩·铜须发现。他最后一次被人看到是在希利苏斯的沙漠；毫无疑问地，离科尔苏加德派遣到这世界的残酷追寻者越远越好。'	-- Haven't you been listening? No, I very much doubt we would be having this conversation had Kel'Thuzad formed the staff. Kel'Thuzad holds the head. His underlings hold forty splinters of Atiesh. The last piece - the base - was uncovered by Brann Bronzebeard. He was last seen in the Silithus desert; undoubtedly doing his best to stay as far away as possible from the relentless seekers Kel'Thuzad has dispatched into the world.
+	`Text_lang`='你没在听吗？不，我很怀疑如果克尔苏加德组合了法杖我们还能有这段谈话。克尔苏加德握有那个杖头。他的手下拥有四十个阿泰丝之杖的碎片。最后一块 - 杖柄 - 被布莱恩·铜须发现。他最后一次被人看到是在希利苏斯的沙漠；毫无疑问地，离克尔苏加德派遣到这世界的残酷追寻者越远越好。'	-- Haven't you been listening? No, I very much doubt we would be having this conversation had Kel'Thuzad formed the staff. Kel'Thuzad holds the head. His underlings hold forty splinters of Atiesh. The last piece - the base - was uncovered by Brann Bronzebeard. He was last seen in the Silithus desert; undoubtedly doing his best to stay as far away as possible from the relentless seekers Kel'Thuzad has dispatched into the world.
 WHERE `Id`=12309 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -23981,7 +23981,7 @@ WHERE `Id`=12365 AND `Locale`='zhCN';
 -- WHERE `Id`=12398 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我们赢了天谴军团$2219W场战役。做好准备，$N，这场战争要结束还差的远了。'	-- We have won $2219W battles against the Scourge.  Gird yourself, $N, for this war is far from over.
+	`Text_lang`='我们赢了天灾军团$2219W场战役。做好准备，$N，这场战争要结束还差的远了。'	-- We have won $2219W battles against the Scourge.  Gird yourself, $N, for this war is far from over.
 WHERE `Id`=12399 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET

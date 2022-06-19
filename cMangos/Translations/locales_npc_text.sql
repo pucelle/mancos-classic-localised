@@ -498,7 +498,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=3856;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='传说在战事极度激烈的地方，在现今被称为瘟疫之地的土地上；地表也许会涌出洁净而神圣的温泉。这些泉水被人们命名为‘英雄之血’──以纪念那些在对抗天谴军团的战争中牺牲的勇士。'	-- Legend claims that in places of extreme conflict, across what is now known as the Plaguelands; clean and holy springs may erupt from the ground. The water from those springs has been named 'Blood of Heroes,' by artisans and commonfolk alike - in honor of those that fell in the war against the Scourge.
+	`text0_0_loc4`='传说在战事极度激烈的地方，在现今被称为瘟疫之地的土地上；地表也许会涌出洁净而神圣的温泉。这些泉水被人们命名为‘英雄之血’──以纪念那些在对抗天灾军团的战争中牺牲的勇士。'	-- Legend claims that in places of extreme conflict, across what is now known as the Plaguelands; clean and holy springs may erupt from the ground. The water from those springs has been named 'Blood of Heroes,' by artisans and commonfolk alike - in honor of those that fell in the war against the Scourge.
 WHERE `entry`=3857;
 
 UPDATE `locales_npc_text` SET
@@ -518,7 +518,7 @@ WHERE `entry`=3938;
 -- WHERE `entry`=4114;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='他们并未意识到自己已经死了，$R。他们受到诅咒，在头脑中保留了这个城镇被毁灭之前的记忆，大部分是这样，还有一部分人更为不幸。$B$B你认为是天谴军团所为？那时天谴军团还不存在呢，就算是它们的话，我们也会与它们展开一场恶战的。$B$B不，这场恐怖而极具破坏性的瘟疫源于通灵学院，它摧毁了整座城镇，无人生还。$B$B让我独自承受这悲伤吧。'	-- They don't realize that they're dead, $r. They are cursed to relive the last memory they had before the town was eaten alive from the inside out. Most of them, anyway. Some were less fortunate.$B$BYou thought the Scourge did this? The Scourge did not yet exist and if they had, we would have at least put up a damned fight.$B$BNo, this was the result of a plague that came out of Scholomance and ravaged the town. It was horrifying and devastating. None survived.$B$BNow leave me to my sorrows.
+	`text0_0_loc4`='他们并未意识到自己已经死了，$R。他们受到诅咒，在头脑中保留了这个城镇被毁灭之前的记忆，大部分是这样，还有一部分人更为不幸。$B$B你认为是天灾军团所为？那时天灾军团还不存在呢，就算是它们的话，我们也会与它们展开一场恶战的。$B$B不，这场恐怖而极具破坏性的瘟疫源于通灵学院，它摧毁了整座城镇，无人生还。$B$B让我独自承受这悲伤吧。'	-- They don't realize that they're dead, $r. They are cursed to relive the last memory they had before the town was eaten alive from the inside out. Most of them, anyway. Some were less fortunate.$B$BYou thought the Scourge did this? The Scourge did not yet exist and if they had, we would have at least put up a damned fight.$B$BNo, this was the result of a plague that came out of Scholomance and ravaged the town. It was horrifying and devastating. None survived.$B$BNow leave me to my sorrows.
 WHERE `entry`=4117;
 
 UPDATE `locales_npc_text` SET
@@ -1367,7 +1367,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=6794;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='看到前面那个坏掉的陷阱吗？巨魔们笨到连找个时间把它修好都不会，我们需要在上面动点小手脚！如果你修好了它，我赌斯里基克一定会踩上去，然后就是「碰！」，被困在陷阱里的巨魔守卫！'	-- Please, please, please tell me you are here to get me out of these shackles.  There's got to be a key somewhere...$B$BAt the very least, maybe you can take out Guard Slip'kik.  I think I might be able to help you out!$B$BSee that broken trap over yonder?  The ogres are too stupid to figure out how to fix it.  Clearly, it needs a thorium widget and some frost oil.  If you fix it, I bet you could lure Slip'kik into it, and BLAMMO - trapped ogre guard!
+	`text0_0_loc4`='看到前面那个坏掉的陷阱吗？巨魔们笨到连找个时间把它修好都不会，我们需要在上面动点小手脚！如果你修好了它，我赌斯里基克一定会踩上去，然后就是“碰！”，被困在陷阱里的巨魔守卫！'	-- Please, please, please tell me you are here to get me out of these shackles.  There's got to be a key somewhere...$B$BAt the very least, maybe you can take out Guard Slip'kik.  I think I might be able to help you out!$B$BSee that broken trap over yonder?  The ogres are too stupid to figure out how to fix it.  Clearly, it needs a thorium widget and some frost oil.  If you fix it, I bet you could lure Slip'kik into it, and BLAMMO - trapped ogre guard!
 WHERE `entry`=6795;
 
 UPDATE `locales_npc_text` SET
@@ -1508,7 +1508,7 @@ WHERE `entry`=6998;
 -- WHERE `entry`=7008;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='葬影村的乌兰可以卖给你「高级烹饪书」。如果你想要提高烹饪技能的话，就需要这本书。',	-- Wulan in Shadowprey Village can sell you the "Expert Cookbook".  You will need that if you are to better yourself.
+	`text0_0_loc4`='葬影村的乌兰可以卖给你“高级烹饪书”。如果你想要提高烹饪技能的话，就需要这本书。',	-- Wulan in Shadowprey Village can sell you the "Expert Cookbook".  You will need that if you are to better yourself.
 	`text0_1_loc4`='Wulan in Shadowprey Village can sell you the "Expert Cookbook".  You will need that if you are to better yourself.'	-- Wulan in Shadowprey Village can sell you the "Expert Cookbook".  You will need that if you are to better yourself.
 WHERE `entry`=7019;
 
@@ -1802,11 +1802,11 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=7785;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='知识就是力量 - 真正的力量，我年轻的朋友。获得越多知识就会让你越有智慧，并且从那些有智慧的人身上学习吧。$B$B在太阳之井被夷平前，我们还自以为我们的文明发展已经攀上了最高峰。是天谴军团迫使我们屈服……并且，看清这个事实。'	-- Knowledge is power - TRUE power, my young friend.  You'll be wise to acquire as much of it as you can, and pay proper heed to those who have already done so.$B$BBefore the razing of the Sunwell, we fooled ourselves into thinking we had neared the apex of our civilization.  It took the Scourge to bring us to our knees... and in a way, back to reality.
+	`text0_0_loc4`='知识就是力量 - 真正的力量，我年轻的朋友。获得越多知识就会让你越有智慧，并且从那些有智慧的人身上学习吧。$B$B在太阳之井被夷平前，我们还自以为我们的文明发展已经攀上了最高峰。是天灾军团迫使我们屈服……并且，看清这个事实。'	-- Knowledge is power - TRUE power, my young friend.  You'll be wise to acquire as much of it as you can, and pay proper heed to those who have already done so.$B$BBefore the razing of the Sunwell, we fooled ourselves into thinking we had neared the apex of our civilization.  It took the Scourge to bring us to our knees... and in a way, back to reality.
 WHERE `entry`=7786;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='你在我研究最关键的时刻打扰了我！别担心，欢迎你加入我一起安静的沉思……重点是「安静」，如果你不介意的话。'	-- You've caught me at a critical time in my research!  No worries, you're welcome to join me in quiet contemplation... emphasis on "quiet", if you don't mind though.
+	`text0_0_loc4`='你在我研究最关键的时刻打扰了我！别担心，欢迎你加入我一起安静的沉思……重点是“安静”，如果你不介意的话。'	-- You've caught me at a critical time in my research!  No worries, you're welcome to join me in quiet contemplation... emphasis on "quiet", if you don't mind though.
 WHERE `entry`=7787;
 
 -- UPDATE `locales_npc_text` SET
@@ -1915,7 +1915,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=8233;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='一团糟，这就是怎么回事！这些生物全都不知道从哪冒出来，然后就开始失去控制！！而博学者和他的学徒跑到哪去了呢？只把我留在这里，连一句「嘿，威利坦要不要一起走？」都没有。$B$B真是大胆！'	-- A mess, that's what this is!  All of these creatures sprung up out of nowhere, and are running around out of control!  And where've the Magister, and his apprentices, run off to?  Leaving me here all alone without as much as a, "Hello there Wyllithen, would you like to come with?"$B$BThe nerve!
+	`text0_0_loc4`='一团糟，这就是怎么回事！这些生物全都不知道从哪冒出来，然后就开始失去控制！！而博学者和他的学徒跑到哪去了呢？只把我留在这里，连一句“嘿，威利坦要不要一起走？”都没有。$B$B真是大胆！'	-- A mess, that's what this is!  All of these creatures sprung up out of nowhere, and are running around out of control!  And where've the Magister, and his apprentices, run off to?  Leaving me here all alone without as much as a, "Hello there Wyllithen, would you like to come with?"$B$BThe nerve!
 WHERE `entry`=8234;
 
 UPDATE `locales_npc_text` SET
@@ -1995,7 +1995,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=8412;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='$C，看看他们对我们可爱的土地做了什么。天谴军团一定要被消灭！'	-- $C, look what they've done to our beloved land. The Scourge must be destroyed!
+	`text0_0_loc4`='$C，看看他们对我们可爱的土地做了什么。天灾军团一定要被消灭！'	-- $C, look what they've done to our beloved land. The Scourge must be destroyed!
 WHERE `entry`=8417;
 
 -- UPDATE `locales_npc_text` SET
@@ -2019,7 +2019,7 @@ WHERE `entry`=8423;
 -- WHERE `entry`=8424;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='有时候我觉得我好像永远也无法回归到简单正常的生活来效忠阿莉法娜奥丝夫人。我永远也离不开战争。$B$B幸好总是有像你这样的人热切于见到奎尔萨拉斯回到它原来的样貌。摧毁天谴军团，$C！不管你在何方都要摧毁他们！'	-- Sometimes it feels like I'll never go back to being a simple functionary in service to Dame Auriferous. I'm not cut out for war.$B$BThankfully there are those like you who burn to see Quel'Thalas restored to its former beauty. Crush the Scourge, $c! Crush them wherever you can!
+	`text0_0_loc4`='有时候我觉得我好像永远也无法回归到简单正常的生活来效忠阿莉法娜奥丝夫人。我永远也离不开战争。$B$B幸好总是有像你这样的人热切于见到奎尔萨拉斯回到它原来的样貌。摧毁天灾军团，$C！不管你在何方都要摧毁他们！'	-- Sometimes it feels like I'll never go back to being a simple functionary in service to Dame Auriferous. I'm not cut out for war.$B$BThankfully there are those like you who burn to see Quel'Thalas restored to its former beauty. Crush the Scourge, $c! Crush them wherever you can!
 WHERE `entry`=8425;
 
 -- UPDATE `locales_npc_text` SET
@@ -2071,7 +2071,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=8447;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='<当你将恢复药剂倒入他嘴里后血精灵很快恢复意识。>$B$B我欠你一命，$C。没有你的帮忙，我就得屈服于天谴军团的痛苦折磨了。'	-- <The blood elf quickly regains consciousness as you pour the draught into his mouth.>$B$BI owe you my life, $c.  Without your help I would've succumbed to the Scourge's painful torture.
+	`text0_0_loc4`='<当你将恢复药剂倒入他嘴里后血精灵很快恢复意识。>$B$B我欠你一命，$C。没有你的帮忙，我就得屈服于天灾军团的痛苦折磨了。'	-- <The blood elf quickly regains consciousness as you pour the draught into his mouth.>$B$BI owe you my life, $c.  Without your help I would've succumbed to the Scourge's painful torture.
 WHERE `entry`=8456;
 
 UPDATE `locales_npc_text` SET
@@ -2091,7 +2091,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=8461;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='你好，$R。我是听从高阶执行官的建议来到这里。我有信心只要我们团结一致就能打造一个前所未有的强大部落并消灭所有的天谴军团威胁。'	-- Well met, $r. I am here as a resource of advice for the High Executor to make use of as he will. I am confident that together we can forge the Horde into something that is even stronger than before and turn back the Scourge menace once and for all!
+	`text0_0_loc4`='你好，$R。我是听从高阶执行官的建议来到这里。我有信心只要我们团结一致就能打造一个前所未有的强大部落并消灭所有的天灾军团威胁。'	-- Well met, $r. I am here as a resource of advice for the High Executor to make use of as he will. I am confident that together we can forge the Horde into something that is even stronger than before and turn back the Scourge menace once and for all!
 WHERE `entry`=8462;
 
 UPDATE `locales_npc_text` SET
@@ -2131,7 +2131,7 @@ WHERE `entry`=8475;
 -- WHERE `entry`=8476;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='在我们战胜像天谴军团和阿曼尼这些外患之前，一定要先克服内忧。鄙恶者已经惹人厌够久了，是时候消灭他们了。'	-- Before we can overcome external obstacles like the Scourge and the Amani trolls, we must overcome obstacles from within.  The Wretched have been a nuisance for long enough; it is time we vanquished them.
+	`text0_0_loc4`='在我们战胜像天灾军团和阿曼尼这些外患之前，一定要先克服内忧。鄙恶者已经惹人厌够久了，是时候消灭他们了。'	-- Before we can overcome external obstacles like the Scourge and the Amani trolls, we must overcome obstacles from within.  The Wretched have been a nuisance for long enough; it is time we vanquished them.
 WHERE `entry`=8477;
 
 -- UPDATE `locales_npc_text` SET
@@ -2171,7 +2171,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=8493;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='你对我们对抗影松巨魔的帮助可说是无法比拟，$C。继续保持我们或许就能将注意力转回来对付天谴军团。'	-- Your help with the Shadowpine trolls is proving invaluable, $c. Keep this up and maybe we'll be able to turn our attention back to dealing with the Scourge.
+	`text0_0_loc4`='你对我们对抗影松巨魔的帮助可说是无法比拟，$C。继续保持我们或许就能将注意力转回来对付天灾军团。'	-- Your help with the Shadowpine trolls is proving invaluable, $c. Keep this up and maybe we'll be able to turn our attention back to dealing with the Scourge.
 WHERE `entry`=8495;
 
 UPDATE `locales_npc_text` SET
@@ -2179,11 +2179,11 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=8496;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='情况比许多人所想的还要严重。被遗忘者是我们在这里的盟友，帮助我们对抗共同的敌人，天谴军团。$B$B当我这样说的时候请相信我，没有他们的话就不会有鬼魂之地，而且天谴军团也会早已进入永歌森林！$B$B但更重要的是，我们需要你的帮助来重拾我们曾经骄傲的土地！'	-- The situation is more grim than many have been led to believe. The Forsaken are here as allies in the fight against our common enemy, the Scourge.$B$BTrust me when I say this, without them the Ghostlands would be lost and the Scourge would already have overrun all of Eversong Woods!$B$BBut more than anything else, we need your help in reclaiming our once proud lands!
+	`text0_0_loc4`='情况比许多人所想的还要严重。被遗忘者是我们在这里的盟友，帮助我们对抗共同的敌人，天灾军团。$B$B当我这样说的时候请相信我，没有他们的话就不会有鬼魂之地，而且天灾军团也会早已进入永歌森林！$B$B但更重要的是，我们需要你的帮助来重拾我们曾经骄傲的土地！'	-- The situation is more grim than many have been led to believe. The Forsaken are here as allies in the fight against our common enemy, the Scourge.$B$BTrust me when I say this, without them the Ghostlands would be lost and the Scourge would already have overrun all of Eversong Woods!$B$BBut more than anything else, we need your help in reclaiming our once proud lands!
 WHERE `entry`=8501;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='这些符文石保护永歌森林的大地不受天谴军团污染。西边的符文石很久前就失去作用了，逼迫我们燃烧它周围的土壤。$B$B只要我还活着我就绝不允许剩下的符文石再次失效。我发誓。'	-- These Runestones protect the lands in Eversong from becoming tainted by the Scourge.  The Western Runestone failed long ago, forcing us to burn the ground around it.$B$BAs long as I live I won't allow the remaining Runestones to fail us.  That is my oath.
+	`text0_0_loc4`='这些符文石保护永歌森林的大地不受天灾军团污染。西边的符文石很久前就失去作用了，逼迫我们燃烧它周围的土壤。$B$B只要我还活着我就绝不允许剩下的符文石再次失效。我发誓。'	-- These Runestones protect the lands in Eversong from becoming tainted by the Scourge.  The Western Runestone failed long ago, forcing us to burn the ground around it.$B$BAs long as I live I won't allow the remaining Runestones to fail us.  That is my oath.
 WHERE `entry`=8504;
 
 -- UPDATE `locales_npc_text` SET
@@ -2862,7 +2862,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=9045;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='是的，我是「破碎者」的一员。我相信这不会让你困扰吧？破碎者或德莱尼，我们一定要容忍社会对我们的奚落和嘲笑。和这世界的元素有更好的了解和沟通才是最重要的事。'	-- Yes, I am one of the 'Broken'.  I trust that this does not bother you?  Broken or draenei, we must endure the ridicule that some in our society may throw at us.  A better understanding and communication with the elements of this world is all that matters.
+	`text0_0_loc4`='是的，我是“破碎者”的一员。我相信这不会让你困扰吧？破碎者或德莱尼，我们一定要容忍社会对我们的奚落和嘲笑。和这世界的元素有更好的了解和沟通才是最重要的事。'	-- Yes, I am one of the 'Broken'.  I trust that this does not bother you?  Broken or draenei, we must endure the ridicule that some in our society may throw at us.  A better understanding and communication with the elements of this world is all that matters.
 WHERE `entry`=9050;
 
 UPDATE `locales_npc_text` SET
@@ -2982,7 +2982,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=9121;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='身为唯一显而易见的幸存「破碎者」，传承先知诺柏多的萨满教学是我的责任也是荣耀。'	-- As the only apparent surviving 'Broken', it is both my duty and honor to carry on the shamanistic teachings of Farseer Nobundo.
+	`text0_0_loc4`='身为唯一显而易见的幸存“破碎者”，传承先知诺柏多的萨满教学是我的责任也是荣耀。'	-- As the only apparent surviving 'Broken', it is both my duty and honor to carry on the shamanistic teachings of Farseer Nobundo.
 WHERE `entry`=9122;
 
 -- UPDATE `locales_npc_text` SET
@@ -3603,7 +3603,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=9641;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='都是肌肉没有大脑，那样等于是劳工！当你能激励他们的时候，他们是伟大的，但他们必须被「踢」动，你知道我的意思吧。'	-- All muscle and no brain, that's what peons are! They're great when you can motivate them, but they have to be 'kick' started, if you know what I mean.
+	`text0_0_loc4`='都是肌肉没有大脑，那样等于是劳工！当你能激励他们的时候，他们是伟大的，但他们必须被“踢”动，你知道我的意思吧。'	-- All muscle and no brain, that's what peons are! They're great when you can motivate them, but they have to be 'kick' started, if you know what I mean.
 WHERE `entry`=9642;
 
 -- UPDATE `locales_npc_text` SET
@@ -3788,7 +3788,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=9770;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='如果你被军团抓到，告诉他们「（恶魔语）沙尔·伊欧·罗马斯·达·泰斯比。」他们将因为你侮辱他们的神而立刻杀死你，让你免于遭受惨忍的拷问或更惨的事……'	-- If you're ever captured by the Legion, tell them "Xar il romath da tidesbi." They will kill you instantly for insulting their god, saving you intolerable torture or worse...
+	`text0_0_loc4`='如果你被军团抓到，告诉他们“（恶魔语）沙尔·伊欧·罗马斯·达·泰斯比。”他们将因为你侮辱他们的神而立刻杀死你，让你免于遭受惨忍的拷问或更惨的事……'	-- If you're ever captured by the Legion, tell them "Xar il romath da tidesbi." They will kill you instantly for insulting their god, saving you intolerable torture or worse...
 WHERE `entry`=9771;
 
 -- UPDATE `locales_npc_text` SET
@@ -3836,7 +3836,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=9836;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='看啊，勇者在它的跟前颤抖，害怕它会对其出声。$B$B但是这些骗子，这些崇拜不存在之伪教的假信徒，依旧罔顾现实，企图要控制他们的「神」。然而，莫尔墨只是毫不在乎地 - 或可能甚至根本没注意到他们 - 打了个呵欠，他们就这样灰飞湮灭了。$B$B但不知怎么的，有个人幸存了下来，而且他的疯狂同时也找到了使莫尔墨进入这世界的途径。'	-- And lo, how the mighty fell trembling at its feet, fearful that it might direct its words upon them.$B$BBut still did these charlatans, these worshipping pretenders to a non-existent religion, rail against the inevitable in a vain attempt to control their 'god.'  Uncaring, and likely not even noticing them, Murmur yawned and they knew oblivion.$B$BYet one somehow managed to survive, and in his insanity found a way to bring Murmur into the world.
+	`text0_0_loc4`='看啊，勇者在它的跟前颤抖，害怕它会对其出声。$B$B但是这些骗子，这些崇拜不存在之伪教的假信徒，依旧罔顾现实，企图要控制他们的“神”。然而，莫尔墨只是毫不在乎地 - 或可能甚至根本没注意到他们 - 打了个呵欠，他们就这样灰飞湮灭了。$B$B但不知怎么的，有个人幸存了下来，而且他的疯狂同时也找到了使莫尔墨进入这世界的途径。'	-- And lo, how the mighty fell trembling at its feet, fearful that it might direct its words upon them.$B$BBut still did these charlatans, these worshipping pretenders to a non-existent religion, rail against the inevitable in a vain attempt to control their 'god.'  Uncaring, and likely not even noticing them, Murmur yawned and they knew oblivion.$B$BYet one somehow managed to survive, and in his insanity found a way to bring Murmur into the world.
 WHERE `entry`=9837;
 
 UPDATE `locales_npc_text` SET
@@ -4161,7 +4161,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=10027;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='如果你曾到过赞格沼泽，你可能遇到一个名叫丹尼尔的人。你知道的──戴一顶奇怪的盔帽，只会回答「专家」的人。$B$B当然，他知道的一切都是我教的。$B$B不要让这身华丽的衣服欺骗了你。我内心里仍然是一名盗贼。丹尼尔和我一同在战壕中度过许多时光，但是在我退休之前。据我所知，他仍然在外头，教训敌人。'	-- If you've been to Zangarmarsh, you might've run into a fellow named Daniels. You know -- wears a strange helmet, only answers to "the Specialist."$B$BOf course, I taught him everything he knows.$B$BDon't let the fine clothing fool you. I'm still a rogue at heart. Daniels and I spent a lot of time in the trenches together, but that was before I retired. As far as I know, he's still out there, giving 'em hell.
+	`text0_0_loc4`='如果你曾到过赞格沼泽，你可能遇到一个名叫丹尼尔的人。你知道的──戴一顶奇怪的盔帽，只会回答“专家”的人。$B$B当然，他知道的一切都是我教的。$B$B不要让这身华丽的衣服欺骗了你。我内心里仍然是一名盗贼。丹尼尔和我一同在战壕中度过许多时光，但是在我退休之前。据我所知，他仍然在外头，教训敌人。'	-- If you've been to Zangarmarsh, you might've run into a fellow named Daniels. You know -- wears a strange helmet, only answers to "the Specialist."$B$BOf course, I taught him everything he knows.$B$BDon't let the fine clothing fool you. I'm still a rogue at heart. Daniels and I spent a lot of time in the trenches together, but that was before I retired. As far as I know, he's still out there, giving 'em hell.
 WHERE `entry`=10031;
 
 UPDATE `locales_npc_text` SET
@@ -4364,7 +4364,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=10232;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='欢迎来到秘境领地，旅游者。我要警告你谨慎处理那个地精，休利。我相信我之前从没听过任何人使用这个字「哥们」作为标点符号。'	-- Welcome to Eco-Dome Midrealm, traveler. I would warn you to be wary of dealing with that goblin, Shauly. I don't believe I've ever heard anyone use the word "buddy" as punctuation before.
+	`text0_0_loc4`='欢迎来到秘境领地，旅游者。我要警告你谨慎处理那个地精，休利。我相信我之前从没听过任何人使用这个字“哥们”作为标点符号。'	-- Welcome to Eco-Dome Midrealm, traveler. I would warn you to be wary of dealing with that goblin, Shauly. I don't believe I've ever heard anyone use the word "buddy" as punctuation before.
 WHERE `entry`=10233;
 
 -- UPDATE `locales_npc_text` SET
@@ -4739,7 +4739,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=10500;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='「你要控制我还太早了，因为你最近已经离开比赛了 」。'	-- "It is too soon for you to control me, for you have recently left the game."
+	`text0_0_loc4`='“你要控制我还太早了，因为你最近已经离开比赛了 ”。'	-- "It is too soon for you to control me, for you have recently left the game."
 WHERE `entry`=10505;
 
 UPDATE `locales_npc_text` SET
@@ -4881,7 +4881,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=10566;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='有一句谚语说，「与其给他鱼吃，还不如教他钓鱼」。当然，你可能想要煮那条鱼，而那是我进来的地方。'	-- There's an old saying, "Give a man a fish; you have fed him for a day.  Teach a man to fish; and you have fed him for a lifetime."  Of course, you might want to cook that fish and that is where I come in.
+	`text0_0_loc4`='有一句谚语说，“与其给他鱼吃，还不如教他钓鱼”。当然，你可能想要煮那条鱼，而那是我进来的地方。'	-- There's an old saying, "Give a man a fish; you have fed him for a day.  Teach a man to fish; and you have fed him for a lifetime."  Of course, you might want to cook that fish and that is where I come in.
 WHERE `entry`=10568;
 
 -- UPDATE `locales_npc_text` SET
@@ -4924,7 +4924,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=10595;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='<苍老的斗士用别脚的普通语说着。>什么？你对我有意见？把它带到竞技场。我不会浪费时间在你的小「部落」和「联盟」上。'	-- <The grizzled gladiator speaks in halting Common.> What? You have a problem with me? Take it to the arena. I don't waste my time with your little "hordes" and "alliances."
+	`text0_0_loc4`='<苍老的斗士用别脚的普通语说着。>什么？你对我有意见？把它带到竞技场。我不会浪费时间在你的小“部落”和“联盟”上。'	-- <The grizzled gladiator speaks in halting Common.> What? You have a problem with me? Take it to the arena. I don't waste my time with your little "hordes" and "alliances."
 WHERE `entry`=10597;
 
 UPDATE `locales_npc_text` SET
@@ -4932,7 +4932,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=10598;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='<老练的斗士用别脚的兽人语说着。>什么？你对我有意见？把它带到竞技场。我不会浪费时间在你的小「部落」和「联盟」上。'	-- <The veteran gladiator speaks in halting Orcish.> What? You have a problem with me? Take it to the arena. I don't waste my time with your little "hordes" and "alliances."
+	`text0_0_loc4`='<老练的斗士用别脚的兽人语说着。>什么？你对我有意见？把它带到竞技场。我不会浪费时间在你的小“部落”和“联盟”上。'	-- <The veteran gladiator speaks in halting Orcish.> What? You have a problem with me? Take it to the arena. I don't waste my time with your little "hordes" and "alliances."
 WHERE `entry`=10599;
 
 UPDATE `locales_npc_text` SET
@@ -5452,7 +5452,7 @@ WHERE `entry`=10792;
 -- WHERE `entry`=10793;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='忠实的信徒们一直活在羞耻中，自从我们位于司凯堤斯那些背叛的族人从我们身边偷走圣典，打碎它的石板，并在他们那个卑鄙的城市将碎片烧毁！$B$B祈祷乌鸦将选中你来取回圣典，我的儿子。要有信心并永远记取预言，「乌鸦重回这个世界将始于敌人之梦。」'	-- The true believers have lived in shame since the day our treacherous cousins in Skettis stole the book from us, shattered its tablet, and buried the fragments in their wretched city!$B$BPray that the raven will choose you to restore it, my son. Be faithful and remember always the prophecy, "From the dreams of his enemies shall the raven spring forth into the world."
+	`text0_0_loc4`='忠实的信徒们一直活在羞耻中，自从我们位于司凯堤斯那些背叛的族人从我们身边偷走圣典，打碎它的石板，并在他们那个卑鄙的城市将碎片烧毁！$B$B祈祷乌鸦将选中你来取回圣典，我的儿子。要有信心并永远记取预言，“乌鸦重回这个世界将始于敌人之梦。”'	-- The true believers have lived in shame since the day our treacherous cousins in Skettis stole the book from us, shattered its tablet, and buried the fragments in their wretched city!$B$BPray that the raven will choose you to restore it, my son. Be faithful and remember always the prophecy, "From the dreams of his enemies shall the raven spring forth into the world."
 WHERE `entry`=10796;
 
 -- UPDATE `locales_npc_text` SET
@@ -5616,11 +5616,11 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=10910;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='<当你将你的顶尖裂片放进恶魔水晶熔炉并推动控制杆时，这个装置发出一股没听过的声响，像是在将这些裂片捻为粉尘。几分钟后你的药水就从它的「开口」中掉出来了。>'	-- <As you place your apexis shards into the fel crystalforge and pull the lever, the device makes an unworldly sound as it grinds them into dust.  A few moments later your flask pops out of its 'mouth'.>
+	`text0_0_loc4`='<当你将你的顶尖裂片放进恶魔水晶熔炉并推动控制杆时，这个装置发出一股没听过的声响，像是在将这些裂片捻为粉尘。几分钟后你的药水就从它的“开口”中掉出来了。>'	-- <As you place your apexis shards into the fel crystalforge and pull the lever, the device makes an unworldly sound as it grinds them into dust.  A few moments later your flask pops out of its 'mouth'.>
 WHERE `entry`=10911;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='<当你将你的顶尖裂片放进恶魔水晶熔炉并推动控制杆时，这个装置发出一股没听过的声响，像是在将这些裂片捻为粉尘。几分钟后你的药水就从它的「开口」中掉出来了。>'	-- <As you place your apexis shards into the fel crystalforge and pull the lever, the device makes an unworldly sound as it grinds them into dust.  A few moments later your flasks pop out of its 'mouth'.>
+	`text0_0_loc4`='<当你将你的顶尖裂片放进恶魔水晶熔炉并推动控制杆时，这个装置发出一股没听过的声响，像是在将这些裂片捻为粉尘。几分钟后你的药水就从它的“开口”中掉出来了。>'	-- <As you place your apexis shards into the fel crystalforge and pull the lever, the device makes an unworldly sound as it grinds them into dust.  A few moments later your flasks pop out of its 'mouth'.>
 WHERE `entry`=10912;
 
 UPDATE `locales_npc_text` SET
@@ -6523,7 +6523,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=11964;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='我们在万鬼节期间庆祝这个由女妖之王将我们从巫妖王及天谴军团手中解放出来的日子。一定要参加每晚在幽暗城外举行的稻草人节。',	-- During Hallow's End we celebrate the day that the Banshee Queen herself delivered us from the clutches of the Lich King and the Scourge. Be sure to attend the Wickerman Festival that is held each evening outside Undercity.
+	`text0_0_loc4`='我们在万鬼节期间庆祝这个由女妖之王将我们从巫妖王及天灾军团手中解放出来的日子。一定要参加每晚在幽暗城外举行的稻草人节。',	-- During Hallow's End we celebrate the day that the Banshee Queen herself delivered us from the clutches of the Lich King and the Scourge. Be sure to attend the Wickerman Festival that is held each evening outside Undercity.
 	`text0_1_loc4`='During Hallow''s End we celebrate the day that the Banshee Queen herself delivered us from the clutches of the Lich King and the Scourge. Be sure to attend the Wickerman Festival that is held each evening outside Undercity.'	-- During Hallow's End we celebrate the day that the Banshee Queen herself delivered us from the clutches of the Lich King and the Scourge. Be sure to attend the Wickerman Festival that is held each evening outside Undercity.
 WHERE `entry`=11966;
 
@@ -6589,7 +6589,7 @@ WHERE `entry`=12088;
 -- WHERE `entry`=12090;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='「如果你得到了够多的啤酒节奖品券，位于啤酒营地后面的贝尔碧·迅移可以给你一个『名誉酒友』的手盖戳。$B$B那个戳印将可让我卖给你一匹啤酒节骑乘用山羊。不过提醒你，它们可不便宜啊！」',	-- If you earn enough Brewfest prize tickets, the ticket redeemer in the Brewfest camp can give you an "Honorary Brewer" hand stamp.$b$bThat stamp will allow me to sell you a Brewfest riding ram. But they don't come cheap, mind you!
+	`text0_0_loc4`='“如果你得到了够多的啤酒节奖品券，位于啤酒营地后面的贝尔碧·迅移可以给你一个『名誉酒友』的手盖戳。$B$B那个戳印将可让我卖给你一匹啤酒节骑乘用山羊。不过提醒你，它们可不便宜啊！”',	-- If you earn enough Brewfest prize tickets, the ticket redeemer in the Brewfest camp can give you an "Honorary Brewer" hand stamp.$b$bThat stamp will allow me to sell you a Brewfest riding ram. But they don't come cheap, mind you!
 	`text0_1_loc4`='If you earn enough Brewfest prize tickets, the ticket redeemer in the Brewfest camp can give you an "Honorary Brewer" hand stamp.$b$bThat stamp will allow me to sell you a Brewfest riding ram. But they don''t come cheap, mind you!'	-- If you earn enough Brewfest prize tickets, the ticket redeemer in the Brewfest camp can give you an "Honorary Brewer" hand stamp.$b$bThat stamp will allow me to sell you a Brewfest riding ram. But they don't come cheap, mind you!
 WHERE `entry`=12092;
 
@@ -9765,7 +9765,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=15290;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='你在我研究最关键的时刻打扰了我！别担心，欢迎你加入我一起安静的沉思……重点是「安静」，如果你不介意的话。',	-- You've caught me at a critical time in my research! No worries, you're welcome to join me in quiet contemplation... emphasis on "quiet", if you don't mind though.
+	`text0_0_loc4`='你在我研究最关键的时刻打扰了我！别担心，欢迎你加入我一起安静的沉思……重点是“安静”，如果你不介意的话。',	-- You've caught me at a critical time in my research! No worries, you're welcome to join me in quiet contemplation... emphasis on "quiet", if you don't mind though.
 	`text0_1_loc4`='You''ve caught me at a critical time in my research! No worries, you''re welcome to join me in quiet contemplation... emphasis on "quiet", if you don''t mind though.'	-- You've caught me at a critical time in my research! No worries, you're welcome to join me in quiet contemplation... emphasis on "quiet", if you don't mind though.
 WHERE `entry`=15296;
 
