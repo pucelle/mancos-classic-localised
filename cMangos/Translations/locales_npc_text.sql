@@ -135,9 +135,9 @@ UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='你好，$N。'	-- Greetings $N.
 WHERE `entry`=1228;
 
-UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='Don''t let the humans in the Bazaar fool ye $g lad : lass;, with the subway those gnomes built it''s easier than ye might think to transport goods from Ironforge. If they try to tack on import fees just tell them yer gonna buy yer gear from me.',	-- Don't let the humans in the Bazaar fool ye $g lad : lass;, with the subway those gnomes built it's easier than ye might think to transport goods from Ironforge. If they try to tack on import fees just tell them yer gonna buy yer gear from me.
-WHERE `entry`=1244;
+-- UPDATE `locales_npc_text` SET
+-- 	`text0_0_loc4`='Don''t let the humans in the Bazaar fool ye $g lad : lass;, with the subway those gnomes built it''s easier than ye might think to transport goods from Ironforge. If they try to tack on import fees just tell them yer gonna buy yer gear from me.'	-- Don't let the humans in the Bazaar fool ye $g lad : lass;, with the subway those gnomes built it's easier than ye might think to transport goods from Ironforge. If they try to tack on import fees just tell them yer gonna buy yer gear from me.
+-- WHERE `entry`=1244;
 
 -- UPDATE `locales_npc_text` SET
 -- 	`text0_0_loc4`='If you insert tab A into slot B then of course it''s going to go BOOM! Here, let me show you what I have and then you can ask Lilliam about how to put it together so it doesn''t blow up.'	-- If you insert tab A into slot B then of course it's going to go BOOM! Here, let me show you what I have and then you can ask Lilliam about how to put it together so it doesn't blow up.
