@@ -30,7 +30,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=384;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='蛮锤矮人可能拥有快速的战马，但那些鹰巢峰的狮鹫能经受住大熔炉的高温吗？我想不能！'	-- Wildhammer dwarves might have fast steeds, but can those Aerie Peak gryphons stand the heat of The Great Forge?  I think not!
+	`text0_0_loc4`='蛮锤矮人战马的速度可能很快，但那些鹰巢峰的狮鹫能经受住大熔炉的高温吗？我想不能！'	-- Wildhammer dwarves might have fast steeds, but can those Aerie Peak gryphons stand the heat of The Great Forge?  I think not!
 WHERE `entry`=401;
 
 -- UPDATE `locales_npc_text` SET
@@ -92,7 +92,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=1122;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='破碎之手的影响遍布这一地区。我们已经统治了整个卡利姆多──法律，政治，军事，一切的一切。我们无所不知，我们目及一切。$B$B你现在已经成长到能够为我们效力的时候了，$N。是时候让你投入战斗了。$B$B你做好接受下一个任务的准备了吗？'	-- The Shattered Hand's influence dominates these lands. We are the veil which covers Kalimdor: The protectorates, the police, the judges, the jury, and ultimately, the executioners. We see all, we know all.$B$BYou have grown much in the time which you have spent in service of the Hand, $N. The time has come to send you into the field.$B$BAre you prepared to undertake your next mission?$B
+	`text0_0_loc4`='碎手氏族的影响遍布这一地区。我们已经统治了整个卡利姆多──法律，政治，军事，一切的一切。我们无所不知，我们目及一切。$B$B你现在已经成长到能够为我们效力的时候了，$N。是时候让你投入战斗了。$B$B你做好接受下一个任务的准备了吗？'	-- The Shattered Hand's influence dominates these lands. We are the veil which covers Kalimdor: The protectorates, the police, the judges, the jury, and ultimately, the executioners. We see all, we know all.$B$BYou have grown much in the time which you have spent in service of the Hand, $N. The time has come to send you into the field.$B$BAre you prepared to undertake your next mission?$B
 WHERE `entry`=1124;
 
 UPDATE `locales_npc_text` SET
@@ -124,7 +124,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=1158;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='接下来就是你看到的情况了：毒药发挥了预期的作用，喝下毒药的人都变成了被人控制的行尸走人，然而，这种毒药非常不稳定。$B$B加里维克斯，还有这座塔里里外外的人都已经感染了这种毒药。我们的意志和身体都在不断被侵袭。我们的器官变得越来越脆弱。$N，我已经无力去拯救这里的人了，而且我感觉自己马上要变成他们的一份子了。'	-- Fast forward to the present: The resultant formula works, allowing for the creation of a more controlled drone, however, the drawback is that the inactive compound is extremely volatile.$B$BGallywix, everyone in this tower and everyone outside are infected with the poison. It's affecting our minds and our bodies. Our internal organs have become soft and extremely fragile. This is your chance, $N. I don't have the strength to carry on and I sense that soon I will become one of 'them.'
+	`text0_0_loc4`='接下来就是你看到的情况了：毒药发挥了预期的作用，喝下毒药的人都变成了被人控制的行尸走肉，然而，这种毒药非常不稳定。$B$B加里维克斯，还有这座塔里里外外的人都已经感染了这种毒药。我们的意志和身体都在不断被侵袭。我们的器官变得越来越脆弱。$N，我已经无力去拯救这里的人了，而且我感觉自己马上要变成他们的一份子了。'	-- Fast forward to the present: The resultant formula works, allowing for the creation of a more controlled drone, however, the drawback is that the inactive compound is extremely volatile.$B$BGallywix, everyone in this tower and everyone outside are infected with the poison. It's affecting our minds and our bodies. Our internal organs have become soft and extremely fragile. This is your chance, $N. I don't have the strength to carry on and I sense that soon I will become one of 'them.'
 WHERE `entry`=1159;
 
 UPDATE `locales_npc_text` SET
@@ -137,7 +137,6 @@ WHERE `entry`=1228;
 
 UPDATE `locales_npc_text` SET
 	`text0_0_loc4`='Don''t let the humans in the Bazaar fool ye $g lad : lass;, with the subway those gnomes built it''s easier than ye might think to transport goods from Ironforge. If they try to tack on import fees just tell them yer gonna buy yer gear from me.',	-- Don't let the humans in the Bazaar fool ye $g lad : lass;, with the subway those gnomes built it's easier than ye might think to transport goods from Ironforge. If they try to tack on import fees just tell them yer gonna buy yer gear from me.
-	`text0_1_loc4`='好吧，如果他不是一个年轻的、充满活力的$C，那无疑是因为大家谈论我在战场上的卓越功绩而吸引到这里的！$B$B 现在没时间讲故事了，因为有伟大的、重要的事要做！因此，如果您正在寻找荣耀，那么今天的运气不错……'	-- Don't let the humans in the Bazaar fool ye $g lad : lass;, with the subway those gnomes built it's easier than ye might think to transport goods from Ironforge. If they try to tack on import fees just tell them yer gonna buy yer gear from me.
 WHERE `entry`=1244;
 
 -- UPDATE `locales_npc_text` SET
@@ -290,7 +289,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=2809;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='约莫德•石眉对缝纫有独到之处，真的。如果你想接受训练的话，就去大锻炉北边的石眉布衣店找他吧。'	-- I can get back to the Stronghold on my own -- I just need a hand getting the blazes out of this hive!$B$BWho... who are you?
+	`text0_0_loc4`='约莫德·石眉对缝纫有独到之处，真的。如果你想接受训练的话，就去大锻炉北边的石眉布衣店找他吧。'	-- I can get back to the Stronghold on my own -- I just need a hand getting the blazes out of this hive!$B$BWho... who are you?
 WHERE `entry`=2818;
 
 -- UPDATE `locales_npc_text` SET
@@ -3382,7 +3381,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=9488;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='从纳葛兰旅行直到来到这个森林，我很害怕我们的原始文化会消逝，但我很高兴我错了。$B$B这里还是一如既往！'	-- Until I traveled through Nagrand and came to the forest, I feared that too much of our original culture was lost. I'm thankful to see that I was wrong.$B$BThere is so much to be done here!
+	`text0_0_loc4`='从纳格兰旅行直到来到这个森林，我很害怕我们的原始文化会消逝，但我很高兴我错了。$B$B这里还是一如既往！'	-- Until I traveled through Nagrand and came to the forest, I feared that too much of our original culture was lost. I'm thankful to see that I was wrong.$B$BThere is so much to be done here!
 WHERE `entry`=9489;
 
 -- UPDATE `locales_npc_text` SET
@@ -3734,7 +3733,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=9718;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='纳葛兰的原始平原是我所经历过提供最多和最好的狩猎区。'	-- The untamed plains of Nagrand offer some of the best hunting I've ever experienced. 
+	`text0_0_loc4`='纳格兰的原始平原是我所经历过提供最多和最好的狩猎区。'	-- The untamed plains of Nagrand offer some of the best hunting I've ever experienced. 
 WHERE `entry`=9729;
 
 UPDATE `locales_npc_text` SET
@@ -3746,11 +3745,11 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=9734;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='好，看看你。你不是高大和强壮的……或许你认为你强壮到足以走进血色竞技场，并且面对战槌勇士吗？$B$B<竞技场斗士笑了。>$B$B不是很可能，不过如果你想要试试你力量，血色竞技场的位置是远北方，面对着分隔纳葛兰和赞格沼泽的山脉。葛尔萨克在旧狞笑骷髅废墟经营表演，而他负责发放奖品。谈到奖品，我听到这季的奖品令人难以置信！'	-- Well look at you. Aren't you big and tough... Maybe you think you're tough enough to step into the Ring of Blood and face the Warmaul champion?$B$B<The pitfighter laughs.>$B$BNot very likely but if you ever wanna test your strength, the Ring of Blood is far to the north against the mountains dividing Nagrand and Zangarmarsh. Gurgthock runs the show at the old Laughing Skull Ruins and he also dispenses the prizes. Speaking of prizes, I hear the prizes this season are incredible!
+	`text0_0_loc4`='好，看看你。你不是高大和强壮的……或许你认为你强壮到足以走进血色竞技场，并且面对战槌勇士吗？$B$B<竞技场斗士笑了。>$B$B不是很可能，不过如果你想要试试你力量，血色竞技场的位置是远北方，面对着分隔纳格兰和赞格沼泽的山脉。葛尔萨克在旧狞笑骷髅废墟经营表演，而他负责发放奖品。谈到奖品，我听到这季的奖品令人难以置信！'	-- Well look at you. Aren't you big and tough... Maybe you think you're tough enough to step into the Ring of Blood and face the Warmaul champion?$B$B<The pitfighter laughs.>$B$BNot very likely but if you ever wanna test your strength, the Ring of Blood is far to the north against the mountains dividing Nagrand and Zangarmarsh. Gurgthock runs the show at the old Laughing Skull Ruins and he also dispenses the prizes. Speaking of prizes, I hear the prizes this season are incredible!
 WHERE `entry`=9735;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='审问者试图查明这些血精灵正在纳葛兰这里做些什么。从我听到的，他们在追踪来自欧夏刚，西方的钻石山，的水晶粉末残渣。无疑地要用在一些阴险的计划或者混合物里的……$B$B假如你愿意帮助我们并且阻止这些血精灵的话，冲突现在正在哈剌的西北方发生。血精灵们和阿古斯之手的士兵正在战斗！加入他们并且让他们知道我们的厉害！',	-- The interrogator is trying to find out what these blood elves are doing here in Nagrand. From what I hear, they're after crystal powder residue from Oshu'gun, the diamond mountain to the west.$B$BNo doubt to use in some insidious scheme or concoction...$B$BIf you are looking to help our cause and stop these blood elves, the conflict is happening right now to the northwest at Halaa. Blood elves and those Hand of Argus soldiers are battling! Join in and show them what's right!
+	`text0_0_loc4`='审问者试图查明这些血精灵正在纳格兰这里做些什么。从我听到的，他们在追踪来自欧夏刚，西方的钻石山，的水晶粉末残渣。无疑地要用在一些阴险的计划或者混合物里的……$B$B假如你愿意帮助我们并且阻止这些血精灵的话，冲突现在正在哈剌的西北方发生。血精灵们和阿古斯之手的士兵正在战斗！加入他们并且让他们知道我们的厉害！',	-- The interrogator is trying to find out what these blood elves are doing here in Nagrand. From what I hear, they're after crystal powder residue from Oshu'gun, the diamond mountain to the west.$B$BNo doubt to use in some insidious scheme or concoction...$B$BIf you are looking to help our cause and stop these blood elves, the conflict is happening right now to the northwest at Halaa. Blood elves and those Hand of Argus soldiers are battling! Join in and show them what's right!
 	`text0_1_loc4`='The interrogator is trying to find out what these blood elves are doing here in Nagrand. From what I hear, they''re after crystal powder residue from Oshu''gun, the diamond mountain to the west.$B$BNo doubt to use in some insidious scheme or concoction...$B$BIf you are looking to help our cause and stop these blood elves, the conflict is happening right now to the northwest at Halaa. Blood elves and those Hand of Argus soldiers are battling! Join in and show them what''s right!'	-- The interrogator is trying to find out what these blood elves are doing here in Nagrand. From what I hear, they're after crystal powder residue from Oshu'gun, the diamond mountain to the west.$B$BNo doubt to use in some insidious scheme or concoction...$B$BIf you are looking to help our cause and stop these blood elves, the conflict is happening right now to the northwest at Halaa. Blood elves and those Hand of Argus soldiers are battling! Join in and show them what's right!
 WHERE `entry`=9738;
 
@@ -4582,7 +4581,7 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=10354;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='纳葛兰的吉尔索洛堡垒置物箱会有一项大挑战提供给即使是你这样技术卓越的盗贼。',	-- The footlockers of Kil'sorrow Fortress in Nagrand would provide a considerable challenge to even a rogue of your notable skill.
+	`text0_0_loc4`='纳格兰的吉尔索洛堡垒置物箱会有一项大挑战提供给即使是你这样技术卓越的盗贼。',	-- The footlockers of Kil'sorrow Fortress in Nagrand would provide a considerable challenge to even a rogue of your notable skill.
 	`text0_1_loc4`='The footlockers of Kil''sorrow Fortress in Nagrand would provide a considerable challenge to even a rogue of your notable skill.'	-- The footlockers of Kil'sorrow Fortress in Nagrand would provide a considerable challenge to even a rogue of your notable skill.
 WHERE `entry`=10355;
 
@@ -4909,17 +4908,17 @@ UPDATE `locales_npc_text` SET
 WHERE `entry`=10576;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='地精热砂战斗同盟已开始。你可以在加基森里，纳葛兰和剑刃山脉的竞技场外找到贩卖竞技场小队特许状的竞技场编制者。',	-- The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade's Edge Mountains.
+	`text0_0_loc4`='地精热砂战斗同盟已开始。你可以在加基森里，纳格兰和剑刃山脉的竞技场外找到贩卖竞技场小队特许状的竞技场编制者。',	-- The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade's Edge Mountains.
 	`text0_1_loc4`='The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade''s Edge Mountains.'	-- The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade's Edge Mountains.
 WHERE `entry`=10578;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='地精热砂战斗同盟已开始。你可以在加基森里，纳葛兰和剑刃山脉的竞技场外找到贩卖竞技场小队特许状的竞技场编制者。',	-- The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade's Edge Mountains.
+	`text0_0_loc4`='地精热砂战斗同盟已开始。你可以在加基森里，纳格兰和剑刃山脉的竞技场外找到贩卖竞技场小队特许状的竞技场编制者。',	-- The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade's Edge Mountains.
 	`text0_1_loc4`='The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade''s Edge Mountains.'	-- The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade's Edge Mountains.
 WHERE `entry`=10579;
 
 UPDATE `locales_npc_text` SET
-	`text0_0_loc4`='地精热砂战斗同盟已开始。你可以在加基森里，纳葛兰和剑刃山脉的竞技场外找到贩卖竞技场小队特许状的竞技场编制者。',	-- The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade's Edge Mountains.
+	`text0_0_loc4`='地精热砂战斗同盟已开始。你可以在加基森里，纳格兰和剑刃山脉的竞技场外找到贩卖竞技场小队特许状的竞技场编制者。',	-- The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade's Edge Mountains.
 	`text0_1_loc4`='The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade''s Edge Mountains.'	-- The goblin Steamwheedle Fighting Circuit has begun. You can find Arena Organizers selling arena team charters in Gadgetzan and outside the arenas in Nagrand and the Blade's Edge Mountains.
 WHERE `entry`=10595;
 

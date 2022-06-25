@@ -11,7 +11,7 @@ UPDATE `locales_gossip_menu_option` SET
 WHERE `menu_id`=0 AND `id`=1;
 
 UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='我需要一个坐骑。'	-- I need a ride.
+	`option_text_loc4`='我需要骑乘服务。'	-- I need a ride.
 WHERE `menu_id`=0 AND `id`=2;
 
 UPDATE `locales_gossip_menu_option` SET
@@ -59,11 +59,11 @@ WHERE `menu_id`=0 AND `id`=12;
 -- WHERE `menu_id`=0 AND `id`=13;
 
 UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='我想遗忘我的天赋。'	-- I wish to unlearn my talents.
+	`option_text_loc4`='我想要遗忘我的天赋。'	-- I wish to unlearn my talents.
 WHERE `menu_id`=0 AND `id`=14;
 
 UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='我想遗忘宠物的天赋。'	-- I wish to unlearn my pet's skills.
+	`option_text_loc4`='我想要遗忘宠物的天赋。'	-- I wish to unlearn my pet's skills.
 WHERE `menu_id`=0 AND `id`=15;
 
 -- UPDATE `locales_gossip_menu_option` SET
@@ -75,7 +75,7 @@ WHERE `menu_id`=0 AND `id`=15;
 -- WHERE `menu_id`=21 AND `id`=1;
 
 UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='我想得到训练。'	-- I would like to train.
+	`option_text_loc4`='我想要得到训练。'	-- I would like to train.
 WHERE `menu_id`=85 AND `id`=0;
 
 UPDATE `locales_gossip_menu_option` SET
@@ -114,9 +114,9 @@ WHERE `menu_id`=597 AND `id`=1;
 -- 	`option_text_loc4`='GOSSIP_OPTION_QUESTGIVER'	-- GOSSIP_OPTION_QUESTGIVER
 -- WHERE `menu_id`=922 AND `id`=2;
 
-UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='告诉我关于下降的信息。'	-- Tell me about the reduction.
-WHERE `menu_id`=1141 AND `id`=0;
+-- UPDATE `locales_gossip_menu_option` SET
+-- 	`option_text_loc4`='Tell me about the reduction.'	-- Tell me about the reduction.
+-- WHERE `menu_id`=1141 AND `id`=0;
 
 UPDATE `locales_gossip_menu_option` SET
 	`option_text_loc4`='帕瓦尔·雷瑟。'	-- Paval Reethe.
@@ -154,12 +154,12 @@ WHERE `menu_id`=1186 AND `id`=1;
 -- 	`option_text_loc4`='GOSSIP_OPTION_QUESTGIVER'	-- GOSSIP_OPTION_QUESTGIVER
 -- WHERE `menu_id`=2744 AND `id`=1;
 
-UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='我想看看你的货物。'	-- GOSSIP_OPTION_QUESTGIVER
-WHERE `menu_id`=2890 AND `id`=5;
+-- UPDATE `locales_gossip_menu_option` SET
+-- 	`option_text_loc4`='GOSSIP_OPTION_QUESTGIVER'	-- GOSSIP_OPTION_QUESTGIVER
+-- WHERE `menu_id`=2890 AND `id`=5;
 
 UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='我想得到训练。'	-- I would like to train.
+	`option_text_loc4`='我想要得到训练。'	-- I would like to train.
 WHERE `menu_id`=3067 AND `id`=0;
 
 UPDATE `locales_gossip_menu_option` SET
@@ -175,7 +175,7 @@ UPDATE `locales_gossip_menu_option` SET
 WHERE `menu_id`=3643 AND `id`=0;
 
 UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='我想遗忘我的天赋。'	-- I wish to unlearn my talents.
+	`option_text_loc4`='我想要遗忘我的天赋。'	-- I wish to unlearn my talents.
 WHERE `menu_id`=3984 AND `id`=1;
 
 UPDATE `locales_gossip_menu_option` SET
@@ -275,11 +275,11 @@ UPDATE `locales_gossip_menu_option` SET
 WHERE `menu_id`=4542 AND `id`=4;
 
 UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='我想遗忘我的天赋。'	-- I wish to unlearn my talents.
+	`option_text_loc4`='我想要遗忘我的天赋。'	-- I wish to unlearn my talents.
 WHERE `menu_id`=4556 AND `id`=1;
 
 UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='我想遗忘我的天赋。'	-- I wish to unlearn my talents.
+	`option_text_loc4`='我想要遗忘我的天赋。'	-- I wish to unlearn my talents.
 WHERE `menu_id`=4557 AND `id`=1;
 
 UPDATE `locales_gossip_menu_option` SET
@@ -1283,7 +1283,7 @@ WHERE `menu_id`=11778 AND `id`=1;
 -- WHERE `menu_id`=15021 AND `id`=0;
 
 UPDATE `locales_gossip_menu_option` SET
-	`option_text_loc4`='我想遗忘我的天赋。'	-- I wish to unlearn my talents.
+	`option_text_loc4`='我想要遗忘我的天赋。'	-- I wish to unlearn my talents.
 WHERE `menu_id`=50199 AND `id`=1;
 
 UPDATE `locales_gossip_menu_option` SET

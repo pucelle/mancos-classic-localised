@@ -145,7 +145,7 @@ WHERE `Id`=11 AND `Locale`='zhCN';
 -- WHERE `Id`=62 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='亡灵在这里四处横行，暴风城的军队在哪里？'	-- 263, Undead are crawling all over the land.  Where is the Stormwind Army?
+	`Text_lang`='亡灵在这片土地上四处横行，暴风城的军队在哪里？'	-- 263, Undead are crawling all over the land.  Where is the Stormwind Army?
 WHERE `Id`=63 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -3541,7 +3541,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=2591 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='碎手将会带领部落重返昔日的荣耀。'	-- The Shattered Hand will see the Horde to their former glory, unhindered by the timidness of the Warchief.
+	`Text_lang`='碎手氏族将会带领部落重返昔日的荣耀。'	-- The Shattered Hand will see the Horde to their former glory, unhindered by the timidness of the Warchief.
 WHERE `Id`=2602 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -4221,11 +4221,11 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=3131 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='无论萨尔是否存在，破碎之手的秩序都将延续下去。'	-- The Order of the Shattered Hand existed before Thrall and shall exist after Thrall.
+	`Text_lang`='无论萨尔是否存在，碎手氏族的秩序都将延续下去。'	-- The Order of the Shattered Hand existed before Thrall and shall exist after Thrall.
 WHERE `Id`=3142 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='破碎之手的赞杜沙。赞杜沙怎么可以帮你？他不能！也绝对不会！'	-- 3402, Zando'zan of the Shattered Hand. How can Zando'zan help you? He can't! He won't!
+	`Text_lang`='碎手氏族的赞杜沙。赞杜沙怎么可以帮你？他不能！也绝对不会！'	-- 3402, Zando'zan of the Shattered Hand. How can Zando'zan help you? He can't! He won't!
 WHERE `Id`=3144 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -7769,7 +7769,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=5181 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我和碎手都向你致敬，$C。$B$B别这么惊讶，$N。连奥格玛最高的地方也会有阴影──一定有什么东西隐藏在那儿。碎手欣然接受了那项任务。萨尔也承认要确保兽人和巨魔的安全，他是不可缺少的。$B$B但是你到这儿来不是谈论我的事儿吧，你一定另有目的。'	-- I give you warm greetin's, $c, as does the Shattered Hand.$B$BDo not look so surprised, $N. There be shadows even on the highest perches of Orgrimmar--somethin' must hide there. The Shattered Hand take that role willingly. Thrall, even in his good heart, acknowledge that the Hand be necessary to ensure orc and troll safety.$B$BBut you not here to talk 'bout my business, you here for somethin' else.
+	`Text_lang`='我们碎手氏族都向你致敬，$C。$B$B别这么惊讶，$N。连奥格玛最高的地方也会有阴影──一定有什么东西隐藏在那儿。碎手氏族欣然接受了那项任务。萨尔也承认要确保兽人和巨魔的安全，他是不可缺少的。$B$B但是你到这儿来不是谈论我的事儿吧，你一定另有目的。'	-- I give you warm greetin's, $c, as does the Shattered Hand.$B$BDo not look so surprised, $N. There be shadows even on the highest perches of Orgrimmar--somethin' must hide there. The Shattered Hand take that role willingly. Thrall, even in his good heart, acknowledge that the Hand be necessary to ensure orc and troll safety.$B$BBut you not here to talk 'bout my business, you here for somethin' else.
 WHERE `Id`=5182 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -15365,7 +15365,7 @@ WHERE `Id`=8303 AND `Locale`='zhCN';
 -- WHERE `Id`=8308 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='碎手已经在黑石的大本营中安插了数名间谍。尽管资讯收集的过程已经慢了下来，但是我们发现了一些不容忽略的现象。'	-- The Shattered Hand has been able to place spies throughout the upper citadel of Blackrock. Though the information gathering process has been slow, we have made discoveries that cannot be ignored.
+	`Text_lang`='碎手氏族已经在黑石的大本营中安插了数名间谍。尽管资讯收集的过程已经慢了下来，但是我们发现了一些不容忽略的现象。'	-- The Shattered Hand has been able to place spies throughout the upper citadel of Blackrock. Though the information gathering process has been slow, we have made discoveries that cannot be ignored.
 WHERE `Id`=8309 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -20793,7 +20793,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=11061 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='一千年前，流沙之战结束，在安纳克罗斯和鹿盔封住安其拉大门时，我们的三位族人牺牲了自己，将其拉虫人禁锢在这些大墙内。$B$B我们曾立下誓言，一旦甲虫之墙开启，就要找到麦琳瑟拉、亚雷戈斯和凯雷斯塔兹。$B$B而它真的发生了……因此我们来了。'	-- A thousand years ago, when the War of the Shifting Sands ended, three of our kin sacrificed themselves and held the Qiraji inside these halls while Anachronos and Staghelm sealed Ahn'Qiraj shut.$B$BEach of us vowed to look for Merithra, Arygos and Caelestrasz should the Scarab Wall ever fall.$B$BAnd fall it did... and so we came.
+	`Text_lang`='一千年前，流沙之战结束，在阿纳克洛斯和鹿盔封住安其拉大门时，我们的三位族人牺牲了自己，将其拉虫人禁锢在这些大墙内。$B$B我们曾立下誓言，一旦甲虫之墙开启，就要找到麦琳瑟拉、亚雷戈斯和凯雷斯塔兹。$B$B而它真的发生了……因此我们来了。'	-- A thousand years ago, when the War of the Shifting Sands ended, three of our kin sacrificed themselves and held the Qiraji inside these halls while Anachronos and Staghelm sealed Ahn'Qiraj shut.$B$BEach of us vowed to look for Merithra, Arygos and Caelestrasz should the Scarab Wall ever fall.$B$BAnd fall it did... and so we came.
 WHERE `Id`=11062 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET

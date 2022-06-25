@@ -131,7 +131,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=988;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=1103;
 
 UPDATE `locales_trainer_greeting` SET
@@ -175,7 +175,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=1292;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=1300;
 
 UPDATE `locales_trainer_greeting` SET
@@ -183,7 +183,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=1317;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=1346;
 
 UPDATE `locales_trainer_greeting` SET
@@ -267,7 +267,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=1702;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=1703;
 
 UPDATE `locales_trainer_greeting` SET
@@ -347,7 +347,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=2391;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=2399;
 
 UPDATE `locales_trainer_greeting` SET
@@ -363,7 +363,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=2492;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=2627;
 
 UPDATE `locales_trainer_greeting` SET
@@ -387,7 +387,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=2837;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=2855;
 
 UPDATE `locales_trainer_greeting` SET
@@ -403,7 +403,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=3001;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=3004;
 
 UPDATE `locales_trainer_greeting` SET
@@ -679,7 +679,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=3357;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=3363;
 
 UPDATE `locales_trainer_greeting` SET
@@ -723,7 +723,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=3478;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=3484;
 
 UPDATE `locales_trainer_greeting` SET
@@ -731,7 +731,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=3494;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=3523;
 
 UPDATE `locales_trainer_greeting` SET
@@ -815,7 +815,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=3703;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=3704;
 
 UPDATE `locales_trainer_greeting` SET
@@ -875,7 +875,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=4156;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=4159;
 
 UPDATE `locales_trainer_greeting` SET
@@ -891,7 +891,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=4165;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=4193;
 
 UPDATE `locales_trainer_greeting` SET
@@ -979,11 +979,11 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=4573;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=4576;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=4578;
 
 UPDATE `locales_trainer_greeting` SET
@@ -1095,7 +1095,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=5040;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=5041;
 
 UPDATE `locales_trainer_greeting` SET
@@ -1167,7 +1167,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=5150;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=5153;
 
 UPDATE `locales_trainer_greeting` SET
@@ -1603,7 +1603,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=9465;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=9584;
 
 UPDATE `locales_trainer_greeting` SET
@@ -1631,19 +1631,19 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=11037;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=11048;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=11050;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=11051;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=11052;
 
 UPDATE `locales_trainer_greeting` SET
@@ -1691,7 +1691,7 @@ UPDATE `locales_trainer_greeting` SET
 WHERE `Entry`=11406;
 
 UPDATE `locales_trainer_greeting` SET
-	`Text_loc4`='你好呀！我能教给你如何把各种你发现的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
+	`Text_loc4`='你好呀！我能教给你如何把各种你找到的布料做成布甲吗？'	-- Greetings!  Can I teach you how to turn found cloth into cloth armor?
 WHERE `Entry`=11557;
 
 UPDATE `locales_trainer_greeting` SET

@@ -4339,7 +4339,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2437;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='你好，我的$G兄弟:姐妹;。破碎之手氏族向你致意，并希望你在山谷中找到一个合适的接头人。现在是对你进行考验的时候了，所以，别以为没有人监视你。$B$B我的职责是代表破碎之手评估你的技能，然后告诉他们你是否已经准备接受更大的挑战了。$B$B当你准备好了之后，就到大兽穴最深处来找我，我会在那里等你的。$B$B- 鲁瓦格，盗贼训练师'	-- Greetings, $gbrother:sister;. The Shattered Hand sends its regards and hopes you find the Valley a comfortable place to apply your trade. This is a time of testing for you, so do not think you are not being watched constantly.$B$BIt is my duty to appraise the Hand of your skills, and to then inform them when I feel you are ready to move on to greater challenges.$B$BWhen you are ready, come find me deep inside the Den. I'll be waiting for you there.$B$B-Rwag, Rogue Trainer 
+	`text_loc4`='你好，我的$G兄弟:姐妹;。碎手氏族氏族向你致意，并希望你在山谷中找到一个合适的接头人。现在是对你进行考验的时候了，所以，别以为没有人监视你。$B$B我的职责是代表碎手氏族评估你的技能，然后告诉他们你是否已经准备接受更大的挑战了。$B$B当你准备好了之后，就到大兽穴最深处来找我，我会在那里等你的。$B$B- 鲁瓦格，盗贼训练师'	-- Greetings, $gbrother:sister;. The Shattered Hand sends its regards and hopes you find the Valley a comfortable place to apply your trade. This is a time of testing for you, so do not think you are not being watched constantly.$B$BIt is my duty to appraise the Hand of your skills, and to then inform them when I feel you are ready to move on to greater challenges.$B$BWhen you are ready, come find me deep inside the Den. I'll be waiting for you there.$B$B-Rwag, Rogue Trainer 
 WHERE `entry`=2438;
 
 UPDATE `locales_page_text` SET
@@ -4883,15 +4883,15 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2797;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='他的骄傲被完全地粉碎，这是鹿盔第二次在人生中感到彻底的恐惧。于是，在塔纳利斯，鹿盔找到了安纳克罗斯－－诺兹多姆之子，并请求青铜龙军团的协助。'	-- His pride wholly crushed. Staghelm would, for the second time in his existence, feel the flutter in the pit of his stomach that could only be brought on by fear. It was in Tanaris, then, that Staghelm would approach Anachronos, progeny of Nozdormu, and plead for the assistance of the Bronze Flight.
+	`text_loc4`='他的骄傲被完全地粉碎，这是鹿盔第二次在人生中感到彻底的恐惧。于是，在塔纳利斯，鹿盔找到了阿纳克洛斯－－诺兹多姆之子，并请求青铜龙军团的协助。'	-- His pride wholly crushed. Staghelm would, for the second time in his existence, feel the flutter in the pit of his stomach that could only be brought on by fear. It was in Tanaris, then, that Staghelm would approach Anachronos, progeny of Nozdormu, and plead for the assistance of the Bronze Flight.
 WHERE `entry`=2798;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='一开始，安纳克罗斯拒绝让青铜龙军团卷入低等种族的事务之中。直到其拉莽撞地攻击了时光之穴，安纳克罗斯才同意加入暗夜精灵的军队。'	-- Initially, Anachronos refused to involve the Bronze Flight in the affairs of the lesser races. It was not until the Qiraji brashly attacked the Caverns of Time that Anachronos would agree to join forces with the night elves.
+	`text_loc4`='一开始，阿纳克洛斯拒绝让青铜龙军团卷入低等种族的事务之中。直到其拉莽撞地攻击了时光之穴，阿纳克洛斯才同意加入暗夜精灵的军队。'	-- Initially, Anachronos refused to involve the Bronze Flight in the affairs of the lesser races. It was not until the Qiraji brashly attacked the Caverns of Time that Anachronos would agree to join forces with the night elves.
 WHERE `entry`=2799;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='安纳克罗斯很快的了解到即使是强大的青铜龙军团也无法阻挠其拉军队的入侵。每当他一口气杀掉五十只虫兵，就会有一百只等着替补他们的位置。随着暗夜精灵阵线越来越衰弱，这个威胁将会蔓延至更北方的菲拉斯荒野的迹象就越来越清楚的浮现，安纳克罗斯决定是时候该让守护巨龙之子们都意识到这个情况。'	-- Anachronos would soon realize that even the mighty Bronze Flight could not stem the tide of the invading Qiraji forces. For every fifty of the insects that were annihilated by his breath, one hundred would be waiting to take their place. With the night elf lines faltering and the threat of being pushed further north to the wilds of Feralas ever looming, Anachronos decided that the children of the Aspects must be made aware.
+	`text_loc4`='阿纳克洛斯很快的了解到即使是强大的青铜龙军团也无法阻挠其拉军队的入侵。每当他一口气杀掉五十只虫兵，就会有一百只等着替补他们的位置。随着暗夜精灵阵线越来越衰弱，这个威胁将会蔓延至更北方的菲拉斯荒野的迹象就越来越清楚的浮现，阿纳克洛斯决定是时候该让守护巨龙之子们都意识到这个情况。'	-- Anachronos would soon realize that even the mighty Bronze Flight could not stem the tide of the invading Qiraji forces. For every fifty of the insects that were annihilated by his breath, one hundred would be waiting to take their place. With the night elf lines faltering and the threat of being pushed further north to the wilds of Feralas ever looming, Anachronos decided that the children of the Aspects must be made aware.
 WHERE `entry`=2800;
 
 UPDATE `locales_page_text` SET
@@ -4899,7 +4899,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2801;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='龙群在希利苏斯上空的最高处碰头：在安其拉堡垒上空的几千尺之上。$B$B安纳克罗斯是时间之王诺兹多姆之子。翡翠梦境则有麦琳瑟拉，自然之王伊瑟拉的孩子。$B$B凯雷斯塔兹，生命之王阿莱克丝塔萨的孩子，代表红龙军团。$B$B亚雷戈斯是魔法之王玛里苟斯的孩子，代表蓝龙军团。'	-- The dragons would meet in the stratosphere high above Silithus: Thousands of feet above the fortress of Ahn'Qiraj.$B$BThere was Anachronos, child of the Nozdormu, Aspect of Time.$B$BFrom the Emerald Dream would come Merithra, child of Ysera, Aspect of Nature.$B$BCaelestrasz, child of Alexstrasza, Aspect of Life, would represent the Red Dragonflight.$B$BArygos, child of Malygos, Aspect of Magic, would represent the Blue Dragonflight.
+	`text_loc4`='龙群在希利苏斯上空的最高处碰头：在安其拉堡垒上空的几千尺之上。$B$B阿纳克洛斯是时间之王诺兹多姆之子。翡翠梦境则有麦琳瑟拉，自然之王伊瑟拉的孩子。$B$B凯雷斯塔兹，生命之王阿莱克丝塔萨的孩子，代表红龙军团。$B$B亚雷戈斯是魔法之王玛里苟斯的孩子，代表蓝龙军团。'	-- The dragons would meet in the stratosphere high above Silithus: Thousands of feet above the fortress of Ahn'Qiraj.$B$BThere was Anachronos, child of the Nozdormu, Aspect of Time.$B$BFrom the Emerald Dream would come Merithra, child of Ysera, Aspect of Nature.$B$BCaelestrasz, child of Alexstrasza, Aspect of Life, would represent the Red Dragonflight.$B$BArygos, child of Malygos, Aspect of Magic, would represent the Blue Dragonflight.
 WHERE `entry`=2802;
 
 UPDATE `locales_page_text` SET
@@ -5467,7 +5467,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=2982;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='要让饮用者看见彩色幻象的亡灵，就一定要收集到一些特定的材料。$B$B首先，西纳葛兰的山地古罗眼球，靠近燃烧军团被诅咒的炼冶场，战槌山丘南方。$B$B在西纳葛兰也可以找到巨型风翼猫头鹰。只有完美的品种才行！$B$B最后，在纳葛兰西边和西南边有老迈的裂蹄油。$B$B收集这些物品再回来找我！动作快！$B$B-奈崔恩'	-- To grant the imbiber of the tincture vision to see the dead, certain material components must be gathered.First, an eyeball from the mountain gronn of western Nagrand, near the cursed forge camps of the Burning Legion, south of Warmaul Hill.Also found in western Nagrand are the greater windrocs. Only a flawless specimen will do!Lastly, from both western and southwestern Nagrand is the blubber from the aged clefthoof.Gather these items and return them to me! Make haste!-Nitrin
+	`text_loc4`='要让饮用者看见彩色幻象的亡灵，就一定要收集到一些特定的材料。$B$B首先，西纳格兰的山地古罗眼球，靠近燃烧军团被诅咒的炼冶场，战槌山丘南方。$B$B在西纳格兰也可以找到巨型风翼猫头鹰。只有完美的品种才行！$B$B最后，在纳格兰西边和西南边有老迈的裂蹄油。$B$B收集这些物品再回来找我！动作快！$B$B-奈崔恩'	-- To grant the imbiber of the tincture vision to see the dead, certain material components must be gathered.First, an eyeball from the mountain gronn of western Nagrand, near the cursed forge camps of the Burning Legion, south of Warmaul Hill.Also found in western Nagrand are the greater windrocs. Only a flawless specimen will do!Lastly, from both western and southwestern Nagrand is the blubber from the aged clefthoof.Gather these items and return them to me! Make haste!-Nitrin
 WHERE `entry`=2983;
 
 UPDATE `locales_page_text` SET
@@ -5679,7 +5679,7 @@ UPDATE `locales_page_text` SET
 WHERE `entry`=3037;
 
 UPDATE `locales_page_text` SET
-	`text_loc4`='不要在我的坟茔上落泪。$B我不在那里，我也不入土长眠。$B$B我伴着群风飞舞狂啸，$B拂过诺森德的晶白霜雪。$B$B我是和煦的细雨，$B落在西部荒野的金黄麦田上。$B$B我是清晨的静默，$B漾在荆棘谷的丛林与绿蔓间。$B$B我在壮盛喧天的战鼓声中，$B伴着雷鸣般的蹄踏横跨纳葛兰。$B$B我是闪着温暖微光的繁星，$B散落在达纳苏斯的柔软梦境。$B$B我在鸣禽的宛啭之间，$B我在一切的美好之中。$B$B不要在我的坟茔上落泪，$B我不在那里。我也没有死去。'	-- Do not stand at my grave and weep, I am not there, I do not sleep.I am in a thousand winds that blow, across Northrend's bright and shining snow.I am the gentle showers of rain, on Westfall's fields of golden grain.I am in the morning hush, of Stranglethorn's jungle, green and lush.I am in the drums loud and grand, the thunderous hooves across Nagrand.I am the stars warmly gleaming, over Darnassus softly dreaming.I am in the birds that sing, I am in each lovely thing.Do not stand at my grave and cry, I am not there. I do not die.
+	`text_loc4`='不要在我的坟茔上落泪。$B我不在那里，我也不入土长眠。$B$B我伴着群风飞舞狂啸，$B拂过诺森德的晶白霜雪。$B$B我是和煦的细雨，$B落在西部荒野的金黄麦田上。$B$B我是清晨的静默，$B漾在荆棘谷的丛林与绿蔓间。$B$B我在壮盛喧天的战鼓声中，$B伴着雷鸣般的蹄踏横跨纳格兰。$B$B我是闪着温暖微光的繁星，$B散落在达纳苏斯的柔软梦境。$B$B我在鸣禽的宛啭之间，$B我在一切的美好之中。$B$B不要在我的坟茔上落泪，$B我不在那里。我也没有死去。'	-- Do not stand at my grave and weep, I am not there, I do not sleep.I am in a thousand winds that blow, across Northrend's bright and shining snow.I am the gentle showers of rain, on Westfall's fields of golden grain.I am in the morning hush, of Stranglethorn's jungle, green and lush.I am in the drums loud and grand, the thunderous hooves across Nagrand.I am the stars warmly gleaming, over Darnassus softly dreaming.I am in the birds that sing, I am in each lovely thing.Do not stand at my grave and cry, I am not there. I do not die.
 WHERE `entry`=3039;
 
 UPDATE `locales_page_text` SET

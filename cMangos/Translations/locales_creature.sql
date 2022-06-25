@@ -40633,7 +40633,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=15453;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='安纳克罗斯隐形任务触发器'	-- Anachronos Quest Trigger Invisible
+	`name_loc4`='阿纳克洛斯隐形任务触发器'	-- Anachronos Quest Trigger Invisible
 WHERE `entry`=15454;
 
 UPDATE `locales_creature` SET

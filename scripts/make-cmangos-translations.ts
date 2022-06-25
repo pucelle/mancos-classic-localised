@@ -185,90 +185,90 @@ class Maker {
 		
 
 
-		// // NPC 名称.
-		// await this.makeOneTransSQL(
-		// 	'Chinese_Creature.sql',
-		// 	'creature_template',
-		// 	'locales_creature',
-		// 	['entry'],
-		// 	['name', 'subname'],
-		// 	{},
-		// 	null,
-		// 	true
-		// )
+		// NPC 名称.
+		await this.makeOneTransSQL(
+			'Chinese_Creature.sql',
+			'creature_template',
+			'locales_creature',
+			['entry'],
+			['name', 'subname'],
+			{},
+			null,
+			true
+		)
 
-		// // 道具名称.
-		// await this.makeOneTransSQL(
-		// 	'Chinese_Gameobject.sql',
-		// 	'gameobject_template',
-		// 	'locales_gameobject',
-		// 	['entry'],
-		// 	['name'],
-		// 	{},
-		// 	null,
-		// 	true
-		// )
+		// 道具名称.
+		await this.makeOneTransSQL(
+			'Chinese_Gameobject.sql',
+			'gameobject_template',
+			'locales_gameobject',
+			['entry'],
+			['name'],
+			{},
+			null,
+			true
+		)
 		
-		// // 物品名称.
-		// await this.makeOneTransSQL(
-		// 	'Chinese_Items.sql',
-		// 	'item_template',
-		// 	'locales_item',
-		// 	['entry'],
-		// 	['name', 'description'],
-		// 	{},
-		// 	null,
-		// 	true
-		// )
+		// 物品名称.
+		await this.makeOneTransSQL(
+			'Chinese_Items.sql',
+			'item_template',
+			'locales_item',
+			['entry'],
+			['name', 'description'],
+			{},
+			null,
+			true
+		)
 		
-		// // NPC 谈话菜单.
-		// await this.makeOneTransSQL(
-		// 	'Chinese_gossip_menu_option.sql',
-		// 	'gossip_menu_option',
-		// 	'locales_gossip_menu_option',
-		// 	['menu_id', 'id'],
-		// 	['option_text'],
-		// 	{},
-		// 	'where option_broadcast_text=0'
-		// )
+		// NPC 谈话菜单.
+		await this.makeOneTransSQL(
+			'Chinese_gossip_menu_option.sql',
+			'gossip_menu_option',
+			'locales_gossip_menu_option',
+			['menu_id', 'id'],
+			['option_text'],
+			{},
+			'where option_broadcast_text=0'
+		)
 
-		// // 系统名称.
-		// await this.makeOneTransSQL(
-		// 	'Chinese_Mangos_String.sql',
-		// 	'mangos_string',
-		// 	'mangos_string',
-		// 	['entry'],
-		// 	['content_default'],
-		// 	{content_default: 'content'}
-		// )
+		// 系统名称.
+		await this.makeOneTransSQL(
+			'Chinese_Mangos_String.sql',
+			'mangos_string',
+			'mangos_string',
+			['entry'],
+			['content_default'],
+			{content_default: 'content'}
+		)
 
-		// // NPC 文本.
-		// await this.makeOneTransSQL(
-		// 	'Chinese_NpcText.sql',
-		// 	'npc_text',
-		// 	'locales_npc_text',
-		// 	['ID'],
-		// 	['text0_0', 'text0_1'],
-		// 	{ID: 'entry'}
-		// )
+		// NPC 文本.
+		await this.makeOneTransSQL(
+			'Chinese_NpcText.sql',
+			'npc_text',
+			'locales_npc_text',
+			['ID'],
+			['text0_0', 'text0_1'],
+			{ID: 'entry'}
+		)
 
-		// // 书籍文本.
-		// await this.makeOneTransSQL(
-		// 	'Chinese_PageText.sql',
-		// 	'page_text',
-		// 	'locales_page_text',
-		// 	['entry'],
-		// 	['text'],
-		// )
+		// 书籍文本.
+		await this.makeOneTransSQL(
+			'Chinese_PageText.sql',
+			'page_text',
+			'locales_page_text',
+			['entry'],
+			['text'],
+		)
 
-		// // 一些地点
-		// await this.makeOneTransSQL(
-		// 	'Chinese_points_of_interest.sql',
-		// 	'points_of_interest',
-		// 	'locales_points_of_interest',
-		// 	['entry'],
-		// 	['icon_name'],
-		// )
+		// 一些地点
+		await this.makeOneTransSQL(
+			'Chinese_points_of_interest.sql',
+			'points_of_interest',
+			'locales_points_of_interest',
+			['entry'],
+			['icon_name'],
+		)
 
 		// 任务
 		await this.makeOneTransSQL(
@@ -280,49 +280,46 @@ class Maker {
 				'Title', 'Details', 'Objectives', 'OfferRewardText', 'RequestItemsText', 'EndText',
 				'ObjectiveText1', 'ObjectiveText2', 'ObjectiveText3', 'ObjectiveText4',
 			],
-			{},
-			null,
-			false,
-			'Title'
+			{}
 		)
 
-		// // 脚本字符.
-		// await this.makeOneTransSQL(
-		// 	null,
-		// 	'areatrigger_teleport',
-		// 	'locales_areatrigger_teleport',
-		// 	['id'],
-		// 	['name'],
-		// 	{name: 'Text'}
-		// )
+		// 脚本字符.
+		await this.makeOneTransSQL(
+			null,
+			'areatrigger_teleport',
+			'locales_areatrigger_teleport',
+			['id'],
+			['name'],
+			{name: 'Text'}
+		)
 
-		// // 脚本字符.
-		// await this.makeOneTransSQL(
-		// 	null,
-		// 	'areatrigger_teleport',
-		// 	'locales_areatrigger_teleport',
-		// 	['id'],
-		// 	['name'],
-		// 	{id: 'Entry', name: 'Text'}
-		// )
+		// 脚本字符.
+		await this.makeOneTransSQL(
+			null,
+			'areatrigger_teleport',
+			'locales_areatrigger_teleport',
+			['id'],
+			['name'],
+			{id: 'Entry', name: 'Text'}
+		)
 
-		// // 任务给予字符.
-		// await this.makeOneTransSQL(
-		// 	null,
-		// 	'questgiver_greeting',
-		// 	'locales_questgiver_greeting',
-		// 	['Entry'],
-		// 	['Text'],
-		// )
+		// 任务给予字符.
+		await this.makeOneTransSQL(
+			null,
+			'questgiver_greeting',
+			'locales_questgiver_greeting',
+			['Entry'],
+			['Text'],
+		)
 
-		// // 训练师字符.
-		// await this.makeOneTransSQL(
-		// 	null,
-		// 	'trainer_greeting',
-		// 	'locales_trainer_greeting',
-		// 	['Entry'],
-		// 	['Text'],
-		// )
+		// 训练师字符.
+		await this.makeOneTransSQL(
+			null,
+			'trainer_greeting',
+			'locales_trainer_greeting',
+			['Entry'],
+			['Text'],
+		)
 	}
 
 	/** 生成 Broadcast 的翻译. */
