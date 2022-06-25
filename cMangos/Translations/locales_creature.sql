@@ -11876,7 +11876,7 @@ UPDATE `locales_creature` SET
 WHERE `entry`=3229;
 
 UPDATE `locales_creature` SET
-	`name_loc4`='纳兹格雷尔',	-- Nazgrel
+	`name_loc4`='沃金',	-- Nazgrel
 	`subname_loc4`='萨尔的顾问'	-- Advisor to Thrall
 WHERE `entry`=3230;
 
@@ -35346,7 +35346,7 @@ WHERE `entry`=12724;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='耶努萨克雷',	-- Je'neu Sancrea
-	`subname_loc4`='陶土议会'	-- The Earthen Ring
+	`subname_loc4`='大地之环'	-- The Earthen Ring
 WHERE `entry`=12736;
 
 UPDATE `locales_creature` SET
@@ -42888,7 +42888,7 @@ WHERE `entry`=16133;
 
 UPDATE `locales_creature` SET
 	`name_loc4`='雷布拉特·碎地者',	-- Rimblat Earthshatter
-	`subname_loc4`='陶土议会'	-- The Earthen Ring
+	`subname_loc4`='大地之环'	-- The Earthen Ring
 WHERE `entry`=16134;
 
 UPDATE `locales_creature` SET

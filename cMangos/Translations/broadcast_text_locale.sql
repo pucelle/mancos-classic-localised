@@ -23169,7 +23169,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=11948 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='我一直在期……$B$B<林布拉特咳嗽。>$B$B不好意思，老毛病。我是陶土议会的林布拉特。'	-- I've been expec...$B$B<Rimblat coughs.>$B$BExcuse me, old habit. I am Rimblat of the Earthen Ring.
+	`Text_lang`='我一直在期……$B$B<林布拉特咳嗽。>$B$B不好意思，老毛病。我是大地之环的林布拉特。'	-- I've been expec...$B$B<Rimblat coughs.>$B$BExcuse me, old habit. I am Rimblat of the Earthen Ring.
 WHERE `Id`=11949 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET

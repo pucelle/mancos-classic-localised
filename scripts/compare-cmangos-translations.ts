@@ -1,7 +1,7 @@
 import * as mysql from 'mysql2/promise'
 import * as path from 'path'
 import * as fs from 'fs-extra'
-import {getLowerNameSQLTrans, getTableData, makeTableIndex} from './utils'
+import {getSQLTrans, getTableData, makeTableIndex} from './utils'
 import {getEditSimilarity} from './edit-distance'
 
 
@@ -41,7 +41,7 @@ class Comparer {
 		idNames = idNames.map(name => name.toLowerCase())
 		columnNames = columnNames.map(name => name.toLowerCase())
 
-		let sqlTrans = transFileName ? await getLowerNameSQLTrans(this.transDir + '/' + transFileName) : {}
+		let sqlTrans = transFileName ? await getSQLTrans(this.transDir + '/' + transFileName) : {}
 		let dbTrans = makeTableIndex(await getTableData(this.connection, localesTableName, idNames, columnNames), idNames)
 		let totalCount = 0
 		let diffCount = 0
@@ -94,7 +94,7 @@ class Comparer {
 		idNames: string[],
 		columnName: string
 	) {
-		let sqlTrans = transFileName ? await getLowerNameSQLTrans(this.transDir + '/' + transFileName) : {}
+		let sqlTrans = transFileName ? await getSQLTrans(this.transDir + '/' + transFileName) : {}
 		let rawDBTrans = await getTableData(this.connection, localesTableName, idNames, [columnName])
 		let totalCount = 0
 		let diffCount = 0

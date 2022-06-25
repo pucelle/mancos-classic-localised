@@ -28,7 +28,7 @@ export function makeGroup<T extends any, K extends string | number, V>(array: T[
 
 
 /** 获得 sql 中的翻译. */
-export async function getLowerNameSQLTrans(filePath: string) {
+export async function getSQLTrans(filePath: string, nameToLower: boolean = true) {
 	let fromText = (await fs.readFile(filePath)).toString('utf8')
 	let re = /^UPDATE .+? SET([\s\S]+?)WHERE (.+?);/gim
 	let idRE = /`(\w+)`=(-?\d+)/g
@@ -49,6 +49,10 @@ export async function getLowerNameSQLTrans(filePath: string) {
 		while (itemMatch = valueRE.exec(match[1])) {
 			let name = itemMatch[1].replace(/_loc\d$/, '').toLowerCase()
 			let value = itemMatch[2]
+
+			if (nameToLower) {
+				name = name.toLowerCase()
+			}
 
 			value = decodeText(value)
 			values[name] = value
