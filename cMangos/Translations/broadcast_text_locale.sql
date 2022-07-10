@@ -1977,7 +1977,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=1313 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='干得好！我应该可以自己离开这里了。记着到灰谷的梅伊瑟娜岗哨去和净化者德尔格伦谈谈。'	-- Well done! I should be fine on my own from here. Remember to talk to Delgren when you return to Maestra's Post in Ashenvale.
+	`Text_lang`='干得好！我应该可以自己离开这里了。记着到灰谷的迈斯特拉岗哨去和净化者德尔格伦谈谈。'	-- Well done! I should be fine on my own from here. Remember to talk to Delgren when you return to Maestra's Post in Ashenvale.
 WHERE `Id`=1315 AND `Locale`='zhCN';
 
 -- UPDATE `broadcast_text_locale` SET
@@ -10965,7 +10965,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=6539 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='利拉迪斯一直在梅伊瑟娜岗哨等我，我们得快些，$N。'	-- Liladris has been waiting for me at Maestra's Post, so we should make haste, $N.
+	`Text_lang`='利拉迪斯一直在迈斯特拉岗哨等我，我们得快些，$N。'	-- Liladris has been waiting for me at Maestra's Post, so we should make haste, $N.
 WHERE `Id`=6540 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
@@ -14841,7 +14841,7 @@ UPDATE `broadcast_text_locale` SET
 WHERE `Id`=8105 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
-	`Text_lang`='你可以在北部码头搭船前往鲁瑟兰村和达纳苏斯。你可以在南部码头发现穿越无尽之海通往暴风港。西边的码头，直走到底，则航向蓝谜岛，艾克索达的附近。祝你一路平安！'	-- On the northern dock, you can board a ship that will carry you to Rut'theran Village and Darnassus.  From the southern dock, you can find passage across the Great Sea to Menethil Harbor on Khaz Modan.  Safe journeys to you!
+	`Text_lang`='你可以在北部码头搭船前往鲁瑟兰村和达纳苏斯。你可以在南部码头发现穿越无尽之海通往米奈希尔港。祝你一路平安！'	-- On the northern dock, you can board a ship that will carry you to Rut'theran Village and Darnassus.  From the southern dock, you can find passage across the Great Sea to Menethil Harbor on Khaz Modan.  Safe journeys to you!
 WHERE `Id`=8106 AND `Locale`='zhCN';
 
 UPDATE `broadcast_text_locale` SET
